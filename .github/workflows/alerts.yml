@@ -3,7 +3,8 @@
 # - cron 은 UTC 기준. 미국 서머타임(EDT, UTC-4)·표준시(EST, UTC-5) 둘 다 덮도록 넓게 잡고,
 #   첫 단계(gate)에서 뉴욕 현지 시각으로 프리마켓 04:00 ~ 애프터 20:00 (월~금) 인지 확인해 아니면 바로 끝냅니다.
 # - GitHub 의 예약 실행은 몇 분~수십 분 늦거나 가끔 건너뛸 수 있습니다 (무료 러너 공통 한계).
-# - 무료 비공개 저장소 한도(월 2000분)에 맞춘 간격: 정규장 20분, 프리/애프터 60분. 계산은 docs/CLOUD_SETUP.md 참고.
+# - 간격: 정규장 20분, 프리/애프터 60분. 프리마켓~정규장의 빠른 스캔(약 2.5분)은 alerts-loop.yml 이 맡고,
+#   그 작업이 돌고 있으면 이 작업은 건너뜀(백업). 애프터마켓은 이 작업이 계속 담당.
 name: alerts
 
 on:
@@ -24,6 +25,7 @@ on:
 
 permissions:
   contents: write        # alert-data 브랜치에 알림 기록 커밋
+  actions: read          # 장중 반복 작업(alerts-loop)이 돌고 있는지 확인
 
 concurrency:
   group: alerts
@@ -41,16 +43,24 @@ jobs:
     steps:
       - name: gate (뉴욕 현지 시각 확인 · 서머타임 자동)
         id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          r=$(python3 - <<'PY'
           from datetime import datetime
           from zoneinfo import ZoneInfo
           n = datetime.now(ZoneInfo("America/New_York"))
           m = n.hour * 60 + n.minute
           ok = n.weekday() < 5 and 4 * 60 <= m < 20 * 60
-          print("run=" + ("true" if ok else "false"))
+          print("true" if ok else "false")
           PY
+          )
           echo "뉴욕 시각: $(TZ=America/New_York date)"
+          if [ "$r" = "true" ]; then
+            busy=$(gh run list -R "$GITHUB_REPOSITORY" --workflow alerts-loop.yml --status in_progress --limit 5 --json databaseId --jq length 2>/dev/null || echo 0)
+            if [ "${busy:-0}" != "0" ]; then echo "장중 반복 작업이 실행 중 → 백업 스캔 건너뜀"; r=false; fi
+          fi
+          echo "run=$r" >> "$GITHUB_OUTPUT"
 
       - uses: actions/checkout@v4
         if: steps.gate.outputs.run == 'true' || inputs.force || inputs.test

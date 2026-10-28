@@ -18,7 +18,41 @@ def session_now(now=None):
 
 SESSION_KO = {"pre": "프리마켓", "regular": "정규장", "post": "애프터마켓", "closed": "장 마감"}
 
+_MEM = {}   # 일괄 시세(batch_intraday)로 받은 1분봉: {ticker: (받은 시각, DataFrame)}
+
+def _norm(h):
+    h = h.tz_convert(ET) if h.index.tz is not None else h.tz_localize(ET)
+    return pd.DataFrame({"ts": h.index, "open": h["Open"].values, "high": h["High"].values, "low": h["Low"].values,
+                         "close": h["Close"].values, "volume": h["Volume"].values}).dropna(subset=["close"]).reset_index(drop=True)
+
+def batch_intraday(tickers, period="5d", chunk=200):
+    """여러 종목 1분봉(prepost)을 한 번에 받아 메모리 캐시에 넣음 (yfinance 일괄 다운로드, 156종목 약 4초).
+    반환: {ticker: DataFrame} (빈 응답 종목은 빠짐)."""
+    import yfinance as yf
+    out, now = {}, time.time()
+    tk = list(dict.fromkeys(t.upper() for t in tickers if t))
+    for i in range(0, len(tk), chunk):
+        ch = tk[i:i + chunk]
+        try:
+            d = yf.download(ch, period=period, interval="1m", prepost=True, group_by="ticker", threads=True,
+                            progress=False, auto_adjust=False)
+        except Exception:
+            continue
+        if d is None or len(d) == 0: continue
+        for t in ch:
+            try:
+                h = d[t] if isinstance(d.columns, pd.MultiIndex) else d
+                h = h.dropna(subset=["Close"])
+                if len(h): out[t] = _norm(h)
+            except Exception:
+                pass
+    for t, df in out.items(): _MEM[t] = (now, df)
+    db.set_status("yfinance 1분봉(일괄)", bool(out), f"{len(out)}/{len(tk)}종목")
+    return out
+
 def intraday(ticker, ttl=50):
+    m = _MEM.get(ticker)
+    if m is not None and time.time() - m[0] < max(ttl, 150): return m[1]
     k = f"live1m:{ticker}"
     c = db.kv_get(k, ttl)
     if c is not None:
@@ -28,9 +62,7 @@ def intraday(ticker, ttl=50):
     h = src.fetch_intraday(ticker, period="5d", interval="1m")
     if h is None or len(h) == 0:
         db.set_status("yfinance 1분봉", False, f"{ticker} 빈 응답"); return pd.DataFrame()
-    h = h.tz_convert(ET) if h.index.tz is not None else h.tz_localize(ET)
-    df = pd.DataFrame({"ts": h.index, "open": h["Open"].values, "high": h["High"].values, "low": h["Low"].values,
-                       "close": h["Close"].values, "volume": h["Volume"].values}).dropna(subset=["close"])
+    df = _norm(h)
     db.kv_set(k, df.assign(ts=df["ts"].astype(str)).to_dict("records"))
     db.set_status("yfinance 1분봉", True, f"{ticker} {len(df)}봉 (prepost)")
     return df
@@ -64,13 +96,39 @@ def ext_hours(df):
     prev_reg = None
     for d in reversed(days[:-1]):
         x = df[(df.d == d) & (df.s == "regular")]
-        if len(x): prev_reg = float(x.close.iloc[-1]); break
+        if len(x): prev_reg = float(x.close.iloc[-1]); out["prev_date"] = str(d); break
     out["prev_close"] = prev_reg
     out["reg_close"] = float(reg_today.close.iloc[-1]) if len(reg_today) and _sess(df.ts.iloc[-1]) != "regular" else None
     out["last"] = float(df.close.iloc[-1]); out["last_ts"] = df.ts.iloc[-1]
     # 프리마켓 갭 & 거래량
     if "pre" in out and prev_reg: out["pre_gap"] = (out["pre"]["last"] / prev_reg - 1) * 100
     return out
+
+def ref_close(eh, px=None, now=None):
+    """등락률 기준 종가 (전일 정규장 종가). 1분봉만 믿으면 틀릴 수 있어(예: 오늘 봉이 아직 없을 때 '어제 급등'을 오늘 등락으로 계산 → AEYE +40%)
+    일봉 DB 로 교차 확인. 반환: (기준 종가, 기준 날짜 문자열) — 모르면 (None, None).
+    규칙: 오늘(ET) 날짜 직전 거래일의 일봉 종가가 있으면 그것을 우선, 없으면 1분봉의 직전 정규장 종가.
+    1분봉 마지막 날이 오늘이 아니면(오늘 체결 없음) 그날 자신의 정규장 종가 기준 → 시간외 등락만 표시."""
+    eh = eh or {}
+    today = (now or dt.datetime.now(ET)).astimezone(ET).strftime("%Y-%m-%d")
+    day = str(eh.get("day") or "")
+    daily = None
+    try:
+        if px is not None and len(px):
+            d = pd.to_datetime(px["date"]).dt.strftime("%Y-%m-%d")
+            ref_day = day if day and day < today else today
+            m = px[(d < ref_day).values]
+            if day and day < today:      # 오늘 체결이 아직 없음 → 그날 정규장 종가가 기준
+                same = px[(d == day).values]
+                if eh.get("reg_close"): return float(eh["reg_close"]), day
+                if len(same): return float(same["close"].iloc[-1]), day
+            if len(m): daily = (float(m["close"].iloc[-1]), str(pd.Timestamp(m["date"].iloc[-1]).date()))
+    except Exception:
+        daily = None
+    if day and day < today and eh.get("reg_close"): return float(eh["reg_close"]), day
+    mp = (eh.get("prev_close"), eh.get("prev_date"))
+    if daily and (not mp[0] or not mp[1] or daily[1] >= str(mp[1])): return daily
+    return mp if mp[0] else (None, None)
 
 def today_bar(df):
     """최근 거래일 정규장(없으면 프리) 1분봉 → 일봉 합성."""
@@ -162,7 +220,12 @@ def snapshot(ticker, p, refresh_borrow=True):
                                 alert=bool(s.get("flagged")), ivwap=intraday_vwap(df))
     except Exception:
         bp = None
-    return {"ticker": ticker, "summary": summary, "info": info, "b": b, "f": f, "s": s, "prob": prob, "meta": meta, "bands": bands, "eh": eh,
+    try:
+        dd = df[df["ts"].dt.date == df["ts"].dt.date.max()] if len(df) else df
+        v5 = float(dd["volume"].tail(5).sum()) if len(dd) else None
+    except Exception:
+        v5 = None
+    return {"ticker": ticker, "ivwap": intraday_vwap(df), "v5": v5, "summary": summary, "info": info, "b": b, "f": f, "s": s, "prob": prob, "meta": meta, "bands": bands, "eh": eh,
             "triggers": trig, "live_log": live_log, "session": sess, "updated_kst": now_k, "live_used": live_used,
             "last_bar_kst": eh["last_ts"].astimezone(KST).strftime("%m/%d %H:%M") if eh.get("last_ts") is not None else None,
             "dil": dil, "delist": model.delisting(b.px), "liq": model.liquidity(f, info),

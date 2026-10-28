@@ -44,7 +44,16 @@ DEFAULTS = {
     "penalty_mode": "mark",       # mark=⚠ 표시 후 전송, suppress=보내지 않음(기록만)
     "toss_mode": "onelink",
     "max_tickers": 25,
+    "max_movers": 25,             # 넓은 감시에서 움직인 종목 중 전체 계산할 최대 수 (등락률 큰 순)
+    "spike_vwap_max": 10.0,       # 장중 급등: 현재가가 VWAP 보다 이 % 넘게 위면 울리지 않음 (60일 5분봉 백테스트: +10% 초과 시 승률 27% vs 이하 40%)
+    "rvol_chg_min": 5.0,          # 거래량 급증: 전일 대비 이 % 이상 올라 있을 때만 (백테스트: 0~5% 구간은 +10% 도달 2%뿐 = 잡음)
+    "rvol_dv_min": 20000,         # 거래량 급증: 최근 5분 거래대금 $ 이상 (동전주 체결 몇 건 잡음 방지)
+    "post_intraday": False,       # 애프터마켓에 장중형 알림(급등·거래량·재점화) 보내기 (기본: 안 보냄)
+    "ticker_cooldown": True,      # 종류와 상관없이 종목당 cooldown_min 에 1번만
+    "max_per_day": 3,             # 종목당 하루 최대 알림 수 (공시 알림 제외)
+    "insider_min": 100000,        # 내부자 장내 매수 호재 기준 금액 $
 }
+INTRADAY_KINDS = ("spike", "rvol", "reignite")
 
 # ---------------------------------------------------------------- 설정
 def _secret(name):
@@ -240,13 +249,11 @@ def recent_bad_filings(t, days=30):
 def spike(x, c, session):
     """장중 급등 포착: 전일 종가 대비 +spike_chg% 이상 & 시간 보정 거래량 spike_rvol배 이상, 또는 5분 +10% 급등.
     백테스트(일봉 55만건): 이런 날 10일 내 고가 +20% 확률 41% (평소 22%) 이지만 5일 평균 수익 −3.8% → '변동성 급증' 신호, 추격 매수 주의."""
+    from . import live
     eh, b = x.get("eh") or {}, x.get("b")
-    last = eh.get("last"); prev = eh.get("prev_close")
-    try:
-        px = b.px
-        if not prev and len(px) >= 2: prev = float(px["close"].iloc[-2] if str(px["date"].iloc[-1])[:10] == str(eh.get("day")) else px["close"].iloc[-1])
-    except Exception:
-        px = None
+    last = eh.get("last")
+    px = getattr(b, "px", None)
+    prev = live.ref_close(eh, px)[0]
     if not last or not prev: return None
     try:   # 오래된 데이터(어제 급등)로 오늘 울리지 않게: 마지막 체결이 20분 이내여야 함
         lt = pd.Timestamp(eh.get("last_ts"))
@@ -255,6 +262,9 @@ def spike(x, c, session):
     except Exception:
         return None
     chg = (last / prev - 1) * 100
+    vw = x.get("ivwap")
+    if session == "regular" and vw and last > vw * (1 + float(c.get("spike_vwap_max", 10)) / 100):
+        return None      # VWAP 보다 너무 높이 뜬 뒤 = 늦은 추격 (백테스트 승률 27%)
     trig = dict(x.get("triggers") or [])
     mv = trig.get("move", "")
     up5 = mv.startswith("5분 +")
@@ -285,7 +295,7 @@ def evaluate(x, c, session):
     if "spike" in T:      # 급등 포착은 레벨과 무관하게 울림
         m = spike(x, c, session)
         if m: sig.append(("spike", m))
-    if lvl < int(c["min_level"]): return sig, lvl
+    if lvl < int(c["min_level"]): return _post_filter(sig, c, session), lvl
     if "prob" in T:
         hit = (pr is not None and pr >= float(c["prob_min"])) if float(c["prob_min"]) > 0 else bool(s.get("flagged"))
         if hit: sig.append(("prob", f"검증 모델 상위 신호 (보정확률 {pr:.0f}%)" if pr is not None else "검증 모델 상위 신호"))
@@ -293,21 +303,40 @@ def evaluate(x, c, session):
         sig.append(("cover", f"커버 압력 {f['cover_pressure']:.0f}/100"))
     trig = dict(x.get("triggers") or [])
     if "reignite" in T and "reignite" in trig: sig.append(("reignite", trig["reignite"]))
-    if "rvol" in T and c.get("rvol_on", True) and "volume" in trig: sig.append(("rvol", trig["volume"]))
-    if "pregap" in T and session == "pre" and (eh.get("pre_gap") or 0) >= float(c["gap_min"]):
-        sig.append(("pregap", f"프리마켓 갭 {eh['pre_gap']:+.1f}%"))
-    return sig, lvl
+    if "rvol" in T and c.get("rvol_on", True) and "volume" in trig:
+        ch = chg_now(x)
+        dv5 = float(x.get("v5") or 0) * float(eh.get("last") or f.get("price") or 0)
+        if ch is not None and ch >= float(c.get("rvol_chg_min", 5)) and (x.get("v5") is None or dv5 >= float(c.get("rvol_dv_min", 20000))):
+            sig.append(("rvol", trig["volume"]))
+    if "pregap" in T and session == "pre":
+        g = chg_now(x)
+        if g is not None and g >= float(c["gap_min"]): sig.append(("pregap", f"프리마켓 갭 {g:+.1f}%"))
+    return _post_filter(sig, c, session), lvl
+
+def _post_filter(sig, c, session):
+    if session == "post" and not c.get("post_intraday"):
+        return [(k, m) for k, m in sig if k not in INTRADAY_KINDS]   # 애프터: 장중형 신호는 거래가 얇아 잡음 (10/28 TRUG·CDT)
+    return sig
+
+def chg_now(x):
+    """현재가의 전일 종가 대비 % (일봉 DB 교차 확인 기준)."""
+    from . import live
+    eh, f = x.get("eh") or {}, x.get("f") or {}
+    price = eh.get("last") or f.get("live_price") or f.get("price")
+    ref = live.ref_close(eh, getattr(x.get("b"), "px", None))[0]
+    return (price / ref - 1) * 100 if price and ref else None
 
 def grade_levels(price, rl, stop, ph):
     """사후 채점 기준: 목표 = 재점화 레벨(이미 넘었으면 다음 저항 ph), 손절 = 매수구간 손절."""
-    if not price or not stop or stop >= price * 0.995: return None, None
-    tgt = rl if rl and rl > price * 1.005 else (ph if ph and ph > price * 1.005 else None)
-    return tgt, stop
+    if not price or not stop or stop >= price * 0.995 or stop < price * 0.5: return None, None   # 음수·0·−50% 넘는 손절은 채점 불가
+    ok = lambda v: v and price * 1.005 < v <= price * 2.0       # +100% 넘는 목표 = 분할 전 가격 등 비정상 → 버림
+    tgt = rl if ok(rl) else (ph if ok(ph) else None)
+    return (tgt, stop) if tgt else (None, None)
 
 def compose(t, x, sig, pens, c, session):
     f, s, eh, bz, meta = x["f"], x["s"], x.get("eh") or {}, x.get("bz") or {}, x.get("meta") or {}
     price = eh.get("last") or f.get("live_price") or f["price"]
-    chg = (price / eh["prev_close"] - 1) * 100 if eh.get("prev_close") else None
+    chg = chg_now(x)
     from . import live
     title = f"{'⚡' if all(k == 'spike' for k, _ in sig) else '🚀'} {t} {' · '.join(TYPE_KO[k] for k, _ in sig)}"
     lines = [f"${price:.3f}" + (f" ({chg:+.1f}%)" if chg is not None else "") + f" · {live.SESSION_KO.get(session, session)} · 레벨 {s['level']} · 점수 {s['score']:.0f}"]
@@ -323,10 +352,25 @@ def compose(t, x, sig, pens, c, session):
     elif bp.get("reason") == "stop":
         lines.append("추천 매수가 없음: −5% 가격이 손절선과 너무 가까움")
     if bz:
-        lines.append(f"숏 지지구간 ${bz['zone'][0]:.3f}–${bz['zone'][1]:.3f} · 손절 ${bz['stop']:.3f} · 1차목표 ${bz['tp1']:.3f}")
+        z = f"숏 지지구간 ${bz['zone'][0]:.3f}–${bz['zone'][1]:.3f}" if 0 < bz["zone"][0] <= bz["zone"][1] else ""
+        if bz.get("stop") and price * 0.5 <= bz["stop"] < price: z += f" · 손절 ${bz['stop']:.3f}"
+        if bz.get("tp1") and price < bz["tp1"] <= price * 3: z += f" · 1차목표 ${bz['tp1']:.3f}"
+        if z: lines.append(z.strip(" ·"))
     for p_ in pens: lines.append(f"⚠ {p_}")
     lines.append("추정치·투자권유 아님 · 누르면 토스증권")
     return title, "\n".join(lines), price
+
+def _prune(state, now):
+    """7일 지난 항목 정리. '종목:n:날짜' 는 하루 알림 수(시각이 아님) → 날짜로 판단."""
+    out, cut = {}, dt.datetime.fromtimestamp(now - 7 * 86400, ET).strftime("%Y%m%d")
+    for k, v in state.items():
+        try:
+            if ":n:" in k:
+                if k.rsplit(":", 1)[1] >= cut: out[k] = v
+            elif now - float(v) < 7 * 86400: out[k] = v
+        except Exception:
+            pass
+    return out
 
 def run(snapshots, session, now=None, dry=False, c=None):
     """snapshots: [(ticker, snapshot dict)] → 알림 판정·전송·기록. 반환: 이번에 만든 기록 목록."""
@@ -339,7 +383,12 @@ def run(snapshots, session, now=None, dry=False, c=None):
         if not x: continue
         x.setdefault("ticker", t)
         sig, lvl = evaluate(x, c, session)
-        fresh = [(k, m) for k, m in sig if now - float(state.get(f"{t}:{k}", 0)) >= float(c["cooldown_min"]) * 60]
+        cd = float(c["cooldown_min"]) * 60
+        fresh = [(k, m) for k, m in sig if now - float(state.get(f"{t}:{k}", 0)) >= cd]
+        if fresh and c.get("ticker_cooldown", True):
+            dkey = f"{t}:n:{dt.datetime.fromtimestamp(now, ET):%Y%m%d}"
+            if now - float(state.get(f"{t}:any", 0)) < cd or int(state.get(dkey, 0) or 0) >= int(c.get("max_per_day", 3)):
+                fresh = []      # 종목당 1번 (10/28 POM 3번·NUWE 여러 번 같은 종목 반복 방지)
         if not fresh: continue
         pens = penalties(x)
         title, body, price = compose(t, x, fresh, pens, c, session)
@@ -361,6 +410,10 @@ def run(snapshots, session, now=None, dry=False, c=None):
         sent = ok(res)
         for k, _ in fresh:
             if sent or why_not or dry: state[f"{t}:{k}"] = now      # 억제된 것도 쿨다운 적용 (도배 방지)
+        if sent or why_not or dry:
+            state[f"{t}:any"] = now
+            dkey = f"{t}:n:{dt.datetime.fromtimestamp(now, ET):%Y%m%d}"
+            state[dkey] = int(state.get(dkey, 0) or 0) + 1
         nk = dt.datetime.fromtimestamp(now, KST)
         rec = {"id": f"{t}-{int(now)}", "ts_kst": nk.strftime("%Y-%m-%d %H:%M"), "ts_utc": dt.datetime.fromtimestamp(now, dt.timezone.utc).isoformat(timespec="seconds"),
                "date_et": dt.datetime.fromtimestamp(now, ET).strftime("%Y-%m-%d"), "session": session,
@@ -370,7 +423,7 @@ def run(snapshots, session, now=None, dry=False, c=None):
                "tgt": tgt, "stp": stp, "penalties": pens, "sent": sent, "result": res, "suppressed": why_not, "dry": dry,
                "toss_url": url, "grade": "open" if tgt else "n/a"}
         log.append(rec); new.append(rec); _db_put(rec)
-    _save(STATE_PATH, {k: v for k, v in state.items() if now - float(v) < 7 * 86400})
+    _save(STATE_PATH, _prune(state, now))
     save_log(log)
     return new
 
@@ -390,7 +443,7 @@ def run_filings(tickers, dry=False, c=None, now=None, hours=24, db_fil=None):
     for f in sorted(res, key=lambda z: z["accepted"]):
         key = f"fil:{f['acc']}"
         if key in state: continue
-        try: j = F.judge(f)
+        try: j = F.judge(f, insider_min=float(c.get("insider_min", 100000)))
         except Exception as e: j = dict(f, polarity="neutral", label=f"판정 실패 {type(e).__name__}", cats=[], negs=[], strength=0, headline="")
         st["new"] += 1
         j["accepted_kst"] = F.kst_str(j["accepted"]); j["url"] = F.sec_url(j); j["seen_kst"] = dt.datetime.fromtimestamp(now, KST).strftime("%Y-%m-%d %H:%M")
@@ -429,7 +482,7 @@ def run_filings(tickers, dry=False, c=None, now=None, hours=24, db_fil=None):
                "filing": {k: j.get(k) for k in ("form", "acc", "items", "label", "cats", "strength", "headline", "url", "accepted_kst", "polarity")}}
         log.append(rec); new.append(rec); _db_put(rec)
     state["fil_seeded"] = now
-    _save(STATE_PATH, {k: v for k, v in state.items() if now - float(v) < 7 * 86400})
+    _save(STATE_PATH, _prune(state, now))
     _save(FIL_PATH, flog[-500:]); global _FLOG; _FLOG = flog[-500:]
     save_log(log)
     st["secs"] = round(time.time() - t0, 1)

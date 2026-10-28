@@ -135,16 +135,19 @@ def form4_buy(cik, acc, primary):
         return 0.0, ""
 
 # ---------------------------------------------------------------- 판정
-def judge(f):
-    """f: dict(ticker, cik, form, acc, items, primary, accepted) → 판정 dict 추가."""
+def judge(f, insider_min=100000):
+    """f: dict(ticker, cik, form, acc, items, primary, accepted) → 판정 dict 추가.
+    insider_min: 내부자 장내 매수 호재 기준 $ (예전 1만 달러 → 10/28 OWLS $2.2만 매수 알림 후 하락. 기본 10만 달러)."""
     form, items = f["form"], [i for i in (f.get("items") or "").split(",") if i]
     out = dict(f, polarity="neutral", label="", cats=[], negs=[], strength=0, headline="")
     if NEG_FORMS.match(form):
         out.update(polarity="neg", label="증자 서류(" + form + ")", negs=["증자 서류"]); return out
     if form == "4":
         amt, who = form4_buy(f["cik"], f["acc"], f["primary"])
-        if amt >= 10000:
+        if amt >= insider_min:
             out.update(polarity="pos", label=f"내부자 장내 매수 ${amt:,.0f}", cats=["내부자 장내 매수"], strength=4, headline=who)
+        elif amt > 0:
+            out.update(label=f"소액 내부자 매수 ${amt:,.0f} (기준 ${insider_min:,.0f} 미만)", headline=who)
         return out
     if form not in ("8-K", "6-K", "8-K/A"):
         return out
@@ -197,6 +200,37 @@ def recent(tickers, hours=24, workers=4):
             for x in lst:
                 (errs if isinstance(x, tuple) else res).append(x)
     return res, errs
+
+FEED = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type={form}&company=&dateb=&owner=include&start={start}&count=100&output=atom"
+_FEED_RE = re.compile(r"<title>([^<]*?) - [^<]*?\((\d{10})\) \((Filer|Issuer|Subject|Reporting|Filed by)\)</title>.*?<updated>([^<]+)</updated>", re.S)
+
+def feed_tickers(universe, forms=(("8-K", 1), ("6-K", 1), ("4", 2), ("SC TO-T", 1)), hours=3):
+    """EDGAR 최신 공시 피드(전 종목, 요청 5회)에서 universe 종목 중 최근 hours 시간 안 공시가 있는 종목만 골라냄.
+    → 이 종목들만 submissions JSON 을 보면 되므로, 수백 종목을 감시해도 SEC 요청은 피드 5회 + 해당 종목 수.
+    반환: (종목 집합, 오류 목록)."""
+    cm = src.cik_map(); inv = {}
+    for t in universe:
+        c = cm.get(str(t).upper())
+        if c: inv.setdefault(int(c), []).append(str(t).upper())
+    cut = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=hours)
+    hit, errs = set(), []
+    for form, pages in forms:
+        for pg in range(pages):
+            try:
+                r = sec_get(FEED.format(form=form.replace(" ", "+"), start=pg * 100))
+                if r.status_code != 200: errs.append((form, r.status_code)); break
+                txt = r.text
+            except Exception as e:
+                errs.append((form, type(e).__name__)); break
+            old = False
+            for _f, cik, _role, upd in _FEED_RE.findall(txt):
+                try:
+                    if dt.datetime.fromisoformat(upd) < cut: old = True; continue
+                except Exception:
+                    pass
+                for t in inv.get(int(cik), []): hit.add(t)
+            if old: break
+    return hit, errs
 
 def kst_str(iso):
     try: return dt.datetime.fromisoformat(iso).astimezone(KST).strftime("%m/%d %H:%M")

@@ -868,17 +868,29 @@ def buy_zone(f, meta, p):
     zone_lo = cur["lo"]; zone_hi = min(price, cur["lo"] + max(w, (min(cur["hi"], price) - cur["lo"]) * 0.35))
     gap_below = any(abs(g[1] - cur["lo"]) < w * 1.01 for g in meta["gaps"])
     stop = zone_lo - w * (0.5 if gap_below else 1.0)
+    capped = []
+    # 비정상 값 방지 (10/28 TRUG 손절 −$0.30, CDT 손절 −$25·목표 $25 @ $0.08): 매물대 폭이 주가보다 크거나 분할 전 가격이 섞인 경우
+    if zone_lo <= 0 or zone_lo < price * 0.55:
+        zone_lo = max(zone_lo, price * 0.7); zone_hi = max(min(zone_hi, price), zone_lo); capped.append("zone")
+    if stop <= 0 or stop < price * 0.5:
+        stop = max(stop, price * 0.5, 1e-4); capped.append("stop")
+    if stop >= zone_lo: stop = zone_lo * 0.95
     entry = (zone_lo + zone_hi) / 2
     cost = (p["fee_rate"] + p["slippage"]) / 100
     be = entry * (1 + cost) / (1 - cost)
     above = sorted([t["hi"] for t in meta["tranches"] if t["hi"] > price])
     tp1 = meta["reignite"] if meta["reignite"] > price else (above[0] if above else meta["hi21"])
     tp2 = next((x for x in above if x > tp1 * 1.001), max(meta["hi21"], tp1 * 1.15))
+    if tp1 > price * 3:      # +200% 넘는 목표 = 분할 전 가격 등 → 3배 이내 다음 레벨(없으면 21일 고가, 그것도 크면 +50%)
+        ok_lv = [x for x in above if price < x <= price * 3] + ([meta["hi21"]] if price < meta["hi21"] <= price * 3 else [])
+        tp1 = min(ok_lv) if ok_lv else price * 1.5; capped.append("tp1")
+    if tp2 > price * 3 or tp2 <= tp1:
+        tp2 = max(tp1 * 1.15, min(tp2, price * 3)); capped.append("tp2")
     net_tp1 = tp1 * (1 - cost); net_stop = stop * (1 - cost)
     risk = be - net_stop; reward = net_tp1 - be
     rr = reward / risk if risk > 0 else None
     return {"zone": (zone_lo, zone_hi), "entry": entry, "break_even": be, "stop": stop, "tp1": tp1, "tp2": tp2,
-            "rr": rr, "rr_ok": bool(rr and rr >= 2), "gap_below": gap_below, "tranche": cur.get("name")}
+            "rr": rr, "rr_ok": bool(rr and rr >= 2), "gap_below": gap_below, "tranche": cur.get("name"), "capped": capped}
 
 def position_size(account, risk_pct, entry, stop):
     if not entry or not stop or entry <= stop: return None
