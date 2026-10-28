@@ -9,13 +9,24 @@ st.set_page_config(page_title="숏 레이더", page_icon="📉", layout="centere
 st.markdown(ui.CSS, unsafe_allow_html=True)
 
 def _gate():
-    """선택: st.secrets 에 APP_PASSWORD 가 있으면 비밀번호를 맞혀야 볼 수 있음 (클라우드 공개 주소 보호)."""
+    """선택: st.secrets 에 APP_PASSWORD 가 있으면 비밀번호를 맞혀야 볼 수 있음 (클라우드 공개 주소 보호).
+    한 번 맞히면 이 폰/브라우저에 1년짜리 쿠키(비밀번호 자체가 아닌 해시)를 남겨 다음부터는 묻지 않음."""
+    import hmac, hashlib
     pw = AL._secret("APP_PASSWORD")
-    if not pw or st.session_state.get("auth_ok"): return
+    if not pw: return
+    tok = hmac.new(str(pw).encode(), b"shortradar-remember-v1", hashlib.sha256).hexdigest()
+    try: ck = st.context.cookies.get("sr_auth") or ""
+    except Exception: ck = ""
+    has_ck = bool(ck) and hmac.compare_digest(ck, tok)
+    if has_ck or st.session_state.get("auth_ok"):
+        st.session_state["auth_ok"] = True
+        if not has_ck:   # 비밀번호를 맞힌 뒤 첫 화면에서 쿠키 저장 (다음부터 안 물어봄)
+            import streamlit.components.v1 as components
+            components.html(f"""<script>try{{window.parent.document.cookie="sr_auth={tok}; max-age=31536000; path=/; secure; samesite=lax";}}catch(e){{}}</script>""", height=0)
+        return
     st.markdown("### 🔒 숏 레이더")
     v = st.text_input("비밀번호", type="password")
     if v:
-        import hmac
         if hmac.compare_digest(v.encode(), str(pw).encode()):
             st.session_state["auth_ok"] = True; st.rerun()
         st.error("비밀번호가 틀렸습니다.")
