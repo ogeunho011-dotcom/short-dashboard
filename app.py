@@ -518,6 +518,10 @@ def extras(x):
         for r in fil.itertuples():
             rows.append(f"• {r.filed:%Y-%m-%d} {r.form} {('item ' + r.items) if r.items else ''}")
         st.markdown("\n".join(rows))
+        fj = [f for f in reversed(_flog()) if f.get("ticker") == t][:6]
+        if fj:
+            md('<div class="card"><h3>📢 최근 공시 판정 (자동)</h3>' + "".join(filing_row(f, False) for f in fj)
+               + '<div class="tiny">8-K 항목 번호 + 보도자료 키워드 판정 · 틀릴 수 있음 · 원문 확인</div></div>')
         st.caption("FDA 일정: 무료 공개 API가 없어 미구현. 러셀 재편: 매년 6월 정기 재편(2026년부터 반기 재편 도입 발표) — 정확한 날짜는 FTSE Russell 공지 확인.")
         pr = earnings_runup(t)
         if pr is not None and len(pr):
@@ -1034,6 +1038,11 @@ def alert_log_card(limit=20):
         g, gc = GRADE_KO.get(r.get("grade"), (r.get("grade"), ""))
         st_ = "📲 전송" if r.get("sent") else ("🔕 " + r["suppressed"] if r.get("suppressed") else "⚠ 전송 실패")
         pen = f' <span class="badge red">⚠ {esc(r["penalties"][0])}</span>' if r.get("penalties") else ""
+        if r.get("filing"):
+            fl = r["filing"]
+            return (f'<div class="ev"><div class="d">{esc(r["ts_kst"][5:])}</div><div>{tlink(r["ticker"], "<b>" + esc(r["ticker"]) + "</b>")} '
+                    f'📢 호재 공시 · <a href="{esc(fl.get("url") or "")}" target="_blank">{esc(fl.get("form"))}</a> {esc(fl.get("label"))} <span class="tiny">{st_}</span>{pen}'
+                    f'<div class="tiny">{esc((fl.get("headline") or "")[:120])}</div></div></div>')
         return (f'<div class="ev"><div class="d">{esc(r["ts_kst"][5:])}</div><div>{tlink(r["ticker"], "<b>" + esc(r["ticker"]) + "</b>")} '
                 f'{esc(" · ".join(AL.TYPE_KO.get(k, k) for k in r["types"]))} · {px(r.get("price"))} <span class="tiny">{st_}</span> <span class="badge {gc}">{esc(g)}</span>{pen}</div></div>')
     md(f'<div class="card"><h3>📲 보낸 알림 기록</h3>' + ("".join(one(r) for r in rows) or '<div class="muted">아직 보낸 알림이 없습니다.</div>')
@@ -1049,6 +1058,25 @@ def forward_box():
         body = "아직 채점이 끝난 알림이 없습니다 (알림 후 최대 10거래일 필요)."
     md(f'<div class="card"><h3>🧾 실전 알림 사후 적중률 (전진 검증)</h3><div style="font-size:13px">{body}</div>'
        f'<div class="tiny">전체 알림 {fs["total"]}건 · 채점 중 {fs["open"]}건 · 과거 백테스트(표본외) 상위 5% 셋업 적중 55.6%와 비교하세요. 표본이 30건 미만이면 우연 변동이 큽니다. 기록: {esc(where)}</div></div>')
+    good_filings_card()
+
+def _flog():
+    try: return AL.dashboard_filings() or []
+    except Exception: return []
+
+POL_KO = {"pos": ("호재", "green"), "neg": ("악재", "red"), "neutral": ("중립", "")}
+def filing_row(f, with_ticker=True):
+    lab, cl = POL_KO.get(f.get("polarity"), ("중립", ""))
+    tk = (tlink(f["ticker"], "<b>" + esc(f["ticker"]) + "</b>") + " ") if with_ticker else ""
+    return (f'<div class="ev"><div class="d">{esc(f.get("accepted_kst") or "")}</div><div>{tk}<span class="badge {cl}">{lab}</span> '
+            f'<a href="{esc(f.get("url") or "")}" target="_blank">{esc(f.get("form"))}</a> {esc(f.get("label") or "")}'
+            f'<div class="tiny">{esc((f.get("headline") or "")[:130])}</div></div></div>')
+
+def good_filings_card(limit=8):
+    rows = [f for f in reversed(_flog()) if f.get("polarity") == "pos"][:limit]
+    md('<div class="card"><h3>📢 호재 공시 알림 (최근)</h3>' + ("".join(filing_row(f) for f in rows) or '<div class="muted">아직 잡힌 호재 공시가 없습니다.</div>')
+       + '<div class="tiny">감시 종목(관심종목·최근 스캔 상위·최근 알림 종목)의 SEC 새 공시를 8-K 항목 번호와 보도자료 키워드로 자동 판정합니다. '
+         '증자·역분할·상폐 경고 같은 악재가 함께 있으면 호재로 보지 않습니다. 키워드 판정이라 틀릴 수 있으니 원문을 꼭 확인하세요.</div></div>')
 
 def alert_settings():
     c = AL.cfg()
@@ -1065,6 +1093,11 @@ def alert_settings():
         pm = a.number_input("확률 기준 % (0=모델 상위5%)", 0.0, 100.0, float(c["prob_min"]), 5.0)
         cp = b.number_input("커버 압력 기준 (0~100)", 0.0, 100.0, float(c["cp_min"]), 5.0)
         gp = d.number_input("프리마켓 갭 기준 %", 0.0, 500.0, float(c["gap_min"]), 5.0)
+        a, b = st.columns(2)
+        sc = a.number_input("장중 급등: 전일 대비 % 이상", 5.0, 300.0, float(c.get("spike_chg", 15)), 5.0)
+        sr = b.number_input("장중 급등: 거래량 배수 이상 (시간 보정)", 1.0, 50.0, float(c.get("spike_rvol", 3)), 0.5)
+        st.caption("‘장중 급등 포착’은 레벨과 상관없이 울립니다. 백테스트상 급등 당일 이후 평균 수익은 마이너스(되돌림)라 추격 매수 경고를 붙입니다. "
+                   "‘호재 공시’는 새 공시마다 한 번씩 울립니다(재알림 간격 미적용).")
         a, b, d = st.columns(3)
         ml = a.slider("최소 레벨", 1, 5, int(c["min_level"]))
         cd = b.number_input("재알림 간격(분)", 15, 1440, int(c["cooldown_min"]), 15)
@@ -1078,7 +1111,7 @@ def alert_settings():
         du = st.text_input("대시보드 주소 (알림에 ‘대시보드’ 버튼, 선택)", c.get("dash_url") or "", placeholder="https://내앱.streamlit.app")
         b1, b2, b3 = st.columns(3)
         if b1.button("알림 설정 저장", type="primary", width="stretch"):
-            rr = AL.save_cfg(dict(c, channel=ch, enabled=en, types=types, prob_min=pm, cp_min=cp, gap_min=gp, min_level=ml, cooldown_min=cd, max_tickers=mx,
+            rr = AL.save_cfg(dict(c, channel=ch, enabled=en, types=types, prob_min=pm, cp_min=cp, gap_min=gp, spike_chg=sc, spike_rvol=sr, min_level=ml, cooldown_min=cd, max_tickers=mx,
                              quiet_on=qo, quiet_start=qs[:5], quiet_end=qe[:5], quiet_mode=qm, penalty_mode=pmode, toss_mode=tm))
             db.set_setting("toss_mode", tm); db.set_setting("dash_url", du.strip()); _turl.clear()
             st.success("저장됨" + {None: "", True: " · GitHub(클라우드 알림 스캐너)에도 반영됨", False: " · ⚠ GitHub 반영 실패 (GH_TOKEN 권한: Contents 읽기/쓰기 확인)"}[rr])

@@ -20,14 +20,20 @@ CFG_PATH = os.path.join(ALERT_DIR, "alert_cfg.json")   # 주제 이름(비밀)�
 COST = 0.006          # 왕복 비용 (검증과 동일)
 H = 10                # 채점 기간 (거래일)
 
-TYPE_KO = {"prob": "상위 확률 신호", "cover": "커버 압력", "reignite": "재점화 돌파", "rvol": "거래량 급증", "pregap": "프리마켓 갭", "test": "테스트"}
+TYPE_KO = {"prob": "상위 확률 신호", "cover": "커버 압력", "reignite": "재점화 돌파", "rvol": "거래량 급증", "pregap": "프리마켓 갭",
+           "spike": "장중 급등 포착", "filing": "호재 공시", "test": "테스트"}   # "test" 는 항상 마지막 (설정 화면이 [:-1] 사용)
+FIL_PATH = os.path.join(ALERT_DIR, "filings_log.json")   # 판정한 공시 전체 (호재·악재·중립, 최근 500건)
+KINDS_V = 2   # 알림 종류 버전: 저장된 설정이 이보다 낮으면 새 종류(spike·filing)를 켜 줌
 
 DEFAULTS = {
     "enabled": True,
     "channel": "ntfy",            # ntfy | telegram | both
     "ntfy_server": "https://ntfy.sh",
     "ntfy_topic": "",             # 비어 있으면 처음 불러올 때 무작위 생성
-    "types": ["prob", "cover", "reignite", "rvol", "pregap"],
+    "types": ["prob", "cover", "reignite", "rvol", "pregap", "spike", "filing"],
+    "kinds_v": KINDS_V,
+    "spike_chg": 15.0,            # 장중 급등: 전일 종가 대비 % 이상
+    "spike_rvol": 3.0,            # 장중 급등: 시간 보정 거래량 배수 이상
     "prob_min": 0.0,              # 0 = 검증 모델의 상위 5% 기준(flag) 사용, >0 이면 보정확률 % 기준
     "cp_min": 70.0,               # 커버 압력 지수 기준 (0~100)
     "rvol_on": True,              # 라이브 5분 거래량 급증 트리거 사용
@@ -54,14 +60,18 @@ def new_topic():
     return "shortradar-" + secrets.token_hex(8)
 
 def cfg():
-    c = dict(DEFAULTS); c.update(db.get_setting("alert_cfg", {}) or {})
+    c = dict(DEFAULTS); st0 = db.get_setting("alert_cfg", {}) or {}; c.update(st0)
+    kv = int(st0.get("kinds_v", 1) or 1)
     # 클라우드: 대시보드에서 저장한 설정 파일(alert-data 브랜치의 data/alerts/alert_cfg.json)이 우선
     fc = None
     try: fc = json.load(open(CFG_PATH, encoding="utf-8")) if os.path.exists(CFG_PATH) else None
     except Exception: fc = None
     if fc is None and _secret("GH_REPO") and _secret("GH_TOKEN") and not os.environ.get("GITHUB_ACTIONS"):
         fc = remote_get("data/alerts/alert_cfg.json")
-    if isinstance(fc, dict): c.update({k: v for k, v in fc.items() if k in DEFAULTS and k != "ntfy_topic"})
+    if isinstance(fc, dict):
+        c.update({k: v for k, v in fc.items() if k in DEFAULTS and k != "ntfy_topic"}); kv = int(fc.get("kinds_v", 1) or 1)
+    if kv < KINDS_V:   # 예전 설정: 새로 생긴 알림 종류를 기본으로 켬
+        c["types"] = list(dict.fromkeys(list(c.get("types") or []) + ["spike", "filing"])); c["kinds_v"] = KINDS_V
     if not c.get("ntfy_topic"):
         c["ntfy_topic"] = new_topic(); save_cfg(c)
     for k, env in (("ntfy_topic", "NTFY_TOPIC"), ("ntfy_server", "NTFY_SERVER")):
@@ -212,7 +222,58 @@ def penalties(x):
             pass
     d = x.get("dil") or {}
     if d.get("score", 0) >= 60: out.append(f"희석 위험 {d['score']:.0f}/100")
+    for f in recent_bad_filings(x.get("ticker") or getattr(b, "ticker", ""), days=30)[:1]:
+        out.append(f"최근 악재 공시: {f.get('form')} {f.get('label')} ({str(f.get('filed', ''))[5:].replace('-', '/')})")
     return out
+
+_FLOG = None
+def load_filings_log():
+    global _FLOG
+    if _FLOG is None: _FLOG = _load(FIL_PATH, [])
+    return _FLOG
+
+def recent_bad_filings(t, days=30):
+    if not t: return []
+    cut = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    return [f for f in reversed(load_filings_log()) if f.get("ticker") == t and f.get("polarity") == "neg" and str(f.get("filed", "")) >= cut]
+
+def spike(x, c, session):
+    """장중 급등 포착: 전일 종가 대비 +spike_chg% 이상 & 시간 보정 거래량 spike_rvol배 이상, 또는 5분 +10% 급등.
+    백테스트(일봉 55만건): 이런 날 10일 내 고가 +20% 확률 41% (평소 22%) 이지만 5일 평균 수익 −3.8% → '변동성 급증' 신호, 추격 매수 주의."""
+    eh, b = x.get("eh") or {}, x.get("b")
+    last = eh.get("last"); prev = eh.get("prev_close")
+    try:
+        px = b.px
+        if not prev and len(px) >= 2: prev = float(px["close"].iloc[-2] if str(px["date"].iloc[-1])[:10] == str(eh.get("day")) else px["close"].iloc[-1])
+    except Exception:
+        px = None
+    if not last or not prev: return None
+    try:   # 오래된 데이터(어제 급등)로 오늘 울리지 않게: 마지막 체결이 20분 이내여야 함
+        lt = pd.Timestamp(eh.get("last_ts"))
+        lt = lt.tz_localize(ET) if lt.tzinfo is None else lt.tz_convert(ET)
+        if (pd.Timestamp.now(tz=ET) - lt).total_seconds() > 20 * 60: return None
+    except Exception:
+        return None
+    chg = (last / prev - 1) * 100
+    trig = dict(x.get("triggers") or [])
+    mv = trig.get("move", "")
+    up5 = mv.startswith("5분 +")
+    rv = None
+    try:
+        reg = (eh.get("regular") or {}).get("vol")
+        hist = px[pd.to_datetime(px["date"]).dt.strftime("%Y-%m-%d") < str(eh.get("day"))]["volume"].tail(20)
+        av = float(hist.mean()) if len(hist) >= 10 else 0
+        if reg and av > 0 and session == "regular" and str(eh.get("day")) == dt.datetime.now(ET).strftime("%Y-%m-%d"):
+            now = dt.datetime.now(ET)
+            el = (now.hour * 60 + now.minute - 570) / 390
+            rv = reg / (av * min(1.0, max(el, 0.15)))
+    except Exception:
+        pass
+    if chg >= float(c.get("spike_chg", 15)) and rv is not None and rv >= float(c.get("spike_rvol", 3)):
+        return f"전일 대비 {chg:+.1f}% · 거래량 평소의 {rv:.1f}배 (시간 보정) — 추격 매수 주의"
+    if up5 and chg >= 10:
+        return f"{mv} · 전일 대비 {chg:+.1f}% — 추격 매수 주의"
+    return None
 
 def evaluate(x, c, session):
     """snapshot 결과 → 발생한 신호 목록 [(type, 설명)]."""
@@ -220,8 +281,11 @@ def evaluate(x, c, session):
     sig = []
     lvl = int(s.get("level", 0))
     pr = s.get("rprob")
-    if lvl < int(c["min_level"]): return sig, lvl
     T = set(c["types"])
+    if "spike" in T:      # 급등 포착은 레벨과 무관하게 울림
+        m = spike(x, c, session)
+        if m: sig.append(("spike", m))
+    if lvl < int(c["min_level"]): return sig, lvl
     if "prob" in T:
         hit = (pr is not None and pr >= float(c["prob_min"])) if float(c["prob_min"]) > 0 else bool(s.get("flagged"))
         if hit: sig.append(("prob", f"검증 모델 상위 신호 (보정확률 {pr:.0f}%)" if pr is not None else "검증 모델 상위 신호"))
@@ -245,7 +309,7 @@ def compose(t, x, sig, pens, c, session):
     price = eh.get("last") or f.get("live_price") or f["price"]
     chg = (price / eh["prev_close"] - 1) * 100 if eh.get("prev_close") else None
     from . import live
-    title = f"🚀 {t} {' · '.join(TYPE_KO[k] for k, _ in sig)}"
+    title = f"{'⚡' if all(k == 'spike' for k, _ in sig) else '🚀'} {t} {' · '.join(TYPE_KO[k] for k, _ in sig)}"
     lines = [f"${price:.3f}" + (f" ({chg:+.1f}%)" if chg is not None else "") + f" · {live.SESSION_KO.get(session, session)} · 레벨 {s['level']} · 점수 {s['score']:.0f}"]
     summ = (x.get("summary") or "").strip().split("\n")[0]
     if summ: lines.append(summ[:120])
@@ -273,6 +337,7 @@ def run(snapshots, session, now=None, dry=False, c=None):
     quiet = _in_quiet(c)
     for t, x in snapshots:
         if not x: continue
+        x.setdefault("ticker", t)
         sig, lvl = evaluate(x, c, session)
         fresh = [(k, m) for k, m in sig if now - float(state.get(f"{t}:{k}", 0)) >= float(c["cooldown_min"]) * 60]
         if not fresh: continue
@@ -291,7 +356,7 @@ def run(snapshots, session, now=None, dry=False, c=None):
         if not why_not and not dry:
             acts = [{"action": "view", "label": "토스에서 열기", "url": url, "clear": True}]
             if c.get("dash_url"): acts.append({"action": "view", "label": "대시보드", "url": f"{c['dash_url'].rstrip('/')}/?p=stock&t={t}"})
-            res = deliver(c, title, body, click=url, priority=2 if quiet else (5 if any(k in ("reignite", "pregap") for k, _ in fresh) else 4),
+            res = deliver(c, title, body, click=url, priority=2 if quiet else (5 if any(k in ("reignite", "pregap", "spike") for k, _ in fresh) else 4),
                           tags=["rocket"] + (["warning"] if pens else []), actions=acts)
         sent = ok(res)
         for k, _ in fresh:
@@ -308,6 +373,71 @@ def run(snapshots, session, now=None, dry=False, c=None):
     _save(STATE_PATH, {k: v for k, v in state.items() if now - float(v) < 7 * 86400})
     save_log(log)
     return new
+
+# ---------------------------------------------------------------- 호재 공시 알림
+def run_filings(tickers, dry=False, c=None, now=None, hours=24, db_fil=None):
+    """감시 종목의 새 SEC 공시(최근 24h) → 판정 → 호재만 전송. 접수번호로 중복 방지(쿨다운 없음: 새 호재는 항상 울림).
+    처음 실행(시드 전)에는 모두 '봤음' 처리하고 3시간 이내 접수된 호재만 보냄 (첫 실행 폭탄 방지).
+    반환: (새 기록 목록, 통계 dict)."""
+    from . import filings as F
+    c = c or cfg(); now = now or time.time(); t0 = time.time()
+    st = {"tickers": len(tickers), "found": 0, "new": 0, "pos": 0, "sent": 0, "errs": 0}
+    if "filing" not in (c.get("types") or []): st["skipped"] = True; return [], st
+    res, errs = F.recent(tickers, hours=hours); st["errs"] = len(errs); st["found"] = len(res)
+    state = _load(STATE_PATH, {}); seeded = bool(state.get("fil_seeded"))
+    flog = _load(FIL_PATH, []); log = load_log(); new = []
+    quiet = _in_quiet(c)
+    for f in sorted(res, key=lambda z: z["accepted"]):
+        key = f"fil:{f['acc']}"
+        if key in state: continue
+        try: j = F.judge(f)
+        except Exception as e: j = dict(f, polarity="neutral", label=f"판정 실패 {type(e).__name__}", cats=[], negs=[], strength=0, headline="")
+        st["new"] += 1
+        j["accepted_kst"] = F.kst_str(j["accepted"]); j["url"] = F.sec_url(j); j["seen_kst"] = dt.datetime.fromtimestamp(now, KST).strftime("%Y-%m-%d %H:%M")
+        flog.append({k: j.get(k) for k in ("ticker", "form", "acc", "items", "filed", "accepted", "accepted_kst", "polarity", "label", "cats", "negs", "strength", "headline", "url", "seen_kst")})
+        state[key] = now
+        if j["polarity"] != "pos": continue
+        st["pos"] += 1
+        t = j["ticker"]
+        age_h = (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(j["accepted"])).total_seconds() / 3600
+        url = toss.url(t, c.get("toss_mode"))
+        title = f"📢 {t} 호재 공시"
+        lines = [f"{j['form']} · {j['label']} ({j['accepted_kst']} KST)"]
+        if j.get("headline"): lines.append(j["headline"][:140])
+        cut = (dt.date.today() - dt.timedelta(days=30)).isoformat()
+        warn = [f"{b['form']} {b['label']} ({str(b.get('filed', ''))[5:].replace('-', '/')})" for b in reversed(flog)
+                if b.get("ticker") == t and b.get("polarity") == "neg" and str(b.get("filed", "")) >= cut][:1]
+        if db_fil and db_fil.get(t): warn.append(db_fil[t])
+        lines += [f"⚠ 최근 악재: {w}" for w in warn]
+        lines.append("키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권")
+        body = "\n".join(lines)
+        why_not = None
+        if not seeded and age_h > 3: why_not = "첫 실행: 이전 공시는 기록만"
+        elif quiet and c["quiet_mode"] == "skip": why_not = "방해 금지 시간"
+        elif not c.get("enabled", True): why_not = "알림 꺼짐"
+        rs = {}
+        if not why_not and not dry:
+            acts = [{"action": "view", "label": "토스에서 열기", "url": url, "clear": True}, {"action": "view", "label": "공시 원문", "url": j["url"]}]
+            if c.get("dash_url"): acts.append({"action": "view", "label": "대시보드", "url": f"{c['dash_url'].rstrip('/')}/?p=stock&t={t}"})
+            rs = deliver(c, title, body, click=url, priority=2 if quiet else (5 if j.get("strength", 0) >= 5 else 4), tags=["loudspeaker"], actions=acts)
+        sent = ok(rs); st["sent"] += int(sent)
+        nk = dt.datetime.fromtimestamp(now, KST)
+        rec = {"id": f"{t}-fil-{j['acc']}", "ts_kst": nk.strftime("%Y-%m-%d %H:%M"), "ts_utc": dt.datetime.fromtimestamp(now, dt.timezone.utc).isoformat(timespec="seconds"),
+               "date_et": dt.datetime.fromtimestamp(now, ET).strftime("%Y-%m-%d"), "session": "filing", "ticker": t, "types": ["filing"],
+               "msgs": [f"{j['form']} {j['label']}"], "title": title, "body": body, "price": None, "level": None, "score": None, "prob": None,
+               "penalties": warn, "sent": sent, "result": rs, "suppressed": why_not, "dry": dry, "toss_url": url, "grade": "n/a",
+               "filing": {k: j.get(k) for k in ("form", "acc", "items", "label", "cats", "strength", "headline", "url", "accepted_kst", "polarity")}}
+        log.append(rec); new.append(rec); _db_put(rec)
+    state["fil_seeded"] = now
+    _save(STATE_PATH, {k: v for k, v in state.items() if now - float(v) < 7 * 86400})
+    _save(FIL_PATH, flog[-500:]); global _FLOG; _FLOG = flog[-500:]
+    save_log(log)
+    st["secs"] = round(time.time() - t0, 1)
+    return new, st
+
+def dashboard_filings():
+    r = remote_get("data/alerts/filings_log.json")
+    return r if isinstance(r, list) else _load(FIL_PATH, [])
 
 # ---------------------------------------------------------------- 사후 자동 채점 (셋업 정의)
 def _score(fut, price, tgt, stop):
