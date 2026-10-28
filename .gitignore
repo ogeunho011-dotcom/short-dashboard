@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+data/*.db*
+data/*.sqlite*
+data/*.pkl
+data/weekly_*.md
+data/research_report.md
+screenshots/
+.streamlit/secrets.toml
+# 알림 기록은 main 이 아니라 alert-data 브랜치에 (GitHub Actions 가 관리)
+data/alerts/
+data/*.gz
+data/*.dl
+data/*.asset.json
+data/sa_evidence.json
+# 비밀값 — 절대 올리지 마세요
+.streamlit/secrets.toml
+.env
+*.env

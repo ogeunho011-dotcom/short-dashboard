@@ -1,0 +1,61 @@
+# 매일 데이터 갱신 (미국 장 마감 후) → DB 스냅샷을 릴리스 'db-latest' 에 올림
+# 대시보드(Streamlit Cloud)와 알림 스캐너가 이 스냅샷을 내려받아 씁니다.
+# 저장소: ogeunho011-dotcom/short-dashboard
+name: daily
+
+on:
+  schedule:
+    - cron: "20 1 * * 2-6"     # UTC 01:20 = 한국 10:20 = 뉴욕 21:20(서머타임)/20:20(겨울) · 화~토(UTC) = 미국 월~금 장 마감 후
+  workflow_dispatch:
+
+permissions:
+  contents: write        # 릴리스 자산 업로드
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+env:
+  DB_TAG: db-latest
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150     # 첫 실행(빈 DB에서 전부 수집)은 오래 걸릴 수 있음
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: 이전 DB 받기 (없으면 처음부터 만듦)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p data
+          if gh release download "$DB_TAG" -p shortdash.sqlite.gz -D /tmp --clobber; then
+            gunzip -c /tmp/shortdash.sqlite.gz > data/shortdash.sqlite
+          else
+            echo "처음 실행 — 빈 DB 에서 시작합니다."
+          fi
+          ls -la data || true
+
+      - name: 데이터 갱신 + 스캔
+        run: python scripts/update_daily.py
+
+      - name: 토스 종목코드 매핑 갱신 (새 종목만)
+        continue-on-error: true
+        run: python scripts/build_toss_codes.py --new-only
+
+      - name: DB 스냅샷 업로드
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -m core.cloud snapshot /tmp/shortdash.sqlite.gz
+          gh release view "$DB_TAG" >/dev/null 2>&1 || gh release create "$DB_TAG" --title "DB 스냅샷 (자동)" --notes "GitHub Actions daily 작업이 매일 덮어쓰는 데이터 파일입니다. 지우지 마세요." --latest=false
+          gh release upload "$DB_TAG" /tmp/shortdash.sqlite.gz --clobber

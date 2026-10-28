@@ -1,0 +1,862 @@
+{
+ "created": "2026-10-28 14:04 KST",
+ "window_start": "2026-08-31",
+ "n_cand": 83,
+ "n_5m": 80,
+ "daily_exp": -0.04391479095645937,
+ "m5_exp": -0.04130841447157632,
+ "daily_ci": [
+  -0.07576699973083986,
+  -0.01162175919079252
+ ],
+ "m5_ci": [
+  -0.07177087207798193,
+  -0.008155994492900963
+ ],
+ "daily_hit": 0.425,
+ "m5_hit": 0.425,
+ "daily_hit_ci": [
+  0.3225638801480733,
+  0.534309080291613
+ ],
+ "m5_hit_ci": [
+  0.3225638801480733,
+  0.534309080291613
+ ],
+ "n_daily_ambiguous": 4,
+ "n_5m_bar_ambiguous": 0,
+ "n_outcome_changed": 0,
+ "mean_abs_diff": 0.004929893371935071,
+ "rows": [
+  {
+   "ticker": "IVVD",
+   "asof": "2026-08-28",
+   "daily_ret": -0.17698443342818782,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.17698443342818782,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "PRLD",
+   "asof": "2026-08-31",
+   "daily_ret": -0.11314284193759039,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.11314284193759039,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BMEA",
+   "asof": "2026-09-01",
+   "daily_ret": 0.027333362031866988,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.027333362031866988,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "LABT",
+   "asof": "2026-09-01",
+   "daily_ret": -0.24875365166993646,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.24875365166993646,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "TLSI",
+   "asof": "2026-09-01",
+   "daily_ret": -0.08723792458336244,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.08820506469305889,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "LHAI",
+   "asof": "2026-09-02",
+   "daily_ret": 0.13036362257082623,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.13036362257082623,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "ONCY",
+   "asof": "2026-09-02",
+   "daily_ret": -0.14236363168393285,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.14236363168393285,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BTCS",
+   "asof": "2026-09-03",
+   "daily_ret": 0.060666682561238534,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": 0.05733335240681959,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "HUCK",
+   "asof": "2026-09-04",
+   "daily_ret": -0.047237134307080646,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": null,
+   "m5_hit": null,
+   "m5_ambig": null
+  },
+  {
+   "ticker": "NKTX",
+   "asof": "2026-09-04",
+   "daily_ret": 0.00769861671503636,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.00769861671503636,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "NRSN",
+   "asof": "2026-09-04",
+   "daily_ret": -0.12537379991708075,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.12537379991708075,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "ATRA",
+   "asof": "2026-09-08",
+   "daily_ret": -0.1330771549591253,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.1320997086585428,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BAFN",
+   "asof": "2026-09-08",
+   "daily_ret": -0.04573512359681985,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.05319209867585794,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BNC",
+   "asof": "2026-09-08",
+   "daily_ret": -0.17266666666666663,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.17266666666666663,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "IDAI",
+   "asof": "2026-09-08",
+   "daily_ret": -0.0045423102259392,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": -0.006000034754893963,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MOBX",
+   "asof": "2026-09-08",
+   "daily_ret": -0.31702361169985693,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.31702361169985693,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MSGM",
+   "asof": "2026-09-08",
+   "daily_ret": -0.026833372241918944,
+   "daily_hit": 0,
+   "daily_ambig": 1,
+   "m5_ret": -0.026833372241918944,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "PDC",
+   "asof": "2026-09-08",
+   "daily_ret": 0.0035540927319161527,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.030624167670517684,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "STIM",
+   "asof": "2026-09-09",
+   "daily_ret": -0.10139472549080442,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.10139472549080442,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "SVIA",
+   "asof": "2026-09-09",
+   "daily_ret": 0.021972069012344504,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": null,
+   "m5_hit": null,
+   "m5_ambig": null
+  },
+  {
+   "ticker": "XHLD",
+   "asof": "2026-09-09",
+   "daily_ret": 0.07225877584516327,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.23725636806710093,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "SION",
+   "asof": "2026-09-10",
+   "daily_ret": -0.3196482811522038,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.3203044641595545,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "SKYX",
+   "asof": "2026-09-10",
+   "daily_ret": 0.062181759480276495,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.062181759480276495,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "TNON",
+   "asof": "2026-09-10",
+   "daily_ret": 0.2619245330549804,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.260037697484801,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BZAI",
+   "asof": "2026-09-11",
+   "daily_ret": 0.0297142834334957,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.0297142834334957,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "JVA",
+   "asof": "2026-09-11",
+   "daily_ret": 0.03804147173939899,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.04308031883606268,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "NA",
+   "asof": "2026-09-11",
+   "daily_ret": -0.0785806522939998,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.0785806522939998,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "VERI",
+   "asof": "2026-09-11",
+   "daily_ret": 0.07092309808449004,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.07092309808449004,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "GITS",
+   "asof": "2026-09-14",
+   "daily_ret": 0.008705847586022225,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.008705847586022225,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MYSE",
+   "asof": "2026-09-14",
+   "daily_ret": 0.03730067154567696,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.0038039124022074596,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "NAMI",
+   "asof": "2026-09-15",
+   "daily_ret": 0.32294737254879813,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.3295263137256008,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "DERM",
+   "asof": "2026-09-16",
+   "daily_ret": 0.01046092244246855,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.01046092244246855,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "LTRN",
+   "asof": "2026-09-16",
+   "daily_ret": -0.35833158861577197,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.35833158861577197,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "TPST",
+   "asof": "2026-09-16",
+   "daily_ret": -0.2208760578100013,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.2208760578100013,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BCBP",
+   "asof": "2026-09-17",
+   "daily_ret": -0.01290442679396952,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.011178265223534595,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BCTX",
+   "asof": "2026-09-17",
+   "daily_ret": 0.018881556242889348,
+   "daily_hit": 1,
+   "daily_ambig": 1,
+   "m5_ret": 0.018881556242889348,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MDCX",
+   "asof": "2026-09-17",
+   "daily_ret": -0.08787137666509581,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.06447953085917135,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "PXS",
+   "asof": "2026-09-17",
+   "daily_ret": 0.000811982462787247,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": -0.0005504140297701802,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "TCRT",
+   "asof": "2026-09-17",
+   "daily_ret": -0.19350001210719314,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.19350001210719314,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "VELO",
+   "asof": "2026-09-17",
+   "daily_ret": -0.030231061164922572,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.031163048984910062,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "AZIO",
+   "asof": "2026-09-18",
+   "daily_ret": -0.1364347796040506,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.140057930013608,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BMEA",
+   "asof": "2026-09-18",
+   "daily_ret": -0.0333224167591839,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": -0.025125696942763835,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "LUNG",
+   "asof": "2026-09-18",
+   "daily_ret": -0.12194197974271292,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.11711106631964285,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "TLSI",
+   "asof": "2026-09-18",
+   "daily_ret": 0.0489020029498456,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.06066669783249457,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "ACB",
+   "asof": "2026-09-21",
+   "daily_ret": 0.017573159535861367,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.017573159535861367,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "ATOM",
+   "asof": "2026-09-21",
+   "daily_ret": 0.06689297981631881,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.06689297981631881,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "IVVD",
+   "asof": "2026-09-21",
+   "daily_ret": -0.12364704232397317,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.12364704232397317,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "DCOY",
+   "asof": "2026-09-22",
+   "daily_ret": 0.20367745656897807,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.2004516530944963,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "FBGL",
+   "asof": "2026-09-22",
+   "daily_ret": -0.15165214168822538,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.15165214168822538,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "IBIO",
+   "asof": "2026-09-22",
+   "daily_ret": -0.06615040626614188,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.06615040626614199,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "RDNW",
+   "asof": "2026-09-22",
+   "daily_ret": 0.022455276358142713,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.02895933509517557,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MSS",
+   "asof": "2026-09-23",
+   "daily_ret": -0.21076188908358484,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.21457142078633173,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "PDC",
+   "asof": "2026-09-23",
+   "daily_ret": -0.18100001192092896,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.18100001192092896,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "QUIK",
+   "asof": "2026-09-23",
+   "daily_ret": -0.009561884548844985,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.009561884548844985,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "VTGN",
+   "asof": "2026-09-23",
+   "daily_ret": -0.3303243330320882,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.3303243330320882,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "DUOT",
+   "asof": "2026-09-24",
+   "daily_ret": -0.12746595018265106,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.12746595018265106,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "EZGO",
+   "asof": "2026-09-24",
+   "daily_ret": -0.20324773100435578,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.20783488245253534,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "PMAX",
+   "asof": "2026-09-24",
+   "daily_ret": -0.24842423147756743,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.24842423147756743,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "SPHL",
+   "asof": "2026-09-24",
+   "daily_ret": -0.2775655309817696,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.2759680503881271,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "VIVO",
+   "asof": "2026-09-24",
+   "daily_ret": -0.08349078789333342,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.08349078789333342,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "AXNX",
+   "asof": "2026-09-28",
+   "daily_ret": 0.061627452962290004,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": null,
+   "m5_hit": null,
+   "m5_ambig": null
+  },
+  {
+   "ticker": "CRVO",
+   "asof": "2026-09-28",
+   "daily_ret": -0.06592512406695294,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.06592512406695294,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "SEER",
+   "asof": "2026-09-28",
+   "daily_ret": 0.09005912874803135,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.09005912874803135,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BZFD",
+   "asof": "2026-09-29",
+   "daily_ret": -0.07379656873218987,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.07379656873218987,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "IDAI",
+   "asof": "2026-09-29",
+   "daily_ret": 0.0991987864129702,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.0991987864129702,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MSGM",
+   "asof": "2026-09-30",
+   "daily_ret": -0.003946564863073371,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": -0.0029198962511982566,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "INGN",
+   "asof": "2026-10-01",
+   "daily_ret": -0.036100337541700826,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.036100337541700826,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MTRX",
+   "asof": "2026-10-01",
+   "daily_ret": -0.03659270493854682,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.03850479458393218,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "AZ",
+   "asof": "2026-10-02",
+   "daily_ret": -0.0011534780109126955,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": -0.0011534780109126955,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BEAT",
+   "asof": "2026-10-05",
+   "daily_ret": -0.08856878526551293,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.08856878526551293,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "HBIO",
+   "asof": "2026-10-05",
+   "daily_ret": -0.011882319282082882,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.011647070043227297,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "ATRA",
+   "asof": "2026-10-06",
+   "daily_ret": -0.06651283616286063,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.07369229204226768,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "MWYN",
+   "asof": "2026-10-06",
+   "daily_ret": 0.06542854246615948,
+   "daily_hit": 1,
+   "daily_ambig": 1,
+   "m5_ret": 0.06542854246615948,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BCTX",
+   "asof": "2026-10-07",
+   "daily_ret": -0.05599999999999971,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.06350000476837159,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BYRN",
+   "asof": "2026-10-07",
+   "daily_ret": -0.09735805100061623,
+   "daily_hit": 0,
+   "daily_ambig": 1,
+   "m5_ret": -0.09735805100061623,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "JVA",
+   "asof": "2026-10-07",
+   "daily_ret": 0.01658064880000599,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.017021492434645354,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "SHPH",
+   "asof": "2026-10-07",
+   "daily_ret": 0.07149469354151916,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.06194053729322125,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "ACB",
+   "asof": "2026-10-08",
+   "daily_ret": -0.05791869915373737,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.05791869915373737,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "BMEA",
+   "asof": "2026-10-08",
+   "daily_ret": 0.004948903331099213,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.004948903331099213,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "TDUP",
+   "asof": "2026-10-08",
+   "daily_ret": -0.01451063052687262,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.010255315263436255,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "PSIG",
+   "asof": "2026-10-09",
+   "daily_ret": -0.1236470423239735,
+   "daily_hit": 0,
+   "daily_ambig": 0,
+   "m5_ret": -0.1236470423239735,
+   "m5_hit": 0,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "SORA",
+   "asof": "2026-10-12",
+   "daily_ret": 0.010194316352106996,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.010194316352106996,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  },
+  {
+   "ticker": "TCRT",
+   "asof": "2026-10-12",
+   "daily_ret": 0.6416191406077041,
+   "daily_hit": 1,
+   "daily_ambig": 0,
+   "m5_ret": 0.6511429414814061,
+   "m5_hit": 1,
+   "m5_ambig": 0
+  }
+ ]
+}

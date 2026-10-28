@@ -1,0 +1,1260 @@
+{
+ "created": "2026-10-28 12:23 KST",
+ "n_success": 45,
+ "n_fail": 40,
+ "success_cats": [
+  {
+   "cat": "원인 불명",
+   "n": 15,
+   "pct": 0.3333333333333333
+  },
+  {
+   "cat": "계약·제휴·M&A",
+   "n": 9,
+   "pct": 0.2
+  },
+  {
+   "cat": "역분할 직후 저유통",
+   "n": 5,
+   "pct": 0.1111111111111111
+  },
+  {
+   "cat": "실적·흑자전환",
+   "n": 4,
+   "pct": 0.08888888888888889
+  },
+  {
+   "cat": "테마 피벗(AI·우주·크립토)",
+   "n": 4,
+   "pct": 0.08888888888888889
+  },
+  {
+   "cat": "기타 회사 발표",
+   "n": 2,
+   "pct": 0.044444444444444446
+  },
+  {
+   "cat": "FDA·임상",
+   "n": 2,
+   "pct": 0.044444444444444446
+  },
+  {
+   "cat": "데이터 오류",
+   "n": 1,
+   "pct": 0.022222222222222223
+  },
+  {
+   "cat": "재무구조 개선(희석 해소)",
+   "n": 1,
+   "pct": 0.022222222222222223
+  },
+  {
+   "cat": "사업 진척",
+   "n": 1,
+   "pct": 0.022222222222222223
+  },
+  {
+   "cat": "공매도 이슈·스퀴즈",
+   "n": 1,
+   "pct": 0.022222222222222223
+  }
+ ],
+ "fail_cats": [
+  {
+   "cat": "원인 불명",
+   "n": 11,
+   "pct": 0.275
+  },
+  {
+   "cat": "유상증자·희석",
+   "n": 11,
+   "pct": 0.275
+  },
+  {
+   "cat": "펌프 후 소멸(PR)",
+   "n": 9,
+   "pct": 0.225
+  },
+  {
+   "cat": "역분할 덤프",
+   "n": 4,
+   "pct": 0.1
+  },
+  {
+   "cat": "펌프 후 소멸(무소식)",
+   "n": 2,
+   "pct": 0.05
+  },
+  {
+   "cat": "상장·존속 위험",
+   "n": 2,
+   "pct": 0.05
+  },
+  {
+   "cat": "임상·파트너 실망",
+   "n": 1,
+   "pct": 0.025
+  }
+ ],
+ "timing": {
+  "known": 29,
+  "before_or_same": 13,
+  "after": 16
+ },
+ "final": {
+  "before": {
+   "prec": 0.22467357046375508,
+   "ci": [
+    0.20779943439917756,
+    0.24249851040732012
+   ],
+   "n": 2221,
+   "lift": 2.8098443205272097,
+   "auc": 0.6791558099891725,
+   "base": 0.07995943719102548,
+   "exp": -0.008335153350744876,
+   "exp_ci": [
+    -0.0207935033638435,
+    0.005420514281909599
+   ],
+   "trades": 1172
+  },
+  "after": {
+   "prec": 0.24370594159113795,
+   "ci": [
+    0.2253306281558873,
+    0.2630708606862396
+   ],
+   "n": 1986,
+   "lift": 3.0478696468175133,
+   "auc": 0.6770581497162015,
+   "base": 0.07995943719102548,
+   "exp": -0.0013697344080878366,
+   "exp_ci": [
+    -0.012243669770296174,
+    0.009660413039568614
+   ],
+   "trades": 1515
+  },
+  "pen_only": {
+   "prec": 0.22459893048128343,
+   "ci": [
+    0.20708723114632777,
+    0.24313737612091688
+   ],
+   "n": 2057,
+   "auc": 0.6701447611165765
+  },
+  "diff_ci": [
+   -0.005613625636093801,
+   0.04390922182426921
+  ],
+  "event_first": 0.22649006622516557,
+  "event_any": 0.2860927152317881,
+  "n_events": 755,
+  "adopted": false
+ },
+ "features": [
+  {
+   "f": "424B(공모) 30일 이내",
+   "n": 455,
+   "hit": 0.13846153846153847,
+   "rest": 0.24687854710556187,
+   "lift": 0.5608488063660477
+  },
+  {
+   "f": "공모 완료(s_offering_done)",
+   "n": 364,
+   "hit": 0.1401098901098901,
+   "rest": 0.24123043712898004,
+   "lift": 0.5808134818201932
+  },
+  {
+   "f": "S-1/S-3/F-1/F-3 등록 30일 이내",
+   "n": 404,
+   "hit": 0.1707920792079208,
+   "rest": 0.23662437948152235,
+   "lift": 0.7217856401024718
+  },
+  {
+   "f": "RVOL < 1.5",
+   "n": 1059,
+   "hit": 0.20302171860245516,
+   "rest": 0.24438687392055267,
+   "lift": 0.8307390464369013
+  },
+  {
+   "f": "5일 수익률 +50% 이상",
+   "n": 304,
+   "hit": 0.3815789473684211,
+   "rest": 0.19968635650810246,
+   "lift": 1.9108914301460458
+  },
+  {
+   "f": "직전5일 중 +40% 일봉 있음",
+   "n": 295,
+   "hit": 0.33559322033898303,
+   "rest": 0.20759625390218522,
+   "lift": 1.6165668408308906
+  },
+  {
+   "f": "당일 +50% 이상",
+   "n": 114,
+   "hit": 0.35964912280701755,
+   "rest": 0.2173086067522587,
+   "lift": 1.6550155476217896
+  },
+  {
+   "f": "RVOL ≥ 5",
+   "n": 624,
+   "hit": 0.2676282051282051,
+   "rest": 0.20778405524168236,
+   "lift": 1.2880112712061351
+  },
+  {
+   "f": "8-K/6-K 2일 이내(신선한 재료)",
+   "n": 775,
+   "hit": 0.22451612903225807,
+   "rest": 0.22468793342579751,
+   "lift": 0.9992353643966547
+  },
+  {
+   "f": "위임장(DEF/PRE 14A) 60일 이내(역분할 투표 가능)",
+   "n": 385,
+   "hit": 0.22077922077922077,
+   "rest": 0.22543668122270744,
+   "lift": 0.9793402723184804
+  },
+  {
+   "f": "반복 경보(4번째 이후)",
+   "n": 863,
+   "hit": 0.21089223638470453,
+   "rest": 0.23338257016248154,
+   "lift": 0.9036331900787656
+  }
+ ],
+ "success": [
+  {
+   "ticker": "HCWB",
+   "date": "2026-05-14",
+   "pick": "top",
+   "max5": 10.839762439830853,
+   "min10": 1.8130563763230785,
+   "cat": "실적·흑자전환",
+   "cause": "1분기 실적(순이익 흑자) + HCW11-040 전임상 결과 발표 후 시간외 +122%",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObXUxejdSeHZId0RmVHpTcTJBUnAyT2RMUVB4S3RlYkg2b01KTlJOa3pqa25JT3MtV1JldWJPX0VGZ1ZuNkNwMWNEUEd6NWQ3RmJfTlR5cUhEaWNyMVV0MV9jdDB6SDBMV3VPZmpiVEViQkdOVXBuQmJ3OHBvVTR3S2ctMzNoVlUtWmtSVlBKajRoXzRzZXBhdTBtWldiTjZiaGI5N1F3OV9Zc0RnOG1wclBycTgxZUVQX3J5bV8tYjJuanNoVVBaSjNvYWxmUU1VV2NnUkNmc1N5Zmk3LWRkcWxsaFJiTWxJNnc?oc=5",
+   "src": "HCW Biologics (HCWB) Stock Is Trending Overnight — Here's Why It Moved Over 122% In After-Hours Session - Benz",
+   "signals": "저유통, 과거급등주, 증권신고서≤30일, RVOL≥5, 8-K/6-K≤2일, 위임장≤60일"
+  },
+  {
+   "ticker": "AZIO",
+   "date": "2026-01-06",
+   "pick": "top",
+   "max5": 7.539130346446045,
+   "min10": -0.2086956129632952,
+   "cat": "계약·제휴·M&A",
+   "cause": "EVTV 와 합병 추진 + 동남아 정부 GPU 주문($107M) 보도",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbWNTZk84LXBaVi0zYlRwUzdwMVhoeVlveWEzV1VDS1o0Z00yN1MxRzdmMTRNbE9LSkhaTGVnYnFVOUlyX2pLMW0wUDFpYzY5bW12VE9OeS05ZVNieElDYW5aSXAyWFBPVkt6WWcwOGd2UmtTMXY0UkVBXzVSSXhJRVBLVlJjSll60gGOAUFVX3lxTE40MUJPVy1kTEtyZlRiOEVnSlhtS0k5UGhieVNqaUVyTHNkLTBWZHVFMUpGRjNVeGg2WDdLYVEwWmQ3aWZkX1kzbm5NZkczaU5NLTVtV2tKWVhZV3hDTTFRWXpNeHNHbnNOYlo1M1hYX01LWEY4U2VZVF9DZHRGT3pCWFUwMnhhZHMtdHhMZmc?oc=5",
+   "src": "AZIO AI Lands $107 Million Southeast Asia Government GPU Order - Pulse 2.0",
+   "signals": "저유통, 갭유지, 당일+20%, RVOL≥5, 위임장≤60일"
+  },
+  {
+   "ticker": "IVF",
+   "date": "2026-01-16",
+   "pick": "top",
+   "max5": 4.640394074205964,
+   "min10": 0.49014785123197213,
+   "cat": "기타 회사 발표",
+   "cause": "확장 전략 발표 보도(Benzinga 'trending'); 뚜렷한 계약·실적 없음",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa3JCUTd5R1laU1BTQzl2b2c5U0xCNXpwemQ4cHMtU1ZrdGNsTjFZUVF3TUY4czE0Vnc0eE1qRDZSQ1dQM3ZvOGg4ajFXMWthUDhJcGlsdjdjRnNrNGVKN29VU0Z0ZnB5SEZBX2hHS1p3b2Mybl9YU21oVGYxVG1MNDA0aklNTGlFUWluc0NhX2ZWZWw3SC1MWHpMRGlBcjQyRWJyVXZ1RHdqaTA?oc=5",
+   "src": "Why INVO Fertility (IVF) Stock Is Trending Overnight - Benzinga",
+   "signals": "저유통, 과거급등주, 공모완료, 424B≤30일, 증권신고서≤30일, RVOL≥5, 위임장≤60일"
+  },
+  {
+   "ticker": "ASTC",
+   "date": "2026-05-27",
+   "pick": "top",
+   "max5": 3.985517478791796,
+   "min10": 0.20782040538408175,
+   "cat": "테마 피벗(AI·우주·크립토)",
+   "cause": "이사회 승인 '달 자원·인프라' 신사업 발표 + NASA 달 탐사 테마(MNTS·RKTO 동반 급등)",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVF9CZDJXbzE5RlhyTlF1LWxnaUZfc0szZXZCbEs4Tkd3ZUJ1RDh2R0ZhNFdJQTVFRmUyTWJzcGN6TTR6WHpKSW92dnVjV2hCanBMeUtVa0tLRTlpSVFrYlpjXy1BTkJscTJRT09ZbzVKd2VSRGdUUG44NERCaTJYNlhxMlY2VWNxNE9UUk5UMUlSLUlRN2lkVkNqWGVNcU94aUVET25Xak9seHRpTjQtUFdXcC1JNERMemtRQUVvRFd4d3gzX3Y1eU1XTQ?oc=5",
+   "src": "Astrotech jumps 154% after unveiling board-approved lunar resource and infrastructure initiative | ASTC Stock ",
+   "signals": "저유통, 과거급등주, 갭유지, 5일+50%, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "TNON",
+   "date": "2026-09-09",
+   "pick": "top",
+   "max5": 3.4426229091717087,
+   "min10": 0.5532786364646356,
+   "cat": "재무구조 개선(희석 해소)",
+   "cause": "전환사채 조기상환 발표 → '희석 부담 해소' 해석으로 +75%",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazNBakNOMVRIY3RjVklZTDV5ZUhVU0lGVkhNaVMtbFcyc2pSRlRzZWlGR1VwVDQ4WTVEZEM4ZHlWRUJTLWd5eVJEM1AxTHd6WGJ6d3ZSdWEtSWo3SmpYWnZvWjdUUzFHSHdnaDNKc0FoNlFXYWd1SVlCajJiRHhsOUI5UUZtbXdsOVFaaEtTajd5VGQ1R1ZlclZSdndxM0lnTlE?oc=5",
+   "src": "Tenon Medical Announces Early Repayment of Its Convertible Notes - Yahoo Finance",
+   "signals": "저유통, 과거급등주, SSR, 424B≤30일, 증권신고서≤30일, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "FGI",
+   "date": "2026-08-12",
+   "pick": "top",
+   "max5": 3.2135307029194635,
+   "min10": 0.49471461800252814,
+   "cat": "실적·흑자전환",
+   "cause": "2분기 실적 서프라이즈(마진 개선, EPS 예상 상회)",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQmI3RnRZcU5CWkV3YXR2eHExRHIyVGtBclBSRmx5bzZqQjNDRGpoaVlFamNiZFl5ZzFQSmNsNEQ2MFBmeG93RDFSVWotUzVxUWtsSzBGWGkyYUZ3bVdOOTJWcUp1dlFkemoxYXllNng3UmVMbW11WmxuRE5CeVFNRk4xRVloMWtiZTJkLWw4V2o1Mkd1UDVndw?oc=5",
+   "src": "FGI Industries Ltd. (FGI) Beats Q2 Earnings Estimates - Yahoo Finance",
+   "signals": "저유통, 과거급등주, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "TCRT",
+   "date": "2026-10-12",
+   "pick": "top",
+   "max5": 3.1904764716046863,
+   "min10": 0.4380952943209373,
+   "cat": "계약·제휴·M&A",
+   "cause": "Velaris 인수 + $350M 사모 조달 발표(직전 상장폐지 통지)",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSmxZdHpEYnFHWWxFdDVrVmdqN2tBY2tqVE9PWms1eHBlWENfQ0FneFc3aUp2NERya205LU5ISUQ4QVNMVDV0aEd4eXdNQjYxaEJSTnBqVEN6cF9XMXE0SHhuaFIyTG9Ka255UTA0cTZrWDJzekoxUm5JMjJwZTE4bFNRUQ?oc=5",
+   "src": "TCRT Stock Explodes After Velaris Deal And $350M Raise - StocksToTrade",
+   "signals": "저유통, 공모완료, 424B≤30일, 당일+20%, RVOL<1.5"
+  },
+  {
+   "ticker": "GITS",
+   "date": "2026-01-21",
+   "pick": "top",
+   "max5": 3.1705882080698515,
+   "min10": -0.1000000420738657,
+   "cat": "계약·제휴·M&A",
+   "cause": "ATEEZ 주제가 글로벌 배급권 계약(8-K 1.01), 별도 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1911545/000149315226003585/ex99-1.htm",
+   "src": "SEC 8-K 2026-01-26 — Interactive Technologies, Inc. Announces Agreement with ATEEZ for Animated Featu",
+   "signals": "저유통, 과거급등주, 5일+50%, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "AXNX",
+   "date": "2025-12-30",
+   "pick": "top",
+   "max5": 3.125412580207591,
+   "min10": -0.06930694393724757,
+   "cat": "원인 불명",
+   "cause": "6-K 1건(내용 미상), 관련 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1998560/000121390025125791/ea0271100-6k_mint.htm",
+   "src": "SEC 6-K 2025-12-29",
+   "signals": "과거급등주, SSR, RVOL<1.5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "MYSE",
+   "date": "2026-04-15",
+   "pick": "top",
+   "max5": 3.006944271977308,
+   "min10": 1.0555555003660717,
+   "cat": "테마 피벗(AI·우주·크립토)",
+   "cause": "'Myseum.AI' 로 사명 변경(AI 리브랜딩) + 저유통 모멘텀",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeE1JOGJrbTFLRXJ5VmJtY2FDVkExNkoyR1lyWW85MUdhdDNZVEFtLW9FX1ptYmxuRldueHh5UW9jamVISTREZzVPRDd0TjQ5STkyUHN1ajlPR2o3VXpwdjdVSDVUZGl5aXBPRjZkNGJSVHVZQjVBemhzNnV2MG42OFNUc1pCdFA3cG5jTXZMTmx1bkZYSlRoaU82MXBEcXBxQXc?oc=5",
+   "src": "Myseum Rebrands as Myseum.AI to Align with Full Suite of Technology and Social Media Platforms - Yahoo Finance",
+   "signals": "저유통, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "CLRO",
+   "date": "2026-08-05",
+   "pick": "top",
+   "max5": 2.8260868663823913,
+   "min10": 0.47282608097070566,
+   "cat": "계약·제휴·M&A",
+   "cause": "Cortigent 합병 주주승인(8-K 5.07) + 적은 주식수 부각",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQUdDVVlUZ3B4Z3RwSDMxc0JmaHFLTkNDV0FmbndiU0pKRmNHNTlIdWhIWlExaUJDRkRLRFZpMEhDLTRRNkFFTFFNVXItTGJjWi10UkgxbXlHS1paR1dKTFdhVFFkUHItQjU4YzhRZjY1T3lkOGo3ZzNpUXhTeHYtR3gzN1JJR3ZqeUtJRmFjSjZEcjFGTHFHd0p4ZFNBYkJCUloyejhSVzhwZnRNeGxTVG5kRnhZT2ZCX2FYZVdmQzFkVGtkN1hib0pYLVZXemkyMDF2Q3lKRmVKQWs5ZE1wdg?oc=5",
+   "src": "ClearOne Cancels 437,500 First Finance Warrants at $5.00 Amid Cortigent Merger Process - TradingView",
+   "signals": "저유통, 과거급등주, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "PIII",
+   "date": "2026-05-14",
+   "pick": "top",
+   "max5": 2.6947889747208875,
+   "min10": 0.2535979609828902,
+   "cat": "실적·흑자전환",
+   "cause": "1분기 실적 예상 상회(턴어라운드) + 부채 출자전환",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbkwwMmh0SEV3N3p0WW1TY285bVFiSnplbHF4UUs2TFpfZzZsdTVYQ3RjQl93VFZUZG5wVjl4VTM4MXhHUVNIb0ltSFJrWXhRZ2ZZVDk2MWFiMExaSjU1emNPLUFSTGZZaWl6X0JaSDFnVnFGMFlZT1pOSFJHZTQ3cA?oc=5",
+   "src": "PIII Stock Soars As Earnings Beat Signals Turnaround - StocksToTrade",
+   "signals": "저유통, RVOL≥5, 8-K/6-K≤2일, 위임장≤60일"
+  },
+  {
+   "ticker": "INHD",
+   "date": "2026-04-07",
+   "pick": "top",
+   "max5": 2.4883721961789447,
+   "min10": -0.5529715580796302,
+   "cat": "테마 피벗(AI·우주·크립토)",
+   "cause": "AI 전략계획 공식 발표 당일 +180%",
+   "link": "https://www.sec.gov/Archives/edgar/data/1961847/000149315226015714/ex99-1.htm",
+   "src": "SEC 8-K 2026-04-08 — Holdings Inc. Officially Launches Artificial Intelligence Strategic Plan",
+   "signals": "저유통, 과거급등주, SSR, RVOL≥5, 위임장≤60일"
+  },
+  {
+   "ticker": "BYAH",
+   "date": "2026-06-11",
+   "pick": "top",
+   "max5": 2.466666924007367,
+   "min10": 0.142857240170853,
+   "cat": "테마 피벗(AI·우주·크립토)",
+   "cause": "AI 영양사 제휴 발표(같은 날 $2M 공모 발표도 있음)",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSjNFejhvTmFrNDFlRGNzaUtncnVhQk9wY2dYLXN3YS04OW9OOUZLdWZwMVFwUE16WVhHb3Q3cVVJWEhCenVmekVRaVhocThoeFZFN3BrTUY4Q0dxSlNPZm1ORVU1Y1dqV0YzQXZ3N1ZvY1FIRmdRVnpDM0hQRWdSN3NoY09nVVdtWThJWVlUZmFrOWtGVkJsQ2gzcVQtWjllVlN4aC14YVhjandpWFE?oc=5",
+   "src": "Park Ha Biological Launches AI Nutritionist Through Strategic Partnership to Expand AI-Powered Skincare Ecosys",
+   "signals": "과거급등주, SSR, 증권신고서≤30일, 직전5일 +40%봉, RVOL≥5"
+  },
+  {
+   "ticker": "SKYQ",
+   "date": "2026-03-31",
+   "pick": "top",
+   "max5": 2.2373540509497736,
+   "min10": -0.08171207922250678,
+   "cat": "원인 불명",
+   "cause": "8-K(3.01 상장유지 통지)·10-K 외 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1812447/000109690626000405/R1.htm",
+   "src": "SEC 8-K 2026-03-30",
+   "signals": "저유통, 과거급등주, SSR, RVOL<1.5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "XHLD",
+   "date": "2025-10-27",
+   "pick": "top",
+   "max5": 2.207143066367334,
+   "min10": 0.035714310042713304,
+   "cat": "원인 불명",
+   "cause": "8-K(1.01 계약) 1건, 내용·뉴스 미확인",
+   "link": "https://www.sec.gov/Archives/edgar/data/2030954/000149315225019786/form8-k.htm",
+   "src": "SEC 8-K 2025-10-27",
+   "signals": "과거급등주, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "BRLS",
+   "date": "2026-02-06",
+   "pick": "top",
+   "max5": 2.2006124400097047,
+   "min10": 0.041347641855860484,
+   "cat": "원인 불명",
+   "cause": "8-K(2.04 채무 가속 사유) — 오히려 악재 공시, 상승 원인 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1852973/000121390026013285/ea0275816-8k_borealis.htm",
+   "src": "SEC 8-K 2026-02-06",
+   "signals": "과거급등주, SSR, RVOL<1.5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "GCTK",
+   "date": "2026-07-29",
+   "pick": "top",
+   "max5": 2.1578946663952507,
+   "min10": 0.18245607381773676,
+   "cat": "FDA·임상",
+   "cause": "LT-100 FDA Type C 미팅 결과 발표 후 시간외 +70%",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTk5kaVFkYmF5M1QxbUNzZkxLNnhiOWRvMUIxRDR3SnRlNzF3VDkwQUJGSXhYUW9icms4bEFLM1dyMUhLUlhrLXh2Y0ZhQXl4aXFEcmc3MmcyTE8wSndrbmhvYTM5X3F2R2FwQWN4S1lyQjFfQVUtY1V6dnZhUF82MWQ4VGt6b2ZkUWo2TFVWeGVjNnh4MGRIU3NtcHNqc2s4aGtYaDhLR0o5bFBYc0N3VThjVURZWnR3MzlHc0Y2MA?oc=5",
+   "src": "GlucoTrack (GCTK) Stock Surges Over 70% After Hours: Why is it Moving? - Benzinga",
+   "signals": "저유통, 과거급등주, 8-K/6-K≤2일, 위임장≤60일"
+  },
+  {
+   "ticker": "SHPH",
+   "date": "2026-01-12",
+   "pick": "top",
+   "max5": 2.104895170186514,
+   "min10": -0.06993006899733556,
+   "cat": "원인 불명",
+   "cause": "8-K(5.02 임원 변경)만, 의미있는 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1757499/000149315226001861/form8-k.htm",
+   "src": "SEC 8-K 2026-01-12",
+   "signals": "저유통, 과거급등주, RVOL<1.5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "BEAT",
+   "date": "2025-12-10",
+   "pick": "top",
+   "max5": 1.5806452406804867,
+   "min10": -0.07096767643859847,
+   "cat": "FDA·임상",
+   "cause": "FDA 허가(clearance) 보도 후 랠리",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbUFrSG40a3lodXlQTzNkSVJyTVhOSWNWQnVBUzQ1dHJTWGpSeWxuOWxubmVjUDdlSVJfNUl6SHdoaW1xaG4yRFZCb0daZE56OG96RGltc2VkcHI0MnBBTVoydXZMVThPWDFLOFBoUHVoVEROUXB3MWN5Z0d3Y29MR18tcFJxa0N6am14cmFkb0o0UlZjbzJpZWQtYW9nOERVcXhnUENlQzR1eENSNVNTcmtsZjFDRWlZYWRaZnpKZ3JPWXU4Y1lrRnRUbF9HVG1VRG8xWmlFLTBNWGVLRlJ3Y1VUcEJUQQ?oc=5",
+   "src": "HeartBeam (BEAT) Stock News Today: FDA Clearance Ignites Rally, Analysts Lift Targets, and What Investors Are ",
+   "signals": "갭유지, 5일+50%, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "ZTG",
+   "date": "2026-07-29",
+   "pick": "top",
+   "max5": 1.5551469618241898,
+   "min10": 0.04779407156431592,
+   "cat": "원인 불명",
+   "cause": "관련 뉴스·공시 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/2011458/000149315226036484/form6-k.htm",
+   "src": "SEC 6-K 2026-08-07",
+   "signals": "저유통, 과거급등주, SSR, RVOL≥5"
+  },
+  {
+   "ticker": "CLRO",
+   "date": "2026-07-02",
+   "pick": "top",
+   "max5": 1.546296288801428,
+   "min10": -0.11111107840623069,
+   "cat": "계약·제휴·M&A",
+   "cause": "Cortigent 합병계약 체결 발표 → 당일 +170%",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVlU5OVVLaEUxS1BUaThTU1Bib00zaU9oNF9FeXZXc3FvYnRJTldzTlkxODQyRDZRMG9YQ3lEWkhYZmlLUXJiRkxtNmdnN1pSU2VXVWdPcVJXaV9CMk9OUDFPSzYxNUt6OGlpYzd0MzdVRDJ5UklXQWd2RlNjWWFQUGlpanZ6aVEyVzJPYzJITkJOMnBBOWRqWVdqU0dVU1pPOEV4TWtpVVpxUHFFZXhvNTJzbF8tVUZGLUI2a2lldVpRaWVkM2loMG9lTzVmVG1OODJXSmpOa0dpQ0FkUXZGWHRZZERhNUpZR0luNFFOSWtuNHhhZXFQOVlYUQ?oc=5",
+   "src": "ClearOne Announces Entry into Merger Agreement with Cortigent, Inc., a Wholly-Owned Subsidiary of Vivani Medic",
+   "signals": "저유통, SSR, 갭유지, 증권신고서≤30일, 5일+50%, 당일+20%, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "WHLR",
+   "date": "2026-09-16",
+   "pick": "top",
+   "max5": 1.5268349204157823,
+   "min10": -0.5213229000939703,
+   "cat": "역분할 직후 저유통",
+   "cause": "역분할(8-K 3.03/5.03) 직후 유통주식 급감 → 변동성 급등 보도",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYk85bmpzYUxzOV9sQThvLS16aVVza1NwU05rLVhlVXphcVpQTjRnVkFtRzQxSGgyRDByRjRYQ2ZCUDZ0MkpETk02T3NiVU5xUTUwRWFsZUQ4cmRfejBfRVh1NVNmRDZ6SG50NnhES2t1elNBelZqamVQbnZaZ1dKTGlCR01vWDBNWGZMb3VSblBlalg3dGc?oc=5",
+   "src": "WHLR jumps as reverse split appears to drive outsized move | WHLR Stock News - Quiver Quantitative",
+   "signals": "저유통, 과거급등주, SSR, 공모완료, 424B≤30일, RVOL≥5"
+  },
+  {
+   "ticker": "PCSA",
+   "date": "2025-12-15",
+   "pick": "top",
+   "max5": 1.5014085165401045,
+   "min10": -0.22535210227096047,
+   "cat": "역분할 직후 저유통",
+   "cause": "8-K 3.03/5.03(정관 변경·주주권 변경, 통상 역분할) — 뉴스 미확인, 추정",
+   "link": "https://www.sec.gov/Archives/edgar/data/1533743/000149315225027680/form8-k.htm",
+   "src": "SEC 8-K 2025-12-15",
+   "signals": "과거급등주, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "QH",
+   "date": "2026-04-15",
+   "pick": "top",
+   "max5": 1.1818181448731537,
+   "min10": -0.6727272850422821,
+   "cat": "데이터 오류",
+   "cause": "가격 DB 의 미조정 역분할 점프(4/27 시가 0.12→3.60, 거래량 급감). 실제 +3,686% 상승 아님 — 재학습에서 제외",
+   "link": "https://www.sec.gov/Archives/edgar/data/1781193/000121390026043534/",
+   "src": "SEC F-3 2026-04-14",
+   "signals": "저유통, 과거급등주, SSR, 증권신고서≤30일, 5일+50%, 직전5일 +40%봉, 당일+20%, RVOL<1.5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "SKYQ",
+   "date": "2026-06-22",
+   "pick": "top",
+   "max5": 1.1784210478433943,
+   "min10": -0.21052630588288435,
+   "cat": "사업 진척",
+   "cause": "네바다 정유소 생산 단계 진입 발표",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlloU21IMWpIU2t6RkktYjhtM2tvVGVmWTRUOWZKc0tzVWUtS3BBZlNSRXF6UlBhYXVwemN5V1hINEtRcnI2WE5wbzZhNXZqU0JxZDN5S0dnZ0UzeVg0Mjg4R1J2ZHlMRUtWc3VveVhGaEFKdTZGTEZ6cVZ1VGNTeDAxdHE1T1ZzeEJhd0NBSmoyMkp0MHBoclo0NkVQN3llZ3lNZHh3em5OZFRWWk80dA?oc=5",
+   "src": "Sky Quarry enters production phase at Nevada refinery - Hydrocarbon Engineering",
+   "signals": "저유통, 과거급등주, 갭유지, 당일+20%, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "VIVS",
+   "date": "2026-01-29",
+   "pick": "random",
+   "max5": 1.0,
+   "min10": 0.32352937464070664,
+   "cat": "계약·제휴·M&A",
+   "cause": "아시아 유통계약 보도",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oUXV2cXlYZk54TVI4WkFBaE5Gc2poVUlwVEdvbWtTTTFUazVQU0M5VHlGaXlVQ1lEdE5iY1ZrRWdfVVFjMEVZbWgwVVhYX0VId2I5aV9OY0k3NmVkOWhJSGljRGtNaE1GVEtJSWJuODlNZGtTUGc?oc=5",
+   "src": "VivoSim Labs Shares Surge 82% Amid Key Asia Distribution Deals - StocksToTrade",
+   "signals": "저유통, 과거급등주, RVOL≥5"
+  },
+  {
+   "ticker": "CRE",
+   "date": "2026-06-10",
+   "pick": "random",
+   "max5": 0.9839229210340008,
+   "min10": -0.19292602085894317,
+   "cat": "원인 불명",
+   "cause": "관련 뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22CRE%22%20after%3A2026-06-06%20before%3A2026-06-20",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "저유통, 과거급등주, SSR, 당일+20%, RVOL<1.5"
+  },
+  {
+   "ticker": "BNAI",
+   "date": "2026-01-14",
+   "pick": "top",
+   "max5": 0.9620689207251674,
+   "min10": -0.17758623723042466,
+   "cat": "계약·제휴·M&A",
+   "cause": "AI 라이선싱 계약($2.05M, 아프리카) 발표",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTnZFMDNKbjlrSHoyRHhMMnRKc0I1UlFDWnBZbXVuNW1ZeHplb1VIMG9GUXd6LWhzbHp1QWpUOXZYZ0piRlctTzExWXZPQTUwdjFXQng2RjZHb01OZ1lPb0JhVjVtSzVMVkxBUGdwc2hkbzRGOEhKb3V1clJKZnZhQU9SeWlIelY2aFlWdmcybXJZdF9fVGY1ZFE5WHFLbThPUXVnX1BNODR6cDdpOVFOZWwyYmtnY0lEYzdIdWdBaWg3TXhhZUZrMjdTVFNBdlZtdzZJ?oc=5",
+   "src": "Brand Engagement Network Secures $2.050 Million AI Licensing Partnership in Africa - PR Newswire",
+   "signals": "과거급등주, 갭유지, 5일+50%, 당일+20%"
+  },
+  {
+   "ticker": "DCOY",
+   "date": "2025-11-11",
+   "pick": "random",
+   "max5": 0.7653061075540248,
+   "min10": -0.15306123772975566,
+   "cat": "계약·제휴·M&A",
+   "cause": "Salarius 와 합병 완료(동시에 424B4 공모)",
+   "link": "https://www.sec.gov/Archives/edgar/data/1615219/000161521925000162/a111325decoyandsalariuscom.htm",
+   "src": "SEC 8-K 2025-11-13 — Salarius Pharmaceuticals and Decoy Therapeutics Complete Merger",
+   "signals": "저유통, 과거급등주, SSR, 증권신고서≤30일, RVOL≥5, 위임장≤60일"
+  },
+  {
+   "ticker": "QH",
+   "date": "2026-06-12",
+   "pick": "random",
+   "max5": 0.7452316285170963,
+   "min10": -0.12397824323320017,
+   "cat": "원인 불명",
+   "cause": "임시주총 위임장(6-K) 외 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1781193/000121390026067833/ea029393101ex99-1.htm",
+   "src": "SEC 6-K 2026-06-11 — FORM OF PROXY CARD FOR EXTRAORDINARY GENERAL MEETING OF SHAREHOLDERS",
+   "signals": "저유통, 과거급등주, 5일+50%, 직전5일 +40%봉, RVOL<1.5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "LNAI",
+   "date": "2025-10-30",
+   "pick": "random",
+   "max5": 0.6280552289933212,
+   "min10": -0.13815090046720924,
+   "cat": "원인 불명",
+   "cause": "8-K(3.01 상장 기준 미달) 외 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1527728/000173112225001446/e6985_8-k.htm",
+   "src": "SEC 8-K 2025-10-30",
+   "signals": "과거급등주, SSR, RVOL<1.5, 8-K/6-K≤2일, 위임장≤60일"
+  },
+  {
+   "ticker": "TNON",
+   "date": "2026-08-07",
+   "pick": "top",
+   "max5": 0.5594329413042063,
+   "min10": 0.00763355444294711,
+   "cat": "역분할 직후 저유통",
+   "cause": "1:35 역분할 발표·시행 직후 급등",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaXI2Y2lPb2ZvMnpQOVF6c1ZweDRpOU9jbDdqZXJES2JiZzFjeFI4b1hwck1iUjUySlFhemxGcTlHamk3aUhaNTB4bjZiRldvRXd2MlIwd2xaM2RZRDFnVXRwajdXVWpZSVdrTVdmMnNNNnBnNWZSNWxmWWpxV0dfYmlwWFlLYjUyUjRkZWh4ZU5EVG9JLUk4cl9nRjdGWEM1WXlYcTBia045ekdnd2gtaVlhanBHczBqQzlWdzdBelkzeDhaRFNyRVhMMW5PZkU?oc=5",
+   "src": "Tenon Medical, Inc. Announces 1:35 Reverse Stock Split - ACCESS Newswire",
+   "signals": "저유통, 과거급등주, SSR, 위임장≤60일"
+  },
+  {
+   "ticker": "DRMA",
+   "date": "2026-08-11",
+   "pick": "random",
+   "max5": 0.49999994481051635,
+   "min10": 0.09259250061011981,
+   "cat": "실적·흑자전환",
+   "cause": "2분기 실적·스킨케어 출시 계획 발표 후 시간외 +35%",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSDVrYU5nQmlDN2VpclRPVFcxeS16aDZJQUM0R1AzeEMxbmxoeFh0dFZDb2E2NHo5V09tMVgyZFZnTlJXWTBrYkg3REpDZU4zTUpfbl9fQVRYREJKU1hSZ21PS3hYWXhYR1JoRjZvR2kwNVQ0V1ZxeVIzV2RNQmZ4LVR3N21aVmRKTDctam10VzRobmFVWjZPTXdsdHNHNnI5SURJcGlkN01ZNG8t?oc=5",
+   "src": "Trending Stocks Today | Dermata Therapeutics Soars 35.18% Post-Market - Moomoo",
+   "signals": "저유통, 과거급등주, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "ISPC",
+   "date": "2026-04-28",
+   "pick": "random",
+   "max5": 0.48464913725412684,
+   "min10": -0.1228070065365382,
+   "cat": "역분할 직후 저유통",
+   "cause": "1-for-40 역분할 후 '마이크로 플로트' 급등",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd09Ra19WQW9IWDk3QWs1S3o5Q3F3Tnoxd3dNQlBFOVV3X24yeFdCOEljNXNXSmgwT1daNFJnQnpseUxtb25wbjlXM0Z1dExDTVJhbzZObEhWMWs0dHZzNGNIYnpJMFdGbG9hZFNNdU9qVjBzUVVaaVhpbncySk5mUDc1NzljRWd4aU0tX2JPVUxYRUJESnhpcEc3NVBmQQ?oc=5",
+   "src": "iSpecimen Announces 1-for-40 Reverse Stock Split - Yahoo Finance",
+   "signals": "과거급등주, SSR, RVOL<1.5"
+  },
+  {
+   "ticker": "GAUZ",
+   "date": "2026-03-19",
+   "pick": "random",
+   "max5": 0.41442712265876835,
+   "min10": -0.15134372640473892,
+   "cat": "기타 회사 발표",
+   "cause": "이사 선임·나스닥 규정 준수 회복 발표",
+   "link": "https://www.sec.gov/Archives/edgar/data/1781446/000121390026031832/ea028259901ex99-1.htm",
+   "src": "SEC 6-K 2026-03-19 — Gauzy Strengthens Board and Regains Compliance with Nasdaq Listing",
+   "signals": "저유통, 과거급등주, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "NXAT",
+   "date": "2026-07-31",
+   "pick": "random",
+   "max5": 0.40873015047050765,
+   "min10": -0.1984126999144531,
+   "cat": "원인 불명",
+   "cause": "기간 중 424B5 공모만 확인, 상승 원인 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/2000756/000182912626008268/",
+   "src": "SEC 424B5 2026-08-03",
+   "signals": "과거급등주, SSR, RVOL≥5"
+  },
+  {
+   "ticker": "ZTG",
+   "date": "2026-09-04",
+   "pick": "top",
+   "max5": 0.4078948235247615,
+   "min10": -0.21052627451201833,
+   "cat": "계약·제휴·M&A",
+   "cause": "ZentoAI 인수 계약(AI·빅데이터) 발표",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON1RWS3h3X2JFQV9QMF9CQVFVdmtVeDhpVVB5UWVXUzAzOUR2eV9OYWQ1UzNlVHJidUR5cEczZFM3a040cmxQREhVMXp2Wk1IeVZDbVhFcF9CMjZOYzM0bTRnRE9EMk9IdE95SVVTcXVZV3Z2TzFRWGM1UDUzampYV2RUZVFjLWNfalVoUHBVTnhpQUVzS3lGUjlIVFZvZ0tIZUdn?oc=5",
+   "src": "Zenta Group Company Limited Announces Agreement to Acquire ZentoAI Intelligent Technology Company Limited - Ya",
+   "signals": "저유통, 과거급등주, SSR, RVOL≥5"
+  },
+  {
+   "ticker": "SPHL",
+   "date": "2025-11-05",
+   "pick": "random",
+   "max5": 0.38408304391222603,
+   "min10": -0.3010380489028259,
+   "cat": "원인 불명",
+   "cause": "뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22SPHL%22%20after%3A2025-11-01%20before%3A2025-11-15",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "저유통, 과거급등주, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "LFS",
+   "date": "2026-01-14",
+   "pick": "random",
+   "max5": 0.36363641472084596,
+   "min10": -0.11447808447611696,
+   "cat": "원인 불명",
+   "cause": "뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22LFS%22%20after%3A2026-01-10%20before%3A2026-01-24",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "저유통, 과거급등주, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "IVF",
+   "date": "2025-12-30",
+   "pick": "random",
+   "max5": 0.35950925672609557,
+   "min10": -0.07607355064315102,
+   "cat": "원인 불명",
+   "cause": "공모(424B4) 직후 반등, 원인 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1417926/000149315225029789/",
+   "src": "SEC 424B4 2025-12-31",
+   "signals": "저유통, 과거급등주, SSR, 증권신고서≤30일, RVOL<1.5, 위임장≤60일"
+  },
+  {
+   "ticker": "LNAI",
+   "date": "2026-08-03",
+   "pick": "random",
+   "max5": 0.33891209507374365,
+   "min10": -0.10669460386954333,
+   "cat": "공매도 이슈·스퀴즈",
+   "cause": "'불법 무차입 공매도' 소송(10명 피고) 발표",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWnBOWHdzV2kyRk9TTUV1Slp1SXVMalhyOGJ1OXdRZjVnQmkwLUZtMGJUQVdFeTVaYXZOeEVvREVhT1hxcUFOcVVzYjdhYlBMZWNtVVVKZkZHM1VWczdkaUczd0xtSk5LM3ZFelh3cHdhcDZyV0wyRjFkYUdxYU1FTE1QNXpNZzNqS2VpY1V0RzdkOEVTOGFRMmxmS0JSQQ?oc=5",
+   "src": "Lunai Bioworks (Nasdaq: LNAI) Names 10 Defendants in Naked Short Selling Fraud Suit - Yahoo Finance",
+   "signals": "과거급등주, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "QTTB",
+   "date": "2025-10-08",
+   "pick": "random",
+   "max5": 0.33444815946837925,
+   "min10": -0.08361203986709476,
+   "cat": "원인 불명",
+   "cause": "뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22QTTB%22%20after%3A2025-10-04%20before%3A2025-10-18",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "저유통, 갭유지, RVOL≥5"
+  },
+  {
+   "ticker": "NXTS",
+   "date": "2026-05-26",
+   "pick": "top",
+   "max5": 0.30560926506574826,
+   "min10": -0.0715667079495117,
+   "cat": "원인 불명",
+   "cause": "8-K(1.01/2.03 차입계약)만 확인, 관련 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/1789192/000149315226025397/form8-k.htm",
+   "src": "SEC 8-K 2026-05-27",
+   "signals": "저유통"
+  },
+  {
+   "ticker": "BGDE",
+   "date": "2025-11-19",
+   "pick": "random",
+   "max5": 0.3000000317891438,
+   "min10": -0.2666666507720947,
+   "cat": "역분할 직후 저유통",
+   "cause": "1-for-20 역분할 발표(Mawson, 8-K)",
+   "link": "https://www.sec.gov/Archives/edgar/data/1218683/000121390025112368/ea026625901ex99-1_mawson.htm",
+   "src": "SEC 8-K 2025-11-19 — MAWSON INFRASTRUCTURE GROUP INC. ANNOUNCES 1-FOR-20",
+   "signals": "과거급등주, RVOL≥5, 8-K/6-K≤2일"
+  }
+ ],
+ "fail": [
+  {
+   "ticker": "HUBC",
+   "date": "2026-09-21",
+   "pick": "worst",
+   "max5": -0.1866666475931803,
+   "min10": -0.7549999952316284,
+   "cat": "역분할 덤프",
+   "cause": "역분할 발표(9/17) 후 -75%, 나스닥 통지",
+   "link": "https://www.sec.gov/Archives/edgar/data/1905660/000121390026100960/ea030581201ex99-1.htm",
+   "src": "SEC 6-K 2026-09-17 — HUB Announces Reverse Share Split",
+   "signals": "과거급등주, SSR, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "PRLD",
+   "date": "2025-11-03",
+   "pick": "worst",
+   "max5": -0.447236171572718,
+   "min10": -0.7052763888331448,
+   "cat": "임상·파트너 실망",
+   "cause": "Incyte 옵션계약 발표와 함께 CMO 사임·SMARCA2 프로그램 중단 → -71%",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0pfMVZIOEh5Zm8zUkVHRFk1dkx6UUtESW5mV2tjbGg4cTA5QlEyTXdISXlZTFAwejVBTnZvaWEyYWpVR2Z3cWFualN5M2lpbl94T1o1d3ZXNmxNTlR4LWs4SDBYVEV0N3djY2dJUnRKNWYwdWZ2QXRjV2cyZU1nNmxZYmhwWm9HOE5UczJlUVFRanJwUkVpdjAxMDdGaXMyT3c?oc=5",
+   "src": "Prelude loses CMO, pauses SMARCA2 degraders and bags $60M from Incyte - Fierce Biotech",
+   "signals": "5일+50%, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "EZGO",
+   "date": "2026-05-07",
+   "pick": "worst",
+   "max5": 0.0,
+   "min10": -0.6521739350775406,
+   "cat": "역분할 덤프",
+   "cause": "1-for-150 역분할 발표(5/15), 직전 424B5(4/8) 공모",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPemNwUnJQYjVpSTF1aTg2Ym1oV1JiNl9GNk5aXzNGa2VXQVRnaVRPMFJlS05zMlpNSmVGVXJFLWJReGROYTdQSWZjTXNwQy11ZFBTTjJLZmJPUFJiVlRDVnFLLXBvcDBMS2ZMYTR4RWU0ejVxUlJ6M21GUXBDMTRfbjRaejgzenFOczdPdXpHVXUzZThLZXliSQ?oc=5",
+   "src": "EZGO Announces 1-for-150 Reverse Share Split Effective May 19, 2026 - Yahoo Finance",
+   "signals": "저유통, 과거급등주, SSR, 공모완료, 424B≤30일, 직전5일 +40%봉, RVOL≥5"
+  },
+  {
+   "ticker": "DFNS",
+   "date": "2026-07-10",
+   "pick": "worst",
+   "max5": -0.09166666666666667,
+   "min10": -0.65,
+   "cat": "원인 불명",
+   "cause": "하락 원인 뉴스 없음(직전 S-1/A·424B3 7/1 공모 등록은 있음, 이후 7/27 별도 급등)",
+   "link": "https://www.sec.gov/Archives/edgar/data/1787518/000121390026074046/",
+   "src": "SEC 424B3 2026-07-01",
+   "signals": "과거급등주, 공모완료, 424B≤30일, 증권신고서≤30일, RVOL≥5, 8-K/6-K≤2일, 위임장≤60일"
+  },
+  {
+   "ticker": "VRXA",
+   "date": "2026-06-17",
+   "pick": "worst",
+   "max5": -0.09556312798984423,
+   "min10": -0.6467576986211838,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "합병 상장 직후 BIO 2026 PR 로 급등→소멸, '밸류에이션 과다' 분석",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXV3XzljOWZncE8wVXRldVdkT0NNcXAxQzhVci04TGtZVFJ0ckRjbXI1UWNTZ1o2bWxhZmZRN056VkMyUl9zWW5fTVFuWkRpcHR6ZUxsc0JraHZpNmwtLW1oaTd6MndwZVE2SHNHMzVTUW5pTm9wLWlBS3NDNlktanpxRHpub3JDQmNqcHlpaEdYU0ZQVkxrQk9CS0RGajk0?oc=5",
+   "src": "VERAXA Unveils Cancer Therapy Platform, Sparks Partnering Talks at BIO 2026 - Yahoo Finance",
+   "signals": "저유통, SSR, 직전5일 +40%봉, RVOL≥5"
+  },
+  {
+   "ticker": "BCTX",
+   "date": "2026-01-13",
+   "pick": "worst",
+   "max5": -0.5247252728058722,
+   "min10": -0.6245421358985892,
+   "cat": "유상증자·희석",
+   "cause": "+50% 급등 당일 $30M 공모(424B4/S-1MEF) 가격 결정 → -62%",
+   "link": "https://www.sec.gov/Archives/edgar/data/1610820/000149315226002430/ex99-1.htm",
+   "src": "SEC 8-K 2026-01-15 — Therapeutics Announces Pricing of $30 million Public Offering",
+   "signals": "저유통, 과거급등주, 증권신고서≤30일, 5일+50%, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "WHLR",
+   "date": "2026-08-28",
+   "pick": "worst",
+   "max5": -0.15607479143697522,
+   "min10": -0.609345790320196,
+   "cat": "유상증자·희석",
+   "cause": "우선주→보통주 교환 발행(424B3 연속) 중 프리마켓 +124% 후 하락",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOblVRZ2pIQnBZMjhxNHpKeTVTSEdGR3lfcmM0TWZXR0tQVS1teWNwRWRIQlU5NFkxZV8zeEgwMHg1ME50S2xkWmhNaEJMRTZFUTduZzN3TVNVYjhWanIxWnFzOEZ0OU9KbDlYNmZjR203dm9NcktqQjI4NnpxUTdwM3o5dGVpcm5ldzJQdnpuQXdWTW5NUTcxNDNuZEFLY21abVNldjkwakFMSlFyZWNB?oc=5",
+   "src": "Trending Stocks Today | Wheeler Real Estate Investment Trust Soars 124.1% Pre-Market - Moomoo",
+   "signals": "저유통, 과거급등주, SSR, 424B≤30일, RVOL≥5"
+  },
+  {
+   "ticker": "WYHG",
+   "date": "2026-08-06",
+   "pick": "worst",
+   "max5": 0.2919633680400935,
+   "min10": -0.5890132255128352,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "ADS 분리로 +582% 후 급락",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS0RfSUlVQ3hVeWRwXzk2U2RoWUdNajF1RWNJUHRDdjNLd0dqRnJ6MUNUNDBvMjNjOGxCVVI1anZPZnhZT0IwdG9zSUFFWGpKWWlKcmxTQkhJd0lpSHpyUU1SenNtUmN4Q1c4al9XandWMDhyZ1JjRlZSRTVXSkE0SWtTZzA5c2Q3SFhwU1FoZUttZHU5NkE5cWh6YnROenJ4T1BhaEZseHFZdw?oc=5",
+   "src": "Wing Yip Food (NASDAQ:WYHG; KOSDAQ:900340) jumps 582% as U.S. ADSs detach from Korean shares - TechStock²",
+   "signals": "과거급등주, 갭유지, 5일+50%, 당일+20%, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "CRE",
+   "date": "2026-08-26",
+   "pick": "worst",
+   "max5": -0.10425844994312616,
+   "min10": -0.5859030900238453,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "상반기 고객수 PR 로 +142% 후 하락",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbTIzRkFic3R6emJpLXdBeVNlSS0zRlA5aEFRTDhiZ0pwcXRia3dQdzN0MTdtRTFYVVZlMVFtSkxVWE9QMHVPQTd3dWN5aVpzcDFxUS1FU3p4S3FWMHdyTzc5cW4wSWNpbS1ycmZsc19QUFdFYkdxRmU1YW5MX1AzT2hFbGtCT1ZhWF9hNXpVZ3o0c20tUVlF?oc=5",
+   "src": "Trending Stocks Today | Cre8 Enterprise Soars 142.43% - Moomoo",
+   "signals": "저유통, 과거급등주, 갭유지, 5일+50%, 당일+20%, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "SXTC",
+   "date": "2026-10-09",
+   "pick": "worst",
+   "max5": -0.24832214120755136,
+   "min10": -0.5838926195974828,
+   "cat": "유상증자·희석",
+   "cause": "$12M 등록직접공모(424B5) 발표 → -88%",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY3lMcll3THJVVGNkNDFrSzJ6bFI2aXowVVlzZ0Fubm5vYVU2T29iT1RoRUFEWkJBZXNzdFhWalE5dEdJYmxjcXNsNlpfdVBxM2dtVk9GbHpUbEJUcG9DS2MtR0lycDdhNi1qaXF3QUY4U2otUGdPdFJDZWx1LTBQRk4taTA5OEVnckhRLTBqZm9YNDNGd2xlNXl2anpMZE5qaDR0SFQ1dl80Rkx2eGpDWkN2UG5mcnlQT1RpeDJQdGtMUVk4aUFtZXZVa1NPajhiS1NJ?oc=5",
+   "src": "China SXT Pharmaceuticals Inc. (SXTC) Announces $12M Registered Direct Offering - TradingView",
+   "signals": "저유통, 과거급등주, SSR, 424B≤30일, 직전5일 +40%봉, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "LNAI",
+   "date": "2026-10-12",
+   "pick": "worst",
+   "max5": -0.018018000602490147,
+   "min10": -0.5837837779786079,
+   "cat": "상장·존속 위험",
+   "cause": "나스닥 거래정지 요청·감사인 '계속기업 의문'(10-K)",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV21WeU83UGtvaXBkNjl3UEVEWDNNa3dpNGZmcVVmWDVJNFFwMFgzc0VabHJuQ3Vyb19NVzlKRjhjdDFxbHVSc2NrX01XQjVMWndxdlZ2bEVickQ1Z0tnaWVOeE92dFFJNWJRMlQxUm90Z2pHX2FiWERVRUR1YXRyVFBmWER3eE5VZDlQaXYxaDFCQjE4dVpQekcxMjJUcU1aQTU4M0JwODlDdw?oc=5",
+   "src": "Lunai Bioworks Inc. Auditor Raises 'Going Concern' Doubt - www.marketscreener.com",
+   "signals": "과거급등주, SSR, RVOL<1.5"
+  },
+  {
+   "ticker": "WHLR",
+   "date": "2026-10-05",
+   "pick": "worst",
+   "max5": 0.23853209403797182,
+   "min10": -0.5798165226913782,
+   "cat": "유상증자·희석",
+   "cause": "우선주 교환 신주 발행(424B3·8-K 3.02) 중 하루 -47%",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTHJ0aTJyU3VqWk9JZFk0X1Rld3VtNVdia2c1VTJ0SEVFSmhXZHdKQnNWcHZNSDN5UGh0bmlNdGpZNmpIeGxpRU5uNEQ0LXRYaENwZ1JFUE44UVhXR25sUjFKUE1sOUxWdWwyZ2NzLTg3V2VJRXNOb3ZZZTU3Vk12c3lNX21PQmFtZVZVSEVYZGd1bU4xZHFsag?oc=5",
+   "src": "Why Did Wheeler REIT (NASDAQ:WHLR) Crash 47 Percent in a Day? - kalkine.ca",
+   "signals": "저유통, 과거급등주, SSR, 공모완료, 424B≤30일, RVOL<1.5"
+  },
+  {
+   "ticker": "LHAI",
+   "date": "2026-07-01",
+   "pick": "worst",
+   "max5": -0.20437954044906048,
+   "min10": -0.5620437797419562,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "인수 완료·GPU 금융 PR 로 급등 → 'euphoria fades', 나스닥 미준수 통지",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82ZDZQdjhBV0VhdmkyclhWaDlJc3JyS283ZFRrUGNlOVhDU3p0em1XRDNkM2cyWEpfM1YtYl9DYXUyMTlSUDVzQjhlMElzcHNXUDlnY213YTM5eFM3clZoUERnc29WTDZCZjVScXdIaHQ3UHRWWEtCZm5BMA?oc=5",
+   "src": "LHAI Stock Slides After Mortgage One Deal Euphoria Fades - www.timothysykes.com",
+   "signals": "저유통, 갭유지, 5일+50%, 당일+20%, RVOL≥5, 위임장≤60일"
+  },
+  {
+   "ticker": "CLIK",
+   "date": "2026-03-16",
+   "pick": "worst",
+   "max5": 0.07788161901216584,
+   "min10": -0.5327102859270056,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "실적 성장 PR(3/13) 후 하락, 이후 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/2020027/000149315226009994/ex99-1.htm",
+   "src": "SEC 6-K 2026-03-13 — Holdings Limited (NASDAQ: CLIK) Reports Strong Growth in Silver Economy Segment,",
+   "signals": "과거급등주, SSR, RVOL≥5"
+  },
+  {
+   "ticker": "PMAX",
+   "date": "2026-09-24",
+   "pick": "worst",
+   "max5": 0.1272727522311463,
+   "min10": -0.5309090907777307,
+   "cat": "유상증자·희석",
+   "cause": "Remington 지분 인수 PR 후 $2.42M 사모(Form D) 조달",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTZLNVlpOEtaUGMta0NUOTBIUjRfd2x1MTBNOWxQWkdvaEd5c29PNERSQWdENzhqZ09GQ1pZajF3UDIzOEJoU09YTVB6MFhiSlJMcWNTNVBIdkhYR2h4cEpwWlpiUmdKUDZheXJjQndPbnd6dTJTckcxY21RaFM1cUFUcGl0VGM2Z2I2ZGJTMlZkNUo4ZHpZWVR6Yk5KUXhnTVVCaXJrQnNfR3lz?oc=5",
+   "src": "Powell Max raises $2.42M in private placement, taps Spartan for M&A advisory - Dealroom",
+   "signals": "저유통, 과거급등주, SSR, 갭유지, 5일+50%, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "BGDE",
+   "date": "2026-04-24",
+   "pick": "worst",
+   "max5": 0.15332430556139642,
+   "min10": -0.5156038007221786,
+   "cat": "상장·존속 위험",
+   "cause": "나스닥 상장폐지 결정 통지(8-K 3.01)·사명 변경",
+   "link": "https://www.sec.gov/Archives/edgar/data/1218683/000121390026047100/ea028753501ex99-1.htm",
+   "src": "SEC 8-K 2026-04-23 — Mawson Infrastructure Group Inc. Becomes Big",
+   "signals": "저유통, 과거급등주, SSR, 당일+20%, RVOL<1.5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "RCT",
+   "date": "2026-06-24",
+   "pick": "worst",
+   "max5": 0.01972384593599208,
+   "min10": -0.5147929138428429,
+   "cat": "유상증자·희석",
+   "cause": "F-1/F-3 재판매 등록 효력(EFFECT 6/23-24) 직후 하락, 같은 기간 PR 다수",
+   "link": "https://www.sec.gov/Archives/edgar/data/2027360/999999999526002090/",
+   "src": "SEC EFFECT 2026-06-23",
+   "signals": "과거급등주, 424B≤30일, 증권신고서≤30일"
+  },
+  {
+   "ticker": "GRI",
+   "date": "2026-01-26",
+   "pick": "worst",
+   "max5": 0.2072071313529098,
+   "min10": -0.5117117216192117,
+   "cat": "유상증자·희석",
+   "cause": "임상 2a 데이터 PR 직후 S-3·424B5 공모(1/30)",
+   "link": "https://www.sec.gov/Archives/edgar/data/1824293/000182429326000005/",
+   "src": "SEC 424B5 2026-01-09",
+   "signals": "저유통, 과거급등주, 공모완료, 424B≤30일, 위임장≤60일"
+  },
+  {
+   "ticker": "CIRC",
+   "date": "2026-06-23",
+   "pick": "worst",
+   "max5": 0.13533830206001718,
+   "min10": -0.5097744443794121,
+   "cat": "유상증자·희석",
+   "cause": "정부계약 PR 후 424B3(6/24) 재판매 등록 → 하락",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUXBXSjFzdE9ieGF5NEZ1M3RXU0tQaWg0T0Iwb0FELWVTbThzVFZsMnZVMlVLbmZucmJ6YTBCVUNWNUhibzBadHpRNmRzR2R2YWZVaWY3UVNPcVZuZWZkNnNURWhBd0pmZXFRcTZuTm94dHBtNTBvV3o2d3ExLUhwalA1TG5PRml1MVkyUTc4UUszQlBySlgzN2k1WEhOSnQwRkRKUDB6UEduWS1jRUVVZg?oc=5",
+   "src": "Atlantic International’s Circle8 Secures Minimum $52 Million Government Contract Award - Yahoo Finance",
+   "signals": "SSR, 갭유지, 공모완료, 424B≤30일, 5일+50%, 당일+20%, RVOL≥5"
+  },
+  {
+   "ticker": "AZIO",
+   "date": "2025-12-17",
+   "pick": "worst",
+   "max5": -0.16249999161809692,
+   "min10": -0.5062499939464034,
+   "cat": "원인 불명",
+   "cause": "관련 뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22AZIO%22%20after%3A2025-12-13%20before%3A2025-12-27",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "저유통, SSR, RVOL<1.5, 위임장≤60일"
+  },
+  {
+   "ticker": "HCWB",
+   "date": "2026-03-16",
+   "pick": "worst",
+   "max5": 0.11229939796972777,
+   "min10": -0.5037433415982272,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "CAR-T 연구 결과로 프리마켓 급등 → 직전 424B4(2/19) 공모 물량에 소멸",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOFY1UVBjeU5pZFp5U01ic2M0SkRwbjNoWG9YVE53U0F2Y2lLUXY4Q3cwTTlyOEtXVTlsTzhNT0FNRzB6NFItMUIzN3Y0Q2FTSlZqdVkweS1jakFlcTFWWDIwako5Q3NwNU1WdVNRM0o5SkpMVHhkZ2tEX1BRdThzRVNxcjc2RE56THE1SkQxZGZTZzdUQ1p1WTdmZ0dyRUJ6NWJCSzNEM1hKZGs2Ry1nVVhOeW9GUWIwVVNWTXRBcDFpUVU?oc=5",
+   "src": "HCWB Stock Soars Pre-Market On Positive Research Results For CAR-T Cell Therapy - Stocktwits",
+   "signals": "저유통, 과거급등주, SSR, 갭유지, 공모완료, 424B≤30일, 증권신고서≤30일, 5일+50%, 당일+20%, RVOL≥5, 위임장≤60일"
+  },
+  {
+   "ticker": "PMAX",
+   "date": "2026-04-08",
+   "pick": "worst",
+   "max5": 0.29729733212835296,
+   "min10": -0.4297297654315618,
+   "cat": "역분할 덤프",
+   "cause": "1-for-10 주식병합 발표(4/15) + 집단소송 조사",
+   "link": "https://www.sec.gov/Archives/edgar/data/2012096/000121390026043772/ea028633101ex99-1.htm",
+   "src": "SEC 6-K 2026-04-15 — POWELL MAX LIMITED ANNOUNCES 1-FOR-10 SHARE CONSOLIDATION EFFECTIVE",
+   "signals": "저유통, 과거급등주"
+  },
+  {
+   "ticker": "NAMI",
+   "date": "2026-06-23",
+   "pick": "random",
+   "max5": -0.050228328795904775,
+   "min10": -0.378995405554147,
+   "cat": "역분할 덤프",
+   "cause": "ADS 비율 변경(실질적 역분할) 발표",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZDAzLW1ZVGl0VElDWlNqNVNGNXo3NUJHeExJNEQ1bzVEWkIzWEZCVEpSeWlWU1MtYzZ0b0JEWjhpVmIySlp4enZadHpXX1pDTjZRNmU0N3BMTmJKenhFeEV6cDFUdGJWXzQ3cldiQUo2WXpYRV9MZGQ1bUg2eUQ5UUdWemVsZ0QtTzgyc0VWeTJYNTdtX3h6RklOQ0N2TXBJd1MtTEtMcVd3V09J?oc=5",
+   "src": "Jinxin Technology Holding Company Announces Plan to Implement ADS Ratio Change - Yahoo Finance",
+   "signals": "과거급등주, SSR, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "SPHL",
+   "date": "2026-09-24",
+   "pick": "random",
+   "max5": 0.009584655045652868,
+   "min10": -0.2843450710426402,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "반기 실적 6-K 후 급등→'whipsaw'",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc250VXVQY0hQWDNGZkppN21DaVRjLUVOOVRDUGxvaG1XRXhONWdDM3N3S2hoRnk3SEo5UjhrdS1NSmdiYnlrcTV5emZzMWtVOU4zelNLTWVIVGRxV2NMNjlHM3hQeWV4U1o0TnV6SDA4SEdQdXNRaTJLenh5bWZzN0pWRQ?oc=5",
+   "src": "SPHL Stock Whipsaws After Spike, Traders Eye Key Levels - Timothy Sykes",
+   "signals": "저유통, 과거급등주, 갭유지, 당일+20%, RVOL≥5, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "CIRC",
+   "date": "2026-06-08",
+   "pick": "random",
+   "max5": 0.178756488085132,
+   "min10": -0.28108808740202584,
+   "cat": "원인 불명",
+   "cause": "뉴스 없음(424B3 5/27 재판매 등록은 있음)",
+   "link": "https://www.sec.gov/Archives/edgar/data/1605888/000121390026061540/",
+   "src": "SEC 424B3 2026-05-27",
+   "signals": "SSR, 공모완료, 424B≤30일"
+  },
+  {
+   "ticker": "FGI",
+   "date": "2025-10-08",
+   "pick": "random",
+   "max5": -0.008183337093661147,
+   "min10": -0.2062193455562329,
+   "cat": "원인 불명",
+   "cause": "뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22FGI%22%20after%3A2025-10-04%20before%3A2025-10-18",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "저유통, 과거급등주, RVOL<1.5"
+  },
+  {
+   "ticker": "PRFX",
+   "date": "2026-05-20",
+   "pick": "worst",
+   "max5": -0.049689467207783,
+   "min10": -0.2049689689336892,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "F-1·424B3(5/19) 직후 전임상·AI PR 연발, 급등 후 -50%",
+   "link": "https://www.sec.gov/Archives/edgar/data/1801834/000117891326002809/",
+   "src": "SEC 424B3 2026-05-19",
+   "signals": "저유통, 과거급등주, 424B≤30일, 증권신고서≤30일, RVOL≥5"
+  },
+  {
+   "ticker": "QH",
+   "date": "2025-10-08",
+   "pick": "worst",
+   "max5": 0.1038961312404516,
+   "min10": -0.17922073659576654,
+   "cat": "펌프 후 소멸(무소식)",
+   "cause": "관련 뉴스 없음, 54회 연속 경보 후 -91%",
+   "link": "https://www.sec.gov/Archives/edgar/data/1781193/000110465925099277/tm2528680d1_6k.htm",
+   "src": "SEC 6-K 2025-10-14 — RULE 13a-16 OR 15d-16",
+   "signals": "저유통, SSR, RVOL≥5"
+  },
+  {
+   "ticker": "MYSE",
+   "date": "2026-02-13",
+   "pick": "random",
+   "max5": 0.06896556989029334,
+   "min10": -0.16157633205812671,
+   "cat": "유상증자·희석",
+   "cause": "424B5(2/6) 공모 직후 주주서한 PR",
+   "link": "https://www.sec.gov/Archives/edgar/data/1648960/000121390026013331/",
+   "src": "SEC 424B5 2026-02-06",
+   "signals": "저유통, 과거급등주, 공모완료, 424B≤30일, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "QH",
+   "date": "2026-02-18",
+   "pick": "worst",
+   "max5": 0.10784315329613703,
+   "min10": -0.1441176058099336,
+   "cat": "펌프 후 소멸(무소식)",
+   "cause": "직전 424B5(2/11) 공모 후 무소식 급등→폭락(-93%), 임시주총 소집",
+   "link": "https://www.sec.gov/Archives/edgar/data/1781193/000121390026014927/",
+   "src": "SEC 424B5 2026-02-11",
+   "signals": "저유통, 과거급등주, 공모완료, 424B≤30일, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "NOMA",
+   "date": "2026-01-06",
+   "pick": "random",
+   "max5": 0.22081215048835268,
+   "min10": -0.13451775728238646,
+   "cat": "원인 불명",
+   "cause": "뉴스 없음(직전 424B3 12/9)",
+   "link": "https://www.sec.gov/Archives/edgar/data/1994214/000149315225026888/",
+   "src": "SEC 424B3 2025-12-09",
+   "signals": "저유통, SSR, 공모완료, 424B≤30일, RVOL≥5"
+  },
+  {
+   "ticker": "IVF",
+   "date": "2025-12-18",
+   "pick": "random",
+   "max5": 0.03429793112979018,
+   "min10": -0.1200428611701635,
+   "cat": "유상증자·희석",
+   "cause": "S-1 공모 등록(12/17) 시점, 인수 PR 와 겹침",
+   "link": "https://www.sec.gov/Archives/edgar/data/1417926/000149315225028163/",
+   "src": "SEC S-1 2025-12-17",
+   "signals": "저유통, 과거급등주, SSR, 증권신고서≤30일, RVOL<1.5, 8-K/6-K≤2일, 위임장≤60일"
+  },
+  {
+   "ticker": "SKYQ",
+   "date": "2025-10-08",
+   "pick": "random",
+   "max5": 0.03189497147028675,
+   "min10": -0.11819886391085199,
+   "cat": "원인 불명",
+   "cause": "뉴스 없음(424B3 9/25 등록은 있음)",
+   "link": "https://www.sec.gov/Archives/edgar/data/1812447/000109690625001578/",
+   "src": "SEC 424B3 2025-09-25",
+   "signals": "저유통, 과거급등주, SSR, 공모완료, 424B≤30일, 증권신고서≤30일, RVOL<1.5, 8-K/6-K≤2일, 위임장≤60일"
+  },
+  {
+   "ticker": "RCT",
+   "date": "2026-02-23",
+   "pick": "random",
+   "max5": 0.12389379317314764,
+   "min10": -0.11504424405327618,
+   "cat": "원인 불명",
+   "cause": "관련 뉴스 없음",
+   "link": "https://www.sec.gov/Archives/edgar/data/2027360/000149315226008374/form6-k.htm",
+   "src": "SEC 6-K 2026-02-27",
+   "signals": "과거급등주, RVOL<1.5"
+  },
+  {
+   "ticker": "EZGO",
+   "date": "2026-10-05",
+   "pick": "random",
+   "max5": 0.12309372265685559,
+   "min10": -0.10130718572314201,
+   "cat": "원인 불명",
+   "cause": "뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22EZGO%22%20after%3A2026-10-01%20before%3A2026-10-15",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "저유통, 과거급등주, RVOL<1.5"
+  },
+  {
+   "ticker": "NXAT",
+   "date": "2026-08-19",
+   "pick": "random",
+   "max5": 0.06707318003939289,
+   "min10": -0.07926829046681128,
+   "cat": "유상증자·희석",
+   "cause": "424B5(8/20) 추가 공모",
+   "link": "https://www.sec.gov/Archives/edgar/data/2000756/000182912626008268/",
+   "src": "SEC 424B5 2026-08-03",
+   "signals": "과거급등주, 공모완료, 424B≤30일, 8-K/6-K≤2일"
+  },
+  {
+   "ticker": "MOBX",
+   "date": "2026-06-04",
+   "pick": "random",
+   "max5": 0.11312216999309133,
+   "min10": -0.0791854974188223,
+   "cat": "펌프 후 소멸(PR)",
+   "cause": "드론업체 인수 PR 당일 급등 후 매도",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzdGOFdWRkowLTlTblQtR184YlZjLTBQc0JScHZWTnJIOTNDV29MQXRiQUhGSEd5aGhXNWJuWmVRSnVYZjRxcnNoMHViS3RZLU0taWwzNXRjQXVlY0F5dnBYUzBKUGh1dE9xaVlDRXlPVkI4d0JQb2JzdjR4VGUyMGtqckZnaHEzem14MkwxUHk5UHIwQTdQSGZTMA?oc=5",
+   "src": "Is MOBX The Next Big Domestic Defense Play? Inside Mobix Labs’ Move to Acquire U.S. Drone Maker Vision Aerial ",
+   "signals": "저유통, 과거급등주, 공모완료, 424B≤30일"
+  },
+  {
+   "ticker": "XTLB",
+   "date": "2025-11-10",
+   "pick": "random",
+   "max5": 0.09574465319386105,
+   "min10": -0.042553214424603025,
+   "cat": "원인 불명",
+   "cause": "뉴스·공시 없음",
+   "link": "https://news.google.com/search?q=%22XTLB%22%20after%3A2025-11-06%20before%3A2025-11-20",
+   "src": "검색 결과 없음 (Google News 검색 링크)",
+   "signals": "과거급등주"
+  },
+  {
+   "ticker": "ACB",
+   "date": "2026-10-05",
+   "pick": "random",
+   "max5": 0.04708520994412879,
+   "min10": -0.03811660870850042,
+   "cat": "원인 불명",
+   "cause": "Curaleaf 적대적 인수 제안 진행 중, 추가 상승 없음(공모 아님)",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPenBqaWZnRmpPdGdZbUNRZmdORFdzSURFd3RQQ2RoTXRxY2FjSktvYWsxQlVETTJnR1NQZVpiRUJ5R05RRFU4UUsyckRtMEhBbFBlcUVsSHMwUlRwM1hYdzJOd2Zrck10VXFoZDktVUtVdzl6dFhYSXVFSHhyQlFxemtGUGRhMmV5TGpael93WXQ3UGhYVWotcDVuZTFOSk1ScWpGWWlHNzVjNmphZkk2WlJHdkRMa2tQUXlYaG00NUFQeGVrVVVBZnNqRFJ6cmVfZzNnSGhVcw?oc=5",
+   "src": "Aurora Cannabis Inc. (ACB) Urges Holders to Reject Curaleaf’s Revised Hostile Bid - TradingView",
+   "signals": "갭유지, RVOL≥5"
+  },
+  {
+   "ticker": "RCT",
+   "date": "2025-12-03",
+   "pick": "random",
+   "max5": 0.1038961622039043,
+   "min10": 0.012987000923330161,
+   "cat": "원인 불명",
+   "cause": "AI 신사업 기사 외 특이사항 없음",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQODhvbEpQcnJTdjlrV1Q1OHBXLUNvLUtQOU1fRUNFYkFNTzhzdXhQZndoM0tkWnRLUVVnclZQbWh4dmlBb0lxQVF1QzBfXzFfS1ZQNElQblBaVnRuNzdHYlBzWlBOcjNHT0ZuMzdrc1prN3lzNHZDend0RVltVUxCRTdtMGl4c3JzZ1k1OXZsbmRDd2Nyb21VOV9ab1JKUkk?oc=5",
+   "src": "RedCloud opens new AI chapter for FMCG markets with Genesis - Business Weekly",
+   "signals": "과거급등주, SSR, RVOL<1.5"
+  }
+ ]
+}
