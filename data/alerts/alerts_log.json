@@ -244,5 +244,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220218001",
   "grade": "open"
+ },
+ {
+  "id": "NUWE-1793202336",
+  "ts_kst": "2026-10-29 00:45",
+  "ts_utc": "2026-10-28T15:45:36+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "NUWE",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 76/100"
+  ],
+  "title": "🚀 NUWE 커버 압력",
+  "body": "$5.370 (+0.0%) · 정규장 · 레벨 4 · 점수 64\n공매도 물량 대부분 손해 중, $5.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 365만 주뿐이라 쉽게 크게 움직임\n• 커버 압력 76/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.101 지정가(기준가 $5.370의 −5%) · 체결 가능성 약 53% · 손익분기 $5.163\n숏 지지구간 $5.000–$5.250 · 손절 $4.750 · 1차목표 $5.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.37,
+  "level": 4,
+  "score": 64.1,
+  "prob": 53.223577561098224,
+  "cp": 76.42579624012563,
+  "rl": 5.5,
+  "stop": 4.75,
+  "zone": [
+   5.0,
+   5.25
+  ],
+  "bp": 5.1015,
+  "tgt": 5.5,
+  "stp": 4.75,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
+  "grade": "open"
+ },
+ {
+  "id": "HAO-1793202336",
+  "ts_kst": "2026-10-29 00:45",
+  "ts_utc": "2026-10-28T15:45:36+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "HAO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.8% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HAO 장중 급등 포착",
+  "body": "$1.880 (+16.8%) · 정규장 · 레벨 3 · 점수 48\n시장에 도는 주식 62만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +16.8% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $1.786 지정가(기준가 $1.880의 −5%) · 체결 가능성 약 65% · 손익분기 $1.808\n숏 지지구간 $1.600–$1.880 · 손절 $0.600 · 1차목표 $4.000\n⚠ 역분할 2026-08-14\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.88,
+  "level": 3,
+  "score": 47.6,
+  "prob": 20.50473186119874,
+  "cp": 22.104227964893717,
+  "rl": 4.0,
+  "stop": 0.6000000238418579,
+  "zone": [
+   1.600000023841858,
+   1.8799999952316284
+  ],
+  "bp": 1.786,
+  "tgt": 4.0,
+  "stp": 0.6000000238418579,
+  "penalties": [
+   "역분할 2026-08-14"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240126004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240126004",
+  "grade": "open"
  }
 ]
