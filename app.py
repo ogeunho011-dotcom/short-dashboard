@@ -257,7 +257,7 @@ def card_borrow(x):
         av_txt, av_sub, fee_sub, fee = "N/A", "과거 시점 빌릴 수 있는 주식 이력 없음 (무료 소스 없음)", "과거 대차이자 이력 없음 — 추정도 하지 않음", None
     elif len(bor) and fee is not None:
         av_txt = "1천만주+" if (avail or 0) >= 1e7 else (model.kn(avail) + "주")
-        av_sub = (f'전일 {model.kn(f["avail_prev"])}주 · ' if f.get("avail_prev") is not None else "") + f'IBKR {str(f.get("borrow_ts") or "")[5:16]} UTC'
+        av_sub = (f'전일 {model.kn(f["avail_prev"])}주 · ' if f.get("avail_prev") is not None else "") + f'IBKR {(pd.Timestamp(f["borrow_ts"]) + pd.Timedelta(hours=9)).strftime("%m-%d %H:%M") if f.get("borrow_ts") else "-"} 한국시간'
         fee_sub = (f'전일 {f["fee_prev"]:.1f}% · ' if f.get("fee_prev") is not None else "") + f'기록 {f.get("borrow_days") or 1}일째 (오늘부터 쌓는 중)'
     else:
         av_txt, av_sub, fee_sub = "N/A", "IBKR 목록에 없음 (빌릴 수 없는 종목일 수 있음) 또는 아직 수집 전", "데이터 없음"
