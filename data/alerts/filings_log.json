@@ -347,5 +347,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1859807/000175392626002014/0001753926-26-002014-index.htm",
   "seen_kst": "2026-10-28 17:21"
+ },
+ {
+  "ticker": "XXII",
+  "form": "424B5",
+  "acc": "0001493152-26-048792",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T10:05:01+00:00",
+  "accepted_kst": "10/28 19:05",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048792/0001493152-26-048792-index.htm",
+  "seen_kst": "2026-10-28 19:20"
+ },
+ {
+  "ticker": "XXII",
+  "form": "8-K",
+  "acc": "0001493152-26-048795",
+  "items": "1.01,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T10:10:08+00:00",
+  "accepted_kst": "10/28 19:10",
+  "polarity": "neutral",
+  "label": "중요 계약",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On October 27, 2026, 22nd Century Group, Inc. (the “Company”) entered into Amendment No. 2 to Sales Agreem",
+  "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048795/0001493152-26-048795-index.htm",
+  "seen_kst": "2026-10-28 19:20"
  }
 ]
