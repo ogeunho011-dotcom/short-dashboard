@@ -127,6 +127,11 @@ def run_scan(p, top_k=None, refresh_prices=True, progress=None, workers=6):
     df = pd.DataFrame(rows)
     db.kv_set("hot_industries", [{"industry": k, "leader": v[0], "chg": v[1]} for k, v in lead.items()])
     ts = db.now_kst()
+    try:   # 이전 스캔 기억 → 스캐너 탭 '신규·해제' 계산용
+        old, om = last_scan()
+        if len(old):
+            db.kv_set("screen_prev", {"ts": (om or {}).get("ts"), "tickers": list(old.ticker), "flagged": list(old[old.flagged.astype(bool)].ticker)})
+    except Exception: pass
     db.exec_("DELETE FROM scans WHERE kind='screen'")
     db.upsert_rows("scans", ["ts", "kind", "ticker", "data"], [(ts, "screen", r["ticker"], json.dumps(r, default=float)) for r in rows])
     db.kv_set("last_scan", {"ts": ts, "universe": len(u), "ranked": len(qr), "scored": len(df)})

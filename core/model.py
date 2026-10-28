@@ -291,6 +291,12 @@ def features(b: Bundle, asof, p, with_map=True):
     # 공시(희석)
     fil = b.fil[b.fil["filed"] <= asof] if len(b.fil) else b.fil
     f["dilution_recent"] = bool(len(fil) and fil[(fil["filed"] >= asof - pd.Timedelta(days=45)) & fil["form"].str.match(r"^(S-1|S-3|F-1|F-3|424B)")].shape[0] > 0)
+    try:
+        rs = reg_status(b.fil, asof + pd.Timedelta(days=1))   # asof 당일 제출분까지 (라이브는 장후 공시도 반영)
+        f["reg_pending"], f["reg_effect"], f["def301"] = rs["pending"], rs["effect"], rs["def301"]
+        f["reg_last"] = str(rs["reg_last"].date()) if rs["reg_last"] is not None else None
+        f["def301_date"] = str(rs["def_date"].date()) if rs["def_date"] is not None else None
+    except Exception: pass
     # 시장 국면
     if b.regime is not None and len(b.regime):
         rg = b.regime[b.regime.index <= asof]
@@ -427,6 +433,8 @@ def score(f, p):
     if f.get("dilution_recent"): sc *= (1 - p["dilution_penalty"])
     try: sr = short_read(f)
     except Exception: sr = {"lines": [], "brief": [], "adj": 0, "why": []}
+    if f.get("reg_pending"):   # scripts/offering_study.py: 가격 미정 S-1/F-1 대기 성공률 34.1%(n=1992) vs 36.9%, 5개 구간 +4/−3/+3/−10/−7%p → 효과 작음·−2만
+        sr = dict(sr, adj=float(sr.get("adj") or 0) - 2, why=list(sr.get("why") or []) + ["가격 미정 공모 서류(S-1/F-1) 대기: 공모 물량 대기 중이라 과거 성공률 낮음 −2 (효과 작음)"])
     sc = max(0.0, sc + float(sr.get("adj") or 0))
     thr = p["flag_score"] + (p["regime_adj"] if f.get("regime", 1) < 0 else (p["regime_adj"] / 2 if f.get("regime", 1) == 0 else 0))
     level = 1 + sum(sc >= x for x in (25, 40, 55, 70))
@@ -489,6 +497,34 @@ def short_read(f):
             adj += 2; why.append("대차 비싸고 빌릴 주식 거의 없음 + 숏 유지/증가 + 주가 상승: 숏 압박 +2 (참고·검증 전)")
     if not B and L: B = L[:1]
     return {"lines": L, "brief": B, "adj": adj, "why": why, "borrow": fee is not None, "borrow_ts": f.get("borrow_ts"), "borrow_days": f.get("borrow_days")}
+
+# ---------------------------------------------------------------- 공모 전 펌핑: 공시 상태 (시점 기준, 백테스트·실시간 공용)
+REG_OPEN = r"^(S-1|F-1)(/A)?$"
+REG_CLOSE = r"^(424B\d|S-1MEF|F-1MEF|RW)$"
+def reg_status(fil, asof, pend_days=120):
+    """fil: asof '전날까지' 제출된 공시(form, filed, items). 반환 dict(pending, effect, def301, atm, ...).
+    pending = 최근 pend_days 안에 S-1/F-1(/A) 제출됐는데 그 뒤로 가격 확정(424B1/3/4·MEF)이나 철회(RW)가 없음."""
+    out = {"pending": False, "effect": False, "def301": False, "atm": False, "reg_last": None, "reg_first": None, "closed": None, "def_date": None}
+    if fil is None or not len(fil): return out
+    asof = pd.Timestamp(asof)
+    h = fil[fil["filed"] < asof]
+    form = h["form"].astype(str)
+    reg = h[form.str.match(REG_OPEN)]
+    clo = h[form.str.match(REG_CLOSE)]
+    if len(reg):
+        last = reg["filed"].max(); lc = clo["filed"].max() if len(clo) else None
+        if (lc is None or lc < last) and last >= asof - pd.Timedelta(days=pend_days):
+            out["pending"] = True; out["reg_last"] = last
+            prev = reg[reg["filed"] > lc] if lc is not None else reg
+            out["reg_first"] = prev["filed"].min()
+            eff = h[(form == "EFFECT") & (h["filed"] >= out["reg_first"])]
+            out["effect"] = bool(len(eff))
+        elif lc is not None: out["closed"] = lc
+    it = h["items"].astype(str) if "items" in h else pd.Series("", index=h.index)
+    d = h[form.str.startswith("8-K") & it.str.contains(r"\b3\.01\b") & (h["filed"] >= asof - pd.Timedelta(days=180))]
+    if len(d): out["def301"] = True; out["def_date"] = d["filed"].max()
+    out["atm"] = bool(len(h[form.str.match(r"^424B5") & (h["filed"] >= asof - pd.Timedelta(days=60))]))
+    return out
 
 # ---------------------------------------------------------------- 정밀 검증 모델 (model/research.json)
 _RES = {"mt": None, "obj": None}

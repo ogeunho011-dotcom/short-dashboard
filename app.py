@@ -2,7 +2,7 @@
 import json, math, os, re, datetime as dt
 import numpy as np, pandas as pd
 import streamlit as st
-from core import db, params as P, sources as src, model, live, scan, ui, toss, alerts as AL, cloud
+from core import db, params as P, sources as src, model, live, scan, ui, toss, alerts as AL, cloud, levels as LV, radar_ui as RU
 from core.ui import esc, px, pct, num, h
 
 st.set_page_config(page_title="숏 레이더", page_icon="📉", layout="centered", initial_sidebar_state="collapsed")
@@ -162,7 +162,11 @@ def topbar(title, sub=""):
 def snap(t, pkey):
     if len(src.get_prices(t)) < 30:
         src.refresh_ticker(t); src.fetch_info(t)
-    return live.snapshot(t, json.loads(pkey))
+    x = live.snapshot(t, json.loads(pkey))
+    if x is not None:
+        try: x["rad"] = LV.radar(x)
+        except Exception as e: x["rad"] = {"err": [str(e)]}
+    return x
 
 def get_snap(t):
     return snap(t.upper(), json.dumps(p, sort_keys=True))
@@ -443,6 +447,7 @@ def page_stock():
         for kind, msg in x["triggers"]:
             md(f'<div class="card rc" style="padding:9px 12px">⚡ <b>라이브 트리거</b> · {esc(msg)}</div>')
         md(prob_card(x))
+        md(RU.card_cover(x))
         md('<div class="carousel">' + card_alert(x) + card_borrow(x) + card_ladder(x) + card_table(x) + '</div><div class="dots">◀ 옆으로 넘기기 · 1 경보 · 2 차입/이벤트 · 3 사다리 · 4 밴드표 ▶</div>')
         dil = x["dil"]
         md(f'<div class="card"><h3>🧾 자동 요약</h3><div style="font-size:13px;line-height:1.55">{esc(model.summary_ko(t, x["f"], x["s"], x["meta"], dil, x["prob"]))}</div></div>')
@@ -450,6 +455,10 @@ def page_stock():
         chips = "".join(f'<span class="chip {"on" if (v or 0) >= 1 else ""}">{esc(model.SIG_NAME[k])} {"N/A" if v is None else f"{min(v, 1.5) * 100:.0f}"}</span>' for k, v in sig.items())
         md(f'<div class="card"><h3>🔔 동시 신호 (Confluence) {x["s"]["confluence"]}개 / 기준 {int(p["min_confluence"])}개</h3><div class="chips">{chips}</div>'
            f'<div class="tiny">숫자 = 신호 강도(100 이상이면 ON). N/A = 무료 소스에서 데이터 없음. {"✅ 경보 조건 충족" if x["s"]["flagged"] else "경보 조건 미충족"}</div></div>')
+        md(RU.card_levels(x))
+        md(RU.card_entry(x))
+        md(RU.card_offer(x))
+        md(RU.card_borrow_log(x))
         md(card_buyzone(x))
         return x
     x = body()
@@ -633,6 +642,8 @@ def copy_text(t, x):
     st_ = f"숏 재축적 레벨 {s.get('level')}/5 · 동시 신호 {s.get('confluence')}개"
     if s.get("flagged"): st_ += " · 🚨 경보 조건 충족"
     L.append(st_)
+    try: L += [esc_plain(v) for v in RU.copy_lines(x)]
+    except Exception: pass
     on = [model.SIG_NAME.get(k, k) for k in (s.get("on") or [])]
     if on: L.append("핵심 근거: " + ", ".join(on[:5]))
     for _, msg in (x.get("triggers") or [])[:2]: L.append(f"⚡ {esc_plain(msg)}")
@@ -833,12 +844,16 @@ def home_card(t, x, top=""):
     rl, sp, tpp, stop, tp, tag, er = key_levels(x, last)
     flag = '<span class="badge red">경보 조건 충족</span>' if s["flagged"] else ""
     trig = '<span class="badge red">트리거</span>' if x["triggers"] else ""
+    R = x.get("rad") or {}; ca = R.get("ca"); otags = ((R.get("off") or {}).get("tags") or [])
+    rad_line = " ".join(filter(None, [f'<span class="badge {"red" if ca["met"] >= 3 else ("yellow" if ca["met"] >= 2 else "")}">숏 커버 {ca["level"]}/5</span>' if ca else "",
+                                      "".join(f'<span class="badge {"red" if g in ("공모 전 펌핑 주의", "상장 유지 미달", "현금 부족") else "yellow"}">{esc(g)}</span>' for g in otags[:3])]))
     return h(f'<div class="hc"><a class="ov" href="?{ui.AUTHQ}p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">', top,
              f'<div class="t1"><div><div class="sym">{cpk(t, copy_text(t, x))}{tsb(t)}</div><div class="nm">{esc((info.get("shortName") or "")[:30])}</div></div>',
              f'<div class="pr"><div class="v">{px(last)}</div><div class="c {ui.cls(chg).replace("green", "blue")}">{pct(chg, 2)}</div></div></div>',
              f'<div class="pb"><div class="pv {pc}">{pv}</div><div class="pl"><div class="lab">{esc(GOAL)} 확률 (추정){sc_txt} {flag}{trig}</div>',
              f'<div class="meter"><div style="width:{min(pr or 0, 100):.0f}%"></div></div></div></div>',
              f'<div class="sumline">{esc(x.get("summary") or "")}</div>',
+             (f'<div style="margin:4px 0 2px">{rad_line}</div>' if rad_line else ""),
              (f'<div class="tiny" style="margin:2px 0 4px">🩳 {esc(" · ".join(short_lines(x, 3, "brief")))}</div>' if short_lines(x, 3, "brief") else ""),
              '<div class="lv3">',
              f'<div class="box"><div class="lab">재점화 (추정)</div><div class="val yellow">{px(rl)}</div><div class="tiny">{pct((rl / last - 1) * 100) if rl else "N/A"}</div></div>',
@@ -1028,11 +1043,12 @@ def page_select():
     cols = st.columns(3)
     for i, (k, lab) in enumerate(ex.items()):
         sel[k] = cols[i].toggle(f"{lab} 제외 ({int(df[k].sum())})", sel[k])
-    tabs = st.tabs(["PICK +30%", "종목 선별", "런웨이"])
     mask = np.ones(len(df), bool)
     for k in ex:
         if sel[k]: mask &= ~df[k].astype(bool).values
     passed = df[mask]
+    rt = radar_tabs(df, passed)
+    tabs = st.tabs([f"{k} {len(v[0]) + len(v[1])}" for k, v in rt.items()] + ["PICK +30%", "런웨이"])
     def grid(d, show):
         warm_toss(d.ticker)
         cells = []
@@ -1042,20 +1058,43 @@ def page_select():
                          f'<div class="st {"red" if ok else ("yellow" if r.status == "대기" else "muted")}">{esc(r.status)}</div><div class="tiny">{show(r)}</div>'
                          f'<div class="sum">▸ {esc(getattr(r, "summary", "") or "")}</div></div>')
         md('<div class="grid">' + "".join(cells) + '</div>')
-    with tabs[0]:
+    show_lv = lambda r: f'Lv{r.level} · 신호 {r.conf} · {px(r.price)}'
+    for i, (k, (d, gone)) in enumerate(rt.items()):
+        with tabs[i]:
+            md(f'<div class="muted" style="margin:6px 0">{esc(RADAR_HELP[k])}</div>')
+            if len(d): grid(d, show_lv)
+            if gone: md('<div class="chips">' + "".join(f'<span class="chip">{tlink(g, "<b>" + esc(g) + "</b>")}</span>' for g in gone) + '</div><div class="tiny">이번 스캔 목록 밖 종목 (누르면 상세)</div>')
+            if not len(d) and not gone: md('<div class="tiny">해당 종목 없음</div>')
+    with tabs[len(rt)]:
         d = passed.sort_values(["flagged", "score"], ascending=False)
         md(f'<div class="muted" style="margin:6px 0">{len(df)}종목 중 <b class="red">{int(d.flagged.sum())}</b>종목 통과 (경보 조건) · 대기 {int((d.status == "대기").sum())}</div>')
         grid(d.head(30), lambda r: f'예상 {pct(r.upside, 0) if r.upside is not None and not pd.isna(r.upside) else "N/A"} · 점수 {r.score:.0f}')
         st.caption("예상 % = 재점화 레벨까지 거리 (추정, 보장 아님)")
-    with tabs[1]:
-        d = passed.sort_values("score", ascending=False)
-        md(f'<div class="muted" style="margin:6px 0">{len(df)}종목 중 {len(d)}종목 통과 (제외 필터 적용)</div>')
-        grid(d, lambda r: f'Lv{r.level} · 신호 {r.conf} · {px(r.price)}')
-    with tabs[2]:
+    with tabs[len(rt) + 1]:
         d = passed.assign(rw=passed.runway.fillna(999)).sort_values("rw")
         grid(d, lambda r: f'런웨이 {"N/A" if pd.isna(r.runway) else f"{r.runway:.0f}개월"} · 희석 {r.dil_score}')
         st.caption("런웨이 = 현금 ÷ 월 영업현금소모 (SEC XBRL, 최신 공시 기준). 짧을수록 증자 위험↑")
     disclaimer()
+
+RADAR_HELP = {"전체": "제외 필터를 통과한 이번 스캔 전 종목 (점수 순)",
+              "신규": "직전 스캔에는 없다가 이번 스캔에 새로 들어온 종목",
+              "경보": "경보 조건 충족 또는 최근 24시간 폰 알림이 간 종목",
+              "해제": "직전 스캔에선 경보였는데 이번엔 조건이 풀린 종목",
+              "추적": "관심종목 + 최근 7일 안에 알림이 간 종목"}
+
+def radar_tabs(df, passed):
+    """스캐너 탭: {이름: (스캔 행 DataFrame, 스캔 밖 티커 목록)}."""
+    prev = db.kv_get("screen_prev") or {}
+    cur = set(df.ticker)
+    flag = set(df[df.flagged.astype(bool)].ticker)
+    try: al24 = {g["ticker"] for g in fresh_alerts(hours=24, limit=50)}; al7 = {g["ticker"] for g in fresh_alerts(hours=168, limit=100)}
+    except Exception: al24, al7 = set(), set()
+    by = passed.sort_values(["flagged", "score"], ascending=False)
+    pick = lambda S: (by[by.ticker.isin(S)], sorted(S - set(by.ticker) - (set(df.ticker) - set(passed.ticker))))
+    new = (cur - set(prev.get("tickers") or [])) if prev.get("tickers") else set()
+    off = set(prev.get("flagged") or []) - flag
+    return {"전체": (passed.sort_values("score", ascending=False), []), "신규": pick(new), "경보": pick(flag | al24),
+            "해제": pick(off), "추적": pick(set(WATCH) | al7)}
 
 # ---------------------------------------------------------------- 페이지: 오늘 / 발굴 / 테마
 def page_today():
