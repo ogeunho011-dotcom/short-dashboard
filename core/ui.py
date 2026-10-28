@@ -1,6 +1,7 @@
 """HTML/CSS 컴포넌트 (다크 테마, 한국 주식 커뮤니티 스타일)."""
 import html as _h
 import math
+AUTHQ = ""   # 로그인 열쇠 (예: "k=...&") — 페이지 이동 링크에 붙여 비밀번호 재입력 방지
 
 CSS = """
 <style>
@@ -129,7 +130,7 @@ def esc(x): return _h.escape(str(x))
 
 def nav(active, ticker=None):
     q = f"&t={ticker}" if ticker else ""
-    return '<div class="nav">' + "".join(f'<a href="?p={k}{q}" target="_self" class="{"act" if k == active else ""}"><span class="i">{i}</span>{n}</a>' for k, i, n in NAV) + "</div>"
+    return '<div class="nav">' + "".join(f'<a href="?{AUTHQ}p={k}{q}" target="_self" class="{"act" if k == active else ""}"><span class="i">{i}</span>{n}</a>' for k, i, n in NAV) + "</div>"
 
 def px(v):
     if v is None or (isinstance(v, float) and math.isnan(v)): return "N/A"

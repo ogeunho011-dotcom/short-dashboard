@@ -19,9 +19,18 @@ def _gate():
         ck = st.context.cookies.get("sr_auth")
         ck = ck if isinstance(ck, str) else ""
     except Exception: ck = ""
+    try:
+        qk = st.query_params.get("k")
+        qk = qk if isinstance(qk, str) else ""
+    except Exception: qk = ""
     has_ck = bool(ck) and hmac.compare_digest(ck, tok)
-    if has_ck or st.session_state.get("auth_ok"):
+    has_qk = bool(qk) and hmac.compare_digest(qk, tok)   # 홈 화면 아이콘 주소에 넣어 둔 열쇠 (쿠키가 막히는 폰 대비)
+    if has_ck or has_qk or st.session_state.get("auth_ok"):
         st.session_state["auth_ok"] = True
+        ui.AUTHQ = f"k={tok}&"
+        if not has_qk:
+            try: st.query_params["k"] = tok      # 지금 주소에 열쇠를 붙여 둠 → 이 화면에서 홈 화면 추가하면 다음부터 안 물어봄
+            except Exception: pass
         if not has_ck:   # 비밀번호를 맞힌 뒤 첫 화면에서 쿠키 저장 (다음부터 안 물어봄)
             import streamlit.components.v1 as components
             components.html(f"""<script>try{{window.parent.document.cookie="sr_auth={tok}; max-age=31536000; path=/; secure; samesite=lax";}}catch(e){{}}</script>""", height=0)
@@ -113,7 +122,7 @@ def md(x):
     x = re.sub(r"\n\s*", " ", x)
     if not x.lstrip().startswith("<div"): x = "<div>" + x + "</div>"
     st.markdown(x, unsafe_allow_html=True)
-def link(t, label=None): return f'<a href="?p=stock&t={t}" target="_self" style="color:inherit;text-decoration:none">{label or t}</a>'
+def link(t, label=None): return f'<a href="?{ui.AUTHQ}p=stock&t={t}" target="_self" style="color:inherit;text-decoration:none">{label or t}</a>'
 
 @st.cache_data(ttl=86400, show_spinner=False)
 def _turl(t, mode):
@@ -603,7 +612,7 @@ def home_card(t, x):
     rl, sp, tpp, stop, tp, tag, er = key_levels(x, last)
     flag = '<span class="badge red">경보 조건 충족</span>' if s["flagged"] else ""
     trig = '<span class="badge red">트리거</span>' if x["triggers"] else ""
-    return h(f'<div class="hc"><a class="ov" href="?p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">',
+    return h(f'<div class="hc"><a class="ov" href="?{ui.AUTHQ}p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">',
              f'<div class="t1"><div><div class="sym">{esc(t)}{tsb(t)}</div><div class="nm">{esc((info.get("shortName") or "")[:30])}</div></div>',
              f'<div class="pr"><div class="v">{px(last)}</div><div class="c {ui.cls(chg).replace("green", "blue")}">{pct(chg, 2)}</div></div></div>',
              f'<div class="pb"><div class="pv {pc}">{pv}</div><div class="pl"><div class="lab">{esc(GOAL)} 확률 (추정) {flag}{trig}</div>',
@@ -675,7 +684,7 @@ def page_select():
         cells = []
         for i, r in enumerate(d.itertuples(), 1):
             ok = r.status == "가능"
-            cells.append(f'<div class="tk {"ok" if ok else ""}"><a class="ov" href="?p=stock&t={r.ticker}" target="_self" aria-label="{esc(r.ticker)} 상세"></a><div class="no">{i:02d}</div><div class="sym">{esc(r.ticker)}{tsb(r.ticker)}</div>'
+            cells.append(f'<div class="tk {"ok" if ok else ""}"><a class="ov" href="?{ui.AUTHQ}p=stock&t={r.ticker}" target="_self" aria-label="{esc(r.ticker)} 상세"></a><div class="no">{i:02d}</div><div class="sym">{esc(r.ticker)}{tsb(r.ticker)}</div>'
                          f'<div class="st {"red" if ok else ("yellow" if r.status == "대기" else "muted")}">{esc(r.status)}</div><div class="tiny">{show(r)}</div>'
                          f'<div class="sum">▸ {esc(getattr(r, "summary", "") or "")}</div></div>')
         md('<div class="grid">' + "".join(cells) + '</div>')
