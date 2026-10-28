@@ -254,7 +254,8 @@ def compose(t, x, sig, pens, c, session):
     lines.append(f"10일 내 셋업 성공 확률(보정): {pr:.0f}%" if pr is not None else "확률: 데이터 부족")
     bp = x.get("bp") or {}
     if bp.get("price"):
-        lines.append(f"추천 매수가 ${bp['price']:.3f} 지정가({bp['name']}, {bp['pct']:+.1f}%) · 체결 가능성 약 {bp['fill'] * 100:.0f}% · 손익분기 ${bp['break_even']:.3f}")
+        why = f"기준가 ${bp['refp']:.3f}의 −5%" if bp.get("kind") == "pct5" else f"{bp['name']}, 기준가 대비 {bp['pct']:+.1f}%"
+        lines.append(f"추천 매수가 ${bp['price']:.3f} 지정가({why}) · 체결 가능성 약 {bp['fill'] * 100:.0f}% · 손익분기 ${bp['break_even']:.3f}")
     elif bp.get("reason") == "stop":
         lines.append("추천 매수가 없음: −5% 가격이 손절선과 너무 가까움")
     if bz:
