@@ -1167,5 +1167,59 @@
   "headline": "Actuate Therapeutics Announces Pricing of $11.0 Million Underwritten Public Offering CHICAGO, IL and",
   "url": "https://www.sec.gov/Archives/edgar/data/1652935/000168316826008143/0001683168-26-008143-index.htm",
   "seen_kst": "2026-10-29 06:19"
+ },
+ {
+  "ticker": "FBDT",
+  "form": "8-K",
+  "acc": "0001493152-26-049110",
+  "items": "1.02,7.01,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T21:26:26+00:00",
+  "accepted_kst": "10/29 06:26",
+  "polarity": "neg",
+  "label": "계약·합병 해지",
+  "cats": [],
+  "negs": [
+   "계약·합병 해지",
+   "중요 계약 해지(항목 1.02)"
+  ],
+  "strength": 0,
+  "headline": "First Breach Completes First Test Flight of Long Range Strike Drone Larger of the Company’s two Class 1 attritable platforms takes to the air, joining the Close",
+  "url": "https://www.sec.gov/Archives/edgar/data/1892704/000149315226049110/0001493152-26-049110-index.htm",
+  "seen_kst": "2026-10-29 06:49"
+ },
+ {
+  "ticker": "TPCS",
+  "form": "8-K",
+  "acc": "0001104659-26-119706",
+  "items": "1.01,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T21:30:06+00:00",
+  "accepted_kst": "10/29 06:30",
+  "polarity": "neutral",
+  "label": "중요 계약",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement As previously disclosed, on August 25, 2021, Ranor, Inc. (“ Ranor ”), a wholly owned subsidiary of TechPrec",
+  "url": "https://www.sec.gov/Archives/edgar/data/1328792/000110465926119706/0001104659-26-119706-index.htm",
+  "seen_kst": "2026-10-29 06:49"
+ },
+ {
+  "ticker": "KPTI",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0001104659-26-119710",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T21:34:46+00:00",
+  "accepted_kst": "10/29 06:34",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1503802/000110465926119710/0001104659-26-119710-index.htm",
+  "seen_kst": "2026-10-29 06:49"
  }
 ]
