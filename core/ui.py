@@ -121,6 +121,19 @@ div[data-testid="stTextInput"] input { background:#151923; border-radius:12px; }
 .hc, .tk { position:relative; }
 .hc .ov, .tk .ov { position:absolute; inset:0; z-index:2; border-radius:12px; }
 .hc .t1 .sym .tsb { font-size:12px; }
+/* 티커 꾹 누르기 → 정리 글 복사 */
+.cpk { position:relative; z-index:3; color:inherit !important; text-decoration:none !important; -webkit-touch-callout:none !important; -webkit-user-select:none !important; user-select:none !important; touch-action:manipulation; cursor:pointer; border-radius:6px; transition:background .15s, box-shadow .15s; }
+.cpk.cpk-hold { background:rgba(255,255,255,0.06); }
+.cpk.cpk-armed { background:rgba(56,189,248,0.25); box-shadow:0 0 0 3px rgba(56,189,248,0.35); }
+.cpchip .cpk { display:inline-block; font-size:13px; font-weight:800; padding:7px 12px; border:1px dashed #475069; border-radius:12px; margin:4px 4px 4px 0; }
+#sr-toast { position:fixed; left:50%; bottom:calc(84px + env(safe-area-inset-bottom)); transform:translateX(-50%) translateY(20px); background:rgba(20,24,34,0.97); color:#fff; border:1px solid #38bdf8; padding:10px 16px; border-radius:999px; font-size:14px; font-weight:700; z-index:100000; opacity:0; pointer-events:none; transition:opacity .2s, transform .2s; white-space:nowrap; }
+#sr-toast.on { opacity:1; transform:translateX(-50%) translateY(0); }
+#sr-copysheet { position:fixed; inset:0; background:rgba(0,0,0,0.55); z-index:100001; display:flex; align-items:flex-end; justify-content:center; }
+#sr-copysheet .b { background:#151923; border-top:1px solid #2a3142; border-radius:16px 16px 0 0; width:100%; max-width:760px; padding:14px 14px calc(14px + env(safe-area-inset-bottom)); }
+#sr-copysheet .h { font-weight:800; font-size:14px; margin-bottom:8px; color:#e8eaf0; }
+#sr-copysheet textarea { width:100%; height:42vh; background:#0f121a; color:#e8eaf0; border:1px solid #2a3142; border-radius:10px; font-size:16px; padding:8px; box-sizing:border-box; }
+#sr-copysheet .r { display:flex; gap:8px; margin-top:8px; } #sr-copysheet button { flex:1; min-height:46px; border-radius:12px; border:0; font-weight:800; font-size:15px; }
+#sr-copysheet .c { background:#3182f6; color:#fff; } #sr-copysheet .x { background:#2a3142; color:#cbd5e1; }
 </style>
 """
 

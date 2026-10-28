@@ -234,7 +234,7 @@ def card_alert(x):
     si_line = (f'{num(m["total_rem"])}주 · 유통 대비 {pct(f.get("si_float"), 1, False)}' if m else "N/A")
     dchg = f.get("si_chg")
     return h(f'<div class="card rc">',
-             f'<div class="between"><div><div class="mid">{esc(x["ticker"])}{"" if x.get("hist") else tsb(x["ticker"])} <span class="muted">{esc((info.get("shortName") or "")[:22])}</span></div>',
+             f'<div class="between"><div><div class="mid">{esc(x["ticker"]) if x.get("hist") else cpk(x["ticker"], copy_text(x["ticker"], x), href=False)}{"" if x.get("hist") else tsb(x["ticker"])} <span class="muted">{esc((info.get("shortName") or "")[:22])}</span></div>',
              f'<div class="big">{px(last)} <span class="{ui.cls(chg).replace("green", "blue")}" style="font-size:16px">{pct(chg, 2)}</span></div>',
              f'<div class="tiny">정규장 종가 {px(reg_close or f["price"])} · {" · ".join(ext) if ext else "프리/애프터 데이터 없음"}</div></div></div>',
              f'<div class="sumbig">▸ {esc(x.get("summary") or "")}</div>',
@@ -437,7 +437,7 @@ def page_stock():
         if x is None:
             st.error("가격 데이터가 부족하거나 티커를 찾을 수 없습니다."); return
         md(live_line(x))
-        md(f'<div style="margin:2px 0 6px">{tsb(t, big=True)} <span class="tiny">앱이 깔려 있으면 토스증권 앱의 {esc(t)} 화면으로, 아니면 웹으로 열립니다</span></div>')
+        md(f'<div style="margin:2px 0 6px"><span class="cpchip">{cpk(t, copy_text(t, x), href=False, label="📋 " + esc(t) + " 꾹 눌러 복사")}</span> {tsb(t, big=True)} <span class="tiny">앱이 깔려 있으면 토스증권 앱의 {esc(t)} 화면으로, 아니면 웹으로 열립니다</span></div>')
         for kind, msg in x["triggers"]:
             md(f'<div class="card rc" style="padding:9px 12px">⚡ <b>라이브 트리거</b> · {esc(msg)}</div>')
         md(prob_card(x))
@@ -577,6 +577,215 @@ def extras(x):
         else:
             st.caption("타임머신 표본이 부족합니다 (추적 탭에서 검증 실행).")
 
+# ---------------------------------------------------------------- 티커 꾹 누르기 → 정리 글 복사
+APP_URL_DEFAULT = "https://short-dashboard-6afz8yyoz9rgornvinw6zi.streamlit.app"
+
+def dash_base():
+    """복사 글에 넣을 대시보드 주소 (로그인 열쇠 k 등 쿼리는 절대 넣지 않음)."""
+    from urllib.parse import urlsplit
+    u = (AL._secret("DASH_URL") or db.get_setting("dash_url", "") or APP_URL_DEFAULT).strip()
+    try:
+        sp = urlsplit(u if "://" in u else "https://" + u)
+        if sp.scheme != "https" or not sp.netloc: raise ValueError
+        return f"https://{sp.netloc}{sp.path.rstrip('/')}"
+    except Exception:
+        return APP_URL_DEFAULT
+
+def dash_link(t): return f"{dash_base()}/?p=stock&t={str(t).upper()}"
+
+_FL_CACHE = {}
+def last_filing(t, days=30):
+    """최근 공시 판정 1건 (호재/악재/중립) — 알림 기록(alert-data) 기준."""
+    if "rows" not in _FL_CACHE: _FL_CACHE["rows"] = _flog()
+    cut = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    for f in reversed(_FL_CACHE["rows"]):
+        if f.get("ticker") == t and str(f.get("filed") or f.get("accepted_kst") or "9999")[:10] >= cut[:10]: return f
+    return None
+
+def _filing_line(t):
+    f = last_filing(t)
+    if not f: return None
+    lab = POL_KO.get(f.get("polarity"), ("중립", ""))[0]
+    when = esc_plain(f.get("accepted_kst") or str(f.get("filed") or "")[5:10].replace("-", "/"))
+    return f"📢 최근 공시: {when} {f.get('form') or ''} {lab} — {f.get('label') or '일반 공시'} (키워드 판정, 원문 확인 필수)"
+
+def esc_plain(v): return re.sub(r"\s+", " ", str(v or "")).strip()
+
+def _ma_refs(bp):
+    return " · ".join(f'{v["name"]} {px(v["price"])}({v["pct"]:+.1f}%)' for k, v in ((bp or {}).get("ref") or {}).items() if k != "ivwap")
+
+def copy_text(t, x):
+    """종목 정리 글 (카톡·메모에 붙여넣기용 평문)."""
+    t = str(t).upper()
+    eh, f, s, info = x["eh"], x["f"], x["s"], x.get("info") or {}
+    last = eh.get("last") or f["price"]; prev = eh.get("prev_close")
+    chg = (last / prev - 1) * 100 if prev else f.get("chg1")
+    nm = esc_plain(info.get("shortName") or info.get("longName") or "")
+    L = [f"📈 {t}" + (f" · {nm}" if nm else ""), f"현재가 {px(last)} ({pct(chg, 2)})"]
+    pr = (x.get("prob") or {}).get("prob"); rs = raw_score(x)
+    pl = f"🔥 {GOAL} 확률(추정) {pr:.0f}%" if pr is not None else "🔥 오를 확률(추정) 데이터 부족"
+    if rs is not None: pl += f" · 종합점수 {rs:.0f}점"
+    L.append(pl)
+    sm = esc_plain(x.get("summary"))
+    if sm: L.append(f"▸ {sm}")
+    st_ = f"숏 재축적 레벨 {s.get('level')}/5 · 동시 신호 {s.get('confluence')}개"
+    if s.get("flagged"): st_ += " · 🚨 경보 조건 충족"
+    L.append(st_)
+    on = [model.SIG_NAME.get(k, k) for k in (s.get("on") or [])]
+    if on: L.append("핵심 근거: " + ", ".join(on[:5]))
+    for _, msg in (x.get("triggers") or [])[:2]: L.append(f"⚡ {esc_plain(msg)}")
+    L.append("")
+    bp, bz = x.get("bp") or {}, x.get("bz") or {}
+    if bp.get("price"):
+        L.append(f"💵 추천 매수가 {px(bp['price'])} ({esc_plain(bp.get('name'))}, 기준가 {px(bp.get('refp'))} 대비 {bp.get('pct', 0):+.1f}%) · 허용 {px(bp.get('lo'))}~{px(bp.get('hi'))}")
+        if bp.get("evidence"): L.append("  근거: " + esc_plain(bp["evidence"][0])[:160])
+    elif bp:
+        L.append("💵 추천 매수가: 추천 안 함 — " + esc_plain((bp.get("evidence") or [""])[0])[:120])
+    else:
+        L.append("💵 추천 매수가: 데이터 부족")
+    ma = _ma_refs(bp)
+    if ma: L.append(f"  이동평균선: {ma}")
+    be = bp.get("break_even") or bz.get("break_even")
+    if be: L.append(f"⚖️ 손익분기 {px(be)} (수수료·슬리피지 왕복 반영)")
+    stop = bp.get("stop") or bz.get("stop")
+    if stop: L.append(f"🛑 손절 {px(stop)}")
+    if bz.get("tp1"): L.append(f"🎯 1차 목표(재점화) {px(bz['tp1'])} · 2차 {px(bz.get('tp2'))}")
+    if bz.get("zone"): L.append(f"🪜 숏 진입 지지 구간 {px(bz['zone'][0])}~{px(bz['zone'][1])}")
+    L.append("")
+    try: pens = AL.penalties(x)
+    except Exception: pens = []
+    pens = [p_ for p_ in pens if not str(p_).startswith("최근 악재 공시")]
+    if pens: L.append("⚠️ 감점 요인: " + " / ".join(esc_plain(p_) for p_ in pens[:4]))
+    else: L.append("✅ 증자·역분할 감점 요인 없음 (최근 공시 기준)")
+    dw = (x.get("dil") or {}).get("why") or []
+    if dw: L.append(f"🧾 희석 위험 {(x.get('dil') or {}).get('score', 0):.0f}/100: " + ", ".join(esc_plain(w) for w in dw[:3]))
+    fl = _filing_line(t)
+    if fl: L.append(fl)
+    L += ["", f"🔗 {dash_link(t)}", "※ 숏 레이더 추정치 · 투자 권유 아님"]
+    return "\n".join(L).replace("\n\n\n", "\n\n").strip()
+
+def copy_text_row(r):
+    """스캔 목록 행으로 만든 정리 글 (상세 계산 없이 화면에 있는 값)."""
+    t = str(r.ticker).upper()
+    g = lambda k: getattr(r, k, None)
+    ok = lambda v: v is not None and not (isinstance(v, float) and math.isnan(v))
+    nm = esc_plain(g("name") or "")
+    L = [f"📈 {t}" + (f" · {nm}" if nm else ""), f"현재가 {px(g('price'))} ({pct(g('chg1'), 2) if ok(g('chg1')) else 'N/A'})",
+         f"🔥 종합점수 {g('score'):.0f}점 · 상태 {g('status')} · 레벨 {g('level')}/5 · 동시 신호 {g('conf')}개" + (" · 🚨 경보 조건 충족" if g("flagged") else "")]
+    sm = esc_plain(g("summary"))
+    if sm: L.append(f"▸ {sm}")
+    on = [model.SIG_NAME.get(k, k) for k in str(g("on") or "").split(",") if k]
+    if on: L.append("핵심 근거: " + ", ".join(on[:5]))
+    if ok(g("upside")): L.append(f"🎯 재점화 레벨까지 {pct(g('upside'), 0)} (추정)")
+    if ok(g("runway")): L.append(f"⏳ 현금 런웨이 약 {g('runway'):.0f}개월 · 희석 점수 {g('dil_score')}")
+    bad = [lab for k, lab in (("dilution", "증자/희석"), ("reverse_split", "역분할"), ("lawsuit", "소송")) if g(k) is True or (ok(g(k)) and bool(g(k)))]
+    L.append("⚠️ 감점 요인: " + ", ".join(bad) if bad else "✅ 증자·역분할·소송 감점 요인 없음")
+    fl = _filing_line(t)
+    if fl: L.append(fl)
+    L += ["확률·추천 매수가·손익분기는 상세 화면에서 확인", "", f"🔗 {dash_link(t)}", "※ 숏 레이더 추정치 · 투자 권유 아님"]
+    return "\n".join(L)
+
+def cpk(t, text, href=True, label=None):
+    """꾹 누르면 복사되는 티커. 짧게 누르면 기존처럼 상세 화면으로 이동."""
+    from urllib.parse import quote
+    t = str(t).upper()
+    data = f' data-copy="{quote(text, safe="")}" data-tk="{esc(t)}"'
+    inner = label or esc(t)
+    if href: return f'<a class="cpk" href="?{ui.AUTHQ}p=stock&t={esc(t)}" target="_self"{data}>{inner}</a>'
+    return f'<span class="cpk"{data}>{inner}</span>'
+
+COPY_JS = r"""
+(function(){
+  var W = window, D = document;
+  if (W.__srCopyV === 2) return; W.__srCopyV = 2;
+  var LP = 480, timer = null, el = null, armed = false, sx = 0, sy = 0, lastTouch = 0, suppressUntil = 0;
+  var IOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  function dec(s){ try { return decodeURIComponent(s || ""); } catch (e) { return s || ""; } }
+  function toast(msg){
+    var t = D.getElementById("sr-toast");
+    if (!t) { t = D.createElement("div"); t.id = "sr-toast"; D.body.appendChild(t); }
+    t.textContent = msg; t.className = "on"; clearTimeout(t._h);
+    t._h = setTimeout(function(){ t.className = ""; }, 1800);
+  }
+  function execCopy(txt){
+    var ta = D.createElement("textarea"), ok = false, sel = W.getSelection();
+    ta.value = txt; ta.setAttribute("readonly", "");
+    ta.style.cssText = "position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;border:0;padding:0;";
+    D.body.appendChild(ta);
+    try {
+      if (IOS) {
+        ta.contentEditable = true; ta.readOnly = false;
+        var r = D.createRange(); r.selectNodeContents(ta); sel.removeAllRanges(); sel.addRange(r);
+        ta.setSelectionRange(0, txt.length);
+      } else {
+        try { ta.focus({preventScroll: true}); } catch (e) { ta.focus(); }
+        ta.select(); ta.setSelectionRange(0, txt.length);
+      }
+      ok = D.execCommand("copy") && (IOS || D.activeElement === ta);
+    } catch (e) { ok = false; }
+    D.body.removeChild(ta); try { sel.removeAllRanges(); } catch (e) {}
+    return ok;
+  }
+  function sheet(txt, tk){
+    var s = D.getElementById("sr-copysheet");
+    if (s) s.remove();
+    s = D.createElement("div"); s.id = "sr-copysheet";
+    s.innerHTML = '<div class="b"><div class="h"></div><textarea readonly></textarea><div class="r"><button class="c">📋 복사</button><button class="x">닫기</button></div></div>';
+    s.querySelector(".h").textContent = tk + " 정리 — 아래 '복사'를 눌러 주세요";
+    var ta = s.querySelector("textarea"); ta.value = txt;
+    s.querySelector(".x").onclick = function(){ s.remove(); };
+    s.querySelector(".c").onclick = function(){
+      var done = function(){ s.remove(); toast("📋 " + tk + " 정리 복사됨"); };
+      if (execCopy(txt)) return done();
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, function(){ ta.focus(); ta.select(); toast("글을 길게 눌러 직접 복사해 주세요"); });
+      else { ta.focus(); ta.select(); toast("글을 길게 눌러 직접 복사해 주세요"); }
+    };
+    s.onclick = function(e){ if (e.target === s) s.remove(); };
+    D.body.appendChild(s);
+  }
+  function doCopy(t){
+    var txt = dec(t.getAttribute("data-copy")), tk = t.getAttribute("data-tk") || "";
+    if (!txt) return;
+    try { navigator.vibrate && navigator.vibrate(20); } catch (e) {}
+    if (execCopy(txt)) { toast("📋 " + tk + " 정리 복사됨"); return; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(txt).then(function(){ toast("📋 " + tk + " 정리 복사됨"); }, function(){ sheet(txt, tk); });
+    } else sheet(txt, tk);
+  }
+  function target(e){ var n = e.target; if (n && n.nodeType !== 1) n = n.parentElement; return n && n.closest ? n.closest("[data-copy]") : null; }
+  function cancel(){ clearTimeout(timer); timer = null; if (el) el.classList.remove("cpk-hold", "cpk-armed"); el = null; armed = false; }
+  function start(t, x, y){
+    cancel(); el = t; sx = x; sy = y; armed = false; el.classList.add("cpk-hold");
+    timer = setTimeout(function(){ armed = true; if (el) el.classList.add("cpk-armed"); }, LP);
+  }
+  function finish(e){
+    if (!el) return;
+    var t = el, a = armed; cancel();
+    if (a) { if (e && e.cancelable) e.preventDefault(); suppressUntil = Date.now() + 800; doCopy(t); }
+  }
+  D.addEventListener("touchstart", function(e){ lastTouch = Date.now(); var t = target(e); if (!t || e.touches.length > 1) { cancel(); return; } var p = e.touches[0]; start(t, p.clientX, p.clientY); }, {capture: true, passive: true});
+  D.addEventListener("touchmove", function(e){ if (!el) return; var p = e.touches[0]; if (Math.abs(p.clientX - sx) > 10 || Math.abs(p.clientY - sy) > 10) cancel(); }, {capture: true, passive: true});
+  D.addEventListener("touchend", function(e){ lastTouch = Date.now(); finish(e); }, {capture: true, passive: false});
+  D.addEventListener("touchcancel", function(e){ if (el && armed) { var t = el; cancel(); suppressUntil = Date.now() + 800; doCopy(t); } else cancel(); }, {capture: true, passive: true});
+  D.addEventListener("mousedown", function(e){ if (e.button !== 0 || Date.now() - lastTouch < 1000) return; var t = target(e); if (t) start(t, e.clientX, e.clientY); }, true);
+  D.addEventListener("mousemove", function(e){ if (el && Date.now() - lastTouch > 1000 && (Math.abs(e.clientX - sx) > 6 || Math.abs(e.clientY - sy) > 6)) cancel(); }, true);
+  D.addEventListener("mouseup", function(e){ if (Date.now() - lastTouch < 1000) return; finish(e); }, true);
+  D.addEventListener("click", function(e){ if (Date.now() < suppressUntil && target(e)) { e.preventDefault(); e.stopPropagation(); } }, true);
+  D.addEventListener("contextmenu", function(e){ var t = target(e); if (t) { e.preventDefault(); if (el === t) { armed = true; t.classList.add("cpk-armed"); } } }, true);
+  D.addEventListener("selectstart", function(e){ if (target(e)) e.preventDefault(); }, true);
+  D.addEventListener("dragstart", function(e){ if (target(e)) e.preventDefault(); }, true);
+})();
+"""
+
+def copy_js():
+    """복사 스크립트를 부모 문서(앱 화면)에 1번만 심음 — Streamlit 마크다운은 JS 를 지우므로 같은 출처 iframe 에서 주입."""
+    import streamlit.components.v1 as components
+    components.html("<script>(function(){try{var d=window.parent.document;if(d.getElementById('sr-copy-js-v2'))return;"
+                    "var s=d.createElement('script');s.id='sr-copy-js-v2';s.textContent=" + json.dumps(COPY_JS) + ";d.head.appendChild(s);}catch(e){}})();</script>", height=0)
+copy_js()
+
+COPY_HINT = '<div class="tiny" style="margin:-2px 2px 4px">👆 티커를 꾹 누르면 정리 글이 복사돼요 (카톡·메모에 붙여넣기)</div>'
+
 def earnings_runup(t):
     k = f"earnhist:{t}"
     c = db.kv_get(k, 86400 * 3)
@@ -619,7 +828,7 @@ def home_card(t, x):
     flag = '<span class="badge red">경보 조건 충족</span>' if s["flagged"] else ""
     trig = '<span class="badge red">트리거</span>' if x["triggers"] else ""
     return h(f'<div class="hc"><a class="ov" href="?{ui.AUTHQ}p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">',
-             f'<div class="t1"><div><div class="sym">{esc(t)}{tsb(t)}</div><div class="nm">{esc((info.get("shortName") or "")[:30])}</div></div>',
+             f'<div class="t1"><div><div class="sym">{cpk(t, copy_text(t, x))}{tsb(t)}</div><div class="nm">{esc((info.get("shortName") or "")[:30])}</div></div>',
              f'<div class="pr"><div class="v">{px(last)}</div><div class="c {ui.cls(chg).replace("green", "blue")}">{pct(chg, 2)}</div></div></div>',
              f'<div class="pb"><div class="pv {pc}">{pv}</div><div class="pl"><div class="lab">{esc(GOAL)} 확률 (추정){sc_txt} {flag}{trig}</div>',
              f'<div class="meter"><div style="width:{min(pr or 0, 100):.0f}%"></div></div></div></div>',
@@ -663,6 +872,7 @@ def page_home():
     @st.fragment(run_every=run_every)
     def top5():
         md('<div class="sec">🔥 오를 확률 TOP 5</div>')
+        md(COPY_HINT)
         tops = top_picks(5)
         if not tops:
             md('<div class="card tiny">아직 스캔 결과가 없어요. 매일 자동 업데이트 뒤에 채워집니다.</div>'); return
@@ -726,7 +936,7 @@ def page_select():
         cells = []
         for i, r in enumerate(d.itertuples(), 1):
             ok = r.status == "가능"
-            cells.append(f'<div class="tk {"ok" if ok else ""}"><a class="ov" href="?{ui.AUTHQ}p=stock&t={r.ticker}" target="_self" aria-label="{esc(r.ticker)} 상세"></a><div class="no">{i:02d}</div><div class="sym">{esc(r.ticker)}{tsb(r.ticker)}</div>'
+            cells.append(f'<div class="tk {"ok" if ok else ""}"><a class="ov" href="?{ui.AUTHQ}p=stock&t={r.ticker}" target="_self" aria-label="{esc(r.ticker)} 상세"></a><div class="no">{i:02d}</div><div class="sym">{cpk(r.ticker, copy_text_row(r))}{tsb(r.ticker)}</div>'
                          f'<div class="st {"red" if ok else ("yellow" if r.status == "대기" else "muted")}">{esc(r.status)}</div><div class="tiny">{show(r)}</div>'
                          f'<div class="sum">▸ {esc(getattr(r, "summary", "") or "")}</div></div>')
         md('<div class="grid">' + "".join(cells) + '</div>')
@@ -804,7 +1014,7 @@ def page_live():
             x = get_snap(t)
             if not x: continue
             eh = x["eh"]; last = eh.get("last") or x["f"]["price"]; prev = eh.get("prev_close")
-            rows.append(f'<tr><td>{tlink(t, "<b>" + t + "</b>")}</td><td>{px(last)}</td><td class="{ui.cls((last / prev - 1) if prev else 0).replace("green", "blue")}">{pct((last / prev - 1) * 100 if prev else None)}</td>'
+            rows.append(f'<tr><td>{cpk(t, copy_text(t, x), label="<b>" + esc(t) + "</b>")}{tsb(t)}</td><td>{px(last)}</td><td class="{ui.cls((last / prev - 1) if prev else 0).replace("green", "blue")}">{pct((last / prev - 1) * 100 if prev else None)}</td>'
                         f'<td>{x["s"]["score"]:.0f}</td><td>{"—" if x["prob"].get("prob") is None else f"{x["prob"]["prob"]:.0f}%"}</td><td>{px(x["meta"].get("reignite"))}</td><td class="red">{"⚡" * len(x["triggers"])}</td></tr>')
         md(f'<div class="card"><div class="tiny"><span class="badge {"live" if sess != "closed" else ""}">실시간</span> 갱신 {dt.datetime.now(live.KST):%H:%M:%S} KST</div>'
            f'<table class="t"><tr><th>종목</th><th>현재</th><th>등락</th><th>점수</th><th>확률</th><th>재점화</th><th>트리거</th></tr>{"".join(rows)}</table></div>')
