@@ -1201,5 +1201,87 @@
    "accepted_kst": "10/29 05:30",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "NUWE-1793222344",
+  "ts_kst": "2026-10-29 06:19",
+  "ts_utc": "2026-10-28T21:19:04+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "NUWE",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 NUWE 상위 확률 신호",
+  "body": "$5.671 (+5.6%) · 애프터마켓 · 레벨 4 · 점수 69\n공매도 물량 대부분 손해 중, $6.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 365만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.387 지정가(기준가 $5.671의 −5%) · 체결 가능성 약 52% · 손익분기 $5.452\n숏 지지구간 $5.500–$5.671 · 손절 $5.250 · 1차목표 $6.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.671,
+  "level": 4,
+  "score": 68.8,
+  "prob": 53.44827586206896,
+  "cp": 77.09502063812255,
+  "rl": 6.0,
+  "stop": 5.25,
+  "zone": [
+   5.5,
+   5.671
+  ],
+  "bp": 5.3875,
+  "tgt": 6.0,
+  "stp": 5.25,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
+  "grade": "open"
+ },
+ {
+  "id": "POM-1793222344",
+  "ts_kst": "2026-10-29 06:19",
+  "ts_utc": "2026-10-28T21:19:04+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "POM",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 49%)"
+  ],
+  "title": "🚀 POM 상위 확률 신호",
+  "body": "$2.040 (+46.8%) · 애프터마켓 · 레벨 4 · 점수 61\n$2.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 112만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 49%)\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $1.938 지정가(기준가 $2.040의 −5%) · 체결 가능성 약 82% · 손익분기 $1.961\n숏 지지구간 $1.750–$2.000 · 손절 $1.500 · 1차목표 $2.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.04,
+  "level": 4,
+  "score": 61.4,
+  "prob": 49.43806437517165,
+  "cp": 51.06281185809083,
+  "rl": 2.25,
+  "stop": 1.5,
+  "zone": [
+   1.75,
+   2.0
+  ],
+  "bp": 1.938,
+  "tgt": 2.25,
+  "stp": 1.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251008001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251008001",
+  "grade": "open"
  }
 ]
