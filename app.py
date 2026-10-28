@@ -821,7 +821,7 @@ def key_levels(x, last):
     rl = (x.get("meta") or {}).get("reignite")
     return rl, last * (1 - stop / 100), (last * (1 + tp / 100) if tp else None), stop, tp, tag, er
 
-def home_card(t, x):
+def home_card(t, x, top=""):
     eh, f, s, info = x["eh"], x["f"], x["s"], x.get("info") or {}
     last = eh.get("last") or f["price"]; prev = eh.get("prev_close")
     chg = (last / prev - 1) * 100 if prev else f["chg1"]
@@ -833,7 +833,7 @@ def home_card(t, x):
     rl, sp, tpp, stop, tp, tag, er = key_levels(x, last)
     flag = '<span class="badge red">경보 조건 충족</span>' if s["flagged"] else ""
     trig = '<span class="badge red">트리거</span>' if x["triggers"] else ""
-    return h(f'<div class="hc"><a class="ov" href="?{ui.AUTHQ}p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">',
+    return h(f'<div class="hc"><a class="ov" href="?{ui.AUTHQ}p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">', top,
              f'<div class="t1"><div><div class="sym">{cpk(t, copy_text(t, x))}{tsb(t)}</div><div class="nm">{esc((info.get("shortName") or "")[:30])}</div></div>',
              f'<div class="pr"><div class="v">{px(last)}</div><div class="c {ui.cls(chg).replace("green", "blue")}">{pct(chg, 2)}</div></div></div>',
              f'<div class="pb"><div class="pv {pc}">{pv}</div><div class="pl"><div class="lab">{esc(GOAL)} 확률 (추정){sc_txt} {flag}{trig}</div>',
@@ -845,6 +845,88 @@ def home_card(t, x):
              f'<div class="box"><div class="lab">손절 ({tag})</div><div class="val blue">{px(sp)}</div><div class="tiny">-{stop:.0f}%</div></div>',
              f'<div class="box"><div class="lab">익절 ({tag})</div><div class="val red">{px(tpp) if tpp else "추적손절"}</div><div class="tiny">{f"+{tp:.0f}%" if tp else ""}</div></div>',
              '</div>', f'<div class="foot">{live_line(x)}</div></div></div>')
+
+# ---------------------------------------------------------------- 홈: 방금 알림 온 종목
+RAW_ALERTS = "https://raw.githubusercontent.com/{repo}/alert-data/data/alerts/alerts_log.json"
+
+def recent_alert_log():
+    """alert-data 브랜치의 알림 기록 (2분 캐시). 저장소 설정이 없으면 공개 저장소 원본에서 직접."""
+    try:
+        r = AL.fetch_remote_log(ttl=120)
+        if isinstance(r, list): return r
+    except Exception:
+        pass
+    k = "remote:raw_alerts_log"
+    c = db.kv_get(k, 120)
+    if c is not None: return c.get("v") or []
+    repo = os.environ.get("GH_REPO") or "ogeunho011-dotcom/short-dashboard"
+    try:
+        import requests
+        rr = requests.get(RAW_ALERTS.format(repo=repo), timeout=10)
+        out = rr.json() if rr.status_code == 200 else []
+        db.kv_set(k, {"v": out if isinstance(out, list) else []})
+        return out if isinstance(out, list) else []
+    except Exception:
+        return AL.load_log() or []
+
+def fresh_alerts(log=None, hours=24, limit=8):
+    """최근 hours 시간 안에 실제로 폰에 보낸 알림 → 티커별 최신 1건 (최신순). 같은 종목 여러 번이면 횟수·종류 합침."""
+    log = recent_alert_log() if log is None else log
+    now = dt.datetime.now(dt.timezone.utc)
+    by = {}
+    for r in log or []:
+        if not r.get("sent") or r.get("dry") or not r.get("ticker"): continue
+        if "test" in (r.get("types") or []): continue
+        try: ts = dt.datetime.fromisoformat(str(r.get("ts_utc")).replace("Z", "+00:00"))
+        except Exception: continue
+        if ts.tzinfo is None: ts = ts.replace(tzinfo=dt.timezone.utc)
+        if now - ts > dt.timedelta(hours=hours) or ts > now + dt.timedelta(minutes=10): continue
+        t = str(r["ticker"]).upper()
+        g = by.setdefault(t, {"ticker": t, "n": 0, "types": [], "last": None, "ts": None})
+        g["n"] += 1
+        for k in r.get("types") or []:
+            if k not in g["types"]: g["types"].append(k)
+        if g["ts"] is None or ts > g["ts"]: g["ts"], g["last"] = ts, r
+    return sorted(by.values(), key=lambda g: g["ts"], reverse=True)[:limit]
+
+def alert_strip(g):
+    """카드 맨 위 알림 줄: 종류 · 한국시간, 주의 문구, 공시 원문 링크."""
+    r = g["last"]; types = r.get("types") or []
+    hm = g["ts"].astimezone(live.KST)
+    when = f"{hm:%H:%M}" if hm.date() == dt.datetime.now(live.KST).date() else f"{hm:%m/%d %H:%M}"
+    if "filing" in types:
+        fl = r.get("filing") or {}
+        lab = f'📢 호재 공시 · {esc(fl.get("label") or (r.get("msgs") or [""])[0])}'
+    else:
+        emo = "⚡" if "spike" in types else "🚀"
+        lab = emo + " " + esc(" · ".join(AL.TYPE_KO.get(k, k) for k in types))
+    more = f' <span class="tiny">(24시간 {g["n"]}번)</span>' if g["n"] > 1 else ""
+    notes = []
+    if "spike" in g["types"]: notes.append('⚠️ 추격 매수 주의 — 이미 급등한 뒤라 과거엔 이후 평균이 마이너스였어요')
+    if "filing" in g["types"]:
+        fl = (r.get("filing") or {}) if "filing" in types else {}
+        u = fl.get("url")
+        notes.append('⚠️ 키워드 자동 판정 · 원문 확인 필수' + (f' <a href="{esc(u)}" target="_blank" rel="noopener" style="position:relative;z-index:3">원문↗</a>' if u else ""))
+    pxs = f' · 알림 때 {px(r.get("price"))}' if r.get("price") else ""
+    return (f'<div style="background:#3a1d24;border:1px solid #ff4d5e55;border-radius:10px;padding:6px 10px;margin:-4px 0 10px;font-size:13px">'
+            f'<b>{lab}</b> · {when} 한국시간{pxs}{more}'
+            + "".join(f'<div class="tiny" style="margin-top:2px">{n}</div>' for n in notes) + '</div>')
+
+def alerts_home():
+    md('<div class="sec">🔔 방금 알림 온 종목</div>')
+    gs = fresh_alerts()
+    if not gs:
+        md('<div class="tiny" style="margin:2px 2px 8px">아직 최근 24시간 동안 알림 온 종목이 없어요.</div>'); return
+    warm_toss([g["ticker"] for g in gs])
+    for g in gs:
+        try: x = get_snap(g["ticker"])
+        except Exception: x = None
+        if x is None:
+            md(h('<div class="card">', alert_strip(g), f'<div class="sym" style="font-size:20px;font-weight:900">{tlink(g["ticker"])}</div>',
+                 f'<div class="tiny">{esc((g["last"].get("title") or ""))} · 종목 데이터를 아직 못 불러왔어요</div></div>'))
+        else:
+            md(home_card(g["ticker"], x, alert_strip(g)))
+    md('<div class="tiny">최근 24시간 안에 폰으로 보낸 알림 기준 · 종목당 가장 최근 알림 1개 · 몇 분마다 새로 확인 (추정, 보장 아님)</div>')
 
 # ---------------------------------------------------------------- 페이지: 홈
 def top_picks(n=5, pool=20):
@@ -883,6 +965,11 @@ def page_home():
     sess, now_et = live.session_now()
     md(f'<div class="tiny">{dt.datetime.now(live.KST):%m/%d %H:%M} KST · 미국 {live.SESSION_KO[sess]} · 자동 갱신 {REFRESH_MIN}분 {"켜짐" if LIVE_ON else "꺼짐"}</div>')
     run_every = f"{REFRESH_MIN * 60}s" if LIVE_ON and sess != "closed" else None
+
+    @st.fragment(run_every=run_every or "180s")
+    def alerts_sec():
+        alerts_home()
+    alerts_sec()
 
     @st.fragment(run_every=run_every)
     def top5():
