@@ -1,0 +1,35 @@
+# 일회성 연결 점검 (차입 데이터 소스가 GitHub 서버에서 열리는지 확인)
+name: probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: iBorrowDesk
+        continue-on-error: true
+        run: |
+          curl -sS -m 20 -A "Mozilla/5.0" -w "\nHTTP %{http_code}\n" https://iborrowdesk.com/api/ticker/SOUN | head -c 700
+      - name: IBKR FTP
+        continue-on-error: true
+        run: |
+          python3 - <<'PY'
+          import ftplib, io, time
+          t=time.time()
+          f=ftplib.FTP("ftp3.interactivebrokers.com", timeout=20); f.login("shortstock","")
+          print(f.nlst()[:20])
+          b=io.BytesIO(); f.retrbinary("RETR usa.txt", b.write); f.quit()
+          lines=b.getvalue().decode("latin1").splitlines()
+          print(len(lines), "lines", round(time.time()-t,1), "s")
+          print("\n".join(lines[:3]))
+          print("\n".join(l for l in lines if l.startswith(("SOUN|","OCGN|","GME|"))))
+          PY
+      - name: FINRA SI API
+        continue-on-error: true
+        run: |
+          curl -sS -m 30 -X POST -H "Content-Type: application/json" -H "Accept: application/json" -d '{"limit":1,"compareFilters":[{"compareType":"EQUAL","fieldName":"symbolCode","fieldValue":"SOUN"}]}' -w "\nHTTP %{http_code}\n" https://api.finra.org/data/group/otcMarket/name/consolidatedShortInterest | head -c 500
+      - name: Nasdaq SI API
+        continue-on-error: true
+        run: |
+          curl -sS -m 20 -A "Mozilla/5.0" -H "Accept: application/json" -w "\nHTTP %{http_code}\n" "https://api.nasdaq.com/api/quote/SOUN/short-interest?assetClass=stocks" | head -c 400
