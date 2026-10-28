@@ -451,5 +451,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220218001",
   "grade": "open"
+ },
+ {
+  "id": "SPRC-1793208473",
+  "ts_kst": "2026-10-29 02:27",
+  "ts_utc": "2026-10-28T17:27:53+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "SPRC",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 35k (당일 평균 8.7배)"
+  ],
+  "title": "🚀 SPRC 거래량 급증",
+  "body": "$0.846 (+0.0%) · 정규장 · 레벨 3 · 점수 48\n시장에 도는 주식 37만 주뿐이라 쉽게 크게 움직임 · 최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 5분 거래량 35k (당일 평균 8.7배)\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.803 지정가(기준가 $0.846의 −5%) · 체결 가능성 약 85% · 손익분기 $0.813\n숏 지지구간 $0.500–$0.846 · 손절 $0.000 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8456,
+  "level": 3,
+  "score": 47.7,
+  "prob": 18.993839835728956,
+  "cp": 23.3749453244327,
+  "rl": 2.0,
+  "stop": 0.0,
+  "zone": [
+   0.5,
+   0.8456000089645386
+  ],
+  "bp": 0.8033,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211222005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211222005",
+  "grade": "n/a"
  }
 ]
