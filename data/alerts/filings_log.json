@@ -440,5 +440,22 @@
   "headline": "Information contained in this report Amendment to the Ordinary Share Purchase Warrant As previously disclosed, on October 14, 2026, WF Holding Limited (the “Com",
   "url": "https://www.sec.gov/Archives/edgar/data/1980210/000121390026113160/0001213900-26-113160-index.htm",
   "seen_kst": "2026-10-28 23:46"
+ },
+ {
+  "ticker": "TRUG",
+  "form": "8-K/A",
+  "acc": "0001493152-26-048861",
+  "items": "5.02,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T18:05:27+00:00",
+  "accepted_kst": "10/29 03:05",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. As",
+  "url": "https://www.sec.gov/Archives/edgar/data/1857086/000149315226048861/0001493152-26-048861-index.htm",
+  "seen_kst": "2026-10-29 03:20"
  }
 ]
