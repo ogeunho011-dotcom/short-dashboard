@@ -253,16 +253,52 @@ def card_alert(x):
              f'<div class="tiny">최근 공표 대비 {pct(dchg)} · 공표 SI {num(f.get("si"))} (FINRA·Nasdaq, 결제일+8영업일 반영) · DTC {f.get("dtc", 0):.1f}일</div></div>',
              '</div>')
 
+def _fnum(v):
+    """숫자로 못 바꾸거나 NaN 이면 None (numpy·문자열·None 모두 안전)."""
+    try:
+        v = float(v)
+        return None if math.isnan(v) or math.isinf(v) else v
+    except (TypeError, ValueError):
+        return None
+
+def _kn(v):
+    """1.2만 / 3.4억 식 숫자 (model.kn 과 동일, 모듈 상태와 무관하게 동작)."""
+    v = _fnum(v) or 0.0
+    if v >= 1e8: return f"{v / 1e8:.1f}억".replace(".0억", "억")
+    if v >= 1e4: return f"{v / 1e4:.1f}만".replace(".0만", "만")
+    return f"{v:,.0f}"
+
+def _kst(ts):
+    try:
+        t = pd.Timestamp(ts)
+        return "-" if pd.isna(t) else (t + pd.Timedelta(hours=9)).strftime("%m-%d %H:%M")
+    except Exception:
+        return "-"
+
+def safe_card(fn, x, name=""):
+    """카드 하나가 실패해도 페이지 전체가 죽지 않게: 로그 남기고 작은 안내 카드로 대체."""
+    try:
+        return fn(x)
+    except Exception:
+        import logging, traceback
+        logging.getLogger("shortdash").error("card %s failed for %s\n%s", name or getattr(fn, "__name__", "?"), (x or {}).get("ticker"), traceback.format_exc())
+        return f'<div class="card"><div class="tiny">⚠️ 이 카드를 불러오지 못했어요 ({esc(name or getattr(fn, "__name__", ""))}). 잠시 후 새로고침해 주세요.</div></div>'
+
+def carousel(x, dots):
+    return md('<div class="carousel">' + "".join(safe_card(fn, x, n) for fn, n in ((card_alert, "경보"), (card_borrow, "차입/이벤트"), (card_ladder, "사다리"), (card_table, "밴드표"))) + f'</div><div class="dots">{dots}</div>')
+
 def card_borrow(x):
     f, b = x["f"], x["b"]
-    bor = b.bor
-    avail = f.get("avail"); fee = f.get("fee")
+    bor = getattr(b, "bor", None)
+    if bor is None: bor = []
+    avail = _fnum(f.get("avail")); fee = _fnum(f.get("fee"))
+    avail_prev, fee_prev = _fnum(f.get("avail_prev")), _fnum(f.get("fee_prev"))
     if x.get("hist"):
         av_txt, av_sub, fee_sub, fee = "N/A", "과거 시점 빌릴 수 있는 주식 이력 없음 (무료 소스 없음)", "과거 대차이자 이력 없음 — 추정도 하지 않음", None
     elif len(bor) and fee is not None:
-        av_txt = "1천만주+" if (avail or 0) >= 1e7 else (model.kn(avail) + "주")
-        av_sub = (f'전일 {model.kn(f["avail_prev"])}주 · ' if f.get("avail_prev") is not None else "") + f'IBKR {(pd.Timestamp(f["borrow_ts"]) + pd.Timedelta(hours=9)).strftime("%m-%d %H:%M") if f.get("borrow_ts") else "-"} 한국시간'
-        fee_sub = (f'전일 {f["fee_prev"]:.1f}% · ' if f.get("fee_prev") is not None else "") + f'기록 {f.get("borrow_days") or 1}일째 (오늘부터 쌓는 중)'
+        av_txt = "데이터 없음" if avail is None else ("1천만주+" if avail >= 1e7 else _kn(avail) + "주")
+        av_sub = (f'전일 {_kn(avail_prev)}주 · ' if avail_prev is not None else "") + f'IBKR {_kst(f.get("borrow_ts")) if f.get("borrow_ts") else "-"} 한국시간'
+        fee_sub = (f'전일 {fee_prev:.1f}% · ' if fee_prev is not None else "") + f'기록 {f.get("borrow_days") or 1}일째 (오늘부터 쌓는 중)'
     else:
         av_txt, av_sub, fee_sub = "N/A", "IBKR 목록에 없음 (빌릴 수 없는 종목일 수 있음) 또는 아직 수집 전", "데이터 없음"
     sl = short_lines(x, 6); why = short_why(x)
@@ -446,19 +482,19 @@ def page_stock():
         md(f'<div style="margin:2px 0 6px"><span class="cpchip">{cpk(t, copy_text(t, x), href=False, label="📋 " + esc(t) + " 꾹 눌러 복사")}</span> {tsb(t, big=True)} <span class="tiny">앱이 깔려 있으면 토스증권 앱의 {esc(t)} 화면으로, 아니면 웹으로 열립니다</span></div>')
         for kind, msg in x["triggers"]:
             md(f'<div class="card rc" style="padding:9px 12px">⚡ <b>라이브 트리거</b> · {esc(msg)}</div>')
-        md(prob_card(x))
-        md(RU.card_cover(x))
-        md('<div class="carousel">' + card_alert(x) + card_borrow(x) + card_ladder(x) + card_table(x) + '</div><div class="dots">◀ 옆으로 넘기기 · 1 경보 · 2 차입/이벤트 · 3 사다리 · 4 밴드표 ▶</div>')
+        md(safe_card(prob_card, x, "확률"))
+        md(safe_card(RU.card_cover, x, "숏 커버 경보"))
+        carousel(x, "◀ 옆으로 넘기기 · 1 경보 · 2 차입/이벤트 · 3 사다리 · 4 밴드표 ▶")
         dil = x["dil"]
         md(f'<div class="card"><h3>🧾 자동 요약</h3><div style="font-size:13px;line-height:1.55">{esc(model.summary_ko(t, x["f"], x["s"], x["meta"], dil, x["prob"]))}</div></div>')
         sig = x["s"]["signals"]
         chips = "".join(f'<span class="chip {"on" if (v or 0) >= 1 else ""}">{esc(model.SIG_NAME[k])} {"N/A" if v is None else f"{min(v, 1.5) * 100:.0f}"}</span>' for k, v in sig.items())
         md(f'<div class="card"><h3>🔔 동시 신호 (Confluence) {x["s"]["confluence"]}개 / 기준 {int(p["min_confluence"])}개</h3><div class="chips">{chips}</div>'
            f'<div class="tiny">숫자 = 신호 강도(100 이상이면 ON). N/A = 무료 소스에서 데이터 없음. {"✅ 경보 조건 충족" if x["s"]["flagged"] else "경보 조건 미충족"}</div></div>')
-        md(RU.card_levels(x))
-        md(RU.card_entry(x))
-        md(RU.card_offer(x))
-        md(RU.card_borrow_log(x))
+        md(safe_card(RU.card_levels, x, "레벨 맵"))
+        md(safe_card(RU.card_entry, x, "진입 구간"))
+        md(safe_card(RU.card_offer, x, "공모 위험"))
+        md(safe_card(RU.card_borrow_log, x, "대차비용 변화"))
         md(card_buyzone(x))
         return x
     x = body()
@@ -626,6 +662,14 @@ def _ma_refs(bp):
     return " · ".join(f'{v["name"]} {px(v["price"])}({v["pct"]:+.1f}%)' for k, v in ((bp or {}).get("ref") or {}).items() if k != "ivwap")
 
 def copy_text(t, x):
+    try:
+        return _copy_text(t, x)
+    except Exception:
+        import logging, traceback
+        logging.getLogger("shortdash").error("copy_text failed for %s\n%s", t, traceback.format_exc())
+        return f"{t} (정리 글을 만들지 못했어요)"
+
+def _copy_text(t, x):
     """종목 정리 글 (카톡·메모에 붙여넣기용 평문)."""
     t = str(t).upper()
     eh, f, s, info = x["eh"], x["f"], x["s"], x.get("info") or {}
@@ -1223,7 +1267,7 @@ def hist_cards_box():
         x = dict(x, hist=True)
         md(f'<div class="card"><div class="tiny">⏪ 시점 {c["date"]} 종가 기준 재구성 · 셋업 결과: <b>{esc(c["result"])}</b> · 분류: {esc(c.get("cat") or "")}</div>'
            f'<div style="font-size:13px;margin-top:4px">원인(수작업 조사): {esc(c.get("cause") or "")}</div></div>')
-        md('<div class="carousel">' + card_alert(x) + card_borrow(x) + card_ladder(x) + card_table(x) + '</div><div class="dots">◀ 옆으로 넘기기 · 1 경보 · 2 이벤트/커버압력 · 3 사다리 · 4 밴드표 ▶</div>')
+        carousel(x, "◀ 옆으로 넘기기 · 1 경보 · 2 이벤트/커버압력 · 3 사다리 · 4 밴드표 ▶")
         post = "".join(f'<div class="ev"><div class="n" style="background:#64748b">▶</div><div class="d">{pd.Timestamp(d):%m/%d}</div><div>{esc(t)}</div></div>' for d, t in x["post"])
         md(f'<div class="card"><h3>📈 사후 결과 (경보 이후 — 카드 계산에는 사용 안 함)</h3>{post}'
            '<div class="tiny">판정 규칙: 같은 날 손절과 익절이 모두 닿으면 손절 우선(보수적). 재점화 도달 시 50% 익절 + 손절을 진입가로 상향, 나머지는 21일 고점 재시험 또는 10거래일 종가 청산.</div></div>')
