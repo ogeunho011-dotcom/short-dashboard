@@ -17,6 +17,7 @@ concurrency:
 
 env:
   DB_TAG: db-latest
+  SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
 
 jobs:
   update:
