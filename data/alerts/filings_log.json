@@ -477,5 +477,24 @@
   "headline": "Nexera Technologies Signs Definitive Agreement to Sell KeepZone AI to a Global Aerospace and Defense Company for up to $6 million Transaction provides for the s",
   "url": "https://www.sec.gov/Archives/edgar/data/1885408/000121390026113293/0001213900-26-113293-index.htm",
   "seen_kst": "2026-10-29 05:02"
+ },
+ {
+  "ticker": "GCTK",
+  "form": "8-K",
+  "acc": "0001493152-26-048981",
+  "items": "5.03,8.01,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:05:43+00:00",
+  "accepted_kst": "10/29 05:05",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "unaudited pro forma financial information On July 14, 2026 (the “Closing Date”), Glucotrack, Inc., a Delaware corporation (“Glucotrack”), entered into an Agreem",
+  "url": "https://www.sec.gov/Archives/edgar/data/1506983/000149315226048981/0001493152-26-048981-index.htm",
+  "seen_kst": "2026-10-29 05:40"
  }
 ]
