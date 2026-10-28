@@ -80,6 +80,10 @@ def fetch_finra_day(day: dt.date, tickers=None):
     ds = day.strftime("%Y%m%d")
     try:
         r = _get(FINRA_URL.format(d=ds), allow_redirects=False, timeout=30)
+        if r.status_code in (301, 302, 307, 403):
+            # CDN 이 클라우드 서버(GitHub Actions 등) IP 를 막는 경우 → FINRA 공개 API 로 같은 데이터 받기
+            n = fetch_finra_day_api(day, tickers)
+            if n is not None: return n
         if r.status_code != 200 or not r.text.startswith("Date|"):
             msg = f"HTTP {r.status_code} (WAF/차단 또는 휴장일)"
             db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "blocked" if r.status_code in (301, 302, 307, 403) else "missing", time.time()))
@@ -97,6 +101,39 @@ def fetch_finra_day(day: dt.date, tickers=None):
         return n
     except Exception as e:
         db.set_status("FINRA RegSHO", False, repr(e)); return -1
+
+FINRA_API = "https://api.finra.org/data/group/otcMarket/name/regShoDaily"
+
+def fetch_finra_day_api(day: dt.date, tickers=None):
+    """FINRA 공개 API(인증 불필요). 거래보고소(NQTRF·NYTRF·NCTRF)별 행을 합치면 CNMSshvol 파일과 같은 값
+    (2026-10-27 SOUN·TDIC·NN·AEYE·AAPL 로 일치 확인). ORF(장외 종목)는 CNMS 파일에 없으므로 제외.
+    성공 시 행 수, 그날 자료가 없으면 0, API 도 실패하면 None."""
+    ds = day.strftime("%Y%m%d"); iso = day.strftime("%Y-%m-%d")
+    try:
+        rows, off = [], 0
+        while True:
+            r = requests.post(FINRA_API, json={"limit": 5000, "offset": off, "compareFilters": [
+                {"compareType": "equal", "fieldName": "tradeReportDate", "fieldValue": iso}]},
+                headers={"Accept": "application/json", "User-Agent": UA_BROWSER}, timeout=60)
+            if r.status_code == 204: break
+            if r.status_code != 200: return None
+            j = r.json(); rows += j; off += 5000
+            if len(j) < 5000: break
+        if not rows:
+            db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "missing", time.time()))
+            db.set_status("FINRA RegSHO", False, f"{ds} 자료 없음 (휴장일?)"); return 0
+        a = pd.DataFrame(rows)
+        a = a[a["marketCode"] != "O"]
+        g = a.groupby("securitiesInformationProcessorSymbolIdentifier")[["shortParQuantity", "shortExemptParQuantity", "totalParQuantity"]].sum().reset_index()
+        if tickers is not None: g = g[g["securitiesInformationProcessorSymbolIdentifier"].isin(set(tickers))]
+        out = pd.DataFrame({"ticker": g["securitiesInformationProcessorSymbolIdentifier"], "date": iso,
+                            "short_vol": g["shortParQuantity"], "short_exempt": g["shortExemptParQuantity"], "total_vol": g["totalParQuantity"]})
+        n = db.upsert_df("short_vol", out, ["ticker", "date", "short_vol", "short_exempt", "total_vol"])
+        db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "ok", time.time()))
+        db.set_status("FINRA RegSHO", True, f"{ds} {n}행 (API)")
+        return n
+    except Exception:
+        return None
 
 def import_finra_file(path_or_buf, tickers=None):
     """차단된 환경용: 브라우저로 받은 CNMSshvol 파일을 수동 업로드."""
