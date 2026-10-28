@@ -625,11 +625,40 @@ def home_card(t, x):
              '</div>', f'<div class="foot">{live_line(x)}</div></div></div>')
 
 # ---------------------------------------------------------------- 페이지: 홈
+def top_picks(n=5, pool=20):
+    """최근 스캔에서 악재 공시(증자·역분할·소송) 없는 상위 pool 종목의 확률을 계산해 높은 순 n개."""
+    df, _ = scan.last_scan()
+    if df is None or len(df) == 0: return []
+    m = np.ones(len(df), bool)
+    for k in ("dilution", "reverse_split", "lawsuit"):
+        if k in df: m &= ~df[k].fillna(False).astype(bool).values
+    out = []
+    for t in df[m].sort_values("score", ascending=False).ticker.head(pool):
+        try: x = get_snap(t)
+        except Exception: continue
+        pr = (x or {}).get("prob") or {}
+        if pr.get("prob") is not None: out.append((t, x, pr["prob"]))
+    out.sort(key=lambda o: -o[2])
+    return [(t, x) for t, x, _ in out[:n]]
+
 def page_home():
     topbar("숏 레이더", "나스닥 초소형주 숏 분석")
     sess, now_et = live.session_now()
     md(f'<div class="tiny">{dt.datetime.now(live.KST):%m/%d %H:%M} KST · 미국 {live.SESSION_KO[sess]} · 자동 갱신 {REFRESH_MIN}분 {"켜짐" if LIVE_ON else "꺼짐"}</div>')
     run_every = f"{REFRESH_MIN * 60}s" if LIVE_ON and sess != "closed" else None
+
+    @st.fragment(run_every=run_every)
+    def top5():
+        md('<div class="sec">🔥 오를 확률 TOP 5</div>')
+        tops = top_picks(5)
+        if not tops:
+            md('<div class="card tiny">아직 스캔 결과가 없어요. 매일 자동 업데이트 뒤에 채워집니다.</div>'); return
+        warm_toss([t for t, _ in tops])
+        for i, (t, x) in enumerate(tops, 1):
+            md(home_card(t, x))
+        md('<div class="tiny">최근 스캔 상위 종목 중 확률이 높은 순 · 증자/역분할/소송 공시가 있는 종목은 뺐어요 (추정, 보장 아님)</div>')
+    top5()
+    md('<div class="sec">⭐ 관심종목</div>')
 
     @st.fragment(run_every=run_every)
     def cards():
