@@ -121,5 +121,128 @@
    "accepted_kst": "10/27 21:02",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "POM-1793195556",
+  "ts_kst": "2026-10-28 22:52",
+  "ts_utc": "2026-10-28T13:52:36+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "POM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +49.8% · 거래량 평소의 12.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ POM 장중 급등 포착",
+  "body": "$2.060 (+49.8%) · 정규장 · 레벨 4 · 점수 58\n$2.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 112만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +49.8% · 거래량 평소의 12.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.957 지정가(기준가 $2.060의 −5%) · 체결 가능성 약 82% · 손익분기 $1.981\n숏 지지구간 $1.750–$2.000 · 손절 $1.500 · 1차목표 $2.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.06,
+  "level": 4,
+  "score": 58.3,
+  "prob": 47.808764940239065,
+  "cp": 53.72521724927476,
+  "rl": 2.25,
+  "stop": 1.5,
+  "zone": [
+   1.75,
+   2.0
+  ],
+  "bp": 1.957,
+  "tgt": 2.25,
+  "stp": 1.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251008001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251008001",
+  "grade": "open"
+ },
+ {
+  "id": "NUWE-1793195556",
+  "ts_kst": "2026-10-28 22:52",
+  "ts_utc": "2026-10-28T13:52:36+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "NUWE",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 NUWE 상위 확률 신호",
+  "body": "$4.670 (-13.0%) · 정규장 · 레벨 4 · 점수 57\n공매도 물량 대부분 손해 중, $5.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 365만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.437 지정가(기준가 $4.670의 −5%) · 체결 가능성 약 53% · 손익분기 $4.490\n숏 지지구간 $4.250–$4.500 · 손절 $4.000 · 1차목표 $5.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.67,
+  "level": 4,
+  "score": 56.7,
+  "prob": 52.91666666666666,
+  "cp": 69.33406591501385,
+  "rl": 5.0,
+  "stop": 4.0,
+  "zone": [
+   4.25,
+   4.5
+  ],
+  "bp": 4.4365,
+  "tgt": 5.0,
+  "stp": 4.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
+  "grade": "open"
+ },
+ {
+  "id": "ONCO-1793195556",
+  "ts_kst": "2026-10-28 22:52",
+  "ts_utc": "2026-10-28T13:52:36+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "ONCO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.2% · 거래량 평소의 14.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ONCO 장중 급등 포착",
+  "body": "$0.550 (+18.2%) · 정규장 · 레벨 4 · 점수 56\n$0.600 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 395만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +18.2% · 거래량 평소의 14.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.523 지정가(기준가 $0.550의 −5%) · 체결 가능성 약 68% · 손익분기 $0.529\n숏 지지구간 $0.400–$0.453 · 손절 $0.375 · 1차목표 $0.600\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.55,
+  "level": 4,
+  "score": 55.5,
+  "prob": 45.01661129568107,
+  "cp": 18.46119869386,
+  "rl": 0.6,
+  "stop": 0.375,
+  "zone": [
+   0.4,
+   0.45250000417232517
+  ],
+  "bp": 0.5225,
+  "tgt": 0.6,
+  "stp": 0.375,
+  "penalties": [
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220218001",
+  "grade": "open"
  }
 ]
