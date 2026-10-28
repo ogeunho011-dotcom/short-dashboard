@@ -7,29 +7,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: iBorrowDesk
-        continue-on-error: true
-        run: |
-          curl -sS -m 20 -A "Mozilla/5.0" -w "\nHTTP %{http_code}\n" https://iborrowdesk.com/api/ticker/SOUN | head -c 700
-      - name: IBKR FTP
+      - name: IBKR FTP2
         continue-on-error: true
         run: |
           python3 - <<'PY'
           import ftplib, io, time
-          t=time.time()
-          f=ftplib.FTP("ftp3.interactivebrokers.com", timeout=20); f.login("shortstock","")
-          print(f.nlst()[:20])
-          b=io.BytesIO(); f.retrbinary("RETR usa.txt", b.write); f.quit()
-          lines=b.getvalue().decode("latin1").splitlines()
-          print(len(lines), "lines", round(time.time()-t,1), "s")
-          print("\n".join(lines[:3]))
-          print("\n".join(l for l in lines if l.startswith(("SOUN|","OCGN|","GME|"))))
+          for host in ("ftp2.interactivebrokers.com", "ftp3.interactivebrokers.com"):
+              t=time.time()
+              try:
+                  f=ftplib.FTP(host, timeout=20); f.login("shortstock","")
+                  print(host, f.nlst()[:30])
+                  b=io.BytesIO(); f.retrbinary("RETR usa.txt", b.write); f.quit()
+                  lines=b.getvalue().decode("latin1").splitlines()
+                  print(host, len(lines), "lines", round(time.time()-t,1), "s")
+                  print("\n".join(lines[:3]))
+                  print("\n".join(l for l in lines if l.startswith(("SOUN|","OCGN|","GME|"))))
+              except Exception as e:
+                  print(host, "FAIL", repr(e), round(time.time()-t,1))
           PY
-      - name: FINRA SI API
-        continue-on-error: true
-        run: |
-          curl -sS -m 30 -X POST -H "Content-Type: application/json" -H "Accept: application/json" -d '{"limit":1,"compareFilters":[{"compareType":"EQUAL","fieldName":"symbolCode","fieldValue":"SOUN"}]}' -w "\nHTTP %{http_code}\n" https://api.finra.org/data/group/otcMarket/name/consolidatedShortInterest | head -c 500
-      - name: Nasdaq SI API
-        continue-on-error: true
-        run: |
-          curl -sS -m 20 -A "Mozilla/5.0" -H "Accept: application/json" -w "\nHTTP %{http_code}\n" "https://api.nasdaq.com/api/quote/SOUN/short-interest?assetClass=stocks" | head -c 400
