@@ -383,5 +383,24 @@
   "headline": "Item 1.01 Entry into a Material Definitive Agreement. On October 27, 2026, 22nd Century Group, Inc. (the “Company”) entered into Amendment No. 2 to Sales Agreem",
   "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048795/0001493152-26-048795-index.htm",
   "seen_kst": "2026-10-28 19:20"
+ },
+ {
+  "ticker": "OWLS",
+  "form": "4",
+  "acc": "0002109337-26-000013",
+  "items": "",
+  "filed": "2026-10-27",
+  "accepted": "2026-10-27T12:02:22+00:00",
+  "accepted_kst": "10/27 21:02",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $22,283",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "WANG CHUN KAI",
+  "url": "https://www.sec.gov/Archives/edgar/data/2025416/000210933726000013/0002109337-26-000013-index.htm",
+  "seen_kst": "2026-10-28 19:52"
  }
 ]
