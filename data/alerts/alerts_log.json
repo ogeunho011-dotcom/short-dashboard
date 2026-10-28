@@ -1283,5 +1283,247 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251008001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251008001",
   "grade": "open"
+ },
+ {
+  "id": "NUWE-1793231089",
+  "ts_kst": "2026-10-29 08:44",
+  "ts_utc": "2026-10-28T23:44:49+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "NUWE",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 79/100"
+  ],
+  "title": "🚀 NUWE 상위 확률 신호 · 커버 압력",
+  "body": "$5.450 (+1.5%) · 애프터마켓 · 레벨 4 · 점수 66\n공매도 물량 대부분 손해 중, $5.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 365만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 79/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.178 지정가(기준가 $5.450의 −5%) · 체결 가능성 약 53% · 손익분기 $5.240\n숏 지지구간 $5.000–$5.250 · 손절 $4.750 · 1차목표 $5.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.45,
+  "level": 4,
+  "score": 65.5,
+  "prob": 53.223577561098224,
+  "cp": 78.86867912142647,
+  "rl": 5.5,
+  "stop": 4.75,
+  "zone": [
+   5.0,
+   5.25
+  ],
+  "bp": 5.1775,
+  "tgt": 5.5,
+  "stp": 4.75,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
+  "grade": "open"
+ },
+ {
+  "id": "ULBI-1793231089",
+  "ts_kst": "2026-10-29 08:44",
+  "ts_utc": "2026-10-28T23:44:49+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "ULBI",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ULBI 상위 확률 신호",
+  "body": "$15.650 (+146.1%) · 애프터마켓 · 레벨 3 · 점수 43\n$16.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,666만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $15.500–$15.650 · 손절 $15.250 · 1차목표 $16.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 15.65,
+  "level": 3,
+  "score": 42.7,
+  "prob": 53.44827586206896,
+  "cp": 31.207230067332105,
+  "rl": 16.0,
+  "stop": 15.25,
+  "zone": [
+   15.5,
+   15.65
+  ],
+  "bp": null,
+  "tgt": 16.0,
+  "stp": 15.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19921223001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19921223001",
+  "grade": "open"
+ },
+ {
+  "id": "KPTI-1793231089",
+  "ts_kst": "2026-10-29 08:44",
+  "ts_utc": "2026-10-28T23:44:49+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "KPTI",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 KPTI 상위 확률 신호",
+  "body": "$0.792 (+65.0%) · 애프터마켓 · 레벨 3 · 점수 45\n공매도 물량 대부분 손해 중, $1.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,730만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.752 지정가(기준가 $0.792의 −5%) · 체결 가능성 약 70% · 손익분기 $0.761\n숏 지지구간 $0.554–$0.554 · 손절 $0.396 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.792,
+  "level": 3,
+  "score": 44.6,
+  "prob": 52.91666666666666,
+  "cp": 45.25095138232368,
+  "rl": 1.0,
+  "stop": 0.396,
+  "zone": [
+   0.5544,
+   0.5544
+  ],
+  "bp": 0.7524,
+  "tgt": 1.0,
+  "stp": 0.396,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20131105002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20131105002",
+  "grade": "open"
+ },
+ {
+  "id": "BOOM-1793231089",
+  "ts_kst": "2026-10-29 08:44",
+  "ts_utc": "2026-10-28T23:44:49+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "BOOM",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 BOOM 상위 확률 신호",
+  "body": "$7.950 (+48.6%) · 애프터마켓 · 레벨 3 · 점수 43\n공매도 물량 대부분 손해 중 · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $7.553 지정가(기준가 $7.950의 −5%) · 체결 가능성 약 31% · 손익분기 $7.644\n숏 지지구간 $6.500–$6.938 · 손절 $6.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.95,
+  "level": 3,
+  "score": 42.7,
+  "prob": 53.44827586206896,
+  "cp": 62.86,
+  "rl": 7.739999771118164,
+  "stop": 6.25,
+  "zone": [
+   6.5,
+   6.9375
+  ],
+  "bp": 7.5525,
+  "tgt": 8.900999736785888,
+  "stp": 6.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19890105001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19890105001",
+  "grade": "open"
+ },
+ {
+  "id": "LUNG-1793231089",
+  "ts_kst": "2026-10-29 08:44",
+  "ts_utc": "2026-10-28T23:44:49+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "LUNG",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 LUNG 상위 확률 신호",
+  "body": "$2.600 (+31.3%) · 애프터마켓 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $2.80 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 29배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.470 지정가(기준가 $2.600의 −5%) · 체결 가능성 약 37% · 손익분기 $2.500\n숏 지지구간 $2.300–$2.405 · 손절 $2.200 · 1차목표 $2.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.6,
+  "level": 3,
+  "score": 43.6,
+  "prob": 53.44827586206896,
+  "cp": 50.54610490386152,
+  "rl": 2.8000000000000016,
+  "stop": 2.200000000000001,
+  "zone": [
+   2.300000000000001,
+   2.4050000000000007
+  ],
+  "bp": 2.47,
+  "tgt": 2.8000000000000016,
+  "stp": 2.200000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001009",
+  "grade": "open"
+ },
+ {
+  "id": "ELPW-1793231089",
+  "ts_kst": "2026-10-29 08:44",
+  "ts_utc": "2026-10-28T23:44:49+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "ELPW",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)"
+  ],
+  "title": "🚀 ELPW 상위 확률 신호",
+  "body": "$2.940 (+20.5%) · 애프터마켓 · 레벨 3 · 점수 54\n$4.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 15만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 검증 모델 상위 신호 (보정확률 48%)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $2.793 지정가(기준가 $2.940의 −5%) · 체결 가능성 약 50% · 손익분기 $2.827\n숏 지지구간 $2.000–$2.940 · 손절 $1.470 · 1차목표 $4.000\n⚠ 역분할 2026-08-10\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.94,
+  "level": 3,
+  "score": 53.9,
+  "prob": 48.387508512328445,
+  "cp": 24.413333333333334,
+  "rl": 4.0,
+  "stop": 1.47,
+  "zone": [
+   2.0,
+   2.94
+  ],
+  "bp": 2.793,
+  "tgt": 4.0,
+  "stp": 1.47,
+  "penalties": [
+   "역분할 2026-08-10"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230501002",
+  "grade": "open"
  }
 ]

@@ -1221,5 +1221,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1503802/000110465926119710/0001104659-26-119710-index.htm",
   "seen_kst": "2026-10-29 06:49"
+ },
+ {
+  "ticker": "RBNE",
+  "form": "SCHEDULE 13G",
+  "acc": "0001094891-26-000315",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T23:05:51+00:00",
+  "accepted_kst": "10/29 08:05",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2039060/000109489126000315/0001094891-26-000315-index.htm",
+  "seen_kst": "2026-10-29 08:44"
+ },
+ {
+  "ticker": "TMCI",
+  "form": "4",
+  "acc": "0001193125-26-436510",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T23:30:03+00:00",
+  "accepted_kst": "10/29 08:30",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1630627/000119312526436510/0001193125-26-436510-index.htm",
+  "seen_kst": "2026-10-29 08:44"
  }
 ]
