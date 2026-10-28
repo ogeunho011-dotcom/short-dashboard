@@ -78,13 +78,19 @@ def _analyze(t, u, reg, p, hot=None, keep=None, bars=None):
             up = (meta["reignite"] / f["price"] - 1) * 100 if meta.get("reignite") else None
             status = "가능" if s["flagged"] else ("대기" if s["score"] >= p["flag_score"] - 10 else "관망")
             dil = model.dilution(b)
+            try:
+                from . import pattern as PT
+                pm = PT.match(b.px, f, getattr(b, "info", None), getattr(b, "fil", None)); pl = PT.line(pm) or ""
+            except Exception: pm, pl = None, ""
             return {"ticker": t, "name": (u.set_index("ticker").name.get(t) or "")[:40], "price": f["price"], "chg1": f["chg1"],
                          "score": s["score"], "level": s["level"], "conf": s["confluence"], "flagged": s["flagged"], "status": status,
                          "upside": up, "loss_pct": f.get("loss_pct"), "si_float": f.get("si_float"), "vol_ratio": f.get("vol_ratio"),
                          "runway": dil.get("runway_m"), "dil_score": dil["score"], **ex, "on": ",".join(s["on"]),
                     "mcap": float(u.set_index("ticker").mcap.get(t) or 0), "float_m": f.get("float_m"), "industry": (info or {}).get("industry"),
                     "dtc": f.get("dtc"), "summary": model.plain_summary(f), "fresh_1m": fresh,
-                    "last_date": str(b.px["date"].iloc[-1].date())}
+                    "last_date": str(b.px["date"].iloc[-1].date()),
+                    "pat_n": pm["n"] if pm else None, "pat_on": ",".join(x["label"] for x in pm["hits"] if x["on"]) if pm else "",
+                    "pat_line": pl}
         except Exception as e:
             db.set_status("스캔", False, f"{t}: {e!r}"[:200]); return None
 

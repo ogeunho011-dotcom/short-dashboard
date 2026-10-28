@@ -2,7 +2,7 @@
 import json, math, os, re, datetime as dt
 import numpy as np, pandas as pd
 import streamlit as st
-from core import db, params as P, sources as src, model, live, scan, ui, toss, alerts as AL, cloud, levels as LV, radar_ui as RU
+from core import db, params as P, sources as src, model, live, scan, ui, toss, alerts as AL, cloud, levels as LV, radar_ui as RU, pattern as PT
 from core.ui import esc, px, pct, num, h
 
 st.set_page_config(page_title="숏 레이더", page_icon="📉", layout="centered", initial_sidebar_state="collapsed")
@@ -494,6 +494,7 @@ def page_stock():
         md(safe_card(RU.card_levels, x, "레벨 맵"))
         md(safe_card(RU.card_entry, x, "진입 구간"))
         md(safe_card(RU.card_offer, x, "공모 위험"))
+        md(safe_card(RU.card_pattern, x, "성공 패턴"))
         md(safe_card(RU.card_borrow_log, x, "대차비용 변화"))
         md(card_buyzone(x))
         return x
@@ -741,6 +742,8 @@ def copy_text_row(r):
     if ok(g("runway")): L.append(f"⏳ 현금 런웨이 약 {g('runway'):.0f}개월 · 희석 점수 {g('dil_score')}")
     bad = [lab for k, lab in (("dilution", "증자/희석"), ("reverse_split", "역분할"), ("lawsuit", "소송")) if g(k) is True or (ok(g(k)) and bool(g(k)))]
     L.append("⚠️ 감점 요인: " + ", ".join(bad) if bad else "✅ 증자·역분할·소송 감점 요인 없음")
+    pn = g("pat_n")
+    if ok(pn) and esc_plain(g("pat_line")): L.append(esc_plain(g("pat_line")))
     fl = _filing_line(t)
     if fl: L.append(fl)
     L += ["확률·추천 매수가·손익분기는 상세 화면에서 확인", "", f"🔗 {dash_link(t)}", "※ 숏 레이더 추정치 · 투자 권유 아님"]
@@ -889,7 +892,9 @@ def home_card(t, x, top=""):
     flag = '<span class="badge red">경보 조건 충족</span>' if s["flagged"] else ""
     trig = '<span class="badge red">트리거</span>' if x["triggers"] else ""
     R = x.get("rad") or {}; ca = R.get("ca"); otags = ((R.get("off") or {}).get("tags") or [])
+    ptag = PT.tag(R.get("pat"))
     rad_line = " ".join(filter(None, [f'<span class="badge {"red" if ca["met"] >= 3 else ("yellow" if ca["met"] >= 2 else "")}">숏 커버 {ca["level"]}/5</span>' if ca else "",
+                                      f'<span class="badge yellow">{esc(ptag)}</span>' if ptag else "",
                                       "".join(f'<span class="badge {"red" if g in ("공모 전 펌핑 주의", "상장 유지 미달", "현금 부족") else "yellow"}">{esc(g)}</span>' for g in otags[:3])]))
     return h(f'<div class="hc"><a class="ov" href="?{ui.AUTHQ}p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">', top,
              f'<div class="t1"><div><div class="sym">{cpk(t, copy_text(t, x))}{tsb(t)}</div><div class="nm">{esc((info.get("shortName") or "")[:30])}</div></div>',
@@ -1100,7 +1105,8 @@ def page_select():
             ok = r.status == "가능"
             cells.append(f'<div class="tk {"ok" if ok else ""}"><a class="ov" href="?{ui.AUTHQ}p=stock&t={r.ticker}" target="_self" aria-label="{esc(r.ticker)} 상세"></a><div class="no">{i:02d}</div><div class="sym">{cpk(r.ticker, copy_text_row(r))}{tsb(r.ticker)}</div>'
                          f'<div class="st {"red" if ok else ("yellow" if r.status == "대기" else "muted")}">{esc(r.status)}</div><div class="tiny">{show(r)}</div>'
-                         f'<div class="sum">▸ {esc(getattr(r, "summary", "") or "")}</div></div>')
+                         f'<div class="sum">▸ {esc(getattr(r, "summary", "") or "")}</div>'
+                         + (f'<div class="tiny yellow">🧬 성공 패턴 {int(r.pat_n)}/6 (참고)</div>' if (getattr(r, "pat_n", None) or 0) >= 3 and not pd.isna(r.pat_n) else "") + '</div>')
         md('<div class="grid">' + "".join(cells) + '</div>')
     show_lv = lambda r: f'Lv{r.level} · 신호 {r.conf} · {px(r.price)}'
     for i, (k, (d, gone)) in enumerate(rt.items()):

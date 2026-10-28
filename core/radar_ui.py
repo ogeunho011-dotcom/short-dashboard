@@ -133,6 +133,25 @@ def card_offer(x):
     return h('<div class="card"><h3>🧯 공모 전 펌핑 · 상장 위험 감지</h3>', body, pen,
              '<div class="tiny" style="margin-top:4px">S-1/F-1 대기(424B 없음) · 효력 발생 · ATM(424B5) · 셸프 · 8-K 3.01 상장 유지 미달·기한 · $1 미만 일수 · 현금 런웨이 · 공모가/워런트 행사가 (SEC EDGAR 원문 자동 판독, 틀릴 수 있음)</div></div>')
 
+# ---------------------------------------------------------------- 🧬 성공 패턴 일치 (참고)
+def card_pattern(x):
+    from . import pattern as PT
+    pm = (x.get("rad") or {}).get("pat")
+    if not pm: return f'<div class="card"><h3>🧬 성공 패턴 일치</h3>{NA}</div>'
+    rows = "".join(f'<div class="tr"><div class="between"><span>{"✅" if it["on"] else "▫️"} {esc(it["label"])}</span><span class="tiny">{esc(it["val"])}</span></div></div>' for it in pm["hits"])
+    col = "red" if pm["n"] >= 4 else ("yellow" if pm["n"] >= 3 else "")
+    sp_ = ""
+    if pm.get("spike") is not None:
+        sp_ = (f'<div class="tiny" style="margin-top:6px">📊 과거 비슷한 자리(가격 4요소 {pm["k4"]}/4, {pm.get("n_hist") or 0:,}건): 5거래일 안 <b>+30% 터치 {pm["spike"] * 100:.0f}%</b> '
+               f'(전체 평균 {pm["spike_base"] * 100:.0f}%) · 그런데 5일 뒤 종가 중앙값 {pm["fc5_med"] * 100:+.1f}% — 튀면 짧게 익절, 들고 가면 손해 나기 쉬움</div>')
+    app_ = ""
+    if pm.get("app_hit") is not None:
+        app_ = f'<div class="tiny">앱 성공 기준(재점화 레벨 도달) 3개 이상 일치: {pm["app_hit"] * 100:.0f}% vs 평균 {pm["app_base"] * 100:.0f}% → 그래서 점수에는 넣지 않았어요</div>'
+    return h(f'<div class="card"><div class="between"><h3>🧬 성공 패턴 일치</h3><span class="badge {col}">{pm["n"]}/{pm["m"]} · 참고</span></div>',
+             '<div class="tiny" style="margin-bottom:4px">커뮤니티 성공 사례 14건(급락 → 프리/애프터 급등)의 직전 공통점과 비교. 종합점수·확률에는 반영 안 함.</div>',
+             rows, sp_, app_,
+             '<div class="tiny">5분봉 확인된 13건 중 11건은 프리장·애프터에서 먼저 터짐 (과거 시간외 데이터가 없어 검증은 못 함) · 자기 보고된 성공 사례라 실패 사례는 빠져 있음</div></div>')
+
 # ---------------------------------------------------------------- 복사 글용
 def copy_lines(x):
     R = x.get("rad") or {}; L = []
@@ -156,6 +175,11 @@ def copy_lines(x):
     br = R.get("br")
     if br:
         r = br[0]; L.append(f"💸 대차이자 {r['fee']:.0f}% · 차입 가능 {r['avail']:,.0f}주 ({r['kst']} KST)" + (f" · {', '.join(r['jump'])}" if r["jump"] else ""))
+    try:
+        from . import pattern as PT
+        pl = PT.line(R.get("pat"))
+        if pl: L.append(pl)
+    except Exception: pass
     o = R.get("off")
     if o and o.get("tags"): L.append("🧯 공모·상장 위험: " + ", ".join(o["tags"]) + (f" — {o['items'][0]['why'][:90]}" if o.get("items") else ""))
     return L

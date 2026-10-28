@@ -356,6 +356,10 @@ def radar(x, fetch_docs=True):
         R["ev"] = event_timeline(b.px, fil, R["br"], news, eh, (R["lm"] or {}).get("trigger"), price, cik=off.get("cik"))
     except Exception as e: R["ev"] = []; R["err"].append(f"이벤트: {e}")
     try:
+        from . import pattern as PT
+        R["pat"] = PT.match(b.px, f, getattr(b, "info", None), getattr(b, "fil", None))
+    except Exception as e: R["pat"] = None; R["err"].append(f"패턴: {e}")
+    try:
         R["ca"] = cover_alert(f, R["lm"], R["ez"], R["br"], price, f.get("vol_ratio"))
         R["story"] = cover_story(R["ca"], f)
     except Exception as e: R["ca"] = None; R["story"] = ""; R["err"].append(f"경보: {e}")
