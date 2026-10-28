@@ -13,7 +13,7 @@
 import sys, os, time, json, warnings
 warnings.filterwarnings("ignore")
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from core import db, params as P, live, alerts, scan
+from core import db, params as P, live, alerts, scan, sources as src
 
 def targets(c):
     watch = db.get_setting("watchlist", ["SOUN", "OCGN"])
@@ -62,9 +62,23 @@ def run_filings(c, dry=False):
     print(f"공시: 대상 {st['tickers']} · 24h 공시 {st['found']} · 새로 판정 {st['new']} · 호재 {st['pos']} · 전송 {st['sent']} · 오류 {st['errs']} · {st.get('secs', 0)}s")
     return new
 
+def borrow_step(tk):
+    """IBKR 대차 파일(전 종목, 1~2초) 1회 → 대상 종목 DB 반영 + alert-data 브랜치에 최신/이력 CSV (앱·daily 가 읽음)."""
+    if not src.ftp_allowed(): return
+    try:
+        uni = set(db.q("SELECT DISTINCT ticker FROM prices").ticker) | set(tk)
+        n = src.store_borrow(list(uni))
+        bdir = os.environ.get("SHORTDASH_BORROW_DIR")
+        tot, ch = src.borrow_publish(bdir, uni) if bdir else (0, 0)
+        print(f"대차(IBKR): DB {n}행 · 공개 스냅샷 {tot}종목 · 이력 추가 {ch}행 · 파일 시각 {src._IBKR.get('asof')} UTC")
+    except Exception as e:
+        print(f"대차 수집 실패: {type(e).__name__}: {str(e)[:120]}")
+
 def once(force=False, dry=False):
     t0 = time.time()
     sess = live.session_now()[0]
+    c0 = alerts.cfg()
+    borrow_step(targets(c0))
     if sess == "closed" and not force:
         print("장 마감 시간 — 건너뜀 (--force 로 강제)")
         alerts.grade_all(); return []

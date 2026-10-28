@@ -12,6 +12,10 @@ def main(do_scan=True):
     print("유니버스:", src.fetch_universe())
     print("Threshold:", src.update_threshold(10))
     print("FINRA (차단 시 자동 중단):", src.update_finra(30, None))
+    print("FINRA 공매도 잔고 (최근 결제일):", src.update_finra_si(n_dates=4))
+    print("대차 장중 이력 가져오기 (alert-data):", src.sync_borrow_remote(ttl=0, months=2))
+    if src.ftp_allowed():
+        print("대차 스냅샷 (IBKR):", src.store_borrow(list(set(db.q("SELECT DISTINCT ticker FROM prices").ticker))))
     for t in ["QQQ", "IWM"] + watch:
         src.fetch_prices(t, "2y")
     for t in watch:

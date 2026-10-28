@@ -9,7 +9,7 @@ from . import sources as src, db
 SIGNALS = [  # key, 가중치 파라미터, 한국어 이름
     ("vol", "w_vol", "거래량 급증"), ("sv", "w_sv", "공매도비율 급등"), ("si_float", "w_si_float", "유통 대비 숏 과다"),
     ("si_change", "w_si_change", "숏 재축적"), ("loss_side", "w_loss_side", "손실권 숏 우세"), ("reignite", "w_reignite", "재점화 레벨 근접"),
-    ("borrow", "w_borrow", "차입 가능 고갈"), ("fee", "w_fee", "CTB 급등"), ("ftd", "w_ftd", "FTD 급증"),
+    ("borrow", "w_borrow", "차입 가능 고갈"), ("fee", "w_fee", "대차이자 높음"), ("ftd", "w_ftd", "FTD 급증"),
     ("threshold", "w_threshold", "RegSHO Threshold"), ("coil", "w_coil", "변동성 응축"),
     # --- 급등 잠재력 (일봉·공시로 과거 시점 재현 가능 → 타임머신 검증 대상)
     ("low_float", "w_low_float", "소형 유통주식"), ("float_rot", "w_float_rot", "유통주식 회전"), ("dtc", "w_dtc", "숏 커버 일수 높음"),
@@ -268,10 +268,15 @@ def features(b: Bundle, asof, p, with_map=True):
     if si:
         f["si"] = si["si"]; f["si_est"] = si["est"]; f["si_chg"] = si["chg_pct"]; f["dtc"] = si["dtc"]
         f["si_float"] = si["est"] / shares * 100 if shares else None
+        f["si_float_prev"] = si["prev"] / shares * 100 if shares and si.get("prev") else None
+        f["si_settle"] = str(si["settle"])[:10]
     # 차입
     bor = b.bor[b.bor["ts"] <= asof + pd.Timedelta(hours=23)] if len(b.bor) else b.bor
     if len(bor):
         last = bor.iloc[-1]; f["avail"] = float(last["available"]); f["fee"] = float(last["fee"])
+        f["borrow_ts"] = str(last["ts"])[:16]; f["borrow_days"] = int(bor["ts"].dt.date.nunique())
+        pd_ = bor[bor["ts"].dt.date < last["ts"].date()]
+        if len(pd_): f["fee_prev"] = float(pd_.iloc[-1]["fee"]); f["avail_prev"] = float(pd_.iloc[-1]["available"])
         old = bor[bor["ts"] <= bor["ts"].iloc[-1] - pd.Timedelta(days=5)]
         if len(old):
             f["avail_chg"] = (f["avail"] / max(float(old.iloc[-1]["available"]), 1) - 1) * 100
@@ -415,19 +420,75 @@ def score(f, p):
     num = den = 0.0; on = []
     for k, wk, name in SIGNALS:
         if s.get(k) is None: continue
-        w = float(p[wk]); num += w * min(s[k], 1.0); den += w
         if s[k] >= 1.0: on.append(k)
+        if k in ("borrow", "fee"): continue      # 대차 데이터는 과거 이력이 없어 미검증 → 가중평균에서 빼고 아래 보정점(±2)으로만 반영
+        w = float(p[wk]); num += w * min(s[k], 1.0); den += w
     sc = num / den * 100 if den else 0
     if f.get("dilution_recent"): sc *= (1 - p["dilution_penalty"])
+    try: sr = short_read(f)
+    except Exception: sr = {"lines": [], "brief": [], "adj": 0, "why": []}
+    sc = max(0.0, sc + float(sr.get("adj") or 0))
     thr = p["flag_score"] + (p["regime_adj"] if f.get("regime", 1) < 0 else (p["regime_adj"] / 2 if f.get("regime", 1) == 0 else 0))
     level = 1 + sum(sc >= x for x in (25, 40, 55, 70))
     conf = len([k for k in on if k not in ("coil", "theme", "low_inst", "low_float")])
     legacy = bool(sc >= thr and conf >= p["min_confluence"])
     try: rp = research_predict(s, f)
     except Exception: rp = None
-    return {"score": round(sc, 1), "level": int(level), "confluence": conf, "on": on, "signals": s,
+    return {"short": sr, "score": round(sc, 1), "level": int(level), "confluence": conf, "on": on, "signals": s,
             "flagged": rp["flag"] if rp else legacy, "flag_legacy": legacy, "rprob": rp["prob"] * 100 if rp else None, "research": rp,
             "threshold_used": thr, "available": [k for k in s if s[k] is not None]}
+
+# ---------------------------------------------------------------- 공매도 잔고 · 대차 쉬운 말 요약 + 종합점수 보정
+def kn(v):
+    """1.2만 / 3.4억 식 한국어 숫자."""
+    v = float(v or 0)
+    if v >= 1e8: return f"{v / 1e8:.1f}억".replace(".0억", "억")
+    if v >= 1e4: return f"{v / 1e4:.1f}만".replace(".0만", "만")
+    return f"{v:,.0f}"
+
+def short_read(f):
+    """공매도 잔고(FINRA, 월 2회)·대차이자/빌릴 수 있는 주식(IBKR, 하루 여러 번) 쉬운 말 + 종합점수 보정점.
+    보정 근거 (scripts/short_borrow_study.py, model/short_study.json):
+      · 유통 대비 숏 30%+ 또는 숏 잔고 20%+ 감소 → 과거 5개 학습구간 모두 성공률 7~9%p 낮음 → -3점 (검증됨, 효과 작음)
+      · 대차이자/빌릴 주식: 무료 과거 이력이 없어 검증 불가 → ±2점 '참고' (데이터가 쌓이면 재검증)"""
+    L, why, adj, B = [], [], 0.0, []
+    sf, sfp, sc, dtc = f.get("si_float"), f.get("si_float_prev"), f.get("si_chg"), f.get("dtc")
+    if sf is not None:
+        tag = "적음" if sf < 5 else "보통" if sf < 15 else "많음" if sf < 30 else "매우 많음·과밀"
+        t = f"공매도 잔고 유통주의 {sf:.1f}% ({tag})" if sf < 10 else f"공매도 잔고 유통주의 {sf:.0f}% ({tag})"
+        if sfp is not None: t += f", 지난번 대비 {sf - sfp:+.1f}%p"
+        L.append(t); B.append(t)
+    elif f.get("si"):
+        L.append(f"공매도 잔고 {kn(f['si'])}주 (유통주식 수 확인 안 됨)")
+    if sc is not None and f.get("si"):
+        hint = " — 숏이 빠지는 중" if sc <= -20 else " — 숏이 쌓이는 중" if sc >= 20 else ""
+        L.append(f"공매도 잔고 지난 공표 대비 {sc:+.0f}%{hint}" + (f" (결제일 {f['si_settle'][5:].replace('-', '/')})" if f.get("si_settle") else ""))
+    if dtc:
+        L.append(f"숏이 다 갚는 데 {dtc:.1f}일치 거래량 필요" + (" (길수록 탈출 어려움)" if dtc >= 3 else ""))
+    fee, av = f.get("fee"), f.get("avail")
+    if fee is not None:
+        lv = "싼 편" if fee < 5 else "보통" if fee < 30 else "비쌈" if fee < 100 else "매우 비쌈"
+        fs = (lambda v: f"{v:.0f}%" if v >= 10 else f"{v:.1f}%" if v >= 1 else f"{v:.2f}%")
+        t = f"대차이자 연 {fs(fee)} ({lv}, 비쌀수록 숏 보유 부담 ↑)"
+        if f.get("fee_prev") is not None and abs(fee - f["fee_prev"]) >= 0.5: t += f", 전일 {fs(f['fee_prev'])}"
+        L.append(t); B.append(t)
+    if av is not None:
+        d = "없음 — 새로 숏 치기 어려움" if av <= 0 else "거의 없음" if av < 1e4 else "적음" if av < 5e4 else "넉넉" if av >= 5e5 else "보통"
+        t = f"빌릴 수 있는 주식 {'1천만주 이상' if av >= 1e7 else kn(av) + '주'} ({d})"
+        if f.get("avail_prev") is not None and f["avail_prev"] > 0 and abs(av / f["avail_prev"] - 1) >= 0.2:
+            t += f", 전일 {kn(f['avail_prev'])}주"
+        L.append(t); B.append(t)
+    # --- 보정점
+    if (sf is not None and sf >= 30) or (sc is not None and f.get("si") and sc <= -20):
+        adj -= 3; why.append("숏 과밀(유통 30%+) 또는 숏 이탈(-20%↓): 과거 성공률 낮음 −3")
+    if fee is not None and av is not None:
+        r5 = f.get("ret5") or 0
+        if fee >= 50 and (f.get("dilution_recent") or r5 <= -15):
+            adj -= 2; why.append("대차이자 매우 비싼데 증자·급락 중: 숏이 확신하는 하락주일 수 있음 −2 (참고·검증 전)")
+        elif fee >= 30 and av < 5e4 and (sc is None or sc >= 0) and r5 > 0:
+            adj += 2; why.append("대차 비싸고 빌릴 주식 거의 없음 + 숏 유지/증가 + 주가 상승: 숏 압박 +2 (참고·검증 전)")
+    if not B and L: B = L[:1]
+    return {"lines": L, "brief": B, "adj": adj, "why": why, "borrow": fee is not None, "borrow_ts": f.get("borrow_ts"), "borrow_days": f.get("borrow_days")}
 
 # ---------------------------------------------------------------- 정밀 검증 모델 (model/research.json)
 _RES = {"mt": None, "obj": None}
@@ -781,9 +842,9 @@ def event_log(b: Bundle, f, meta):
         for i in range(1, len(bb)):
             a0, a1 = bb["available"].iloc[i - 1], bb["available"].iloc[i]
             f0, f1 = bb["fee"].iloc[i - 1], bb["fee"].iloc[i]
-            if a0 and a1 < a0 * 0.5: ev.append((bb["ts"].iloc[i], f"차입 가용 {a0:,.0f} → {a1:,.0f} (급감)"))
-            if a1 > a0 * 2 and a0 > 0: ev.append((bb["ts"].iloc[i], f"차입 가용 {a0:,.0f} → {a1:,.0f} (상환/반납 유입)"))
-            if f1 - f0 >= 20: ev.append((bb["ts"].iloc[i], f"CTB {f0:.1f}% → {f1:.1f}% 급등"))
+            if a0 and a1 < a0 * 0.5: ev.append((bb["ts"].iloc[i], f"빌릴 수 있는 주식 {kn(a0)} → {kn(a1)}주 (급감)"))
+            if a1 > a0 * 2 and a0 > 0: ev.append((bb["ts"].iloc[i], f"빌릴 수 있는 주식 {kn(a0)} → {kn(a1)}주 (반납 유입)"))
+            if f1 - f0 >= 20: ev.append((bb["ts"].iloc[i], f"대차이자 {f0:.1f}% → {f1:.1f}% 급등"))
     if len(b.fil):
         for r in b.fil.head(5).itertuples():
             if r.filed >= pd.Timestamp.today() - pd.Timedelta(days=30):
@@ -833,9 +894,8 @@ def summary_ko(t, f, s, meta, dil, prob):
         parts.append(f"재점화 레벨 ${meta['reignite']:.3f} (도달률 {f['price'] / meta['reignite'] * 100:.0f}%)")
     if f.get("si_chg") is not None: parts.append(f"최근 공표 숏 잔고 {f['si_chg']:+.1f}%")
     if f.get("si_float") is not None: parts.append(f"유통 대비 {f['si_float']:.1f}%")
-    if f.get("avail") is not None: parts.append(f"차입 가용 {f['avail']:,.0f}주")
-    else: parts.append("차입 가용 N/A")
-    if f.get("fee") is not None: parts.append(f"CTB {f['fee']:.1f}%")
+    if f.get("fee") is not None: parts.append(f"대차이자 연 {f['fee']:.1f}%")
+    if f.get("avail") is not None: parts.append(f"빌릴 수 있는 주식 {'1천만+' if f['avail'] >= 1e7 else kn(f['avail'])}주")
     on = [SIG_NAME[k] for k in s["on"]]
     txt = f"{t}: " + ", ".join(parts) + "."
     if on: txt += f" 켜진 신호 {len(on)}개({', '.join(on)})."

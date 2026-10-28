@@ -164,7 +164,14 @@ def get_short_vol(ticker):
     if len(df): df["date"] = pd.to_datetime(df["date"])
     return df
 
-# ---------------- 공매도 잔고(Short Interest, 월 2회) : Nasdaq API ----------------
+# ---------------- 공매도 잔고(Short Interest, 월 2회) : Nasdaq API + FINRA 공식 API ----------------
+def _num(x):
+    try:
+        v = str(x).replace(",", "").strip()
+        return float(v) if v and v.upper() not in ("N/A", "NA", "NONE", "-") else None
+    except Exception:
+        return None
+
 def fetch_short_interest(ticker, ttl=12 * 3600):
     if ttl and db.kv_get(f"si_ok:{ticker}", ttl): return -1   # 캐시 (월 2회 공표라 12시간 캐시)
     try:
@@ -173,13 +180,66 @@ def fetch_short_interest(ticker, ttl=12 * 3600):
         rows = (d.get("shortInterestTable") or {}).get("rows") or []
         recs = []
         for x in rows:
-            recs.append((ticker, pd.to_datetime(x["settlementDate"]).strftime("%Y-%m-%d"), float(str(x["interest"]).replace(",", "")),
-                         float(str(x["avgDailyShareVolume"]).replace(",", "") or 0), float(x.get("daysToCover") or 0)))
+            si = _num(x.get("interest"))
+            if si is None: continue                     # 'N/A' 행은 건너뜀
+            recs.append((ticker, pd.to_datetime(x["settlementDate"]).strftime("%Y-%m-%d"), si,
+                         _num(x.get("avgDailyShareVolume")) or 0.0, _num(x.get("daysToCover")) or 0.0))
         db.upsert_rows("short_interest", ["ticker", "settle_date", "si", "avg_vol", "dtc"], recs)
         db.set_status("Nasdaq Short Interest", True, f"{ticker} {len(recs)}건"); db.kv_set(f"si_ok:{ticker}", 1)
         return len(recs)
     except Exception as e:
         db.set_status("Nasdaq Short Interest", False, repr(e)); return 0
+
+FINRA_SI = "https://api.finra.org/data/group/otcMarket/name/consolidatedShortInterest"
+
+def finra_si_dates(probe="AAPL"):
+    """FINRA 공매도 잔고 결제일 목록 (공식 무료 API, 로그인 불필요)."""
+    r = S.post(FINRA_SI, json={"limit": 5000, "fields": ["settlementDate"],
+                               "compareFilters": [{"compareType": "EQUAL", "fieldName": "symbolCode", "fieldValue": probe}]},
+               headers={"Accept": "application/json"}, timeout=40)
+    r.raise_for_status()
+    return sorted({x["settlementDate"] for x in r.json()})
+
+def fetch_finra_si_date(settle, tickers=None):
+    """결제일 하루치 나스닥 전 종목 공매도 잔고 → short_interest 표. tickers 를 주면 그 종목만 저장."""
+    out, off = [], 0
+    while True:
+        r = S.post(FINRA_SI, json={"limit": 5000, "offset": off,
+                                   "fields": ["symbolCode", "settlementDate", "currentShortPositionQuantity", "averageDailyVolumeQuantity", "daysToCoverQuantity"],
+                                   "compareFilters": [{"compareType": "EQUAL", "fieldName": "settlementDate", "fieldValue": settle}],
+                                   "domainFilters": [{"fieldName": "marketClassCode", "values": ["NNM", "SC", "NYSE", "AMEX", "ARCA", "BZX", "TXSE"]}]},
+                   headers={"Accept": "application/json"}, timeout=60)
+        r.raise_for_status()
+        rows = r.json() if r.text.strip() else []
+        out += rows
+        if len(rows) < 5000: break
+        off += 5000
+    keep = set(tickers) if tickers is not None else None
+    recs = [(x["symbolCode"], x["settlementDate"], float(x["currentShortPositionQuantity"] or 0), float(x.get("averageDailyVolumeQuantity") or 0),
+             float(x.get("daysToCoverQuantity") or 0)) for x in out
+            if x.get("symbolCode") and x.get("currentShortPositionQuantity") is not None and (keep is None or x["symbolCode"] in keep)]
+    db.upsert_rows("short_interest", ["ticker", "settle_date", "si", "avg_vol", "dtc"], recs)
+    return len(recs)
+
+def update_finra_si(n_dates=4, since=None, tickers=None):
+    """최근 n_dates 개 결제일(또는 since 이후 전부)의 FINRA 공매도 잔고. 이미 받은 날짜는 건너뜀(최근 2개는 정정 대비 다시 받음)."""
+    try:
+        ds = finra_si_dates()
+        done = set(db.kv_get("finra_si_dates") or [])
+        if not since and not done: since = "2023-12-01"   # 첫 실행: 백테스트용 과거분 한 번에 채움 (~2분)
+        ds = [d for d in ds if d >= since] if since else ds[-n_dates:]
+        if tickers is None:
+            u = db.q("SELECT DISTINCT ticker FROM prices")
+            tickers = set(u.ticker) if len(u) else None
+        n = 0
+        for d in ds:
+            if d in done and d not in ds[-2:]: continue
+            n += fetch_finra_si_date(d, tickers); done.add(d)
+        db.kv_set("finra_si_dates", sorted(done))
+        db.set_status("FINRA Short Interest", True, f"결제일 {ds[-1] if ds else '-'} · {n}건")
+        return n
+    except Exception as e:
+        db.set_status("FINRA Short Interest", False, repr(e)[:200]); return 0
 
 def get_short_interest(ticker):
     df = db.q("SELECT * FROM short_interest WHERE ticker=? ORDER BY settle_date", (ticker,))
@@ -189,60 +249,131 @@ def get_short_interest(ticker):
         df["publish_date"] = df["settle_date"] + pd.offsets.BDay(8)
     return df
 
-# ---------------- 차입 가능 수량 / 수수료 ----------------
-def fetch_borrow(ticker):
-    if db.kv_get("borrow_down", 1800):   # 최근 30분 내 두 소스 모두 실패 → 재시도 생략 (속도)
-        return 0
-    n = _fetch_borrow(ticker)
-    if not n:
-        st = db.q("SELECT ok FROM source_status WHERE name IN ('iBorrowDesk','IBKR shortstock FTP')")
-        if len(st) and st["ok"].sum() == 0: db.kv_set("borrow_down", 1)
+# ---------------- 차입 가능 수량 / 대차이자(CTB) : IBKR 공개 FTP ----------------
+# IBKR 이 무료 공개하는 usa.txt (ftp2.interactivebrokers.com, 사용자 shortstock, 비번 없음, 하루 중 수시 갱신).
+# iBorrowDesk 는 JSON API 가 유료로 바뀌어 쓰지 않음. 과거 이력은 무료로 없음 → 오늘부터 직접 쌓음.
+IBKR_HOSTS = ("ftp2.interactivebrokers.com", "ftp3.interactivebrokers.com")
+_IBKR = {"ts": 0, "d": {}, "asof": None}
+
+def fetch_ibkr_ftp(max_age=900):
+    """전 종목 {ticker: (가용 주식수, 연 수수료 %)}. 실패하면 빈 dict. 15분 메모리 캐시."""
+    if _IBKR["d"] and time.time() - _IBKR["ts"] < max_age: return _IBKR["d"]
+    if db.kv_get("ibkr_down", 1800): return {}
+    err = None
+    for host in IBKR_HOSTS:
+        try:
+            f = ftplib.FTP(host, timeout=20); f.login("shortstock", "")
+            buf = io.BytesIO(); f.retrbinary("RETR usa.txt", buf.write); f.quit()
+            d, asof = {}, None
+            for line in buf.getvalue().decode("latin1").splitlines():
+                p = line.split("|")
+                if line.startswith("#BOF") and len(p) >= 3:
+                    try:   # 파일 작성 시각 (미국 동부) → UTC
+                        from zoneinfo import ZoneInfo
+                        t = dt.datetime.strptime(p[1] + " " + p[2], "%Y.%m.%d %H:%M:%S").replace(tzinfo=ZoneInfo("America/New_York"))
+                        asof = t.astimezone(dt.timezone.utc).strftime("%Y-%m-%d %H:%M")
+                    except Exception: pass
+                    continue
+                if len(p) > 7 and p[0] and not p[0].startswith("#") and p[1] == "USD":
+                    try:
+                        av = p[7].strip()
+                        avail = 1e7 if av.startswith(">") else float(av or 0)
+                        d[p[0]] = (avail, float(p[6] or 0))   # (가용 수량, 연 수수료 %) — 빈 수수료 = 사실상 0
+                    except Exception:
+                        pass
+            if len(d) < 1000: raise ValueError(f"행 수 이상 {len(d)}")
+            _IBKR.update(ts=time.time(), d=d, asof=asof or dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M"))
+            db.set_status("IBKR 대차(FTP)", True, f"{len(d)}종목 · {asof} UTC")
+            return d
+        except Exception as e:
+            err = e
+    db.set_status("IBKR 대차(FTP)", False, repr(err)[:200]); db.kv_set("ibkr_down", 1)
+    return {}
+
+def store_borrow(tickers=None):
+    """IBKR 스냅샷을 borrow 표에 누적. 같은 날 직전 값과 같으면 건너뜀(하루 1행은 항상 남김). 반환: 저장 행 수."""
+    d = fetch_ibkr_ftp()
+    if not d: return 0
+    ts = _IBKR["asof"]
+    keys = [t for t in (tickers if tickers is not None else d.keys()) if t in d]
+    last = db.q("SELECT b.ticker, b.ts, b.available, b.fee FROM borrow b JOIN (SELECT ticker, MAX(ts) m FROM borrow WHERE source='ibkr' GROUP BY ticker) x "
+                "ON b.ticker=x.ticker AND b.ts=x.m WHERE b.source='ibkr'")
+    L = {r.ticker: (r.ts, r.available, r.fee) for r in last.itertuples()}
+    recs = []
+    for t in keys:
+        av, fee = d[t]; o = L.get(t)
+        if o:
+            if o[0] >= ts: continue
+            same = abs((o[1] or 0) - av) < 1 and abs((o[2] or 0) - fee) < 1e-6
+            new_day = o[0][:10] != ts[:10]
+            if same and not new_day: continue
+        recs.append((t, ts, av, fee, "ibkr"))
+    return db.upsert_rows("borrow", ["ticker", "ts", "available", "fee", "source"], recs)
+
+def borrow_csv(tickers=None):
+    """현재 IBKR 스냅샷을 CSV 문자열로 (알림 기록 브랜치에 올려 앱이 장중에도 최신 값을 보게)."""
+    d = fetch_ibkr_ftp()
+    if not d: return None
+    keys = [t for t in (tickers if tickers is not None else d.keys()) if t in d]
+    return "ticker,ts,available,fee\n" + "".join(f"{t},{_IBKR['asof']},{d[t][0]:.0f},{d[t][1]:.4f}\n" for t in sorted(keys))
+
+BORROW_RAW = "https://raw.githubusercontent.com/{repo}/alert-data/data/borrow/{name}"
+
+def import_borrow_csv(text):
+    rows = []
+    for line in (text or "").splitlines()[1:]:
+        p = line.split(",")
+        if len(p) == 4:
+            try: rows.append((p[0], p[1], float(p[2]), float(p[3]), "ibkr"))
+            except ValueError: pass
+    return db.upsert_rows("borrow", ["ticker", "ts", "available", "fee", "source"], rows)
+
+def borrow_publish(folder, tickers=None):
+    """(알림 작업) 최신 스냅샷 latest.csv + 바뀐 종목만 월별 이력 hist-YYYY-MM.csv 에 추가. 반환: (전체, 추가 행)."""
+    text = borrow_csv(tickers)
+    if not text: return 0, 0
+    os.makedirs(folder, exist_ok=True)
+    lp = os.path.join(folder, "latest.csv")
+    old = {}
+    if os.path.exists(lp):
+        for line in open(lp, encoding="utf-8").read().splitlines()[1:]:
+            q = line.split(",")
+            if len(q) == 4: old[q[0]] = q
+    rows = text.splitlines()[1:]
+    if rows and old and next(iter(old.values()))[1] == rows[0].split(",")[1]: return len(rows), 0   # IBKR 파일 시각 그대로 → 변화 없음
+    ch = [r for r in rows if (lambda q: q[0] not in old or old[q[0]][2:] != q[2:] or old[q[0]][1][:10] != q[1][:10])(r.split(","))]
+    open(lp, "w", encoding="utf-8").write(text)
+    if ch:
+        hp = os.path.join(folder, dt.datetime.utcnow().strftime("hist-%Y-%m.csv"))
+        new = not os.path.exists(hp)
+        with open(hp, "a", encoding="utf-8") as fh:
+            if new: fh.write("ticker,ts,available,fee\n")
+            fh.write("\n".join(ch) + "\n")
+    return len(rows), len(ch)
+
+def sync_borrow_remote(repo=None, ttl=600, months=1):
+    """(앱/daily) 알림 작업이 올린 최신 대차 스냅샷 + 이번 달 장중 이력을 받아 DB 에 합침. 공개 저장소라 토큰 불필요."""
+    repo = repo or os.environ.get("GITHUB_REPOSITORY") or os.environ.get("GH_REPO") or "ogeunho011-dotcom/short-dashboard"
+    if ttl and db.kv_get("borrow_sync", ttl) is not None: return -1
+    n = 0
+    now = dt.datetime.utcnow().replace(day=1)
+    mons = [(now - dt.timedelta(days=28 * i)).strftime("hist-%Y-%m.csv") for i in range(months)]
+    for name in ["latest.csv"] + list(dict.fromkeys(mons)):
+        try:
+            r = _get(BORROW_RAW.format(repo=repo, name=name), timeout=20)
+            if r.status_code == 200: n += import_borrow_csv(r.text)
+        except Exception:
+            pass
+    db.kv_set("borrow_sync", n)
     return n
 
-def _fetch_borrow(ticker):
-    """iBorrowDesk → IBKR FTP 순서로 시도. 성공 시 스냅샷을 누적 저장."""
-    now = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
-    try:
-        r = _get(f"https://iborrowdesk.com/api/ticker/{ticker}", timeout=12)
-        j = r.json()
-        rows = j.get("daily") or j.get("real_time") or []
-        recs = [(ticker, x.get("time") or x.get("date"), float(x.get("available") or 0), float(x.get("fee") or 0), "iborrowdesk") for x in rows]
-        for x in (j.get("real_time") or []):
-            recs.append((ticker, x.get("time"), float(x.get("available") or 0), float(x.get("fee") or 0), "iborrowdesk"))
-        db.upsert_rows("borrow", ["ticker", "ts", "available", "fee", "source"], recs)
-        db.set_status("iBorrowDesk", True, f"{ticker} {len(recs)}건")
-        return len(recs)
-    except Exception as e:
-        db.set_status("iBorrowDesk", False, repr(e)[:200])
-    try:
-        rec = fetch_ibkr_ftp().get(ticker)
-        if rec:
-            db.upsert_rows("borrow", ["ticker", "ts", "available", "fee", "source"], [(ticker, now, rec[0], rec[1], "ibkr_ftp")])
-            return 1
-    except Exception:
-        pass
-    return 0
+def ftp_allowed():
+    """FTP 는 GitHub 서버에서만 열림(이 상자·Streamlit 은 막힘 확인). 그 외에는 원격 스냅샷을 받음."""
+    return bool(os.environ.get("GITHUB_ACTIONS") or os.environ.get("SHORTDASH_IBKR_FTP"))
 
-_IBKR = {"ts": 0, "d": {}}
-def fetch_ibkr_ftp():
-    if time.time() - _IBKR["ts"] < 1800: return _IBKR["d"]
-    try:
-        f = ftplib.FTP("ftp3.interactivebrokers.com", timeout=15); f.login("shortstock", "")
-        buf = io.BytesIO(); f.retrbinary("RETR usa.txt", buf.write); f.quit()
-        d = {}
-        for line in buf.getvalue().decode("latin1").splitlines():
-            p = line.split("|")
-            if len(p) > 8 and p[0] and not p[0].startswith("#"):
-                try:
-                    avail = float(p[7].replace(">", "")) if p[7] else 0.0
-                    d[p[0]] = (avail, float(p[5] or 0))   # (가용 수량, 수수료 %)
-                except Exception:
-                    pass
-        _IBKR.update(ts=time.time(), d=d)
-        db.set_status("IBKR shortstock FTP", True, f"{len(d)}종목")
-    except Exception as e:
-        db.set_status("IBKR shortstock FTP", False, repr(e)[:200])
-    return _IBKR["d"]
+def fetch_borrow(ticker):
+    """한 종목 대차 정보 갱신 — GitHub 서버면 IBKR 파일, 아니면 알림 작업이 올린 스냅샷."""
+    return store_borrow([ticker]) if ftp_allowed() else sync_borrow_remote()
 
 def get_borrow(ticker):
     df = db.q("SELECT * FROM borrow WHERE ticker=? ORDER BY ts", (ticker,))

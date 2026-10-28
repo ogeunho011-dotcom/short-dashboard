@@ -103,7 +103,7 @@ def triggers(ticker, df, f, meta, prev_state):
     if sess == "regular" and 5 <= age_min < 120 and f.get("dollar_vol20", 0) > 2e5:
         out.append(("halt", f"{age_min:.0f}분째 체결 없음 — 거래정지(LULD/뉴스) 의심 (무료데이터 지연일 수도 있음)"))
     if f.get("avail") is not None and prev_state.get("avail") and f["avail"] < prev_state["avail"] * 0.5:
-        out.append(("borrow", f"차입 가용 {prev_state['avail']:,.0f} → {f['avail']:,.0f} 급감"))
+        out.append(("borrow", f"빌릴 수 있는 주식 {prev_state['avail']:,.0f} → {f['avail']:,.0f}주 급감"))
     return out
 
 def snapshot(ticker, p, refresh_borrow=True):

@@ -246,7 +246,7 @@ def card_alert(x):
              f'<div class="row" style="margin-top:8px"><div class="box"><div class="lab">재점화 레벨</div><div class="val yellow">{px(rl)}</div><div class="tiny">{pct((rl / last - 1) * 100 if rl else None)}</div></div>',
              f'<div class="box"><div class="lab">21일 고점 재시험</div><div class="val">{px(hi21)}</div><div class="tiny">{pct((hi21 / last - 1) * 100 if hi21 else None)}</div></div></div>',
              f'<div class="box" style="margin-top:8px"><div class="lab">추정 숏 잔고 (추정)</div><div class="val">{si_line}</div>',
-             f'<div class="tiny">최근 공표 대비 {pct(dchg)} · 공표 SI {num(f.get("si"))} (Nasdaq, 결제일+8영업일 반영) · DTC {f.get("dtc", 0):.1f}일</div></div>',
+             f'<div class="tiny">최근 공표 대비 {pct(dchg)} · 공표 SI {num(f.get("si"))} (FINRA·Nasdaq, 결제일+8영업일 반영) · DTC {f.get("dtc", 0):.1f}일</div></div>',
              '</div>')
 
 def card_borrow(x):
@@ -254,15 +254,16 @@ def card_borrow(x):
     bor = b.bor
     avail = f.get("avail"); fee = f.get("fee")
     if x.get("hist"):
-        av_txt, av_sub, fee_sub, fee = "N/A", "과거 시점 차입 가능 수량 이력 없음 (무료 소스 없음)", "과거 CTB 이력 없음 — 추정도 하지 않음", None
-    elif len(bor):
-        prevb = bor.iloc[-2] if len(bor) > 1 else None
-        av_txt = "N/A" if not avail else num(avail)
-        av_sub = f'이전 {num(prevb["available"])} · {str(prevb["ts"])[:16]}' if prevb is not None else ""
-        fee_avg = bor["fee"].tail(20).mean()
-        fee_sub = f'전일 {bor["fee"].iloc[-2]:.1f}% · 평균 {fee_avg:.1f}%' if len(bor) > 1 else ""
+        av_txt, av_sub, fee_sub, fee = "N/A", "과거 시점 빌릴 수 있는 주식 이력 없음 (무료 소스 없음)", "과거 대차이자 이력 없음 — 추정도 하지 않음", None
+    elif len(bor) and fee is not None:
+        av_txt = "1천만주+" if (avail or 0) >= 1e7 else (model.kn(avail) + "주")
+        av_sub = (f'전일 {model.kn(f["avail_prev"])}주 · ' if f.get("avail_prev") is not None else "") + f'IBKR {str(f.get("borrow_ts") or "")[5:16]} UTC'
+        fee_sub = (f'전일 {f["fee_prev"]:.1f}% · ' if f.get("fee_prev") is not None else "") + f'기록 {f.get("borrow_days") or 1}일째 (오늘부터 쌓는 중)'
     else:
-        av_txt, av_sub, fee_sub = "N/A", "iBorrowDesk/IBKR 접속 불가 (이 서버 IP 차단). 내 PC에서는 동작할 수 있음", "데이터 없음"
+        av_txt, av_sub, fee_sub = "N/A", "IBKR 목록에 없음 (빌릴 수 없는 종목일 수 있음) 또는 아직 수집 전", "데이터 없음"
+    sl = short_lines(x, 6); why = short_why(x)
+    plain = ("".join(f'<div style="font-size:13px;line-height:1.5">• {esc(v)}</div>' for v in sl)
+             + "".join(f'<div class="tiny">점수 보정: {esc(w)}</div>' for w in why)) if sl else ""
     evs = "".join(f'<div class="ev"><div class="n">{i}</div><div class="d">{pd.Timestamp(d):%m/%d}</div><div>{esc(t)}</div></div>' for i, (d, t) in enumerate(x["events"], 1))
     ll = x["live_log"]
     live_ev = "".join(f'<div class="ev"><div class="n" style="background:#ff4d5e">⚡</div><div class="d">{esc(r.ts[5:16])}</div><div>{esc(json.loads(r.data)["msg"])}</div></div>' for r in ll.itertuples()) if len(ll) else ""
@@ -273,8 +274,9 @@ def card_borrow(x):
         db.kv_set(f"cp_prev:{x['ticker']}", {"v": cp})
     dcp = "" if prev_cp is None else f' <span class="{"red" if cp >= (prev_cp or cp) else "green"}">{"▲" if cp >= (prev_cp or cp) else "▼"}{abs(cp - (prev_cp or cp)):.0f}</span>'
     return h('<div class="card">',
-             '<div class="row"><div class="box"><div class="lab">공매도 가용 잔고</div>', f'<div class="val">{av_txt}</div><div class="tiny">{esc(av_sub)}</div></div>',
-             f'<div class="box"><div class="lab">CTB (IBKR)</div><div class="val">{"N/A" if fee is None else f"{fee:.1f}%"}</div><div class="tiny">{esc(fee_sub)}</div></div></div>',
+             '<div class="row"><div class="box"><div class="lab">빌릴 수 있는 주식</div>', f'<div class="val">{av_txt}</div><div class="tiny">{esc(av_sub)}</div></div>',
+             f'<div class="box"><div class="lab">대차이자 (연, IBKR)</div><div class="val">{"N/A" if fee is None else f"{fee:.1f}%"}</div><div class="tiny">{esc(fee_sub)}</div></div></div>',
+             (f'<h3 style="margin-top:12px">🩳 공매도·대차 쉬운 설명</h3>{plain}' if plain else ""),
              '<h3 style="margin-top:12px">📜 이벤트 로그</h3>', live_ev, evs,
              f'<div class="between" style="margin-top:10px"><b>숏 커버 압력 지수</b><b>{cp:.0f}/100{dcp}</b></div>',
              f'<div class="bar"><div style="width:{cp:.0f}%"></div></div>',
@@ -634,6 +636,10 @@ def copy_text(t, x):
     on = [model.SIG_NAME.get(k, k) for k in (s.get("on") or [])]
     if on: L.append("핵심 근거: " + ", ".join(on[:5]))
     for _, msg in (x.get("triggers") or [])[:2]: L.append(f"⚡ {esc_plain(msg)}")
+    sl = short_lines(x, 6)
+    if sl:
+        L.append("🩳 공매도·대차: " + " / ".join(esc_plain(v) for v in sl))
+        for w in short_why(x): L.append(f"  점수 보정: {esc_plain(w)}")
     L.append("")
     bp, bz = x.get("bp") or {}, x.get("bz") or {}
     if bp.get("price"):
@@ -833,6 +839,7 @@ def home_card(t, x):
              f'<div class="pb"><div class="pv {pc}">{pv}</div><div class="pl"><div class="lab">{esc(GOAL)} 확률 (추정){sc_txt} {flag}{trig}</div>',
              f'<div class="meter"><div style="width:{min(pr or 0, 100):.0f}%"></div></div></div></div>',
              f'<div class="sumline">{esc(x.get("summary") or "")}</div>',
+             (f'<div class="tiny" style="margin:2px 0 4px">🩳 {esc(" · ".join(short_lines(x, 3, "brief")))}</div>' if short_lines(x, 3, "brief") else ""),
              '<div class="lv3">',
              f'<div class="box"><div class="lab">재점화 (추정)</div><div class="val yellow">{px(rl)}</div><div class="tiny">{pct((rl / last - 1) * 100) if rl else "N/A"}</div></div>',
              f'<div class="box"><div class="lab">손절 ({tag})</div><div class="val blue">{px(sp)}</div><div class="tiny">-{stop:.0f}%</div></div>',
@@ -861,7 +868,15 @@ def raw_score(x):
     s = (x or {}).get("s") or {}
     r = (s.get("research") or {}).get("raw")
     v = r if r is not None else s.get("score")
-    return None if v is None else max(0.0, min(100.0, float(v)))
+    if v is None: return None
+    v = float(v) + float((s.get("short") or {}).get("adj") or 0)   # 공매도 과밀·이탈 / 대차 보정 (확률에는 미반영)
+    return max(0.0, min(100.0, v))
+
+def short_lines(x, n=4, key="lines"):
+    return list((((x or {}).get("s") or {}).get("short") or {}).get(key) or [])[:n]
+
+def short_why(x):
+    return list((((x or {}).get("s") or {}).get("short") or {}).get("why") or [])
 
 def page_home():
     topbar("숏 레이더", "나스닥 초소형주 숏 분석")
@@ -1067,7 +1082,7 @@ def hist_cards_box():
     G = (model.research_defs() or {}).get("grid_note")
     with st.expander(f"🗂️ 과거 사례 카드 — 경보 시점 그대로 재구성 ({len(C)}건, 숏 차수·재점화·커버 압력)", expanded=False):
         st.caption("각 카드는 경보일 종가까지 공개된 데이터만으로 다시 계산한 것입니다(FINRA 일별 공매도 실데이터 + Nasdaq 공표 SI로 스케일). "
-                   "차수·잔존 수량·손실권 비율은 모두 추정치이며, 과거 시점의 CTB/차입 가능 수량은 무료 소스가 없어 표시하지 않습니다.")
+                   "차수·잔존 수량·손실권 비율은 모두 추정치이며, 과거 시점의 대차이자·빌릴 수 있는 주식 수는 무료 소스가 없어 표시하지 않습니다.")
         f1, f2 = st.columns(2)
         grp = f1.selectbox("구분", ["전체", "성공 사례", "실패 사례"], key="hc_grp")
         res = f2.selectbox("셋업 결과", ["전체", "성공+고점 재시험", "성공(재점화 도달)", "실패(지지 이탈 먼저)", "미도달(기간 종료)"], key="hc_res")

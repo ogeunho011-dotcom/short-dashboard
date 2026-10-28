@@ -90,12 +90,13 @@ jobs:
           else
             mkdir alertdata && git -C alertdata init -b "$ALERT_BRANCH" && git -C alertdata remote add origin "$url"
           fi
-          mkdir -p alertdata/data/alerts
+          mkdir -p alertdata/data/alerts alertdata/data/borrow
 
       - name: 스캔 + 알림 + 호재 공시 + 채점
         if: steps.gate.outputs.run == 'true' || inputs.force || inputs.test
         env:
           SHORTDASH_ALERT_DIR: ${{ github.workspace }}/alertdata/data/alerts
+          SHORTDASH_BORROW_DIR: ${{ github.workspace }}/alertdata/data/borrow
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -116,7 +117,7 @@ jobs:
           cd alertdata
           git config user.name "shortradar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data/alerts
+          git add -A data/alerts data/borrow
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
           git commit -q -m "alerts $(date -u +%Y-%m-%dT%H:%MZ)"
           git push -q origin "HEAD:$ALERT_BRANCH"
