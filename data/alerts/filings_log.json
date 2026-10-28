@@ -402,5 +402,43 @@
   "headline": "WANG CHUN KAI",
   "url": "https://www.sec.gov/Archives/edgar/data/2025416/000210933726000013/0002109337-26-000013-index.htm",
   "seen_kst": "2026-10-28 19:52"
+ },
+ {
+  "ticker": "WFF",
+  "form": "424B5",
+  "acc": "0001213900-26-113145",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T14:05:11+00:00",
+  "accepted_kst": "10/28 23:05",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1980210/000121390026113145/0001213900-26-113145-index.htm",
+  "seen_kst": "2026-10-28 23:46"
+ },
+ {
+  "ticker": "WFF",
+  "form": "6-K",
+  "acc": "0001213900-26-113160",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T14:35:01+00:00",
+  "accepted_kst": "10/28 23:35",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Information contained in this report Amendment to the Ordinary Share Purchase Warrant As previously disclosed, on October 14, 2026, WF Holding Limited (the “Com",
+  "url": "https://www.sec.gov/Archives/edgar/data/1980210/000121390026113160/0001213900-26-113160-index.htm",
+  "seen_kst": "2026-10-28 23:46"
  }
 ]
