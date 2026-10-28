@@ -574,5 +574,171 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240126004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240126004",
   "grade": "open"
+ },
+ {
+  "id": "SHFS-1793214809",
+  "ts_kst": "2026-10-29 04:13",
+  "ts_utc": "2026-10-28T19:13:29+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "SHFS",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 307k (당일 평균 25.3배)"
+  ],
+  "title": "🚀 SHFS 거래량 급증",
+  "body": "$0.090 (-18.4%) · 정규장 · 레벨 3 · 점수 54\n시장에 도는 주식 1,233만 주뿐이라 쉽게 크게 움직임 · 최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 5분 거래량 307k (당일 평균 25.3배)\n10일 내 셋업 성공 확률(보정): 12%\n추천 매수가 $0.086 지정가(기준가 $0.090의 −5%) · 체결 가능성 약 85% · 손익분기 $0.087\n숏 지지구간 $0.000–$0.090 · 손절 $-0.250 · 1차목표 $0.750\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-30\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0903,
+  "level": 3,
+  "score": 53.9,
+  "prob": 11.665863738250797,
+  "cp": 22.0,
+  "rl": 0.75,
+  "stop": -0.25,
+  "zone": [
+   0.0,
+   0.09030000120401382
+  ],
+  "bp": 0.0858,
+  "tgt": 0.75,
+  "stp": -0.25,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-30",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220929002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220929002",
+  "grade": "open"
+ },
+ {
+  "id": "POM-1793214809",
+  "ts_kst": "2026-10-29 04:13",
+  "ts_utc": "2026-10-28T19:13:29+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "POM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.5% · 거래량 평소의 10.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ POM 장중 급등 포착",
+  "body": "$1.630 (+18.5%) · 정규장 · 레벨 3 · 점수 55\n$2.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 112만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +18.5% · 거래량 평소의 10.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $1.674 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +2.7%) · 체결 가능성 약 85% · 손익분기 $1.694\n숏 지지구간 $1.500–$1.630 · 손절 $1.250 · 1차목표 $2.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.63,
+  "level": 3,
+  "score": 54.7,
+  "prob": 41.15942028985507,
+  "cp": 34.09219555306074,
+  "rl": 2.25,
+  "stop": 1.25,
+  "zone": [
+   1.5,
+   1.6299999952316284
+  ],
+  "bp": 1.6735,
+  "tgt": 2.25,
+  "stp": 1.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251008001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251008001",
+  "grade": "open"
+ },
+ {
+  "id": "NUWE-1793214809",
+  "ts_kst": "2026-10-29 04:13",
+  "ts_utc": "2026-10-28T19:13:29+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "NUWE",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 NUWE 상위 확률 신호",
+  "body": "$5.110 (-4.8%) · 정규장 · 레벨 4 · 점수 66\n공매도 물량 대부분 손해 중, $5.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 365만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.855 지정가(기준가 $5.110의 −5%) · 체결 가능성 약 55% · 손익분기 $4.913\n숏 지지구간 $5.000–$5.110 · 손절 $4.750 · 1차목표 $5.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.11,
+  "level": 4,
+  "score": 66.0,
+  "prob": 53.22233087903203,
+  "cp": 71.35471354793279,
+  "rl": 5.5,
+  "stop": 4.75,
+  "zone": [
+   5.0,
+   5.110000133514404
+  ],
+  "bp": 4.8545,
+  "tgt": 5.5,
+  "stp": 4.75,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
+  "grade": "open"
+ },
+ {
+  "id": "ONCO-1793214809",
+  "ts_kst": "2026-10-29 04:13",
+  "ts_utc": "2026-10-28T19:13:29+00:00",
+  "date_et": "2026-10-28",
+  "session": "regular",
+  "ticker": "ONCO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.8% · 거래량 평소의 16.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ONCO 장중 급등 포착",
+  "body": "$0.609 (+30.8%) · 정규장 · 레벨 4 · 점수 58\n$0.650 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 395만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +30.8% · 거래량 평소의 16.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.578 지정가(기준가 $0.609의 −5%) · 체결 가능성 약 64% · 손익분기 $0.585\n숏 지지구간 $0.550–$0.600 · 손절 $0.500 · 1차목표 $0.650\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6086,
+  "level": 4,
+  "score": 57.8,
+  "prob": 45.01661129568107,
+  "cp": 46.642538053134615,
+  "rl": 0.6499999999999999,
+  "stop": 0.5,
+  "zone": [
+   0.55,
+   0.6000000000000001
+  ],
+  "bp": 0.5782,
+  "tgt": 0.6499999999999999,
+  "stp": 0.5,
+  "penalties": [
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220218001",
+  "grade": "open"
  }
 ]
