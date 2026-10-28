@@ -1,0 +1,41 @@
+[
+ {
+  "id": "AEYE-1793174855",
+  "ts_kst": "2026-10-28 17:07",
+  "ts_utc": "2026-10-28T08:07:35+00:00",
+  "date_et": "2026-10-28",
+  "session": "pre",
+  "ticker": "AEYE",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 AEYE 상위 확률 신호",
+  "body": "$10.250 (+40.0%) · 프리마켓 · 레벨 4 · 점수 60\n공매도 물량 대부분 손해 중, $10.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,268만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $9.633 지정가(기준가 $10.140의 −5%) · 체결 가능성 약 43% · 손익분기 $9.749\n숏 지지구간 $8.750–$9.237 · 손절 $8.625 · 1차목표 $10.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.25,
+  "level": 4,
+  "score": 59.7,
+  "prob": 53.44827586206896,
+  "cp": 67.23881484296183,
+  "rl": 10.5,
+  "stop": 8.625,
+  "zone": [
+   8.75,
+   9.236500120162964
+  ],
+  "bp": 9.633,
+  "tgt": 10.5,
+  "stp": 8.625,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180904001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180904001",
+  "grade": "open"
+ }
+]
