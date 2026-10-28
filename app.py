@@ -15,7 +15,9 @@ def _gate():
     pw = AL._secret("APP_PASSWORD")
     if not pw: return
     tok = hmac.new(str(pw).encode(), b"shortradar-remember-v1", hashlib.sha256).hexdigest()
-    try: ck = st.context.cookies.get("sr_auth") or ""
+    try:
+        ck = st.context.cookies.get("sr_auth")
+        ck = ck if isinstance(ck, str) else ""
     except Exception: ck = ""
     has_ck = bool(ck) and hmac.compare_digest(ck, tok)
     if has_ck or st.session_state.get("auth_ok"):
