@@ -609,13 +609,15 @@ def home_card(t, x):
     pr = (x.get("prob") or {}).get("prob")
     pv = f'{pr:.0f}%' if pr is not None else "—"
     pc = "red" if pr is not None and pr >= 25 else ("yellow" if pr is not None and pr >= 10 else "")
+    rs = raw_score(x)
+    sc_txt = f' · 종합점수 <b>{rs:.0f}</b>점' if rs is not None else ""
     rl, sp, tpp, stop, tp, tag, er = key_levels(x, last)
     flag = '<span class="badge red">경보 조건 충족</span>' if s["flagged"] else ""
     trig = '<span class="badge red">트리거</span>' if x["triggers"] else ""
     return h(f'<div class="hc"><a class="ov" href="?{ui.AUTHQ}p=stock&t={t}" target="_self" aria-label="{esc(t)} 상세"></a><div class="card {"rc" if s["flagged"] else ""}">',
              f'<div class="t1"><div><div class="sym">{esc(t)}{tsb(t)}</div><div class="nm">{esc((info.get("shortName") or "")[:30])}</div></div>',
              f'<div class="pr"><div class="v">{px(last)}</div><div class="c {ui.cls(chg).replace("green", "blue")}">{pct(chg, 2)}</div></div></div>',
-             f'<div class="pb"><div class="pv {pc}">{pv}</div><div class="pl"><div class="lab">{esc(GOAL)} 확률 (추정) {flag}{trig}</div>',
+             f'<div class="pb"><div class="pv {pc}">{pv}</div><div class="pl"><div class="lab">{esc(GOAL)} 확률 (추정){sc_txt} {flag}{trig}</div>',
              f'<div class="meter"><div style="width:{min(pr or 0, 100):.0f}%"></div></div></div></div>',
              f'<div class="sumline">{esc(x.get("summary") or "")}</div>',
              '<div class="lv3">',
@@ -637,9 +639,16 @@ def top_picks(n=5, pool=20):
         try: x = get_snap(t)
         except Exception: continue
         pr = (x or {}).get("prob") or {}
-        if pr.get("prob") is not None: out.append((t, x, pr["prob"]))
-    out.sort(key=lambda o: -o[2])
+        if pr.get("prob") is not None: out.append((t, x, (round(pr["prob"], 1), raw_score(x) or 0)))
+    out.sort(key=lambda o: o[2], reverse=True)     # 확률 같으면 종합점수 높은 순
     return [(t, x) for t, x, _ in out[:n]]
+
+def raw_score(x):
+    """보정 전 종합점수 (0~100). 확률은 과거 검증 구간별로 묶여 같은 값이 나올 수 있어, 순위 구분용으로 함께 표시."""
+    s = (x or {}).get("s") or {}
+    r = (s.get("research") or {}).get("raw")
+    v = r if r is not None else s.get("score")
+    return None if v is None else max(0.0, min(100.0, float(v)))
 
 def page_home():
     topbar("숏 레이더", "나스닥 초소형주 숏 분석")
