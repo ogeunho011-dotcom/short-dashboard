@@ -457,5 +457,25 @@
   "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. As",
   "url": "https://www.sec.gov/Archives/edgar/data/1857086/000149315226048861/0001493152-26-048861-index.htm",
   "seen_kst": "2026-10-29 03:20"
+ },
+ {
+  "ticker": "NEXR",
+  "form": "6-K",
+  "acc": "0001213900-26-113293",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:01:03+00:00",
+  "accepted_kst": "10/29 05:01",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Nexera Technologies Signs Definitive Agreement to Sell KeepZone AI to a Global Aerospace and Defense Company for up to $6 million Transaction provides for the s",
+  "url": "https://www.sec.gov/Archives/edgar/data/1885408/000121390026113293/0001213900-26-113293-index.htm",
+  "seen_kst": "2026-10-29 05:02"
  }
 ]

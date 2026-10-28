@@ -740,5 +740,135 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220218001",
   "grade": "open"
+ },
+ {
+  "id": "NUWE-1793217775",
+  "ts_kst": "2026-10-29 05:02",
+  "ts_utc": "2026-10-28T20:02:55+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "NUWE",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 48k (당일 평균 11.5배)"
+  ],
+  "title": "🚀 NUWE 거래량 급증",
+  "body": "$5.627 (+4.8%) · 애프터마켓 · 레벨 4 · 점수 67\n공매도 물량 대부분 손해 중, $6.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 365만 주뿐이라 쉽게 크게 움직임\n• 5분 거래량 48k (당일 평균 11.5배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.346 지정가(기준가 $5.627의 −5%) · 체결 가능성 약 52% · 손익분기 $5.410\n숏 지지구간 $5.500–$5.627 · 손절 $5.250 · 1차목표 $6.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.6272,
+  "level": 4,
+  "score": 67.1,
+  "prob": 53.44827586206896,
+  "cp": 76.60832692980134,
+  "rl": 6.0,
+  "stop": 5.25,
+  "zone": [
+   5.5,
+   5.6272
+  ],
+  "bp": 5.3458,
+  "tgt": 6.0,
+  "stp": 5.25,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
+  "grade": "open"
+ },
+ {
+  "id": "TRUG-1793217775",
+  "ts_kst": "2026-10-29 05:02",
+  "ts_utc": "2026-10-28T20:02:55+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "TRUG",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 16k (당일 평균 10.5배)"
+  ],
+  "title": "🚀 TRUG 거래량 급증",
+  "body": "$0.801 (-2.9%) · 애프터마켓 · 레벨 3 · 점수 41\n시장에 도는 주식 91만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 16k (당일 평균 10.5배)\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $0.813 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +1.5%) · 체결 가능성 약 85% · 손익분기 $0.822\n숏 지지구간 $0.704–$0.801 · 손절 $-0.296 · 1차목표 $5.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-29\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8007,
+  "level": 3,
+  "score": 40.8,
+  "prob": 12.916666666666668,
+  "cp": 22.12318063187872,
+  "rl": 5.0,
+  "stop": -0.29600000381469727,
+  "zone": [
+   0.7039999961853027,
+   0.8007000088691711
+  ],
+  "bp": 0.8126,
+  "tgt": 5.0,
+  "stp": -0.29600000381469727,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-29"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211202001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211202001",
+  "grade": "open"
+ },
+ {
+  "id": "CDT-1793217775",
+  "ts_kst": "2026-10-29 05:02",
+  "ts_utc": "2026-10-28T20:02:55+00:00",
+  "date_et": "2026-10-28",
+  "session": "post",
+  "ticker": "CDT",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 112k (당일 평균 30.1배)"
+  ],
+  "title": "🚀 CDT 거래량 급증",
+  "body": "$0.079 (-0.7%) · 애프터마켓 · 레벨 3 · 점수 46\n시장에 도는 주식 63만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 거래량 112k (당일 평균 30.1배)\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.075 지정가(기준가 $0.079의 −5%) · 체결 가능성 약 85% · 손익분기 $0.076\n숏 지지구간 $0.000–$0.079 · 손절 $-25.000 · 1차목표 $25.000\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 10/13)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-29\n⚠ 희석 위험 85/100\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (10/27)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0794,
+  "level": 3,
+  "score": 45.7,
+  "prob": 38.456237077877326,
+  "cp": 2.0,
+  "rl": 25.0,
+  "stop": -25.0,
+  "zone": [
+   0.0,
+   0.0794
+  ],
+  "bp": 0.0754,
+  "tgt": 25.0,
+  "stp": -25.0,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 10/13)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-29",
+   "희석 위험 85/100",
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (10/27)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220328003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220328003",
+  "grade": "open"
  }
 ]
