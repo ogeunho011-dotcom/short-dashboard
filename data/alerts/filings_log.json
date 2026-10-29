@@ -4688,5 +4688,39 @@
   "headline": "_] Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Yes [_] No [X] Indicate by check ",
   "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426005042/0001292814-26-005042-index.htm",
   "seen_kst": "2026-10-30 02:47"
+ },
+ {
+  "ticker": "FOR",
+  "form": "8-K",
+  "acc": "0001628280-26-067973",
+  "items": "5.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-28T22:25:19+00:00",
+  "accepted_kst": "10/29 07:25",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FORESTAR GROUP INC. ANNOUNCES RETIREMENT OF DONALD J. TOMNITZ AS EXECUTIVE CHAIRMAN AND APPOINTMENT OF ANTHONY W. OXLEY AS EXECUTIVE CHAIRMAN AND CHIEF EXECUTIV",
+  "url": "https://www.sec.gov/Archives/edgar/data/1406587/000162828026067973/0001628280-26-067973-index.htm",
+  "seen_kst": "2026-10-30 02:50"
+ },
+ {
+  "ticker": "FOR",
+  "form": "8-K",
+  "acc": "0001628280-26-068139",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T17:47:51+00:00",
+  "accepted_kst": "10/30 02:47",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FORESTAR REPORTS FOURTH QUARTER AND FISCAL 2026 RESULTS ARLINGTON, Texas (Business Wire) - October 29, 2026 — Forestar Group Inc. (“Forestar”) (NYSE: FOR), a le",
+  "url": "https://www.sec.gov/Archives/edgar/data/1406587/000162828026068139/0001628280-26-068139-index.htm",
+  "seen_kst": "2026-10-30 02:50"
  }
 ]
