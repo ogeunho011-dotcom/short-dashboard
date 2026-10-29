@@ -2832,5 +2832,24 @@
   "headline": "to this Current Report on Form 8-K (this “Current Report”) and is incorporated herein by reference. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. E",
   "url": "https://www.sec.gov/Archives/edgar/data/1787740/000143774926033850/0001437749-26-033850-index.htm",
   "seen_kst": "2026-10-29 20:47"
+ },
+ {
+  "ticker": "BCBP",
+  "form": "8-K",
+  "acc": "0001193125-26-437028",
+  "items": "2.02,5.02,8.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:49:41+00:00",
+  "accepted_kst": "10/29 20:49",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "C ONTACT : J AWAD C HAUDHRY , EVP, CFO & T REASURER (201) 823-0700 BCB Bancorp, Inc. Announces Results for the Third Quarter 2026; Achieves Substantial Progress",
+  "url": "https://www.sec.gov/Archives/edgar/data/1228454/000119312526437028/0001193125-26-437028-index.htm",
+  "seen_kst": "2026-10-29 20:52"
  }
 ]
