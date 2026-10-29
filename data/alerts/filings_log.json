@@ -4412,5 +4412,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1364954/000136495426000097/0001364954-26-000097-index.htm",
   "seen_kst": "2026-10-30 00:25"
+ },
+ {
+  "ticker": "SHBI",
+  "form": "4",
+  "acc": "0001463254-26-000008",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T15:24:55+00:00",
+  "accepted_kst": "10/30 00:24",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $7,754 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "LAMON JOHN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1035092/000146325426000008/0001463254-26-000008-index.htm",
+  "seen_kst": "2026-10-30 00:27"
  }
 ]
