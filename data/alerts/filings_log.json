@@ -3401,5 +3401,58 @@
   "headline": "Contact: Charles Lambert Senior Vice President of Finance & Treasurer Medical Properties Trust, Inc. (205) 397-8897 clambert@mpt.com MPT REPORTS THIRD QUARTER R",
   "url": "https://www.sec.gov/Archives/edgar/data/1287865/000119312526437067/0001193125-26-437067-index.htm",
   "seen_kst": "2026-10-29 21:20"
+ },
+ {
+  "ticker": "BWFG",
+  "form": "8-K",
+  "acc": "0001628280-26-068043",
+  "items": "2.02,7.01,8.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:22:12+00:00",
+  "accepted_kst": "10/29 21:22",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료 · 기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 ex991q32026earningsrelease.htm EX-99.1 BANKWELL FINANCIAL GROUP REPORTS RECORD EARNINGS FOR THE THIRD QUARTER, DECLARES FOURTH QUARTER DIVIDEND New Ca",
+  "url": "https://www.sec.gov/Archives/edgar/data/1505732/000162828026068043/0001628280-26-068043-index.htm",
+  "seen_kst": "2026-10-29 21:25"
+ },
+ {
+  "ticker": "DAVI",
+  "form": "6-K",
+  "acc": "0001683168-26-008146",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:23:15+00:00",
+  "accepted_kst": "10/29 21:23",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "For release 29 October 2026 DAVION HEALTHCARE PLC AGREES $13.5 MILLION ACQUISITION OF PROFITABLE US HOME HEALTHCARE BUSINESS First in a planned programme of acq",
+  "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008146/0001683168-26-008146-index.htm",
+  "seen_kst": "2026-10-29 21:25"
+ },
+ {
+  "ticker": "MCS",
+  "form": "8-K",
+  "acc": "0000062234-26-000046",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:23:39+00:00",
+  "accepted_kst": "10/29 21:23",
+  "polarity": "pos",
+  "label": "실적 호조·가이던스 상향",
+  "cats": [
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "MARCUS CORPORATION REPORTS THIRD QUARTER 2026 RESULTS Marcus Corporation reports highest quarterly revenue in company history thanks to record third quarter rev",
+  "url": "https://www.sec.gov/Archives/edgar/data/62234/000006223426000046/0000062234-26-000046-index.htm",
+  "seen_kst": "2026-10-29 21:25"
  }
 ]
