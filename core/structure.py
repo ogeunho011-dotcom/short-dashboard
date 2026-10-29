@@ -123,19 +123,41 @@ def signs_from_row(r):
     s["prfade"] = bool(r.get("pr_n", 0) >= 3 and nn(r.get("pr_last")) and nn(r.get("pr_max_prev")) and r["pr_last"] < r["pr_max_prev"] * 0.5)
     return s
 
-def compute(px, fil=None, facts=None, info=None):
-    """상세 카드·스캔용 최신 상태. 반환 dict 또는 None."""
+def compute(px, fil=None, facts=None, info=None, mcap=None):
+    """상세 카드·스캔용 최신 상태. 반환 dict 또는 None.
+    mcap: 현재 시총(스캔·시세). XBRL 주식수는 마지막 10-Q 기준이라 그 뒤 증자·전환이 빠짐 →
+    현재 시총/시세 주식수가 있으면 최신 값(시총·전환사채 비율·베이비 셸프 한도)은 그걸로 계산."""
     if px is None or len(px) < 15: return None
     try: F = daily_frame(px.tail(260), fil, facts)
     except Exception: return None
     r = F.iloc[-1].to_dict(); sg = signs_from_row(r)
-    # 유통주식(info) 이 있으면 베이비 셸프 한도는 유통 시총 기준
-    fs = (info or {}).get("floatShares")
-    if fs and r.get("price"):
-        fu = float(fs) * r["price"]; r["float_usd"] = fu
+    info = info or {}
+    nn = lambda v: v is not None and not (isinstance(v, float) and np.isnan(v))
+    price = r.get("price")
+    cur = None
+    for k in ("sharesOutstanding", "impliedSharesOutstanding"):
+        v = info.get(k)
+        if v and float(v) > 0: cur = float(v); break
+    if cur is None and price:
+        m = mcap if mcap else info.get("marketCap")
+        if m and float(m) > 0: cur = float(m) / price
+    r["shares_xbrl"] = r.get("shares"); r["shares_src"] = "XBRL"
+    if cur and price and (not nn(r.get("shares")) or cur > r["shares"] * 1.05):
+        r["shares"] = cur; r["mcap"] = cur * price; r["shares_src"] = "시세"
+        if nn(r.get("conv")): r["overhang"] = r["conv"] / r["mcap"]
+        r["baby_cap"] = r["mcap"] / 3 if r["mcap"] < 75e6 else None
+        sg["overhang"] = (r["overhang"] >= 0.5) if nn(r.get("overhang")) else None
+        if nn(r.get("shares_old")) and r["shares_old"] > 0:      # 10-Q 이후 증자분까지 반영한 주식수 증가
+            r["shgrow"] = cur / r["shares_old"] - 1; sg["shgrow"] = bool(r["shgrow"] >= 0.5)
+    # 유통주식(info) 이 있으면 베이비 셸프 한도는 유통 시총 기준 (발행주식보다 클 수 없음)
+    fs = info.get("floatShares")
+    if fs and price:
+        fsv = min(float(fs), r["shares"]) if nn(r.get("shares")) else float(fs)
+        fu = fsv * price; r["float_usd"] = fu
         r["baby_cap"] = fu / 3 if fu < 75e6 else None
-        bm = r.get("burn_m")
-        sg["baby"] = bool(r["baby_cap"] is not None and bm and bm > 0 and r["baby_cap"] < bm * 12)
+    bm = r.get("burn_m"); b = r.get("baby_cap")
+    if nn(b) and nn(bm) and bm > 0: sg["baby"] = bool(b < bm * 12)
+    elif nn(r.get("mcap")) and r["mcap"] >= 75e6: sg["baby"] = False
     due = next_due(F.index[-1])
     pr = []
     if fil is not None and len(fil):
@@ -163,10 +185,11 @@ def values(st):
     v = st["v"]
     pr = " → ".join(f"{p[1]:+.0f}%" for p in st.get("pr") or []) or "데이터 없음"
     return {"overhang": f"전환사채 {fmt(v.get('conv'), 'usd')} ÷ 시총 {fmt(v.get('mcap'), 'usd')} = {fmt(v.get('overhang'), 'x')}",
-            "shgrow": f"주식수 {_sh(v.get('shares_old'))} → {_sh(v.get('shares'))} ({fmt(v.get('shgrow'), 'pct')})",
+            "shgrow": (f"주식수 {_sh(v.get('shares_old'))}(XBRL) → 10-Q {_sh(v.get('shares_xbrl'))} → 현재 약 {_sh(v.get('shares'))}(시세) ({fmt(v.get('shgrow'), 'pct')})" if v.get('shares_src') == '시세'
+                       else f"주식수 {_sh(v.get('shares_old'))} → {_sh(v.get('shares'))} ({fmt(v.get('shgrow'), 'pct')})"),
             "runway": f"현금 {fmt(v.get('cash'), 'usd')} · 월 소모 {fmt(v.get('burn_m'), 'usd')} → {fmt(v.get('runway_m'), 'm')}",
             "near10": f"$0.10까지 {fmt(v.get('dist10'), 'pct')} · 최근 10일 중 $0.10 이하 종가 {int(v.get('n_le10') or 0)}일 (10일 연속이면 상폐 결정)",
-            "baby": f"베이비 셸프 한도(유통 시총 1/3) {fmt(v.get('baby_cap'), 'usd')} vs 1년 소모 {fmt((v.get('burn_m') or np.nan) * 12, 'usd')}",
+            "baby": f"베이비 셸프 한도({'유통 시총' if v.get('float_usd') else '시총'} 1/3) {fmt(v.get('baby_cap'), 'usd')} vs 1년 소모 {fmt((v.get('burn_m') or np.nan) * 12, 'usd')}",
             "qwin": f"다음 10-Q/10-K 마감 {st['due']} (D{-int(v['dd_due']):+d})" if v.get("dd_due") is not None else "데이터 없음",
             "prfade": f"최근 호재 공시 반응(8-K 7.01/8.01): {pr}"}
 

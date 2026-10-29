@@ -46,6 +46,11 @@ jobs:
           fi
           ls -la data || true
 
+      - name: FINRA 소스 점검 (어느 소스가 열리는지 로그로 남김)
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python scripts/finra_probe.py
+
       - name: 데이터 갱신 + 스캔
         run: python scripts/update_daily.py
 

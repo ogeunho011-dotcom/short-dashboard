@@ -1,8 +1,8 @@
 """숏 레이더 — 나스닥 소형주 급등 탐지 (개인용). 실행: streamlit run app.py"""
-import json, math, os, re, datetime as dt
+import json, math, os, re, time, datetime as dt
 import numpy as np, pandas as pd
 import streamlit as st
-from core import db, params as P, sources as src, model, live, scan, ui, toss, alerts as AL, cloud, levels as LV, radar_ui as RU, pattern as PT
+from core import db, params as P, sources as src, model, live, scan, ui, toss, alerts as AL, cloud, levels as LV, radar_ui as RU, pattern as PT, closebet as CBS
 from core.ui import esc, px, pct, num, h
 
 st.set_page_config(page_title="숏 레이더", page_icon="📉", layout="centered", initial_sidebar_state="collapsed")
@@ -1582,7 +1582,8 @@ def page_admin():
 # 하단 탭 5개. 예전 주소(?p=today/select/discover/theme)는 통합된 페이지로 연결
 # ---------------------------------------------------------------- 페이지: 🔮 조짐 보이는 종목
 @st.cache_data(ttl=1800, show_spinner=False)
-def omen_list(scan_ts):
+def omen_list(scan_ts, dbv=None):
+    """dbv: DB 파일 수정 시각 → 매일 DB 스냅샷이 새로 들어오면 캐시 갱신."""
     from core import omen as OM
     df, _ = scan.last_scan()
     return OM.build(df)
@@ -1614,15 +1615,39 @@ def omen_note():
     return (f'<div class="card tiny" style="line-height:1.55">{txt}<br>→ <b>"크게 튈 수 있는 자리"</b>지 "오를 자리"는 아니라서 점수·확률에 넣지 않았어요 (참고). '
             '튀면 짧게 익절, 들고 가지 않기. 🧬 = 급등 사례 공통점(6가지, 3개 이상일 때만 셈) · 💣 = 전환사채·주식수 급증·현금 런웨이·$0.10 상폐선·베이비 셸프·10-Q 마감·호재 반응 약화(7가지)</div>')
 
+def _db_ver():
+    from core import db as _db
+    try: return int(os.path.getmtime(_db.DB_PATH))
+    except Exception: return 0
+
+def _last_us_session():
+    """미국 기준 '이미 끝난' 가장 최근 정규장 날짜(주말만 고려, 휴장일은 무시)."""
+    import datetime as _dt
+    from zoneinfo import ZoneInfo
+    now = _dt.datetime.now(ZoneInfo("America/New_York"))
+    d = now.date() if now.hour >= 16 else now.date() - _dt.timedelta(days=1)
+    while d.weekday() >= 5: d -= _dt.timedelta(days=1)
+    return d
+
+def omen_asof_html(L):
+    """가격 기준일 표시 + 늦으면 경고."""
+    import datetime as _dt
+    ds = sorted({r.get("asof") for r in L if r.get("asof")})
+    if not ds: return '<div class="tiny">가격 기준일: 데이터 없음</div>'
+    a = _dt.date.fromisoformat(ds[-1]); exp = _last_us_session()
+    lag = sum(1 for i in range(1, (exp - a).days + 1) if (a + _dt.timedelta(days=i)).weekday() < 5)
+    warn = f' · <span class="yellow">⚠️ 최근 장({exp.month}/{exp.day}) 가격이 아직 안 들어옴 — 매일 업데이트(한국 오전 10:20쯤) 뒤 갱신</span>' if lag >= 1 else ""
+    return f'<div class="tiny">📅 가격 기준일: <b>{a.month}/{a.day} 미국 장 마감</b>{warn}</div>'
+
 def page_omen():
     topbar("🔮 조짐 보이는 종목", "급등 사례 공통점 · 희석·상폐 구조 신호")
     df, meta = scan.last_scan()
     if df is None or not len(df):
         md('<div class="card tiny">아직 스캔 결과가 없어요. 매일 자동 업데이트 뒤에 채워집니다.</div>'); disclaimer(); return
     with st.spinner("조짐 계산 중... (스캔 종목 전체, 30분 캐시)"):
-        L = omen_list((meta or {}).get("ts"))
+        L = omen_list((meta or {}).get("ts"), _db_ver())
     md(f'<div class="tiny">기준: 최근 스캔 {esc((meta or {}).get("ts") or "")} · {len(df)}종목 중 {len(L)}종목 · 신호 많은 순 · 조건: 🧬 3개↑ 또는 💣 2개↑</div>')
-    md(omen_note()); md(COPY_HINT)
+    md(omen_asof_html(L)); md(omen_note()); md(COPY_HINT)
     if not L: md('<div class="card tiny">지금 조짐 조건에 맞는 종목 없음</div>')
     warm_toss([r["ticker"] for r in L[:30]])
     for r in L[:40]: md(omen_card(r))
@@ -1632,7 +1657,7 @@ def omen_home(n=4):
     df, meta = scan.last_scan()
     if df is None or not len(df): return
     md('<div class="sec">🔮 조짐 보이는 종목</div>')
-    try: L = omen_list((meta or {}).get("ts"))
+    try: L = omen_list((meta or {}).get("ts"), _db_ver())
     except Exception: L = []
     if not L: md('<div class="card tiny">지금 조짐 조건에 맞는 종목 없음</div>')
     from core import omen as OM
@@ -1642,40 +1667,48 @@ def omen_home(n=4):
            f'<span class="tiny">${r["price"]:.4g}</span></span><span class="badge {"red" if r["total"] >= 6 else "yellow"}">조짐 {r["total"]}개 · 참고</span></div>'
            f'<div class="tiny">{esc(on[:160])}</div></div>')
     md(f'<div class="tiny"><a href="?{ui.AUTHQ}p=omen" target="_self">🔮 조짐 종목 전체 보기 ({len(L)}) →</a> · 점수 미반영 참고 목록</div>')
+    if L: md(omen_asof_html(L))
 
 # ---------------------------------------------------------------- 페이지: 🌙 종가 베팅
 @st.cache_data(ttl=600, show_spinner=False)
 def cb_daily(day_key):
-    since = (dt.date.today() - dt.timedelta(days=120)).isoformat()
-    px_ = db.q("SELECT ticker, date, open, high, low, close, volume FROM prices WHERE date >= ? ORDER BY ticker, date", (since,))
-    if not len(px_): return {}
-    px_["date"] = pd.to_datetime(px_["date"])
-    last = px_.date.max(); out = {}
-    for t, g in px_.groupby("ticker"):
-        if len(g) < 25 or g.date.iloc[-1] < last - pd.Timedelta(days=5): continue
-        c = g.close.iloc[-1]; dv = float((g.close * g.volume).tail(20).mean())
-        if 0.04 <= c <= 18 and dv >= 80e3: out[t] = g.reset_index(drop=True)
+    return CBS.daily_frames()
+
+@st.cache_resource(show_spinner=False)
+def _cb_mem():
+    return {}       # 프로세스 공용 1분봉 캐시 {ticker: (받은 시각, 세션 날짜, DataFrame)} — 새로고침·다른 접속자와 공유
+
+def cb_bars(tickers, slot):
+    """오늘(최근 세션) 1분봉 {ticker: DataFrame}. ① 장 마감 후엔 DB 에 저장된 세션 분봉(매일 업데이트·앱이 저장) →
+    ② 메모리 캐시(장중 5분, 마감 후 세션 끝까지) → ③ 모자란 종목만 Yahoo 에 40개씩 묶어 요청, 빈 응답은 쉬었다가 재시도."""
+    tk = list(tickers); now = time.time(); sess = live.session_now()[0]
+    M = _cb_mem(); out = {}
+    stored = CBS.load_bars(str(_last_us_session())) if sess != "regular" else {}
+    for t in tk:
+        if t in stored: out[t] = stored[t]; continue
+        e = M.get(t)
+        if e and (now - e[0] < 300 or (sess != "regular" and e[0] >= _session_close_ts())): out[t] = e[2]
+    miss = [t for t in tk if t not in out]; got = {}
+    if miss:
+        try:
+            got = src.bulk_1m(miss, chunk=40, max_wait=45)
+        except Exception as e:
+            db.set_status("종가 베팅 1분봉", False, repr(e)[:200])
+        for t, x in got.items():
+            x = x[["Open", "High", "Low", "Close", "Volume"]].copy(); out[t] = x; M[t] = (now, None, x)
+        if sess != "regular" and got:
+            try: CBS.save_bars(got)
+            except Exception: pass
+    db.set_status("종가 베팅 1분봉", len(out) >= len(tk) * 0.8, f"{len(out)}/{len(tk)} (저장분 {sum(t in stored for t in tk)}, 새로 받음 {len(got)}/{len(miss)}, 재시도 {src.YF_LOG.get('retries', 0)}회)")
     return out
 
-@st.cache_data(ttl=300, show_spinner=False)
-def cb_bars(tickers, slot):
-    """오늘(최근 세션) 1분봉. 실패하면 빈 dict (→ 체결강도 데이터 없음)."""
-    out = {}
-    try:
-        import yfinance as yf
-        tk = list(tickers)
-        for i in range(0, len(tk), 100):
-            part = tk[i:i + 100]
-            hh = yf.download(part, period="1d", interval="1m", prepost=False, auto_adjust=False, group_by="ticker", threads=True, progress=False)
-            if hh is None or hh.empty: continue
-            for t in part:
-                try:
-                    x = (hh[t] if len(part) > 1 else hh).dropna(subset=["Close"])
-                    if len(x): out[t] = x[["Open", "High", "Low", "Close", "Volume"]].copy()
-                except Exception: pass
-    except Exception as e:
-        db.set_status("종가 베팅 1분봉", False, repr(e)[:200])
-    return out
+def _session_close_ts():
+    """가장 최근 정규장 마감(16:00 ET) 시각의 epoch — 그 뒤에 받은 분봉은 세션 끝까지 그대로 씀."""
+    from zoneinfo import ZoneInfo
+    et = dt.datetime.now(ZoneInfo("America/New_York")); d = et.date()
+    if et.hour < 16: d -= dt.timedelta(days=1)
+    while d.weekday() >= 5: d -= dt.timedelta(days=1)
+    return dt.datetime(d.year, d.month, d.day, 16, 0, tzinfo=ZoneInfo("America/New_York")).timestamp()
 
 def _merge_bar(g, b):
     if b is None or not len(b): return g
@@ -1749,7 +1782,7 @@ def page_close():
     conds = CB.rule()
     md(f'<div class="card tiny" style="line-height:1.55"><b>조건</b>: ' + " · ".join(esc(CB.cond_name(c)) + ("" if c[3] else " (참고)") for c in conds) +
        '<br>체결강도(추정) = 1분봉으로 계산한 매수 추정량 ÷ 매도 추정량 × 100 (100% = 균형). 직전 1분보다 오르면 매수, 내리면 매도로 셈 — 실제 체결 데이터가 아니라 추정치예요.</div>')
-    D = cb_daily(dt.date.today().isoformat())
+    D = cb_daily(dt.date.today().isoformat() + f":{_db_ver()}")
     if not D:
         md('<div class="card tiny">가격 데이터 없음</div>'); disclaimer(); return
     slot = int(dt.datetime.now().timestamp() // 300)
@@ -1758,8 +1791,7 @@ def page_close():
     if sess == "regular":     # 장중: 오늘 막대가 DB 에 없으니 거래대금 상위 400종목의 1분봉으로 오늘을 반영
         pre = sorted(D, key=lambda t: float((D[t].close * D[t].volume).tail(20).mean()), reverse=True)[:400]
     else:                     # 장 마감 후: 마지막 종가 기준으로 일봉 조건 거른 뒤, 남은 종목만 1분봉(체결강도)
-        Q0, N0 = CB.candidates(D, None, daily_only)
-        pre = [x["ticker"] for x in Q0 + N0][:120]
+        pre = CB.prefilter(D, 120)
     with st.spinner("1분봉으로 오늘 체결강도 계산 중..."):
         B = cb_bars(tuple(sorted(pre)), slot) if pre else {}
     D2 = {t: _merge_bar(D[t], B.get(t)) for t in pre}

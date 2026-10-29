@@ -50,6 +50,10 @@ def feats(px):
     F["stoch"] = np.where(hi14 > lo14, (c - lo14) / np.where(hi14 > lo14, hi14 - lo14, 1) * 100, 50)
     F["str_day"], F["clv"] = strength_clv(o, h, l, c, v)
     F["chg1"] = cs.pct_change().values
+    F["from_open"] = np.where(o > 0, c / np.where(o > 0, o, 1) - 1, np.nan)        # 시가 대비
+    F["from_hi"] = np.where(h > 0, c / np.where(h > 0, h, 1) - 1, np.nan)          # 장중 고가 대비
+    F["run5"] = cs.shift(1).values / cs.shift(6).values - 1                          # 하락 전날까지 5일 상승폭
+    F["run20"] = cs.shift(1).values / cs.shift(21).values - 1
     F["volx"] = v / pd.Series(v).shift(1).rolling(20, min_periods=10).mean().values
     F["hold"] = np.where(h > 0, c / h, np.nan)
     F["dv20"] = (cs * pd.Series(v)).rolling(20, min_periods=10).mean().values
@@ -76,11 +80,11 @@ def check(row, rule):
 
 LABEL = {"rsi2": "RSI(2)", "rsi14": "RSI(14)", "ma5": "5일선 이격", "ma20": "20일선 이격", "dd20": "20일 고점 대비", "down_n": "연속 하락일",
          "stoch": "스토캐스틱(14)", "str_day": "체결강도(일봉 추정)", "str_60": "체결강도(마감 60분 추정)", "volx": "거래량(20일 평균 대비)",
-         "chg1": "당일 등락", "hold": "종가/고가", "clv": "종가 위치"}
+         "chg1": "당일 등락(전날 종가 대비)", "from_open": "시가 대비", "from_hi": "장중 고가 대비", "run5": "직전 5일 상승", "run20": "직전 20일 상승", "hold": "종가/고가", "clv": "종가 위치"}
 
 def fmtv(k, v):
     if v is None or (isinstance(v, float) and np.isnan(v)): return "데이터 없음"
-    if k in ("ma5", "ma20", "dd20", "chg1"): return f"{v * 100:+.1f}%"
+    if k in ("ma5", "ma20", "dd20", "chg1", "from_open", "from_hi", "run5", "run20"): return f"{v * 100:+.1f}%"
     if k in ("str_day", "str_60"): return f"{v:.0f}%"
     if k == "volx": return f"{v:.1f}배"
     if k == "hold": return f"{v * 100:.0f}%"
@@ -100,7 +104,7 @@ def rule():
 
 def cond_name(c):
     k, op, th = c[:3]
-    if k in ("ma5", "ma20", "dd20", "chg1"): t = f"{th * 100:+.0f}%"
+    if k in ("ma5", "ma20", "dd20", "chg1", "from_open", "from_hi", "run5", "run20"): t = f"{th * 100:+.0f}%"
     elif k == "hold": t = f"{th * 100:.0f}%"
     elif k == "volx": t = f"{th:g}배"
     elif k.startswith("str"): t = f"{th:g}%"
@@ -184,3 +188,68 @@ def copy_text(it, plan, link=""):
     if link: L.append(f"🔗 {link}")
     L.append("※ 1분봉으로 추정한 체결강도 · 과거 검증 수치는 보장 아님 · 투자 권유 아님")
     return "\n".join(L)
+
+# ---------------------------------------------------------------- 세션 1분봉 저장 (DB kv, 장 마감 후 재사용)
+def _bars_date(b):
+    ix = b.index.tz_convert("America/New_York") if b.index.tz is not None else b.index
+    return str(ix[-1].date())
+
+def save_bars(bars):
+    """{ticker: 1분봉} → kv 'cb1m' (같은 세션이면 합침). 세션 날짜가 다르면 새로 시작."""
+    import base64, gzip, io
+    from . import db
+    if not bars: return 0
+    d = max(_bars_date(b) for b in bars.values() if len(b))
+    cur = db.kv_get("cb1m") or {}
+    if cur.get("date") != d: cur = {"date": d, "bars": {}}
+    for t, b in bars.items():
+        if not len(b) or _bars_date(b) != d: continue
+        x = b[["Open", "High", "Low", "Close", "Volume"]].copy()
+        x.index = (x.index.tz_convert("America/New_York") if x.index.tz is not None else x.index).strftime("%Y-%m-%d %H:%M")
+        cur["bars"][t] = base64.b64encode(gzip.compress(x.round(6).to_csv().encode())).decode()
+    db.kv_set("cb1m", cur)
+    return len(cur["bars"])
+
+def load_bars(day=None):
+    """저장된 세션 1분봉 {ticker: DataFrame(index=ET)}. day 를 주면 그 세션일 때만."""
+    import base64, gzip, io
+    from . import db
+    cur = db.kv_get("cb1m") or {}
+    if not cur.get("bars") or (day and cur.get("date") != day): return {}
+    out = {}
+    for t, s in cur["bars"].items():
+        try:
+            x = pd.read_csv(io.BytesIO(gzip.decompress(base64.b64decode(s))), index_col=0)
+            x.index = pd.DatetimeIndex(pd.to_datetime(x.index)).tz_localize("America/New_York"); out[t] = x
+        except Exception: pass
+    return out
+
+def daily_frames(days=120):
+    """DB 일봉 → {ticker: 최근 일봉}. 화면(🌙)과 매일 업데이트가 같은 후보를 쓰도록 공용."""
+    import datetime as dt
+    from . import db
+    since = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    px_ = db.q("SELECT ticker, date, open, high, low, close, volume FROM prices WHERE date >= ? ORDER BY ticker, date", (since,))
+    if not len(px_): return {}
+    px_["date"] = pd.to_datetime(px_["date"])
+    last = px_.date.max(); out = {}
+    for t, g in px_.groupby("ticker"):
+        if len(g) < 25 or g.date.iloc[-1] < last - pd.Timedelta(days=5): continue
+        c = g.close.iloc[-1]; dv = float((g.close * g.volume).tail(20).mean())
+        if 0.04 <= c <= 18 and dv >= 80e3: out[t] = g.reset_index(drop=True)
+    return out
+
+def prefilter(D, n=120):
+    """장 마감 후: 일봉 조건(체결강도 제외)으로 거른 후보 종목 (1분봉 받을 대상)."""
+    daily_only = [c for c in rule() if not c[0].startswith("str_")]
+    Q0, N0 = candidates(D, None, daily_only)
+    return [x["ticker"] for x in Q0 + N0][:n]
+
+def cloud_prefetch(n=150):
+    """매일 업데이트(GitHub Actions, 장 마감 후)에서 후보 종목 1분봉을 묶음+재시도로 받아 DB 에 저장 → 앱은 Yahoo 를 다시 안 불러도 됨."""
+    from . import sources as src
+    D = daily_frames(); pre = prefilter(D, n) if D else []
+    if not pre: return 0, 0
+    B = src.bulk_1m(pre, chunk=40, max_wait=120)
+    save_bars(B)
+    return len(B), len(pre)

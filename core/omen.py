@@ -11,7 +11,7 @@ def _one(t, mcap=None, since=None):
     fil = db.q("SELECT form, filed, items FROM filings WHERE ticker=?", (t,))
     facts = db.kv_get(f"facts:{t}") or {}
     pm = PT.match(px, None, None, fil, mcap=mcap or None)
-    sm = ST.compute(px, fil, facts)
+    sm = ST.compute(px, fil, facts, mcap=mcap or None)
     if not pm and not sm: return None
     pn = pm["n"] if pm else 0; sn = sm["n"] if sm else 0
     return dict(ticker=t, price=float(px.close.iloc[-1]), chg1=float(px.close.iloc[-1] / px.close.iloc[-2] - 1), asof=str(px.date.iloc[-1].date()),

@@ -74,66 +74,87 @@ def fetch_intraday(ticker, period="5d", interval="5m"):
         return pd.DataFrame()
 
 # ---------------- FINRA Reg SHO 일별 공매도 거래량 ----------------
+# 소스 순서: ① FINRA CDN 파일(브라우저 헤더) → ② FINRA 공개 API(regShoDaily, 인증 불필요) → ③ CDN 을 다른 헤더로 한 번 더.
+# 어느 소스가 됐는지 FINRA_LOG 에 남기고 update_finra() 가 요약을 돌려줌 (daily.yml 로그에 그대로 찍힘).
 FINRA_URL = "https://cdn.finra.org/equity/regsho/daily/CNMSshvol{d}.txt"
+FINRA_API = "https://api.finra.org/data/group/otcMarket/name/regShoDaily"
+FINRA_HDR = {"User-Agent": UA_BROWSER, "Accept": "text/plain,text/html,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9",
+             "Referer": "https://www.finra.org/finra-data/browse-catalog/short-sale-volume-data/daily-short-sale-volume-files"}
+FINRA_LOG = []      # [(YYYYMMDD, 결과)] — 이번 실행에서 날짜별로 어느 소스가 됐는지
 
-def fetch_finra_day(day: dt.date, tickers=None):
+def _finra_save_file_text(text, ds, tickers=None):
+    df = pd.read_csv(io.StringIO(text), sep="|")
+    df = df[df["Date"].astype(str).str.fullmatch(r"\d{8}")]
+    if tickers is not None: df = df[df["Symbol"].isin(set(tickers))]
+    out = pd.DataFrame({"ticker": df["Symbol"], "date": pd.to_datetime(df["Date"].astype(str)).dt.strftime("%Y-%m-%d"),
+                        "short_vol": df["ShortVolume"], "short_exempt": df["ShortExemptVolume"], "total_vol": df["TotalVolume"]})
+    return db.upsert_df("short_vol", out, ["ticker", "date", "short_vol", "short_exempt", "total_vol"])
+
+def _finra_cdn(day, tickers=None, headers=None):
+    """성공 시 행 수, 파일 없음(휴장·미게시)이면 0, 차단·오류면 None. 두 번째 값은 사유."""
     ds = day.strftime("%Y%m%d")
     try:
-        r = _get(FINRA_URL.format(d=ds), allow_redirects=False, timeout=30)
-        if r.status_code in (301, 302, 307, 403):
-            # CDN 이 클라우드 서버(GitHub Actions 등) IP 를 막는 경우 → FINRA 공개 API 로 같은 데이터 받기
-            n = fetch_finra_day_api(day, tickers)
-            if n is not None: return n
-        if r.status_code != 200 or not r.text.startswith("Date|"):
-            msg = f"HTTP {r.status_code} (WAF/차단 또는 휴장일)"
-            db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "blocked" if r.status_code in (301, 302, 307, 403) else "missing", time.time()))
-            db.set_status("FINRA RegSHO", False, msg)
-            return -1 if r.status_code in (301, 302, 307, 403) else 0
-        df = pd.read_csv(io.StringIO(r.text), sep="|")
-        df = df[df["Date"].astype(str).str.fullmatch(r"\d{8}")]
-        if tickers is not None:
-            df = df[df["Symbol"].isin(set(tickers))]
-        out = pd.DataFrame({"ticker": df["Symbol"], "date": pd.to_datetime(df["Date"].astype(str)).dt.strftime("%Y-%m-%d"),
-                            "short_vol": df["ShortVolume"], "short_exempt": df["ShortExemptVolume"], "total_vol": df["TotalVolume"]})
-        n = db.upsert_df("short_vol", out, ["ticker", "date", "short_vol", "short_exempt", "total_vol"])
-        db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "ok", time.time()))
-        db.set_status("FINRA RegSHO", True, f"{ds} {n}행")
-        return n
+        r = requests.get(FINRA_URL.format(d=ds), headers=headers or FINRA_HDR, allow_redirects=False, timeout=30)
     except Exception as e:
-        db.set_status("FINRA RegSHO", False, repr(e)); return -1
-
-FINRA_API = "https://api.finra.org/data/group/otcMarket/name/regShoDaily"
+        return None, f"CDN 오류 {type(e).__name__}"
+    if r.status_code == 200 and r.text.startswith("Date|"):
+        return _finra_save_file_text(r.text, ds, tickers), "CDN"
+    if r.status_code == 404: return 0, "CDN 404(파일 없음)"
+    return None, f"CDN HTTP {r.status_code}"
 
 def fetch_finra_day_api(day: dt.date, tickers=None):
     """FINRA 공개 API(인증 불필요). 거래보고소(NQTRF·NYTRF·NCTRF)별 행을 합치면 CNMSshvol 파일과 같은 값
     (2026-10-27 SOUN·TDIC·NN·AEYE·AAPL 로 일치 확인). ORF(장외 종목)는 CNMS 파일에 없으므로 제외.
     성공 시 행 수, 그날 자료가 없으면 0, API 도 실패하면 None."""
-    ds = day.strftime("%Y%m%d"); iso = day.strftime("%Y-%m-%d")
+    n, _ = _finra_api(day, tickers)
+    return n
+
+def _finra_api(day, tickers=None):
+    iso = day.strftime("%Y-%m-%d")
     try:
         rows, off = [], 0
         while True:
-            r = requests.post(FINRA_API, json={"limit": 5000, "offset": off, "compareFilters": [
-                {"compareType": "equal", "fieldName": "tradeReportDate", "fieldValue": iso}]},
-                headers={"Accept": "application/json", "User-Agent": UA_BROWSER}, timeout=60)
+            r = None
+            for k in range(3):      # 429·5xx 는 잠깐 쉬고 재시도
+                r = requests.post(FINRA_API, json={"limit": 5000, "offset": off, "compareFilters": [
+                    {"compareType": "equal", "fieldName": "tradeReportDate", "fieldValue": iso}]},
+                    headers={"Accept": "application/json", "Content-Type": "application/json", "User-Agent": UA_BROWSER}, timeout=60)
+                if r.status_code not in (429, 500, 502, 503, 504): break
+                time.sleep(3 * (k + 1))
             if r.status_code == 204: break
-            if r.status_code != 200: return None
+            if r.status_code != 200: return None, f"API HTTP {r.status_code}"
             j = r.json(); rows += j; off += 5000
             if len(j) < 5000: break
-        if not rows:
-            db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "missing", time.time()))
-            db.set_status("FINRA RegSHO", False, f"{ds} 자료 없음 (휴장일?)"); return 0
+        if not rows: return 0, "API 자료 없음"
         a = pd.DataFrame(rows)
         a = a[a["marketCode"] != "O"]
         g = a.groupby("securitiesInformationProcessorSymbolIdentifier")[["shortParQuantity", "shortExemptParQuantity", "totalParQuantity"]].sum().reset_index()
         if tickers is not None: g = g[g["securitiesInformationProcessorSymbolIdentifier"].isin(set(tickers))]
         out = pd.DataFrame({"ticker": g["securitiesInformationProcessorSymbolIdentifier"], "date": iso,
                             "short_vol": g["shortParQuantity"], "short_exempt": g["shortExemptParQuantity"], "total_vol": g["totalParQuantity"]})
-        n = db.upsert_df("short_vol", out, ["ticker", "date", "short_vol", "short_exempt", "total_vol"])
-        db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "ok", time.time()))
-        db.set_status("FINRA RegSHO", True, f"{ds} {n}행 (API)")
-        return n
-    except Exception:
-        return None
+        return db.upsert_df("short_vol", out, ["ticker", "date", "short_vol", "short_exempt", "total_vol"]), "API"
+    except Exception as e:
+        return None, f"API 오류 {type(e).__name__}"
+
+def fetch_finra_day(day: dt.date, tickers=None):
+    """반환: 행 수(>0 성공), 0(그날 자료 없음 — 휴장·미게시), -1(모든 소스 차단·오류). FINRA_LOG 에 소스 기록."""
+    ds = day.strftime("%Y%m%d"); tried = []
+    try:
+        for fn in (lambda: _finra_cdn(day, tickers), lambda: _finra_api(day, tickers),
+                   lambda: _finra_cdn(day, tickers, {"User-Agent": SEC_UA, "Accept": "*/*"})):
+            n, why = fn(); tried.append(why)
+            if n is not None and n > 0:
+                db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "ok", time.time()))
+                db.set_status("FINRA RegSHO", True, f"{ds} {n}행 ({why})")
+                FINRA_LOG.append((ds, f"{why} {n}행" + (f" (앞서 실패: {', '.join(tried[:-1])})" if len(tried) > 1 else "")))
+                return n
+        nodata = any(w in ("CDN 404(파일 없음)", "API 자료 없음") for w in tried)
+        db.exec_("INSERT OR REPLACE INTO finra_days VALUES(?,?,?)", (ds, "missing" if nodata else "blocked", time.time()))
+        msg = f"{ds} " + ("자료 없음(휴장일·아직 미게시)" if nodata else "모든 소스 실패") + f": {', '.join(tried)}"
+        db.set_status("FINRA RegSHO", False, msg); FINRA_LOG.append((ds, msg))
+        return 0 if nodata else -1
+    except Exception as e:
+        db.set_status("FINRA RegSHO", False, repr(e)); FINRA_LOG.append((ds, repr(e))); return -1
 
 def import_finra_file(path_or_buf, tickers=None):
     """차단된 환경용: 브라우저로 받은 CNMSshvol 파일을 수동 업로드."""
@@ -145,19 +166,28 @@ def import_finra_file(path_or_buf, tickers=None):
     return db.upsert_df("short_vol", out, ["ticker", "date", "short_vol", "short_exempt", "total_vol"])
 
 def update_finra(days_back=60, tickers=None):
+    """반환 (받은 행 수, 실패 날 수). 새로 받을 날이 없으면 그 사실을 상태에 남김(예전 403 메시지가 남아 헷갈리지 않게)."""
     today = dt.date.today()
     have = set(db.q("SELECT date FROM finra_days WHERE status='ok'")["date"])
-    got = 0; blocked = 0
+    got = 0; blocked = 0; tried = 0
     for i in range(1, days_back + 1):
         d = today - dt.timedelta(days=i)
         if d.weekday() >= 5 or d.strftime("%Y%m%d") in have: continue
+        tried += 1
         n = fetch_finra_day(d, tickers)
         if n < 0:
             blocked += 1
             if blocked >= 3: break   # 차단 환경이면 빨리 포기
         else:
             got += max(n, 0)
+    if tried == 0:
+        last = max(have) if have else "없음"
+        db.set_status("FINRA RegSHO", True, f"새로 받을 날 없음 (최신 {last})")
+        FINRA_LOG.append(("-", f"새로 받을 날 없음 (DB 최신 {last})"))
     return got, blocked
+
+def finra_log_text():
+    return " | ".join(f"{d}: {m}" for d, m in FINRA_LOG) or "기록 없음"
 
 def get_short_vol(ticker):
     df = db.q("SELECT * FROM short_vol WHERE ticker=? ORDER BY date", (ticker,))
@@ -614,52 +644,81 @@ def refresh_ticker(ticker, full=True):
     return ticker
 
 # ---------------- 대량 가격 (스크리너용) ----------------
-def bulk_prices(tickers, period="1y", chunk=80):
-    """yfinance 일괄 다운로드 → prices 테이블. 반환: 저장된 종목 수"""
-    import yfinance as yf
-    ok = 0
-    for i in range(0, len(tickers), chunk):
-        part = tickers[i:i + chunk]
-        try:
-            h = yf.download(part, period=period, interval="1d", auto_adjust=False, group_by="ticker", threads=True, progress=False)
-        except Exception as e:
-            db.set_status("yfinance bulk", False, repr(e)); continue
-        for t in part:
+YF_LOG = {}     # 마지막 일괄 요청 요약 (요청 수, 받은 수, 재시도 횟수)
+
+def yf_batch(tickers, chunk=40, tries=4, base_wait=4.0, max_wait=90.0, pause=0.7, **kw):
+    """yfinance 일괄 다운로드를 묶음(chunk)으로 나눠 받고, 빈 응답(속도 제한 YFRateLimitError 등)인 종목만 골라
+    점점 길게 쉬며(4s→12s→36s, 총 대기 max_wait 이내) 다시 요청. yf.download 는 실패해도 예외 없이 NaN 열만 주므로
+    종목별로 Close 가 비었는지로 판정. 반환 {ticker: DataFrame(Close 있는 행만)}."""
+    import yfinance as yf, logging
+    logging.getLogger("yfinance").setLevel(logging.CRITICAL)
+    want = list(dict.fromkeys(tickers)); out = {}; waited = 0.0; rounds = 0
+    for k in range(tries):
+        todo = [t for t in want if t not in out]
+        if not todo: break
+        if k:
+            w = min(base_wait * (3 ** (k - 1)), max_wait - waited)
+            if w <= 0: break
+            time.sleep(w); waited += w; rounds += 1
+        for i in range(0, len(todo), chunk):
+            part = todo[i:i + chunk]
             try:
-                x = h[t] if len(part) > 1 else h
-                x = x.dropna(subset=["Close"])
-                if len(x) == 0: continue
-                df = pd.DataFrame({"ticker": t, "date": [d.strftime("%Y-%m-%d") for d in x.index], "open": x["Open"].values,
-                                   "high": x["High"].values, "low": x["Low"].values, "close": x["Close"].values, "volume": x["Volume"].values})
-                db.upsert_df("prices", df, ["ticker", "date", "open", "high", "low", "close", "volume"]); ok += 1
-            except Exception:
-                pass
-    db.set_status("yfinance bulk", ok > 0, f"{ok}/{len(tickers)} 종목")
+                h = yf.download(part, auto_adjust=False, group_by="ticker", threads=True, progress=False, **kw)
+            except Exception as e:
+                db.set_status("yfinance bulk", False, repr(e)); h = None
+            if h is not None and not h.empty:
+                for t in part:
+                    try:
+                        x = h[t] if isinstance(h.columns, pd.MultiIndex) else h
+                        x = x.dropna(subset=["Close"])
+                        if len(x): out[t] = x
+                    except Exception:
+                        pass
+            if i + chunk < len(todo): time.sleep(pause)
+    YF_LOG.update(asked=len(want), got=len(out), retries=rounds, waited=round(waited, 1), interval=kw.get("interval"))
+    return out
+
+def bulk_prices(tickers, period="1y", chunk=60):
+    """yfinance 일괄 다운로드 → prices 테이블. 반환: 저장된 종목 수 (빈 응답 종목은 쉬었다가 재시도)"""
+    ok = 0
+    H = yf_batch(list(tickers), chunk=chunk, period=period, interval="1d")
+    for t, x in H.items():
+        try:
+            df = pd.DataFrame({"ticker": t, "date": [d.strftime("%Y-%m-%d") for d in x.index], "open": x["Open"].values,
+                               "high": x["High"].values, "low": x["Low"].values, "close": x["Close"].values, "volume": x["Volume"].values})
+            db.upsert_df("prices", df, ["ticker", "date", "open", "high", "low", "close", "volume"]); ok += 1
+        except Exception:
+            pass
+    db.set_status("yfinance bulk", ok > 0, f"{ok}/{len(tickers)} 종목 (재시도 {YF_LOG.get('retries', 0)}회)")
     return ok
 
-def bulk_today_bars(tickers, chunk=100):
+def _et_index(x):
+    return x.index.tz_convert("America/New_York") if x.index.tz is not None else x.index
+
+def bulk_1m(tickers, chunk=40, max_wait=60.0, prepost=False):
+    """최신 세션 1분봉 {ticker: DataFrame(index=ET, 마지막 날짜만)} — 묶음 + 재시도."""
+    H = yf_batch(list(tickers), chunk=chunk, max_wait=max_wait, period="1d", interval="1m", prepost=prepost)
+    out = {}
+    for t, x in H.items():
+        try:
+            ix = _et_index(x); x = x.set_axis(ix)
+            out[t] = x[ix.date == ix[-1].date()]
+        except Exception:
+            pass
+    return out
+
+def bulk_today_bars(tickers, chunk=40):
     """최신 세션 1분봉(정규장)을 일괄로 받아 종목별 당일 OHLCV 로 합침. Yahoo 일봉이 늦게 갱신될 때 보정용.
     반환: {ticker: {date, open, high, low, close, volume, ts}}"""
-    import yfinance as yf
     out = {}
-    for i in range(0, len(tickers), chunk):
-        part = list(tickers[i:i + chunk])
+    for t, x in bulk_1m(tickers, chunk=chunk).items():
         try:
-            h = yf.download(part, period="1d", interval="1m", prepost=False, auto_adjust=False, group_by="ticker", threads=True, progress=False)
-        except Exception as e:
-            db.set_status("yfinance 1분봉", False, repr(e)); continue
-        if h is None or h.empty: continue
-        for t in part:
-            try:
-                x = (h[t] if len(part) > 1 else h).dropna(subset=["Close"])
-                if len(x) == 0: continue
-                ts = x.index[-1].tz_convert("America/New_York") if x.index.tz is not None else x.index[-1]
-                x = x[[ix.date() == ts.date() for ix in (x.index.tz_convert("America/New_York") if x.index.tz is not None else x.index)]]
-                out[t] = {"date": pd.Timestamp(ts.date()), "open": float(x["Open"].iloc[0]), "high": float(x["High"].max()), "low": float(x["Low"].min()),
-                          "close": float(x["Close"].iloc[-1]), "volume": float(x["Volume"].sum()), "ts": str(ts)}
-            except Exception:
-                pass
-    db.set_status("yfinance 1분봉", bool(out), f"{len(out)}/{len(tickers)} 종목 최신 1분봉")
+            ts = x.index[-1]
+            out[t] = {"date": pd.Timestamp(ts.date()), "open": float(x["Open"].iloc[0]), "high": float(x["High"].max()), "low": float(x["Low"].min()),
+                      "close": float(x["Close"].iloc[-1]), "volume": float(x["Volume"].sum()), "ts": str(ts)}
+        except Exception:
+            pass
+    db.set_status("yfinance 1분봉", bool(out), f"{len(out)}/{len(tickers)} 종목 최신 1분봉 (재시도 {YF_LOG.get('retries', 0)}회)")
     return out
 
 def merge_today(px, bar, intraday_open=None):
