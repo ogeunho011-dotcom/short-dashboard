@@ -4240,5 +4240,22 @@
   "headline": "Sprang Todd A.",
   "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926120006/0001104659-26-120006-index.htm",
   "seen_kst": "2026-10-29 22:55"
+ },
+ {
+  "ticker": "XFOR",
+  "form": "8-K",
+  "acc": "0001501697-26-000084",
+  "items": "8.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:59:45+00:00",
+  "accepted_kst": "10/29 22:59",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "2 This presentation, including any printed or electronic copy of these slides, the talks given by the presenters, the information communicated during any delive",
+  "url": "https://www.sec.gov/Archives/edgar/data/1501697/000150169726000084/0001501697-26-000084-index.htm",
+  "seen_kst": "2026-10-29 23:02"
  }
 ]
