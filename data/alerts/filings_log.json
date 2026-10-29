@@ -3792,5 +3792,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/62234/000006223426000048/0000062234-26-000048-index.htm",
   "seen_kst": "2026-10-29 21:50"
+ },
+ {
+  "ticker": "SIDU",
+  "form": "8-K",
+  "acc": "0001493152-26-049195",
+  "items": "5.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:51:22+00:00",
+  "accepted_kst": "10/29 21:51",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Sidus Space Appoints Hassan R. Baqar to Board of Directors Former Public-Company CFO Brings More Than 25 Years of Financial Reporting, Capital Markets and M&A E",
+  "url": "https://www.sec.gov/Archives/edgar/data/1879726/000149315226049195/0001493152-26-049195-index.htm",
+  "seen_kst": "2026-10-29 21:52"
  }
 ]
