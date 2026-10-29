@@ -4078,5 +4078,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240910009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240910009",
   "grade": "open"
+ },
+ {
+  "id": "DAIC-1793291557",
+  "ts_kst": "2026-10-30 01:32",
+  "ts_utc": "2026-10-29T16:32:37+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "DAIC",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 49k (당일 평균 6.7배)"
+  ],
+  "title": "🚀 DAIC 거래량 급증",
+  "body": "$1.215 (+14.6%) · 정규장 · 레벨 3 · 점수 42\n시장에 도는 주식 234만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 5분 거래량 49k (당일 평균 6.7배)\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $1.125 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.4%) · 체결 가능성 약 73% · 손익분기 $1.139\n숏 지지구간 $1.000–$1.215 · 손절 $0.608 · 1차목표 $2.500\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.215,
+  "level": 3,
+  "score": 41.8,
+  "prob": 21.428571428571427,
+  "cp": 2.086588174049586,
+  "rl": 2.5,
+  "stop": 0.6075000166893005,
+  "zone": [
+   1.0,
+   1.215000033378601
+  ],
+  "bp": 1.1251,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220110016%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220110016",
+  "grade": "n/a"
  }
 ]
