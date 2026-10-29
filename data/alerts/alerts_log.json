@@ -4158,5 +4158,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0231213001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0231213001",
   "grade": "open"
+ },
+ {
+  "id": "LUNG-1793292314",
+  "ts_kst": "2026-10-30 01:45",
+  "ts_utc": "2026-10-29T16:45:14+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "LUNG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.3% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LUNG 장중 급등 포착",
+  "body": "$2.930 (+16.3%) · 정규장 · 레벨 2 · 점수 30\n공매도 물량 대부분 손해 중, $3.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 9배 이상, 관심 급증\n• 전일 대비 +16.3% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.784 지정가(기준가 $2.930의 −5%) · 체결 가능성 약 38% · 손익분기 $2.817\n숏 지지구간 $2.800–$2.900 · 손절 $2.700 · 1차목표 $3.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.93,
+  "level": 2,
+  "score": 29.9,
+  "prob": 53.14886293593754,
+  "cp": 61.79726633940782,
+  "rl": 3.0000000000000018,
+  "stop": 2.7000000000000015,
+  "zone": [
+   2.8000000000000016,
+   2.9000000000000017
+  ],
+  "bp": 2.7835,
+  "tgt": 3.0000000000000018,
+  "stp": 2.7000000000000015,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001009",
+  "grade": "open"
  }
 ]

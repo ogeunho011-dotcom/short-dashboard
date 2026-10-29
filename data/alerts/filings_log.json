@@ -4586,5 +4586,22 @@
   "headline": "Dynamix Corporation Announces Its Intention to Liquidate Houston, TX, October 29, 2026 – Dynamix Corporation (NASDAQ: DYNC) (the “Company”), a publicly traded s",
   "url": "https://www.sec.gov/Archives/edgar/data/2028699/000121390026113686/0001213900-26-113686-index.htm",
   "seen_kst": "2026-10-30 01:27"
+ },
+ {
+  "ticker": "XCH",
+  "form": "3",
+  "acc": "0001185185-26-005048",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T10:01:03+00:00",
+  "accepted_kst": "10/29 19:01",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1979887/000118518526005048/0001185185-26-005048-index.htm",
+  "seen_kst": "2026-10-30 01:45"
  }
 ]
