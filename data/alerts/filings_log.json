@@ -4087,5 +4087,22 @@
   "headline": "Celularity and Vesalius Longevity Labs Sign Exclusive Collaboration for Peptual® Peptide APIs Manufactured in the United States Celularity to serve as the exclu",
   "url": "https://www.sec.gov/Archives/edgar/data/1752828/000149315226049203/0001493152-26-049203-index.htm",
   "seen_kst": "2026-10-29 22:27"
+ },
+ {
+  "ticker": "DFH",
+  "form": "8-K",
+  "acc": "0001628280-26-068063",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:27:53+00:00",
+  "accepted_kst": "10/29 22:27",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", shall not be deemed “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to th",
+  "url": "https://www.sec.gov/Archives/edgar/data/1825088/000162828026068063/0001628280-26-068063-index.htm",
+  "seen_kst": "2026-10-29 22:30"
  }
 ]
