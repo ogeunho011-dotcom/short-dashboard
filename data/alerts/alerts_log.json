@@ -3217,5 +3217,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211206007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211206007",
   "grade": "open"
+ },
+ {
+  "id": "NXTS-1793284163",
+  "ts_kst": "2026-10-29 23:29",
+  "ts_utc": "2026-10-29T14:29:23+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "NXTS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.3% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NXTS 장중 급등 포착",
+  "body": "$0.731 (+16.3%) · 정규장 · 레벨 1 · 점수 23\n시장에 도는 주식 145만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.3% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $0.695 지정가(기준가 $0.731의 −5%) · 체결 가능성 약 67% · 손익분기 $0.703\n숏 지지구간 $0.500–$0.731 · 손절 $0.366 · 1차목표 $1.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7313,
+  "level": 1,
+  "score": 22.8,
+  "prob": 12.916666666666668,
+  "cp": 14.476236837830811,
+  "rl": 1.25,
+  "stop": 0.3656499981880188,
+  "zone": [
+   0.5,
+   0.7312999963760376
+  ],
+  "bp": 0.6947,
+  "tgt": 1.25,
+  "stp": 0.3656499981880188,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210514009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210514009",
+  "grade": "open"
  }
 ]
