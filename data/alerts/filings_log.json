@@ -4206,5 +4206,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/764401/000101747526000012/0001017475-26-000012-index.htm",
   "seen_kst": "2026-10-29 22:50"
+ },
+ {
+  "ticker": "CETX",
+  "form": "DEFA14C",
+  "acc": "0001437749-26-033789",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:08:31+00:00",
+  "accepted_kst": "10/29 05:08",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1435064/000143774926033789/0001437749-26-033789-index.htm",
+  "seen_kst": "2026-10-29 22:52"
  }
 ]
