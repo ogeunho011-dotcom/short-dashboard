@@ -1053,6 +1053,7 @@ def page_home():
         md('<div class="tiny">최근 스캔 상위 종목 중 확률이 높은 순 · 증자/역분할/소송 공시가 있는 종목은 뺐어요 (추정, 보장 아님)</div>')
     top5()
     close_home()
+    sec_home()
     omen_home()
     md('<div class="sec">⭐ 관심종목</div>')
 
@@ -1864,8 +1865,171 @@ def page_close():
 def close_home():
     md(f'<div class="card" style="padding:9px 12px"><a href="?{ui.AUTHQ}p=close" target="_self"><b>🌙 종가 베팅</b></a> <span class="tiny">하루 만에 크게 빠진 종목 · 마감 직전 매수 → 다음날 시가 매도 후보</span></div>')
 
+# ---------------------------------------------------------------- 페이지: 🔬 SEC 리서치
+SEC_LV = {"Critical": "red", "Material": "yellow", "Context": ""}
+SEC_ST = {"충족": "green", "통과": "green", "회복": "green", "주의": "yellow", "부분": "yellow", "미달 가능": "yellow", "면제 가능": "yellow",
+          "미달": "red", "미달 통지": "red"}
+
+def sec_src(sr, conf=None):
+    """출처(서류·날짜·링크) + 신뢰도 작은 글씨."""
+    if not sr and not conf: return ""
+    sr = sr or {}
+    lab = " ".join(str(v) for v in (sr.get("form"), sr.get("filed")) if v) or ("원문" if sr.get("url") else "")
+    a = f'<a href="{esc(sr["url"])}" target="_blank" rel="noopener">{esc(lab)}</a>' if sr.get("url") else esc(lab)
+    return f' <span class="tiny" style="opacity:.75">[{a}{" · 신뢰도 " + esc(conf) if conf else ""}]</span>'
+
+def sec_link(t): return f"{dash_base()}/?p=sec&t={str(t).upper()}"
+
+
+def sec_detail(S):
+    from core import secscan as SS
+    F, sc, idn, fd = S.get("F") or {}, S["score"], S["ident"], S["fd"]
+    t = S["ticker"]
+    gb = {"A": "green", "B": "green", "C": "yellow", "D": "red"}.get(sc["grade"], "")
+    md(f'<div class="card"><div class="between"><span><b style="font-size:18px">{cpk(t, SS.copy_text(S, sec_link(t)), href=False)}</b> {tsb(t)} '
+       f'<span class="tiny">{esc(idn.get("name") or "")}</span></span><span class="badge {gb}">{sc["total"]}/100 · {esc(sc["grade"])} · 신뢰도 {esc(sc["conf"])}</span></div>'
+       f'<div class="tiny">CIK {esc(idn.get("cik") or SS.NA)} · {esc(idn["exchange"])} · {esc(idn["type"])} · 설립지 {esc(idn["juris"])} · 노출 위험 <b>{esc(S["exposure"])}</b> (참고용, 앱 점수 미반영)</div>'
+       f'<div class="tiny">기준: 종가 {esc(F.get("px_date") or SS.NA)} · 최근 공시 {esc(S["asof"]["filing"])} · 정기 보고서 {esc(S["asof"]["periodic"])} · 계산 {esc(S["ts"][:16].replace("T", " "))} KST · 원문 {S["docs_seen"]}/{S["docs_planned"]}건 읽음</div></div>')
+    md(COPY_HINT)
+    if S.get("err"): md(f'<div class="card tiny">일부 단계 오류: {esc("; ".join(S["err"])[:300])}</div>')
+    md('<div class="sec">📌 핵심 팩트 요약</div>')
+    md('<div class="card tiny" style="line-height:1.6">' + "<br>".join("• " + esc(x) for x in S["facts"]) + "</div>")
+    # 이전 스냅샷 대비
+    sn = SS.load_snap(t)
+    dfx = SS.diff(S, sn.get("prev")) if sn.get("cur", {}).get("ts") == S["ts"] else SS.diff(S, sn.get("cur"))
+    if dfx and (dfx["changes"] or dfx["new"] or dfx["gone"]):
+        L = [f'{esc(lab)}: {esc(SS.fmt_val(lab, a))} → <b>{esc(SS.fmt_val(lab, b))}</b>' for lab, a, b in dfx["changes"]]
+        L += ["🆕 " + esc(x["txt"]) for x in dfx["new"][:6]] + ["✔️ 사라짐: " + esc(x["txt"]) for x in dfx["gone"][:4]]
+        md(f'<div class="sec">🔁 이전 대비 ({esc(str(dfx["prev_ts"])[:16].replace("T", " "))} → 지금)</div><div class="card tiny" style="line-height:1.6">' + "<br>".join(L) + "</div>")
+    elif dfx is not None: md(f'<div class="tiny">🔁 이전 결과({esc(str(dfx["prev_ts"])[:16].replace("T", " "))})와 달라진 값 없음</div>')
+    md('<div class="sec">🧭 발견 사항 (결정적 → 중요 → 참고)</div>')
+    if not S["find"]: md('<div class="card tiny">눈에 띄는 발견 사항 없음 (확인 안 된 항목은 아래 확인 요청 참고)</div>')
+    md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(f'<span class="badge {SEC_LV[x["lv"]]}">{esc(SS.LEVEL_KO[x["lv"]])}</span>{esc(x["txt"])}{sec_src(x.get("src"))}' for x in S["find"]) + "</div>" if S["find"] else "")
+    md('<div class="sec">📒 주식 장부 (7칸 · 중복 없이)</div>')
+    rows = []
+    for k, lab in SS.BUCKETS:
+        b = S["ledger"].get(k) or {}
+        v = SS.shs(b["sh"]) if b.get("sh") else (SS.usd(b["usd"]) if b.get("usd") else "")
+        it = ", ".join(b.get("items") or [])
+        rows.append(f'<b>{esc(lab)}</b>: {esc(v)} <span class="tiny" style="opacity:.8">{esc(it[:220])}</span>')
+    md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(rows) + "</div>")
+    h_ = S["head"]; b_ = S.get("baby") or {}
+    md('<div class="card tiny" style="line-height:1.6">'
+       f'<b>완전희석</b> 기본 {esc(SS.shs(fd.get("basic")))} · 현실(지금 행사 가능분 포함) {esc(SS.shs(fd.get("practical")))} · 최대(조건부·셸프 여력 포함) {esc(SS.shs(fd.get("max")))}'
+       + (f' · <b>{fd["ratio"]:.2f}배</b>' if fd.get("ratio") else "") + (f'<br>빠진 항목: {esc(", ".join(fd["missing"]))}' if fd.get("missing") else "")
+       + (f'<br><b>추가 발행 여유</b> (수권 {esc(SS.shs(h_.get("auth")))}) 원래 {esc(SS.shs(h_.get("raw")))} · 대기 물량 뺀 {esc(SS.shs(h_.get("overhang")))} · 약정까지 뺀 {esc(SS.shs(h_.get("free")))}' if h_.get("ok") else "<br><b>추가 발행 여유</b>: 수권주식 확인되지 않음")
+       + (f'<br><b>베이비 셸프</b> {"적용" if b_.get("on") else "미적용"} — 유통 시총 {esc(SS.usd(b_.get("float_usd")))} ({esc(b_.get("src") or "")})'
+          + (f' · 12개월 한도 {esc(SS.usd(b_.get("cap")))} · 사용 {esc(SS.usd(b_.get("used")))} · 남음 <b>{esc(SS.usd(b_.get("left")))}</b>' if b_.get("on") else "") if b_ else "")
+       + "</div>")
+    md('<div class="sec">🔎 근거 숫자 (출처·신뢰도)</div>')
+    md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(
+        f'{esc(e["label"])}: <b>{esc(e["val"])}</b>{sec_src(e.get("src"), e.get("conf"))}' + (f' <span style="opacity:.8">{esc(e["note"])}</span>' if e.get("note") else "") for e in S["ev"]) + "</div>")
+    if S["inst"]:
+        md('<div class="sec">🧾 발행 수단 (등록 → 효력 → 투자설명서)</div>')
+        md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(f'{esc(i["label"])}{sec_src(dict(form=i["form"], filed=i["filed"], url=i.get("url")))}' for i in S["inst"][:14]) + "</div>")
+    if S["toxic"] or S["cap1999"]:
+        md('<div class="card tiny" style="line-height:1.6"><b>조항 문구</b><br>' + "<br>".join(f'⚠️ {esc(x["lab"])}{sec_src(x.get("src"))}' for x in S["toxic"])
+           + (f'<br>19.99% 발행 한도 문구{sec_src(S["cap1999"])}' if S["cap1999"] else "") + "</div>")
+    rs = S["resist"]; z = (rs.get("vp") or {}).get("zone")
+    md('<div class="sec">🧱 가격 저항 (행사가·공모가 + 매물대)</div>')
+    L = [f'{esc(SS.pxs(x["px"]))} {esc(x["what"])}' + (' <span class="badge red">이중 저항</span>' if x.get("double") and x.get("above") else "") + sec_src(x.get("src")) for x in rs["strikes"][:8]]
+    if z: L.append(f'위 매물대 {esc(SS.pxs(z["lo"]))}~{esc(SS.pxs(z["hi"]))} (최근 60일 거래량의 {z["share"]:.0f}%)')
+    if rs.get("vp") and rs["vp"].get("above") is not None: L.append(f'현재가 위에서 거래된 비율 {rs["vp"]["above"]:.0f}% · 20일 저점 {esc(SS.pxs(rs.get("lo20")))} · 60일 고점 {esc(SS.pxs(rs.get("hi60")))}')
+    md('<div class="card tiny" style="line-height:1.6">' + ("<br>".join(L) or "행사가·공모가 확인되지 않음") + "</div>")
+    md('<div class="sec">🔐 매도 가능 물량 · 내부자</div>')
+    r1 = S["r144"]; mo = S["motive"]
+    L = [f'{esc(u["date"])} {esc(u["what"])}{sec_src(u.get("src"))}' for u in r1["unlock"][:6]]
+    if r1["f144"]: L.append("Form 144 (매도 예고, 90일): " + esc(", ".join(r1["f144"][:6])))
+    if r1.get("note"): L.append(esc(r1["note"]) + (f' — {esc(SS.shs(r1.get("aff_limit")))}' if r1.get("aff_limit") else ""))
+    L.append(f'Form 4 (90일) {mo["f4_90"]}건 · 장내 매수 {mo["buys"]} · 매도 {mo["sells"]} · 13D {mo["d13"]} · 13G {mo["g13"]} (1년)')
+    L += ["❔ " + esc(q) for q in mo["questions"]]
+    md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(L) + "</div>")
+    if S["cal"]:
+        md('<div class="sec">📅 일정</div>')
+        md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(f'{esc(c["date"])} {esc(c["what"])}' for c in S["cal"][:10]) + "</div>")
+    lg = S["listing"]
+    md(f'<div class="sec">🏛️ 상장 유지 — {esc(lg["tier"])}</div>')
+    md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(
+        f'<span class="badge {SEC_ST.get(r["state"], "")}">{esc(r["state"])}</span>{esc(r["rule"])} — {esc(r["val"])}'
+        + (sec_src(dict(url=r["note"])) if str(r.get("note") or "").startswith("http") else (f' <span style="opacity:.8">{esc(r["note"])}</span>' if r.get("note") else "")) for r in lg["rules"])
+       + f'<br><span style="opacity:.7">규정 숫자는 {esc(lg["asof_rules"])} 기준 앱 저장값 — 거래소 공식 원문으로 다시 확인하세요</span></div>')
+    md('<div class="sec">🎲 시나리오 (가능성 낮음/보통/높음 · 매수·매도 권유 아님)</div>')
+    md('<div class="card tiny" style="line-height:1.6">' + "<br>".join(
+        f'<b>{esc(s["name"])}</b> [{esc(s["like"])}] 계기: {esc(s["trigger"])} → {esc(s["target"])} · 무효화: {esc(s["invalid"])}' for s in S["scen"])
+       + "<br><b>출구 경로</b><br>" + "<br>".join("• " + esc(x) for x in S["exits"]) + "</div>")
+    with st.expander(f"🧮 점수 항목 ({sc['total']}/100 · {sc['grade']}) · 🚦 점검 관문 10개"):
+        md('<div class="tiny" style="line-height:1.6">' + "<br>".join(f'{esc(x["label"])} <b>{x["pts"]}/{x["max"]}</b> · {esc(x["why"])}' for x in sc["items"])
+           + f'<br>등급: A 85+ · B 70~84 · C 55~69 · D 54 이하 · 신뢰도(근거 확인 비율 {sc.get("cov", 0) * 100:.0f}%) {esc(sc["conf"])}'
+           + "<br><br>" + "<br>".join(f'<span class="badge {SEC_ST.get(g["state"], "")}">{esc(g["state"])}</span>{g["n"]}. {esc(g["name"])} — {esc(g["why"])}' for g in S["gates"]) + "</div>")
+        stv = SS.study()
+        md(f'<div class="tiny">{esc(stv.get("verdict") or "백테스트 결과 없음 — 점수는 참고용")}</div>')
+    if S["ask"]:
+        md('<div class="sec">❓ 확인 요청</div>')
+        md('<div class="card tiny" style="line-height:1.6">' + "<br>".join("• " + esc(a) for a in S["ask"]) + "</div>")
+
+def page_sec():
+    from core import secscan as SS
+    topbar("🔬 SEC 리서치", "소형주 공시 퀵스캔 · 희석·상장 유지·저항")
+    qt = (qp.get("t") or "").upper() if PAGE == "sec" else ""
+    c1, c2 = st.columns([3, 1])
+    t = c1.text_input("티커", value=qt, key="sec_t", placeholder="예: AARD", label_visibility="collapsed").strip().upper()
+    go = c2.button("🔬 스캔", key="sec_go", width="stretch")
+    if t and re.fullmatch(r"[A-Z][A-Z0-9.\-]{0,9}", t):
+        sn = SS.load_snap(t).get("cur")
+        fresh = sn and (time.time() - dt.datetime.fromisoformat(sn["ts"]).timestamp() < 6 * 3600)
+        S = sn
+        if go or not fresh:
+            with st.spinner(f"{t} SEC 공시 원문 읽는 중... (처음엔 10~40초)"):
+                try: S = SS.build(t, fetch=True, budget_docs=20)
+                except Exception as e:
+                    md(f'<div class="card tiny">스캔 실패: {esc(repr(e)[:200])}</div>'); S = sn
+        if S: sec_detail(S)
+        if S and S.get("docs_planned", 0) > S.get("docs_seen", 0):
+            md('<div class="tiny">아직 못 읽은 원문이 있어요 — 🔬 스캔을 한 번 더 누르면 이어서 읽어요</div>')
+        md('<div class="sec">📋 급등 후보 SEC 목록</div>')
+    elif t: md('<div class="card tiny">티커 형식이 아니에요</div>')
+    sec_list_view()
+    disclaimer()
+
+def sec_list_view():
+    from core import secscan as SS
+    meta, rows = SS.load_list()
+    md('<div class="tiny">급등 후보 = 🔮 조짐 상위 + 오늘 스캔 상위 + 최근 3일 알림 종목 · 매일 업데이트 때 미리 계산 (시간 예산 안에서) + 직접 스캔한 종목</div>')
+    if meta: md(f'<div class="tiny">미리 계산: {esc(meta.get("ts"))} · {meta.get("n")}/{meta.get("tried")}종목 · {meta.get("secs")}초</div>')
+    if not rows:
+        md('<div class="card tiny">아직 미리 계산된 목록이 없어요. 위에 티커를 넣어 직접 스캔하거나 다음 매일 업데이트를 기다려 주세요.</div>'); return
+    keys = {"점수 낮은 순 (위험 큼)": ("total", False), "점수 높은 순": ("total", True), "결정적 발견 많은 순": ("crit", True), "완전희석 배수 큰 순": ("fd_ratio", True),
+            "발행 여력/시총 큰 순": ("room_mc", True), "런웨이 짧은 순": ("runway", False), "최근 계산 순": ("ts", True)}
+    for r in rows: r["room_mc"] = (r["room"] / r["mcap"]) if r.get("room") and r.get("mcap") else None
+    k = st.selectbox("정렬", list(keys), key="sec_sort", label_visibility="collapsed")
+    col, desc = keys[k]
+    rows = sorted(rows, key=lambda r: (r.get(col) is None, -(r.get(col) or 0) if desc and col != "ts" else (r.get(col) or 0)))
+    if col == "ts": rows = sorted(rows, key=lambda r: str(r.get("ts") or ""), reverse=True)
+    md(COPY_HINT)
+    for r in rows[:40]:
+        t = r["ticker"]; S = SS.load_snap(t).get("cur")
+        txt = SS.copy_text(S, sec_link(t)) if S else f"{t} SEC 퀵스캔 · 점수 {r.get('total')}"
+        gb = {"A": "green", "B": "green", "C": "yellow", "D": "red"}.get(r.get("grade"), "")
+        rw = r.get("runway")
+        md(f'<div class="card" style="padding:9px 12px"><div class="between"><span><b>{cpk(t, txt, href=False)}</b> '
+           f'<a class="tiny" href="?{ui.AUTHQ}p=sec&t={esc(t)}" target="_self">상세 →</a> <span class="tiny">{esc(SS.pxs(r.get("price")))} · {esc(r.get("exch") or "")}</span></span>'
+           f'<span class="badge {gb}">{r.get("total")}/100 · {esc(r.get("grade"))} · 신뢰도 {esc(r.get("conf"))}</span></div>'
+           f'<div class="tiny">🔴 {r.get("crit", 0)} · 🟠 {r.get("mat", 0)} · 완전희석 {("%.2f배" % r["fd_ratio"]) if r.get("fd_ratio") else SS.NA} · 여력 {esc(SS.usd(r.get("room")))}'
+           f' · 시총 {esc(SS.usd(r.get("mcap")))} · 런웨이 {("%.1f개월" % rw) if rw is not None and rw < 99 else (SS.NA if rw is None else "소모 없음")} · 상장 유지 {r.get("listing")} · 노출 {esc(r.get("exposure") or "")}</div>'
+           + (f'<div class="tiny" style="opacity:.85">{esc(str(r["top"])[:150])}</div>' if r.get("top") else "") + "</div>")
+    with st.expander("표로 보기 (열 제목 눌러 정렬)"):
+        st.dataframe(pd.DataFrame([{"티커": r["ticker"], "점수": r.get("total"), "등급": r.get("grade"), "신뢰도": r.get("conf"), "결정적": r.get("crit"), "중요": r.get("mat"),
+                                    "완전희석배": r.get("fd_ratio"), "여력/시총": r.get("room_mc"), "런웨이(월)": r.get("runway"), "시총": r.get("mcap"), "상장유지": r.get("listing"),
+                                    "노출": r.get("exposure"), "계산": str(r.get("ts") or "")[:16]} for r in rows]), hide_index=True, width="stretch")
+    stv = SS.study()
+    if stv: md(f'<div class="card tiny">🧪 백테스트: {esc(stv.get("verdict") or "")}</div>')
+
+def sec_home():
+    md(f'<div class="card" style="padding:9px 12px"><a href="?{ui.AUTHQ}p=sec" target="_self"><b>🔬 SEC 리서치</b></a> <span class="tiny">급등 후보 공시 퀵스캔 · 희석·상장 유지·저항 (참고)</span></div>')
+
+
 ALIAS = {"select": "home", "discover": "home", "theme": "home", "today": "live"}
 PAGE = ALIAS.get(PAGE, PAGE)
-PAGES = {"home": page_home, "stock": page_stock, "omen": page_omen, "close": page_close, "live": page_live, "track": page_track, "admin": page_admin}
+PAGES = {"home": page_home, "stock": page_stock, "omen": page_omen, "close": page_close, "live": page_live, "track": page_track, "admin": page_admin, "sec": page_sec}
 PAGES.get(PAGE, page_home)()
 md(ui.nav(PAGE, TICK))

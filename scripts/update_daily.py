@@ -80,6 +80,12 @@ def main(do_scan=True):
         except Exception as e:
             print("🔮 조짐 전체 계산 실패:", repr(e)[:200])
         try:
+            from core import secscan as SS
+            m = SS.refresh(budget_s=float(os.environ.get("SEC_BUDGET_S", "420")))
+            print(f"🔬 SEC 퀵스캔 (급등 후보): {m['n']}/{m['tried']}종목 · {m['secs']}s")
+        except Exception as e:
+            print("🔬 SEC 퀵스캔 실패:", repr(e)[:200])
+        try:
             us = set(U)
             px_ = set(db.q("SELECT DISTINCT ticker FROM prices WHERE date >= date('now','-10 day')").ticker)
             sv = set(db.q("SELECT ticker FROM short_vol WHERE date=(SELECT MAX(date) FROM short_vol)").ticker)
