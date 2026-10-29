@@ -3023,5 +3023,39 @@
   "headline": "Insperity Announces Third Quarter Results HOUSTON – October 29, 2026 – Insperity, Inc. (NYSE: NSP), a leading provider of human resources and business performan",
   "url": "https://www.sec.gov/Archives/edgar/data/1000753/000100075326000101/0001000753-26-000101-index.htm",
   "seen_kst": "2026-10-29 21:07"
+ },
+ {
+  "ticker": "PWP",
+  "form": "8-K",
+  "acc": "0001777835-26-000110",
+  "items": "2.02",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:07:00+00:00",
+  "accepted_kst": "10/29 21:07",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Perella Weinberg Reports Third Quarter 2026 Results Financial Overview - Third Quarter • Revenues of $251 Million, Up 53% From a Year Ago and Up 61% From the Se",
+  "url": "https://www.sec.gov/Archives/edgar/data/1777835/000177783526000110/0001777835-26-000110-index.htm",
+  "seen_kst": "2026-10-29 21:10"
+ },
+ {
+  "ticker": "WRD",
+  "form": "6-K",
+  "acc": "0001104659-26-119910",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:09:01+00:00",
+  "accepted_kst": "10/29 21:09",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no repre",
+  "url": "https://www.sec.gov/Archives/edgar/data/1867729/000110465926119910/0001104659-26-119910-index.htm",
+  "seen_kst": "2026-10-29 21:10"
  }
 ]
