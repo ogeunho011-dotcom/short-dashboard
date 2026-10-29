@@ -5134,5 +5134,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
   "grade": "n/a"
+ },
+ {
+  "id": "XCH-1793302498",
+  "ts_kst": "2026-10-30 04:34",
+  "ts_utc": "2026-10-29T19:34:58+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "XCH",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 68k (당일 평균 13.9배)"
+  ],
+  "title": "🚀 XCH 거래량 급증",
+  "body": "$3.638 (+49.1%) · 정규장 · 레벨 3 · 점수 50\n시장에 도는 주식 129만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 5분 거래량 68k (당일 평균 13.9배)\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $3.435 지정가(60일선, 기준가 대비 -5.6%) · 체결 가능성 약 75% · 손익분기 $3.477\n숏 지지구간 $2.547–$2.547 · 손절 $1.819 · 1차목표 $6.000\n⚠ 역분할 2026-08-21\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.638,
+  "level": 3,
+  "score": 50.0,
+  "prob": 28.834355828220865,
+  "cp": 31.63309416816122,
+  "rl": 6.0,
+  "stop": 1.819000005722046,
+  "zone": [
+   2.546600008010864,
+   2.546600008010864
+  ],
+  "bp": 3.4354,
+  "tgt": 6.0,
+  "stp": 1.819000005722046,
+  "penalties": [
+   "역분할 2026-08-21"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240910009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240910009",
+  "grade": "open"
  }
 ]

@@ -4824,5 +4824,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1093672/000165495426009235/0001654954-26-009235-index.htm",
   "seen_kst": "2026-10-30 04:20"
+ },
+ {
+  "ticker": "DBGI",
+  "form": "8-K",
+  "acc": "0001493152-26-049251",
+  "items": "7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T19:33:54+00:00",
+  "accepted_kst": "10/30 04:33",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "DBGI Staying Public for Now but Continues to Review Inbound Interest Driven by Digital Marketing Success and Accelerating Government Contracts Based on current",
+  "url": "https://www.sec.gov/Archives/edgar/data/1668010/000149315226049251/0001493152-26-049251-index.htm",
+  "seen_kst": "2026-10-30 04:35"
  }
 ]
