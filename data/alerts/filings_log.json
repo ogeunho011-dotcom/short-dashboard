@@ -4739,5 +4739,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1559053/000104546326000023/0001045463-26-000023-index.htm",
   "seen_kst": "2026-10-30 03:05"
+ },
+ {
+  "ticker": "SPOK",
+  "form": "8-K",
+  "acc": "0001289945-26-000058",
+  "items": "2.02,8.01,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:00:46+00:00",
+  "accepted_kst": "10/29 05:00",
+  "polarity": "neutral",
+  "label": "실적 · 기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE CONTACT: Al Galgano 952-224-6096 al.galgano@spok.com Spok Reports Third Quarter 2026 Results Net Income and Adjusted EBITDA Up Over 200% and Nearly",
+  "url": "https://www.sec.gov/Archives/edgar/data/1289945/000128994526000058/0001289945-26-000058-index.htm",
+  "seen_kst": "2026-10-30 03:25"
  }
 ]
