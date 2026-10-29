@@ -2970,5 +2970,58 @@
   "headline": "News Release L.B. Foster Expands Precast Concrete Business with the Acquisition of Dulworth Enterprises, Inc.",
   "url": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000053/0000352825-26-000053-index.htm",
   "seen_kst": "2026-10-29 21:05"
+ },
+ {
+  "ticker": "XRX",
+  "form": "8-K",
+  "acc": "0001193125-26-437046",
+  "items": "1.01,7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:04:39+00:00",
+  "accepted_kst": "10/29 21:04",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "News from Xerox Holdings Corporation Xerox Announces Exchange Transaction to Extend Portion of 2028 Debt Maturities and Reduce Overall Debt",
+  "url": "https://www.sec.gov/Archives/edgar/data/1770450/000119312526437046/0001193125-26-437046-index.htm",
+  "seen_kst": "2026-10-29 21:07"
+ },
+ {
+  "ticker": "AROW",
+  "form": "8-K",
+  "acc": "0000717538-26-000134",
+  "items": "2.02,7.01,8.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:05:17+00:00",
+  "accepted_kst": "10/29 21:05",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료 · 기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 ex99-earningsq32026.htm EX-99.1 250 Glen Street Glens Falls, NY 12801 NASDAQ® Symbol: “AROW“ Website: arrowfinancial.com Media Contact: Rachael Murray",
+  "url": "https://www.sec.gov/Archives/edgar/data/717538/000071753826000134/0000717538-26-000134-index.htm",
+  "seen_kst": "2026-10-29 21:07"
+ },
+ {
+  "ticker": "NSP",
+  "form": "8-K",
+  "acc": "0001000753-26-000101",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:06:21+00:00",
+  "accepted_kst": "10/29 21:06",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Insperity Announces Third Quarter Results HOUSTON – October 29, 2026 – Insperity, Inc. (NYSE: NSP), a leading provider of human resources and business performan",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/000100075326000101/0001000753-26-000101-index.htm",
+  "seen_kst": "2026-10-29 21:07"
  }
 ]
