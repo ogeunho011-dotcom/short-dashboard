@@ -15,6 +15,12 @@ def study():
     try: return json.loads((ROOT / "model/closebet_study.json").read_text())
     except Exception: return {}
 
+@functools.lru_cache(maxsize=1)
+def drop_study():
+    """하루 큰 하락 검증 결과 (scripts/closebet_drop_study.py → model/closebet_drop.json)."""
+    try: return json.loads((ROOT / "model/closebet_drop.json").read_text())
+    except Exception: return {}
+
 def rsi(c, n):
     d = pd.Series(c).diff(); up = d.clip(lower=0).ewm(alpha=1 / n, adjust=False).mean(); dn = (-d.clip(upper=0)).ewm(alpha=1 / n, adjust=False).mean()
     return (100 - 100 / (1 + up / dn.replace(0, np.nan))).fillna(100).values
@@ -80,7 +86,7 @@ def check(row, rule):
 
 LABEL = {"rsi2": "RSI(2)", "rsi14": "RSI(14)", "ma5": "5일선 이격", "ma20": "20일선 이격", "dd20": "20일 고점 대비", "down_n": "연속 하락일",
          "stoch": "스토캐스틱(14)", "str_day": "체결강도(일봉 추정)", "str_60": "체결강도(마감 60분 추정)", "volx": "거래량(20일 평균 대비)",
-         "chg1": "당일 등락(전날 종가 대비)", "from_open": "시가 대비", "from_hi": "장중 고가 대비", "run5": "직전 5일 상승", "run20": "직전 20일 상승", "hold": "종가/고가", "clv": "종가 위치"}
+         "chg1": "당일 등락(전날 종가 대비)", "from_open": "시가 대비", "from_hi": "장중 고가 대비", "run5": "직전 5일 상승", "run20": "직전 20일 상승", "hold": "종가/고가", "clv": "종가 위치(−1 저가 ~ +1 고가)"}
 
 def fmtv(k, v):
     if v is None or (isinstance(v, float) and np.isnan(v)): return "데이터 없음"
@@ -96,14 +102,80 @@ def fmtv(k, v):
 STR_TH = 100      # 마감 60분 체결강도(추정) 기준: 매수 추정량 ≥ 매도 추정량 (분봉 59일 검증, 참고)
 
 def rule():
-    """검증으로 고른 규칙(과매도·추가 조건) + 체결강도 조건. 반환 [(키, 연산, 값, 검증됨?)]."""
+    """1순위: 하루 큰 하락 규칙(앞 기간 '최악 구간' 기준으로 고름, model/closebet_drop.json). 체결강도는 큰 하락 종목에선
+    높을수록 오히려 나빠서(5분봉 검증) 조건에 넣지 않고 표시만. 반환 [(키, 연산, 값, 검증됨?)]."""
+    d = (drop_study().get("best") or {})
+    if d.get("conds"): return [tuple(c) + (True,) for c in d["conds"]]
     b = (study().get("best") or {})
     conds = [tuple(c) + (True,) for c in (b.get("conds") or [("down_n", ">=", 3), ("volx", ">=", 3)])]
     if not any(c[0].startswith("str") for c in conds): conds.append(("str_60", ">=", STR_TH, False))
     return conds
 
+def drop_mode():
+    return bool((drop_study().get("best") or {}).get("conds"))
+
+def drop_weak():
+    """근거 약함? 표본외 평균(비용 뺀 뒤) ≤ 0, 걷기 검증 중 하나라도 ≤ 0, 또는 표본외 100건 미만."""
+    S = drop_study(); b = S.get("best") or {}; te = b.get("test") or {}
+    if not te: return True
+    wf = [w.get("test_mean") for w in S.get("walk_forward") or []]
+    return (te.get("mean") or 0) <= 0 or te.get("n", 0) < 100 or any((x or 0) <= 0 for x in wf)
+
+def _drop_b(v):
+    return None if v is None or v > -0.10 else ("−30%↓" if v <= -0.3 else "−20~30%" if v <= -0.2 else "−15~20%" if v <= -0.15 else "−10~15%")
+
+def _clv_b(v):
+    return None if v is None else ("저가 근처" if v <= -0.5 else "아래쪽" if v <= 0 else "위쪽" if v <= 0.5 else "고가 근처")
+
+def risk(r):
+    """하락폭 × 종가 위치 칸의 과거 '다음날 추가 하락' 비율 (전체 기간). 없으면 None."""
+    a, b = _drop_b(r.get("chg1")), _clv_b(r.get("clv"))
+    if not a or not b: return None
+    c = (drop_study().get("cells") or {}).get(f"{a}|{b}")
+    return dict(c, cell=f"{a} · 종가 {b}") if c else None
+
+def stop_rule():
+    """5분봉(실제 15:45 매수) 비교로 고른 프리장 손절선. 반환 dict(X, mean, hit, worst, n, days, open_mean) 또는 None."""
+    j = (drop_study().get("intraday") or {}).get("best_approx") or {}
+    if not j.get("n"): return None
+    xs = [x for x in (3, 5, 8, 10, 15) if j.get(f"stop{x}") is not None]
+    if not xs: return None
+    x = max(xs, key=lambda k: j[f"stop{k}"])
+    return dict(X=x, mean=j[f"stop{x}"], hit=j.get(f"stop{x}_hit"), worst=j.get(f"stop{x}_worst"), n=j["n"], days=j.get("days"), open_mean=j.get("open_mean"),
+                all={k: j.get(f"stop{k}") for k in xs})
+
+OFFER_FORMS = ("424B5", "424B4", "424B3", "424B1", "424B2", "424B7", "S-1", "S-1/A", "F-1", "F-1/A", "S-3", "S-3/A", "F-3", "EFFECT")
+
+def filing_flags(tickers, day):
+    """오늘~3일 전 제출 공시 → {ticker: [표시 문구]} (DB filings 표에 있는 종목만)."""
+    from . import db
+    tickers = list(tickers)
+    if not tickers: return {}
+    d0 = (pd.Timestamp(day) - pd.Timedelta(days=3)).strftime("%Y-%m-%d")
+    try:
+        rows = db.q(f"SELECT ticker, form, filed, items FROM filings WHERE filed >= ? AND ticker IN ({','.join('?' * len(tickers))})", (d0, *tickers))
+    except Exception:
+        return {}
+    out = {}
+    for r in rows.to_dict("records"):
+        t, form, items = r["ticker"], r["form"] or "", r["items"] or ""
+        tag = ("증자 관련 공시 " + (form if form in OFFER_FORMS else form + " 주식 발행(3.02)") if form in OFFER_FORMS or "3.02" in items else "역분할 공시" if ("5.03" in items or "3.03" in items)
+               else "상장 유지 통지" if "3.01" in items else None)
+        if tag and tag not in out.setdefault(t, []): out[t].append(tag)
+    return out
+
+def warnings(r, flags=()):
+    """과거에 '다음날 더 빠지는' 쪽으로 기운 신호 (제외하지 않고 경고만)."""
+    w = list(flags)
+    if (r.get("clv") or 0) > 0: w.append("종가가 당일 고가 쪽 (과거: 다음날 시가가 더 낮은 경우 많음)")
+    if (r.get("run20") or 0) >= 1.0: w.append(f"최근 20일 {r['run20'] * 100:+.0f}% 급등 뒤 하락 (과거: −20%↓ 추가 하락 잦음)")
+    if (r.get("volx") or 0) >= 6: w.append(f"거래량 평소 {r['volx']:.0f}배 (과거: −20%↓ 추가 하락 잦음)")
+    if (r.get("str_60") or 0) >= 100: w.append("마감 60분 체결강도 100%↑ (5분봉 검증: 큰 하락 종목에선 오히려 성적 나쁨)")
+    return w
+
 def cond_name(c):
     k, op, th = c[:3]
+    if k == "clv" and op == "<=" and th <= -0.5: return "종가가 당일 저가 근처 (종가 위치 ≤ −0.5)"
     if k in ("ma5", "ma20", "dd20", "chg1", "from_open", "from_hi", "run5", "run20"): t = f"{th * 100:+.0f}%"
     elif k == "hold": t = f"{th * 100:.0f}%"
     elif k == "volx": t = f"{th:g}배"
@@ -158,8 +230,11 @@ def candidates(daily, bars=None, conds=None):
             r["str_60"] = strength_tick(last); r["str_dayt"] = strength_tick(reg)
             r["bar_ts"] = str(reg.index[-1])[:16] if len(reg) else None
         ch = evaluate(r, conds); met = sum(1 for c in ch if c["ok"]); miss = len(ch) - met
-        item = dict(ticker=t, row=r, checks=ch, met=met, m=len(ch), over=oversold_score(r),
-                    score=met * 100 + (oversold_score(r) or 0) + min((r.get("str_60") or 0), 300) / 10)
+        if drop_mode():   # 하루 하락폭이 클수록 위로
+            sc = met * 100 + min(-(r.get("chg1") or 0) * 100, 99)
+        else:
+            sc = met * 100 + (oversold_score(r) or 0) + min((r.get("str_60") or 0), 300) / 10
+        item = dict(ticker=t, row=r, checks=ch, met=met, m=len(ch), over=oversold_score(r), score=sc, risk=risk(r))
         if miss == 0: Q.append(item)
         elif miss == 1: N.append(item)
     Q.sort(key=lambda x: x["score"], reverse=True); N.sort(key=lambda x: x["score"], reverse=True)
@@ -181,7 +256,9 @@ def stats_lines():
 
 def copy_text(it, plan, link=""):
     r = it["row"]
-    L = [f"🌙 {it['ticker']} 종가 베팅 후보 · ${r['price']:.4g} ({(r.get('chg1') or 0) * 100:+.1f}%) · 조건 {it['met']}/{it['m']}"]
+    L = [f"🌙 {it['ticker']} 종가 베팅 후보 · ${r['price']:.4g} · 오늘 {(r.get('chg1') or 0) * 100:+.1f}% (시가 대비 {fmtv('from_open', r.get('from_open'))}, 고가 대비 {fmtv('from_hi', r.get('from_hi'))}) · 조건 {it['met']}/{it['m']}"]
+    rk = it.get("risk")
+    if rk: L.append(f"⚠️ 추가 하락 확률(과거 {rk['cell']}, {rk['n']:,}건): 다음날 시가가 매수가보다 낮음 {rk['open_below'] * 100:.0f}% · 다음날 저가 −10%↓ {rk['lo10'] * 100:.0f}% · −20%↓ {rk['lo20'] * 100:.0f}%")
     for c in it["checks"]: L.append(f"{'✅' if c['ok'] else ('❔' if c['ok'] is None else '❌')} {c['name']}: {c['val']}" + ("" if c["tested"] else " (참고)"))
     L.append(f"과매도 점수 {it['over']:.0f}/100 · 체결강도(추정) 마감 60분 {fmtv('str_60', r.get('str_60'))} · 일봉 {fmtv('str_day', r.get('str_day'))}")
     L += plan

@@ -1722,72 +1722,101 @@ def _merge_bar(g, b):
 
 def cb_plan():
     from core import closebet as CB
-    S = CB.study(); J = S.get("intraday") or {}; b = S.get("best") or {}
-    bj = J.get("best") or {}
     L = ["📌 계획: 15:45~15:58 ET(한국 새벽 4:45~4:58, 미국 서머타임 끝나는 11/1 이후엔 5:45~5:58) 현재가 근처 지정가로 매수"]
-    L.append("➡️ 다음날 정규장 시가에 매도 (검증한 방식) — 들고 가지 않기")
-    if bj.get("pm3_open") is not None and bj.get("open_mean") is not None:
-        L.append(f"🔎 분봉 {bj['n']:,}건 비교(참고): 시가 매도 평균 {bj['open_mean'] * 100:+.2f}% / 프리장 +3% 익절 후 시가 매도 평균 {bj['pm3_open'] * 100:+.2f}% (이긴 비율 {bj['pm3_open_win'] * 100:.0f}%) — 프리장에서 일찍 팔면 자주 이기지만 큰 갭 상승을 놓쳐 평균은 더 나쁨")
-    L.append("🛑 손절(참고, 검증 안 함): 시가에 그냥 정리하는 게 원칙 · 장중까지 들고 가면 검증상 손해 (다음날 종가 중앙값이 음수) · 수익은 소수의 큰 갭 상승에서 나오고 중앙값은 -0.5%라 한 종목에 몰빵 금지")
-    if b.get("test"): L.append(f"📊 일봉 검증(뒤 40% 기간, 표본외): {b['test']['n']:,}건 · 시가 매도 평균 {b['test']['mean'] * 100:+.2f}% · 갭 상승 비율 {b['test']['gap_pos'] * 100:.0f}%")
+    L.append("➡️ 다음날 정규장 시가에 매도 (검증한 방식) — 장중까지 들고 가지 않기")
+    sr = CB.stop_rule()
+    if sr:
+        L.append(f"🛑 손절: 다음날 프리장에서 매수가 −{sr['X']}% 아래로 내려가면 바로 매도 (5분봉 {sr['n']}건/{sr['days']}일 비교: 시가까지 들고 가면 평균 {sr['open_mean'] * 100:+.2f}%, "
+                 f"−{sr['X']}% 손절 넣으면 평균 {sr['mean'] * 100:+.2f}%, 손절 걸린 비율 {(sr['hit'] or 0) * 100:.0f}%) — 근거 약함: 표본이 적고, 프리장은 호가가 얇아 −{sr['X']}%보다 더 아래에서 팔릴 수 있어요")
+    else:
+        L.append("🛑 손절: 시가에 그냥 정리하는 게 원칙 (손절선은 아직 검증 데이터 없음)")
+    L.append("💡 수익은 일부 종목의 큰 반등에서 나오고 한 건 중앙값은 마이너스라 한 종목에 몰빵 금지 · 여러 종목에 나눠서")
     return L
 
-def cb_card(it, plan, near=False):
+def _pct(v): return "—" if v is None else f"{v * 100:+.1f}%"
+
+def cb_card(it, plan, near=False, flags=()):
     from core import closebet as CB
     t, r = it["ticker"], it["row"]
     rows = "".join(f'<div class="tr"><div class="between"><span>{"✅" if c["ok"] else ("❔" if c["ok"] is None else "❌")} {esc(c["name"])}'
                    f'{"" if c["tested"] else " <span class=tiny>(참고)</span>"}</span><span class="tiny">{esc(c["val"])}</span></div></div>' for c in it["checks"])
-    ext = " · ".join(f'{CB.LABEL[k]} {CB.fmtv(k, r.get(k))}' for k in ("rsi2", "rsi14", "ma5", "ma20", "dd20", "down_n", "stoch"))
-    sx = f'체결강도(추정) 마감 60분 <b>{CB.fmtv("str_60", r.get("str_60"))}</b> · 정규장 전체 {CB.fmtv("str_60", r.get("str_dayt"))} · 일봉 종가 위치 기준 {CB.fmtv("str_day", r.get("str_day"))}'
+    ext = " · ".join(f'{CB.LABEL[k]} {CB.fmtv(k, r.get(k))}' for k in ("rsi2", "dd20", "down_n", "volx", "run20"))
+    sx = f'체결강도(추정, 참고) 마감 60분 {CB.fmtv("str_60", r.get("str_60"))} · 정규장 전체 {CB.fmtv("str_60", r.get("str_dayt"))}'
+    ch = r.get("chg1") or 0
+    head = (f'<div style="margin:4px 0 2px"><span style="font-size:24px;font-weight:800;color:#e5484d">{ch * 100:+.1f}%</span> '
+            f'<span class="tiny">오늘 하락 (전날 종가 대비) · 시가 대비 <b>{_pct(r.get("from_open"))}</b> · 고가 대비 <b>{_pct(r.get("from_hi"))}</b> · '
+            f'종가 위치 {CB.fmtv("clv", r.get("clv"))} ({esc(CB._clv_b(r.get("clv")) or "—")})</span></div>')
+    rk = it.get("risk")
+    if rk:
+        weak = " · <b>근거 약함</b>(표본 적음)" if rk["n"] < 50 else ""
+        risk = (f'<div class="tiny" style="margin:3px 0">⚠️ <b>추가 하락 확률 {rk["open_below"] * 100:.0f}%</b> (다음날 시가가 매수가보다 낮음) · 다음날 저가 −10%↓ {rk["lo10"] * 100:.0f}% · '
+                f'−20%↓ {rk["lo20"] * 100:.0f}% <span class="tiny">— 과거 「{esc(rk["cell"])}」 {rk["n"]:,}건{weak}</span></div>')
+    else:
+        risk = '<div class="tiny" style="margin:3px 0">⚠️ 추가 하락 확률: 비슷한 과거 사례 없음 (하락 −10% 미만)</div>'
+    sr = CB.stop_rule()
+    stop = (f'<div class="tiny">🛑 프리장 <b>${r["price"] * (1 - sr["X"] / 100):.4g}</b> 아래면 매도 (매수가 −{sr["X"]}%, 근거 약함)</div>' if sr and r.get("price") else "")
+    W = CB.warnings(r, flags)
+    warn = "".join(f'<div class="tiny" style="color:#b54708">❗ {esc(w)}</div>' for w in W)
     return h(f'<div class="card"><div class="between"><span style="font-size:17px"><b>{cpk(t, CB.copy_text(it, plan, dash_link(t)))}</b> {tsb(t)} '
-             f'<span class="tiny">${r["price"]:.4g} ({(r.get("chg1") or 0) * 100:+.1f}%)</span></span>'
+             f'<span class="tiny">${r["price"]:.4g}</span></span>'
              f'<span class="badge {"yellow" if near else "red"}">{"아깝게 탈락" if near else "조건 충족"} {it["met"]}/{it["m"]}</span></div>',
-             f'<div class="tiny">과매도 점수 <b>{it["over"]:.0f}</b>/100 · {sx}</div>', rows,
-             f'<div class="tiny" style="margin-top:4px">과매도 지표: {esc(ext)}</div>', "</div>")
+             head, risk, stop, warn, rows,
+             f'<div class="tiny" style="margin-top:4px">{sx} · {esc(ext)}</div>', "</div>")
 
 def cb_stats_box():
     from core import closebet as CB
-    S = CB.study()
+    S = CB.drop_study()
     if not S: md('<div class="card tiny">과거 검증 데이터 없음</div>'); return
-    b, bm, br = S.get("best") or {}, S.get("best_by_mean") or {}, S.get("best_robust") or {}
-    rows = ""
-    for L in CB.stats_lines():
-        if L.get("tested"):
-            tr, te = L["train"], L["test"]
-            rows += (f'<div class="tr"><b>{esc(L["name"])}</b><div class="tiny">앞 60% 기간 {tr["n"]:,}건 평균 {tr["mean"] * 100:+.2f}% · '
-                     f'<b>뒤 40% 기간 {te["n"]:,}건 평균 {te["mean"] * 100:+.2f}%</b> (이긴 비율 {te["win"] * 100:.0f}%), 갭 상승 {te["gap_pos"] * 100:.0f}%, 갭 중앙값 {te["gap_med"] * 100:+.1f}%, '
-                     f'다음날 고가 +5% 터치 {te["hi5"] * 100:.0f}%, +10% {te["hi10"] * 100:.0f}%, 다음날 종가 중앙값 {te["c1_med"] * 100:+.1f}% · '
-                     f'기간 5구간 평균 {" / ".join("—" if v is None else f"{v * 100:+.1f}%" for v in (L.get("folds") or []))}</div></div>')
-        else:
-            j = L["intra"]
-            pm = f' · 프리+3%/시가 매도 평균 {j["pm3_open"] * 100:+.2f}%' if j.get("pm3_open") is not None else ""
-            rows += (f'<div class="tr">{esc(L["name"])} <span class="tiny">(참고)</span><div class="tiny">{j["n"]:,}건/{j["days"]}일 · 시가가 15:45 가격보다 높은 비율 {j["open_pos"] * 100:.0f}% · '
-                     f'프리장 +3% 터치 {j["pm_hi3"] * 100:.0f}%{pm} · 다음날 종가 중앙값 {j["c1_med"] * 100:+.1f}%</div></div>')
-    ba = S.get("base", {}).get("open", {}).get("test", {})
-    warn = ""
-    if bm.get("test") and br.get("test"):
-        nm = lambda r: " + ".join(CB.cond_name(c) for c in r["conds"])
-        warn = (f'<div class="tiny" style="margin-top:6px;line-height:1.5">⚠️ <b>솔직한 결과 — 근거 약함</b>: 미리 정한 선택 기준 두 가지로 고른 1위 규칙은 표본외에서 무너졌어요 '
-                f'(「{esc(nm(bm))}」 {bm["train"]["mean"] * 100:+.2f}% → {bm["test"]["mean"] * 100:+.2f}%, 「{esc(nm(br))}」 {br["train"]["mean"] * 100:+.2f}% → {br["test"]["mean"] * 100:+.2f}%). '
-                f'지금 쓰는 규칙은 두 기준 모두 2위였고 5개 기간 모두 플러스였지만, 표본외 결과를 본 뒤 고른 것이라 <b>사후 선택</b>이에요. '
-                f'조건 없이 종가 매수 → 시가 매도는 평균 {ba.get("mean", 0) * 100:+.2f}%. 이득은 한 번에 1~2% 수준이라 수수료·호가 차이에 민감하고, 다음날 장중까지 들고 가면 보통 손해예요.</div>')
-    md(h('<div class="card"><h3>📊 조건별 과거 성적</h3>', rows, warn,
+    b, o = S.get("best") or {}, S.get("old_rule") or {}
+    nm = lambda cs: " + ".join(CB.cond_name(c) for c in cs)
+    def line(title, r, strong=False):
+        tr, te = r.get("train") or {}, r.get("test") or {}
+        if not te: return ""
+        fo = r.get("folds")
+        return (f'<div class="tr">{"<b>" if strong else ""}{esc(title)}{"</b>" if strong else ""}<div class="tiny">앞 60% 기간 {tr.get("n", 0):,}건 평균 {tr.get("mean", 0) * 100:+.2f}% · '
+                f'<b>뒤 40% 기간(표본외) {te["n"]:,}건 평균 {te["mean"] * 100:+.2f}%</b> (비용 1%면 {te.get("mean_cost1", 0) * 100:+.2f}%, 이긴 비율 {te.get("win", 0) * 100:.0f}%, 중앙값 {te.get("med", 0) * 100:+.1f}%)'
+                + (f' · 5구간 {" / ".join("—" if v is None else f"{v * 100:+.1f}%" for v in fo)}' if fo else "")
+                + f'<br>더 떨어진 경우(표본외): 다음날 시가 &lt; 매수가 {te.get("open_below", 0) * 100:.0f}% · 다음날 저가 −10%↓ {te.get("lo10", 0) * 100:.0f}% · −20%↓ {te.get("lo20", 0) * 100:.0f}% · '
+                  f'하위 5% {te.get("q05", 0) * 100:+.0f}% · 최악 {te.get("worst", 0) * 100:+.0f}%</div></div>')
+    rows = line("지금 규칙: " + nm(b.get("conds") or []) + " → 다음날 시가 매도", b, True)
+    wc = b.get("worst") or []
+    if wc: rows += '<div class="tiny" style="margin:-2px 0 6px">최악 사례: ' + " · ".join(f'{esc(w["ticker"])} {w["date"][5:]} (당일 {w["chg1"] * 100:+.0f}% → 다음날 시가 {w["gap"] * 100:+.0f}%)' for w in wc[:4]) + '</div>'
+    if o: rows += line("예전 규칙: " + nm(o.get("conds") or []) + " (비교)", o)
+    for k, v in (S.get("drop_only") or {}).items():
+        if k.startswith("chg1"):
+            c = k.split("<="); rows += line(f"하락만: 오늘 {float(c[1]) * 100:.0f}%↓ (비교)", v.get("open") or {})
+    wf = S.get("walk_forward") or []
+    wft = " · ".join(f'{S["seg_start"][w["test_seg"]] if S.get("seg_start") else w["test_seg"]}~ 구간 {w["test_mean"] * 100:+.2f}% ({w["test_n"]:,}건)' for w in wf)
+    weak = CB.drop_weak()
+    ba = (S.get("base") or {}).get("test") or {}
+    verdict = ("⚠️ <b>근거 약함</b>: 비용을 빼면 확실히 이긴다고 보기 어려워요. 하루 하락폭은 1순위 필터로 쓰지만 결과는 참고만 하세요." if weak else
+               "✅ 하락폭 기준·보조 조건은 앞 기간(뒤 40%를 보기 전) 성적의 '가장 나쁜 구간'이 제일 높은 규칙으로 미리 정해 골랐고, 표본외·걷기 검증 모두 플러스였어요. "
+               "그래도 한 건 중앙값은 마이너스라 일부 큰 반등이 평균을 끌어올리는 구조예요.")
+    md(h('<div class="card"><h3>📊 하루 큰 하락 → 다음날 시가 매도: 과거 성적</h3>', rows,
+         f'<div class="tiny" style="margin-top:6px;line-height:1.55">{verdict}<br>걷기 검증(앞 구간으로 규칙 고르고 다음 구간 확인): {esc(wft)}'
+         f'<br>조건 없이 전체: 표본외 평균 {ba.get("mean", 0) * 100:+.2f}% · 비용(왕복 {S.get("cost", 0.005) * 100:.1f}%) 뺀 수치</div>',
+         '<div class="tiny" style="margin-top:6px;line-height:1.55"><b>반등 vs 추가 하락 가르는 것 (−10%↓ 하락 종목, 앞·뒤 기간 비교)</b><br>'
+         '• <b>종가 위치가 가장 확실</b>: 저가 근처에서 끝나면 다음날 시가가 더 낮은 경우 약 42%, 고가 근처면 약 80% (앞·뒤 기간 모두 같은 방향)<br>'
+         '• 증자 관련 공시(424B·S-1 등) 당일: 앞 기간은 차이 없고 뒤 기간만 나빠서 <b>근거 약함 → 제외하지 않고 경고만</b> (공시 자료 있는 472종목만 확인)<br>'
+         '• 거래량 6배↑, 최근 20일 100%↑ 급등 뒤 하락: 다음날 −20%↓ 추가 하락이 더 잦음 → 경고<br>'
+         '• 마감 60분 체결강도 100%↑: 큰 하락 종목에선 오히려 성적 나쁨 (5분봉 약 60일) → 조건에서 빼고 경고<br>'
+         '• 유통주식·시총, 희석 대기 물량: 과거 시점 자료가 없어 검증 못함</div>',
          f'<div class="tiny" style="margin-top:6px">일봉: DB 전 종목 {S.get("n_rows", 0):,}건({esc(" ~ ".join(S.get("period") or []))}), 당일 종가를 15:45 가격 대신 씀 · '
-         f'분봉: Yahoo 5분봉 약 60일({esc(" ~ ".join((S.get("intraday") or {}).get("period") or []))}) → 체결강도는 이 짧은 표본으로만 확인해서 참고</div></div>'))
+         f'5분봉: Yahoo 약 60일({esc(" ~ ".join((S.get("intraday") or {}).get("period") or []))}), 실제 15:45 가격으로 확인</div></div>'))
 
 def page_close():
     from core import closebet as CB
-    topbar("🌙 종가 베팅", "마감 직전 매수 → 다음날 프리장·시가 매도")
+    topbar("🌙 종가 베팅", "하루 만에 크게 빠진 종목 · 마감 직전 매수 → 다음날 시가 매도")
     sess, now_et = live.session_now()
     conds = CB.rule()
-    md(f'<div class="card tiny" style="line-height:1.55"><b>조건</b>: ' + " · ".join(esc(CB.cond_name(c)) + ("" if c[3] else " (참고)") for c in conds) +
+    md(f'<div class="card tiny" style="line-height:1.55"><b>조건</b> (1순위: 오늘 하루 하락폭, 큰 순서로 정렬): ' + " · ".join(esc(CB.cond_name(c)) + ("" if c[3] else " (참고)") for c in conds) +
+       (' · <b>근거 약함</b>' if CB.drop_weak() else '') +
        '<br>체결강도(추정) = 1분봉으로 계산한 매수 추정량 ÷ 매도 추정량 × 100 (100% = 균형). 직전 1분보다 오르면 매수, 내리면 매도로 셈 — 실제 체결 데이터가 아니라 추정치예요.</div>')
     D = cb_daily(dt.date.today().isoformat() + f":{_db_ver()}")
     if not D:
         md('<div class="card tiny">가격 데이터 없음</div>'); disclaimer(); return
     slot = int(dt.datetime.now().timestamp() // 300)
     # 1) 일봉만으로 1차 거르기 (체결강도 빼고), 2) 남은 종목만 1분봉으로 오늘 반영 + 체결강도
-    daily_only = [c for c in conds if not c[0].startswith("str_")]
     if sess == "regular":     # 장중: 오늘 막대가 DB 에 없으니 거래대금 상위 400종목의 1분봉으로 오늘을 반영
         pre = sorted(D, key=lambda t: float((D[t].close * D[t].volume).tail(20).mean()), reverse=True)[:400]
     else:                     # 장 마감 후: 마지막 종가 기준으로 일봉 조건 거른 뒤, 남은 종목만 1분봉(체결강도)
@@ -1802,16 +1831,17 @@ def page_close():
     md('<div class="sec">✅ 오늘 조건 맞는 종목</div>'); md(COPY_HINT)
     if not Q: md('<div class="card tiny"><b>오늘 조건 맞는 종목 없음</b> — 아래 "아깝게 탈락"은 조건 하나가 빠진 종목이에요 (매수 대상 아님)</div>')
     warm_toss([x["ticker"] for x in (Q + N)[:20]])
-    for it in Q[:15]: md(cb_card(it, plan))
+    FL = CB.filing_flags([x["ticker"] for x in (Q[:15] + N[:8])], asof) if asof is not None else {}
+    for it in Q[:15]: md(cb_card(it, plan, flags=FL.get(it["ticker"], ())))
     md(h('<div class="card tiny" style="line-height:1.55">', "<br>".join(esc(x) for x in plan), "</div>"))
     if N:
         md('<div class="sec">🟡 아깝게 탈락 (조건 1개 부족)</div>')
-        for it in N[:8]: md(cb_card(it, plan, near=True))
+        for it in N[:8]: md(cb_card(it, plan, near=True, flags=FL.get(it["ticker"], ())))
     cb_stats_box()
     disclaimer()
 
 def close_home():
-    md(f'<div class="card" style="padding:9px 12px"><a href="?{ui.AUTHQ}p=close" target="_self"><b>🌙 종가 베팅</b></a> <span class="tiny">과매도 + 체결강도(추정)로 마감 직전 매수 → 다음날 프리장·시가 매도 후보</span></div>')
+    md(f'<div class="card" style="padding:9px 12px"><a href="?{ui.AUTHQ}p=close" target="_self"><b>🌙 종가 베팅</b></a> <span class="tiny">하루 만에 크게 빠진 종목 · 마감 직전 매수 → 다음날 시가 매도 후보</span></div>')
 
 ALIAS = {"select": "home", "discover": "home", "theme": "home", "today": "live"}
 PAGE = ALIAS.get(PAGE, PAGE)
