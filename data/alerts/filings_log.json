@@ -2601,5 +2601,22 @@
   "headline": ". SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on behalf by the unders",
   "url": "https://www.sec.gov/Archives/edgar/data/2039972/000165495426009201/0001654954-26-009201-index.htm",
   "seen_kst": "2026-10-29 20:17"
+ },
+ {
+  "ticker": "ACB",
+  "form": "6-K",
+  "acc": "0001104659-26-119872",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:18:21+00:00",
+  "accepted_kst": "10/29 20:18",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "October 29, 2026 NASDAQ | TSX: ACB Aurora Cannabis to Host Second Quarter 2027 Investor Conference Call Edmonton, AB – October 29, 2026 – Aurora Cannabis Inc. (",
+  "url": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926119872/0001104659-26-119872-index.htm",
+  "seen_kst": "2026-10-29 20:20"
  }
 ]
