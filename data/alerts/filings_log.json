@@ -4172,5 +4172,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000920/0001976408-26-000920-index.htm",
   "seen_kst": "2026-10-29 22:37"
+ },
+ {
+  "ticker": "TRS",
+  "form": "8-K",
+  "acc": "0000842633-26-000057",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:44:00+00:00",
+  "accepted_kst": "10/29 22:44",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ".htm EX-99.1 TRIMAS REPORTS THIRD QUARTER 2026 RESULTS • Third quarter net sales increased 7.7% year-over-year, driven by organic growth • Third quarter operati",
+  "url": "https://www.sec.gov/Archives/edgar/data/842633/000084263326000057/0000842633-26-000057-index.htm",
+  "seen_kst": "2026-10-29 22:45"
  }
 ]
