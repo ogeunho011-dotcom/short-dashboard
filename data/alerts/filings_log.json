@@ -4722,5 +4722,22 @@
   "headline": "FORESTAR REPORTS FOURTH QUARTER AND FISCAL 2026 RESULTS ARLINGTON, Texas (Business Wire) - October 29, 2026 — Forestar Group Inc. (“Forestar”) (NYSE: FOR), a le",
   "url": "https://www.sec.gov/Archives/edgar/data/1406587/000162828026068139/0001628280-26-068139-index.htm",
   "seen_kst": "2026-10-30 02:50"
+ },
+ {
+  "ticker": "PRTA",
+  "form": "4",
+  "acc": "0001045463-26-000023",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T18:03:45+00:00",
+  "accepted_kst": "10/30 03:03",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1559053/000104546326000023/0001045463-26-000023-index.htm",
+  "seen_kst": "2026-10-30 03:05"
  }
 ]
