@@ -3843,5 +3843,22 @@
   "headline": "Canton Strategic Holdings Announces Intent to Become First Tokenized U.S. Equity Announcement Follows SEC’s Innovation Exemption, Paving the Way for Compliant O",
   "url": "https://www.sec.gov/Archives/edgar/data/1861657/000149315226049196/0001493152-26-049196-index.htm",
   "seen_kst": "2026-10-29 21:55"
+ },
+ {
+  "ticker": "SCWO",
+  "form": "8-K",
+  "acc": "0001654954-26-009210",
+  "items": "7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:56:15+00:00",
+  "accepted_kst": "10/29 21:56",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "to this Current Report and incorporated by reference. By filing this Current Report and furnishing the information contained herein, the Company makes no admiss",
+  "url": "https://www.sec.gov/Archives/edgar/data/933972/000165495426009210/0001654954-26-009210-index.htm",
+  "seen_kst": "2026-10-29 21:57"
  }
 ]
