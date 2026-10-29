@@ -2856,5 +2856,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201028014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201028014",
   "grade": "open"
+ },
+ {
+  "id": "CLMB-1793282863",
+  "ts_kst": "2026-10-29 23:07",
+  "ts_utc": "2026-10-29T14:07:43+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "CLMB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.8% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CLMB 장중 급등 포착",
+  "body": "$40.365 (+21.8%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $40.38 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,866만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +21.8% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $38.347 지정가(기준가 $40.365의 −5%) · 체결 가능성 약 20% · 손익분기 $38.810\n숏 지지구간 $29.000–$30.750 · 손절 $28.000 · 1차목표 $40.380\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 40.365,
+  "level": 2,
+  "score": 31.1,
+  "prob": 53.44827586206896,
+  "cp": 79.80134413186227,
+  "rl": 40.380001068115234,
+  "stop": 28.0,
+  "zone": [
+   29.0,
+   30.75
+  ],
+  "bp": 38.3468,
+  "tgt": 46.43700122833251,
+  "stp": 28.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221031003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221031003",
+  "grade": "open"
  }
 ]
