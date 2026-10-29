@@ -360,6 +360,10 @@ def radar(x, fetch_docs=True):
         R["pat"] = PT.match(b.px, f, getattr(b, "info", None), getattr(b, "fil", None))
     except Exception as e: R["pat"] = None; R["err"].append(f"패턴: {e}")
     try:
+        from . import structure as ST
+        R["st"] = ST.compute(b.px, getattr(b, "fil", None), getattr(b, "facts", None), getattr(b, "info", None))
+    except Exception as e: R["st"] = None; R["err"].append(f"구조: {e}")
+    try:
         R["ca"] = cover_alert(f, R["lm"], R["ez"], R["br"], price, f.get("vol_ratio"))
         R["story"] = cover_story(R["ca"], f)
     except Exception as e: R["ca"] = None; R["story"] = ""; R["err"].append(f"경보: {e}")

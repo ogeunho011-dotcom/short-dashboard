@@ -152,6 +152,21 @@ def card_pattern(x):
              rows, sp_, app_,
              '<div class="tiny">5분봉 확인된 13건 중 11건은 프리장·애프터에서 먼저 터짐 (과거 시간외 데이터가 없어 검증은 못 함) · 자기 보고된 성공 사례라 실패 사례는 빠져 있음</div></div>')
 
+# ---------------------------------------------------------------- 💣 희석·상폐 구조 (SURG 글 방식, 참고)
+def card_structure(x):
+    from . import structure as ST
+    sm = (x.get("rad") or {}).get("st")
+    if not sm: return f'<div class="card"><h3>💣 희석·상폐 구조</h3>{NA}</div>'
+    vals = ST.values(sm)
+    rows = "".join(f'<div class="tr"><div class="between"><span>{"✅" if sm["signs"].get(k) else ("❔" if sm["signs"].get(k) is None else "▫️")} {esc(lab)}</span></div>'
+                   f'<div class="tiny">{esc(vals.get(k) or "데이터 없음")}</div></div>' for k, lab in ST.SIGNS)
+    col = "red" if sm["n"] >= 4 else ("yellow" if sm["n"] >= 2 else "")
+    return h(f'<div class="card"><div class="between"><h3>💣 희석·상폐 구조</h3><span class="badge {col}">{sm["n"]}/{sm["m"]} · 참고</span></div>',
+             '<div class="tiny" style="margin-bottom:4px">전환사채 물량·주식수 급증·현금 런웨이·$0.10 상폐선·베이비 셸프·분기보고서 마감·호재 반응 약화 (SEC XBRL·공시 기준, ❔ = 데이터 없음)</div>',
+             rows,
+             '<div class="tiny" style="margin-top:6px">📊 과거 검증: 이 신호들이 켜진 날은 5일 안 +30% 터치는 조금 잦지만(넓은 표본) 5일 뒤 종가는 더 나쁘고, 앱 성공 기준으로는 오히려 낮음 → 점수에 넣지 않음. '
+             '"터지면 짧게, 들고 가지 말기" 용도로만 보세요. 전환사채는 XBRL 유동분 위주라 과소추정될 수 있음.</div></div>')
+
 # ---------------------------------------------------------------- 복사 글용
 def copy_lines(x):
     R = x.get("rad") or {}; L = []
@@ -179,6 +194,11 @@ def copy_lines(x):
         from . import pattern as PT
         pl = PT.line(R.get("pat"))
         if pl: L.append(pl)
+    except Exception: pass
+    try:
+        from . import structure as ST
+        sl = ST.line(R.get("st"))
+        if sl: L.append(sl)
     except Exception: pass
     o = R.get("off")
     if o and o.get("tags"): L.append("🧯 공모·상장 위험: " + ", ".join(o["tags"]) + (f" — {o['items'][0]['why'][:90]}" if o.get("items") else ""))

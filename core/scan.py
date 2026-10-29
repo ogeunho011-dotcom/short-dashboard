@@ -82,6 +82,10 @@ def _analyze(t, u, reg, p, hot=None, keep=None, bars=None):
                 from . import pattern as PT
                 pm = PT.match(b.px, f, getattr(b, "info", None), getattr(b, "fil", None)); pl = PT.line(pm) or ""
             except Exception: pm, pl = None, ""
+            try:
+                from . import structure as ST
+                sm = ST.compute(b.px, getattr(b, "fil", None), getattr(b, "facts", None), info); sl = ST.line(sm) or ""
+            except Exception: sm, sl = None, ""
             return {"ticker": t, "name": (u.set_index("ticker").name.get(t) or "")[:40], "price": f["price"], "chg1": f["chg1"],
                          "score": s["score"], "level": s["level"], "conf": s["confluence"], "flagged": s["flagged"], "status": status,
                          "upside": up, "loss_pct": f.get("loss_pct"), "si_float": f.get("si_float"), "vol_ratio": f.get("vol_ratio"),
@@ -90,7 +94,7 @@ def _analyze(t, u, reg, p, hot=None, keep=None, bars=None):
                     "dtc": f.get("dtc"), "summary": model.plain_summary(f), "fresh_1m": fresh,
                     "last_date": str(b.px["date"].iloc[-1].date()),
                     "pat_n": pm["n"] if pm else None, "pat_on": ",".join(x["label"] for x in pm["hits"] if x["on"]) if pm else "",
-                    "pat_line": pl}
+                    "pat_line": pl, "st_n": sm["n"] if sm else None, "st_on": ",".join(sm["on"]) if sm else "", "st_line": sl}
         except Exception as e:
             db.set_status("스캔", False, f"{t}: {e!r}"[:200]); return None
 
