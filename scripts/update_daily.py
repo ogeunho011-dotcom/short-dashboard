@@ -15,6 +15,19 @@ def price_freshness():
         n = src.bulk_prices(recent, "5d")
         L2 = db.q("SELECT ticker, MAX(date) d FROM prices GROUP BY ticker")
         print(f"  뒤처진 {len(recent)}종목 다시 받음 → {n}종목 응답, 이제 최신 {int((L2.d >= top).sum())}/{len(L2)}")
+    # Yahoo 일봉은 장 마감 후 몇 시간 동안 마지막 날 종가가 비어 있음(NaN) → 1분봉으로 마지막 세션 막대를 만들어 채움.
+    # 다음 날 실행 때 5일치 다시 받기로 공식 일봉이 덮어씀.
+    import pandas as pd
+    L2 = db.q("SELECT ticker, MAX(date) d FROM prices GROUP BY ticker")
+    cut = (pd.Timestamp(top) - pd.Timedelta(days=10)).strftime("%Y-%m-%d")
+    cand = L2[L2.d >= cut]
+    last = dict(zip(cand.ticker, cand.d))
+    B = src.bulk_today_bars(list(last), chunk=40)
+    rows = [dict(ticker=t, date=b["date"].strftime("%Y-%m-%d"), open=b["open"], high=b["high"], low=b["low"], close=b["close"], volume=b["volume"])
+            for t, b in B.items() if b["date"].strftime("%Y-%m-%d") > last[t] and b["close"] == b["close"]]
+    if rows: db.upsert_df("prices", pd.DataFrame(rows), ["ticker", "date", "open", "high", "low", "close", "volume"])
+    L3 = db.q("SELECT ticker, MAX(date) d FROM prices GROUP BY ticker"); top3 = L3.d.max()
+    print(f"  1분봉으로 마지막 세션 채움: {len(rows)}종목 (1분봉 응답 {len(B)}/{len(last)}) → 최신일 {top3}: {int((L3.d >= top3).sum())}/{len(L3)}종목")
 
 def main(do_scan=True):
     t0 = time.time()
