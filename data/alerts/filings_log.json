@@ -3632,5 +3632,39 @@
   "headline": "CLPS Incorporation Announces Extension of Share Repurchase Program",
   "url": "https://www.sec.gov/Archives/edgar/data/1724542/000121390026113575/0001213900-26-113575-index.htm",
   "seen_kst": "2026-10-29 21:37"
+ },
+ {
+  "ticker": "EMAT",
+  "form": "8-K",
+  "acc": "0001213900-26-113420",
+  "items": "7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-28T22:10:15+00:00",
+  "accepted_kst": "10/29 07:10",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Evolution Metals & Technologies Submits Response to U.S. Army Sources Sought Notice for Rare Earth Magnets Used in Small Drone Motors EM&T commercially produces",
+  "url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026113420/0001213900-26-113420-index.htm",
+  "seen_kst": "2026-10-29 21:45"
+ },
+ {
+  "ticker": "EMAT",
+  "form": "8-K",
+  "acc": "0001213900-26-113580",
+  "items": "7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:43:25+00:00",
+  "accepted_kst": "10/29 21:43",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Evolution Metals & Technologies Secures Approximately 754 Metric Tons of Non-China Neodymium Metal, Expected to Cover Half of the Feedstock Estimated for Its 20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026113580/0001213900-26-113580-index.htm",
+  "seen_kst": "2026-10-29 21:45"
  }
 ]
