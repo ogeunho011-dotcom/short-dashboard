@@ -2618,5 +2618,24 @@
   "headline": "October 29, 2026 NASDAQ | TSX: ACB Aurora Cannabis to Host Second Quarter 2027 Investor Conference Call Edmonton, AB – October 29, 2026 – Aurora Cannabis Inc. (",
   "url": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926119872/0001104659-26-119872-index.htm",
   "seen_kst": "2026-10-29 20:20"
+ },
+ {
+  "ticker": "BFLY",
+  "form": "S-3ASR",
+  "acc": "0001804176-26-000043",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:27:41+00:00",
+  "accepted_kst": "10/29 20:27",
+  "polarity": "neg",
+  "label": "증자 서류(S-3ASR)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1804176/000180417626000043/0001804176-26-000043-index.htm",
+  "seen_kst": "2026-10-29 20:30"
  }
 ]
