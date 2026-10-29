@@ -1525,5 +1525,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230501002",
   "grade": "open"
+ },
+ {
+  "id": "ULBI-1793263987",
+  "ts_kst": "2026-10-29 17:53",
+  "ts_utc": "2026-10-29T08:53:07+00:00",
+  "date_et": "2026-10-29",
+  "session": "pre",
+  "ticker": "ULBI",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ULBI 상위 확률 신호",
+  "body": "$15.639 (+0.2%) · 프리마켓 · 레벨 3 · 점수 46\n$16.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,666만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $15.500–$15.610 · 손절 $15.250 · 1차목표 $16.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 15.6393,
+  "level": 3,
+  "score": 45.9,
+  "prob": 53.44827586206896,
+  "cp": 42.88964705935382,
+  "rl": 16.0,
+  "stop": 15.25,
+  "zone": [
+   15.5,
+   15.609999656677246
+  ],
+  "bp": null,
+  "tgt": 16.0,
+  "stp": 15.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19921223001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19921223001",
+  "grade": "open"
+ },
+ {
+  "id": "ELVA-fil-0001654954-26-009178",
+  "ts_kst": "2026-10-29 17:53",
+  "ts_utc": "2026-10-29T08:53:08+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "ELVA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 계약·수주"
+  ],
+  "title": "📢 ELVA 호재 공시",
+  "body": "6-K · 계약·수주 (10/28 21:31 KST)\nNews for Immediate Release Electrovaya Provides a Business Update Electrovaya Enters into a Strategic Supply Agreement with Janus Electric w\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230706001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230706001",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001654954-26-009178",
+   "items": "",
+   "label": "계약·수주",
+   "cats": [
+    "계약·수주"
+   ],
+   "strength": 4,
+   "headline": "News for Immediate Release Electrovaya Provides a Business Update Electrovaya Enters into a Strategic Supply Agreement with Janus Electric with Approximately $2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1844450/000165495426009178/0001654954-26-009178-index.htm",
+   "accepted_kst": "10/28 21:31",
+   "polarity": "pos"
+  }
  }
 ]
