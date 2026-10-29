@@ -3666,5 +3666,97 @@
   "headline": "Evolution Metals & Technologies Secures Approximately 754 Metric Tons of Non-China Neodymium Metal, Expected to Cover Half of the Feedstock Estimated for Its 20",
   "url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026113580/0001213900-26-113580-index.htm",
   "seen_kst": "2026-10-29 21:45"
+ },
+ {
+  "ticker": "CDZI",
+  "form": "SCHEDULE 13G",
+  "acc": "0000070858-26-000540",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T18:23:08+00:00",
+  "accepted_kst": "10/29 03:23",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/727273/000007085826000540/0000070858-26-000540-index.htm",
+  "seen_kst": "2026-10-29 21:47"
+ },
+ {
+  "ticker": "CDZI",
+  "form": "10-K/A",
+  "acc": "0001213900-26-113579",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:42:24+00:00",
+  "accepted_kst": "10/29 21:42",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/727273/000121390026113579/0001213900-26-113579-index.htm",
+  "seen_kst": "2026-10-29 21:47"
+ },
+ {
+  "ticker": "ORBS",
+  "form": "8-K",
+  "acc": "0001493152-26-049192",
+  "items": "7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:45:22+00:00",
+  "accepted_kst": "10/29 21:45",
+  "polarity": "pos",
+  "label": "자사주 매입",
+  "cats": [
+   "자사주 매입"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Eightco Holdings (ORBS) Announces Strategic Monetization to Demonstrate Portfolio Gains and Support Accelerated Buybacks Eightco treasury composition as of Octo",
+  "url": "https://www.sec.gov/Archives/edgar/data/1892492/000149315226049192/0001493152-26-049192-index.htm",
+  "seen_kst": "2026-10-29 21:47"
+ },
+ {
+  "ticker": "PCSA",
+  "form": "8-K",
+  "acc": "0001140361-26-041116",
+  "items": "8.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:46:38+00:00",
+  "accepted_kst": "10/29 21:46",
+  "polarity": "pos",
+  "label": "FDA 승인·허가 · 제휴·라이선스",
+  "cats": [
+   "FDA 승인·허가",
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "Processa Pharmaceuticals Announces Corporate and Pipeline Progress Following Acquisition of Vidya Therapeutics • U.S. FDA clears IND for Phase 2 study of VT-720",
+  "url": "https://www.sec.gov/Archives/edgar/data/1533743/000114036126041116/0001140361-26-041116-index.htm",
+  "seen_kst": "2026-10-29 21:47"
+ },
+ {
+  "ticker": "CDZI",
+  "form": "424B5",
+  "acc": "0001213900-26-113583",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:47:01+00:00",
+  "accepted_kst": "10/29 21:47",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/727273/000121390026113583/0001213900-26-113583-index.htm",
+  "seen_kst": "2026-10-29 21:47"
  }
 ]
