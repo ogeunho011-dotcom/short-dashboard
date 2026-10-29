@@ -2034,5 +2034,49 @@
    "accepted_kst": "10/29 21:25",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "WAVE-fil-0001213900-26-113574",
+  "ts_kst": "2026-10-29 21:32",
+  "ts_utc": "2026-10-29T12:32:44+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "WAVE",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 계약·수주 · 제휴·라이선스"
+  ],
+  "title": "📢 WAVE 호재 공시",
+  "body": "6-K · 계약·수주 · 제휴·라이선스 (10/29 21:30 KST)\nEco Wave Power Announces Major Milestone in Collaboration with Fortune 500 Energy Giant Bharat Petroleum as First Purchase Order Is Issued f\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210701008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210701008",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001213900-26-113574",
+   "items": "",
+   "label": "계약·수주 · 제휴·라이선스",
+   "cats": [
+    "계약·수주",
+    "제휴·라이선스"
+   ],
+   "strength": 4,
+   "headline": "Eco Wave Power Announces Major Milestone in Collaboration with Fortune 500 Energy Giant Bharat Petroleum as First Purchase Order Is Issued for Wave Energy Proje",
+   "url": "https://www.sec.gov/Archives/edgar/data/1846715/000121390026113574/0001213900-26-113574-index.htm",
+   "accepted_kst": "10/29 21:30",
+   "polarity": "pos"
+  }
  }
 ]
