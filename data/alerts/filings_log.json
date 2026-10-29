@@ -4376,5 +4376,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000052/0001477449-26-000052-index.htm",
   "seen_kst": "2026-10-29 23:44"
+ },
+ {
+  "ticker": "VCIG",
+  "form": "6-K",
+  "acc": "0001213900-26-113645",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T15:00:10+00:00",
+  "accepted_kst": "10/30 00:00",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "On October 13, 2026, VCI Global Limited (“VCIG” or the “Company”) announced that its board of directors has approved a reverse stock split of its ordinary share",
+  "url": "https://www.sec.gov/Archives/edgar/data/1930510/000121390026113645/0001213900-26-113645-index.htm",
+  "seen_kst": "2026-10-30 00:02"
  }
 ]
