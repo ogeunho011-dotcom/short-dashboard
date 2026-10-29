@@ -4223,5 +4223,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1435064/000143774926033789/0001437749-26-033789-index.htm",
   "seen_kst": "2026-10-29 22:52"
+ },
+ {
+  "ticker": "BFC",
+  "form": "4",
+  "acc": "0001104659-26-120006",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:51:59+00:00",
+  "accepted_kst": "10/29 22:51",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $59,348 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Sprang Todd A.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926120006/0001104659-26-120006-index.htm",
+  "seen_kst": "2026-10-29 22:55"
  }
 ]
