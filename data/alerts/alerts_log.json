@@ -3343,5 +3343,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
   "grade": "open"
+ },
+ {
+  "id": "INLF-1793288260",
+  "ts_kst": "2026-10-30 00:37",
+  "ts_utc": "2026-10-29T15:37:40+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "INLF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.8% · 거래량 평소의 150.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ INLF 장중 급등 포착",
+  "body": "$0.239 (+32.8%) · 정규장 · 레벨 2 · 점수 32\n시장에 도는 주식 640만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +32.8% · 거래량 평소의 150.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.185 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -22.8%) · 체결 가능성 약 81% · 손익분기 $0.187\n숏 지지구간 $0.167–$0.239 · 손절 $0.119 · 1차목표 $0.358\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/20)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.239,
+  "level": 2,
+  "score": 32.3,
+  "prob": 21.428571428571427,
+  "cp": 2.0,
+  "rl": 1.0,
+  "stop": 0.11949999630451202,
+  "zone": [
+   0.16729999482631683,
+   0.23899999260902405
+  ],
+  "bp": 0.1845,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/20)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
+  "grade": "n/a"
+ },
+ {
+  "id": "TDOC-1793288260",
+  "ts_kst": "2026-10-30 00:37",
+  "ts_utc": "2026-10-29T15:37:40+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "TDOC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.6% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TDOC 장중 급등 포착",
+  "body": "$8.780 (+27.6%) · 정규장 · 레벨 2 · 점수 40\n공매도 물량 대부분 손해 중, $9.75 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +27.6% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.341 지정가(기준가 $8.780의 −5%) · 체결 가능성 약 28% · 손익분기 $8.442\n숏 지지구간 $8.000–$8.273 · 손절 $7.875 · 1차목표 $9.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.78,
+  "level": 2,
+  "score": 39.9,
+  "prob": 53.44827586206896,
+  "cp": 60.82480023772527,
+  "rl": 9.75,
+  "stop": 7.875,
+  "zone": [
+   8.0,
+   8.272999906539917
+  ],
+  "bp": 8.341,
+  "tgt": 9.75,
+  "stp": 7.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150630002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150630002",
+  "grade": "open"
  }
 ]
