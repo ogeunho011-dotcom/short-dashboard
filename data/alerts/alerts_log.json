@@ -4318,5 +4318,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220118007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220118007",
   "grade": "open"
+ },
+ {
+  "id": "BURU-1793295311",
+  "ts_kst": "2026-10-30 02:35",
+  "ts_utc": "2026-10-29T17:35:11+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "BURU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +99.5% · 거래량 평소의 290.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BURU 장중 급등 포착",
+  "body": "$0.343 (+99.5%) · 정규장 · 레벨 3 · 점수 50\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 926만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +99.5% · 거래량 평소의 290.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $0.326 지정가(기준가 $0.343의 −5%) · 체결 가능성 약 84% · 손익분기 $0.330\n숏 지지구간 $0.240–$0.343 · 손절 $0.172 · 1차목표 $0.515\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-02\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3432,
+  "level": 3,
+  "score": 50.1,
+  "prob": 41.15942028985507,
+  "cp": 39.22968832385037,
+  "rl": 1.5,
+  "stop": 0.17159999907016754,
+  "zone": [
+   0.24023999869823454,
+   0.3431999981403351
+  ],
+  "bp": 0.326,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-02",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
+  "grade": "n/a"
+ },
+ {
+  "id": "NCPL-1793295311",
+  "ts_kst": "2026-10-30 02:35",
+  "ts_utc": "2026-10-29T17:35:11+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "NCPL",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 NCPL 상위 확률 신호",
+  "body": "$1.840 (+67.3%) · 정규장 · 레벨 4 · 점수 60\n$1.90 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 785만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.748 지정가(기준가 $1.840의 −5%) · 체결 가능성 약 83% · 손익분기 $1.769\n숏 지지구간 $1.500–$1.619 · 손절 $1.400 · 1차목표 $1.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.84,
+  "level": 4,
+  "score": 59.9,
+  "prob": 52.91666666666666,
+  "cp": 40.15602036451855,
+  "rl": 1.9000000000000006,
+  "stop": 1.4000000000000004,
+  "zone": [
+   1.5000000000000004,
+   1.6190000116825107
+  ],
+  "bp": 1.748,
+  "tgt": 1.9000000000000006,
+  "stp": 1.4000000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
+  "grade": "open"
  }
 ]
