@@ -4533,5 +4533,22 @@
   "headline": "LightSolver Secures Paid Collaboration with the Israel Ministry of Defense for the Development of Photonic Computing Technology The Israel Ministry of Defense E",
   "url": "https://www.sec.gov/Archives/edgar/data/1631487/000121390026113674/0001213900-26-113674-index.htm",
   "seen_kst": "2026-10-30 01:10"
+ },
+ {
+  "ticker": "DRTS",
+  "form": "6-K",
+  "acc": "0001213900-26-113681",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T16:21:10+00:00",
+  "accepted_kst": "10/30 01:21",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Alpha Tau Announces Inclusion in the Flagship TA-90 and TA-125 Indices of the Tel Aviv Stock Exchange Funds that track these TASE benchmark indexes are expected",
+  "url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026113681/0001213900-26-113681-index.htm",
+  "seen_kst": "2026-10-30 01:22"
  }
 ]
