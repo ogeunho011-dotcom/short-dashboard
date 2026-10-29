@@ -3860,5 +3860,24 @@
   "headline": "to this Current Report and incorporated by reference. By filing this Current Report and furnishing the information contained herein, the Company makes no admiss",
   "url": "https://www.sec.gov/Archives/edgar/data/933972/000165495426009210/0001654954-26-009210-index.htm",
   "seen_kst": "2026-10-29 21:57"
+ },
+ {
+  "ticker": "MGN",
+  "form": "424B4",
+  "acc": "0001213900-26-113588",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:57:47+00:00",
+  "accepted_kst": "10/29 21:57",
+  "polarity": "neg",
+  "label": "증자 서류(424B4)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1995075/000121390026113588/0001213900-26-113588-index.htm",
+  "seen_kst": "2026-10-29 22:00"
  }
 ]
