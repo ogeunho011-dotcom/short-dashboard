@@ -167,6 +167,35 @@ def card_structure(x):
              '<div class="tiny" style="margin-top:6px">📊 과거 검증: 이 신호들이 켜진 날은 5일 안 +30% 터치는 조금 잦지만(넓은 표본) 5일 뒤 종가는 더 나쁘고, 앱 성공 기준으로는 오히려 낮음 → 점수에 넣지 않음. '
              '"터지면 짧게, 들고 가지 말기" 용도로만 보세요. 전환사채는 XBRL 유동분 위주라 과소추정될 수 있음. 시총·베이비 셸프 한도는 현재 시세 주식수 기준(마지막 10-Q 이후 증자 반영).</div></div>')
 
+# ---------------------------------------------------------------- 🏦 자금줄·세력 구조 (참고)
+def card_finance(x):
+    from . import finance as FZ
+    F = (x.get("rad") or {}).get("fin")
+    if not F: return f'<div class="card"><h3>🏦 자금줄·세력 구조</h3>{NA}</div>'
+    vals = FZ.values(F)
+    rows = "".join(f'<div class="tr"><div class="between"><span>{"✅" if F["signs"].get(k) else ("❔" if F["signs"].get(k) is None else "▫️")} {esc(lab)}</span></div>'
+                   f'<div class="tiny">{esc(vals.get(k) or "데이터 없음")}</div></div>' for k, lab in FZ.SIGNS)
+    an = FZ.analog_text(F)
+    an_ = ('<div class="tr"><div class="tiny"><b>같은 자금줄 다른 종목 과거</b> (분할 조정 일봉, 상폐 종목 일부 빠짐)<br>' + "<br>".join(esc(a) for a in an) + '</div></div>') if an else ""
+    wr = F.get("warr")
+    wr_ = f'<div class="tr"><div class="tiny">🎟️ 워런트 {wr["w"]:,.0f}주 = 주식수의 {wr["pct"]:.0f}% ({esc(wr["end"])} 기준, XBRL)</div></div>' if wr else '<div class="tr"><div class="tiny">🎟️ 워런트 오버행: 데이터 없음</div></div>'
+    tm = F.get("terms") or {}
+    tm_ = ""
+    if tm:
+        bits = []
+        if tm.get("shares"): bits.append(f'재판매 등록 {tm["shares"]:,.0f}주' + (f' = 현재 주식수(yfinance, 늦게 반영될 수 있음)의 <b>{tm["pct_out"]:.0f}%</b>' if tm.get("pct_out") else ""))
+        if tm.get("pct"): bits.append("본문 가격 조건: 최저가·VWAP·종가의 " + "·".join(f"{v:g}" for v in tm["pct"]) + "% (ELOC 매수가·전환가 섞여 있을 수 있음)")
+        if tm.get("commit"): bits.append(f'약정 한도 ${tm["commit"] / 1e6:,.1f}M')
+        tm_ = f'<div class="tr"><div class="tiny">📄 ELOC 등록서류({esc(tm.get("filed") or "")}) 본문: {" · ".join(bits)} (문장 자동 추출, 틀릴 수 있음)</div></div>' if bits else ""
+    col = "red" if F["n"] >= 4 else ("yellow" if F["n"] >= 2 else "")
+    S = FZ.study(); note = S.get("note_ko") or "검증 결과 파일 없음"
+    snap = f'스냅샷 {esc((F.get("built") or "")[:10]) or "없음"}' + ("" if F.get("has_snap") else " · 자금줄·ELOC 스냅샷 없음(❔)")
+    return h(f'<div class="card"><div class="between"><h3>🏦 자금줄·세력 구조</h3><span class="badge {col}">{F["n"]}/{F["m"]} · 참고</span></div>',
+             '<div class="tiny" style="margin-bottom:4px">전환사채·ELOC 자주 쓰는 투자자 공시 · ELOC 재판매 등록과 효력(EFFECT) · 역분할 횟수 · 현재가 위 매물대 '
+             f'(SEC 전문검색·제출목록, yfinance · {snap}, ❔ = 데이터 없음)</div>',
+             rows, tm_, an_, wr_,
+             f'<div class="tiny" style="margin-top:6px">📊 과거 검증: {esc(note)}</div></div>')
+
 # ---------------------------------------------------------------- 복사 글용
 def copy_lines(x):
     R = x.get("rad") or {}; L = []
@@ -194,6 +223,11 @@ def copy_lines(x):
         from . import pattern as PT
         pl = PT.line(R.get("pat"))
         if pl: L.append(pl)
+    except Exception: pass
+    try:
+        from . import finance as FZ
+        fl = FZ.line(R.get("fin"))
+        if fl: L.append(fl)
     except Exception: pass
     try:
         from . import structure as ST

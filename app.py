@@ -496,6 +496,7 @@ def page_stock():
         md(safe_card(RU.card_offer, x, "공모 위험"))
         md(safe_card(RU.card_pattern, x, "성공 패턴"))
         md(safe_card(RU.card_structure, x, "희석·상폐 구조"))
+        md(safe_card(RU.card_finance, x, "자금줄·세력 구조"))
         md(safe_card(RU.card_borrow_log, x, "대차비용 변화"))
         md(card_buyzone(x))
         return x
@@ -1599,7 +1600,7 @@ def omen_card(r):
     return h(f'<div class="card"><div class="between"><span style="font-size:17px"><b>{cpk(t, OM.copy_text(r, dash_link(t)))}</b> {tsb(t)} '
              f'<span class="tiny">${r["price"]:.4g} ({r["chg1"] * 100:+.1f}%) · {esc(r["asof"])}</span></span>'
              f'<span class="badge {col}">조짐 {r["total"]}개 · 참고</span></div>',
-             f'<div class="tiny">🧬 성공 패턴 {r["pat_n"]}/6 · 💣 희석·상폐 구조 {r["st_n"]}/7</div>', rows,
+             f'<div class="tiny">🧬 성공 패턴 {r["pat_n"]}/6 · 💣 희석·상폐 구조 {r["st_n"]}/7 · 🏦 자금줄·세력 {r.get("fz_n", 0)}/7</div>', rows,
              f'<div class="tiny" style="margin-top:4px">데이터 없음: {esc(", ".join(ms))}</div>' if ms else "", "</div>")
 
 def omen_note():
@@ -1615,7 +1616,8 @@ def omen_note():
                f'그런데 5일 뒤 종가 중앙값 {b3["fc5_med"] * 100:+.1f}% (0개 {b0["fc5_med"] * 100:+.1f}%)')
         if a3.get("hit") is not None: txt += f' · 앱 성공 기준 {a3["hit"] * 100:.0f}% vs 평균 {ab.get("hit", 0) * 100:.0f}%'
     return (f'<div class="card tiny" style="line-height:1.55">{txt}<br>→ <b>"크게 튈 수 있는 자리"</b>지 "오를 자리"는 아니라서 점수·확률에 넣지 않았어요 (참고). '
-            '튀면 짧게 익절, 들고 가지 않기. 🧬 = 급등 사례 공통점(6가지, 3개 이상일 때만 셈) · 💣 = 전환사채·주식수 급증·현금 런웨이·$0.10 상폐선·베이비 셸프·10-Q 마감·호재 반응 약화(7가지)</div>')
+            '튀면 짧게 익절, 들고 가지 않기. 🧬 = 급등 사례 공통점(6가지, 3개 이상일 때만 셈) · 💣 = 전환사채·주식수 급증·현금 런웨이·$0.10 상폐선·베이비 셸프·10-Q 마감·호재 반응 약화(7가지)'
+            ' · 🏦 = 희석성 자금줄·ELOC 등록/효력·역분할·위 매물대(7가지, 3개 이상일 때만 셈)</div>')
 
 def _db_ver():
     from core import db as _db

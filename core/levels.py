@@ -364,6 +364,10 @@ def radar(x, fetch_docs=True):
         R["st"] = ST.compute(b.px, getattr(b, "fil", None), getattr(b, "facts", None), getattr(b, "info", None))
     except Exception as e: R["st"] = None; R["err"].append(f"구조: {e}")
     try:
+        from . import finance as FZ
+        R["fin"] = FZ.compute(t, b.px, x.get("info") or getattr(b, "info", None), getattr(b, "facts", None), fetch_docs=fetch_docs)
+    except Exception as e: R["fin"] = None; R["err"].append(f"자금줄: {e}")
+    try:
         R["ca"] = cover_alert(f, R["lm"], R["ez"], R["br"], price, f.get("vol_ratio"))
         R["story"] = cover_story(R["ca"], f)
     except Exception as e: R["ca"] = None; R["story"] = ""; R["err"].append(f"경보: {e}")

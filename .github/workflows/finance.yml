@@ -1,0 +1,58 @@
+# 🏦 자금줄·세력 구조 스냅샷 주간 갱신 (공개 SEC 공시 + yfinance 분할) → alert-data 브랜치 data/finance/financiers.json
+# 앱은 이 파일을 먼저 읽고, 없으면 저장소의 model/financiers.json 을 씁니다.
+name: finance
+
+on:
+  schedule:
+    - cron: "40 3 * * 0"       # 매주 일요일 UTC 03:40 = 한국 12:40
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finance
+  cancel-in-progress: false
+
+env:
+  SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+      - name: DB 받기 (분할 확인용 티커 목록)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p data
+          gh release download db-latest -p shortdash.sqlite.gz -D /tmp --clobber && gunzip -c /tmp/shortdash.sqlite.gz > data/shortdash.sqlite || true
+      - name: SEC 전문검색 → 자금줄·ELOC 등록·EFFECT
+        run: python scripts/finance_build.py --fresh
+      - name: yfinance 분할·일봉 (스냅샷 종목)
+        run: python scripts/finance_yf.py data/finance_tickers.txt
+      - name: 스냅샷 만들기
+        run: python scripts/finance_study.py --snap-only
+      - name: alert-data 브랜치에 올리기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          url="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone --depth 1 --branch alert-data "$url" alertdata
+          mkdir -p alertdata/data/finance && cp model/financiers.json alertdata/data/finance/financiers.json
+          cd alertdata
+          git config user.name "shortradar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/finance
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -q -m "finance snapshot $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git push -q origin HEAD:alert-data && exit 0; git pull -q --rebase origin alert-data; done
+          exit 1

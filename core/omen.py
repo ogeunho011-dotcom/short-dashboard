@@ -1,8 +1,9 @@
-"""🔮 조짐 보이는 종목: 🧬 성공 패턴(6가지) 3개 이상 또는 💣 희석·상폐 구조 신호(7가지) 2개 이상인 종목을 따로 모아 보여줌.
+"""🔮 조짐 보이는 종목: 🧬 성공 패턴(6가지) 3개 이상 또는 💣 희석·상폐 구조 신호(7가지) 2개 이상
+(또는 🏦 자금줄·세력 구조 신호 3개 이상)인 종목을 따로 모아 보여줌.
 둘 다 과거 검증에서 '5일 안 +30% 터치'는 잦지만 5일 뒤 종가·앱 성공 기준은 좋지 않아 점수 미반영(참고)."""
 import datetime as dt
 import numpy as np, pandas as pd
-from . import db, pattern as PT, structure as ST
+from . import db, pattern as PT, structure as ST, finance as FZ
 
 def _one(t, mcap=None, since=None):
     px = db.q("SELECT date, open, high, low, close, volume FROM prices WHERE ticker=? AND date>=? ORDER BY date", (t, since))
@@ -12,10 +13,13 @@ def _one(t, mcap=None, since=None):
     facts = db.kv_get(f"facts:{t}") or {}
     pm = PT.match(px, None, None, fil, mcap=mcap or None)
     sm = ST.compute(px, fil, facts, mcap=mcap or None)
-    if not pm and not sm: return None
-    pn = pm["n"] if pm else 0; sn = sm["n"] if sm else 0
+    try: fz = FZ.compute(t, px, db.kv_get(f"info:{t}") or {}, facts)
+    except Exception: fz = None
+    if not pm and not sm and not fz: return None
+    pn = pm["n"] if pm else 0; sn = sm["n"] if sm else 0; fn = fz["n"] if fz else 0
     return dict(ticker=t, price=float(px.close.iloc[-1]), chg1=float(px.close.iloc[-1] / px.close.iloc[-2] - 1), asof=str(px.date.iloc[-1].date()),
-                pm=pm, sm=sm, pat_n=pn, st_n=sn, total=(pn if pn >= 3 else 0) + sn, keep=pn >= 3 or sn >= 2)
+                pm=pm, sm=sm, fz=fz, pat_n=pn, st_n=sn, fz_n=fn,
+                total=(pn if pn >= 3 else 0) + sn + (fn if fn >= 3 else 0), keep=pn >= 3 or sn >= 2 or fn >= 3)
 
 def build(df):
     """df: 최근 스캔 결과(ticker, mcap ...). 반환: 조짐 종목 리스트(신호 많은 순)."""
@@ -40,6 +44,10 @@ def signs_list(r):
         vals = ST.values(r["sm"])
         for k, lab in ST.SIGNS:
             if r["sm"]["signs"].get(k): L.append(("💣", lab, vals.get(k) or "데이터 없음"))
+    if r.get("fz"):
+        vals = FZ.values(r["fz"])
+        for k, lab in FZ.SIGNS:
+            if r["fz"]["signs"].get(k): L.append(("🏦", lab, vals.get(k) or "데이터 없음"))
     return L
 
 def missing(r):
