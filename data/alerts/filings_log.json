@@ -2499,5 +2499,39 @@
   "headline": "CRITEO APPOINTS JIANCHANG “JC” MAO TO ITS BOARD OF DIRECTORS Former Google and Microsoft technology executive brings more than 30 years of experience across AI ",
   "url": "https://www.sec.gov/Archives/edgar/data/1576427/000157642726000101/0001576427-26-000101-index.htm",
   "seen_kst": "2026-10-29 20:10"
+ },
+ {
+  "ticker": "MYE",
+  "form": "10-Q",
+  "acc": "0001193125-26-436966",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:10:36+00:00",
+  "accepted_kst": "10/29 20:10",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/69488/000119312526436966/0001193125-26-436966-index.htm",
+  "seen_kst": "2026-10-29 20:12"
+ },
+ {
+  "ticker": "TSAT",
+  "form": "6-K",
+  "acc": "0001213900-26-113528",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:12:14+00:00",
+  "accepted_kst": "10/29 20:12",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Telesat reports results for the three and nine months ended September 30, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/1845840/000121390026113528/0001213900-26-113528-index.htm",
+  "seen_kst": "2026-10-29 20:12"
  }
 ]
