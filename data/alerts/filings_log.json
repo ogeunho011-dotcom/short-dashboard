@@ -4756,5 +4756,22 @@
   "headline": "NEWS RELEASE CONTACT: Al Galgano 952-224-6096 al.galgano@spok.com Spok Reports Third Quarter 2026 Results Net Income and Adjusted EBITDA Up Over 200% and Nearly",
   "url": "https://www.sec.gov/Archives/edgar/data/1289945/000128994526000058/0001289945-26-000058-index.htm",
   "seen_kst": "2026-10-30 03:25"
+ },
+ {
+  "ticker": "PDS",
+  "form": "144",
+  "acc": "0001949846-26-000624",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T18:42:18+00:00",
+  "accepted_kst": "10/30 03:42",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013605/000194984626000624/0001949846-26-000624-index.htm",
+  "seen_kst": "2026-10-30 03:45"
  }
 ]
