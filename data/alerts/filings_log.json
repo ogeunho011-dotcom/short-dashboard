@@ -4654,5 +4654,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/921557/000187401626000012/0001874016-26-000012-index.htm",
   "seen_kst": "2026-10-30 02:20"
+ },
+ {
+  "ticker": "CEPU",
+  "form": "6-K",
+  "acc": "0001292814-26-005026",
+  "items": "",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T18:26:12+00:00",
+  "accepted_kst": "10/29 03:26",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "_] Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Yes [_] No [X] Indicate by check ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426005026/0001292814-26-005026-index.htm",
+  "seen_kst": "2026-10-30 02:45"
  }
 ]
