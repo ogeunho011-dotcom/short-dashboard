@@ -2737,5 +2737,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250808003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250808003",
   "grade": "n/a"
+ },
+ {
+  "id": "TOYO-1793281807",
+  "ts_kst": "2026-10-29 22:50",
+  "ts_utc": "2026-10-29T13:50:07+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "TOYO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.7% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TOYO 장중 급등 포착",
+  "body": "$4.420 (+15.7%) · 정규장 · 레벨 1 · 점수 9\n$4.75 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +15.7% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.147 지정가(20일선, 기준가 대비 -6.2%) · 체결 가능성 약 16% · 손익분기 $4.197\n숏 지지구간 $3.750–$4.000 · 손절 $3.625 · 1차목표 $4.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.42,
+  "level": 1,
+  "score": 8.9,
+  "prob": 52.91666666666666,
+  "cp": 50.575213872392965,
+  "rl": 4.75,
+  "stop": 3.625,
+  "zone": [
+   3.75,
+   4.0
+  ],
+  "bp": 4.1467,
+  "tgt": 4.75,
+  "stp": 3.625,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220316003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220316003",
+  "grade": "open"
  }
 ]
