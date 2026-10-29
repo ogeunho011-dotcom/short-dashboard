@@ -4463,5 +4463,39 @@
   "headline": "Leonard Daniel J",
   "url": "https://www.sec.gov/Archives/edgar/data/1431567/000143774926033873/0001437749-26-033873-index.htm",
   "seen_kst": "2026-10-30 00:50"
+ },
+ {
+  "ticker": "FNWB",
+  "form": "8-K",
+  "acc": "0001437749-26-033875",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T15:57:06+00:00",
+  "accepted_kst": "10/30 00:57",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ") is being furnished under Item 2.02 hereof and shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934 (the \"Exchange Act",
+  "url": "https://www.sec.gov/Archives/edgar/data/1556727/000143774926033875/0001437749-26-033875-index.htm",
+  "seen_kst": "2026-10-30 01:00"
+ },
+ {
+  "ticker": "JBDI",
+  "form": "6-K",
+  "acc": "0001493152-26-049221",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T15:58:08+00:00",
+  "accepted_kst": "10/30 00:58",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "THE COMPANIES ACT (AS AMENDED) OF THE CAYMAN ISLANDS COMPANY LIMITED BY SHARES SECOND AMENDED AND RESTATED MEMORANDUM AND ARTICLES OF ASSOCIATION OF JBDI HOLDIN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964314/000149315226049221/0001493152-26-049221-index.htm",
+  "seen_kst": "2026-10-30 01:00"
  }
 ]
