@@ -137,7 +137,7 @@ div[data-testid="stTextInput"] input { background:#151923; border-radius:12px; }
 </style>
 """
 
-NAV = [("home", "🏠", "홈·선별"), ("stock", "📈", "종목"), ("live", "⚡", "실시간"), ("track", "⏳", "타임머신"), ("sec", "🔬", "SEC"), ("admin", "⚙️", "관리")]
+NAV = [("home", "🏠", "홈·선별"), ("sec", "🔬", "SEC"), ("stock", "📈", "종목"), ("live", "⚡", "실시간"), ("track", "⏳", "타임머신"), ("admin", "⚙️", "관리")]
 
 def esc(x): return _h.escape(str(x))
 
