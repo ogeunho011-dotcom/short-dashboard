@@ -1777,5 +1777,48 @@
    "accepted_kst": "10/29 20:05",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "NUWE-1793274165",
+  "ts_kst": "2026-10-29 20:42",
+  "ts_utc": "2026-10-29T11:42:45+00:00",
+  "date_et": "2026-10-29",
+  "session": "pre",
+  "ticker": "NUWE",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 77/100"
+  ],
+  "title": "🚀 NUWE 커버 압력",
+  "body": "$6.726 (+18.8%) · 프리마켓 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $7.32 넘으면 급등 가능성 ↑ · 시장에 도는 주식 365만 주뿐이라 쉽게 크게 움직임\n• 커버 압력 77/100\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $6.390 지정가(기준가 $6.726의 −5%) · 체결 가능성 약 62% · 손익분기 $6.467\n숏 지지구간 $5.000–$5.500 · 손절 $4.500 · 1차목표 $7.316\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.7265,
+  "level": 3,
+  "score": 41.3,
+  "prob": 45.01661129568107,
+  "cp": 76.62653654447207,
+  "rl": 7.3162,
+  "stop": 4.5,
+  "zone": [
+   5.0,
+   5.5
+  ],
+  "bp": 6.3902,
+  "tgt": 7.3162,
+  "stp": 4.5,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
+  "grade": "open"
  }
 ]
