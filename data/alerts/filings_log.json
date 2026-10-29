@@ -1915,5 +1915,39 @@
   "headline": "Contact: Omnicell, Inc. David Unger 4220 North Freeway Vice President, Investor Relations Fort Worth, TX 76137 ir@omnicell.com Omnicell Announces Third Quarter ",
   "url": "https://www.sec.gov/Archives/edgar/data/926326/000092632626000024/0000926326-26-000024-index.htm",
   "seen_kst": "2026-10-29 19:37"
+ },
+ {
+  "ticker": "LZM",
+  "form": "6-K",
+  "acc": "0001958217-26-000011",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T10:37:32+00:00",
+  "accepted_kst": "10/29 19:37",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "also includes management’s discussion and analysis of financial conditions and results of the Company's operations for the three and nine months ended September",
+  "url": "https://www.sec.gov/Archives/edgar/data/1958217/000195821726000011/0001958217-26-000011-index.htm",
+  "seen_kst": "2026-10-29 19:40"
+ },
+ {
+  "ticker": "CCB",
+  "form": "8-K",
+  "acc": "0001437958-26-000075",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T10:38:37+00:00",
+  "accepted_kst": "10/29 19:38",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "to this Current Report on Form 8-K pursuant to General Instruction B.2 of Form 8-K and the information provided in Item 2.02 of this report, including Exhibit 9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1437958/000143795826000075/0001437958-26-000075-index.htm",
+  "seen_kst": "2026-10-29 19:40"
  }
 ]
