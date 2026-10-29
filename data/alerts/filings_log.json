@@ -4019,5 +4019,22 @@
   "headline": "For more information: Joe Zanco, President and CEO (337) 948-3033 ​ For Immediate Release Release Date: October 29, 2026 ​ Catalyst Bancorp, Inc. Announces 2026",
   "url": "https://www.sec.gov/Archives/edgar/data/1849867/000110465926119968/0001104659-26-119968-index.htm",
   "seen_kst": "2026-10-29 22:15"
+ },
+ {
+  "ticker": "MTEK",
+  "form": "6-K",
+  "acc": "0001185185-26-005055",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:15:16+00:00",
+  "accepted_kst": "10/29 22:15",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Maris-Tech Receives Follow-On Order, Reflecting Continued Defense Market Recognition of Its Technology Repeat order from a leading Israeli defense industry comp",
+  "url": "https://www.sec.gov/Archives/edgar/data/1872964/000118518526005055/0001185185-26-005055-index.htm",
+  "seen_kst": "2026-10-29 22:17"
  }
 ]
