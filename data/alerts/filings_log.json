@@ -4807,5 +4807,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1093672/000195779926000186/0001957799-26-000186-index.htm",
   "seen_kst": "2026-10-30 04:17"
+ },
+ {
+  "ticker": "PEBK",
+  "form": "4",
+  "acc": "0001654954-26-009235",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T19:17:08+00:00",
+  "accepted_kst": "10/30 04:17",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1093672/000165495426009235/0001654954-26-009235-index.htm",
+  "seen_kst": "2026-10-30 04:20"
  }
 ]
