@@ -3749,5 +3749,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20151111001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20151111001",
   "grade": "open"
+ },
+ {
+  "id": "CRIS-1793289908",
+  "ts_kst": "2026-10-30 01:05",
+  "ts_utc": "2026-10-29T16:05:08+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "CRIS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CRIS 장중 급등 포착",
+  "body": "$0.523 (+16.2%) · 정규장 · 레벨 2 · 점수 35\n시장에 도는 주식 209만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.2% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.497 지정가(기준가 $0.523의 −5%) · 체결 가능성 약 69% · 손익분기 $0.503\n숏 지지구간 $0.366–$0.500 · 손절 $0.261 · 1차목표 $0.860\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5228,
+  "level": 2,
+  "score": 34.8,
+  "prob": 38.456237077877326,
+  "cp": 5.628704134980105,
+  "rl": 5.0,
+  "stop": 0.2614000141620636,
+  "zone": [
+   0.365960019826889,
+   0.5
+  ],
+  "bp": 0.4967,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
+  "grade": "n/a"
  }
 ]
