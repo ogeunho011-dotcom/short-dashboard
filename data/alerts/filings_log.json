@@ -3932,5 +3932,39 @@
   "headline": "NextBoat Secures Financing to Support Growth and Sharpen Focus on Its Core Pre-Owned Boat Business WILMINGTON, NC / ACCESS Newswire / October 29, 2026 / NextBoa",
   "url": "https://www.sec.gov/Archives/edgar/data/2067767/000149315226049199/0001493152-26-049199-index.htm",
   "seen_kst": "2026-10-29 22:07"
+ },
+ {
+  "ticker": "LXU",
+  "form": "8-K",
+  "acc": "0001193125-26-436180",
+  "items": "2.02,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:16:05+00:00",
+  "accepted_kst": "10/29 05:16",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "LSB INDUSTRIES, INC. REPORTS OPERATING RESULTS FOR THE 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526436180/0001193125-26-436180-index.htm",
+  "seen_kst": "2026-10-29 22:10"
+ },
+ {
+  "ticker": "LXU",
+  "form": "8-K",
+  "acc": "0001193125-26-437104",
+  "items": "9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:09:12+00:00",
+  "accepted_kst": "10/29 22:09",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Statements in this presentation that are not historical are forward-looking statements within the meaning of the U.S. Private Securities Litigation Reform Act o",
+  "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526437104/0001193125-26-437104-index.htm",
+  "seen_kst": "2026-10-29 22:10"
  }
 ]
