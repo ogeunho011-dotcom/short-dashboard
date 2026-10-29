@@ -2482,5 +2482,22 @@
   "headline": "Bicycle Therapeutics Reports Recent Business Progress and Third Quarter 2026 Financial Results Nuzefatide pevedotin granted FDA Orphan Drug Designation for the ",
   "url": "https://www.sec.gov/Archives/edgar/data/1761612/000110465926119858/0001104659-26-119858-index.htm",
   "seen_kst": "2026-10-29 20:07"
+ },
+ {
+  "ticker": "CRTO",
+  "form": "8-K",
+  "acc": "0001576427-26-000101",
+  "items": "5.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:07:36+00:00",
+  "accepted_kst": "10/29 20:07",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "CRITEO APPOINTS JIANCHANG “JC” MAO TO ITS BOARD OF DIRECTORS Former Google and Microsoft technology executive brings more than 30 years of experience across AI ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1576427/000157642726000101/0001576427-26-000101-index.htm",
+  "seen_kst": "2026-10-29 20:10"
  }
 ]
