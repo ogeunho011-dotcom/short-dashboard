@@ -4000,5 +4000,24 @@
   "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders On October 28, 2026, Varex Imaging Corporation, a Delaware corporation (the “Company”), held a spe",
   "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000077/0001681622-26-000077-index.htm",
   "seen_kst": "2026-10-29 22:12"
+ },
+ {
+  "ticker": "CLST",
+  "form": "8-K",
+  "acc": "0001104659-26-119968",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:13:31+00:00",
+  "accepted_kst": "10/29 22:13",
+  "polarity": "pos",
+  "label": "피인수·합병(주당 가격 제시)",
+  "cats": [
+   "피인수·합병(주당 가격 제시)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "For more information: Joe Zanco, President and CEO (337) 948-3033 ​ For Immediate Release Release Date: October 29, 2026 ​ Catalyst Bancorp, Inc. Announces 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/1849867/000110465926119968/0001104659-26-119968-index.htm",
+  "seen_kst": "2026-10-29 22:15"
  }
 ]
