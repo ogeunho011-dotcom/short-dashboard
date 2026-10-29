@@ -127,6 +127,66 @@ def test_adapt_cold_keeps_under_target():
     ad3 = {"n": 100, "pos": 0, "per": None, "other": None, "last": None, "prev_n": None}
     assert ar.adapt_cold(200, 180, 1100, 1000, 2300, 120, ad3) == ar.COLD_MIN
 
+# ---------------------------------------------------------------- 💣 최신 공시 값 · ⚠️ 참고 경고 4종
+_XBRL = """<xbrl><xbrli:context id="c1"><xbrli:entity/><xbrli:period><xbrli:instant>2026-06-30</xbrli:instant></xbrli:period></xbrli:context>
+<xbrli:context id="c0"><xbrli:period><xbrli:instant>2025-12-31</xbrli:instant></xbrli:period></xbrli:context>
+<xbrli:context id="d6"><xbrli:period><xbrli:startDate>2026-01-01</xbrli:startDate><xbrli:endDate>2026-06-30</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="d3"><xbrli:period><xbrli:startDate>2026-04-01</xbrli:startDate><xbrli:endDate>2026-06-30</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="seg"><xbrli:entity><xbrli:segment><xbrldi:explicitMember>x</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:instant>2026-09-30</xbrli:instant></xbrli:period></xbrli:context>
+<ifrs-full:CashAndCashEquivalents contextRef="c1" decimals="0">770000</ifrs-full:CashAndCashEquivalents>
+<ifrs-full:CashAndCashEquivalents contextRef="c0" decimals="0">480000</ifrs-full:CashAndCashEquivalents>
+<ifrs-full:CashAndCashEquivalents contextRef="seg" decimals="0">999</ifrs-full:CashAndCashEquivalents>
+<ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="d6">-8207239</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+<ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="d3">-3000000</ifrs-full:CashFlowsFromUsedInOperatingActivities></xbrl>"""
+_SWAP = ("RedCloud Holdings plc (Nasdaq: RCT) today announced that it has entered into subscription agreements and set-off agreements with Company insiders "
+         "pursuant to which the Company agreed to issue and sell 31.7 million of its unregistered ordinary shares in a private placement at a price per share of $0.25, "
+         "representing a premium of approximately 281% to the closing price of the Company’s ordinary shares on October 27, 2026, for an aggregate subscription price of $7,925,000. "
+         "The aggregate subscription price will be paid to the Company by offsetting financial liabilities of the Company owed to such Company insiders.")
+
+def test_events_parsers():
+    from core import events as EV
+    x = EV.parse_instance(_XBRL)
+    assert x["cash"] == ("2026-06-30", 770000.0)                                # 차원 있는 값(999)·이전 기간 무시
+    assert x["opcf"] == ("2026-01-01", "2026-06-30", -8207239.0)                # 같은 끝날 → 가장 긴 기간
+    s = EV.parse_swap(_SWAP)
+    assert s["shares"] == 31.7e6 and s["price"] == 0.25 and s["insider"] and s["close_date"] == "2026-10-27" and s["cash_in"] is False
+    assert EV.parse_swap("The Company sold shares for cash in a registered direct offering.") is None
+    t = "the Issuer had 85,956,495 ordinary shares outstanding as of October 27, 2026. 86,091,495 shares including options to purchase 135,000 shares outstanding as of October 27, 2026"
+    assert (85956495.0, "2026-10-27") in EV.parse_shares_out(t)
+    assert EV.parse_shares_out("As of August 1, 2026, there were 12,345,678 shares of common stock") == [(12345678.0, "2026-08-01")]
+    assert EV.parse_delist("On October 13, 2026 the Company received a Determination Letter from Nasdaq. The Company requested a hearing before the Panel, "
+                           "which stayed the suspension of trading. The hearing is scheduled for November 20, 2026.") == {"status": "hearing", "hearing": "2026-11-20"}
+    assert EV.parse_delist("The Company received a deficiency notice from Nasdaq regarding the minimum bid price.") is None
+    assert EV.parse_delist("Nasdaq notified the Company that it has regained compliance and the Panel closed the matter.")["status"] == "regained"
+    m = EV.parse_rsmeet("PROPOSAL 2: approve a reverse stock split at a ratio of 1-for-5 to 1-for-50. The special meeting of stockholders will be held on December 3, 2026.", "2026-10-20")
+    assert m["date"] == "2026-12-03" and m["ratio"] == "1:5~50"
+    px = pd.DataFrame({"close": [0.2] * 5 + [0.09] * 10})
+    assert EV.le10_streak(px) == 10 and EV.le10_streak(pd.DataFrame({"close": [0.09] * 3 + [0.11]})) == 0
+
+def test_events_latest_and_warnings():
+    from core import events as EV, structure as ST
+    fd = {"docs": [
+        {"form": "6-K", "filed": "2026-09-30", "url": "u1", "xbrl": EV.parse_instance(_XBRL)},
+        {"form": "SCHEDULE 13D/A", "filed": "2026-10-27", "url": "u2", "shares_out": [(85956495.0, "2026-10-27")]},
+        {"form": "6-K", "filed": "2026-10-28", "url": "u3", "swap": EV.parse_swap(_SWAP)},
+        {"form": "6-K", "filed": "2026-10-15", "url": "u4", "delist": {"status": "hearing", "hearing": None}},
+        {"form": "6-K", "filed": "2026-10-29", "url": "u5", "swap": EV.parse_swap(_SWAP)},   # 같은 거래 재공시 → 한 번만
+    ]}
+    lt = EV.latest(fd, "2026-10-29")
+    assert lt["cash"][:2] == ("2026-06-30", 770000.0)
+    assert abs(lt["shares"]["n"] - 117656495) < 1 and len(lt["shares"]["adds"]) == 1
+    assert abs(-lt["opcf"][2] / ST.months(lt["opcf"][0], lt["opcf"][1]) - 8207239 / 6) < 1           # 6개월 → 월 $1.37M
+    assert "shares" not in EV.latest(fd, "2026-10-26") or EV.latest(fd, "2026-10-26")["shares"]["n"] != lt["shares"]["n"]   # 접수 전 공시는 안 씀
+    d = pd.bdate_range("2026-10-01", "2026-10-28")
+    px = pd.DataFrame({"date": d, "close": [0.2] * (len(d) - 10) + [0.066] * 10})
+    W = EV.warnings("RCT", px, fd, exchange="NASDAQ", asof="2026-10-28")
+    k = {w["kind"]: w for w in W}
+    assert set(k) == {"swap", "le10", "delist"}
+    assert "$0.066" in k["swap"]["text"] and "+279%" in k["swap"]["text"] and "+37%" in k["swap"]["text"] and "현금 유입 없음" in k["swap"]["text"]
+    assert "10거래일" in k["le10"]["text"]
+    assert not any(w["kind"] == "le10" for w in EV.warnings("X", px, {}, exchange="NYSE American", asof="2026-10-28"))
+    assert EV.warnings("X", px, {"docs": [dict(fd["docs"][3], delist={"status": "regained", "hearing": None})]}, exchange="NYSE", asof="2026-10-28") == []
+
 if __name__ == "__main__":
     n = 0
     for k, v in list(globals().items()):

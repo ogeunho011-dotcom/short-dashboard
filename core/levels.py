@@ -360,8 +360,10 @@ def radar(x, fetch_docs=True):
         R["pat"] = PT.match(b.px, f, getattr(b, "info", None), getattr(b, "fil", None))
     except Exception as e: R["pat"] = None; R["err"].append(f"패턴: {e}")
     try:
-        from . import structure as ST
-        R["st"] = ST.compute(b.px, getattr(b, "fil", None), getattr(b, "facts", None), getattr(b, "info", None))
+        from . import structure as ST, events as EV
+        try: lt, R["ew"] = EV.for_ticker(t, b.px, fetch=fetch_docs)
+        except Exception as e: lt, R["ew"] = None, None; R["err"].append(f"최신 공시: {e}")
+        R["st"] = ST.compute(b.px, getattr(b, "fil", None), getattr(b, "facts", None), getattr(b, "info", None), latest=lt)
     except Exception as e: R["st"] = None; R["err"].append(f"구조: {e}")
     try:
         from . import finance as FZ

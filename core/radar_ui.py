@@ -163,9 +163,19 @@ def card_structure(x):
     col = "red" if sm["n"] >= 4 else ("yellow" if sm["n"] >= 2 else "")
     return h(f'<div class="card"><div class="between"><h3>💣 희석·상폐 구조</h3><span class="badge {col}">{sm["n"]}/{sm["m"]} · 참고</span></div>',
              '<div class="tiny" style="margin-bottom:4px">전환사채 물량·주식수 급증·현금 런웨이·$0.10 상폐선·베이비 셸프·분기보고서 마감·호재 반응 약화 (SEC XBRL·공시 기준, ❔ = 데이터 없음)</div>',
-             rows,
+             rows, warn_block((x.get("rad") or {}).get("ew")),
              '<div class="tiny" style="margin-top:6px">📊 과거 검증: 이 신호들이 켜진 날은 5일 안 +30% 터치는 조금 잦지만(넓은 표본) 5일 뒤 종가는 더 나쁘고, 앱 성공 기준으로는 오히려 낮음 → 점수에 넣지 않음. '
-             '"터지면 짧게, 들고 가지 말기" 용도로만 보세요. 전환사채는 XBRL 유동분 위주라 과소추정될 수 있음. 시총·베이비 셸프 한도는 현재 시세 주식수 기준(마지막 10-Q 이후 증자 반영).</div></div>')
+             '"터지면 짧게, 들고 가지 말기" 용도로만 보세요. 전환사채는 XBRL 유동분 위주라 과소추정될 수 있음. 시총·베이비 셸프 한도는 최신 주식수 기준(13D·신고서·6-K 공시 주식수와 그 뒤 발행 > 시세 > 마지막 10-Q). 현금·월 소모는 companyfacts 보다 새 6-K/10-Q XBRL 이 있으면 그 값.</div></div>')
+
+def warn_block(W):
+    """참고 경고 4종 (역분할 주총·내부자 부채→주식 교환·$0.10 10일 연속·상폐 결정/청문)."""
+    if W is None: return '<div class="tr"><div class="tiny">⚠️ 참고 경고(역분할 주총·부채 교환·$0.10·상폐 청문): 데이터 없음</div></div>'
+    if not W: return '<div class="tr"><div class="tiny">⚠️ 참고 경고: 해당 없음 (최근 150일 공시·종가 기준)</div></div>'
+    from . import events as EV
+    items = "".join(f'<div class="tiny">• {esc(w["text"])} <span class="badge {"red" if w.get("scored") else ""}">{"점수 반영" if w.get("scored") else "참고"}</span>'
+                    + (f' <a href="{esc(w["url"])}" target="_blank">원문</a>' if w.get("url") else "") + '</div>' for w in W)
+    return f'<div class="tr"><div class="tiny"><b>⚠️ 참고 경고</b> — {esc(EV.study_note())}</div>{items}</div>'
+
 
 # ---------------------------------------------------------------- 🏦 자금줄·세력 구조 (참고)
 def card_finance(x):
@@ -233,7 +243,11 @@ def copy_lines(x):
         from . import structure as ST
         sl = ST.line(R.get("st"))
         if sl: L.append(sl)
+        if R.get("st"):
+            v = ST.values(R["st"]); L.append("   " + v["runway"] + " · " + v["shgrow"])
     except Exception: pass
+    for w in R.get("ew") or []:
+        L.append(f"⚠️ {w['text']} [{'점수 반영' if w.get('scored') else '참고'}]")
     o = R.get("off")
     if o and o.get("tags"): L.append("🧯 공모·상장 위험: " + ", ".join(o["tags"]) + (f" — {o['items'][0]['why'][:90]}" if o.get("items") else ""))
     return L

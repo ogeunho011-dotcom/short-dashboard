@@ -162,6 +162,14 @@ def filing_flags(tickers, day):
         tag = ("증자 관련 공시 " + (form if form in OFFER_FORMS else form + " 주식 발행(3.02)") if form in OFFER_FORMS or "3.02" in items else "역분할 공시" if ("5.03" in items or "3.03" in items)
                else "상장 유지 통지" if "3.01" in items else None)
         if tag and tag not in out.setdefault(t, []): out[t].append(tag)
+    try:   # 참고 경고 4종 (역분할 주총·내부자 부채→주식 교환·$0.10 10일 연속·상폐 결정/청문) — 캐시된 공시 해석 + 일봉
+        from . import events as EV
+        for t in tickers:
+            px = db.q("SELECT date, close FROM prices WHERE ticker=? AND date <= ? ORDER BY date DESC LIMIT 40", (t, str(pd.Timestamp(day).date())))
+            for w in EV.warnings(t, px.iloc[::-1], EV.cached(t), exchange=EV.exchange(t), asof=str(pd.Timestamp(day).date()) if len(px) else None):
+                tag = w["text"] + (" [점수 반영]" if w.get("scored") else " [참고]")
+                if tag not in out.setdefault(t, []): out[t].append(tag)
+    except Exception: pass
     return out
 
 def warnings(r, flags=()):
@@ -254,12 +262,13 @@ def stats_lines():
         if J.get(k): L.append(dict(name=nm, tested=False, intra=J[k]))
     return L
 
-def copy_text(it, plan, link=""):
+def copy_text(it, plan, link="", flags=()):
     r = it["row"]
     L = [f"🌙 {it['ticker']} 종가 베팅 후보 · ${r['price']:.4g} · 오늘 {(r.get('chg1') or 0) * 100:+.1f}% (시가 대비 {fmtv('from_open', r.get('from_open'))}, 고가 대비 {fmtv('from_hi', r.get('from_hi'))}) · 조건 {it['met']}/{it['m']}"]
     rk = it.get("risk")
     if rk: L.append(f"⚠️ 추가 하락 확률(과거 {rk['cell']}, {rk['n']:,}건): 다음날 시가가 매수가보다 낮음 {rk['open_below'] * 100:.0f}% · 다음날 저가 −10%↓ {rk['lo10'] * 100:.0f}% · −20%↓ {rk['lo20'] * 100:.0f}%")
     for c in it["checks"]: L.append(f"{'✅' if c['ok'] else ('❔' if c['ok'] is None else '❌')} {c['name']}: {c['val']}" + ("" if c["tested"] else " (참고)"))
+    for w in warnings(r, flags): L.append(f"⚠️ {w}")
     L.append(f"과매도 점수 {it['over']:.0f}/100 · 체결강도(추정) 마감 60분 {fmtv('str_60', r.get('str_60'))} · 일봉 {fmtv('str_day', r.get('str_day'))}")
     L += plan
     if link: L.append(f"🔗 {link}")

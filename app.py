@@ -747,6 +747,8 @@ def copy_text_row(r):
     pn = g("pat_n")
     if ok(pn) and esc_plain(g("pat_line")): L.append(esc_plain(g("pat_line")))
     if ok(g("st_n")) and esc_plain(g("st_line")): L.append(esc_plain(g("st_line")))
+    for w in str(g("ew_line") or "").split(" | "):
+        if w.strip() and w != "nan": L.append("⚠️ " + esc_plain(w))
     fl = _filing_line(t)
     if fl: L.append(fl)
     L += ["확률·추천 매수가·손익분기는 상세 화면에서 확인", "", f"🔗 {dash_link(t)}", "※ 숏 레이더 추정치 · 투자 권유 아님"]
@@ -1600,7 +1602,8 @@ def omen_card(r):
     return h(f'<div class="card"><div class="between"><span style="font-size:17px"><b>{cpk(t, OM.copy_text(r, dash_link(t)))}</b> {tsb(t)} '
              f'<span class="tiny">${r["price"]:.4g} ({r["chg1"] * 100:+.1f}%) · {esc(r["asof"])}</span></span>'
              f'<span class="badge {col}">조짐 {r["total"]}개 · 참고</span></div>',
-             f'<div class="tiny">🧬 성공 패턴 {r["pat_n"]}/6 · 💣 희석·상폐 구조 {r["st_n"]}/7 · 🏦 자금줄·세력 {r.get("fz_n", 0)}/7</div>', rows,
+             f'<div class="tiny">🧬 성공 패턴 {r["pat_n"]}/6 · 💣 희석·상폐 구조 {r["st_n"]}/7 · 🏦 자금줄·세력 {r.get("fz_n", 0)}/7'
+             + (f' · ⚠️ 경고 {len(r.get("ew") or [])}개' + (f' (점수 반영 {r.get("ew_n", 0)})' if r.get("ew_n") else " (참고)") if r.get("ew") else "") + '</div>', rows,
              f'<div class="tiny" style="margin-top:4px">데이터 없음: {esc(", ".join(ms))}</div>' if ms else "", "</div>")
 
 def omen_note():
@@ -1775,7 +1778,7 @@ def cb_card(it, plan, near=False, flags=()):
     stop = (f'<div class="tiny">🛑 프리장 <b>${r["price"] * (1 - sr["X"] / 100):.4g}</b> 아래면 매도 (매수가 −{sr["X"]}%, 근거 약함)</div>' if sr and r.get("price") else "")
     W = CB.warnings(r, flags)
     warn = "".join(f'<div class="tiny" style="color:#b54708">❗ {esc(w)}</div>' for w in W)
-    return h(f'<div class="card"><div class="between"><span style="font-size:17px"><b>{cpk(t, CB.copy_text(it, plan, dash_link(t)))}</b> {tsb(t)} '
+    return h(f'<div class="card"><div class="between"><span style="font-size:17px"><b>{cpk(t, CB.copy_text(it, plan, dash_link(t), flags))}</b> {tsb(t)} '
              f'<span class="tiny">${r["price"]:.4g}</span></span>'
              f'<span class="badge {"yellow" if near else "red"}">{"아깝게 탈락" if near else "조건 충족"} {it["met"]}/{it["m"]}</span></div>',
              head, risk, stop, warn, rows,

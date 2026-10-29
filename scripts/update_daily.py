@@ -62,6 +62,17 @@ def main(do_scan=True):
             print("SEC 공시·재무 순환 갱신:", src.sec_rotate(U))
         except Exception as e:
             print("SEC 순환 갱신 실패:", repr(e)[:200])
+        try:   # ⚠️ 참고 경고·💣 최신 공시 값용 공시 원문 (지난 조짐 종목 → $1 이하 → 스캔 상위 순, 시간 예산 안에서)
+            from core import events as EV, omen as OM
+            prev = [r["ticker"] for r in ((OM.load_full(24 * 7) or {}).get("rows") or [])]
+            low = db.q("SELECT p.ticker FROM prices p JOIN (SELECT ticker, MAX(date) d FROM prices GROUP BY ticker) m ON p.ticker=m.ticker AND p.date=m.d "
+                       "WHERE p.close <= 1 ORDER BY p.close").ticker.tolist()
+            top = df.sort_values("score", ascending=False).ticker.head(150).tolist() if len(df) and "score" in df else []
+            us = set(U); order = list(dict.fromkeys(t for t in prev + low + top if t in us))
+            n, m, s_ = EV.refresh(order, budget_s=float(os.environ.get("EVENTS_BUDGET_S", 600)))
+            print(f"⚠️ 공시 원문 해석 (참고 경고·최신 현금/주식 수): {n}/{m}종목 · {s_}s")
+        except Exception as e:
+            print("공시 원문 해석 실패:", repr(e)[:200])
         try:
             from core import omen as OM
             to = time.time(); k, m = OM.build_full()

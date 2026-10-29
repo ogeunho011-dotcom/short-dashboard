@@ -3,7 +3,7 @@
 둘 다 과거 검증에서 '5일 안 +30% 터치'는 잦지만 5일 뒤 종가·앱 성공 기준은 좋지 않아 점수 미반영(참고)."""
 import datetime as dt
 import numpy as np, pandas as pd
-from . import db, pattern as PT, structure as ST, finance as FZ
+from . import db, pattern as PT, structure as ST, finance as FZ, events as EV
 
 def _one(t, mcap=None, since=None):
     px = db.q("SELECT date, open, high, low, close, volume FROM prices WHERE ticker=? AND date>=? ORDER BY date", (t, since))
@@ -12,14 +12,17 @@ def _one(t, mcap=None, since=None):
     fil = db.q("SELECT form, filed, items FROM filings WHERE ticker=?", (t,))
     facts = db.kv_get(f"facts:{t}") or {}
     pm = PT.match(px, None, None, fil, mcap=mcap or None)
-    sm = ST.compute(px, fil, facts, mcap=mcap or None)
+    try: lt, ew = EV.for_ticker(t, px)          # 캐시된 최신 공시 해석만 (원문은 매일 작업에서 받음)
+    except Exception: lt, ew = None, []
+    sm = ST.compute(px, fil, facts, mcap=mcap or None, latest=lt)
     try: fz = FZ.compute(t, px, db.kv_get(f"info:{t}") or {}, facts)
     except Exception: fz = None
-    if not pm and not sm and not fz: return None
+    if not pm and not sm and not fz and not ew: return None
     pn = pm["n"] if pm else 0; sn = sm["n"] if sm else 0; fn = fz["n"] if fz else 0
+    wn = sum(1 for w in ew if w.get("scored"))     # 과거 검증에서 근거가 성립한 경고만 개수에 더함
     return dict(ticker=t, price=float(px.close.iloc[-1]), chg1=float(px.close.iloc[-1] / px.close.iloc[-2] - 1), asof=str(px.date.iloc[-1].date()),
-                pm=pm, sm=sm, fz=fz, pat_n=pn, st_n=sn, fz_n=fn,
-                total=(pn if pn >= 3 else 0) + sn + (fn if fn >= 5 else 0), keep=pn >= 3 or sn >= 2 or fn >= 5)
+                pm=pm, sm=sm, fz=fz, ew=ew, pat_n=pn, st_n=sn, fz_n=fn, ew_n=wn,
+                total=(pn if pn >= 3 else 0) + sn + (fn if fn >= 5 else 0) + wn, keep=pn >= 3 or sn >= 2 or fn >= 5 or wn >= 1)
 
 def build(df):
     """df: 최근 스캔 결과(ticker, mcap ...). 반환: 조짐 종목 리스트(신호 많은 순)."""
@@ -48,6 +51,8 @@ def signs_list(r):
         vals = FZ.values(r["fz"])
         for k, lab in FZ.SIGNS:
             if r["fz"]["signs"].get(k): L.append(("🏦", lab, vals.get(k) or "데이터 없음"))
+    for w in r.get("ew") or []:
+        L.append(("⚠️", EV.KIND_KO.get(w["kind"], w["kind"]) + (" [점수 반영]" if w.get("scored") else " [참고]"), w["text"]))
     return L
 
 def missing(r):

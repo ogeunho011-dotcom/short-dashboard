@@ -49,6 +49,11 @@ def _latest_by_filed(x, dates, value_fn, maxage=400):
     age = (dates.astype("int64") - e) / 864e11
     return np.where(age <= maxage, v, np.nan)
 
+def months(start, end):
+    """기간 개월 수 (181일 → 6개월처럼 분기·반기·연 단위로 반올림, 애매하면 일수/30.44)."""
+    m = (pd.Timestamp(end) - pd.Timestamp(start)).days / 30.44
+    return max(round(m) if abs(m - round(m)) < 0.25 else m, 1)
+
 def next_due(d):
     d = pd.Timestamp(d); c = []
     for y in (d.year, d.year + 1):
@@ -75,7 +80,7 @@ def daily_frame(px, fil=None, facts=None):
     def _burn(k, e):
         q = k[(k["end"] == e) & k["start"].notna()]
         if not len(q): return np.nan
-        r = q.iloc[-1]; mo = max((r["end"] - r["start"]).days / 30.4, 1)
+        r = q.iloc[-1]; mo = months(r["start"], r["end"])
         return -float(r["val"]) / mo
     F["burn_m"] = _latest_by_filed(op, d, _burn) if len(op) and "start" in op else np.nan
     F["mcap"] = F["shares"] * F["price"]
@@ -123,10 +128,41 @@ def signs_from_row(r):
     s["prfade"] = bool(r.get("pr_n", 0) >= 3 and nn(r.get("pr_last")) and nn(r.get("pr_max_prev")) and r["pr_last"] < r["pr_max_prev"] * 0.5)
     return s
 
-def compute(px, fil=None, facts=None, info=None, mcap=None):
+def _apply_latest(r, sg, lt, facts, asof, price):
+    """companyfacts 보다 새 공시 값(events.latest)이 있으면 현금·월 소모·주식 수를 덮어씀. 출처·기준일을 r 에 남김."""
+    nn = lambda v: v is not None and not (isinstance(v, float) and np.isnan(v))
+    def fend(key):
+        x = _series(facts, key)
+        x = x[x["filed"] < asof] if len(x) else x
+        return x["end"].max() if len(x) else None
+    fe = fend("cash"); r["cash_end"] = str(fe.date()) if fe is not None and nn(r.get("cash")) else None; r["cash_src"] = "XBRL"
+    c = lt.get("cash")
+    if c and (fe is None or pd.Timestamp(c[0]) > fe):
+        r["cash"], r["cash_end"], r["cash_src"] = float(c[1]), c[0], c[2]
+    oe = fend("opcf"); r["burn_end"] = str(oe.date()) if oe is not None and nn(r.get("burn_m")) else None; r["burn_src"] = "XBRL"
+    o = lt.get("opcf")
+    if o and (oe is None or pd.Timestamp(o[1]) > oe):
+        mo = months(o[0], o[1])
+        r["burn_m"], r["burn_end"], r["burn_src"], r["burn_period"] = -float(o[2]) / mo, o[1], o[3], f"{o[0]}~{o[1]}"
+    if nn(r.get("cash")) and nn(r.get("burn_m")):
+        r["runway_m"] = r["cash"] / r["burn_m"] if r["burn_m"] > 0 else np.nan
+        sg["runway"] = bool(r["runway_m"] < 6) if nn(r["runway_m"]) else False   # 소모 없음(현금 유입) → 런웨이 문제 아님
+    sh = lt.get("shares")
+    if sh and price and pd.Timestamp(sh["date"]) >= asof - pd.Timedelta(days=45):
+        r["shares_pre"] = r.get("shares"); r["shares_pre_src"] = r.get("shares_src")
+        r["shares"] = float(sh["n"]); r["shares_src"] = "공시"; r["shares_note"] = sh
+        r["mcap"] = r["shares"] * price
+        if nn(r.get("conv")): r["overhang"] = r["conv"] / r["mcap"]
+        sg["overhang"] = (r["overhang"] >= 0.5) if nn(r.get("overhang")) else None
+        r["baby_cap"] = r["mcap"] / 3 if r["mcap"] < 75e6 else None
+        if nn(r.get("shares_old")) and r["shares_old"] > 0:
+            r["shgrow"] = r["shares"] / r["shares_old"] - 1; sg["shgrow"] = bool(r["shgrow"] >= 0.5)
+
+def compute(px, fil=None, facts=None, info=None, mcap=None, latest=None):
     """상세 카드·스캔용 최신 상태. 반환 dict 또는 None.
     mcap: 현재 시총(스캔·시세). XBRL 주식수는 마지막 10-Q 기준이라 그 뒤 증자·전환이 빠짐 →
-    현재 시총/시세 주식수가 있으면 최신 값(시총·전환사채 비율·베이비 셸프 한도)은 그걸로 계산."""
+    현재 시총/시세 주식수가 있으면 최신 값(시총·전환사채 비율·베이비 셸프 한도)은 그걸로 계산.
+    latest: core.events.latest() — companyfacts 보다 새 공시(6-K/10-Q XBRL 인스턴스, 13D·신고서 주식 수, 그 뒤 발행)."""
     if px is None or len(px) < 15: return None
     try: F = daily_frame(px.tail(260), fil, facts)
     except Exception: return None
@@ -149,6 +185,9 @@ def compute(px, fil=None, facts=None, info=None, mcap=None):
         sg["overhang"] = (r["overhang"] >= 0.5) if nn(r.get("overhang")) else None
         if nn(r.get("shares_old")) and r["shares_old"] > 0:      # 10-Q 이후 증자분까지 반영한 주식수 증가
             r["shgrow"] = cur / r["shares_old"] - 1; sg["shgrow"] = bool(r["shgrow"] >= 0.5)
+    if latest:
+        try: _apply_latest(r, sg, latest, facts, F.index[-1], price)
+        except Exception: pass
     # 유통주식(info) 이 있으면 베이비 셸프 한도는 유통 시총 기준 (발행주식보다 클 수 없음)
     fs = info.get("floatShares")
     if fs and price:
@@ -180,14 +219,28 @@ def fmt(v, kind):
 def _sh(v):
     return "데이터 없음" if v is None or (isinstance(v, float) and np.isnan(v)) else f"{v / 1e6:.1f}M주"
 
+def _asof(v, k):
+    e = v.get(f"{k}_end")
+    if not e: return ""
+    src = v.get(f"{k}_src") or "XBRL"
+    return f"({e} 기준{', ' + src if src != 'XBRL' else ''})"
+
+def _sh_note(v):
+    n = v.get("shares_note") or {}
+    adds = " + ".join(f"{a[0][5:]} {a[2]} {a[1] / 1e6:.1f}M" for a in n.get("adds") or [])
+    src = f"{n.get('src')} {n.get('date')} {n.get('base', 0) / 1e6:.2f}M" + (f" + {adds}" if adds else "")
+    pre = f" (시세 {_sh(v.get('shares_pre'))})" if v.get("shares_pre_src") == "시세" else ""
+    return f"주식수 {_sh(v.get('shares_old'))}(XBRL) → 10-Q {_sh(v.get('shares_xbrl'))} → 현재 약 {_sh(v.get('shares'))}(공시: {src}){pre} ({fmt(v.get('shgrow'), 'pct')})"
+
 def values(st):
     """사람이 읽는 핵심 숫자 (키 → 문자열)."""
     v = st["v"]
     pr = " → ".join(f"{p[1]:+.0f}%" for p in st.get("pr") or []) or "데이터 없음"
     return {"overhang": f"전환사채 {fmt(v.get('conv'), 'usd')} ÷ 시총 {fmt(v.get('mcap'), 'usd')} = {fmt(v.get('overhang'), 'x')}",
-            "shgrow": (f"주식수 {_sh(v.get('shares_old'))}(XBRL) → 10-Q {_sh(v.get('shares_xbrl'))} → 현재 약 {_sh(v.get('shares'))}(시세) ({fmt(v.get('shgrow'), 'pct')})" if v.get('shares_src') == '시세'
+            "shgrow": (_sh_note(v) if v.get('shares_src') == '공시' else
+                       f"주식수 {_sh(v.get('shares_old'))}(XBRL) → 10-Q {_sh(v.get('shares_xbrl'))} → 현재 약 {_sh(v.get('shares'))}(시세) ({fmt(v.get('shgrow'), 'pct')})" if v.get('shares_src') == '시세'
                        else f"주식수 {_sh(v.get('shares_old'))} → {_sh(v.get('shares'))} ({fmt(v.get('shgrow'), 'pct')})"),
-            "runway": f"현금 {fmt(v.get('cash'), 'usd')} · 월 소모 {fmt(v.get('burn_m'), 'usd')} → {fmt(v.get('runway_m'), 'm')}",
+            "runway": f"현금 {fmt(v.get('cash'), 'usd')}{_asof(v, 'cash')} · 월 소모 {fmt(v.get('burn_m'), 'usd')}{_asof(v, 'burn')} → {fmt(v.get('runway_m'), 'm')}",
             "near10": f"$0.10까지 {fmt(v.get('dist10'), 'pct')} · 최근 10일 중 $0.10 이하 종가 {int(v.get('n_le10') or 0)}일 (10일 연속이면 상폐 결정)",
             "baby": f"베이비 셸프 한도({'유통 시총' if v.get('float_usd') else '시총'} 1/3) {fmt(v.get('baby_cap'), 'usd')} vs 1년 소모 {fmt((v.get('burn_m') or np.nan) * 12, 'usd')}",
             "qwin": f"다음 10-Q/10-K 마감 {st['due']} (D{-int(v['dd_due']):+d})" if v.get("dd_due") is not None else "데이터 없음",
