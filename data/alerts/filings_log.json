@@ -3454,5 +3454,25 @@
   "headline": "MARCUS CORPORATION REPORTS THIRD QUARTER 2026 RESULTS Marcus Corporation reports highest quarterly revenue in company history thanks to record third quarter rev",
   "url": "https://www.sec.gov/Archives/edgar/data/62234/000006223426000046/0000062234-26-000046-index.htm",
   "seen_kst": "2026-10-29 21:25"
+ },
+ {
+  "ticker": "ESTA",
+  "form": "8-K",
+  "acc": "0001688757-26-000056",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:25:24+00:00",
+  "accepted_kst": "10/29 21:25",
+  "polarity": "pos",
+  "label": "FDA 승인·허가 · 실적 호조·가이던스 상향",
+  "cats": [
+   "FDA 승인·허가",
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "PRESS RELEASE Investor/Media Contact: Malavika William mwilliam@establishmentlabs.com Establishment Labs ® Reports Third Quarter 2026 Financial Results Revenue ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1688757/000168875726000056/0001688757-26-000056-index.htm",
+  "seen_kst": "2026-10-29 21:27"
  }
 ]
