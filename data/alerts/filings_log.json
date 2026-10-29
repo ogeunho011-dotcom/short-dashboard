@@ -2567,5 +2567,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1761612/000110465926119864/0001104659-26-119864-index.htm",
   "seen_kst": "2026-10-29 20:15"
+ },
+ {
+  "ticker": "WTBA",
+  "form": "8-K",
+  "acc": "0001166928-26-000043",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:13:57+00:00",
+  "accepted_kst": "10/29 20:13",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "October 29, 2026 FOR IMMEDIATE RELEASE For more information contact: Jane Funk, Executive Vice President, Treasurer and Chief Financial Officer (515) 222-5766 W",
+  "url": "https://www.sec.gov/Archives/edgar/data/1166928/000116692826000043/0001166928-26-000043-index.htm",
+  "seen_kst": "2026-10-29 20:17"
+ },
+ {
+  "ticker": "GMTL",
+  "form": "6-K",
+  "acc": "0001654954-26-009201",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:15:49+00:00",
+  "accepted_kst": "10/29 20:15",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ". SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on behalf by the unders",
+  "url": "https://www.sec.gov/Archives/edgar/data/2039972/000165495426009201/0001654954-26-009201-index.htm",
+  "seen_kst": "2026-10-29 20:17"
  }
 ]
