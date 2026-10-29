@@ -4429,5 +4429,22 @@
   "headline": "LAMON JOHN",
   "url": "https://www.sec.gov/Archives/edgar/data/1035092/000146325426000008/0001463254-26-000008-index.htm",
   "seen_kst": "2026-10-30 00:27"
+ },
+ {
+  "ticker": "RNTZ",
+  "form": "6-K",
+  "acc": "0001493152-26-049219",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T15:30:49+00:00",
+  "accepted_kst": "10/30 00:30",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "RANTIZO UNVEILS PROTOTYPE OF LONG-RANGE FIXED-WING SURVEILLANCE DRONE New unmanned aircraft designed for border security, forestry, wildfire monitoring and crit",
+  "url": "https://www.sec.gov/Archives/edgar/data/1991261/000149315226049219/0001493152-26-049219-index.htm",
+  "seen_kst": "2026-10-30 00:32"
  }
 ]
