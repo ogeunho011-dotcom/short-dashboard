@@ -82,14 +82,42 @@ def wide_set(p=None):
     h, c_ = wide_tiers(p)
     return list(dict.fromkeys(h + c_))
 
-def wide_slice(it, p=None, c=None):
-    """이번 회차 1분봉 대상: 핫 전부 + 나머지 중 it 번째 조각. 반환 (대상, 핫 수, 나머지 수, 한 바퀴 회차 수)."""
+# 회차 시간 자동 조절: 나머지(cold) 조각 크기를 회차마다 다시 정해 한 회차가 목표(LOOP_TARGET_S, 기본 120초) 안에 끝나게 함.
+# 핵심+핫은 줄이지 않음. 조각은 '위치(커서)'로 돌아가서 크기가 바뀌어도 빠지거나 겹치는 종목 없이 한 바퀴를 돎.
+COLD_MIN = 50
+ADAPT = {"n": None, "pos": 0, "per": None, "other": None, "last": None, "prev_n": None}
+
+def adapt_cold(took, fetch_s, n_fetch, n_fixed, n_cold_total, target=120.0, ad=None):
+    """지난 회차 측정값 → 다음 회차 나머지 조각 크기.
+    took: 회차 전체 초(동기화 포함) · fetch_s: 1분봉 일괄 받기 초 · n_fetch: 받은 종목 수 · n_fixed: 핵심+핫 종목 수.
+    종목당 받기 시간(per)과 그 밖의 고정 시간(other)을 지수평균으로 추정 → (목표 − other − per×고정) ÷ per.
+    한 번에 2배 넘게 늘리거나 절반 아래로 줄이지 않음 (일시적 지연에 출렁이지 않게). 반환: 새 크기."""
+    ad = ADAPT if ad is None else ad
+    per = fetch_s / max(1, n_fetch); other = max(0.0, took - fetch_s)
+    ad["per"] = per if ad["per"] is None else 0.5 * ad["per"] + 0.5 * per
+    ad["other"] = other if ad["other"] is None else 0.5 * ad["other"] + 0.5 * other
+    cur = ad["n"] or COLD_MIN
+    want = (target - ad["other"] - ad["per"] * n_fixed) / max(ad["per"], 1e-3)
+    if took > target: want = min(want, cur * target / took)      # 이번에 넘겼으면 반드시 줄임
+    new = int(max(cur * 0.5, min(cur * 2, want)))
+    new = max(COLD_MIN, min(max(n_cold_total, COLD_MIN), new))
+    ad["prev_n"], ad["n"] = cur, new
+    ad["last"] = dict(took=round(took, 1), fetch=round(fetch_s, 1), per=round(ad["per"], 4), other=round(ad["other"], 1))
+    return new
+
+def wide_slice(it, p=None, c=None, n=None, advance=True):
+    """이번 회차 1분봉 대상: 핫 전부 + 나머지 중 커서 위치부터 n종목 (끝에 닿으면 처음으로 이어서).
+    n=None → ADAPT['n'] (자동 조절 값) 또는 설정 cold_n (기본 COLD_N).
+    반환 (대상, 핫 수, 나머지 수, 한 바퀴 회차 수, 조각 시작 위치, 조각 크기)."""
     hot, cold = wide_tiers(p, c)
-    n = int((c or {}).get("cold_n", COLD_N))
+    if n is None: n = ADAPT["n"] or int((c or {}).get("cold_n", COLD_N))
+    n = max(1, min(int(n), len(cold))) if cold else 0
+    if ADAPT["n"] is None: ADAPT["n"] = n
     k = max(1, -(-len(cold) // n)) if cold else 1
-    i = it % k
-    part = cold[i * n:(i + 1) * n]
-    return list(dict.fromkeys(hot + part)), len(hot), len(cold), k
+    pos = ADAPT["pos"] % len(cold) if cold else 0
+    part = (cold[pos:] + cold[:pos])[:n] if cold else []
+    if advance and cold: ADAPT["pos"] = (pos + n) % len(cold)
+    return list(dict.fromkeys(hot + part)), len(hot), len(cold), k, pos, n
 
 def prev_closes(tickers):
     """종목별 오늘(ET) 이전 마지막 일봉 종가 (DB) — 1차 선별의 등락률 기준."""
@@ -202,9 +230,11 @@ def once(force=False, dry=False, it=0, borrow_every=1, full_filings_every=1):
         print("장 마감 시간 — 건너뜀 (--force 로 강제)")
         alerts.grade_all(); return []
     c = alerts.cfg(); p = P.load()
-    tgt, n_hot, n_cold, cyc = wide_slice(it, p, c)
+    tgt, n_hot, n_cold, cyc, pos, n_part = wide_slice(it, p, c)
     wide = list(dict.fromkeys(core + tgt))
+    tf = time.time()
     quotes = live.batch_intraday(wide)            # 1분봉 일괄 (핫 전부 + 나머지 조각)
+    ADAPT["cur"] = dict(fetch_s=time.time() - tf, n_fetch=len(wide), n_fixed=len(set(core) | set(tgt[:n_hot])), n_cold=n_cold)
     for t in core:
         if t not in quotes: db.exec_("DELETE FROM kv WHERE k=?", (f"live1m:{t}",))     # 일괄에서 빠진 종목은 개별로 새로 받기
     tq = time.time()
@@ -224,16 +254,21 @@ def once(force=False, dry=False, it=0, borrow_every=1, full_filings_every=1):
     alerts.grade_all()
     for r in new:
         print(f"[{'전송' if r['sent'] else ('억제: ' + str(r['suppressed']) if r['suppressed'] else ('dry' if r['dry'] else '실패 ' + json.dumps(r['result'])))}] {r['title']}")
-    print(f"감시 단계: 핵심 {len(core)} + 핫 {n_hot} (매 회차) + 나머지 {n_cold} 중 {it % cyc + 1}/{cyc}번째 조각 ({cyc}회차마다 전체 한 바퀴)")
+    la = ADAPT.get("last")
+    auto = (f" · 조각 자동 조절: 지난 회차 {la['took']:.0f}s (1분봉 {la['fetch']:.0f}s) → {ADAPT.get('prev_n')}→{n_part}종목 (목표 {ADAPT.get('target', 120):.0f}s 이내)"
+            if la else f" · 조각 {n_part}종목 (첫 회차, 다음부터 자동 조절 · 목표 {ADAPT.get('target', 120):.0f}s 이내)")
+    print(f"감시 단계: 핵심 {len(core)} + 핫 {n_hot} (매 회차) + 나머지 {n_cold} 중 {pos + 1}~{min(n_cold, pos + n_part)}{'(+앞부분)' if pos + n_part > n_cold else ''}번째 "
+          f"{n_part}종목 (약 {cyc}회차마다 전체 한 바퀴){auto}")
     print(f"세션 {sess} · 일괄 시세 {len(quotes)}/{len(wide)}종목 {tq - t0:.0f}s · 움직인 종목 {len(movers)} · 전체 계산 {len(snaps)} · 새 알림 {len(new)} · "
           f"{time.time() - t0:.0f}s (계산 {t1 - tq:.0f}s · 신호+공시 {t2 - t1:.0f}s)")
     return new
 
-def session_loop(interval=150, max_min=330, sync=None, dry=False, until="regular"):
+def session_loop(interval=150, max_min=330, sync=None, dry=False, until="regular", target=None):
     """GitHub Actions 장중 반복: interval 초마다 once(), 프리마켓~정규장(until) 동안, 최대 max_min 분.
     반복마다 sync 명령(알림 기록 브랜치 pull/commit/push)을 실행. 반환: 'done'(장 끝) | 'handoff'(시간 한도 → 다음 작업에 넘김)."""
     import subprocess
     t_start, it = time.time(), 0
+    target = float(target or os.environ.get("LOOP_TARGET_S") or min(120, interval * 0.8)); ADAPT["target"] = target
     okset = ("pre", "regular") if until == "regular" else ("pre", "regular", "post")
     while True:
         sess = live.session_now()[0]
@@ -246,6 +281,10 @@ def session_loop(interval=150, max_min=330, sync=None, dry=False, until="regular
         if sync: subprocess.run(sync + " push", shell=True)
         it += 1
         took = time.time() - t0
+        cur = ADAPT.pop("cur", None)
+        if cur:
+            nn = adapt_cold(took, cur["fetch_s"], cur["n_fetch"], cur["n_fixed"], cur["n_cold"], target)
+            print(f"   조각 자동 조절: {took:.0f}s (1분봉 {cur['fetch_s']:.0f}s · {cur['n_fetch']}종목) → 다음 나머지 조각 {ADAPT['prev_n']}→{nn}종목")
         print(f"── {it}회차 {took:.0f}s · 다음까지 {max(5, interval - took):.0f}s", flush=True)
         time.sleep(max(5, interval - took))
 

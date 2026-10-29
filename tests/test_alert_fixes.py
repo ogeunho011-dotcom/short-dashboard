@@ -80,6 +80,53 @@ def test_buy_zone_sane():
     bz2 = model.buy_zone({"price": 1.0}, meta2, pp)
     assert abs(bz2["stop"] - 0.85) < 1e-9 and bz2["tp1"] == 1.2 and bz2["capped"] == []
 
+_F4 = """<ownershipDocument><reportingOwner><reportingOwnerId><rptOwnerName>{who}</rptOwnerName></reportingOwnerId></reportingOwner>
+<nonDerivativeTable>{rows}</nonDerivativeTable><derivativeTable><derivativeTransaction><transactionCoding><transactionCode>P</transactionCode></transactionCoding>
+<transactionAmounts><transactionShares><value>5502402</value></transactionShares><transactionPricePerShare><value>3149.47</value></transactionPricePerShare></transactionAmounts>
+</derivativeTransaction></derivativeTable></ownershipDocument>"""
+def _f4row(code, sh, pr):
+    return (f"<nonDerivativeTransaction><transactionCoding><transactionCode>{code}</transactionCode></transactionCoding><transactionAmounts>"
+            f"<transactionShares><value>{sh}</value></transactionShares><transactionPricePerShare><value>{pr}</value></transactionPricePerShare></transactionAmounts>"
+            f"<postTransactionAmounts><sharesOwnedFollowingTransaction><value>99999999</value></sharesOwnedFollowingTransaction></postTransactionAmounts></nonDerivativeTransaction>")
+
+def test_form4_lona_bad_price_rejected():
+    # LONA 10/28 신고 (0002126186-26-000002): 워런트 행사 3,149,470주를 P 로, 주당 칸에 총 행사대금 $3,149.47 → 예전 $9,919,161,281
+    ref = {"lo": 4.55, "hi": 5.75, "close": 4.96, "mcap": 46071932.0}
+    xml = _F4.format(who="Portman David J.", rows=_f4row("P", "3149470", "3149.47")).encode()
+    assert F.form4_parse(xml, None)["total"] > 9.9e9                       # 시세 기준이 없으면 막을 수 없던 값
+    o = F.form4_parse(xml, ref)
+    assert o["total"] == 0 and o["rejected"] and "시세" in o["rejected"][0]
+
+def test_form4_normal_and_sanity():
+    ref = {"lo": 2.85, "hi": 3.89, "close": 3.0, "mcap": 121.5e6}           # NVA 10/28 형: 6,780주 × $2.95
+    rows = _f4row("P", "6780.0000", "2.9500") + _f4row("S", "1000", "3.0") + _f4row("P", "", "3.0") + _f4row("P", "500", "")
+    o = F.form4_parse(_F4.format(who="X", rows=rows).encode(), ref)
+    assert abs(o["total"] - 20001) < 1 and o["rows"] == 1 and len(o["rejected"]) == 2   # 매도·가격/수량 빈 줄 제외, 파생 표·보유 수량 무시
+    big = _f4row("P", "50000000", "3.0")                                    # 상장 주식 수(약 4,050만) 초과
+    assert F.form4_parse(_F4.format(who="X", rows=big).encode(), ref)["total"] == 0
+    over = _f4row("P", "30000000", "3.8") + _f4row("P", "10000000", "3.8")   # 합계 $1.52억 > 시총
+    assert F.form4_parse(_F4.format(who="X", rows=over).encode(), ref)["total"] == 0
+
+def test_adapt_cold_keeps_under_target():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("ar", os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts", "alerts_run.py"))
+    ar = importlib.util.module_from_spec(spec); spec.loader.exec_module(ar)
+    ad = {"n": 1100, "pos": 0, "per": None, "other": None, "last": None, "prev_n": None}
+    # 느린 러너: 2,101종목 받는 데 150초, 그 밖 30초 → 회차 180초 → 줄여야 함
+    n1 = ar.adapt_cold(180, 150, 2101, 1001, 2300, 120, ad)
+    assert n1 < 1100 and n1 >= 550
+    n = n1
+    for _ in range(8):                                                     # 같은 속도로 몇 회차 → 목표 근처로 수렴
+        fetch = 150 / 2101 * (1001 + n); n = ar.adapt_cold(fetch + 30, fetch, 1001 + n, 1001, 2300, 120, ad)
+    assert 150 / 2101 * (1001 + n) + 30 <= 121, n
+    # 빠른 러너: 여유 있으면 늘리되 2배 넘게 한 번에 늘리지 않음, 나머지 전체 수 넘지 않음
+    ad2 = {"n": 300, "pos": 0, "per": None, "other": None, "last": None, "prev_n": None}
+    assert ar.adapt_cold(30, 10, 1300, 1000, 2300, 120, ad2) == 600
+    assert ar.adapt_cold(30, 10, 1600, 1000, 700, 120, ad2) == 700
+    # 핵심+핫만으로도 넘으면 최소 조각(COLD_MIN)으로
+    ad3 = {"n": 100, "pos": 0, "per": None, "other": None, "last": None, "prev_n": None}
+    assert ar.adapt_cold(200, 180, 1100, 1000, 2300, 120, ad3) == ar.COLD_MIN
+
 if __name__ == "__main__":
     n = 0
     for k, v in list(globals().items()):
