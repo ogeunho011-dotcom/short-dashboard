@@ -2078,5 +2078,92 @@
    "accepted_kst": "10/29 21:30",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "BURU-1793277464",
+  "ts_kst": "2026-10-29 21:37",
+  "ts_utc": "2026-10-29T12:37:44+00:00",
+  "date_et": "2026-10-29",
+  "session": "pre",
+  "ticker": "BURU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +15.6% 급변 · 전일 대비 +17.0% — 추격 매수 주의"
+  ],
+  "title": "⚡ BURU 장중 급등 포착",
+  "body": "$0.201 (+17.0%) · 프리마켓 · 레벨 1 · 점수 24\n시장에 도는 주식 926만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +15.6% 급변 · 전일 대비 +17.0% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.191 지정가(기준가 $0.201의 −5%) · 체결 가능성 약 85% · 손익분기 $0.194\n숏 지지구간 $0.141–$0.201 · 손절 $0.101 · 1차목표 $0.302\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-02\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2013,
+  "level": 1,
+  "score": 24.1,
+  "prob": 18.993839835728956,
+  "cp": 2.0,
+  "rl": 1.5,
+  "stop": 0.10065,
+  "zone": [
+   0.14091,
+   0.2013
+  ],
+  "bp": 0.1912,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-02",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
+  "grade": "n/a"
+ },
+ {
+  "id": "CLPS-fil-0001213900-26-113575",
+  "ts_kst": "2026-10-29 21:37",
+  "ts_utc": "2026-10-29T12:37:45+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "CLPS",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 자사주 매입"
+  ],
+  "title": "📢 CLPS 호재 공시",
+  "body": "6-K · 자사주 매입 (10/29 21:35 KST)\nCLPS Incorporation Announces Extension of Share Repurchase Program\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180523001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180523001",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001213900-26-113575",
+   "items": "",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "CLPS Incorporation Announces Extension of Share Repurchase Program",
+   "url": "https://www.sec.gov/Archives/edgar/data/1724542/000121390026113575/0001213900-26-113575-index.htm",
+   "accepted_kst": "10/29 21:35",
+   "polarity": "pos"
+  }
  }
 ]
