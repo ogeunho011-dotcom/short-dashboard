@@ -2781,5 +2781,22 @@
   "headline": "INmune Bio, Inc. Announces Pricing of $4.50 Million Registered Direct Offering and Concurrent Private Placement",
   "url": "https://www.sec.gov/Archives/edgar/data/1711754/000121390026113535/0001213900-26-113535-index.htm",
   "seen_kst": "2026-10-29 20:42"
+ },
+ {
+  "ticker": "SFL",
+  "form": "6-K",
+  "acc": "0001289877-26-000039",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:43:04+00:00",
+  "accepted_kst": "10/29 20:43",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Attached hereto as Exhibit 1 is a copy of the press release of SFL Corporation Ltd. (NYSE: SFL) (“SFL” or the “Company”), dated October 28, 2026, announcing tha",
+  "url": "https://www.sec.gov/Archives/edgar/data/1289877/000128987726000039/0001289877-26-000039-index.htm",
+  "seen_kst": "2026-10-29 20:45"
  }
 ]
