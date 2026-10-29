@@ -4325,5 +4325,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1818383/000181838326000266/0001818383-26-000266-index.htm",
   "seen_kst": "2026-10-29 23:12"
+ },
+ {
+  "ticker": "FINW",
+  "form": "8-K",
+  "acc": "0001856365-26-000109",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:17:27+00:00",
+  "accepted_kst": "10/29 05:17",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "attached hereto, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, nor shall such information be deemed",
+  "url": "https://www.sec.gov/Archives/edgar/data/1856365/000185636526000109/0001856365-26-000109-index.htm",
+  "seen_kst": "2026-10-29 23:25"
  }
 ]

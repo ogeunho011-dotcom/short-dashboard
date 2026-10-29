@@ -3017,5 +3017,163 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210610005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210610005",
   "grade": "open"
+ },
+ {
+  "id": "FINW-1793283898",
+  "ts_kst": "2026-10-29 23:24",
+  "ts_utc": "2026-10-29T14:24:58+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "FINW",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.5% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FINW 장중 급등 포착",
+  "body": "$13.365 (+23.5%) · 정규장 · 레벨 2 · 점수 27\n$15.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,388만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +23.5% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $13.000–$13.250 · 손절 $12.750 · 1차목표 $15.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 13.365,
+  "level": 2,
+  "score": 27.0,
+  "prob": 53.22530410557312,
+  "cp": 40.03708839349576,
+  "rl": 15.5,
+  "stop": 12.75,
+  "zone": [
+   13.0,
+   13.25
+  ],
+  "bp": null,
+  "tgt": 15.5,
+  "stp": 12.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210811001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210811001",
+  "grade": "open"
+ },
+ {
+  "id": "SGLY-1793283898",
+  "ts_kst": "2026-10-29 23:24",
+  "ts_utc": "2026-10-29T14:24:58+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "SGLY",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.7% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SGLY 장중 급등 포착",
+  "body": "$0.420 (+16.7%) · 정규장 · 레벨 2 · 점수 34\n시장에 도는 주식 540만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.7% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.399 지정가(기준가 $0.420의 −5%) · 체결 가능성 약 73% · 손익분기 $0.404\n숏 지지구간 $0.294–$0.420 · 손절 $0.210 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.42,
+  "level": 2,
+  "score": 34.0,
+  "prob": 18.993839835728956,
+  "cp": 18.679868554562674,
+  "rl": 1.5,
+  "stop": 0.20999999344348907,
+  "zone": [
+   0.2939999908208847,
+   0.41999998688697815
+  ],
+  "bp": 0.399,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220107005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220107005",
+  "grade": "n/a"
+ },
+ {
+  "id": "REKR-1793283898",
+  "ts_kst": "2026-10-29 23:24",
+  "ts_utc": "2026-10-29T14:24:58+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "REKR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.5% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ REKR 장중 급등 포착",
+  "body": "$0.388 (+15.5%) · 정규장 · 레벨 1 · 점수 18\n$0.400 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.5% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $0.369 지정가(기준가 $0.388의 −5%) · 체결 가능성 약 63% · 손익분기 $0.373\n숏 지지구간 $0.250–$0.300 · 손절 $0.200 · 1차목표 $0.400\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3881,
+  "level": 1,
+  "score": 17.9,
+  "prob": 48.68058354525461,
+  "cp": 52.23784951635871,
+  "rl": 0.39999999999999997,
+  "stop": 0.2,
+  "zone": [
+   0.25,
+   0.3
+  ],
+  "bp": 0.3687,
+  "tgt": 0.39999999999999997,
+  "stp": 0.2,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190430001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190430001",
+  "grade": "open"
+ },
+ {
+  "id": "MYND-1793283898",
+  "ts_kst": "2026-10-29 23:24",
+  "ts_utc": "2026-10-29T14:24:58+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "MYND",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 50%)"
+  ],
+  "title": "🚀 MYND 상위 확률 신호",
+  "body": "$0.392 (+15.3%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $0.400 넘으면 급등 가능성 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 50%)\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $0.372 지정가(기준가 $0.392의 −5%) · 체결 가능성 약 70% · 손익분기 $0.377\n숏 지지구간 $0.360–$0.380 · 손절 $0.340 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3919,
+  "level": 3,
+  "score": 40.8,
+  "prob": 50.12124268867496,
+  "cp": 60.2518956339033,
+  "rl": 0.3999999999999999,
+  "stop": 0.33999999999999986,
+  "zone": [
+   0.3599999999999999,
+   0.3799999999999999
+  ],
+  "bp": 0.3723,
+  "tgt": 0.3999999999999999,
+  "stp": 0.33999999999999986,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0231213001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0231213001",
+  "grade": "open"
  }
 ]
