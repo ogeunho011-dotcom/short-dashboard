@@ -4688,5 +4688,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
   "grade": "n/a"
+ },
+ {
+  "id": "SPOK-1793297703",
+  "ts_kst": "2026-10-30 03:15",
+  "ts_utc": "2026-10-29T18:15:03+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "SPOK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.2% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SPOK 장중 급등 포착",
+  "body": "$11.725 (+15.2%) · 정규장 · 레벨 2 · 점수 32\n공매도 물량 대부분 손해 중 · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +15.2% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $11.139 지정가(기준가 $11.725의 −5%) · 체결 가능성 약 13% · 손익분기 $11.273\n숏 지지구간 $10.100–$10.625 · 손절 $10.050\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 11.725,
+  "level": 2,
+  "score": 31.9,
+  "prob": 53.44827586206896,
+  "cp": 70.27089273578862,
+  "rl": 11.725000381469727,
+  "stop": 10.049999999999999,
+  "zone": [
+   10.1,
+   10.624999999999998
+  ],
+  "bp": 11.1388,
+  "tgt": 13.483750438690185,
+  "stp": 10.049999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140710001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140710001",
+  "grade": "open"
  }
 ]
