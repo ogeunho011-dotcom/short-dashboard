@@ -90,7 +90,7 @@ def bootstrap():
         st.info("다른 창에서 초기 데이터를 만드는 중입니다. 잠시 후 새로고침하세요."); st.stop()
     try:
         with st.status("처음 실행: 무료 데이터로 초기 데이터베이스를 만드는 중 (보통 3~10분, 한 번만)", expanded=True) as stt:
-            steps = [("1/4 나스닥 종목 목록", lambda: src.fetch_universe()),
+            steps = [("1/4 종목 목록 (나스닥·NYSE·NYSE American 초소형~소형주)", lambda: src.fetch_universe()),
                      ("2/4 시장 지수 · 관심종목 일봉", lambda: [src.fetch_prices(t, "2y") for t in ["QQQ", "IWM"] + WATCH] and [src.refresh_ticker(t) for t in WATCH]),
                      ("3/4 RegSHO Threshold 목록", lambda: src.update_threshold(5))]
             for lab, fn in steps:
@@ -1027,7 +1027,7 @@ def short_why(x):
     return list((((x or {}).get("s") or {}).get("short") or {}).get("why") or [])
 
 def page_home():
-    topbar("숏 레이더", "나스닥 초소형주 숏 분석")
+    topbar("숏 레이더", "미국 초소형~소형주 숏 분석")
     sess, now_et = live.session_now()
     md(f'<div class="tiny">{dt.datetime.now(live.KST):%m/%d %H:%M} KST · 미국 {live.SESSION_KO[sess]} · 자동 갱신 {REFRESH_MIN}분 {"켜짐" if LIVE_ON else "꺼짐"}</div>')
     run_every = f"{REFRESH_MIN * 60}s" if LIVE_ON and sess != "closed" else None
@@ -1080,7 +1080,7 @@ def page_select():
     q = st.text_input("검색", "", placeholder="🔍 티커 또는 회사명 검색", label_visibility="collapsed")
     df, meta = scan.last_scan()
     c1, c2 = st.columns([2, 1])
-    if c2.button("지금 스캔", width="stretch", help=f"나스닥 초소형주 유니버스 일봉 → 상위 {int(p['scan_top_k'])}종목 정밀분석 (캐시 시 약 1분, 첫 실행은 수 분)"):
+    if c2.button("지금 스캔", width="stretch", help=f"초소형~소형주 유니버스 일봉 → 상위 {int(p['scan_top_k'])}종목 정밀분석 (캐시 시 약 1분, 첫 실행은 수 분)"):
         bar = st.progress(0.0, "스캔 중...")
         scan.run_scan(p, progress=lambda fr, t: bar.progress(fr, f"분석 중 {t}"))
         st.rerun()
@@ -1550,7 +1550,7 @@ def page_admin():
         for i, k in enumerate(uk):
             nu[k] = cc[i % 2].number_input(P.LABELS.get(k, k), value=float(cur[k]), key=f"un_{k}", format="%.2f" if k in ("univ_max_price", "univ_min_price", "float_rot_x", "dtc_days", "low_inst_pct") else "%.0f")
         u_now = scan.universe(dict(cur, **nu))
-        st.caption(f"현재 조건 유니버스: {len(u_now)}종목 (시총·가격 기준, 거래대금·무거래일 필터는 스캔 때 적용) · 기본값: 시총 ≤ $300M, 가격 $0.05~$10, 일평균 거래대금 ≥ $100K, 무거래일 ≤ 3일, 유통주식 ≤ 50M주(정밀 분석 후), '소형 유통' < 20M주")
+        st.caption(f"현재 조건 유니버스: {len(u_now)}종목 (시총·가격 기준, 거래대금·무거래일 필터는 스캔 때 적용) · 기본값: 나스닥·NYSE·NYSE American 초소형~소형주 전부(시총 < $2B, 장외 제외), 가격 $0.05 이상, 일평균 거래대금 ≥ $100K, 무거래일 ≤ 3일, 유통주식 ≤ 50M주(정밀 분석 후), '소형 유통' < 20M주")
         if st.button("유니버스 설정 저장", width="stretch"):
             P.save(dict(cur, **nu)); snap.clear(); st.success("저장됨 — 다음 스캔부터 적용")
     with st.expander("모델 파라미터 (전체)"):
@@ -1585,6 +1585,8 @@ def page_admin():
 def omen_list(scan_ts, dbv=None):
     """dbv: DB 파일 수정 시각 → 매일 DB 스냅샷이 새로 들어오면 캐시 갱신."""
     from core import omen as OM
+    F = OM.load_full()          # 매일 업데이트가 유니버스 전체로 미리 계산해 둔 목록 (없으면 최근 스캔 종목으로 계산)
+    if F and F.get("rows") is not None: return F["rows"]
     df, _ = scan.last_scan()
     return OM.build(df)
 
@@ -1646,7 +1648,10 @@ def page_omen():
         md('<div class="card tiny">아직 스캔 결과가 없어요. 매일 자동 업데이트 뒤에 채워집니다.</div>'); disclaimer(); return
     with st.spinner("조짐 계산 중... (스캔 종목 전체, 30분 캐시)"):
         L = omen_list((meta or {}).get("ts"), _db_ver())
-    md(f'<div class="tiny">기준: 최근 스캔 {esc((meta or {}).get("ts") or "")} · {len(df)}종목 중 {len(L)}종목 · 신호 많은 순 · 조건: 🧬 3개↑ 또는 💣 2개↑</div>')
+    from core import omen as OM
+    FM = (OM.load_full() or {}).get("meta")
+    basis = f'유니버스 전체 {FM["checked"]:,}종목 ({esc(FM["ts"])} 계산)' if FM else f'최근 스캔 {esc((meta or {}).get("ts") or "")} · {len(df)}종목'
+    md(f'<div class="tiny">기준: {basis} 중 {len(L)}종목 · 신호 많은 순 · 조건: 🧬 3개↑ 또는 💣 2개↑</div>')
     md(omen_asof_html(L)); md(omen_note()); md(COPY_HINT)
     if not L: md('<div class="card tiny">지금 조짐 조건에 맞는 종목 없음</div>')
     warm_toss([r["ticker"] for r in L[:30]])

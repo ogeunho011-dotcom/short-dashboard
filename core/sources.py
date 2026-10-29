@@ -259,8 +259,14 @@ def update_finra_si(n_dates=4, since=None, tickers=None):
         if not since and not done: since = "2023-12-01"   # 첫 실행: 백테스트용 과거분 한 번에 채움 (~2분)
         ds = [d for d in ds if d >= since] if since else ds[-n_dates:]
         if tickers is None:
-            u = db.q("SELECT DISTINCT ticker FROM prices")
+            u = db.q("SELECT ticker FROM prices GROUP BY ticker UNION SELECT ticker FROM universe")
             tickers = set(u.ticker) if len(u) else None
+        # 유니버스에 새로 들어온 종목은 과거 결제일 잔고가 없음 → 새 종목이 있으면 받은 날짜 전부 다시 받음 (한 번 ~2분)
+        have_si = set(db.q("SELECT DISTINCT ticker FROM short_interest").ticker)
+        new_t = (set(db.q("SELECT ticker FROM universe").ticker) - have_si) - set(db.kv_get("finra_si_tried") or [])
+        if done and len(new_t) >= 50:
+            ds = [d for d in finra_si_dates() if d >= "2023-12-01"]; done = set()
+            db.kv_set("finra_si_tried", sorted(set(db.kv_get("finra_si_tried") or []) | new_t))
         n = 0
         for d in ds:
             if d in done and d not in ds[-2:]: continue
@@ -410,26 +416,139 @@ def get_borrow(ticker):
     if len(df): df["ts"] = pd.to_datetime(df["ts"], errors="coerce", utc=True).dt.tz_localize(None)
     return df.dropna(subset=["ts"]) if len(df) else df
 
-# ---------------- 유니버스: Nasdaq 스크리너 ----------------
-def fetch_universe(caps="small|micro|nano"):
+# ---------------- 유니버스: 나스닥·NYSE·NYSE American 상장 초소형~소형주 (Nasdaq 스크리너 + Nasdaq Trader 종목 디렉터리) ----------------
+# 보통주만: ETF/ETN·펀드(폐쇄형·BDC 포함)·워런트·권리·유닛·우선주·채권형(노트·사채)·SPAC·테스트 종목 제외. 장외(OTC)는 넣지 않음.
+UNIV_BAD = re.compile(r"\b(Warrants?|Rights?|Units?|Preferred|Pfd|Notes?|Debentures?|Depositary Shares?,? each|Depositary Shares? represent\w*|"
+                      r"Acquisition Corp\w*|Capital Trust|Funds?|ETF|ETN|Exchange[- ]Traded|Municipal|Trust Units|Subordinated|Perpetual|"
+                      r"Baby Bond|Closed End|Dep Shr)\b|\d% ", re.I)
+UNIV_BAD_TRUST = re.compile(r"Income Trust", re.I)       # 'Income Trust' 는 폐쇄형 펀드가 대부분 — 리츠(Realty/Properties)는 남김
+UNIV_EXCH = ("nasdaq", "nyse", "amex")
+UNIV_EXNAME = {"nasdaq": "NASDAQ", "nyse": "NYSE", "amex": "NYSE American"}
+UNIV_MAX_MCAP = 2e9                                     # 소형주 상한 $2B
+
+def univ_tier(mcap):
+    """시총 구간: 나노 <$50M · 초소형 <$300M · 소형 <$2B · 미상(스크리너 시총 없음, 신규 상장 등)."""
+    m = float(mcap or 0)
+    return "unknown" if m <= 0 else "nano" if m < 50e6 else "micro" if m < 300e6 else "small" if m < UNIV_MAX_MCAP else "big"
+
+def _symdir():
+    """Nasdaq Trader 종목 디렉터리 → {심볼: (이름, 거래소, ETF?, 테스트?)} (나스닥 + 기타 거래소 상장)."""
+    out = {}
+    hd = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)", "Accept": "text/plain,*/*"}
+    exn = {"N": "NYSE", "A": "NYSE American", "P": "NYSE Arca", "Z": "Cboe BZX", "V": "IEX"}
+    t1 = _get("https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt", headers=hd, timeout=40).text
+    t2 = _get("https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt", headers=hd, timeout=40).text
+    if not t1.startswith("Symbol|") or not t2.startswith("ACT Symbol|"): raise ValueError("symdir 형식 이상")
+    for line in t1.splitlines()[1:]:
+        p_ = line.split("|")
+        if len(p_) >= 8 and not p_[0].startswith("File Creation"): out[p_[0]] = (p_[1], "NASDAQ", p_[6] == "Y", p_[3] == "Y")
+    for line in t2.splitlines()[1:]:
+        p_ = line.split("|")
+        if len(p_) >= 8 and not p_[0].startswith("File Creation"): out[p_[7] or p_[0]] = (p_[1], exn.get(p_[2], p_[2]), p_[4] == "Y", p_[6] == "Y")
+    return out
+
+def _screener(ex):
+    r = _get(f"https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=10000&download=true&exchange={ex}",
+             headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}, timeout=60)
+    return r.json()["data"]["rows"]
+
+def _num(s, strip="$,%"):
     try:
-        r = _get(f"https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=5000&exchange=nasdaq&marketcap={caps}",
-                 headers={"Accept": "application/json"}, timeout=40)
-        rows = r.json()["data"]["table"]["rows"]
-        today = dt.date.today().isoformat()
-        recs = []
-        for x in rows:
+        s = str(s or "0")
+        for ch in strip: s = s.replace(ch, "")
+        return float(s or 0)
+    except Exception:
+        return 0.0
+
+def _univ_cols():
+    have = set(db.q("PRAGMA table_info(universe)")["name"])
+    for c_, ty in (("exchange", "TEXT"), ("tier", "TEXT"), ("vol", "REAL")):
+        if c_ not in have:
+            try: db.exec_(f"ALTER TABLE universe ADD COLUMN {c_} {ty}")
+            except Exception: pass
+
+UNIV_LOG = {}
+
+def fetch_universe(caps=None, rebuild=None, max_age_days=7):
+    """유니버스 갱신. 주 1회(또는 rebuild=True / 표가 비었을 때) 전체 재구성: 스크리너 3개 거래소 + 종목 디렉터리로 걸러 목록을 새로 씀
+    (빠진 종목 삭제). 그 외 날에는 같은 스크리너 응답으로 기존 종목의 가격·시총·구간만 갱신. caps 는 예전 호출 호환용(무시).
+    반환: 유니버스 종목 수."""
+    _univ_cols()
+    today = dt.date.today().isoformat()
+    try:
+        last = db.kv_get("univ_built")
+        n_now = int(db.q("SELECT COUNT(*) n FROM universe WHERE exchange IS NOT NULL").n.iloc[0])
+        age = (time.time() - float(last)) / 86400 if last else 1e9
+        full = bool(rebuild) or rebuild is None and (age >= max_age_days or n_now < 1000)
+        rows = {}
+        for ex in UNIV_EXCH:
+            for x in _screener(ex):
+                t = str(x.get("symbol") or "").strip()
+                if t and t not in rows: rows[t] = (ex, x)
+        if len(rows) < 3000: raise ValueError(f"스크리너 응답이 너무 적음 ({len(rows)}종목)")
+        why = {}
+        def skip(k): why[k] = why.get(k, 0) + 1
+        if full:
+            S_ = _symdir()
+            recs = []
+            for t, (ex, x) in rows.items():
+                d = S_.get(t)
+                if not d: skip("디렉터리에 없음(우선주 등)"); continue
+                nm, exn, etf, test = d
+                if etf or test: skip("ETF·테스트"); continue
+                nm2 = x.get("name") or ""
+                if UNIV_BAD.search(nm) or UNIV_BAD.search(nm2) or (UNIV_BAD_TRUST.search(nm2) and not re.search(r"Realty|Propert", nm2, re.I)):
+                    skip("보통주 아님(펀드·워런트·우선주·SPAC 등)"); continue
+                if not re.match(r"^[A-Z]{1,5}$", t): skip("심볼 형식"); continue
+                m, pr = _num(x.get("marketCap")), _num(x.get("lastsale"))
+                tier = univ_tier(m)
+                if tier == "big": skip("시총 $2B 이상"); continue
+                if pr <= 0: skip("가격 없음"); continue
+                recs.append((t, nm2 or nm, m, pr, _num(x.get("pctchange")), today, exn, tier, _num(x.get("volume"))))
+            if len(recs) < 2000: raise ValueError(f"걸러진 종목이 너무 적음 ({len(recs)})")
+            keep = {r[0] for r in recs}
+            old = set(db.q("SELECT ticker FROM universe").ticker)
+            gone = sorted(old - keep)
+            c = db.conn()
             try:
-                recs.append((x["symbol"].strip(), x["name"], float((x.get("marketCap") or "0").replace(",", "") or 0),
-                             float((x.get("lastsale") or "$0").replace("$", "").replace(",", "") or 0),
-                             float((x.get("pctchange") or "0").replace("%", "") or 0), today))
-            except Exception:
-                pass
-        db.upsert_rows("universe", ["ticker", "name", "mcap", "price", "pct", "updated"], recs)
-        db.set_status("Nasdaq Screener", True, f"{len(recs)}종목")
-        return len(recs)
+                c.executemany("DELETE FROM universe WHERE ticker=?", [(t,) for t in gone]); c.commit()
+            finally:
+                c.close()
+            db.upsert_rows("universe", ["ticker", "name", "mcap", "price", "pct", "updated", "exchange", "tier", "vol"], recs)
+            db.kv_set("univ_built", time.time())
+            UNIV_LOG.clear(); UNIV_LOG.update(mode="재구성", n=len(recs), added=len(keep - old), removed=len(gone), skipped=why)
+        else:
+            cur = db.q("SELECT ticker, exchange FROM universe")
+            ex_of = dict(zip(cur.ticker, cur.exchange))
+            recs = []
+            for t, (ex, x) in rows.items():
+                if t not in ex_of: continue
+                m = _num(x.get("marketCap"))
+                recs.append((t, x.get("name") or "", m, _num(x.get("lastsale")), _num(x.get("pctchange")), today, ex_of[t] or UNIV_EXNAME[ex],
+                             univ_tier(m) if univ_tier(m) != "big" else "small", _num(x.get("volume"))))
+            db.upsert_rows("universe", ["ticker", "name", "mcap", "price", "pct", "updated", "exchange", "tier", "vol"], recs)
+            UNIV_LOG.clear(); UNIV_LOG.update(mode=f"가격 갱신 (재구성 {age:.1f}일 전)", n=len(ex_of), updated=len(recs))
+        n = int(db.q("SELECT COUNT(*) n FROM universe").n.iloc[0])
+        sp = db.q("SELECT exchange, tier, COUNT(*) n FROM universe GROUP BY exchange, tier")
+        UNIV_LOG["split"] = {f"{e}/{t}": int(k) for e, t, k in zip(sp.exchange, sp.tier, sp.n)}
+        db.set_status("Nasdaq Screener", True, f"{n}종목 ({UNIV_LOG['mode']}) · 나스닥·NYSE·NYSE American")
+        return n
     except Exception as e:
-        db.set_status("Nasdaq Screener", False, repr(e)); return 0
+        db.set_status("Nasdaq Screener", False, repr(e)[:200]); UNIV_LOG.clear(); UNIV_LOG.update(mode="실패", err=repr(e)[:200])
+        try: return int(db.q("SELECT COUNT(*) n FROM universe").n.iloc[0])
+        except Exception: return 0
+
+def universe_text():
+    """매일 업데이트 로그용 한 줄 요약."""
+    L = UNIV_LOG
+    if not L: return ""
+    if L.get("mode") == "실패": return f"실패: {L.get('err')}"
+    ex = {}; ti = {}
+    for k, v in (L.get("split") or {}).items():
+        e, t = k.split("/"); ex[e] = ex.get(e, 0) + v; ti[t] = ti.get(t, 0) + v
+    s = f"{L['mode']} · 거래소 " + ", ".join(f"{k} {v}" for k, v in sorted(ex.items(), key=lambda z: -z[1])) + " · 구간 " + ", ".join(f"{k} {v}" for k, v in sorted(ti.items(), key=lambda z: -z[1]))
+    if "added" in L: s += f" · 추가 {L['added']} · 삭제 {L['removed']} · 제외 {L['skipped']}"
+    return s
 
 # ---------------- Reg SHO Threshold list (Nasdaq Trader) ----------------
 def fetch_threshold(day: dt.date):
@@ -456,8 +575,20 @@ def update_threshold(days_back=30):
         if d.weekday() < 5 and d.strftime("%Y%m%d") not in have: fetch_threshold(d)
 
 # ---------------- SEC: FTD, 공시, XBRL ----------------
+import threading
+_SEC_LOCK = threading.Lock(); _SEC_LAST = [0.0]
+SEC_MIN_GAP = 0.125          # SEC 공정 접근 한도 초당 10건 → 여러 스레드 합쳐 초당 8건 이하
+
 def _sec(url, timeout=30):
-    return requests.get(url, headers={"User-Agent": SEC_UA, "Accept-Encoding": "gzip, deflate"}, timeout=timeout)
+    with _SEC_LOCK:
+        w = SEC_MIN_GAP - (time.time() - _SEC_LAST[0])
+        if w > 0: time.sleep(w)
+        _SEC_LAST[0] = time.time()
+    r = requests.get(url, headers={"User-Agent": SEC_UA, "Accept-Encoding": "gzip, deflate"}, timeout=timeout)
+    if r.status_code == 429:
+        time.sleep(10)
+        r = requests.get(url, headers={"User-Agent": SEC_UA, "Accept-Encoding": "gzip, deflate"}, timeout=timeout)
+    return r
 
 def update_ftd(months_back=4, tickers=None):
     today = dt.date.today(); names = []
@@ -503,6 +634,8 @@ def cik_map():
     except Exception as e:
         db.set_status("SEC EDGAR", False, repr(e)); return {}
 
+FILINGS_KEEP_DAYS = 3 * 365     # 공시표에 남기는 기간 (DB 크기 관리 — 패턴·구조 신호는 최근 1~2년만 씀)
+
 def fetch_filings(ticker, ttl=12 * 3600):
     if ttl and db.kv_get(f"fil_ok:{ticker}", ttl): return -1
     cik = cik_map().get(ticker.upper())
@@ -512,6 +645,8 @@ def fetch_filings(ticker, ttl=12 * 3600):
         rec = j["filings"]["recent"]
         recs = [(ticker, rec["form"][i], rec["filingDate"][i], rec["accessionNumber"][i], rec.get("items", [""] * 9999)[i] or "")
                 for i in range(len(rec["form"]))]
+        cut = (dt.date.today() - dt.timedelta(days=FILINGS_KEEP_DAYS)).isoformat()
+        recs = [r for r in recs if (r[2] or "") >= cut]
         db.upsert_rows("filings", ["ticker", "form", "filed", "accession", "items"], recs)
         db.set_status("SEC EDGAR", True, f"{ticker} {len(recs)}건"); db.kv_set(f"fil_ok:{ticker}", 1)
         return len(recs)
@@ -533,9 +668,10 @@ def fetch_companyfacts(ticker, ttl=86400):
         j = _sec(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json", timeout=40).json()
         f = j.get("facts", {})
         g = f.get("us-gaap", {}); dei = f.get("dei", {})
+        cut = (dt.date.today() - dt.timedelta(days=5 * 365)).isoformat()     # 최근 5년만 (DB 크기 — 구조 신호는 최근 분기들만 씀)
         def series(ns, tag, unit):
             return [{"end": x.get("end"), "start": x.get("start"), "val": x.get("val"), "filed": x.get("filed"), "form": x.get("form")}
-                    for x in ns.get(tag, {}).get("units", {}).get(unit, [])]
+                    for x in ns.get(tag, {}).get("units", {}).get(unit, []) if (x.get("end") or "9") >= cut]
         out = {"shares": series(dei, "EntityCommonStockSharesOutstanding", "shares") + series(g, "CommonStockSharesOutstanding", "shares"),
                "public_float": series(dei, "EntityPublicFloat", "USD"),
                "cash": series(g, "CashAndCashEquivalentsAtCarryingValue", "USD") or series(g, "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents", "USD"),
@@ -546,6 +682,35 @@ def fetch_companyfacts(ticker, ttl=86400):
         return out
     except Exception as e:
         db.set_status("SEC XBRL", False, repr(e)); return {}
+
+def sec_rotate(tickers, n=1600, budget_s=420, fil_ttl=3 * 86400, facts_ttl=7 * 86400, workers=4):
+    """유니버스 전체 공시·재무(XBRL)를 돌아가며 채움: 오래된(또는 없는) 종목부터 최대 n종목, budget_s 초 안에서.
+    SEC 초당 8건 이하(_sec). 반환: dict(공시 갱신, 재무 갱신, 대상, 남은 미보유, 걸린 초)."""
+    t0 = time.time()
+    tk = list(dict.fromkeys(tickers))
+    if not tk: return {}
+    cmap = cik_map()
+    tk = [t for t in tk if t.upper() in cmap]
+    ts = db.q("SELECT k, ts FROM kv WHERE k LIKE 'fil_ok:%'")
+    age = {k[7:]: v for k, v in zip(ts.k, ts.ts)}
+    order = sorted(tk, key=lambda t: age.get(t, 0))
+    from concurrent.futures import ThreadPoolExecutor
+    cnt = {"f": 0, "x": 0, "d": 0}
+    lk = threading.Lock()
+    def one(t):
+        if time.time() - t0 > budget_s: return
+        a = fetch_filings(t, ttl=fil_ttl) > 0
+        b = False
+        if db.kv_get(f"facts:{t}", facts_ttl) is None:
+            fetch_companyfacts(t, ttl=facts_ttl); b = True
+        with lk:
+            cnt["f"] += a; cnt["x"] += b; cnt["d"] += 1
+    with ThreadPoolExecutor(workers) as ex_:     # 요청 간격은 _sec 가 전역으로 지킴 (초당 8건)
+        list(ex_.map(one, order[:n]))
+    nf, nx, done = cnt["f"], cnt["x"], cnt["d"]
+    ts = db.q("SELECT k FROM kv WHERE k LIKE 'fil_ok:%'")
+    have = {k[7:] for k in ts.k}
+    return dict(filings=nf, facts=nx, tried=done, cik=len(tk), have=len(have & set(tk)), secs=round(time.time() - t0))
 
 # ---------------- 뉴스 RSS / 소셜 / 환율 / 텔레그램 ----------------
 def fetch_news(ticker, ttl=1800):
@@ -678,10 +843,36 @@ def yf_batch(tickers, chunk=40, tries=4, base_wait=4.0, max_wait=90.0, pause=0.7
     YF_LOG.update(asked=len(want), got=len(out), retries=rounds, waited=round(waited, 1), interval=kw.get("interval"))
     return out
 
-def bulk_prices(tickers, period="1y", chunk=60):
-    """yfinance 일괄 다운로드 → prices 테이블. 반환: 저장된 종목 수 (빈 응답 종목은 쉬었다가 재시도)"""
+def _split_suspects(H):
+    """새로 받은 일봉과 DB 일봉의 겹치는 날 종가 비율이 15% 넘게 어긋나는 종목 (액면 병합·분할로 과거가 다시 조정됨)."""
+    if not H: return []
+    lo = min(x.index.min() for x in H.values()).strftime("%Y-%m-%d")
+    old = db.q(f"SELECT ticker, date, close FROM prices WHERE date >= ? AND ticker IN ({','.join('?' * len(H))})", (lo, *H.keys()))
+    bad = []
+    for t, g in old.groupby("ticker"):
+        x = H[t]; nw = pd.Series(x["Close"].values, index=[d.strftime("%Y-%m-%d") for d in x.index])
+        j = g.set_index("date").close.reindex(nw.index).dropna()
+        if len(j) < 2: continue
+        r = (nw.loc[j.index] / j.replace(0, float("nan"))).dropna()
+        if len(r) and abs(float(r.median()) - 1) > 0.15: bad.append(t)
+    return bad
+
+def bulk_prices(tickers, period="1y", chunk=60, split_check=False):
+    """yfinance 일괄 다운로드 → prices 테이블. 반환: 저장된 종목 수 (빈 응답 종목은 쉬었다가 재시도).
+    split_check=True: 짧은 기간만 받을 때 DB 과거 종가와 어긋나는 종목(액면 병합 등)은 과거를 지우고 2년치를 다시 받음."""
     ok = 0
     H = yf_batch(list(tickers), chunk=chunk, period=period, interval="1d")
+    redo = []
+    if split_check:
+        try: redo = _split_suspects(H)
+        except Exception: redo = []
+        if redo:
+            c = db.conn()
+            try: c.executemany("DELETE FROM prices WHERE ticker=?", [(t,) for t in redo]); c.commit()
+            finally: c.close()
+            H2 = yf_batch(redo, chunk=chunk, period="2y", interval="1d")
+            H.update(H2)
+    YF_LOG["resplit"] = redo
     for t, x in H.items():
         try:
             df = pd.DataFrame({"ticker": t, "date": [d.strftime("%Y-%m-%d") for d in x.index], "open": x["Open"].values,

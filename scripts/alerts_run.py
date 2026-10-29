@@ -11,7 +11,8 @@
   (테스트용 다른 주제: 환경변수 NTFY_TOPIC 을 임시 주제로)
 
 대상: (1) 핵심 = 관심종목 + '가능'·경보 전부 + '대기' 점수순 — 매번 전체 계산
-      (2) 넓은 감시 = 마지막 스캔 전 종목 + 거래대금 $10만↑ 유니버스 — 1분봉 일괄 시세로 훑어 움직인 종목만 전체 계산
+      (2) 넓은 감시 = 핫(마지막 스캔 + 🔮 조짐 + 최근 움직임 상위, 약 1천) 매 회차 + 나머지 유니버스(초소형~소형주 전부) 회차마다 1,100종목씩 돌아가며
+          — 1분봉 일괄 시세로 훑어 움직인 종목만 전체 계산
       (3) 공시 = EDGAR 최신 공시 피드로 넓은 감시 목록 전체."""
 import sys, os, time, json, warnings
 warnings.filterwarnings("ignore", category=FutureWarning); warnings.filterwarnings("ignore", category=DeprecationWarning); warnings.filterwarnings("ignore", module="yfinance")
@@ -32,25 +33,63 @@ def targets(c):
     return list(dict.fromkeys(first + extra))[: max(int(c.get("max_tickers", 25)), len(first))]
 
 _WIDE = {}
-def wide_set(p=None):
-    """급등 감시용 넓은 대상: 마지막 스캔 전 종목(분석된 종목) + 유니버스 중 20일 평균 거래대금 $10만 이상 (스크리너 1차 선별 기준과 같음).
-    1분봉 일괄 시세로 가볍게 훑고, 움직인 종목만 전체 계산. 하루 1번 계산해 캐시."""
+HOT_N, COLD_N = 1000, 1100      # 매 회차 1분봉: 핫 목록 전부 + 나머지 유니버스 중 COLD_N 종목(돌아가며) → 전체는 몇 회차마다 한 바퀴
+
+def wide_tiers(p=None, c=None):
+    """급등 감시 대상 2단계 (하루 1번 계산해 캐시):
+    hot = 마지막 스캔 전 종목 + 🔮 조짐 종목 + 유니버스 중 '최근 움직임'(5일 최대 등락·거래량 배수·거래대금) 상위 → 매 회차
+    cold = 나머지 유니버스 전부 (거래대금 작은 종목 포함) → 회차마다 COLD_N 종목씩 돌아가며.
+    반환: (hot, cold)."""
     key = time.strftime("%Y%m%d")
     if key in _WIDE: return _WIDE[key]
-    p = p or P.load()
+    p = p or P.load(); c = c or {}
+    hot_n = int(c.get("hot_n", HOT_N))
     df, _ = scan.last_scan()
-    out = df.ticker.tolist() if len(df) else []
+    hot = df.ticker.tolist() if len(df) else []
     try:
+        from core import omen as OM
+        hot += [r["ticker"] for r in ((OM.load_full() or {}).get("rows") or [])[:150]]
+    except Exception:
+        pass
+    u = []
+    try:
+        import datetime as _dt, numpy as _np
         u = scan.universe(p).ticker.tolist()
-        import datetime as _dt
-        q = db.q("SELECT ticker, avg(close*volume) AS dv, count(*) AS n FROM prices WHERE date >= ? GROUP BY ticker",
-                 ((_dt.date.today() - _dt.timedelta(days=30)).isoformat(),))
-        ok = set(q[(q.dv >= float(p.get("univ_min_dv_k", 100)) * 1e3) & (q.n >= 10)].ticker)
-        out += [t for t in u if t in ok]
+        q = db.q("SELECT ticker, date, close, volume FROM prices WHERE date >= ? ORDER BY ticker, date",
+                 ((_dt.date.today() - _dt.timedelta(days=45)).isoformat(),))
+        us = set(u); heat = {}
+        for t, g in q[q.ticker.isin(us)].groupby("ticker"):
+            cl, v = g.close.values.astype(float), g.volume.values.astype(float)
+            if len(cl) < 6: heat[t] = 1.0; continue       # 신규 상장 → 핫
+            r5 = _np.nanmax(_np.abs(cl[-5:] / cl[-6:-1] - 1))
+            vb = max(_np.median(v[-25:-5]) if len(v) > 10 else v.mean(), 1.0)
+            vx = _np.nanmax(v[-5:]) / vb
+            dv = float(_np.mean((cl * v)[-20:]))
+            heat[t] = min(r5, 1.0) * 2 + min(vx, 10) / 10 + (0.3 if dv >= 1e6 else 0) + (0.2 if cl[-1] < 5 else 0)
+        for t in u:
+            heat.setdefault(t, 0.0)
+        ranked = sorted(u, key=lambda t: -heat[t])
+        hot = list(dict.fromkeys(hot + ranked))[: max(hot_n, len(set(hot)))]
     except Exception as e:
         print(f"넓은 감시 목록 실패: {type(e).__name__}: {str(e)[:80]}")
-    _WIDE.clear(); _WIDE[key] = list(dict.fromkeys(out))
+    hs = set(hot)
+    cold = [t for t in u if t not in hs]
+    _WIDE.clear(); _WIDE[key] = (hot, cold)
     return _WIDE[key]
+
+def wide_set(p=None):
+    """예전 호환: 감시 대상 전체 (핫 + 나머지)."""
+    h, c_ = wide_tiers(p)
+    return list(dict.fromkeys(h + c_))
+
+def wide_slice(it, p=None, c=None):
+    """이번 회차 1분봉 대상: 핫 전부 + 나머지 중 it 번째 조각. 반환 (대상, 핫 수, 나머지 수, 한 바퀴 회차 수)."""
+    hot, cold = wide_tiers(p, c)
+    n = int((c or {}).get("cold_n", COLD_N))
+    k = max(1, -(-len(cold) // n)) if cold else 1
+    i = it % k
+    part = cold[i * n:(i + 1) * n]
+    return list(dict.fromkeys(hot + part)), len(hot), len(cold), k
 
 def prev_closes(tickers):
     """종목별 오늘(ET) 이전 마지막 일봉 종가 (DB) — 1차 선별의 등락률 기준."""
@@ -130,7 +169,9 @@ def run_filings(c, dry=False, wide=None, full=True):
         except Exception as e:
             print(f"공시 피드 실패: {type(e).__name__}: {str(e)[:80]}")
             if not full: base = filing_targets(c)
-    tk = list(dict.fromkeys(base + sorted(hit)))
+    order = {t: i for i, t in enumerate(wide or [])}        # 넓은 목록 앞쪽(핵심·핫) 우선, 한 회차 최대 filing_hit_max 종목
+    hit_l = sorted(hit, key=lambda t: order.get(t, 1e9))[: int(c.get("filing_hit_max", 150))]
+    tk = list(dict.fromkeys(base + hit_l))
     if hit: print(f"공시 피드: 넓은 감시 {len(wide)}종목 중 최근 공시 {len(hit)}종목")
     new, st = alerts.run_filings(tk, dry=dry, c=c, db_fil=db_424b(tk))
     for r in new:
@@ -142,7 +183,7 @@ def borrow_step(tk):
     """IBKR 대차 파일(전 종목, 1~2초) 1회 → 대상 종목 DB 반영 + alert-data 브랜치에 최신/이력 CSV (앱·daily 가 읽음)."""
     if not src.ftp_allowed(): return
     try:
-        uni = set(db.q("SELECT DISTINCT ticker FROM prices").ticker) | set(tk)
+        uni = set(db.q("SELECT DISTINCT ticker FROM prices").ticker) | set(db.q("SELECT ticker FROM universe").ticker) | set(tk)
         n = src.store_borrow(list(uni))
         bdir = os.environ.get("SHORTDASH_BORROW_DIR")
         tot, ch = src.borrow_publish(bdir, uni) if bdir else (0, 0)
@@ -161,8 +202,9 @@ def once(force=False, dry=False, it=0, borrow_every=1, full_filings_every=1):
         print("장 마감 시간 — 건너뜀 (--force 로 강제)")
         alerts.grade_all(); return []
     c = alerts.cfg(); p = P.load()
-    wide = list(dict.fromkeys(core + wide_set(p)))
-    quotes = live.batch_intraday(wide)            # 1분봉 일괄 (넓은 목록 전체)
+    tgt, n_hot, n_cold, cyc = wide_slice(it, p, c)
+    wide = list(dict.fromkeys(core + tgt))
+    quotes = live.batch_intraday(wide)            # 1분봉 일괄 (핫 전부 + 나머지 조각)
     for t in core:
         if t not in quotes: db.exec_("DELETE FROM kv WHERE k=?", (f"live1m:{t}",))     # 일괄에서 빠진 종목은 개별로 새로 받기
     tq = time.time()
@@ -176,12 +218,13 @@ def once(force=False, dry=False, it=0, borrow_every=1, full_filings_every=1):
             print(f"  {t}: 실패 {type(e).__name__}: {str(e)[:80]}")
     t1 = time.time()
     new = alerts.run(snaps, sess if sess != "closed" else "regular", dry=dry, c=c)
-    try: new += run_filings(c, dry=dry, wide=wide, full=(it % max(1, full_filings_every) == 0))
+    try: new += run_filings(c, dry=dry, wide=list(dict.fromkeys(wide + wide_set(p))), full=(it % max(1, full_filings_every) == 0))   # 공시 피드는 유니버스 전체
     except Exception as e: print(f"공시 확인 실패: {type(e).__name__}: {str(e)[:120]}")
     t2 = time.time()
     alerts.grade_all()
     for r in new:
         print(f"[{'전송' if r['sent'] else ('억제: ' + str(r['suppressed']) if r['suppressed'] else ('dry' if r['dry'] else '실패 ' + json.dumps(r['result'])))}] {r['title']}")
+    print(f"감시 단계: 핵심 {len(core)} + 핫 {n_hot} (매 회차) + 나머지 {n_cold} 중 {it % cyc + 1}/{cyc}번째 조각 ({cyc}회차마다 전체 한 바퀴)")
     print(f"세션 {sess} · 일괄 시세 {len(quotes)}/{len(wide)}종목 {tq - t0:.0f}s · 움직인 종목 {len(movers)} · 전체 계산 {len(snaps)} · 새 알림 {len(new)} · "
           f"{time.time() - t0:.0f}s (계산 {t1 - tq:.0f}s · 신호+공시 {t2 - t1:.0f}s)")
     return new

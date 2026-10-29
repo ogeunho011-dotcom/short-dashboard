@@ -34,7 +34,8 @@ def main(do_scan=True):
     db.init()
     p = P.load()
     watch = db.get_setting("watchlist", ["SOUN", "OCGN"])
-    print("유니버스:", src.fetch_universe())
+    n_u = src.fetch_universe()
+    print(f"유니버스: {n_u}종목 · {src.universe_text()}")
     print("Threshold:", src.update_threshold(10))
     got, bad = src.update_finra(30, None)
     sv = db.q("SELECT MAX(date) d, COUNT(*) n FROM short_vol")
@@ -44,7 +45,7 @@ def main(do_scan=True):
     print("FINRA 공매도 잔고 (최근 결제일):", src.update_finra_si(n_dates=4))
     print("대차 장중 이력 가져오기 (alert-data):", src.sync_borrow_remote(ttl=0, months=2))
     if src.ftp_allowed():
-        print("대차 스냅샷 (IBKR):", src.store_borrow(list(set(db.q("SELECT DISTINCT ticker FROM prices").ticker))))
+        print("대차 스냅샷 (IBKR):", src.store_borrow(list(set(db.q("SELECT DISTINCT ticker FROM prices").ticker) | set(db.q("SELECT ticker FROM universe").ticker))))
     for t in ["QQQ", "IWM"] + watch:
         src.fetch_prices(t, "2y")
     for t in watch:
@@ -52,9 +53,33 @@ def main(do_scan=True):
         print("갱신:", t)
     src.update_ftd(3)
     if do_scan:
+        ts_ = time.time()
         df = scan.run_scan(p)
-        print("스캔:", len(df))
+        print(f"스캔: {len(df)}종목 정밀 · 일봉 갱신 {scan.PRICE_LOG} · 스캔 {time.time() - ts_:.0f}s")
         price_freshness()
+        U = scan.universe(p).ticker.tolist()
+        try:
+            print("SEC 공시·재무 순환 갱신:", src.sec_rotate(U))
+        except Exception as e:
+            print("SEC 순환 갱신 실패:", repr(e)[:200])
+        try:
+            from core import omen as OM
+            to = time.time(); k, m = OM.build_full()
+            print(f"🔮 조짐 (유니버스 전체): {k}/{m}종목 · {time.time() - to:.0f}s")
+        except Exception as e:
+            print("🔮 조짐 전체 계산 실패:", repr(e)[:200])
+        try:
+            us = set(U)
+            px_ = set(db.q("SELECT DISTINCT ticker FROM prices WHERE date >= date('now','-10 day')").ticker)
+            sv = set(db.q("SELECT ticker FROM short_vol WHERE date=(SELECT MAX(date) FROM short_vol)").ticker)
+            si = set(db.q("SELECT DISTINCT ticker FROM short_interest WHERE settle_date=(SELECT MAX(settle_date) FROM short_interest)").ticker)
+            bo = set(db.q("SELECT DISTINCT ticker FROM borrow WHERE ts >= datetime('now','-3 day')").ticker)
+            fk = set(db.q("SELECT k FROM kv WHERE k LIKE 'fil_ok:%'").k.str[7:])
+            fx = set(db.q("SELECT k FROM kv WHERE k LIKE 'facts:%'").k.str[6:])
+            print(f"커버리지 (유니버스 {len(us)}종목): 일봉(10일 내) {len(us & px_)} · FINRA 공매도량(최근일) {len(us & sv)} · 공매도 잔고(최근 결제일) {len(us & si)} · "
+                  f"IBKR 대차(3일 내) {len(us & bo)} · SEC 공시 확인 {len(us & fk)} · SEC 재무 {len(us & fx)}")
+        except Exception as e:
+            print("커버리지 집계 실패:", repr(e)[:160])
         try:
             from core import closebet as CB
             n, m = CB.cloud_prefetch(150)

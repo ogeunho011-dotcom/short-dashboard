@@ -3,8 +3,8 @@ from . import db
 
 DEFAULTS = {
     # 유니버스 (초소형주 기본)
-    "univ_max_mcap_m": 300.0,   # 시가총액 상한 ($M)
-    "univ_max_price": 10.0,     # 주가 상한 ($)
+    "univ_max_mcap_m": 2000.0,  # 시가총액 상한 ($M) — 초소형~소형주 전부 (< $2B)
+    "univ_max_price": 1000.0,   # 주가 상한 ($) — 사실상 끔 (시총으로만 거름)
     "univ_min_price": 0.05,     # 주가 하한 ($, $1 미만 포함)
     "univ_min_dv_k": 100.0,     # 20일 평균 거래대금 하한 ($k) — 죽은 종목 제외
     "univ_max_zero_days": 3,    # 최근 20일 중 거래량 0인 날 허용 수
@@ -91,7 +91,18 @@ def _research_weights():
 def load():
     p = dict(DEFAULTS)
     p.update({k: v for k, v in _research_weights().items() if k in DEFAULTS})
-    p.update(db.get_setting("params", {}) or {})
+    sv = db.get_setting("params", {}) or {}
+    if sv and not db.get_setting("univ_v2", False):
+        # 1회 이전: 예전 기본값(시총 $300M·주가 $10)을 그대로 저장해 둔 경우 → 새 기본(초소형~소형주 전부, < $2B)으로
+        ch = False
+        if float(sv.get("univ_max_mcap_m", 300)) == 300.0: sv["univ_max_mcap_m"] = DEFAULTS["univ_max_mcap_m"]; ch = True
+        if float(sv.get("univ_max_price", 10)) == 10.0: sv["univ_max_price"] = DEFAULTS["univ_max_price"]; ch = True
+        try:
+            if ch: db.set_setting("params", sv)
+            db.set_setting("univ_v2", True)
+        except Exception:
+            pass
+    p.update(sv)
     return p
 
 def save(p):

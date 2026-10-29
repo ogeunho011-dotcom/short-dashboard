@@ -56,3 +56,30 @@ def copy_text(r, link=""):
     if link: L.append(f"🔗 {link}")
     L.append("※ 숏 레이더 추정치 · 투자 권유 아님")
     return "\n".join(L)
+
+def build_full(tickers=None, mcap=None, days_fresh=6):
+    """유니버스 전체(가격이 있는 모든 종목)로 조짐 계산 → kv 'omen_full' 에 저장 (매일 업데이트에서 1회, 앱은 읽기만).
+    종목별 DB 조회 2번 + 패턴·구조 계산이라 수천 종목도 몇 분 안. 반환: (조짐 종목 수, 검사 종목 수)."""
+    import time as _t
+    t0 = _t.time()
+    since = (dt.date.today() - dt.timedelta(days=420)).isoformat()
+    L = db.q("SELECT ticker, MAX(date) d, COUNT(*) n FROM prices GROUP BY ticker")
+    if not len(L): return 0, 0
+    top = pd.Timestamp(L.d.max())
+    L = L[(pd.to_datetime(L.d) >= top - pd.Timedelta(days=days_fresh)) & (L.n >= 15)]
+    tk = [t for t in L.ticker if tickers is None or t in set(tickers)]
+    if mcap is None:
+        u = db.q("SELECT ticker, mcap FROM universe"); mcap = dict(zip(u.ticker, u.mcap))
+    out = []
+    for t in tk:
+        try: r = _one(t, mcap.get(t) or None, since)
+        except Exception: r = None
+        if r and r["keep"]: out.append(r)
+    out.sort(key=lambda r: (r["total"], r["pat_n"], -r["price"]), reverse=True)
+    meta = dict(ts=dt.datetime.now().strftime("%Y-%m-%d %H:%M"), checked=len(tk), n=len(out), secs=round(_t.time() - t0))
+    db.kv_set("omen_full", {"meta": meta, "rows": out})
+    return len(out), len(tk)
+
+def load_full(max_age_h=60):
+    """매일 업데이트가 저장한 전체 유니버스 조짐 목록 (없거나 오래되면 None)."""
+    return db.kv_get("omen_full", max_age_h * 3600)

@@ -6,15 +6,17 @@ from . import sources as src, db, model
 BAD_NAME = re.compile(r"\b(Warrant|Warrants|Right|Rights|Unit|Units|Preferred|Notes?|Depositary Shares? representing|Acquisition Corp\w*|Dep Shr|Capital Trust)\b", re.I)
 
 def universe(p=None):
-    """기본: 나스닥 초소형~소형주 (시총 ≤ $300M, 주가 $0.05~$10, $1 미만 포함). 관리 탭에서 조정."""
+    """기본: 나스닥·NYSE·NYSE American 상장 초소형~소형 보통주 전부 (시총 < $2B, 주가 $0.05 이상, 장외 제외). 관리 탭에서 조정.
+    시총 미상(스크리너에 시총이 없는 신규 상장 등)도 포함."""
     from . import params as P
     p = p or P.load()
     u = db.q("SELECT * FROM universe")
     if len(u) == 0:
         src.fetch_universe(); u = db.q("SELECT * FROM universe")
-    mc = float(p.get("univ_max_mcap_m", 50)) * 1e6
-    u = u[(u.price >= float(p.get("univ_min_price", 0.05))) & (u.price <= float(p.get("univ_max_price", 5)))
-          & (u.mcap > 0) & (u.mcap <= mc)
+    if "tier" not in u: u["tier"] = None
+    mc = float(p.get("univ_max_mcap_m", 2000)) * 1e6
+    u = u[(u.price >= float(p.get("univ_min_price", 0.05))) & (u.price <= float(p.get("univ_max_price", 1000)))
+          & (((u.mcap > 0) & (u.mcap <= mc)) | (u.tier == "unknown"))
           & ~u["name"].fillna("").str.contains(BAD_NAME) & u.ticker.str.match(r"^[A-Z]{1,5}$")]
     return u
 
@@ -98,16 +100,35 @@ def _analyze(t, u, reg, p, hot=None, keep=None, bars=None):
         except Exception as e:
             db.set_status("스캔", False, f"{t}: {e!r}"[:200]); return None
 
+PRICE_LOG = {}
+
+def refresh_universe_prices(tick, full_days=7):
+    """유니버스 일봉 갱신 (종목이 4천 가까이 돼도 가볍게):
+    새 종목(DB 에 없거나 60일 미만) → 2년치 · 주 1회 전체 → 1년치 · 그 외 날 → 1개월치 + 액면 병합 감지 시 그 종목만 2년치 다시.
+    6시간 안에 같은 목록이면 건너뜀."""
+    t0 = time.time()
+    last = db.kv_get("bulk_done", 6 * 3600)
+    if last and not (set(tick) - set(last)): PRICE_LOG.update(mode="건너뜀(6시간 내)"); return
+    have = db.q("SELECT ticker, COUNT(*) n FROM prices GROUP BY ticker")
+    n_of = dict(zip(have.ticker, have.n))
+    new = [t for t in tick if n_of.get(t, 0) < 60]
+    old = [t for t in tick if n_of.get(t, 0) >= 60]
+    lf = db.kv_get("bulk_full_ts")
+    full = not lf or time.time() - float(lf) > full_days * 86400
+    got_new = src.bulk_prices(new, "2y") if new else 0
+    got_old = src.bulk_prices(old, "1y" if full else "1mo", split_check=not full) if old else 0
+    if full and old: db.kv_set("bulk_full_ts", time.time())
+    db.kv_set("bulk_done", tick)
+    PRICE_LOG.clear(); PRICE_LOG.update(mode="주간 전체(1년)" if full else "매일(1개월)", new=len(new), got_new=got_new, old=len(old), got_old=got_old,
+                                        resplit=len(src.YF_LOG.get("resplit") or []), secs=round(time.time() - t0))
+
 def run_scan(p, top_k=None, refresh_prices=True, progress=None, workers=6):
     """1) 유니버스 전체 일봉 일괄 다운로드(캐시) → 2) 가격 기반 1차 순위 → 3) 상위 top_k 정밀 분석 (병렬, SI/공시 12h·재무 24h 캐시)."""
     from concurrent.futures import ThreadPoolExecutor, as_completed
     top_k = int(top_k or p.get("scan_top_k", 150))
     u = universe(p)
     tick = list(u.ticker)
-    if refresh_prices:
-        last = db.kv_get("bulk_done", 6 * 3600)
-        if not last or set(tick) - set(last):
-            src.bulk_prices(tick, "1y"); db.kv_set("bulk_done", tick)
+    if refresh_prices: refresh_universe_prices(tick)
     qr = quick_rank(tick, p)
     if len(qr) == 0: return pd.DataFrame()
     cand = list(qr.ticker.head(top_k))
