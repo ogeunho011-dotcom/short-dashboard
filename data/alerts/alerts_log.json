@@ -3954,5 +3954,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250515002",
   "grade": "open"
+ },
+ {
+  "id": "SGLY-1793291104",
+  "ts_kst": "2026-10-30 01:25",
+  "ts_utc": "2026-10-29T16:25:04+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "SGLY",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +33.7% · 거래량 평소의 10.0배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 1,611k (당일 평균 79.2배)"
+  ],
+  "title": "🚀 SGLY 장중 급등 포착 · 거래량 급증",
+  "body": "$0.481 (+33.7%) · 정규장 · 레벨 3 · 점수 47\n시장에 도는 주식 540만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 9배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +33.7% · 거래량 평소의 10.0배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 1,611k (당일 평균 79.2배)\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.457 지정가(기준가 $0.481의 −5%) · 체결 가능성 약 72% · 손익분기 $0.463\n숏 지지구간 $0.337–$0.481 · 손절 $0.241 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4812,
+  "level": 3,
+  "score": 47.0,
+  "prob": 21.428571428571427,
+  "cp": 17.84962734254639,
+  "rl": 1.5,
+  "stop": 0.24060000479221344,
+  "zone": [
+   0.3368400067090988,
+   0.4812000095844269
+  ],
+  "bp": 0.4571,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220107005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220107005",
+  "grade": "n/a"
+ },
+ {
+  "id": "KPLT-1793291104",
+  "ts_kst": "2026-10-30 01:25",
+  "ts_utc": "2026-10-29T16:25:04+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "KPLT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.6% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KPLT 장중 급등 포착",
+  "body": "$11.250 (+23.6%) · 정규장 · 레벨 2 · 점수 35\n공매도 물량 대부분 손해 중, $11.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 497만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +23.6% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $10.688 지정가(기준가 $11.250의 −5%) · 체결 가능성 약 55% · 손익분기 $10.817\n숏 지지구간 $10.000–$10.500 · 손절 $9.500 · 1차목표 $11.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/06)\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 11.25,
+  "level": 2,
+  "score": 34.7,
+  "prob": 53.44827586206896,
+  "cp": 91.6010254107639,
+  "rl": 11.5,
+  "stop": 9.5,
+  "zone": [
+   10.0,
+   10.5
+  ],
+  "bp": 10.6875,
+  "tgt": 11.5,
+  "stp": 9.5,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/06)",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210610005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210610005",
+  "grade": "open"
  }
 ]
