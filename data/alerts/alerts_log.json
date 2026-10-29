@@ -3915,5 +3915,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221031003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221031003",
   "grade": "open"
+ },
+ {
+  "id": "LHAI-1793290802",
+  "ts_kst": "2026-10-30 01:20",
+  "ts_utc": "2026-10-29T16:20:02+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "LHAI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.7% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LHAI 장중 급등 포착",
+  "body": "$1.085 (+27.7%) · 정규장 · 레벨 4 · 점수 55\n$1.40 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,653만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +27.7% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.031 지정가(기준가 $1.085의 −5%) · 체결 가능성 약 68% · 손익분기 $1.044\n숏 지지구간 $0.800–$0.900 · 손절 $0.750 · 1차목표 $1.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.0854,
+  "level": 4,
+  "score": 55.1,
+  "prob": 45.01661129568107,
+  "cp": 8.91631657899392,
+  "rl": 1.4,
+  "stop": 0.75,
+  "zone": [
+   0.8,
+   0.9
+  ],
+  "bp": 1.0311,
+  "tgt": 1.4,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250515002",
+  "grade": "open"
  }
 ]
