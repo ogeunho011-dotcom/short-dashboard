@@ -4932,5 +4932,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220107005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220107005",
   "grade": "n/a"
+ },
+ {
+  "id": "MYND-1793299051",
+  "ts_kst": "2026-10-30 03:37",
+  "ts_utc": "2026-10-29T18:37:31+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "MYND",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 MYND 상위 확률 신호",
+  "body": "$0.447 (+31.6%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $0.447 넘으면 급등 가능성 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.425 지정가(기준가 $0.447의 −5%) · 체결 가능성 약 69% · 손익분기 $0.430\n숏 지지구간 $0.360–$0.380 · 손절 $0.340 · 1차목표 $0.447\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4473,
+  "level": 3,
+  "score": 42.2,
+  "prob": 52.91666666666666,
+  "cp": 61.59963988027947,
+  "rl": 0.44749999046325684,
+  "stop": 0.33999999999999986,
+  "zone": [
+   0.3599999999999999,
+   0.3799999999999999
+  ],
+  "bp": 0.4249,
+  "tgt": 0.5146249890327453,
+  "stp": 0.33999999999999986,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0231213001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0231213001",
+  "grade": "open"
  }
 ]
