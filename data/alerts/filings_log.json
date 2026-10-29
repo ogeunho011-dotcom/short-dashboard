@@ -2953,5 +2953,22 @@
   "headline": "to this report and is incorporated herein by reference. Item 9.01. Financial Statements and Exhibits. (d) Exhibits 99.1 Press Release dated October 29, 2026 104",
   "url": "https://www.sec.gov/Archives/edgar/data/1109242/000117184326006959/0001171843-26-006959-index.htm",
   "seen_kst": "2026-10-29 21:02"
+ },
+ {
+  "ticker": "FSTR",
+  "form": "8-K",
+  "acc": "0000352825-26-000053",
+  "items": "1.01,7.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:02:04+00:00",
+  "accepted_kst": "10/29 21:02",
+  "polarity": "neutral",
+  "label": "중요 계약 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "News Release L.B. Foster Expands Precast Concrete Business with the Acquisition of Dulworth Enterprises, Inc.",
+  "url": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000053/0000352825-26-000053-index.htm",
+  "seen_kst": "2026-10-29 21:05"
  }
 ]
