@@ -4773,5 +4773,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1013605/000194984626000624/0001949846-26-000624-index.htm",
   "seen_kst": "2026-10-30 03:45"
+ },
+ {
+  "ticker": "RVSB",
+  "form": "8-K",
+  "acc": "0000939057-26-000282",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T19:09:14+00:00",
+  "accepted_kst": "10/30 04:09",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "and is incorporated herein by reference. Item 9.01 Financial Statements and Exhibits. (d) Exhibits 99.1 News Release of Riverview Bancorp, Inc. dated October 27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1041368/000093905726000282/0000939057-26-000282-index.htm",
+  "seen_kst": "2026-10-30 04:12"
  }
 ]
