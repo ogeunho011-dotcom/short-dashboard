@@ -4608,5 +4608,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220316003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220316003",
   "grade": "open"
+ },
+ {
+  "id": "JFIN-1793296802",
+  "ts_kst": "2026-10-30 03:00",
+  "ts_utc": "2026-10-29T18:00:02+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "JFIN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +36.8% · 거래량 평소의 380.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ JFIN 장중 급등 포착",
+  "body": "$1.710 (+36.8%) · 정규장 · 레벨 2 · 점수 29\n공매도 물량 대부분 손해 중, $1.90 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,678만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +36.8% · 거래량 평소의 380.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.625 지정가(기준가 $1.710의 −5%) · 체결 가능성 약 56% · 손익분기 $1.644\n숏 지지구간 $1.700–$1.710 · 손절 $1.600 · 1차목표 $1.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.71,
+  "level": 2,
+  "score": 29.0,
+  "prob": 53.22840363865138,
+  "cp": 47.49868412677878,
+  "rl": 1.9000000000000008,
+  "stop": 1.6000000000000005,
+  "zone": [
+   1.7000000000000006,
+   1.7100000381469727
+  ],
+  "bp": 1.6245,
+  "tgt": 1.9000000000000008,
+  "stp": 1.6000000000000005,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190509001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190509001",
+  "grade": "open"
  }
 ]
