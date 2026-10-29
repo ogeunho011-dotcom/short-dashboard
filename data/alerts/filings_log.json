@@ -4359,5 +4359,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/764401/000143774926033862/0001437749-26-033862-index.htm",
   "seen_kst": "2026-10-29 23:39"
+ },
+ {
+  "ticker": "TDOC",
+  "form": "10-Q",
+  "acc": "0001477449-26-000052",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T14:30:44+00:00",
+  "accepted_kst": "10/29 23:30",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000052/0001477449-26-000052-index.htm",
+  "seen_kst": "2026-10-29 23:44"
  }
 ]
