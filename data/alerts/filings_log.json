@@ -3108,5 +3108,58 @@
   "headline": "announcing the Quarterly Dividend Declared Important Note Regarding Forward-Looking Statements This report contains certain forward-looking statements within th",
   "url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000090/0001829576-26-000090-index.htm",
   "seen_kst": "2026-10-29 21:12"
+ },
+ {
+  "ticker": "WOLF",
+  "form": "8-K",
+  "acc": "0000895419-26-000070",
+  "items": "5.07,8.01,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:03:15+00:00",
+  "accepted_kst": "10/29 05:03",
+  "polarity": "neutral",
+  "label": "주총 결과 · 기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders Wolfspeed, Inc. (the “Company”) held its Annual Meeting of Stockholders on October 27, 2026 (the “",
+  "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541926000070/0000895419-26-000070-index.htm",
+  "seen_kst": "2026-10-29 21:15"
+ },
+ {
+  "ticker": "ZTG",
+  "form": "6-K",
+  "acc": "0001493152-26-049185",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:11:40+00:00",
+  "accepted_kst": "10/29 21:11",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Zenta Group Zenta Group Provides Business Update on ZentoAI",
+  "url": "https://www.sec.gov/Archives/edgar/data/2011458/000149315226049185/0001493152-26-049185-index.htm",
+  "seen_kst": "2026-10-29 21:15"
+ },
+ {
+  "ticker": "WOLF",
+  "form": "4",
+  "acc": "0001628280-26-068012",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T12:13:19+00:00",
+  "accepted_kst": "10/29 21:13",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/895419/000162828026068012/0001628280-26-068012-index.htm",
+  "seen_kst": "2026-10-29 21:15"
  }
 ]
