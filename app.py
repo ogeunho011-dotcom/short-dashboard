@@ -1653,11 +1653,22 @@ def page_omen():
     from core import omen as OM
     FM = (OM.load_full() or {}).get("meta")
     basis = f'유니버스 전체 {FM["checked"]:,}종목 ({esc(FM["ts"])} 계산)' if FM else f'최근 스캔 {esc((meta or {}).get("ts") or "")} · {len(df)}종목'
-    md(f'<div class="tiny">기준: {basis} 중 {len(L)}종목 · 신호 많은 순 · 조건: 🧬 3개↑ 또는 💣 2개↑</div>')
+    md(f'<div class="tiny">기준: {basis} 중 조건 맞는 종목 <b>{len(L):,}개 전부</b> · 신호 많은 순 · 조건: 🧬 3개↑ 또는 💣 2개↑ 또는 🏦 5개↑</div>')
     md(omen_asof_html(L)); md(omen_note()); md(COPY_HINT)
-    if not L: md('<div class="card tiny">지금 조짐 조건에 맞는 종목 없음</div>')
+    if not L: md('<div class="card tiny">지금 조짐 조건에 맞는 종목 없음</div>'); disclaimer(); return
+    # 전부 보여주되 한 번에 50개씩 그림 (수백 개 카드를 한꺼번에 그리면 휴대폰에서 느림) — 순서는 신호 많은 순 그대로
+    step = 50
+    key = f"omen_show:{(FM or {}).get('ts')}"
+    shown = min(len(L), int(st.session_state.get(key, step)))
     warm_toss([r["ticker"] for r in L[:30]])
-    for r in L[:40]: md(omen_card(r))
+    for r in L[:shown]: md(omen_card(r))
+    md(f'<div class="tiny">{shown:,} / {len(L):,}종목 표시 중</div>')
+    if shown < len(L):
+        c1, c2 = st.columns(2)
+        if c1.button(f"더 보기 (+{min(step, len(L) - shown)})", key="omen_more", width="stretch"):
+            st.session_state[key] = shown + step; st.rerun()
+        if c2.button(f"전부 보기 ({len(L):,})", key="omen_all", width="stretch"):
+            st.session_state[key] = len(L); st.rerun()
     disclaimer()
 
 def omen_home(n=4):
