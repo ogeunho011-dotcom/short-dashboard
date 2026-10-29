@@ -2412,5 +2412,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150630002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150630002",
   "grade": "open"
+ },
+ {
+  "id": "CETX-1793280909",
+  "ts_kst": "2026-10-29 22:35",
+  "ts_utc": "2026-10-29T13:35:09+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "CETX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +41.8% · 거래량 평소의 17.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CETX 장중 급등 포착",
+  "body": "$2.510 (+41.8%) · 정규장 · 레벨 2 · 점수 37\n$2.70 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 172만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +41.8% · 거래량 평소의 17.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $2.500–$2.510 · 손절 $2.400 · 1차목표 $2.700\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.51,
+  "level": 2,
+  "score": 36.6,
+  "prob": 53.44827586206896,
+  "cp": 55.92596892465632,
+  "rl": 2.700000000000001,
+  "stop": 2.400000000000001,
+  "zone": [
+   2.500000000000001,
+   2.509999990463257
+  ],
+  "bp": null,
+  "tgt": 2.700000000000001,
+  "stp": 2.400000000000001,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125004",
+  "grade": "open"
+ },
+ {
+  "id": "INLF-1793280909",
+  "ts_kst": "2026-10-29 22:35",
+  "ts_utc": "2026-10-29T13:35:09+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "INLF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.1% · 거래량 평소의 189.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ INLF 장중 급등 포착",
+  "body": "$0.223 (+24.1%) · 정규장 · 레벨 2 · 점수 28\n시장에 도는 주식 640만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +24.1% · 거래량 평소의 189.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.185 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -17.4%) · 체결 가능성 약 83% · 손익분기 $0.187\n숏 지지구간 $0.156–$0.223 · 손절 $0.112 · 1차목표 $0.335\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/20)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2233,
+  "level": 2,
+  "score": 27.9,
+  "prob": 18.993839835728956,
+  "cp": 2.0,
+  "rl": 4.0,
+  "stop": 0.1116499975323677,
+  "zone": [
+   0.15630999654531477,
+   0.2232999950647354
+  ],
+  "bp": 0.1845,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/20)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
+  "grade": "n/a"
  }
 ]
