@@ -4401,5 +4401,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
   "grade": "open"
+ },
+ {
+  "id": "INLF-1793295604",
+  "ts_kst": "2026-10-30 02:40",
+  "ts_utc": "2026-10-29T17:40:04+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "INLF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.8% · 거래량 평소의 81.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ INLF 장중 급등 포착",
+  "body": "$0.239 (+32.8%) · 정규장 · 레벨 2 · 점수 32\n시장에 도는 주식 640만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +32.8% · 거래량 평소의 81.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.185 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -22.8%) · 체결 가능성 약 81% · 손익분기 $0.187\n숏 지지구간 $0.167–$0.239 · 손절 $0.119 · 1차목표 $0.358\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/20)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.239,
+  "level": 2,
+  "score": 32.3,
+  "prob": 21.428571428571427,
+  "cp": 2.0,
+  "rl": 1.0,
+  "stop": 0.11949999630451202,
+  "zone": [
+   0.16729999482631683,
+   0.23899999260902405
+  ],
+  "bp": 0.1845,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/20)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
+  "grade": "n/a"
  }
 ]
