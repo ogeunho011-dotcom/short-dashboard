@@ -1100,7 +1100,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001009",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "ELPW-1793220609",
@@ -2331,5 +2334,83 @@
    "accepted_kst": "10/29 22:13",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "NCPL-1793280779",
+  "ts_kst": "2026-10-29 22:32",
+  "ts_utc": "2026-10-29T13:32:59+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "NCPL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +42.7% · 거래량 평소의 6.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NCPL 장중 급등 포착",
+  "body": "$1.570 (+42.7%) · 정규장 · 레벨 3 · 점수 43\n$1.90 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 785만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +42.7% · 거래량 평소의 6.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.531 지정가(20일선, 기준가 대비 -2.5%) · 체결 가능성 약 85% · 손익분기 $1.549\n숏 지지구간 $1.200–$1.330 · 손절 $1.100 · 1차목표 $1.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.57,
+  "level": 3,
+  "score": 42.7,
+  "prob": 38.456237077877326,
+  "cp": 46.22398827855932,
+  "rl": 1.9000000000000006,
+  "stop": 1.1000000000000003,
+  "zone": [
+   1.2000000000000004,
+   1.3295000183582308
+  ],
+  "bp": 1.5305,
+  "tgt": 1.9000000000000006,
+  "stp": 1.1000000000000003,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
+  "grade": "open"
+ },
+ {
+  "id": "TDOC-1793280779",
+  "ts_kst": "2026-10-29 22:32",
+  "ts_utc": "2026-10-29T13:32:59+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "TDOC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.5% 급변 · 전일 대비 +23.8% — 추격 매수 주의"
+  ],
+  "title": "⚡ TDOC 장중 급등 포착",
+  "body": "$8.520 (+23.8%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중, $9.75 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 5분 +12.5% 급변 · 전일 대비 +23.8% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.094 지정가(기준가 $8.520의 −5%) · 체결 가능성 약 26% · 손익분기 $8.192\n숏 지지구간 $8.250–$8.500 · 손절 $8.000 · 1차목표 $9.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.52,
+  "level": 2,
+  "score": 28.5,
+  "prob": 53.44827586206896,
+  "cp": 59.39829959767506,
+  "rl": 9.75,
+  "stop": 8.0,
+  "zone": [
+   8.25,
+   8.5
+  ],
+  "bp": 8.094,
+  "tgt": 9.75,
+  "stp": 8.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150630002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150630002",
+  "grade": "open"
  }
 ]

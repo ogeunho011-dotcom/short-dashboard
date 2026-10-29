@@ -4104,5 +4104,22 @@
   "headline": ", shall not be deemed “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to th",
   "url": "https://www.sec.gov/Archives/edgar/data/1825088/000162828026068063/0001628280-26-068063-index.htm",
   "seen_kst": "2026-10-29 22:30"
+ },
+ {
+  "ticker": "TDOC",
+  "form": "8-K",
+  "acc": "0001477449-26-000050",
+  "items": "2.02,9.01",
+  "filed": "2026-10-28",
+  "accepted": "2026-10-28T20:04:45+00:00",
+  "accepted_kst": "10/29 05:04",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ". The foregoing information (including the exhibit set forth in Item 9.01 hereto) is being furnished and shall not be deemed “filed” for purposes of Section 18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000050/0001477449-26-000050-index.htm",
+  "seen_kst": "2026-10-29 22:33"
  }
 ]
