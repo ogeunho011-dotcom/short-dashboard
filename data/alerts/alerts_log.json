@@ -4279,5 +4279,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
   "grade": "n/a"
+ },
+ {
+  "id": "TKLF-1793294257",
+  "ts_kst": "2026-10-30 02:17",
+  "ts_utc": "2026-10-29T17:17:37+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "TKLF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.7% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TKLF 장중 급등 포착",
+  "body": "$1.645 (+16.7%) · 정규장 · 레벨 1 · 점수 15\n$1.80 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파\n• 전일 대비 +16.7% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.563 지정가(기준가 $1.645의 −5%) · 체결 가능성 약 27% · 손익분기 $1.582\n숏 지지구간 $1.450–$1.518 · 손절 $1.400 · 1차목표 $1.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.645,
+  "level": 1,
+  "score": 14.8,
+  "prob": 53.297629135807966,
+  "cp": 47.29925824246054,
+  "rl": 1.8000000000000005,
+  "stop": 1.4000000000000001,
+  "zone": [
+   1.4500000000000002,
+   1.51824999332428
+  ],
+  "bp": 1.5627,
+  "tgt": 1.8000000000000005,
+  "stp": 1.4000000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220118007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220118007",
+  "grade": "open"
  }
 ]
