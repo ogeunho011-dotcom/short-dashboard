@@ -5349,5 +5349,309 @@
    "accepted_kst": "10/30 05:05",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "BURU-1793306895",
+  "ts_kst": "2026-10-30 05:48",
+  "ts_utc": "2026-10-29T20:48:15+00:00",
+  "date_et": "2026-10-29",
+  "session": "post",
+  "ticker": "BURU",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)"
+  ],
+  "title": "🚀 BURU 상위 확률 신호",
+  "body": "$0.403 (+134.3%) · 애프터마켓 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중, $0.500 넘으면 급등 가능성 ↑ · 시장에 도는 주식 926만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 48%)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.383 지정가(기준가 $0.403의 −5%) · 체결 가능성 약 83% · 손익분기 $0.387\n숏 지지구간 $0.282–$0.403 · 손절 $0.202 · 1차목표 $0.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-02\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.403,
+  "level": 3,
+  "score": 50.7,
+  "prob": 47.808764940239065,
+  "cp": 47.89729445851185,
+  "rl": 0.5,
+  "stop": 0.2015,
+  "zone": [
+   0.2821,
+   0.403
+  ],
+  "bp": 0.3829,
+  "tgt": 0.5,
+  "stp": 0.2015,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-02",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
+  "grade": "open"
+ },
+ {
+  "id": "GDYN-fil-0001743725-26-000029",
+  "ts_kst": "2026-10-30 05:48",
+  "ts_utc": "2026-10-29T20:48:18+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "GDYN",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 GDYN 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (10/30 05:11 KST)\nGrid Dynamics Reports Record Third Quarter 2026 Financial Results Revenues of $114.3 million and Record AI Revenues of 31% San Ramon, Calif.\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200306001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200306001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001743725-26-000029",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Grid Dynamics Reports Record Third Quarter 2026 Financial Results Revenues of $114.3 million and Record AI Revenues of 31% San Ramon, Calif. — October 29, 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1743725/000174372526000029/0001743725-26-000029-index.htm",
+   "accepted_kst": "10/30 05:11",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "INBK-fil-0001562463-26-000101",
+  "ts_kst": "2026-10-30 05:48",
+  "ts_utc": "2026-10-29T20:48:18+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "INBK",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 INBK 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (10/30 05:12 KST)\nEX-99.1 2 inbk-3q2026xex991.htm EX-99.1 First Internet Bancorp Reports Record Quarterly Revenue and Continued Net Interest Margin Expansion \n⚠ 최근 악재: 424B 증자 설명서 1건 (30일 내, 최근 10/09)\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/09)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20060405001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20060405001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001562463-26-000101",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "EX-99.1 2 inbk-3q2026xex991.htm EX-99.1 First Internet Bancorp Reports Record Quarterly Revenue and Continued Net Interest Margin Expansion - Record quarterly r",
+   "url": "https://www.sec.gov/Archives/edgar/data/1562463/000156246326000101/0001562463-26-000101-index.htm",
+   "accepted_kst": "10/30 05:12",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "WKHS-fil-0001628280-26-068250",
+  "ts_kst": "2026-10-30 05:48",
+  "ts_utc": "2026-10-29T20:48:18+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "WKHS",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 제휴·라이선스"
+  ],
+  "title": "📢 WKHS 호재 공시",
+  "body": "8-K · 제휴·라이선스 (10/30 05:16 KST)\nPress Release Workhorse Enters Modular AI Infrastructure Market Through Foundational TerraPod TM Partnership with UK-Based RHAELM Initial Ag\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160107001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160107001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001628280-26-068250",
+   "items": "1.01,7.01,8.01,9.01",
+   "label": "제휴·라이선스",
+   "cats": [
+    "제휴·라이선스"
+   ],
+   "strength": 4,
+   "headline": "Press Release Workhorse Enters Modular AI Infrastructure Market Through Foundational TerraPod TM Partnership with UK-Based RHAELM Initial Agreement to develop a",
+   "url": "https://www.sec.gov/Archives/edgar/data/1425287/000162828026068250/0001628280-26-068250-index.htm",
+   "accepted_kst": "10/30 05:16",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "REAL-fil-0001573221-26-000064",
+  "ts_kst": "2026-10-30 05:48",
+  "ts_utc": "2026-10-29T20:48:18+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "REAL",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 REAL 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (10/30 05:17 KST)\nTHE REALREAL ANNOUNCES THIRD QUARTER 2026 RESULTS Third Quarter Delivers Record Revenue, GMV and Orders as Active Buyer Growth Accelerates a\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190627002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190627002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001573221-26-000064",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "THE REALREAL ANNOUNCES THIRD QUARTER 2026 RESULTS Third Quarter Delivers Record Revenue, GMV and Orders as Active Buyer Growth Accelerates and Margins Expand; C",
+   "url": "https://www.sec.gov/Archives/edgar/data/1573221/000157322126000064/0001573221-26-000064-index.htm",
+   "accepted_kst": "10/30 05:17",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "PMT-fil-0001193125-26-437878",
+  "ts_kst": "2026-10-30 05:48",
+  "ts_utc": "2026-10-29T20:48:18+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "PMT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 PMT 호재 공시",
+  "body": "8-K · 자사주 매입 (10/30 05:32 KST)\nPennyMac Mortgage Investment Trust Reports Third Quarter 2026 Results and Announces Changes to its Leadership Team\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20090730002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20090730002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-437878",
+   "items": "2.02,5.02,8.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "PennyMac Mortgage Investment Trust Reports Third Quarter 2026 Results and Announces Changes to its Leadership Team",
+   "url": "https://www.sec.gov/Archives/edgar/data/1464423/000119312526437878/0001193125-26-437878-index.htm",
+   "accepted_kst": "10/30 05:32",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SAMG-fil-0001013594-26-001116",
+  "ts_kst": "2026-10-30 05:48",
+  "ts_utc": "2026-10-29T20:48:18+00:00",
+  "date_et": "2026-10-29",
+  "session": "filing",
+  "ticker": "SAMG",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $348,694"
+  ],
+  "title": "📢 SAMG 호재 공시",
+  "body": "4 · 내부자 장내 매수 $348,694 (10/30 05:38 KST)\nEquinox Partners Investment Management LLC\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130627002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130627002",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001013594-26-001116",
+   "items": "",
+   "label": "내부자 장내 매수 $348,694",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Equinox Partners Investment Management LLC",
+   "url": "https://www.sec.gov/Archives/edgar/data/1549966/000101359426001116/0001013594-26-001116-index.htm",
+   "accepted_kst": "10/30 05:38",
+   "polarity": "pos"
+  }
  }
 ]
