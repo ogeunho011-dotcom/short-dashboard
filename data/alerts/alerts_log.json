@@ -3423,5 +3423,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150630002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150630002",
   "grade": "open"
+ },
+ {
+  "id": "CETX-1793288410",
+  "ts_kst": "2026-10-30 00:40",
+  "ts_utc": "2026-10-29T15:40:10+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "CETX",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +20.3% · 거래량 평소의 4545.1배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 CETX 장중 급등 포착 · 상위 확률 신호",
+  "body": "$2.130 (+20.3%) · 정규장 · 레벨 3 · 점수 50\n$2.20 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 172만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +20.3% · 거래량 평소의 4545.1배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.024 지정가(기준가 $2.130의 −5%) · 체결 가능성 약 54% · 손익분기 $2.048\n숏 지지구간 $2.100–$2.130 · 손절 $2.000 · 1차목표 $2.200\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.13,
+  "level": 3,
+  "score": 50.5,
+  "prob": 53.44827586206896,
+  "cp": 59.86192239698574,
+  "rl": 2.2000000000000006,
+  "stop": 2.0000000000000004,
+  "zone": [
+   2.1000000000000005,
+   2.130000114440918
+  ],
+  "bp": 2.0235,
+  "tgt": 2.2000000000000006,
+  "stp": 2.0000000000000004,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125004",
+  "grade": "open"
  }
 ]
