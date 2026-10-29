@@ -3879,5 +3879,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1995075/000121390026113588/0001213900-26-113588-index.htm",
   "seen_kst": "2026-10-29 22:00"
+ },
+ {
+  "ticker": "PACK",
+  "form": "10-Q",
+  "acc": "0001628280-26-068052",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T13:01:13+00:00",
+  "accepted_kst": "10/29 22:01",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1712463/000162828026068052/0001628280-26-068052-index.htm",
+  "seen_kst": "2026-10-29 22:02"
  }
 ]
