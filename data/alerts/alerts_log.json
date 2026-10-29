@@ -3872,5 +3872,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201028014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201028014",
   "grade": "open"
+ },
+ {
+  "id": "CLMB-1793290507",
+  "ts_kst": "2026-10-30 01:15",
+  "ts_utc": "2026-10-29T16:15:07+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "CLMB",
+  "types": [
+   "spike",
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "전일 대비 +25.8% · 거래량 평소의 5.9배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 80/100"
+  ],
+  "title": "🚀 CLMB 장중 급등 포착 · 상위 확률 신호 · 커버 압력",
+  "body": "$41.690 (+25.8%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $41.88 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,866만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +25.8% · 거래량 평소의 5.9배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 80/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $39.605 지정가(기준가 $41.690의 −5%) · 체결 가능성 약 21% · 손익분기 $40.084\n숏 지지구간 $39.000–$40.000 · 손절 $38.500 · 1차목표 $41.880\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 41.69,
+  "level": 3,
+  "score": 41.8,
+  "prob": 53.44827586206896,
+  "cp": 79.69754467277875,
+  "rl": 41.880001068115234,
+  "stop": 38.5,
+  "zone": [
+   39.0,
+   40.0
+  ],
+  "bp": 39.6055,
+  "tgt": 48.162001228332514,
+  "stp": 38.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221031003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221031003",
+  "grade": "open"
  }
 ]
