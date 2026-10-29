@@ -8461,5 +8461,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/944075/000094407526000079/0000944075-26-000079-index.htm",
   "seen_kst": "2026-10-30 07:53"
+ },
+ {
+  "ticker": "UFI",
+  "form": "4",
+  "acc": "0000950142-26-002898",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T23:27:52+00:00",
+  "accepted_kst": "10/30 08:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/100726/000095014226002898/0000950142-26-002898-index.htm",
+  "seen_kst": "2026-10-30 08:48"
  }
 ]
