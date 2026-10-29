@@ -940,6 +940,12 @@ def insider_trades(ticker, max_docs=8, ttl=86400):
     out = []
     cik = cik_map().get(ticker.upper())
     if not cik: return out
+    ref = None
+    try:
+        from . import filings as _F
+        ref = _F.market_ref(ticker)      # 주당 가격 검증 (예: LONA 10/28 워런트 행사를 P·주당 $3,149 로 적은 신고)
+    except Exception:
+        pass
     try:
         j = _sec(f"https://data.sec.gov/submissions/CIK{cik:010d}.json").json()["filings"]["recent"]
         idx = [i for i, f in enumerate(j["form"]) if f == "4"][:max_docs]
@@ -953,7 +959,9 @@ def insider_trades(ticker, max_docs=8, ttl=86400):
                     code = tr.findtext(".//transactionCoding/transactionCode")
                     sh = float(tr.findtext(".//transactionAmounts/transactionShares/value") or 0)
                     pr = tr.findtext(".//transactionAmounts/transactionPricePerShare/value")
-                    out.append({"filed": j["filingDate"][i], "who": who, "code": code, "shares": sh, "price": float(pr) if pr else None})
+                    prf = float(pr) if pr else None
+                    bad = bool(code == "P" and (not prf or prf <= 0 or (ref and ref.get("lo") and not (ref["lo"] * 0.5 <= prf <= ref["hi"] * 2))))
+                    out.append({"filed": j["filingDate"][i], "who": who, "code": code, "shares": sh, "price": prf, "bad": bad})
             except Exception:
                 continue
             time.sleep(0.15)

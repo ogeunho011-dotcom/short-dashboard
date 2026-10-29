@@ -349,7 +349,7 @@ def spike_feats(b, px, asof, shares, fil, p):
         reg = fil[fil["form"].str.match(r"^(S-1|S-3|F-1|F-3)", na=False) & (fil["filed"] >= asof - pd.Timedelta(days=10))]
         o["offering_done"] = bool(len(off) and not len(reg))
     f4 = [x for x in (b.f4 or []) if x.get("filed") and asof - pd.Timedelta(days=30) <= pd.Timestamp(x["filed"]) <= asof]
-    if b.f4 is not None and len(b.f4): o["insider_buy"] = bool(any(x.get("code") == "P" and x.get("shares", 0) > 0 for x in f4))
+    if b.f4 is not None and len(b.f4): o["insider_buy"] = bool(any(x.get("code") == "P" and x.get("shares", 0) > 0 and not x.get("bad") for x in f4))
     sp = [(pd.Timestamp(d), r) for d, r in (b.info.get("splits") or []) if r and r < 1]
     o["rs_recent"] = bool(any(asof - pd.Timedelta(days=120) <= d <= asof for d, r in sp))
     rnd = [r for r in (1, 2, 3, 5, 10) if c[-2] < r <= c[-1]]

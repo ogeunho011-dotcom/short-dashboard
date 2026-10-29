@@ -116,23 +116,73 @@ def headline(head):
     h = re.sub(r"^(Press Release|PRESS RELEASE|FOR IMMEDIATE RELEASE)\s*", "", h).strip()
     return h[:160].strip()
 
-def form4_buy(cik, acc, primary):
-    """Form 4 장내 매수(P) 금액 $. 없으면 0."""
+def market_ref(ticker):
+    """Form 4 금액 검증용 시세 기준: {'lo': 최근 10거래일 저가, 'hi': 고가, 'close': 마지막 종가, 'mcap': 시가총액} (DB 우선, 없으면 yfinance). 없으면 None."""
+    if not ticker: return None
+    ref = {}
+    try:
+        from . import db
+        q = db.q("SELECT date, high, low, close FROM prices WHERE ticker=? ORDER BY date DESC LIMIT 10", (ticker,))
+        if len(q):
+            ref.update(lo=float(q.low.min()), hi=float(q.high.max()), close=float(q.close.iloc[0]))
+        u = db.q("SELECT mcap FROM universe WHERE ticker=?", (ticker,))
+        if len(u) and u.mcap.iloc[0] and float(u.mcap.iloc[0]) > 0: ref["mcap"] = float(u.mcap.iloc[0])
+    except Exception:
+        pass
+    if "close" not in ref:
+        try:
+            import yfinance as yf
+            h = yf.Ticker(ticker).history(period="1mo", auto_adjust=False).tail(10)
+            if len(h): ref.update(lo=float(h.Low.min()), hi=float(h.High.max()), close=float(h.Close.iloc[-1]))
+            if "mcap" not in ref:
+                mc = yf.Ticker(ticker).fast_info.get("marketCap")
+                if mc and mc > 0: ref["mcap"] = float(mc)
+        except Exception:
+            pass
+    return ref or None
+
+def form4_parse(content, ref=None):
+    """Form 4 XML → 장내 매수(비파생 표, 거래코드 P) 금액 검증 합계.
+    걸러내는 줄: 가격·수량 비어 있음/0, 주당 가격이 최근 10거래일 시세 범위(저가×0.5 ~ 고가×2) 밖
+      (예: LONA 10/28 신고 — 워런트 행사 3,149,470주를 P 로 적고 주당 칸에 총 행사대금 $3,149.47 기입 → $99억으로 계산되던 문제),
+      수량이 상장 주식 수(시총÷종가) 초과. 합계가 시가총액을 넘으면 전체 무효.
+    파생 표(derivativeTransaction)·보유 수량(postTransactionAmounts)은 쓰지 않음.
+    반환 dict(total, who, rows, rejected=[사유])."""
     import xml.etree.ElementTree as X
+    root = X.fromstring(content)
+    who = root.findtext(".//reportingOwner/reportingOwnerId/rptOwnerName") or ""
+    def num(tr, path):
+        v = (tr.findtext(path) or "").strip().replace(",", "").replace("$", "")
+        try: return float(v)
+        except ValueError: return None
+    ref = ref or {}
+    lo, hi, mcap, close = ref.get("lo"), ref.get("hi"), ref.get("mcap"), ref.get("close")
+    shares_out = mcap / close if mcap and close else None
+    tot, rows, rej = 0.0, 0, []
+    for tr in root.iter("nonDerivativeTransaction"):
+        if (tr.findtext(".//transactionCoding/transactionCode") or "").strip() != "P": continue
+        sh = num(tr, ".//transactionAmounts/transactionShares/value")
+        pr = num(tr, ".//transactionAmounts/transactionPricePerShare/value")
+        if not sh or sh <= 0 or not pr or pr <= 0:
+            rej.append("가격·수량 없음"); continue
+        if lo and hi and not (lo * 0.5 <= pr <= hi * 2):
+            rej.append(f"주당 ${pr:,.2f} 시세(${lo:,.2f}~${hi:,.2f}) 밖"); continue
+        if shares_out and sh > shares_out:
+            rej.append(f"{sh:,.0f}주 > 상장 주식 수 {shares_out:,.0f}"); continue
+        tot += sh * pr; rows += 1
+    if mcap and tot > mcap:
+        rej.append(f"합계 ${tot:,.0f} > 시총 ${mcap:,.0f}"); tot, rows = 0.0, 0
+    return {"total": tot, "who": who, "rows": rows, "rejected": rej}
+
+def form4_buy(cik, acc, primary, ref=None):
+    """Form 4 장내 매수(P) 금액 $ (검증 통과분만). 반환 (금액, 신고인, 걸러낸 사유 목록). 실패 시 (0, '', [])."""
     try:
         doc = primary.split("/")[-1]
         r = sec_get(f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}/{doc}")
-        root = X.fromstring(r.content)
-        who = root.findtext(".//reportingOwner/reportingOwnerId/rptOwnerName") or ""
-        tot = 0.0
-        for tr in root.iter("nonDerivativeTransaction"):
-            if tr.findtext(".//transactionCoding/transactionCode") != "P": continue
-            sh = float(tr.findtext(".//transactionAmounts/transactionShares/value") or 0)
-            pr = float(tr.findtext(".//transactionAmounts/transactionPricePerShare/value") or 0)
-            tot += sh * pr
-        return tot, who
+        o = form4_parse(r.content, ref)
+        return o["total"], o["who"], o["rejected"]
     except Exception:
-        return 0.0, ""
+        return 0.0, "", []
 
 # ---------------------------------------------------------------- 판정
 def judge(f, insider_min=100000):
@@ -143,7 +193,10 @@ def judge(f, insider_min=100000):
     if NEG_FORMS.match(form):
         out.update(polarity="neg", label="증자 서류(" + form + ")", negs=["증자 서류"]); return out
     if form == "4":
-        amt, who = form4_buy(f["cik"], f["acc"], f["primary"])
+        res = form4_buy(f["cik"], f["acc"], f["primary"], market_ref(f.get("ticker")))
+        amt, who = res[0], res[1]; rej = res[2] if len(res) > 2 else []
+        if rej and amt <= 0:
+            out.update(label=f"내부자 매수 신고 금액 이상 — 제외 ({rej[0]})", headline=who); return out
         if amt >= insider_min:
             out.update(polarity="pos", label=f"내부자 장내 매수 ${amt:,.0f}", cats=["내부자 장내 매수"], strength=4, headline=who)
         elif amt > 0:
