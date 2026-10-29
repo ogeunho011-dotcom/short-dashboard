@@ -2710,5 +2710,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000082/0001514416-26-000082-index.htm",
   "seen_kst": "2026-10-29 20:35"
+ },
+ {
+  "ticker": "MNRO",
+  "form": "8-K",
+  "acc": "0001193125-26-437009",
+  "items": "2.02,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:35:25+00:00",
+  "accepted_kst": "10/29 20:35",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "295 Woodcliff Drive, Suite 202, Fairport, New York 14450 CONTACT: Investors and Media: Felix Veksler Vice President, Investor Relations ir@monro.com FOR IMMEDIA",
+  "url": "https://www.sec.gov/Archives/edgar/data/876427/000119312526437009/0001193125-26-437009-index.htm",
+  "seen_kst": "2026-10-29 20:37"
  }
 ]
