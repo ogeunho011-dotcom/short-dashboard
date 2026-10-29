@@ -5010,5 +5010,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001009",
   "grade": "open"
+ },
+ {
+  "id": "KPLT-1793299794",
+  "ts_kst": "2026-10-30 03:49",
+  "ts_utc": "2026-10-29T18:49:54+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "KPLT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +34.0% · 거래량 평소의 5.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KPLT 장중 급등 포착",
+  "body": "$12.196 (+34.0%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $12.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 497만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +34.0% · 거래량 평소의 5.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $11.586 지정가(기준가 $12.196의 −5%) · 체결 가능성 약 54% · 손익분기 $11.726\n숏 지지구간 $10.000–$10.769 · 손절 $9.500 · 1차목표 $12.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/06)\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.196,
+  "level": 2,
+  "score": 38.6,
+  "prob": 53.44827586206896,
+  "cp": 90.21366370741293,
+  "rl": 12.5,
+  "stop": 9.5,
+  "zone": [
+   10.0,
+   10.768600034713746
+  ],
+  "bp": 11.5862,
+  "tgt": 12.5,
+  "stp": 9.5,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/06)",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210610005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210610005",
+  "grade": "open"
  }
 ]
