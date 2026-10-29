@@ -2798,5 +2798,39 @@
   "headline": "Attached hereto as Exhibit 1 is a copy of the press release of SFL Corporation Ltd. (NYSE: SFL) (“SFL” or the “Company”), dated October 28, 2026, announcing tha",
   "url": "https://www.sec.gov/Archives/edgar/data/1289877/000128987726000039/0001289877-26-000039-index.htm",
   "seen_kst": "2026-10-29 20:45"
+ },
+ {
+  "ticker": "BTQ",
+  "form": "6-K",
+  "acc": "0001279569-26-001011",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:44:42+00:00",
+  "accepted_kst": "10/29 20:44",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "BTQ Technologies' MIMIQ™ Emulator Now Available to More Than 35,000 Quantum Developers on qBraid Large-Scale Quantum Emulation: MIMIQ™ enables simulation of cir",
+  "url": "https://www.sec.gov/Archives/edgar/data/1821866/000127956926001011/0001279569-26-001011-index.htm",
+  "seen_kst": "2026-10-29 20:47"
+ },
+ {
+  "ticker": "VBIO",
+  "form": "8-K",
+  "acc": "0001437749-26-033850",
+  "items": "8.01,9.01",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T11:45:42+00:00",
+  "accepted_kst": "10/29 20:45",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "to this Current Report on Form 8-K (this “Current Report”) and is incorporated herein by reference. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. E",
+  "url": "https://www.sec.gov/Archives/edgar/data/1787740/000143774926033850/0001437749-26-033850-index.htm",
+  "seen_kst": "2026-10-29 20:47"
  }
 ]
