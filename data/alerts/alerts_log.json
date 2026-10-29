@@ -2895,5 +2895,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221031003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221031003",
   "grade": "open"
+ },
+ {
+  "id": "LHAI-1793283462",
+  "ts_kst": "2026-10-29 23:17",
+  "ts_utc": "2026-10-29T14:17:42+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "LHAI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.9% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LHAI 장중 급등 포착",
+  "body": "$1.028 (+20.9%) · 정규장 · 레벨 3 · 점수 41\n$1.40 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,653만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +20.9% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.980 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -4.6%) · 체결 가능성 약 71% · 손익분기 $0.992\n숏 지지구간 $0.800–$0.900 · 손절 $0.750 · 1차목표 $1.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.0275,
+  "level": 3,
+  "score": 41.0,
+  "prob": 21.428571428571427,
+  "cp": 5.483202302921262,
+  "rl": 1.4,
+  "stop": 0.75,
+  "zone": [
+   0.8,
+   0.9
+  ],
+  "bp": 0.9805,
+  "tgt": 1.4,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250515002",
+  "grade": "open"
+ },
+ {
+  "id": "SYNX-1793283462",
+  "ts_kst": "2026-10-29 23:17",
+  "ts_utc": "2026-10-29T14:17:42+00:00",
+  "date_et": "2026-10-29",
+  "session": "regular",
+  "ticker": "SYNX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.7% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SYNX 장중 급등 포착",
+  "body": "$0.799 (+16.7%) · 정규장 · 레벨 1 · 점수 22\n$0.940 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 663만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.7% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $0.780–$0.799 · 손절 $0.760 · 1차목표 $0.940\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/02)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7995,
+  "level": 1,
+  "score": 21.5,
+  "prob": 24.587706146926536,
+  "cp": 19.003218027079,
+  "rl": 0.9400000000000003,
+  "stop": 0.7600000000000001,
+  "zone": [
+   0.7800000000000001,
+   0.7994999885559082
+  ],
+  "bp": null,
+  "tgt": 0.9400000000000003,
+  "stp": 0.7600000000000001,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/02)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240112002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240112002",
+  "grade": "open"
  }
 ]
