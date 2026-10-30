@@ -1,60 +1,5 @@
 [
  {
-  "ticker": "IPST",
-  "form": "8-K",
-  "acc": "0001788230-26-000091",
-  "items": "8.01,9.01",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T13:11:18+00:00",
-  "accepted_kst": "10/27 22:11",
-  "polarity": "pos",
-  "label": "상장 유지 기준 회복",
-  "cats": [
-   "상장 유지 기준 회복"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "IP Strategy Holdings, Inc. Regains Compliance with Nasdaq Listing Rule GIG HARBOR, WA (Access Newswire) October 27, 2026 — IP Strategy Holdings, Inc. (the “Comp",
-  "url": "https://www.sec.gov/Archives/edgar/data/1788230/000178823026000091/0001788230-26-000091-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
-  "ticker": "AIIO",
-  "form": "6-K",
-  "acc": "0001213900-26-112736",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T13:22:51+00:00",
-  "accepted_kst": "10/27 22:22",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Cayman Islands Companies Act (Revised) Exempted Company Limited by Shares SEVENTH AMENDED AND RESTATED MEMORANDUM OF ASSOCIATION OF Robo.ai Inc. (adopted by spe",
-  "url": "https://www.sec.gov/Archives/edgar/data/1932737/000121390026112736/0001213900-26-112736-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
-  "ticker": "AIIO",
-  "form": "424B3",
-  "acc": "0001213900-26-112738",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T13:25:51+00:00",
-  "accepted_kst": "10/27 22:25",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1932737/000121390026112738/0001213900-26-112738-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
   "ticker": "WFF",
   "form": "6-K",
   "acc": "0001213900-26-112759",
@@ -8683,5 +8628,58 @@
   "headline": "Marti Partners with CalmCar to Expand Its Multi-Partner Autonomous Mobility Ecosystem in Türkiye Marti’s First Autonomous Vehicle Has Arrived in Türkiye; Closed",
   "url": "https://www.sec.gov/Archives/edgar/data/1852767/000121390026114028/0001213900-26-114028-index.htm",
   "seen_kst": "2026-10-30 19:34"
+ },
+ {
+  "ticker": "GMTL",
+  "form": "6-K",
+  "acc": "0001654954-26-009249",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T10:43:01+00:00",
+  "accepted_kst": "10/30 19:43",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ". SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on behalf by the unders",
+  "url": "https://www.sec.gov/Archives/edgar/data/2039972/000165495426009249/0001654954-26-009249-index.htm",
+  "seen_kst": "2026-10-30 19:46"
+ },
+ {
+  "ticker": "ECX",
+  "form": "6-K",
+  "acc": "0001628280-26-068390",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T10:43:42+00:00",
+  "accepted_kst": "10/30 19:43",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "o INFORMATION CONTAINED IN THIS REPORT ON FORM 6-K This current report on Form 6-K, including the exhibit hereto, is incorporated by reference into the post-eff",
+  "url": "https://www.sec.gov/Archives/edgar/data/1861974/000162828026068390/0001628280-26-068390-index.htm",
+  "seen_kst": "2026-10-30 19:46"
+ },
+ {
+  "ticker": "NOMD",
+  "form": "6-K",
+  "acc": "0001651717-26-000029",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T10:45:24+00:00",
+  "accepted_kst": "10/30 19:45",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Nomad Foods Declares Quarterly Dividend Woking, England, October 30, 2026 – Nomad Foods Limited (NYSE: NOMD) today announced that its Board of Directors has dec",
+  "url": "https://www.sec.gov/Archives/edgar/data/1651717/000165171726000029/0001651717-26-000029-index.htm",
+  "seen_kst": "2026-10-30 19:46"
  }
 ]
