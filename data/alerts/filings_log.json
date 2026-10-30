@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RDWR",
-  "form": "4",
-  "acc": "0001976408-26-000914",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T15:32:05+00:00",
-  "accepted_kst": "10/29 00:32",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000914/0001976408-26-000914-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
   "ticker": "INBX",
   "form": "SCHEDULE 13G/A",
   "acc": "0000070858-26-000526",
@@ -8668,5 +8651,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1919246/000110465926120458/0001104659-26-120458-index.htm",
   "seen_kst": "2026-10-30 22:23"
+ },
+ {
+  "ticker": "HTLM",
+  "form": "F-1/A",
+  "acc": "0001493152-26-049373",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:26:47+00:00",
+  "accepted_kst": "10/30 22:26",
+  "polarity": "neg",
+  "label": "증자 서류(F-1/A)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023153/000149315226049373/0001493152-26-049373-index.htm",
+  "seen_kst": "2026-10-30 22:28"
  }
 ]
