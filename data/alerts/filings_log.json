@@ -2,23 +2,6 @@
  {
   "ticker": "RDWR",
   "form": "4",
-  "acc": "0001976408-26-000911",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T14:26:24+00:00",
-  "accepted_kst": "10/28 23:26",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000911/0001976408-26-000911-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "RDWR",
-  "form": "4",
   "acc": "0001976408-26-000913",
   "items": "",
   "filed": "2026-10-28",
@@ -8664,5 +8647,26 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2019804/000119312526440015/0001193125-26-440015-index.htm",
   "seen_kst": "2026-10-30 22:18"
+ },
+ {
+  "ticker": "PTHS",
+  "form": "8-K",
+  "acc": "0001104659-26-120457",
+  "items": "1.01,2.03,3.02,3.03,5.02,5.03,5.07,7.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:17:39+00:00",
+  "accepted_kst": "10/30 22:17",
+  "polarity": "neg",
+  "label": "파산·청산",
+  "cats": [],
+  "negs": [
+   "파산·청산",
+   "미등록 주식 발행(사모)(항목 3.02)",
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "Pelthos Therapeutics to Combine with Castle Creek Biosciences, Creating Transformative Biotechnology Company Focused on Serious Diseases that Affect the Skin St",
+  "url": "https://www.sec.gov/Archives/edgar/data/1919246/000110465926120457/0001104659-26-120457-index.htm",
+  "seen_kst": "2026-10-30 22:21"
  }
 ]
