@@ -2,23 +2,6 @@
  {
   "ticker": "CCB",
   "form": "8-K",
-  "acc": "0001437958-26-000075",
-  "items": "2.02,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T10:38:37+00:00",
-  "accepted_kst": "10/29 19:38",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Current Report on Form 8-K pursuant to General Instruction B.2 of Form 8-K and the information provided in Item 2.02 of this report, including Exhibit 9",
-  "url": "https://www.sec.gov/Archives/edgar/data/1437958/000143795826000075/0001437958-26-000075-index.htm",
-  "seen_kst": "2026-10-29 19:40"
- },
- {
-  "ticker": "CCB",
-  "form": "8-K",
   "acc": "0001437958-26-000076",
   "items": "7.01,9.01",
   "filed": "2026-10-29",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1404281/000210011926001561/0002100119-26-001561-index.htm",
   "seen_kst": "2026-10-31 00:29"
+ },
+ {
+  "ticker": "BHRB",
+  "form": "4",
+  "acc": "0001964493-26-000010",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T15:32:55+00:00",
+  "accepted_kst": "10/31 00:32",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $35,500 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "McLaughlin Shawn Patrick",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964333/000196449326000010/0001964493-26-000010-index.htm",
+  "seen_kst": "2026-10-31 00:34"
  }
 ]
