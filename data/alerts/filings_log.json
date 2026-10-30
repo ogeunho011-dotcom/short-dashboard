@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SXTP",
-  "form": "8-K",
-  "acc": "0001213900-26-112698",
-  "items": "8.01,9.01",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T12:05:17+00:00",
-  "accepted_kst": "10/27 21:05",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "60 Degrees Pharmaceuticals Announces Clinical Improvement and Negative PCR Results in All Completed Expanded Access Babesiosis Study Patients ● All five complet",
-  "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026112698/0001213900-26-112698-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
   "ticker": "CDT",
   "form": "8-K",
   "acc": "0001493152-26-048638",
@@ -8682,5 +8665,24 @@
   "headline": "Contact: T.C. Robillard Vice President, Investor Relations tc.robillard@carters.com Carter ’ s, Inc. Reports Third Quarter Fiscal 2026 Results • Net sales $752",
   "url": "https://www.sec.gov/Archives/edgar/data/1060822/000106082226000126/0001060822-26-000126-index.htm",
   "seen_kst": "2026-10-30 19:16"
+ },
+ {
+  "ticker": "NVX",
+  "form": "6-K",
+  "acc": "0001193125-26-439824",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T10:21:34+00:00",
+  "accepted_kst": "10/30 19:21",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Key Highlights • South Korea–U.S. Initiative : NOVONIX was selected for presentation under a government-led infrastructure initiative connecting U.S. projects w",
+  "url": "https://www.sec.gov/Archives/edgar/data/1859795/000119312526439824/0001193125-26-439824-index.htm",
+  "seen_kst": "2026-10-30 19:24"
  }
 ]
