@@ -1,61 +1,5 @@
 [
  {
-  "ticker": "WFF",
-  "form": "6-K",
-  "acc": "0001213900-26-113160",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T14:35:01+00:00",
-  "accepted_kst": "10/28 23:35",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Information contained in this report Amendment to the Ordinary Share Purchase Warrant As previously disclosed, on October 14, 2026, WF Holding Limited (the “Com",
-  "url": "https://www.sec.gov/Archives/edgar/data/1980210/000121390026113160/0001213900-26-113160-index.htm",
-  "seen_kst": "2026-10-28 23:46"
- },
- {
-  "ticker": "TRUG",
-  "form": "8-K/A",
-  "acc": "0001493152-26-048861",
-  "items": "5.02,9.01",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T18:05:27+00:00",
-  "accepted_kst": "10/29 03:05",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. As",
-  "url": "https://www.sec.gov/Archives/edgar/data/1857086/000149315226048861/0001493152-26-048861-index.htm",
-  "seen_kst": "2026-10-29 03:20"
- },
- {
-  "ticker": "NEXR",
-  "form": "6-K",
-  "acc": "0001213900-26-113293",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T20:01:03+00:00",
-  "accepted_kst": "10/29 05:01",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Nexera Technologies Signs Definitive Agreement to Sell KeepZone AI to a Global Aerospace and Defense Company for up to $6 million Transaction provides for the s",
-  "url": "https://www.sec.gov/Archives/edgar/data/1885408/000121390026113293/0001213900-26-113293-index.htm",
-  "seen_kst": "2026-10-29 05:02"
- },
- {
   "ticker": "GCTK",
   "form": "8-K",
   "acc": "0001493152-26-048981",
@@ -8681,5 +8625,56 @@
   "headline": "TNL Mediagene Completes Sale of Japanese Business in Management Buyout Company continues to own and operate its business in Taiwan; believes it has regained com",
   "url": "https://www.sec.gov/Archives/edgar/data/2013186/000121390026114056/0001213900-26-114056-index.htm",
   "seen_kst": "2026-10-30 20:19"
+ },
+ {
+  "ticker": "LGO",
+  "form": "6-K",
+  "acc": "0001062993-26-005617",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:23:53+00:00",
+  "accepted_kst": "10/30 20:23",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "October 30, 2026 Largo Reports Q3 2026 Production and Sales Results Reflecting Vanadium Diversification with First Production of Copper, Gold and Platinum Group",
+  "url": "https://www.sec.gov/Archives/edgar/data/1400438/000106299326005617/0001062993-26-005617-index.htm",
+  "seen_kst": "2026-10-30 20:26"
+ },
+ {
+  "ticker": "ANNA",
+  "form": "4",
+  "acc": "0002084269-26-000003",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:24:12+00:00",
+  "accepted_kst": "10/30 20:24",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1845123/000208426926000003/0002084269-26-000003-index.htm",
+  "seen_kst": "2026-10-30 20:26"
+ },
+ {
+  "ticker": "PULM",
+  "form": "425",
+  "acc": "0001493152-26-049353",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:24:19+00:00",
+  "accepted_kst": "10/30 20:24",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1574235/000149315226049353/0001493152-26-049353-index.htm",
+  "seen_kst": "2026-10-30 20:26"
  }
 ]
