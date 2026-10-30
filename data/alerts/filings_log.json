@@ -1,57 +1,6 @@
 [
  {
   "ticker": "RDWR",
-  "form": "6-K",
-  "acc": "0001178913-26-004865",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T10:04:56+00:00",
-  "accepted_kst": "10/28 19:04",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ☐ Indicate by check mark if the regi",
-  "url": "https://www.sec.gov/Archives/edgar/data/1094366/000117891326004865/0001178913-26-004865-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "SCL",
-  "form": "8-K",
-  "acc": "0001193125-26-435067",
-  "items": "2.02,8.01,9.01",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T11:00:16+00:00",
-  "accepted_kst": "10/28 20:00",
-  "polarity": "neutral",
-  "label": "실적 · 기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Stepan Reports Third Quarter 2026 Results Northbrook, Illinois, October 28, 2026 -- Stepan Company (NYSE: SCL) today reported: Third Quarter 2026 Highlights • R",
-  "url": "https://www.sec.gov/Archives/edgar/data/94049/000119312526435067/0001193125-26-435067-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "RDWR",
-  "form": "144",
-  "acc": "0001976408-26-000909",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T11:10:10+00:00",
-  "accepted_kst": "10/28 20:10",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000909/0001976408-26-000909-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "RDWR",
   "form": "144",
   "acc": "0001976408-26-000910",
   "items": "",
@@ -8664,5 +8613,60 @@
   "headline": "Indicate by check mark if the registrant is submitting the Form 6-K on paper as permitted by Regulation S-T Rule 101(b)(1): ☐ Indicate by check mark if the regi",
   "url": "https://www.sec.gov/Archives/edgar/data/2023153/000149315226049368/0001493152-26-049368-index.htm",
   "seen_kst": "2026-10-30 21:56"
+ },
+ {
+  "ticker": "TTGT",
+  "form": "8-K",
+  "acc": "0001193125-26-439991",
+  "items": "5.02",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:00:15+00:00",
+  "accepted_kst": "10/30 22:00",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Res",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018064/000119312526439991/0001193125-26-439991-index.htm",
+  "seen_kst": "2026-10-30 22:01"
+ },
+ {
+  "ticker": "GRRR",
+  "form": "6-K",
+  "acc": "0001213900-26-114094",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:00:20+00:00",
+  "accepted_kst": "10/30 22:00",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "SECURITIES PURCHASE AGREEMENT This Securities Purchase Agreement (as amended, supplemented, restated and/or modified from time to time, this “Agreement”) is ent",
+  "url": "https://www.sec.gov/Archives/edgar/data/1903145/000121390026114094/0001213900-26-114094-index.htm",
+  "seen_kst": "2026-10-30 22:01"
+ },
+ {
+  "ticker": "RYET",
+  "form": "6-K",
+  "acc": "0001731122-26-001381",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:00:22+00:00",
+  "accepted_kst": "10/30 22:00",
+  "polarity": "neg",
+  "label": "계약·합병 해지",
+  "cats": [],
+  "negs": [
+   "계약·합병 해지"
+  ],
+  "strength": 0,
+  "headline": "Ruanyun Deploys Cogni AI for Highway Infrastructure Records Engineers working closely with the customer support the Ningxia implementation as Ruanyun develops t",
+  "url": "https://www.sec.gov/Archives/edgar/data/1873454/000173112226001381/0001731122-26-001381-index.htm",
+  "seen_kst": "2026-10-30 22:01"
  }
 ]
