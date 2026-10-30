@@ -2,23 +2,6 @@
  {
   "ticker": "RDWR",
   "form": "4",
-  "acc": "0001976408-26-000913",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T15:31:55+00:00",
-  "accepted_kst": "10/29 00:31",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000913/0001976408-26-000913-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "RDWR",
-  "form": "4",
   "acc": "0001976408-26-000914",
   "items": "",
   "filed": "2026-10-28",
@@ -8668,5 +8651,22 @@
   "headline": "Pelthos Therapeutics to Combine with Castle Creek Biosciences, Creating Transformative Biotechnology Company Focused on Serious Diseases that Affect the Skin St",
   "url": "https://www.sec.gov/Archives/edgar/data/1919246/000110465926120457/0001104659-26-120457-index.htm",
   "seen_kst": "2026-10-30 22:21"
+ },
+ {
+  "ticker": "PTHS",
+  "form": "425",
+  "acc": "0001104659-26-120458",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:20:45+00:00",
+  "accepted_kst": "10/30 22:20",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1919246/000110465926120458/0001104659-26-120458-index.htm",
+  "seen_kst": "2026-10-30 22:23"
  }
 ]
