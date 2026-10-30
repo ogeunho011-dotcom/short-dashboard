@@ -8383,5 +8383,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190102005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190102005",
   "grade": "open"
+ },
+ {
+  "id": "XPOF-1793376715",
+  "ts_kst": "2026-10-31 01:11",
+  "ts_utc": "2026-10-30T16:11:55+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "XPOF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.5% · 거래량 평소의 9.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XPOF 장중 급등 포착",
+  "body": "$4.505 (+20.5%) · 정규장 · 레벨 1 · 점수 19\n$5.25 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +20.5% · 거래량 평소의 9.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $4.280 지정가(기준가 $4.505의 −5%) · 체결 가능성 약 39% · 손익분기 $4.331\n숏 지지구간 $4.250–$4.500 · 손절 $4.000 · 1차목표 $5.250\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.505,
+  "level": 1,
+  "score": 19.4,
+  "prob": 47.808764940239065,
+  "cp": 40.719051965744356,
+  "rl": 5.25,
+  "stop": 4.0,
+  "zone": [
+   4.25,
+   4.5
+  ],
+  "bp": 4.2798,
+  "tgt": 5.25,
+  "stp": 4.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210721012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210721012",
+  "grade": "open"
  }
 ]
