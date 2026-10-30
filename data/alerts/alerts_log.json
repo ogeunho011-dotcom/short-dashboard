@@ -9062,5 +9062,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19971105001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19971105001",
   "grade": "open"
+ },
+ {
+  "id": "NFE-1793383053",
+  "ts_kst": "2026-10-31 02:57",
+  "ts_utc": "2026-10-30T17:57:33+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "NFE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.5% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NFE 장중 급등 포착",
+  "body": "$4.415 (+16.5%) · 정규장 · 레벨 1 · 점수 14\n$5.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +16.5% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $4.144 지정가(20일선, 기준가 대비 -6.1%) · 체결 가능성 약 46% · 손익분기 $4.194\n숏 지지구간 $3.000–$4.000 · 손절 $2.207 · 1차목표 $5.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-14\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.415,
+  "level": 1,
+  "score": 14.4,
+  "prob": 31.25,
+  "cp": 15.874487353365485,
+  "rl": 5.0,
+  "stop": 2.2074999809265137,
+  "zone": [
+   3.0,
+   4.0
+  ],
+  "bp": 4.144,
+  "tgt": 5.0,
+  "stp": 2.2074999809265137,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-14"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190131002",
+  "grade": "open"
  }
 ]
