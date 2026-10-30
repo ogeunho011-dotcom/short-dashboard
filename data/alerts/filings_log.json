@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RUBI",
-  "form": "6-K",
-  "acc": "0001171843-26-006911",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T20:15:06+00:00",
-  "accepted_kst": "10/29 05:15",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "and is incorporated herein by reference. Attached hereto as Exhibit 1.1 is a copy of the Articles of Amendment to the Amended and Restated Articles of Incorpora",
-  "url": "https://www.sec.gov/Archives/edgar/data/1943421/000117184326006911/0001171843-26-006911-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
   "ticker": "GRDX",
   "form": "8-K",
   "acc": "0001104659-26-119636",
@@ -8675,5 +8658,22 @@
   "headline": "Item 1.01. Entry into a Material Definitive Agreement. On October 28, 2026, Cobra Aviation Services LLC (“Cobra”) and Leopard Aviation LLC (“Leopard” and, toget",
   "url": "https://www.sec.gov/Archives/edgar/data/1679268/000162828026068445/0001628280-26-068445-index.htm",
   "seen_kst": "2026-10-30 21:11"
+ },
+ {
+  "ticker": "TOYO",
+  "form": "6-K",
+  "acc": "0001213900-26-114075",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T12:15:21+00:00",
+  "accepted_kst": "10/30 21:15",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Harney Westwood & Riegels 14th Floor, Alexandra House 18 Chater Road Central Hong Kong Tel: +852 5806 7800 Fax: +852 5806 7810 29 October 2026 060695.0003 The N",
+  "url": "https://www.sec.gov/Archives/edgar/data/1985273/000121390026114075/0001213900-26-114075-index.htm",
+  "seen_kst": "2026-10-30 21:16"
  }
 ]
