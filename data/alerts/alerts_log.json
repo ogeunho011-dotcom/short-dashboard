@@ -7125,5 +7125,124 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240726001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240726001",
   "grade": "n/a"
+ },
+ {
+  "id": "PAVS-1793369492",
+  "ts_kst": "2026-10-30 23:11",
+  "ts_utc": "2026-10-30T14:11:32+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "PAVS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.7% · 거래량 평소의 102.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PAVS 장중 급등 포착",
+  "body": "$3.640 (+24.7%) · 정규장 · 레벨 3 · 점수 42\n$5.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 8만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +24.7% · 거래량 평소의 102.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $3.458 지정가(기준가 $3.640의 −5%) · 체결 가능성 약 47% · 손익분기 $3.500\n숏 지지구간 $3.500–$3.640 · 손절 $3.250 · 1차목표 $5.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.64,
+  "level": 3,
+  "score": 41.5,
+  "prob": 41.15942028985507,
+  "cp": 25.64703232366162,
+  "rl": 5.0,
+  "stop": 3.25,
+  "zone": [
+   3.5,
+   3.640000104904175
+  ],
+  "bp": 3.458,
+  "tgt": 5.0,
+  "stp": 3.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230314003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230314003",
+  "grade": "open"
+ },
+ {
+  "id": "RMNI-1793369492",
+  "ts_kst": "2026-10-30 23:11",
+  "ts_utc": "2026-10-30T14:11:32+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "RMNI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.8% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RMNI 장중 급등 포착",
+  "body": "$4.900 (+22.8%) · 정규장 · 레벨 1 · 점수 20\n공매도 물량 대부분 손해 중, $5.20 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +22.8% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.655 지정가(기준가 $4.900의 −5%) · 체결 가능성 약 19% · 손익분기 $4.711\n숏 지지구간 $4.400–$4.575 · 손절 $4.300 · 1차목표 $5.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.8999,
+  "level": 1,
+  "score": 20.5,
+  "prob": 53.17132790010547,
+  "cp": 65.427191131804,
+  "rl": 5.200000000000001,
+  "stop": 4.300000000000001,
+  "zone": [
+   4.4,
+   4.5749649858474735
+  ],
+  "bp": 4.6549,
+  "tgt": 5.200000000000001,
+  "stp": 4.300000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20171011004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20171011004",
+  "grade": "open"
+ },
+ {
+  "id": "XPOF-1793369492",
+  "ts_kst": "2026-10-30 23:11",
+  "ts_utc": "2026-10-30T14:11:32+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "XPOF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.4% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XPOF 장중 급등 포착",
+  "body": "$4.390 (+17.4%) · 정규장 · 레벨 1 · 점수 4\n$5.25 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +17.4% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $4.170 지정가(기준가 $4.390의 −5%) · 체결 가능성 약 40% · 손익분기 $4.221\n숏 지지구간 $4.250–$4.390 · 손절 $4.000 · 1차목표 $5.250\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.39,
+  "level": 1,
+  "score": 3.7,
+  "prob": 28.643216080402006,
+  "cp": 38.15664218961311,
+  "rl": 5.25,
+  "stop": 4.0,
+  "zone": [
+   4.25,
+   4.389999866485596
+  ],
+  "bp": 4.1705,
+  "tgt": 5.25,
+  "stp": 4.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210721012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210721012",
+  "grade": "open"
  }
 ]
