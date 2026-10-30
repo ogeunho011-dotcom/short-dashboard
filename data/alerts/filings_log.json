@@ -1,42 +1,5 @@
 [
  {
-  "ticker": "CDT",
-  "form": "8-K",
-  "acc": "0001493152-26-048638",
-  "items": "1.01,3.02,7.01,9.01",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T12:15:39+00:00",
-  "accepted_kst": "10/27 21:15",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "CDT Partners with Manoira to Explore Enhancing Animal Health Products Ahead of Launch NAPLES, Fla. and",
-  "url": "https://www.sec.gov/Archives/edgar/data/1896212/000149315226048638/0001493152-26-048638-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
-  "ticker": "ONCO",
-  "form": "425",
-  "acc": "0001213900-26-112716",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T12:31:29+00:00",
-  "accepted_kst": "10/27 21:31",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1782107/000121390026112716/0001213900-26-112716-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
   "ticker": "IPST",
   "form": "8-K",
   "acc": "0001788230-26-000091",
@@ -8684,5 +8647,41 @@
   "headline": "Key Highlights • South Korea–U.S. Initiative : NOVONIX was selected for presentation under a government-led infrastructure initiative connecting U.S. projects w",
   "url": "https://www.sec.gov/Archives/edgar/data/1859795/000119312526439824/0001193125-26-439824-index.htm",
   "seen_kst": "2026-10-30 19:24"
+ },
+ {
+  "ticker": "SID",
+  "form": "6-K",
+  "acc": "0001292814-26-005062",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T10:31:43+00:00",
+  "accepted_kst": "10/30 19:31",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "_______ Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Com",
+  "url": "https://www.sec.gov/Archives/edgar/data/1049659/000129281426005062/0001292814-26-005062-index.htm",
+  "seen_kst": "2026-10-30 19:34"
+ },
+ {
+  "ticker": "MRT",
+  "form": "6-K",
+  "acc": "0001213900-26-114028",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T10:33:11+00:00",
+  "accepted_kst": "10/30 19:33",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Marti Partners with CalmCar to Expand Its Multi-Partner Autonomous Mobility Ecosystem in Türkiye Marti’s First Autonomous Vehicle Has Arrived in Türkiye; Closed",
+  "url": "https://www.sec.gov/Archives/edgar/data/1852767/000121390026114028/0001213900-26-114028-index.htm",
+  "seen_kst": "2026-10-30 19:34"
  }
 ]
