@@ -3082,7 +3082,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210811001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210811001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.05201571268237936,
+  "graded_bars": 1
  },
  {
   "id": "SGLY-1793283898",
@@ -4202,7 +4205,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0231213001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0231213001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "LUNG-1793292314",
@@ -6550,6 +6556,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170612003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170612003",
+  "grade": "open"
+ },
+ {
+  "id": "OSPN-1793367386",
+  "ts_kst": "2026-10-30 22:36",
+  "ts_utc": "2026-10-30T13:36:26+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "OSPN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.9% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OSPN 장중 급등 포착",
+  "body": "$25.170 (+24.9%) · 정규장 · 레벨 1 · 점수 20\n공매도 물량 대부분 손해 중, $25.96 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +24.9% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $23.912 지정가(기준가 $25.170의 −5%) · 체결 가능성 약 28% · 손익분기 $24.200\n숏 지지구간 $19.000–$20.000 · 손절 $18.000 · 1차목표 $25.960\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 25.17,
+  "level": 1,
+  "score": 20.1,
+  "prob": 53.42741211932112,
+  "cp": 72.47868115789882,
+  "rl": 25.959999084472656,
+  "stop": 18.0,
+  "zone": [
+   19.0,
+   20.0
+  ],
+  "bp": 23.9115,
+  "tgt": 25.959999084472656,
+  "stp": 18.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180604001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180604001",
   "grade": "open"
  }
 ]
