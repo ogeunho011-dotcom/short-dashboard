@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FMBH",
-  "form": "8-K",
-  "acc": "0001171843-26-006956",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:00:32+00:00",
-  "accepted_kst": "10/29 20:00",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Current Report on Form 8-K and is incorporated into this Item 2.02 by reference. Item 7.01. Regulation FD Disclosure. On October 29, 2026, the Company m",
-  "url": "https://www.sec.gov/Archives/edgar/data/700565/000117184326006956/0001171843-26-006956-index.htm",
-  "seen_kst": "2026-10-29 20:02"
- },
- {
   "ticker": "OPEN",
   "form": "8-K",
   "acc": "0001140361-26-041096",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1414767/999999999726001696/9999999997-26-001696-index.htm",
   "seen_kst": "2026-10-31 02:02"
+ },
+ {
+  "ticker": "CWD",
+  "form": "8-K",
+  "acc": "0001627282-26-000076",
+  "items": "7.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T17:13:12+00:00",
+  "accepted_kst": "10/31 02:13",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "attached hereto, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or deemed incor",
+  "url": "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000076/0001627282-26-000076-index.htm",
+  "seen_kst": "2026-10-31 02:14"
  }
 ]
