@@ -7648,5 +7648,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220209001",
   "grade": "open"
+ },
+ {
+  "id": "PLRZ-1793372638",
+  "ts_kst": "2026-10-31 00:03",
+  "ts_utc": "2026-10-30T15:03:58+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "PLRZ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.1% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PLRZ 장중 급등 포착",
+  "body": "$10.450 (+16.1%) · 정규장 · 레벨 1 · 점수 22\n$12.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 161만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.1% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $9.927 지정가(기준가 $10.450의 −5%) · 체결 가능성 약 56% · 손익분기 $10.047\n숏 지지구간 $10.000–$10.450 · 손절 $9.500 · 1차목표 $12.000\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.45,
+  "level": 1,
+  "score": 21.5,
+  "prob": 45.01661129568107,
+  "cp": 20.680486067788877,
+  "rl": 12.0,
+  "stop": 9.5,
+  "zone": [
+   10.0,
+   10.449999809265137
+  ],
+  "bp": 9.9275,
+  "tgt": 12.0,
+  "stp": 9.5,
+  "penalties": [
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241029003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241029003",
+  "grade": "open"
  }
 ]
