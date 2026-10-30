@@ -2,23 +2,6 @@
  {
   "ticker": "FMBH",
   "form": "425",
-  "acc": "0001171843-26-006958",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:00:20+00:00",
-  "accepted_kst": "10/29 20:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/700565/000117184326006958/0001171843-26-006958-index.htm",
-  "seen_kst": "2026-10-29 20:02"
- },
- {
-  "ticker": "FMBH",
-  "form": "425",
   "acc": "0001171843-26-006955",
   "items": "",
   "filed": "2026-10-29",
@@ -8668,5 +8651,22 @@
   "headline": "﻿ ﻿ ﻿ Bank of the James Fi nanci al Grou p Announces Third Quarter of 2026 and First Nine Months of 2026 Financial Results and Declaration of Cash Dividend ; In",
   "url": "https://www.sec.gov/Archives/edgar/data/1275101/000127510126000027/0001275101-26-000027-index.htm",
   "seen_kst": "2026-10-31 01:16"
+ },
+ {
+  "ticker": "RELL",
+  "form": "4",
+  "acc": "0001193125-26-440960",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T16:16:58+00:00",
+  "accepted_kst": "10/31 01:16",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/355948/000119312526440960/0001193125-26-440960-index.htm",
+  "seen_kst": "2026-10-31 01:19"
  }
 ]
