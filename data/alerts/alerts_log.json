@@ -4386,7 +4386,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220118007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220118007",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.1610152062645075,
+  "graded_bars": 1
  },
  {
   "id": "BURU-1793295311",
@@ -8257,6 +8260,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220124003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220124003",
+  "grade": "open"
+ },
+ {
+  "id": "IVF-1793375651",
+  "ts_kst": "2026-10-31 00:54",
+  "ts_utc": "2026-10-30T15:54:11+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "IVF",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 IVF 상위 확률 신호",
+  "body": "$2.100 (+291.7%) · 정규장 · 레벨 3 · 점수 47\n$2.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 251만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.995 지정가(기준가 $2.100의 −5%) · 체결 가능성 약 54% · 손익분기 $2.019\n숏 지지구간 $2.000–$2.100 · 손절 $1.750 · 1차목표 $2.750\n⚠ 역분할 2026-10-30\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.1,
+  "level": 3,
+  "score": 47.0,
+  "prob": 53.15995625456454,
+  "cp": 42.081784817415226,
+  "rl": 2.75,
+  "stop": 1.75,
+  "zone": [
+   2.0,
+   2.0999999046325684
+  ],
+  "bp": 1.995,
+  "tgt": 2.75,
+  "stp": 1.75,
+  "penalties": [
+   "역분할 2026-10-30"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201113002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201113002",
   "grade": "open"
  }
 ]
