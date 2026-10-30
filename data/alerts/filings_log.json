@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BXMT",
-  "form": "10-Q",
-  "acc": "0001061630-26-000097",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T10:47:35+00:00",
-  "accepted_kst": "10/29 19:47",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1061630/000106163026000097/0001061630-26-000097-index.htm",
-  "seen_kst": "2026-10-29 19:52"
- },
- {
   "ticker": "LVWR",
   "form": "8-K",
   "acc": "0001898795-26-000107",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/879526/000087952626000108/0000879526-26-000108-index.htm",
   "seen_kst": "2026-10-31 00:44"
+ },
+ {
+  "ticker": "GPRE",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0002100119-26-001604",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T15:45:51+00:00",
+  "accepted_kst": "10/31 00:45",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1309402/000210011926001604/0002100119-26-001604-index.htm",
+  "seen_kst": "2026-10-31 00:46"
  }
 ]
