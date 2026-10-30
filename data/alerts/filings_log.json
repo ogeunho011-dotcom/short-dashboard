@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GRDX",
-  "form": "POS AM",
-  "acc": "0001104659-26-119304",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T10:03:22+00:00",
-  "accepted_kst": "10/28 19:03",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926119304/0001104659-26-119304-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
   "ticker": "ELPW",
   "form": "6-K",
   "acc": "0001493152-26-048796",
@@ -8674,5 +8657,22 @@
   "headline": "EXPLANATORY NOTE On October 27, 2026, Dr. Michel Laberge, the Chief Science Officer and founder of General Fusion Group Ltd. (the “Company”), entered into an em",
   "url": "https://www.sec.gov/Archives/edgar/data/2074850/000110465926120395/0001104659-26-120395-index.htm",
   "seen_kst": "2026-10-30 20:31"
+ },
+ {
+  "ticker": "ANNA",
+  "form": "4",
+  "acc": "0001411587-26-000002",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:33:13+00:00",
+  "accepted_kst": "10/30 20:33",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1845123/000141158726000002/0001411587-26-000002-index.htm",
+  "seen_kst": "2026-10-30 20:36"
  }
 ]
