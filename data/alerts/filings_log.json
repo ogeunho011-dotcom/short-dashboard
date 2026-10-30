@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ASPS",
-  "form": "8-K",
-  "acc": "0001462418-26-000055",
-  "items": "2.02,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:02:30+00:00",
-  "accepted_kst": "10/29 20:02",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "FOR FURTHER INFORMATION CONTACT: Michelle D. Esterman Chief Financial Officer T: (770) 612-7007 E: Michelle.Esterman@altisource.com ALTISOURCE ANNOUNCES THIRD Q",
-  "url": "https://www.sec.gov/Archives/edgar/data/1462418/000146241826000055/0001462418-26-000055-index.htm",
-  "seen_kst": "2026-10-29 20:05"
- },
- {
   "ticker": "PGY",
   "form": "8-K",
   "acc": "0001883085-26-000062",
@@ -8668,5 +8651,22 @@
   "headline": "Anderson Nicolas C",
   "url": "https://www.sec.gov/Archives/edgar/data/1403475/000173620926000011/0001736209-26-000011-index.htm",
   "seen_kst": "2026-10-31 03:00"
+ },
+ {
+  "ticker": "ZJYL",
+  "form": "6-K",
+  "acc": "0001213900-26-114281",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T18:00:24+00:00",
+  "accepted_kst": "10/31 03:00",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Completion of Kangma Equity Transfer As previously disclosed in the Report of Foreign Private Issuer on Form 6-K furnished by JIN MEDICAL INTERNATIONAL LTD. (th",
+  "url": "https://www.sec.gov/Archives/edgar/data/1837821/000121390026114281/0001213900-26-114281-index.htm",
+  "seen_kst": "2026-10-31 03:02"
  }
 ]

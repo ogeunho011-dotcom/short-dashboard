@@ -9104,5 +9104,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190131002",
   "grade": "open"
+ },
+ {
+  "id": "MASK-1793383348",
+  "ts_kst": "2026-10-31 03:02",
+  "ts_utc": "2026-10-30T18:02:28+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "MASK",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 73/100"
+  ],
+  "title": "🚀 MASK 상위 확률 신호 · 커버 압력",
+  "body": "$2.360 (+247.1%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $2.74 넘으면 급등 가능성 ↑ · 시장에 도는 주식 30만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 73/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.242 지정가(기준가 $2.360의 −5%) · 체결 가능성 약 62% · 손익분기 $2.269\n숏 지지구간 $1.400–$1.500 · 손절 $1.350 · 1차목표 $2.740\n⚠ 최근 악재 공시: 6-K 역분할 (10/29)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.36,
+  "level": 3,
+  "score": 42.3,
+  "prob": 52.91666666666666,
+  "cp": 72.73651433678451,
+  "rl": 2.740000009536743,
+  "stop": 1.3499999999999999,
+  "zone": [
+   1.4,
+   1.5
+  ],
+  "bp": 2.242,
+  "tgt": 2.740000009536743,
+  "stp": 1.3499999999999999,
+  "penalties": [
+   "최근 악재 공시: 6-K 역분할 (10/29)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250108004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250108004",
+  "grade": "open"
  }
 ]
