@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "RCT",
-  "form": "6-K",
-  "acc": "0001493152-26-048747",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T21:18:31+00:00",
-  "accepted_kst": "10/28 06:18",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "RedCloud Repays All Convertible Notes In Full Following repayment, there are no convertible notes outstanding and RedCloud intends to deregister the unsold ordi",
-  "url": "https://www.sec.gov/Archives/edgar/data/2027360/000149315226048747/0001493152-26-048747-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
-  "ticker": "KVHI",
-  "form": "SCHEDULE 13G",
-  "acc": "0002012383-26-003915",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T21:25:37+00:00",
-  "accepted_kst": "10/28 06:25",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1007587/000201238326003915/0002012383-26-003915-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
   "ticker": "GRDX",
   "form": "POS AM",
   "acc": "0001104659-26-119304",
@@ -8676,5 +8640,39 @@
   "headline": "Agility Robotics and Churchill Capital Corp XI Announce Expected Gross Capital Raise of Approximately $465 Million and Anticipated Closing of Business Combinati",
   "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026114063/0001213900-26-114063-index.htm",
   "seen_kst": "2026-10-30 20:29"
+ },
+ {
+  "ticker": "CCXI",
+  "form": "425",
+  "acc": "0001213900-26-114065",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:29:23+00:00",
+  "accepted_kst": "10/30 20:29",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026114065/0001213900-26-114065-index.htm",
+  "seen_kst": "2026-10-30 20:31"
+ },
+ {
+  "ticker": "GFUZ",
+  "form": "6-K",
+  "acc": "0001104659-26-120395",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:30:23+00:00",
+  "accepted_kst": "10/30 20:30",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EXPLANATORY NOTE On October 27, 2026, Dr. Michel Laberge, the Chief Science Officer and founder of General Fusion Group Ltd. (the “Company”), entered into an em",
+  "url": "https://www.sec.gov/Archives/edgar/data/2074850/000110465926120395/0001104659-26-120395-index.htm",
+  "seen_kst": "2026-10-30 20:31"
  }
 ]
