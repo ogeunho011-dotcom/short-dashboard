@@ -1,79 +1,5 @@
 [
  {
-  "ticker": "XXII",
-  "form": "424B5",
-  "acc": "0001493152-26-048792",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T10:05:01+00:00",
-  "accepted_kst": "10/28 19:05",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048792/0001493152-26-048792-index.htm",
-  "seen_kst": "2026-10-28 19:20"
- },
- {
-  "ticker": "XXII",
-  "form": "8-K",
-  "acc": "0001493152-26-048795",
-  "items": "1.01,9.01",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T10:10:08+00:00",
-  "accepted_kst": "10/28 19:10",
-  "polarity": "neutral",
-  "label": "중요 계약",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On October 27, 2026, 22nd Century Group, Inc. (the “Company”) entered into Amendment No. 2 to Sales Agreem",
-  "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048795/0001493152-26-048795-index.htm",
-  "seen_kst": "2026-10-28 19:20"
- },
- {
-  "ticker": "OWLS",
-  "form": "4",
-  "acc": "0002109337-26-000013",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T12:02:22+00:00",
-  "accepted_kst": "10/27 21:02",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $22,283",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "WANG CHUN KAI",
-  "url": "https://www.sec.gov/Archives/edgar/data/2025416/000210933726000013/0002109337-26-000013-index.htm",
-  "seen_kst": "2026-10-28 19:52"
- },
- {
-  "ticker": "WFF",
-  "form": "424B5",
-  "acc": "0001213900-26-113145",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T14:05:11+00:00",
-  "accepted_kst": "10/28 23:05",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1980210/000121390026113145/0001213900-26-113145-index.htm",
-  "seen_kst": "2026-10-28 23:46"
- },
- {
   "ticker": "WFF",
   "form": "6-K",
   "acc": "0001213900-26-113160",
@@ -8685,5 +8611,75 @@
   "headline": "Flowco Holdings Inc. Announces Quarterly Cash Dividend HOUSTON",
   "url": "https://www.sec.gov/Archives/edgar/data/2035149/000119312526439872/0001193125-26-439872-index.htm",
   "seen_kst": "2026-10-30 20:16"
+ },
+ {
+  "ticker": "PHOS",
+  "form": "6-K",
+  "acc": "0001753926-26-002028",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:15:36+00:00",
+  "accepted_kst": "10/30 20:15",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FIRST PHOSPHATE CORP. ANNUAL INFORMATION FORM FOR THE YEAR ENDED FEBRUARY 28, 2026 October 29, 2026 FIRST PHOSPHATE AIF 1 Contents Introduction 3 Cautionary Not",
+  "url": "https://www.sec.gov/Archives/edgar/data/1490078/000175392626002028/0001753926-26-002028-index.htm",
+  "seen_kst": "2026-10-30 20:19"
+ },
+ {
+  "ticker": "INVE",
+  "form": "SC TO-I/A",
+  "acc": "0001213900-26-114054",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:15:48+00:00",
+  "accepted_kst": "10/30 20:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1036044/000121390026114054/0001213900-26-114054-index.htm",
+  "seen_kst": "2026-10-30 20:19"
+ },
+ {
+  "ticker": "COFS",
+  "form": "8-K",
+  "acc": "0001193125-26-439873",
+  "items": "2.02,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:16:15+00:00",
+  "accepted_kst": "10/30 20:16",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "News Release ChoiceOne Reports Third Quarter 2 026 Results Sparta, Michigan – October 30, 2026 – ChoiceOne Financial Services, Inc. (\"ChoiceOne\", NASDAQ:COFS),",
+  "url": "https://www.sec.gov/Archives/edgar/data/803164/000119312526439873/0001193125-26-439873-index.htm",
+  "seen_kst": "2026-10-30 20:19"
+ },
+ {
+  "ticker": "TNMG",
+  "form": "6-K",
+  "acc": "0001213900-26-114056",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:17:12+00:00",
+  "accepted_kst": "10/30 20:17",
+  "polarity": "pos",
+  "label": "상장 유지 기준 회복",
+  "cats": [
+   "상장 유지 기준 회복"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "TNL Mediagene Completes Sale of Japanese Business in Management Buyout Company continues to own and operate its business in Taiwan; believes it has regained com",
+  "url": "https://www.sec.gov/Archives/edgar/data/2013186/000121390026114056/0001213900-26-114056-index.htm",
+  "seen_kst": "2026-10-30 20:19"
  }
 ]
