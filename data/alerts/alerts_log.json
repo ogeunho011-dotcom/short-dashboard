@@ -9349,5 +9349,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220209001",
   "grade": "open"
+ },
+ {
+  "id": "WKHS-1793387227",
+  "ts_kst": "2026-10-31 04:07",
+  "ts_utc": "2026-10-30T19:07:07+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "WKHS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.1% · 거래량 평소의 19.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WKHS 장중 급등 포착",
+  "body": "$2.935 (+15.1%) · 정규장 · 레벨 2 · 점수 28\n$3.10 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,093만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.1% · 거래량 평소의 19.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $2.775 지정가(20일선, 기준가 대비 -5.5%) · 체결 가능성 약 29% · 손익분기 $2.808\n숏 지지구간 $2.600–$2.717 · 손절 $2.550 · 1차목표 $3.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.935,
+  "level": 2,
+  "score": 28.0,
+  "prob": 49.54276451012601,
+  "cp": 69.83963129197873,
+  "rl": 3.100000000000001,
+  "stop": 2.5500000000000007,
+  "zone": [
+   2.6000000000000005,
+   2.7172499799728396
+  ],
+  "bp": 2.7748,
+  "tgt": 3.100000000000001,
+  "stp": 2.5500000000000007,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160107001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160107001",
+  "grade": "open"
  }
 ]
