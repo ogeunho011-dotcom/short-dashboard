@@ -8584,5 +8584,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230314003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230314003",
   "grade": "open"
+ },
+ {
+  "id": "ZJYL-1793379728",
+  "ts_kst": "2026-10-31 02:02",
+  "ts_utc": "2026-10-30T17:02:08+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "ZJYL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.9% · 거래량 평소의 60.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZJYL 장중 급등 포착",
+  "body": "$2.230 (+19.9%) · 정규장 · 레벨 2 · 점수 29\n$2.30 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 23배 이상, 관심 급증\n• 전일 대비 +19.9% · 거래량 평소의 60.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $2.119 지정가(기준가 $2.230의 −5%) · 체결 가능성 약 55% · 손익분기 $2.144\n숏 지지구간 $2.000–$2.100 · 손절 $1.900 · 1차목표 $2.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.23,
+  "level": 2,
+  "score": 28.8,
+  "prob": 38.8663967611336,
+  "cp": 33.085132777708225,
+  "rl": 2.3000000000000007,
+  "stop": 1.9000000000000004,
+  "zone": [
+   2.0000000000000004,
+   2.1000000000000005
+  ],
+  "bp": 2.1185,
+  "tgt": 2.3000000000000007,
+  "stp": 1.9000000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230328007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230328007",
+  "grade": "open"
+ },
+ {
+  "id": "TOMZ-1793379728",
+  "ts_kst": "2026-10-31 02:02",
+  "ts_utc": "2026-10-30T17:02:08+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "TOMZ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.5% · 거래량 평소의 5.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TOMZ 장중 급등 포착",
+  "body": "$1.980 (+16.5%) · 정규장 · 레벨 2 · 점수 28\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 814만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.5% · 거래량 평소의 5.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 47%\n추천 매수가 $1.881 지정가(기준가 $1.980의 −5%) · 체결 가능성 약 61% · 손익분기 $1.904\n숏 지지구간 $1.800–$1.900 · 손절 $1.700 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.9799,
+  "level": 2,
+  "score": 27.8,
+  "prob": 46.91410949137773,
+  "cp": 45.21966559160255,
+  "rl": 2.000000000000001,
+  "stop": 1.7000000000000006,
+  "zone": [
+   1.8000000000000007,
+   1.9000000000000008
+  ],
+  "bp": 1.8809,
+  "tgt": 2.000000000000001,
+  "stp": 1.7000000000000006,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001014",
+  "grade": "open"
  }
 ]

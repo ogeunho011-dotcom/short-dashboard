@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NVCR",
-  "form": "8-K",
-  "acc": "0001645113-26-000081",
-  "items": "2.02,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:00:28+00:00",
-  "accepted_kst": "10/29 20:00",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ". Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit No. Description 99.1 Press Release of NovoCure Limited, dated October 29, 2026 104 Cover Pag",
-  "url": "https://www.sec.gov/Archives/edgar/data/1645113/000164511326000081/0001645113-26-000081-index.htm",
-  "seen_kst": "2026-10-29 20:02"
- },
- {
   "ticker": "FMBH",
   "form": "8-K",
   "acc": "0001171843-26-006956",
@@ -8666,5 +8649,22 @@
   "headline": "Kiai Parsa",
   "url": "https://www.sec.gov/Archives/edgar/data/910329/000121390026114242/0001213900-26-114242-index.htm",
   "seen_kst": "2026-10-31 01:59"
+ },
+ {
+  "ticker": "NCPL",
+  "form": "SEC STAFF ACTION",
+  "acc": "9999999997-26-001696",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T17:00:10+00:00",
+  "accepted_kst": "10/31 02:00",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1414767/999999999726001696/9999999997-26-001696-index.htm",
+  "seen_kst": "2026-10-31 02:02"
  }
 ]
