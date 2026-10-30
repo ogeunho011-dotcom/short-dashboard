@@ -8943,5 +8943,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241231003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241231003",
   "grade": "open"
+ },
+ {
+  "id": "TNMG-1793382603",
+  "ts_kst": "2026-10-31 02:50",
+  "ts_utc": "2026-10-30T17:50:03+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "TNMG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.9% · 거래량 평소의 116.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TNMG 장중 급등 포착",
+  "body": "$3.780 (+23.9%) · 정규장 · 레벨 3 · 점수 53\n$5.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 256만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +23.9% · 거래량 평소의 116.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $3.638 지정가(60일선, 기준가 대비 -3.8%) · 체결 가능성 약 72% · 손익분기 $3.682\n숏 지지구간 $3.500–$3.780 · 손절 $3.000 · 1차목표 $5.000\n⚠ 역분할 2026-09-08\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.78,
+  "level": 3,
+  "score": 53.0,
+  "prob": 38.456237077877326,
+  "cp": 32.450382456875204,
+  "rl": 5.0,
+  "stop": 3.0,
+  "zone": [
+   3.5,
+   3.7799999713897705
+  ],
+  "bp": 3.6377,
+  "tgt": 5.0,
+  "stp": 3.0,
+  "penalties": [
+   "역분할 2026-09-08"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220124003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220124003",
+  "grade": "open"
+ },
+ {
+  "id": "ACCO-1793382603",
+  "ts_kst": "2026-10-31 02:50",
+  "ts_utc": "2026-10-30T17:50:03+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "ACCO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.3% · 거래량 평소의 15.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ACCO 장중 급등 포착",
+  "body": "$5.375 (+23.3%) · 정규장 · 레벨 2 · 점수 36\n공매도 물량 대부분 손해 중, $5.50 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 10배 이상, 관심 급증\n• 전일 대비 +23.3% · 거래량 평소의 15.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.106 지정가(기준가 $5.375의 −5%) · 체결 가능성 약 20% · 손익분기 $5.168\n숏 지지구간 $5.100–$5.200 · 손절 $5.050 · 1차목표 $5.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.375,
+  "level": 2,
+  "score": 35.5,
+  "prob": 53.44827586206896,
+  "cp": 76.62101515262269,
+  "rl": 5.500000000000002,
+  "stop": 5.050000000000002,
+  "zone": [
+   5.100000000000001,
+   5.200000000000001
+  ],
+  "bp": 5.1063,
+  "tgt": 5.500000000000002,
+  "stp": 5.050000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19991109001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19991109001",
+  "grade": "open"
  }
 ]
