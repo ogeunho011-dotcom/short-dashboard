@@ -1,25 +1,5 @@
 [
  {
-  "ticker": "GRDX",
-  "form": "8-K",
-  "acc": "0001104659-26-119636",
-  "items": "1.01,3.02,9.01",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T20:16:51+00:00",
-  "accepted_kst": "10/29 05:16",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01. Entry Into a Material Definitive Agreement On October 22, 2026, GridAI Technologies Corp. (the “Company”) entered into a securities purchase agreemen",
-  "url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926119636/0001104659-26-119636-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
   "ticker": "RUBI",
   "form": "424B3",
   "acc": "0001171843-26-006913",
@@ -8675,5 +8655,22 @@
   "headline": "Harney Westwood & Riegels 14th Floor, Alexandra House 18 Chater Road Central Hong Kong Tel: +852 5806 7800 Fax: +852 5806 7810 29 October 2026 060695.0003 The N",
   "url": "https://www.sec.gov/Archives/edgar/data/1985273/000121390026114075/0001213900-26-114075-index.htm",
   "seen_kst": "2026-10-30 21:16"
+ },
+ {
+  "ticker": "OABI",
+  "form": "10-Q",
+  "acc": "0001846253-26-000051",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T12:24:20+00:00",
+  "accepted_kst": "10/30 21:24",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1846253/000184625326000051/0001846253-26-000051-index.htm",
+  "seen_kst": "2026-10-30 21:26"
  }
 ]
