@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "INBX",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0000070858-26-000526",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T17:34:43+00:00",
-  "accepted_kst": "10/29 02:34",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2007919/000007085826000526/0000070858-26-000526-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
   "ticker": "KIDS",
   "form": "10-Q",
   "acc": "0001425450-26-000094",
@@ -8670,5 +8653,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2023153/000149315226049373/0001493152-26-049373-index.htm",
   "seen_kst": "2026-10-30 22:28"
+ },
+ {
+  "ticker": "JBSS",
+  "form": "8-K/A",
+  "acc": "0001193125-26-440031",
+  "items": "2.02,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:28:50+00:00",
+  "accepted_kst": "10/30 22:28",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "John B. Sanfilippo & Son, Inc. Reports Fiscal 2027 First Quarter Results Company Reports First Quarter Diluted EPS of $1.11 per Share Elgin, IL, October 28, 202",
+  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526440031/0001193125-26-440031-index.htm",
+  "seen_kst": "2026-10-30 22:31"
  }
 ]
