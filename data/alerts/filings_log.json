@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ESCA",
-  "form": "10-Q",
-  "acc": "0001437749-26-033847",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T10:15:34+00:00",
-  "accepted_kst": "10/29 19:15",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/33488/000143774926033847/0001437749-26-033847-index.htm",
-  "seen_kst": "2026-10-29 19:17"
- },
- {
   "ticker": "BVC",
   "form": "4",
   "acc": "0001437749-26-033849",
@@ -8666,5 +8649,22 @@
   "headline": "hereto. Such press release shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934 (the “Exchange Act”) or otherwise subje",
   "url": "https://www.sec.gov/Archives/edgar/data/93389/000009338926000098/0000093389-26-000098-index.htm",
   "seen_kst": "2026-10-30 23:59"
+ },
+ {
+  "ticker": "CHCO",
+  "form": "4",
+  "acc": "0000726854-26-000192",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T15:13:15+00:00",
+  "accepted_kst": "10/31 00:13",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000192/0000726854-26-000192-index.htm",
+  "seen_kst": "2026-10-31 00:14"
  }
 ]
