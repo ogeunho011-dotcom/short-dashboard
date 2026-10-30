@@ -7527,5 +7527,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000218001",
   "grade": "open"
+ },
+ {
+  "id": "SER-1793371745",
+  "ts_kst": "2026-10-30 23:49",
+  "ts_utc": "2026-10-30T14:49:05+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "SER",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.1% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SER 장중 급등 포착",
+  "body": "$2.327 (+23.1%) · 정규장 · 레벨 1 · 점수 24\n공매도 물량 대부분 손해 중, $2.40 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +23.1% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $2.300–$2.327 · 손절 $2.200 · 1차목표 $2.400\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.3274,
+  "level": 1,
+  "score": 24.5,
+  "prob": 52.91666666666666,
+  "cp": 45.59667621649294,
+  "rl": 2.4000000000000012,
+  "stop": 2.200000000000001,
+  "zone": [
+   2.300000000000001,
+   2.327399969100952
+  ],
+  "bp": null,
+  "tgt": 2.4000000000000012,
+  "stp": 2.200000000000001,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20181129002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20181129002",
+  "grade": "open"
  }
 ]
