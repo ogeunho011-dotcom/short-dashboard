@@ -8742,5 +8742,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240726001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240726001",
   "grade": "n/a"
+ },
+ {
+  "id": "ASUR-1793381664",
+  "ts_kst": "2026-10-31 02:34",
+  "ts_utc": "2026-10-30T17:34:24+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "ASUR",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +28.6% · 거래량 평소의 18.6배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ASUR 장중 급등 포착 · 상위 확률 신호",
+  "body": "$9.300 (+28.6%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $9.75 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 14배 이상, 관심 급증\n• 전일 대비 +28.6% · 거래량 평소의 18.6배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $9.250–$9.300 · 손절 $9.000 · 1차목표 $9.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 9.3,
+  "level": 3,
+  "score": 40.2,
+  "prob": 53.44827586206896,
+  "cp": 68.23739956054939,
+  "rl": 9.75,
+  "stop": 9.0,
+  "zone": [
+   9.25,
+   9.300000190734863
+  ],
+  "bp": null,
+  "tgt": 9.75,
+  "stp": 9.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930804001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930804001",
+  "grade": "open"
  }
 ]
