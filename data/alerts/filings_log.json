@@ -2,25 +2,6 @@
  {
   "ticker": "MTLS",
   "form": "6-K",
-  "acc": "0001104659-26-119657",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T20:34:03+00:00",
-  "accepted_kst": "10/29 05:34",
-  "polarity": "pos",
-  "label": "자사주 매입",
-  "cats": [
-   "자사주 매입"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Materialise reports third quarter 2026 results Regulated information 1 LEUVEN, Belgium",
-  "url": "https://www.sec.gov/Archives/edgar/data/1091223/000110465926119657/0001104659-26-119657-index.htm",
-  "seen_kst": "2026-10-29 19:05"
- },
- {
-  "ticker": "MTLS",
-  "form": "6-K",
   "acc": "0001104659-26-119788",
   "items": "",
   "filed": "2026-10-29",
@@ -8670,5 +8651,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1044777/000104477726000053/0001044777-26-000053-index.htm",
   "seen_kst": "2026-10-30 22:36"
+ },
+ {
+  "ticker": "GDYN",
+  "form": "10-Q",
+  "acc": "0001743725-26-000031",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-29T21:39:07+00:00",
+  "accepted_kst": "10/30 06:39",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1743725/000174372526000031/0001743725-26-000031-index.htm",
+  "seen_kst": "2026-10-30 22:56"
  }
 ]
