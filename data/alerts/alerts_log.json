@@ -9391,5 +9391,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160107001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160107001",
   "grade": "open"
+ },
+ {
+  "id": "BYSI-1793388874",
+  "ts_kst": "2026-10-31 04:34",
+  "ts_utc": "2026-10-30T19:34:34+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "BYSI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.6% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BYSI 장중 급등 포착",
+  "body": "$0.639 (+23.6%) · 정규장 · 레벨 1 · 점수 16\n$0.800 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +23.6% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $0.607 지정가(기준가 $0.639의 −5%) · 체결 가능성 약 67% · 손익분기 $0.614\n숏 지지구간 $0.600–$0.639 · 손절 $0.550 · 1차목표 $0.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6388,
+  "level": 1,
+  "score": 16.1,
+  "prob": 41.09141108843925,
+  "cp": 26.96162128430856,
+  "rl": 0.7999999999999999,
+  "stop": 0.5499999999999999,
+  "zone": [
+   0.6,
+   0.6388000249862671
+  ],
+  "bp": 0.6069,
+  "tgt": 0.7999999999999999,
+  "stp": 0.5499999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170309001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170309001",
+  "grade": "open"
  }
 ]
