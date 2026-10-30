@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CSIQ",
-  "form": "6-K",
-  "acc": "0001104659-26-119856",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:05:20+00:00",
-  "accepted_kst": "10/29 20:05",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "CSI Solar Co., Ltd. 2026 Third Quarter Report SSE Stock Code: 688472 SSE Stock Abbreviation: CSI Solar CSI Solar Co., Ltd. 2026 Third Quarter Report The board o",
-  "url": "https://www.sec.gov/Archives/edgar/data/1375877/000110465926119856/0001104659-26-119856-index.htm",
-  "seen_kst": "2026-10-29 20:07"
- },
- {
   "ticker": "PHAT",
   "form": "10-Q",
   "acc": "0001193125-26-436961",
@@ -8666,5 +8649,22 @@
   "headline": "Barrett Patrick Sean",
   "url": "https://www.sec.gov/Archives/edgar/data/1004702/000159189326000006/0001591893-26-000006-index.htm",
   "seen_kst": "2026-10-31 03:37"
+ },
+ {
+  "ticker": "ITRG",
+  "form": "6-K",
+  "acc": "0001062993-26-005622",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T18:51:27+00:00",
+  "accepted_kst": "10/31 03:51",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "CODE OF BUSINESS CONDUCT AND ETHICS 1. Purpose of this Code This Code of Business Conduct and Ethics (the \"Code\") is intended to document the principles of cond",
+  "url": "https://www.sec.gov/Archives/edgar/data/1722387/000106299326005622/0001062993-26-005622-index.htm",
+  "seen_kst": "2026-10-31 03:54"
  }
 ]
