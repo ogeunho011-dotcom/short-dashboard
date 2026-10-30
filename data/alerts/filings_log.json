@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "BCYC",
-  "form": "8-K",
-  "acc": "0001104659-26-119858",
-  "items": "2.02,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:05:52+00:00",
-  "accepted_kst": "10/29 20:05",
-  "polarity": "pos",
-  "label": "FDA 특별 지정(혁신·신속·희귀)",
-  "cats": [
-   "FDA 특별 지정(혁신·신속·희귀)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "Bicycle Therapeutics Reports Recent Business Progress and Third Quarter 2026 Financial Results Nuzefatide pevedotin granted FDA Orphan Drug Designation for the ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1761612/000110465926119858/0001104659-26-119858-index.htm",
-  "seen_kst": "2026-10-29 20:07"
- },
- {
   "ticker": "CRTO",
   "form": "8-K",
   "acc": "0001576427-26-000101",
@@ -8666,5 +8647,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1432133/000162828026068545/0001628280-26-068545-index.htm",
   "seen_kst": "2026-10-31 04:14"
+ },
+ {
+  "ticker": "PEBK",
+  "form": "4",
+  "acc": "0001654954-26-009303",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T19:30:49+00:00",
+  "accepted_kst": "10/31 04:30",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $21,878 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "HOWARD DOUGLAS S",
+  "url": "https://www.sec.gov/Archives/edgar/data/1093672/000165495426009303/0001654954-26-009303-index.htm",
+  "seen_kst": "2026-10-31 04:32"
  }
 ]
