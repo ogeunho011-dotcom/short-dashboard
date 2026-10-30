@@ -9641,5 +9641,140 @@
    "accepted_kst": "10/31 06:01",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "INO-1793403961",
+  "ts_kst": "2026-10-31 08:46",
+  "ts_utc": "2026-10-30T23:46:01+00:00",
+  "date_et": "2026-10-30",
+  "session": "post",
+  "ticker": "INO",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 74/100"
+  ],
+  "title": "🚀 INO 상위 확률 신호 · 커버 압력",
+  "body": "$2.009 (+160.9%) · 애프터마켓 · 레벨 3 · 점수 54\n공매도 물량 대부분 손해 중 · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 74/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.909 지정가(기준가 $2.009의 −5%) · 체결 가능성 약 46% · 손익분기 $1.932\n숏 지지구간 $1.250–$1.320 · 손절 $1.200\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.009,
+  "level": 3,
+  "score": 54.4,
+  "prob": 53.44827586206896,
+  "cp": 73.87169399999999,
+  "rl": 1.2300000190734863,
+  "stop": 1.2000000000000006,
+  "zone": [
+   1.2500000000000007,
+   1.3200000000000007
+  ],
+  "bp": 1.9085,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140915002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140915002",
+  "grade": "n/a"
+ },
+ {
+  "id": "LYCA-fil-0001231919-26-001519",
+  "ts_kst": "2026-10-31 08:46",
+  "ts_utc": "2026-10-30T23:46:03+00:00",
+  "date_et": "2026-10-30",
+  "session": "filing",
+  "ticker": "LYCA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $644,711"
+  ],
+  "title": "📢 LYCA 호재 공시",
+  "body": "4 · 내부자 장내 매수 $644,711 (10/31 08:25 KST)\nVenrock Healthcare Capital Partners III, L.P.\n⚠ 최근 악재: 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2610023003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2610023003",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001231919-26-001519",
+   "items": "",
+   "label": "내부자 장내 매수 $644,711",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Venrock Healthcare Capital Partners III, L.P.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1806540/000123191926001519/0001231919-26-001519-index.htm",
+   "accepted_kst": "10/31 08:25",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "RAPP-fil-0001104659-26-120789",
+  "ts_kst": "2026-10-31 08:46",
+  "ts_utc": "2026-10-30T23:46:03+00:00",
+  "date_et": "2026-10-30",
+  "session": "filing",
+  "ticker": "RAPP",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $20,359,080"
+  ],
+  "title": "📢 RAPP 호재 공시",
+  "body": "4 · 내부자 장내 매수 $20,359,080 (10/31 08:32 KST)\nHEALY JAMES\n⚠ 최근 악재: 8-K 증자·희석(공모·사모·워런트) (10/30)\n⚠ 최근 악재: 424B 증자 설명서 2건 (30일 내, 최근 10/27)\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [
+   "8-K 증자·희석(공모·사모·워런트) (10/30)",
+   "424B 증자 설명서 2건 (30일 내, 최근 10/27)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240607004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240607004",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001104659-26-120789",
+   "items": "",
+   "label": "내부자 장내 매수 $20,359,080",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "HEALY JAMES",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000110465926120789/0001104659-26-120789-index.htm",
+   "accepted_kst": "10/31 08:32",
+   "polarity": "pos"
+  }
  }
 ]
