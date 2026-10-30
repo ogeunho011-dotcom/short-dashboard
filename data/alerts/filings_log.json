@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BFLY",
-  "form": "10-Q",
-  "acc": "0001804176-26-000040",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T10:40:24+00:00",
-  "accepted_kst": "10/29 19:40",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1804176/000180417626000040/0001804176-26-000040-index.htm",
-  "seen_kst": "2026-10-29 19:42"
- },
- {
   "ticker": "CCB",
   "form": "8-K",
   "acc": "0001437958-26-000077",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/275694/000122520826008558/0001225208-26-008558-index.htm",
   "seen_kst": "2026-10-31 00:36"
+ },
+ {
+  "ticker": "SLMT",
+  "form": "6-K",
+  "acc": "0001213900-26-114206",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T15:39:57+00:00",
+  "accepted_kst": "10/31 00:39",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Solmate Infrastructure Confirms No Exposure and No Loss of funds Following Reported Binance Security Incident",
+  "url": "https://www.sec.gov/Archives/edgar/data/1939965/000121390026114206/0001213900-26-114206-index.htm",
+  "seen_kst": "2026-10-31 00:41"
  }
 ]
