@@ -6718,5 +6718,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230801002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230801002",
   "grade": "open"
+ },
+ {
+  "id": "ACCO-1793367989",
+  "ts_kst": "2026-10-30 22:46",
+  "ts_utc": "2026-10-30T13:46:29+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "ACCO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.4% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ACCO 장중 급등 포착",
+  "body": "$5.250 (+20.4%) · 정규장 · 레벨 2 · 점수 26\n공매도 물량 대부분 손해 중, $5.46 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +20.4% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.987 지정가(기준가 $5.250의 −5%) · 체결 가능성 약 20% · 손익분기 $5.048\n숏 지지구간 $3.800–$4.115 · 손절 $3.750 · 1차목표 $5.455\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.25,
+  "level": 2,
+  "score": 25.8,
+  "prob": 53.44827586206896,
+  "cp": 76.39649544847278,
+  "rl": 5.455100059509277,
+  "stop": 3.7500000000000004,
+  "zone": [
+   3.8000000000000003,
+   4.115
+  ],
+  "bp": 4.9875,
+  "tgt": 5.455100059509277,
+  "stp": 3.7500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19991109001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19991109001",
+  "grade": "open"
  }
 ]
