@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RCT",
-  "form": "POS AM",
-  "acc": "0001493152-26-048836",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T15:33:58+00:00",
-  "accepted_kst": "10/29 00:33",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2027360/000149315226048836/0001493152-26-048836-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
   "ticker": "ULBI",
   "form": "8-K",
   "acc": "0001437749-26-033731",
@@ -8674,5 +8657,22 @@
   "headline": "OmniAb Reports Third Quarter 2026 Financial Results and Business Highlights Raises Full Year 2026 Revenue and Cash Outlook on Continued Business Momentum Confer",
   "url": "https://www.sec.gov/Archives/edgar/data/1846253/000184625326000049/0001846253-26-000049-index.htm",
   "seen_kst": "2026-10-30 20:43"
+ },
+ {
+  "ticker": "TUSK",
+  "form": "8-K",
+  "acc": "0001628280-26-068441",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:56:06+00:00",
+  "accepted_kst": "10/30 20:56",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, and will not be incorporated by reference int",
+  "url": "https://www.sec.gov/Archives/edgar/data/1679268/000162828026068441/0001628280-26-068441-index.htm",
+  "seen_kst": "2026-10-30 20:59"
  }
 ]
