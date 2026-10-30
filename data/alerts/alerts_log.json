@@ -7728,5 +7728,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19971105001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19971105001",
   "grade": "open"
+ },
+ {
+  "id": "FRGT-1793373676",
+  "ts_kst": "2026-10-31 00:21",
+  "ts_utc": "2026-10-30T15:21:16+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "FRGT",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 164k (당일 평균 5.5배)"
+  ],
+  "title": "🚀 FRGT 거래량 급증",
+  "body": "$1.160 (+23.1%) · 정규장 · 레벨 3 · 점수 55\n시장에 도는 주식 166만 주뿐이라 쉽게 크게 움직임 · $1 다시 회복\n• 5분 거래량 164k (당일 평균 5.5배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $1.213 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +4.5%) · 체결 가능성 약 85% · 손익분기 $1.227\n숏 지지구간 $0.812–$1.160 · 손절 $0.580 · 1차목표 $1.740\n⚠ 역분할 2026-10-19\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.16,
+  "level": 3,
+  "score": 54.8,
+  "prob": 31.25,
+  "cp": 22.0,
+  "rl": 10.0,
+  "stop": 0.5799999833106995,
+  "zone": [
+   0.8119999766349792,
+   1.159999966621399
+  ],
+  "bp": 1.2127,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-10-19"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230324003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230324003",
+  "grade": "n/a"
  }
 ]
