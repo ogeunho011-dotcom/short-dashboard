@@ -7365,5 +7365,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
   "grade": "open"
+ },
+ {
+  "id": "ULH-1793370714",
+  "ts_kst": "2026-10-30 23:31",
+  "ts_utc": "2026-10-30T14:31:54+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "ULH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.6% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ULH 장중 급등 포착",
+  "body": "$21.700 (+24.6%) · 정규장 · 레벨 1 · 점수 19\n공매도 물량 대부분 손해 중, $22.10 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +24.6% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $20.615 지정가(기준가 $21.700의 −5%) · 체결 가능성 약 37% · 손익분기 $20.864\n숏 지지구간 $20.500–$21.000 · 손절 $20.000 · 1차목표 $22.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 21.7,
+  "level": 1,
+  "score": 18.8,
+  "prob": 53.20431722140826,
+  "cp": 66.09386720098732,
+  "rl": 22.100000381469727,
+  "stop": 20.0,
+  "zone": [
+   20.5,
+   21.0
+  ],
+  "bp": 20.615,
+  "tgt": 22.100000381469727,
+  "stp": 20.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160502001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160502001",
+  "grade": "open"
+ },
+ {
+  "id": "TROO-fil-0001104659-26-120476",
+  "ts_kst": "2026-10-30 23:31",
+  "ts_utc": "2026-10-30T14:31:57+00:00",
+  "date_et": "2026-10-30",
+  "session": "filing",
+  "ticker": "TROO",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 제휴·라이선스"
+  ],
+  "title": "📢 TROO 호재 공시",
+  "body": "6-K · 제휴·라이선스 (10/30 23:30 KST)\nTROOPS, Inc. (NASDAQ: TROO) Announces Strategic Term Sheet with Young Platform to Accelerate Development of Digital Asset Exchange Infrastru\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211116009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211116009",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001104659-26-120476",
+   "items": "",
+   "label": "제휴·라이선스",
+   "cats": [
+    "제휴·라이선스"
+   ],
+   "strength": 4,
+   "headline": "TROOPS, Inc. (NASDAQ: TROO) Announces Strategic Term Sheet with Young Platform to Accelerate Development of Digital Asset Exchange Infrastructure",
+   "url": "https://www.sec.gov/Archives/edgar/data/1412095/000110465926120476/0001104659-26-120476-index.htm",
+   "accepted_kst": "10/30 23:30",
+   "polarity": "pos"
+  }
  }
 ]
