@@ -1,25 +1,6 @@
 [
  {
   "ticker": "OSS",
-  "form": "424B5",
-  "acc": "0001193125-26-435254",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T13:12:03+00:00",
-  "accepted_kst": "10/28 22:12",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1394056/000119312526435254/0001193125-26-435254-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "OSS",
   "form": "8-K",
   "acc": "0001193125-26-435262",
   "items": "1.01",
@@ -8666,5 +8647,24 @@
   "headline": "SHARE PURCHASE AGREEMENT Acquisition of 55% of the issued share capital of Asia AI Data Centre & Quantum Technology Company Limited This Share Purchase Agreemen",
   "url": "https://www.sec.gov/Archives/edgar/data/1984124/000121390026114095/0001213900-26-114095-index.htm",
   "seen_kst": "2026-10-30 22:06"
+ },
+ {
+  "ticker": "GPRE",
+  "form": "8-K",
+  "acc": "0001628280-26-068462",
+  "items": "1.01,7.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:13:35+00:00",
+  "accepted_kst": "10/30 22:13",
+  "polarity": "neg",
+  "label": "계약·합병 해지",
+  "cats": [],
+  "negs": [
+   "계약·합병 해지"
+  ],
+  "strength": 0,
+  "headline": "FOR IMMEDIATE RELEASE Green Plains Enters into Agreement to Monetize 2026 45Z Clean Fuel Production Tax Agreement increases visibility into cash generation thro",
+  "url": "https://www.sec.gov/Archives/edgar/data/1309402/000162828026068462/0001628280-26-068462-index.htm",
+  "seen_kst": "2026-10-30 22:16"
  }
 ]
