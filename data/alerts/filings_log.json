@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "KPRX",
-  "form": "8-K",
-  "acc": "0001372514-26-000088",
-  "items": "1.01,7.01,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:03:26+00:00",
-  "accepted_kst": "10/29 20:03",
-  "polarity": "neg",
-  "label": "계약·합병 해지",
-  "cats": [],
-  "negs": [
-   "계약·합병 해지"
-  ],
-  "strength": 0,
-  "headline": "Kiora Pharmaceuticals In-Licenses Late-Stage, Oral Neuroprotective Calpain Inhibitor for Central Retinal Artery Occlusion (CRAO) with Planned Expansion into NAI",
-  "url": "https://www.sec.gov/Archives/edgar/data/1372514/000137251426000088/0001372514-26-000088-index.htm",
-  "seen_kst": "2026-10-29 20:05"
- },
- {
   "ticker": "ALT",
   "form": "8-K",
   "acc": "0001326190-26-000060",
@@ -8668,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1500375/000143774926034158/0001437749-26-034158-index.htm",
   "seen_kst": "2026-10-31 03:24"
+ },
+ {
+  "ticker": "OBT",
+  "form": "4",
+  "acc": "0001437749-26-034162",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T18:28:13+00:00",
+  "accepted_kst": "10/31 03:28",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1754226/000143774926034162/0001437749-26-034162-index.htm",
+  "seen_kst": "2026-10-31 03:30"
  }
 ]
