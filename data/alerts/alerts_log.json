@@ -8822,5 +8822,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180604001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180604001",
   "grade": "open"
+ },
+ {
+  "id": "GDYN-1793382132",
+  "ts_kst": "2026-10-31 02:42",
+  "ts_utc": "2026-10-30T17:42:12+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "GDYN",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +32.0% · 거래량 평소의 7.3배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 GDYN 장중 급등 포착 · 상위 확률 신호",
+  "body": "$12.525 (+32.0%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $13.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +32.0% · 거래량 평소의 7.3배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $11.899 지정가(기준가 $12.525의 −5%) · 체결 가능성 약 29% · 손익분기 $12.042\n숏 지지구간 $11.000–$11.534 · 손절 $10.750 · 1차목표 $13.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.525,
+  "level": 3,
+  "score": 41.1,
+  "prob": 53.44827586206896,
+  "cp": 64.02297508201204,
+  "rl": 13.0,
+  "stop": 10.75,
+  "zone": [
+   11.0,
+   11.533749866485596
+  ],
+  "bp": 11.8987,
+  "tgt": 13.0,
+  "stp": 10.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200306001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200306001",
+  "grade": "open"
+ },
+ {
+  "id": "GITS-1793382132",
+  "ts_kst": "2026-10-31 02:42",
+  "ts_utc": "2026-10-30T17:42:12+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "GITS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.0% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GITS 장중 급등 포착",
+  "body": "$1.675 (+18.0%) · 정규장 · 레벨 1 · 점수 21\n$1.90 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 420만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +18.0% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.591 지정가(기준가 $1.675의 −5%) · 체결 가능성 약 58% · 손익분기 $1.610\n숏 지지구간 $1.500–$1.600 · 손절 $1.400 · 1차목표 $1.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.675,
+  "level": 1,
+  "score": 21.2,
+  "prob": 38.456237077877326,
+  "cp": 20.786618357214618,
+  "rl": 1.9000000000000008,
+  "stop": 1.4000000000000004,
+  "zone": [
+   1.5000000000000004,
+   1.6000000000000005
+  ],
+  "bp": 1.5912,
+  "tgt": 1.9000000000000008,
+  "stp": 1.4000000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230801002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230801002",
+  "grade": "open"
  }
 ]
