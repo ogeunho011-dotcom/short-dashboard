@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FMBH",
-  "form": "8-K",
-  "acc": "0001171843-26-006953",
-  "items": "1.01,7.01,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:00:26+00:00",
-  "accepted_kst": "10/29 20:00",
-  "polarity": "neutral",
-  "label": "중요 계약 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01. Entry into a Material Definitive Agreement. On October 28, 2026, First Mid Bancshares, Inc. (“First Mid”) and Raven Sub LLC, a newly formed Missouri",
-  "url": "https://www.sec.gov/Archives/edgar/data/700565/000117184326006953/0001171843-26-006953-index.htm",
-  "seen_kst": "2026-10-29 20:02"
- },
- {
   "ticker": "NVCR",
   "form": "8-K",
   "acc": "0001645113-26-000081",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1667313/000119312526441076/0001193125-26-441076-index.htm",
   "seen_kst": "2026-10-31 01:49"
+ },
+ {
+  "ticker": "MED",
+  "form": "4",
+  "acc": "0001213900-26-114242",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T16:56:15+00:00",
+  "accepted_kst": "10/31 01:56",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $68,027 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Kiai Parsa",
+  "url": "https://www.sec.gov/Archives/edgar/data/910329/000121390026114242/0001213900-26-114242-index.htm",
+  "seen_kst": "2026-10-31 01:59"
  }
 ]
