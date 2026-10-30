@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "CDT",
-  "form": "4",
-  "acc": "0001753926-26-002011",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T20:33:12+00:00",
-  "accepted_kst": "10/28 05:33",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1896212/000175392626002011/0001753926-26-002011-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
-  "ticker": "CDT",
-  "form": "DEF 14A",
-  "acc": "0001493152-26-048693",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T20:58:52+00:00",
-  "accepted_kst": "10/28 05:58",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1896212/000149315226048693/0001493152-26-048693-index.htm",
-  "seen_kst": "2026-10-28 17:21"
- },
- {
   "ticker": "CPOP",
   "form": "6-K",
   "acc": "0001213900-26-112952",
@@ -8681,5 +8647,43 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526439863/0001193125-26-439863-index.htm",
   "seen_kst": "2026-10-30 20:06"
+ },
+ {
+  "ticker": "ABOS",
+  "form": "8-K",
+  "acc": "0001628280-26-068425",
+  "items": "7.01,8.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:06:12+00:00",
+  "accepted_kst": "10/30 20:06",
+  "polarity": "neg",
+  "label": "임상 실패·FDA 거절",
+  "cats": [],
+  "negs": [
+   "임상 실패·FDA 거절"
+  ],
+  "strength": 0,
+  "headline": "), is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or oth",
+  "url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026068425/0001628280-26-068425-index.htm",
+  "seen_kst": "2026-10-30 20:09"
+ },
+ {
+  "ticker": "RAPP",
+  "form": "424B5",
+  "acc": "0001193125-26-439869",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:07:48+00:00",
+  "accepted_kst": "10/30 20:07",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526439869/0001193125-26-439869-index.htm",
+  "seen_kst": "2026-10-30 20:09"
  }
 ]
