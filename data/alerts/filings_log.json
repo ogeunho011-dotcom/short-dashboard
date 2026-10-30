@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BMGL",
-  "form": "6-K",
-  "acc": "0001493152-26-049165",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T10:30:24+00:00",
-  "accepted_kst": "10/29 19:30",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Explanatory Note Basel Medical Group Ltd (Nasdaq: BMGL), a British Virgin Islands business company (the “Company”), announced today that following the offer and",
-  "url": "https://www.sec.gov/Archives/edgar/data/2004489/000149315226049165/0001493152-26-049165-index.htm",
-  "seen_kst": "2026-10-29 19:32"
- },
- {
   "ticker": "BAND",
   "form": "8-K",
   "acc": "0001514416-26-000078",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/108385/000125500726000002/0001255007-26-000002-index.htm",
   "seen_kst": "2026-10-31 00:16"
+ },
+ {
+  "ticker": "USCB",
+  "form": "4/A",
+  "acc": "0001437749-26-034103",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T15:17:54+00:00",
+  "accepted_kst": "10/31 00:17",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1901637/000143774926034103/0001437749-26-034103-index.htm",
+  "seen_kst": "2026-10-31 00:19"
  }
 ]
