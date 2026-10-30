@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OPEN",
-  "form": "8-K",
-  "acc": "0001140361-26-041096",
-  "items": "5.02,7.01,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:00:59+00:00",
-  "accepted_kst": "10/29 20:00",
-  "polarity": "neutral",
-  "label": "임원 변경 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Mike Alfred joins Opendoor Board of Directors SAN FRANCISCO, OCTOBER 29, 2026 – Opendoor Technologies Inc. (“Opendoor”) (Nasdaq: OPEN), the e-commerce platform",
-  "url": "https://www.sec.gov/Archives/edgar/data/1801169/000114036126041096/0001140361-26-041096-index.htm",
-  "seen_kst": "2026-10-29 20:02"
- },
- {
   "ticker": "NVCR",
   "form": "S-8",
   "acc": "0001645113-26-000082",
@@ -8666,5 +8649,24 @@
   "headline": "attached hereto, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or deemed incor",
   "url": "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000076/0001627282-26-000076-index.htm",
   "seen_kst": "2026-10-31 02:14"
+ },
+ {
+  "ticker": "NCT",
+  "form": "6-K",
+  "acc": "0001213900-26-114261",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T17:25:09+00:00",
+  "accepted_kst": "10/31 02:25",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Registered Direct Offering On October 27, 2026, Intercont (Cayman) Limited (the “ Company ”) closed a registered direct offering (the “ Offering ”) and issued a",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018529/000121390026114261/0001213900-26-114261-index.htm",
+  "seen_kst": "2026-10-31 02:27"
  }
 ]
