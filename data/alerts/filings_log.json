@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MYE",
-  "form": "10-Q",
-  "acc": "0001193125-26-436966",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:10:36+00:00",
-  "accepted_kst": "10/29 20:10",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/69488/000119312526436966/0001193125-26-436966-index.htm",
-  "seen_kst": "2026-10-29 20:12"
- },
- {
   "ticker": "TSAT",
   "form": "6-K",
   "acc": "0001213900-26-113528",
@@ -8664,5 +8647,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1652935/000169731626000014/0001697316-26-000014-index.htm",
   "seen_kst": "2026-10-31 04:39"
+ },
+ {
+  "ticker": "BYSI",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0001747821-26-000008",
+  "items": "",
+  "filed": "2026-10-29",
+  "accepted": "2026-10-29T20:14:59+00:00",
+  "accepted_kst": "10/30 05:14",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1677940/000174782126000008/0001747821-26-000008-index.htm",
+  "seen_kst": "2026-10-31 04:47"
  }
 ]
