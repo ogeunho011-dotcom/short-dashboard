@@ -7568,5 +7568,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20181129002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20181129002",
   "grade": "open"
+ },
+ {
+  "id": "ZJYL-1793372194",
+  "ts_kst": "2026-10-30 23:56",
+  "ts_utc": "2026-10-30T14:56:34+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "ZJYL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.8% · 거래량 평소의 28.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZJYL 장중 급등 포착",
+  "body": "$2.210 (+18.8%) · 정규장 · 레벨 2 · 점수 29\n$2.30 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +18.8% · 거래량 평소의 28.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $2.049 지정가(20일선, 기준가 대비 -7.3%) · 체결 가능성 약 37% · 손익분기 $2.074\n숏 지지구간 $1.800–$1.944 · 손절 $1.750 · 1차목표 $2.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.21,
+  "level": 2,
+  "score": 28.7,
+  "prob": 38.8663967611336,
+  "cp": 29.945555942546992,
+  "rl": 2.3000000000000007,
+  "stop": 1.7500000000000002,
+  "zone": [
+   1.8000000000000003,
+   1.9435000133514406
+  ],
+  "bp": 2.0494,
+  "tgt": 2.3000000000000007,
+  "stp": 1.7500000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230328007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230328007",
+  "grade": "open"
  }
 ]
