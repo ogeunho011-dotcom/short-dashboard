@@ -8783,5 +8783,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930804001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930804001",
   "grade": "open"
+ },
+ {
+  "id": "OSPN-1793381845",
+  "ts_kst": "2026-10-31 02:37",
+  "ts_utc": "2026-10-30T17:37:25+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "OSPN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.1% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OSPN 장중 급등 포착",
+  "body": "$24.810 (+23.1%) · 정규장 · 레벨 2 · 점수 34\n공매도 물량 대부분 손해 중, $27.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +23.1% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $23.569 지정가(기준가 $24.810의 −5%) · 체결 가능성 약 32% · 손익분기 $23.854\n숏 지지구간 $19.000–$20.000 · 손절 $18.000 · 1차목표 $27.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 24.81,
+  "level": 2,
+  "score": 33.9,
+  "prob": 53.44827586206896,
+  "cp": 61.7512903079612,
+  "rl": 27.0,
+  "stop": 18.0,
+  "zone": [
+   19.0,
+   20.0
+  ],
+  "bp": 23.5695,
+  "tgt": 27.0,
+  "stp": 18.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180604001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180604001",
+  "grade": "open"
  }
 ]
