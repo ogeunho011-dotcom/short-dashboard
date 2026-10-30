@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BAND",
-  "form": "8-K",
-  "acc": "0001514416-26-000080",
-  "items": "1.01,2.02,2.03,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:01:41+00:00",
-  "accepted_kst": "10/29 20:01",
-  "polarity": "neutral",
-  "label": "중요 계약 · 실적 · 2.03",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On October 26, 2026, Bandwidth Inc. (the “Company”) entered into a fourth amendment (the “Credit Agreement",
-  "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000080/0001514416-26-000080-index.htm",
-  "seen_kst": "2026-10-29 20:05"
- },
- {
   "ticker": "ASPS",
   "form": "8-K",
   "acc": "0001462418-26-000055",
@@ -8668,5 +8651,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1590584/000159058426000094/0001590584-26-000094-index.htm",
   "seen_kst": "2026-10-31 02:50"
+ },
+ {
+  "ticker": "BMRC",
+  "form": "4",
+  "acc": "0001736209-26-000011",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T17:57:56+00:00",
+  "accepted_kst": "10/31 02:57",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $1,138 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Anderson Nicolas C",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403475/000173620926000011/0001736209-26-000011-index.htm",
+  "seen_kst": "2026-10-31 03:00"
  }
 ]
