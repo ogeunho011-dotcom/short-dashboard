@@ -6112,5 +6112,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2607030002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2607030002",
   "grade": "n/a"
+ },
+ {
+  "id": "WFF-1793365438",
+  "ts_kst": "2026-10-30 22:03",
+  "ts_utc": "2026-10-30T13:03:58+00:00",
+  "date_et": "2026-10-30",
+  "session": "pre",
+  "ticker": "WFF",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +2816.7%"
+  ],
+  "title": "🚀 WFF 프리마켓 갭",
+  "body": "$1.750 (+2816.7%) · 프리마켓 · 레벨 3 · 점수 40\n시장에 도는 주식 504만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 프리마켓 갭 +2816.7%\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $2.089 지정가(60일선, 기준가 대비 +19.4%) · 체결 가능성 약 85% · 손익분기 $2.115\n숏 지지구간 $1.225–$1.750 · 손절 $0.875 · 1차목표 $2.625\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 10/28)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.75,
+  "level": 3,
+  "score": 40.0,
+  "prob": 24.587706146926536,
+  "cp": 2.0,
+  "rl": 15.0,
+  "stop": 0.875,
+  "zone": [
+   1.2249999999999999,
+   1.75
+  ],
+  "bp": 2.0893,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 10/28)",
+   "역분할 2026-10-30",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
+  "grade": "n/a"
  }
 ]
