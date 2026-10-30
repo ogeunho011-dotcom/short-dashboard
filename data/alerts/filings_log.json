@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "LENZ",
-  "form": "8-K",
-  "acc": "0001815776-26-000056",
-  "items": "2.02,2.05,5.02,9.01",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T20:34:46+00:00",
-  "accepted_kst": "10/29 05:34",
-  "polarity": "neutral",
-  "label": "실적 · 2.05 · 임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to th",
-  "url": "https://www.sec.gov/Archives/edgar/data/1815776/000181577626000056/0001815776-26-000056-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
-  "ticker": "ACTU",
-  "form": "424B5",
-  "acc": "0001683168-26-008122",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T12:00:27+00:00",
-  "accepted_kst": "10/28 21:00",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1652935/000168316826008122/0001683168-26-008122-index.htm",
-  "seen_kst": "2026-10-29 06:19"
- },
- {
   "ticker": "RILY",
   "form": "8-K",
   "acc": "0001213900-26-113367",
@@ -8668,5 +8632,39 @@
   "headline": "Oppenheimer Holdings Inc. Reports Third Quarter 2026 Earnings New York, October 30, 2026 – Oppenheimer Holdings Inc. (NYSE: OPY) (the \"Company\" or \"Firm\") today",
   "url": "https://www.sec.gov/Archives/edgar/data/791963/000162828026068451/0001628280-26-068451-index.htm",
   "seen_kst": "2026-10-30 21:29"
+ },
+ {
+  "ticker": "ELVR",
+  "form": "6-K",
+  "acc": "0001140361-26-041227",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T12:30:30+00:00",
+  "accepted_kst": "10/30 21:30",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "ASX ANNOUNCEMENT 26 October 2026 Elevra Completes Sale of Ewoyaa Project Interest North American lithium producer Elevra Lithium Limited (“Elevra” or “Company”)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1739016/000114036126041227/0001140361-26-041227-index.htm",
+  "seen_kst": "2026-10-30 21:31"
+ },
+ {
+  "ticker": "SPPL",
+  "form": "6-K",
+  "acc": "0001493152-26-049363",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T12:30:59+00:00",
+  "accepted_kst": "10/30 21:30",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "false 2026-06-30 --12-31 0001948697 0001948697 2026-01-01 2026-06-30 0001948697 2025-12-31 0001948697 2026-06-30 0001948697 us-gaap:NonrelatedPartyMember 2025-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1948697/000149315226049363/0001493152-26-049363-index.htm",
+  "seen_kst": "2026-10-30 21:31"
  }
 ]
