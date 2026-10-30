@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PGY",
-  "form": "8-K",
-  "acc": "0001883085-26-000062",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T11:02:44+00:00",
-  "accepted_kst": "10/29 20:02",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ". Item 7.01. Regulation FD Disclosure. On October 29, 2026, the registrant also released a letter to shareholders relating to its results for the quarter ended",
-  "url": "https://www.sec.gov/Archives/edgar/data/1883085/000188308526000062/0001883085-26-000062-index.htm",
-  "seen_kst": "2026-10-29 20:05"
- },
- {
   "ticker": "KPRX",
   "form": "8-K",
   "acc": "0001372514-26-000088",
@@ -8668,5 +8651,22 @@
   "headline": "Completion of Kangma Equity Transfer As previously disclosed in the Report of Foreign Private Issuer on Form 6-K furnished by JIN MEDICAL INTERNATIONAL LTD. (th",
   "url": "https://www.sec.gov/Archives/edgar/data/1837821/000121390026114281/0001213900-26-114281-index.htm",
   "seen_kst": "2026-10-31 03:02"
+ },
+ {
+  "ticker": "HFBL",
+  "form": "4",
+  "acc": "0001437749-26-034158",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T18:23:42+00:00",
+  "accepted_kst": "10/31 03:23",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1500375/000143774926034158/0001437749-26-034158-index.htm",
+  "seen_kst": "2026-10-31 03:24"
  }
 ]
