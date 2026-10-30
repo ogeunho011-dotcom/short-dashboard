@@ -8662,5 +8662,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001014",
   "grade": "open"
+ },
+ {
+  "id": "PAAI-1793379873",
+  "ts_kst": "2026-10-31 02:04",
+  "ts_utc": "2026-10-30T17:04:33+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "PAAI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.6% · 거래량 평소의 5.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PAAI 장중 급등 포착",
+  "body": "$0.957 (+19.6%) · 정규장 · 레벨 1 · 점수 21\n오늘 거래량 평소의 5배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +19.6% · 거래량 평소의 5.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.898 지정가(20일선, 기준가 대비 -6.1%) · 체결 가능성 약 49% · 손익분기 $0.909\n숏 지지구간 $0.750–$0.957 · 손절 $0.625 · 1차목표 $1.500\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.9572,
+  "level": 1,
+  "score": 21.0,
+  "prob": 31.065802520447725,
+  "cp": 5.648548738006095,
+  "rl": 1.5,
+  "stop": 0.625,
+  "zone": [
+   0.75,
+   0.9571999907493591
+  ],
+  "bp": 0.8984,
+  "tgt": 1.5,
+  "stp": 0.625,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220209001",
+  "grade": "open"
  }
 ]
