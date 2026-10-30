@@ -7086,5 +7086,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190131002",
   "grade": "open"
+ },
+ {
+  "id": "NIPG-1793369034",
+  "ts_kst": "2026-10-30 23:03",
+  "ts_utc": "2026-10-30T14:03:54+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "NIPG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.8% · 거래량 평소의 8.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NIPG 장중 급등 포착",
+  "body": "$4.440 (+17.8%) · 정규장 · 레벨 1 · 점수 24\n뚜렷한 신호 없음, 지켜보기\n• 전일 대비 +17.8% · 거래량 평소의 8.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $4.149 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.5%) · 체결 가능성 약 72% · 손익분기 $4.200\n숏 지지구간 $4.000–$4.440 · 손절 $2.220 · 1차목표 $10.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.44,
+  "level": 1,
+  "score": 23.5,
+  "prob": 18.993839835728956,
+  "cp": 26.579470320171893,
+  "rl": 10.0,
+  "stop": 2.2200000286102295,
+  "zone": [
+   4.0,
+   4.440000057220459
+  ],
+  "bp": 4.1495,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240726001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240726001",
+  "grade": "n/a"
  }
 ]
