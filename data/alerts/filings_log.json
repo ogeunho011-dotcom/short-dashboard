@@ -2,23 +2,6 @@
  {
   "ticker": "NNOX",
   "form": "6-K",
-  "acc": "0001213900-26-113377",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T21:12:37+00:00",
-  "accepted_kst": "10/29 06:12",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "CONTENTS Resignation of Executive Officer On October 26, 2026, Guy Nathansohn requested to step down from his position as Chief Financial Officer of NANO-X IMAG",
-  "url": "https://www.sec.gov/Archives/edgar/data/1795251/000121390026113377/0001213900-26-113377-index.htm",
-  "seen_kst": "2026-10-29 06:19"
- },
- {
-  "ticker": "NNOX",
-  "form": "6-K",
   "acc": "0001213900-26-113380",
   "items": "",
   "filed": "2026-10-28",
@@ -8667,5 +8650,22 @@
   "headline": ", shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”) or otherwise subject to the lia",
   "url": "https://www.sec.gov/Archives/edgar/data/1325618/000162828026068454/0001628280-26-068454-index.htm",
   "seen_kst": "2026-10-30 21:38"
+ },
+ {
+  "ticker": "VRRM",
+  "form": "10-Q",
+  "acc": "0001628280-26-068455",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T12:40:52+00:00",
+  "accepted_kst": "10/30 21:40",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1682745/000162828026068455/0001628280-26-068455-index.htm",
+  "seen_kst": "2026-10-30 21:43"
  }
 ]
