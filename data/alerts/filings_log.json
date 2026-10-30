@@ -1,42 +1,6 @@
 [
  {
   "ticker": "OSS",
-  "form": "8-K",
-  "acc": "0001193125-26-435175",
-  "items": "2.02,7.01",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T12:12:30+00:00",
-  "accepted_kst": "10/28 21:12",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "One Stop Systems Reports Q3 2026 Results Year-over-year revenue growth for the third quarter of 35.9% driven primarily by expanding commercial customer base acr",
-  "url": "https://www.sec.gov/Archives/edgar/data/1394056/000119312526435175/0001193125-26-435175-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "ELVA",
-  "form": "6-K",
-  "acc": "0001654954-26-009178",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T12:31:11+00:00",
-  "accepted_kst": "10/28 21:31",
-  "polarity": "pos",
-  "label": "계약·수주",
-  "cats": [
-   "계약·수주"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "News for Immediate Release Electrovaya Provides a Business Update Electrovaya Enters into a Strategic Supply Agreement with Janus Electric with Approximately $2",
-  "url": "https://www.sec.gov/Archives/edgar/data/1844450/000165495426009178/0001654954-26-009178-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
-  "ticker": "OSS",
   "form": "424B5",
   "acc": "0001193125-26-435254",
   "items": "",
@@ -8668,5 +8632,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1253986/000125398626000063/0001253986-26-000063-index.htm",
   "seen_kst": "2026-10-30 22:04"
+ },
+ {
+  "ticker": "ABR",
+  "form": "8-K",
+  "acc": "0001253986-26-000064",
+  "items": "7.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:03:18+00:00",
+  "accepted_kst": "10/30 22:03",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ") is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or othe",
+  "url": "https://www.sec.gov/Archives/edgar/data/1253986/000125398626000064/0001253986-26-000064-index.htm",
+  "seen_kst": "2026-10-30 22:06"
+ },
+ {
+  "ticker": "LUD",
+  "form": "6-K",
+  "acc": "0001213900-26-114095",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:05:01+00:00",
+  "accepted_kst": "10/30 22:05",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "SHARE PURCHASE AGREEMENT Acquisition of 55% of the issued share capital of Asia AI Data Centre & Quantum Technology Company Limited This Share Purchase Agreemen",
+  "url": "https://www.sec.gov/Archives/edgar/data/1984124/000121390026114095/0001213900-26-114095-index.htm",
+  "seen_kst": "2026-10-30 22:06"
  }
 ]
