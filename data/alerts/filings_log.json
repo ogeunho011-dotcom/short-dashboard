@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OMCL",
-  "form": "8-K",
-  "acc": "0000926326-26-000024",
-  "items": "2.02,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T10:35:55+00:00",
-  "accepted_kst": "10/29 19:35",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Contact: Omnicell, Inc. David Unger 4220 North Freeway Vice President, Investor Relations Fort Worth, TX 76137 ir@omnicell.com Omnicell Announces Third Quarter ",
-  "url": "https://www.sec.gov/Archives/edgar/data/926326/000092632626000024/0000926326-26-000024-index.htm",
-  "seen_kst": "2026-10-29 19:37"
- },
- {
   "ticker": "LZM",
   "form": "6-K",
   "acc": "0001958217-26-000011",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000143774926034107/0001437749-26-034107-index.htm",
   "seen_kst": "2026-10-31 00:23"
+ },
+ {
+  "ticker": "DFIN",
+  "form": "SCHEDULE 13G",
+  "acc": "0002100119-26-001563",
+  "items": "",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T15:25:56+00:00",
+  "accepted_kst": "10/31 00:25",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1669811/000210011926001563/0002100119-26-001563-index.htm",
+  "seen_kst": "2026-10-31 00:26"
  }
 ]
