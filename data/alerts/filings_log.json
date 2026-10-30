@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "KIDS",
-  "form": "10-Q",
-  "acc": "0001425450-26-000094",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T18:09:21+00:00",
-  "accepted_kst": "10/29 03:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1425450/000142545026000094/0001425450-26-000094-index.htm",
-  "seen_kst": "2026-10-29 17:53"
- },
- {
   "ticker": "DIN",
   "form": "SCHEDULE 13G",
   "acc": "0000070858-26-000537",
@@ -8670,5 +8653,22 @@
   "headline": "John B. Sanfilippo & Son, Inc. Reports Fiscal 2027 First Quarter Results Company Reports First Quarter Diluted EPS of $1.11 per Share Elgin, IL, October 28, 202",
   "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526440031/0001193125-26-440031-index.htm",
   "seen_kst": "2026-10-30 22:31"
+ },
+ {
+  "ticker": "JBSS",
+  "form": "8-K",
+  "acc": "0001193125-26-440035",
+  "items": "5.07",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T13:31:10+00:00",
+  "accepted_kst": "10/30 22:31",
+  "polarity": "neutral",
+  "label": "주총 결과",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders. (a) On October 28, 2026, the Registrant held its 2026 Annual Meeting of Stockholders (the “Annual",
+  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526440035/0001193125-26-440035-index.htm",
+  "seen_kst": "2026-10-30 22:34"
  }
 ]
