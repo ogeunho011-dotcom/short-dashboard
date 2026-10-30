@@ -9230,5 +9230,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230418002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230418002",
   "grade": "open"
+ },
+ {
+  "id": "RMNI-1793384235",
+  "ts_kst": "2026-10-31 03:17",
+  "ts_utc": "2026-10-30T18:17:15+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "RMNI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.3% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RMNI 장중 급등 포착",
+  "body": "$4.960 (+24.3%) · 정규장 · 레벨 2 · 점수 30\n공매도 물량 대부분 손해 중, $5.20 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +24.3% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.712 지정가(기준가 $4.960의 −5%) · 체결 가능성 약 22% · 손익분기 $4.769\n숏 지지구간 $4.400–$4.596 · 손절 $4.300 · 1차목표 $5.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.96,
+  "level": 2,
+  "score": 30.3,
+  "prob": 53.44827586206896,
+  "cp": 65.7525321390602,
+  "rl": 5.200000000000001,
+  "stop": 4.300000000000001,
+  "zone": [
+   4.4,
+   4.596000013351441
+  ],
+  "bp": 4.712,
+  "tgt": 5.200000000000001,
+  "stp": 4.300000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20171011004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20171011004",
+  "grade": "open"
  }
 ]
