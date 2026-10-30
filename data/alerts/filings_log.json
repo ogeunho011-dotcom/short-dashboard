@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "GCTK",
-  "form": "8-K",
-  "acc": "0001493152-26-048981",
-  "items": "5.03,8.01,9.01",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T20:05:43+00:00",
-  "accepted_kst": "10/29 05:05",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "unaudited pro forma financial information On July 14, 2026 (the “Closing Date”), Glucotrack, Inc., a Delaware corporation (“Glucotrack”), entered into an Agreem",
-  "url": "https://www.sec.gov/Archives/edgar/data/1506983/000149315226048981/0001493152-26-048981-index.htm",
-  "seen_kst": "2026-10-29 05:40"
- },
- {
-  "ticker": "ULBI",
-  "form": "SC TO-C",
-  "acc": "0001193125-26-434446",
-  "items": "",
-  "filed": "2026-10-27",
-  "accepted": "2026-10-27T21:14:55+00:00",
-  "accepted_kst": "10/28 06:14",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/875657/000119312526434446/0001193125-26-434446-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
   "ticker": "RCT",
   "form": "6-K",
   "acc": "0001493152-26-048747",
@@ -8676,5 +8640,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1574235/000149315226049353/0001493152-26-049353-index.htm",
   "seen_kst": "2026-10-30 20:26"
+ },
+ {
+  "ticker": "WLFC",
+  "form": "8-K",
+  "acc": "0001018164-26-000087",
+  "items": "8.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:26:55+00:00",
+  "accepted_kst": "10/30 20:26",
+  "polarity": "pos",
+  "label": "자사주 매입",
+  "cats": [
+   "자사주 매입"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "CONTACT: Scott B. Flaherty NEWS RELEASE Executive Vice President & Chief Financial Officer 561.413.0112 Willis Lease Finance Corporation Declares Fourth Quarter",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000087/0001018164-26-000087-index.htm",
+  "seen_kst": "2026-10-30 20:29"
+ },
+ {
+  "ticker": "CCXI",
+  "form": "8-K",
+  "acc": "0001213900-26-114063",
+  "items": "7.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T11:27:44+00:00",
+  "accepted_kst": "10/30 20:27",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Agility Robotics and Churchill Capital Corp XI Announce Expected Gross Capital Raise of Approximately $465 Million and Anticipated Closing of Business Combinati",
+  "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026114063/0001213900-26-114063-index.htm",
+  "seen_kst": "2026-10-30 20:29"
  }
 ]

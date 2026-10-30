@@ -5983,5 +5983,48 @@
    "accepted_kst": "10/30 20:17",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "WLFC-fil-0001018164-26-000087",
+  "ts_kst": "2026-10-30 20:29",
+  "ts_utc": "2026-10-30T11:29:05+00:00",
+  "date_et": "2026-10-30",
+  "session": "filing",
+  "ticker": "WLFC",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 WLFC 호재 공시",
+  "body": "8-K · 자사주 매입 (10/30 20:26 KST)\nCONTACT: Scott B. Flaherty NEWS RELEASE Executive Vice President & Chief Financial Officer 561.413.0112 Willis Lease Finance Corporation Dec\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960918001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960918001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001018164-26-000087",
+   "items": "8.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "CONTACT: Scott B. Flaherty NEWS RELEASE Executive Vice President & Chief Financial Officer 561.413.0112 Willis Lease Finance Corporation Declares Fourth Quarter",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000087/0001018164-26-000087-index.htm",
+   "accepted_kst": "10/30 20:26",
+   "polarity": "pos"
+  }
  }
 ]
