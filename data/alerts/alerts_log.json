@@ -6155,5 +6155,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
   "grade": "n/a"
+ },
+ {
+  "id": "RUBI-1793366787",
+  "ts_kst": "2026-10-30 22:26",
+  "ts_utc": "2026-10-30T13:26:27+00:00",
+  "date_et": "2026-10-30",
+  "session": "pre",
+  "ticker": "RUBI",
+  "types": [
+   "prob",
+   "pregap"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "프리마켓 갭 +2514.5%"
+  ],
+  "title": "🚀 RUBI 상위 확률 신호 · 프리마켓 갭",
+  "body": "$2.889 (+2514.5%) · 프리마켓 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 39만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n• 프리마켓 갭 +2514.5%\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.745 지정가(기준가 $2.889의 −5%) · 체결 가능성 약 58% · 손익분기 $2.778\n숏 지지구간 $2.022–$2.022 · 손절 $1.444\n⚠ 424B 증자 설명서 5건 (30일 내, 최근 10/28)\n⚠ 역분할 2026-10-30\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.889,
+  "level": 3,
+  "score": 41.3,
+  "prob": 53.309815913972,
+  "cp": 60.56658972276624,
+  "rl": 2.889,
+  "stop": 1.4445,
+  "zone": [
+   2.0222999999999995,
+   2.0222999999999995
+  ],
+  "bp": 2.7445,
+  "tgt": 3.3223499999999997,
+  "stp": 1.4445,
+  "penalties": [
+   "424B 증자 설명서 5건 (30일 내, 최근 10/28)",
+   "역분할 2026-10-30"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250804007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250804007",
+  "grade": "open"
  }
 ]
