@@ -7689,5 +7689,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241029003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241029003",
   "grade": "open"
+ },
+ {
+  "id": "YHGJ-1793372791",
+  "ts_kst": "2026-10-31 00:06",
+  "ts_utc": "2026-10-30T15:06:31+00:00",
+  "date_et": "2026-10-30",
+  "session": "regular",
+  "ticker": "YHGJ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.3% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ YHGJ 장중 급등 포착",
+  "body": "$3.400 (+15.3%) · 정규장 · 레벨 1 · 점수 22\n공매도 물량 대부분 손해 중, $3.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 261만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +15.3% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $3.400–$3.400 · 손절 $3.350 · 1차목표 $3.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.4,
+  "level": 1,
+  "score": 21.6,
+  "prob": 52.91666666666666,
+  "cp": 58.26201738720492,
+  "rl": 3.4999999999999964,
+  "stop": 3.349999999999997,
+  "zone": [
+   3.399999999999997,
+   3.4000000953674316
+  ],
+  "bp": null,
+  "tgt": 3.4999999999999964,
+  "stp": 3.349999999999997,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19971105001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19971105001",
+  "grade": "open"
  }
 ]
