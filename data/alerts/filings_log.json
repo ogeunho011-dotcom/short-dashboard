@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ZENA",
-  "form": "6-K",
-  "acc": "0001376474-26-000678",
-  "items": "",
-  "filed": "2026-10-28",
-  "accepted": "2026-10-28T20:12:44+00:00",
-  "accepted_kst": "10/29 05:12",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "ZenaTech Extends Use of Tillerstack’s Orsa+ AI Software and Plans Healthcare Teaching Applications Combined with Stacklens ™ Smart Glasses Existing industrial s",
-  "url": "https://www.sec.gov/Archives/edgar/data/1997403/000137647426000678/0001376474-26-000678-index.htm",
-  "seen_kst": "2026-10-29 05:50"
- },
- {
   "ticker": "RUBI",
   "form": "6-K",
   "acc": "0001171843-26-006911",
@@ -8675,5 +8658,22 @@
   "headline": "Item 1.01. Entry into a Material Definitive Agreement . On October 28, 2026, Azenta, Inc. (“Azenta” or the “Company”) entered into a Technology, Equipment and L",
   "url": "https://www.sec.gov/Archives/edgar/data/933974/000162828026068443/0001628280-26-068443-index.htm",
   "seen_kst": "2026-10-30 21:04"
+ },
+ {
+  "ticker": "TUSK",
+  "form": "8-K",
+  "acc": "0001628280-26-068445",
+  "items": "1.01,2.03,7.01,9.01",
+  "filed": "2026-10-30",
+  "accepted": "2026-10-30T12:09:58+00:00",
+  "accepted_kst": "10/30 21:09",
+  "polarity": "neutral",
+  "label": "중요 계약 · 2.03 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 1.01. Entry into a Material Definitive Agreement. On October 28, 2026, Cobra Aviation Services LLC (“Cobra”) and Leopard Aviation LLC (“Leopard” and, toget",
+  "url": "https://www.sec.gov/Archives/edgar/data/1679268/000162828026068445/0001628280-26-068445-index.htm",
+  "seen_kst": "2026-10-30 21:11"
  }
 ]
