@@ -12013,5 +12013,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250227006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250227006",
   "grade": "n/a"
+ },
+ {
+  "id": "ULCC-1793639893",
+  "ts_kst": "2026-11-03 02:18",
+  "ts_utc": "2026-11-02T17:18:13+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "ULCC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.4% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ULCC 장중 급등 포착",
+  "body": "$7.640 (+18.4%) · 정규장 · 레벨 1 · 점수 16\n공매도 물량 대부분 손해 중, $7.75 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +18.4% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $7.258 지정가(기준가 $7.640의 −5%) · 체결 가능성 약 45% · 손익분기 $7.346\n숏 지지구간 $7.250–$7.500 · 손절 $7.000 · 1차목표 $7.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.64,
+  "level": 1,
+  "score": 15.6,
+  "prob": 53.18749715171678,
+  "cp": 74.65367368741184,
+  "rl": 7.75,
+  "stop": 7.0,
+  "zone": [
+   7.25,
+   7.5
+  ],
+  "bp": 7.258,
+  "tgt": 7.75,
+  "stp": 7.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210331003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210331003",
+  "grade": "open"
  }
 ]
