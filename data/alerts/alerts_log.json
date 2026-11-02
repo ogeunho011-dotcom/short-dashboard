@@ -6451,7 +6451,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251015002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251015002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "TNMG-1793367243",
@@ -7952,7 +7955,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251015002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251015002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "OSPN-1793374609",
@@ -11138,6 +11144,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211214006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211214006",
+  "grade": "open"
+ },
+ {
+  "id": "GITS-1793634010",
+  "ts_kst": "2026-11-03 00:40",
+  "ts_utc": "2026-11-02T15:40:10+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "GITS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.7% · 거래량 평소의 10.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GITS 장중 급등 포착",
+  "body": "$1.900 (+18.7%) · 정규장 · 레벨 2 · 점수 31\n$1.90 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 420만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +18.7% · 거래량 평소의 10.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.834 지정가(60일선, 기준가 대비 -3.5%) · 체결 가능성 약 69% · 손익분기 $1.856\n숏 지지구간 $1.700–$1.800 · 손절 $1.600 · 1차목표 $1.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.8999,
+  "level": 2,
+  "score": 31.0,
+  "prob": 38.456237077877326,
+  "cp": 31.340867232886012,
+  "rl": 1.9000000000000008,
+  "stop": 1.6000000000000005,
+  "zone": [
+   1.7000000000000006,
+   1.8000000000000007
+  ],
+  "bp": 1.8335,
+  "tgt": 2.300000000000001,
+  "stp": 1.6000000000000005,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230801002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230801002",
   "grade": "open"
  }
 ]
