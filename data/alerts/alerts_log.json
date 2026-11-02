@@ -12095,5 +12095,46 @@
    "accepted_kst": "11/03 02:23",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "ABOS-1793640497",
+  "ts_kst": "2026-11-03 02:28",
+  "ts_utc": "2026-11-02T17:28:17+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "ABOS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.5% · 거래량 평소의 13.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ABOS 장중 급등 포착",
+  "body": "$0.257 (+22.5%) · 정규장 · 레벨 1 · 점수 23\n오늘 거래량 평소의 12배 이상, 관심 급증 · 최근 회사 공시 있음 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +22.5% · 거래량 평소의 13.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.244 지정가(기준가 $0.257의 −5%) · 체결 가능성 약 85% · 손익분기 $0.247\n숏 지지구간 $0.180–$0.250 · 손절 $0.129 · 1차목표 $0.500\n⚠ 최근 악재 공시: 8-K 임상 실패·FDA 거절 (10/30)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2572,
+  "level": 1,
+  "score": 22.9,
+  "prob": 45.01661129568107,
+  "cp": 27.028583085780134,
+  "rl": 0.5,
+  "stop": 0.12860000133514404,
+  "zone": [
+   0.18004000186920166,
+   0.25
+  ],
+  "bp": 0.2443,
+  "tgt": 0.5,
+  "stp": 0.12860000133514404,
+  "penalties": [
+   "최근 악재 공시: 8-K 임상 실패·FDA 거절 (10/30)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630001",
+  "grade": "open"
  }
 ]
