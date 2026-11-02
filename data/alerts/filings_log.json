@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WTI",
-  "form": "10-Q",
-  "acc": "0001104659-26-120259",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T21:00:35+00:00",
-  "accepted_kst": "10/30 06:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1288403/000110465926120259/0001104659-26-120259-index.htm",
-  "seen_kst": "2026-10-30 06:24"
- },
- {
   "ticker": "EDSA",
   "form": "4",
   "acc": "0001171843-26-006977",
@@ -8707,5 +8690,22 @@
   "headline": "NeuroSense to Strengthen PrimeC Canadian ALS Submission With New NfL Data Expanded package to include new neurofilament light chain (NfL) analysis; Health Canad",
   "url": "https://www.sec.gov/Archives/edgar/data/1875091/000121390026114732/0001213900-26-114732-index.htm",
   "seen_kst": "2026-11-02 23:54"
+ },
+ {
+  "ticker": "SGML",
+  "form": "6-K",
+  "acc": "0001292814-26-005112",
+  "items": "",
+  "filed": "2026-11-02",
+  "accepted": "2026-11-02T15:00:36+00:00",
+  "accepted_kst": "11/03 00:00",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 ex99-1.htm EX-99.1 SIGMA LITHIUM PREVIEWS 3Q 26 EARNINGS: EXECUTED TURNAROUND EXTENDING DEBT MATURITY, ROBUST 32% GROSS MARGINS, LOW CIF COSTS OF US$5",
+  "url": "https://www.sec.gov/Archives/edgar/data/1848309/000129281426005112/0001292814-26-005112-index.htm",
+  "seen_kst": "2026-11-03 00:02"
  }
 ]
