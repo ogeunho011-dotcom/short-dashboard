@@ -12139,5 +12139,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630001",
   "grade": "open"
+ },
+ {
+  "id": "VCIG-1793641103",
+  "ts_kst": "2026-11-03 02:38",
+  "ts_utc": "2026-11-02T17:38:23+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "VCIG",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 54k (당일 평균 7.8배)"
+  ],
+  "title": "🚀 VCIG 거래량 급증",
+  "body": "$4.069 (+2308.0%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중 · 한 달 고점 돌파 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 거래량 54k (당일 평균 7.8배)\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $3.866 지정가(기준가 $4.069의 −5%) · 체결 가능성 약 53% · 손익분기 $3.913\n숏 지지구간 $2.849–$4.069 · 손절 $2.035 · 1차목표 $4.230\n⚠ 역분할 2026-08-24\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.0695,
+  "level": 3,
+  "score": 41.0,
+  "prob": 45.01661129568107,
+  "cp": 37.88254770476722,
+  "rl": 15.0,
+  "stop": 2.034749984741211,
+  "zone": [
+   2.8486499786376953,
+   4.069499969482422
+  ],
+  "bp": 3.866,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-08-24"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230322006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230322006",
+  "grade": "n/a"
+ },
+ {
+  "id": "BGLC-1793641103",
+  "ts_kst": "2026-11-03 02:38",
+  "ts_utc": "2026-11-02T17:38:23+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "BGLC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.5% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BGLC 장중 급등 포착",
+  "body": "$1.060 (+15.5%) · 정규장 · 레벨 1 · 점수 15\n$1.10 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 293만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +15.5% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.007 지정가(기준가 $1.060의 −5%) · 체결 가능성 약 34% · 손익분기 $1.019\n숏 지지구간 $0.900–$0.956 · 손절 $0.875 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.0599,
+  "level": 1,
+  "score": 15.2,
+  "prob": 38.456237077877326,
+  "cp": 24.221522823606698,
+  "rl": 1.1000000000000003,
+  "stop": 0.8750000000000001,
+  "zone": [
+   0.9000000000000001,
+   0.9559650158882141
+  ],
+  "bp": 1.0069,
+  "tgt": 1.1000000000000003,
+  "stp": 0.8750000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230720001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230720001",
+  "grade": "open"
  }
 ]
