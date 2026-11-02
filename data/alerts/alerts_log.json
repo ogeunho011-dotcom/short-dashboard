@@ -13415,5 +13415,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170309001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170309001",
   "grade": "open"
+ },
+ {
+  "id": "SMTK-1793651670",
+  "ts_kst": "2026-11-03 05:34",
+  "ts_utc": "2026-11-02T20:34:30+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "SMTK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.5% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SMTK 장중 급등 포착",
+  "body": "$0.360 (+29.5%) · 정규장 · 레벨 1 · 점수 22\n오늘 거래량 평소의 6배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +29.5% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.363 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +0.7%) · 체결 가능성 약 85% · 손익분기 $0.367\n숏 지지구간 $0.252–$0.360 · 손절 $0.180 · 1차목표 $0.540\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-08-21\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3601,
+  "level": 1,
+  "score": 22.2,
+  "prob": 24.587706146926536,
+  "cp": 2.0,
+  "rl": 2.0,
+  "stop": 0.18005000054836273,
+  "zone": [
+   0.2520700007677078,
+   0.36010000109672546
+  ],
+  "bp": 0.3626,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-08-21"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240531004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240531004",
+  "grade": "n/a"
  }
 ]
