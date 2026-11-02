@@ -12336,5 +12336,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211214006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211214006",
   "grade": "open"
+ },
+ {
+  "id": "SEGG-1793641987",
+  "ts_kst": "2026-11-03 02:53",
+  "ts_utc": "2026-11-02T17:53:07+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "SEGG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +38.0% · 거래량 평소의 87.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SEGG 장중 급등 포착",
+  "body": "$1.835 (+38.0%) · 정규장 · 레벨 2 · 점수 40\n$2.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 341만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +38.0% · 거래량 평소의 87.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.743 지정가(기준가 $1.835의 −5%) · 체결 가능성 약 67% · 손익분기 $1.764\n숏 지지구간 $1.285–$1.292 · 손절 $0.918 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.835,
+  "level": 2,
+  "score": 39.5,
+  "prob": 38.456237077877326,
+  "cp": 35.35046577792397,
+  "rl": 2.75,
+  "stop": 0.9175000190734863,
+  "zone": [
+   1.2845000267028808,
+   1.2922500133514405
+  ],
+  "bp": 1.7433,
+  "tgt": 2.75,
+  "stp": 0.9175000190734863,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230615003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230615003",
+  "grade": "open"
+ },
+ {
+  "id": "QXL-1793641987",
+  "ts_kst": "2026-11-03 02:53",
+  "ts_utc": "2026-11-02T17:53:07+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "QXL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ QXL 장중 급등 포착",
+  "body": "$4.250 (+15.8%) · 정규장 · 레벨 1 · 점수 23\n$5.25 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +15.8% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $4.037 지정가(기준가 $4.250의 −5%) · 체결 가능성 약 60% · 손익분기 $4.086\n숏 지지구간 $4.000–$4.250 · 손절 $3.750 · 1차목표 $5.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.25,
+  "level": 1,
+  "score": 23.1,
+  "prob": 38.456237077877326,
+  "cp": 26.710878918904847,
+  "rl": 5.25,
+  "stop": 3.75,
+  "zone": [
+   4.0,
+   4.25
+  ],
+  "bp": 4.0375,
+  "tgt": 5.25,
+  "stp": 3.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250605004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250605004",
+  "grade": "open"
  }
 ]
