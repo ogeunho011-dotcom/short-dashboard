@@ -12940,5 +12940,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20060131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20060131002",
   "grade": "open"
+ },
+ {
+  "id": "CTOR-1793646241",
+  "ts_kst": "2026-11-03 04:04",
+  "ts_utc": "2026-11-02T19:04:01+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "CTOR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.3% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CTOR 장중 급등 포착",
+  "body": "$0.639 (+15.3%) · 정규장 · 레벨 1 · 점수 10\n$0.700 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.3% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.607 지정가(기준가 $0.639의 −5%) · 체결 가능성 약 71% · 손익분기 $0.614\n숏 지지구간 $0.550–$0.600 · 손절 $0.500 · 1차목표 $0.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.639,
+  "level": 1,
+  "score": 10.5,
+  "prob": 45.01661129568107,
+  "cp": 36.97379861303012,
+  "rl": 0.7000000000000002,
+  "stop": 0.5,
+  "zone": [
+   0.55,
+   0.6000000000000001
+  ],
+  "bp": 0.607,
+  "tgt": 0.7000000000000002,
+  "stp": 0.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221208004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221208004",
+  "grade": "open"
  }
 ]
