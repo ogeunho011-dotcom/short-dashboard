@@ -13099,5 +13099,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240514002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240514002",
   "grade": "open"
+ },
+ {
+  "id": "WETO-1793647148",
+  "ts_kst": "2026-11-03 04:19",
+  "ts_utc": "2026-11-02T19:19:08+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "WETO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WETO 장중 급등 포착",
+  "body": "$0.860 (+16.2%) · 정규장 · 레벨 3 · 점수 47\n오늘 거래량 평소의 10배 이상, 관심 급증 · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.2% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.801 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.8%) · 체결 가능성 약 69% · 손익분기 $0.811\n숏 지지구간 $0.602–$0.860 · 손절 $0.430 · 1차목표 $1.460\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8599,
+  "level": 3,
+  "score": 46.6,
+  "prob": 31.25,
+  "cp": 2.0,
+  "rl": 10.0,
+  "stop": 0.4299499988555908,
+  "zone": [
+   0.6019299983978271,
+   0.8598999977111816
+  ],
+  "bp": 0.8013,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250227006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250227006",
+  "grade": "n/a"
  }
 ]
