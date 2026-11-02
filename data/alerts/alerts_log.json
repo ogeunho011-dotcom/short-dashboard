@@ -13057,5 +13057,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211108012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211108012",
   "grade": "open"
+ },
+ {
+  "id": "BTOC-1793646997",
+  "ts_kst": "2026-11-03 04:16",
+  "ts_utc": "2026-11-02T19:16:37+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "BTOC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.2% · 거래량 평소의 27.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BTOC 장중 급등 포착",
+  "body": "$2.660 (+19.2%) · 정규장 · 레벨 1 · 점수 14\n$3.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 11배 이상, 관심 급증\n• 전일 대비 +19.2% · 거래량 평소의 27.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.527 지정가(기준가 $2.660의 −5%) · 체결 가능성 약 64% · 손익분기 $2.558\n숏 지지구간 $2.250–$2.500 · 손절 $2.125 · 1차목표 $3.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-15\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.66,
+  "level": 1,
+  "score": 14.4,
+  "prob": 45.01661129568107,
+  "cp": 62.12827341599879,
+  "rl": 3.0,
+  "stop": 2.125,
+  "zone": [
+   2.25,
+   2.5
+  ],
+  "bp": 2.527,
+  "tgt": 3.0,
+  "stp": 2.125,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-15"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240514002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240514002",
+  "grade": "open"
  }
 ]
