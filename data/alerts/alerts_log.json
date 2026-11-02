@@ -12691,5 +12691,168 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240112002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240112002",
   "grade": "open"
+ },
+ {
+  "id": "INO-1793645461",
+  "ts_kst": "2026-11-03 03:51",
+  "ts_utc": "2026-11-02T18:51:01+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "INO",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 87/100"
+  ],
+  "title": "🚀 INO 상위 확률 신호 · 커버 압력",
+  "body": "$2.095 (+249.1%) · 정규장 · 레벨 4 · 점수 60\n공매도 물량 대부분 손해 중, $2.20 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 46배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 87/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.990 지정가(기준가 $2.095의 −5%) · 체결 가능성 약 65% · 손익분기 $2.014\n숏 지지구간 $1.800–$1.903 · 손절 $1.750 · 1차목표 $2.200\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.0946,
+  "level": 4,
+  "score": 59.8,
+  "prob": 53.44827586206896,
+  "cp": 87.42910578501997,
+  "rl": 2.1999999999999997,
+  "stop": 1.7499999999999998,
+  "zone": [
+   1.7999999999999998,
+   1.9031099867820738
+  ],
+  "bp": 1.9899,
+  "tgt": 2.1999999999999997,
+  "stp": 1.7499999999999998,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140915002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140915002",
+  "grade": "open"
+ },
+ {
+  "id": "EVGO-1793645461",
+  "ts_kst": "2026-11-03 03:51",
+  "ts_utc": "2026-11-02T18:51:01+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "EVGO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +46.0% · 거래량 평소의 30.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EVGO 장중 급등 포착",
+  "body": "$1.840 (+46.0%) · 정규장 · 레벨 2 · 점수 34\n공매도 물량 대부분 손해 중, $2.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 20배 이상, 관심 급증\n• 전일 대비 +46.0% · 거래량 평소의 30.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.748 지정가(기준가 $1.840의 −5%) · 체결 가능성 약 45% · 손익분기 $1.769\n숏 지지구간 $1.650–$1.717 · 손절 $1.600 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.84,
+  "level": 2,
+  "score": 33.7,
+  "prob": 53.44827586206896,
+  "cp": 64.19195002673978,
+  "rl": 1.9999999999999987,
+  "stop": 1.599999999999999,
+  "zone": [
+   1.649999999999999,
+   1.7165000116825098
+  ],
+  "bp": 1.748,
+  "tgt": 1.9999999999999987,
+  "stp": 1.599999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210702004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210702004",
+  "grade": "open"
+ },
+ {
+  "id": "NVA-1793645461",
+  "ts_kst": "2026-11-03 03:51",
+  "ts_utc": "2026-11-02T18:51:01+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "NVA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.5% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NVA 장중 급등 포착",
+  "body": "$4.590 (+20.5%) · 정규장 · 레벨 2 · 점수 29\n$5.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +20.5% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 47%\n추천 매수가 $4.361 지정가(기준가 $4.590의 −5%) · 체결 가능성 약 52% · 손익분기 $4.413\n숏 지지구간 $4.000–$4.250 · 손절 $3.750 · 1차목표 $5.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.59,
+  "level": 2,
+  "score": 28.8,
+  "prob": 46.921336756428126,
+  "cp": 37.60469795226703,
+  "rl": 5.0,
+  "stop": 3.75,
+  "zone": [
+   4.0,
+   4.25
+  ],
+  "bp": 4.3605,
+  "tgt": 5.0,
+  "stp": 3.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240724002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240724002",
+  "grade": "open"
+ },
+ {
+  "id": "CRIS-1793645461",
+  "ts_kst": "2026-11-03 03:51",
+  "ts_utc": "2026-11-02T18:51:01+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "CRIS",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 40k (당일 평균 5.0배)"
+  ],
+  "title": "🚀 CRIS 거래량 급증",
+  "body": "$0.690 (+15.0%) · 정규장 · 레벨 3 · 점수 48\n$1.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 209만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 40k (당일 평균 5.0배)\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.656 지정가(기준가 $0.690의 −5%) · 체결 가능성 약 70% · 손익분기 $0.664\n숏 지지구간 $0.483–$0.500 · 손절 $0.345 · 1차목표 $1.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6901,
+  "level": 3,
+  "score": 47.9,
+  "prob": 28.8201743414569,
+  "cp": 5.686050419072495,
+  "rl": 1.0,
+  "stop": 0.34505000710487366,
+  "zone": [
+   0.4830700099468231,
+   0.5
+  ],
+  "bp": 0.6556,
+  "tgt": 1.0,
+  "stp": 0.34505000710487366,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
+  "grade": "open"
  }
 ]
