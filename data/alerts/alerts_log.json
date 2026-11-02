@@ -13177,5 +13177,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250415003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250415003",
   "grade": "n/a"
+ },
+ {
+  "id": "BGLC-1793648490",
+  "ts_kst": "2026-11-03 04:41",
+  "ts_utc": "2026-11-02T19:41:30+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "BGLC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BGLC 장중 급등 포착",
+  "body": "$1.059 (+15.4%) · 정규장 · 레벨 1 · 점수 14\n$1.10 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 293만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +15.4% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $1.007 지정가(기준가 $1.059의 −5%) · 체결 가능성 약 36% · 손익분기 $1.019\n숏 지지구간 $0.900–$0.956 · 손절 $0.875 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.0595,
+  "level": 1,
+  "score": 14.4,
+  "prob": 28.743057630370156,
+  "cp": 25.21752419415766,
+  "rl": 1.1000000000000003,
+  "stop": 0.8750000000000001,
+  "zone": [
+   0.9000000000000001,
+   0.9558249926567078
+  ],
+  "bp": 1.0065,
+  "tgt": 1.1000000000000003,
+  "stp": 0.8750000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230720001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230720001",
+  "grade": "open"
  }
 ]
