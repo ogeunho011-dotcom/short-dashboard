@@ -13540,5 +13540,350 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210420011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210420011",
   "grade": "open"
+ },
+ {
+  "id": "MTLS-fil-0001104659-26-121305",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "MTLS",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 자사주 매입"
+  ],
+  "title": "📢 MTLS 호재 공시",
+  "body": "6-K · 자사주 매입 (11/03 06:01 KST)\nMATERIALISE SHARE-BUY BACK PROGRAM Leuven – 2 November 2026 – 22h00 CET Regulated information 1 Materialise reports on the progress of its s\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140625001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140625001",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001104659-26-121305",
+   "items": "",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "MATERIALISE SHARE-BUY BACK PROGRAM Leuven – 2 November 2026 – 22h00 CET Regulated information 1 Materialise reports on the progress of its share buy-back progra",
+   "url": "https://www.sec.gov/Archives/edgar/data/1091223/000110465926121305/0001104659-26-121305-index.htm",
+   "accepted_kst": "11/03 06:01",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "TCMD-fil-0001104659-26-121315",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "TCMD",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가 · 자사주 매입"
+  ],
+  "title": "📢 TCMD 호재 공시",
+  "body": "8-K · FDA 승인·허가 · 자사주 매입 (11/03 06:04 KST)\nTactile Systems Technology, Inc. Reports Third Quarter 2026 Financial Results\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160728002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160728002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001104659-26-121315",
+   "items": "2.02,9.01",
+   "label": "FDA 승인·허가 · 자사주 매입",
+   "cats": [
+    "FDA 승인·허가",
+    "자사주 매입"
+   ],
+   "strength": 5,
+   "headline": "Tactile Systems Technology, Inc. Reports Third Quarter 2026 Financial Results",
+   "url": "https://www.sec.gov/Archives/edgar/data/1027838/000110465926121315/0001104659-26-121315-index.htm",
+   "accepted_kst": "11/03 06:04",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "EVER-fil-0001193125-26-443633",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "EVER",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 EVER 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/03 06:05 KST)\nEverQuote Announces Third Quarter 2026 Financial Results ● Grows revenue 25% year-over-year to $218.1 million ● Delivers net income of $18.2\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180627001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180627001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-443633",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "EverQuote Announces Third Quarter 2026 Financial Results ● Grows revenue 25% year-over-year to $218.1 million ● Delivers net income of $18.2 million and grows A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640428/000119312526443633/0001193125-26-443633-index.htm",
+   "accepted_kst": "11/03 06:05",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "CERS-fil-0001193125-26-443646",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "CERS",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 임상 성공(주요 목표 달성)"
+  ],
+  "title": "📢 CERS 호재 공시",
+  "body": "8-K · 임상 성공(주요 목표 달성) (11/03 06:07 KST)\nCerus Corporation Announces Third Quarter 2026 Financial Results Third quarter 2026 total revenue of $64.0 million; third quarter 2026 produ\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19970131001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19970131001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-443646",
+   "items": "2.02,9.01",
+   "label": "임상 성공(주요 목표 달성)",
+   "cats": [
+    "임상 성공(주요 목표 달성)"
+   ],
+   "strength": 5,
+   "headline": "Cerus Corporation Announces Third Quarter 2026 Financial Results Third quarter 2026 total revenue of $64.0 million; third quarter 2026 product revenue of $57.7 ",
+   "url": "https://www.sec.gov/Archives/edgar/data/1020214/000119312526443646/0001193125-26-443646-index.htm",
+   "accepted_kst": "11/03 06:07",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "HLIT-fil-0001193125-26-443647",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "HLIT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 HLIT 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/03 06:07 KST)\nFOR IMMEDIATE RELEASE Harmonic Announces Third Quarter 2026 Results Revenue increased 64% year over year to $148.8 million, well above the h\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19950523001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19950523001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-443647",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "FOR IMMEDIATE RELEASE Harmonic Announces Third Quarter 2026 Results Revenue increased 64% year over year to $148.8 million, well above the high end of guidance ",
+   "url": "https://www.sec.gov/Archives/edgar/data/851310/000119312526443647/0001193125-26-443647-index.htm",
+   "accepted_kst": "11/03 06:07",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "AHRT-fil-0001569187-26-000161",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "AHRT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 AHRT 호재 공시",
+  "body": "8-K · 자사주 매입 (11/03 06:07 KST)\nPRESS RELEASE AH REALTY TRUST REPORTS THIRD QUARTER 2026 RESULTS GAAP Net Loss of $0.07 Per Diluted Share for the Third Quarter FFO, As Adju\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130508001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130508001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001569187-26-000161",
+   "items": "2.02,7.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "PRESS RELEASE AH REALTY TRUST REPORTS THIRD QUARTER 2026 RESULTS GAAP Net Loss of $0.07 Per Diluted Share for the Third Quarter FFO, As Adjusted of $0.16 Per Di",
+   "url": "https://www.sec.gov/Archives/edgar/data/1569187/000156918726000161/0001569187-26-000161-index.htm",
+   "accepted_kst": "11/03 06:07",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SIBN-fil-0001459839-26-000084",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "SIBN",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가"
+  ],
+  "title": "📢 SIBN 호재 공시",
+  "body": "8-K · FDA 승인·허가 (11/03 06:10 KST)\nSI-BONE, Inc. Reports Financial Results for the Third Quarter 2026 and Reaffirms 2026 Revenue Guidance Delivered ~20% U.S. procedure volume \n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20181017003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20181017003",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001459839-26-000084",
+   "items": "2.02,9.01",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "SI-BONE, Inc. Reports Financial Results for the Third Quarter 2026 and Reaffirms 2026 Revenue Guidance Delivered ~20% U.S. procedure volume growth in the third",
+   "url": "https://www.sec.gov/Archives/edgar/data/1459839/000145983926000084/0001459839-26-000084-index.htm",
+   "accepted_kst": "11/03 06:10",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "HLF-fil-0001213900-26-114951",
+  "ts_kst": "2026-11-03 06:28",
+  "ts_utc": "2026-11-02T21:28:28+00:00",
+  "date_et": "2026-11-02",
+  "session": "filing",
+  "ticker": "HLF",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 HLF 호재 공시",
+  "body": "8-K · 자사주 매입 (11/03 06:22 KST)\nCONFIDENTIAL & PRIVILEGED Herbalife Achieves Third Quarter Net Sales Growth of 6.0%; Strong Profitability and Robust Operating Cash Flow; Fi\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20041216001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20041216001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001213900-26-114951",
+   "items": "2.02,7.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "CONFIDENTIAL & PRIVILEGED Herbalife Achieves Third Quarter Net Sales Growth of 6.0%; Strong Profitability and Robust Operating Cash Flow; Fifth Consecutive Quar",
+   "url": "https://www.sec.gov/Archives/edgar/data/1180262/000121390026114951/0001213900-26-114951-index.htm",
+   "accepted_kst": "11/03 06:22",
+   "polarity": "pos"
+  }
  }
 ]
