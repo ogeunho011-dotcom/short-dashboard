@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "KOSS",
-  "form": "8-K",
-  "acc": "0000056701-26-000046",
-  "items": "2.02,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T21:20:02+00:00",
-  "accepted_kst": "10/30 06:20",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 koss-20261029xex99_1.htm EX-99.1 ﻿ FOR IMMEDIATE RELEASE CONTACT: Michael J. Koss October 29 , 202 6 Chairman & CEO (414) 964-5000 mjkoss@koss.com ﻿ K",
-  "url": "https://www.sec.gov/Archives/edgar/data/56701/000005670126000046/0000056701-26-000046-index.htm",
-  "seen_kst": "2026-10-30 06:24"
- },
- {
   "ticker": "ALDF",
   "form": "8-K",
   "acc": "0001104659-26-120277",
@@ -8701,5 +8684,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1495932/000193284826000023/0001932848-26-000023-index.htm",
   "seen_kst": "2026-11-03 02:00"
+ },
+ {
+  "ticker": "ATEC",
+  "form": "4",
+  "acc": "0001555392-26-000004",
+  "items": "",
+  "filed": "2026-11-02",
+  "accepted": "2026-11-02T17:23:23+00:00",
+  "accepted_kst": "11/03 02:23",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $408,600",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Demski David M",
+  "url": "https://www.sec.gov/Archives/edgar/data/1350653/000155539226000004/0001555392-26-000004-index.htm",
+  "seen_kst": "2026-11-03 02:25"
  }
 ]
