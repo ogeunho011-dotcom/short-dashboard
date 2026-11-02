@@ -4322,7 +4322,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210105001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210105001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.15560629921259816,
+  "graded_bars": 2
  },
  {
   "id": "WFF-1793293656",
@@ -11225,6 +11228,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
+  "grade": "open"
+ },
+ {
+  "id": "TATT-1793634759",
+  "ts_kst": "2026-11-03 00:52",
+  "ts_utc": "2026-11-02T15:52:39+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "TATT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.7% · 거래량 평소의 12.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TATT 장중 급등 포착",
+  "body": "$36.805 (+15.7%) · 정규장 · 레벨 2 · 점수 38\n$43.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,298만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +15.7% · 거래량 평소의 12.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $34.965 지정가(기준가 $36.805의 −5%) · 체결 가능성 약 26% · 손익분기 $35.387\n숏 지지구간 $35.000–$36.000 · 손절 $34.000 · 1차목표 $43.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 36.805,
+  "level": 2,
+  "score": 37.5,
+  "prob": 53.44827586206896,
+  "cp": 42.95155068764983,
+  "rl": 43.0,
+  "stop": 34.0,
+  "zone": [
+   35.0,
+   36.0
+  ],
+  "bp": 34.9648,
+  "tgt": 43.0,
+  "stp": 34.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930311001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930311001",
   "grade": "open"
  }
 ]
