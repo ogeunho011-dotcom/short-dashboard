@@ -9776,5 +9776,87 @@
    "accepted_kst": "10/31 08:32",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "ASUR-1793610971",
+  "ts_kst": "2026-11-02 18:16",
+  "ts_utc": "2026-11-02T09:16:11+00:00",
+  "date_et": "2026-11-02",
+  "session": "pre",
+  "ticker": "ASUR",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 75/100"
+  ],
+  "title": "🚀 ASUR 상위 확률 신호 · 커버 압력",
+  "body": "$9.315 (-0.3%) · 프리마켓 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $9.75 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 20배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 75/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $9.250–$9.410 · 손절 $9.000 · 1차목표 $9.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 9.3149,
+  "level": 3,
+  "score": 41.0,
+  "prob": 53.44827586206896,
+  "cp": 74.84042766505064,
+  "rl": 9.75,
+  "stop": 9.0,
+  "zone": [
+   9.25,
+   9.40999984741211
+  ],
+  "bp": null,
+  "tgt": 9.75,
+  "stp": 9.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930804001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930804001",
+  "grade": "open"
+ },
+ {
+  "id": "CLRO-1793610971",
+  "ts_kst": "2026-11-02 18:16",
+  "ts_utc": "2026-11-02T09:16:11+00:00",
+  "date_et": "2026-11-02",
+  "session": "pre",
+  "ticker": "CLRO",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +74.5%"
+  ],
+  "title": "🚀 CLRO 프리마켓 갭",
+  "body": "$5.950 (+74.5%) · 프리마켓 · 레벨 3 · 점수 45\n공매도 물량 대부분 손해 중, $6.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 268만 주뿐이라 쉽게 크게 움직임\n• 프리마켓 갭 +74.5%\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $5.369 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -9.8%) · 체결 가능성 약 62% · 손익분기 $5.434\n숏 지지구간 $4.165–$4.165 · 손절 $2.975 · 1차목표 $6.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.9503,
+  "level": 3,
+  "score": 44.7,
+  "prob": 45.01661129568107,
+  "cp": 53.17833193868935,
+  "rl": 6.0,
+  "stop": 2.97515,
+  "zone": [
+   4.16521,
+   4.16521
+  ],
+  "bp": 5.369,
+  "tgt": 6.0,
+  "stp": 2.97515,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19950818001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19950818001",
+  "grade": "open"
  }
 ]
