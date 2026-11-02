@@ -12494,5 +12494,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170309001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170309001",
   "grade": "open"
+ },
+ {
+  "id": "EZGO-1793643493",
+  "ts_kst": "2026-11-03 03:18",
+  "ts_utc": "2026-11-02T18:18:13+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "EZGO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.6% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EZGO 장중 급등 포착",
+  "body": "$0.890 (+17.6%) · 정규장 · 레벨 2 · 점수 27\n$0.900 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +17.6% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 52%\n추천 매수가 $0.845 지정가(기준가 $0.890의 −5%) · 체결 가능성 약 47% · 손익분기 $0.856\n숏 지지구간 $0.850–$0.890 · 손절 $0.800 · 1차목표 $0.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.89,
+  "level": 2,
+  "score": 27.4,
+  "prob": 51.86283728536183,
+  "cp": 30.49265555179887,
+  "rl": 0.9000000000000002,
+  "stop": 0.8000000000000002,
+  "zone": [
+   0.8500000000000002,
+   0.8899999856948853
+  ],
+  "bp": 0.8455,
+  "tgt": 0.9000000000000002,
+  "stp": 0.8000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210126005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210126005",
+  "grade": "open"
  }
 ]
