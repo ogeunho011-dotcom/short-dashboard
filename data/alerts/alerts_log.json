@@ -10772,5 +10772,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231201002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231201002",
   "grade": "open"
+ },
+ {
+  "id": "FTFT-1793632056",
+  "ts_kst": "2026-11-03 00:07",
+  "ts_utc": "2026-11-02T15:07:36+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "FTFT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.8% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FTFT 장중 급등 포착",
+  "body": "$3.497 (+19.8%) · 정규장 · 레벨 2 · 점수 36\n$3.50 넘으면 공매도 되사기 압박 ↑ · $3 다시 회복\n• 전일 대비 +19.8% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $3.180 지정가(60일선, 기준가 대비 -9.1%) · 체결 가능성 약 49% · 손익분기 $3.219\n숏 지지구간 $2.000–$2.524 · 손절 $1.749 · 1차목표 $3.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-08-31\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.4973,
+  "level": 2,
+  "score": 35.7,
+  "prob": 31.25,
+  "cp": 54.67839504732298,
+  "rl": 3.5,
+  "stop": 1.7486499547958374,
+  "zone": [
+   2.0,
+   2.524054968357086
+  ],
+  "bp": 3.1803,
+  "tgt": 5.0,
+  "stp": 1.7486499547958374,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-08-31"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170612003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170612003",
+  "grade": "open"
+ },
+ {
+  "id": "ANVS-1793632056",
+  "ts_kst": "2026-11-03 00:07",
+  "ts_utc": "2026-11-02T15:07:36+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "ANVS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.0% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ANVS 장중 급등 포착",
+  "body": "$1.300 (+15.0%) · 정규장 · 레벨 1 · 점수 16\n$1.40 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파\n• 전일 대비 +15.0% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.235 지정가(기준가 $1.300의 −5%) · 체결 가능성 약 41% · 손익분기 $1.250\n숏 지지구간 $1.250–$1.300 · 손절 $1.200 · 1차목표 $1.400\n⚠ 최근 악재 공시: 8-K 상장 유지 기준 미달·상폐 위험 (10/30)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3,
+  "level": 1,
+  "score": 15.9,
+  "prob": 53.44827586206896,
+  "cp": 51.065176195943565,
+  "rl": 1.4000000000000004,
+  "stop": 1.2000000000000004,
+  "zone": [
+   1.2500000000000004,
+   1.2999999523162842
+  ],
+  "bp": 1.235,
+  "tgt": 1.4000000000000004,
+  "stp": 1.2000000000000004,
+  "penalties": [
+   "최근 악재 공시: 8-K 상장 유지 기준 미달·상폐 위험 (10/30)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211118010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211118010",
+  "grade": "open"
  }
 ]
