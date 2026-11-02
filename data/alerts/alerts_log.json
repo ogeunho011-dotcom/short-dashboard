@@ -13457,5 +13457,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240531004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240531004",
   "grade": "n/a"
+ },
+ {
+  "id": "HXHX-1793652895",
+  "ts_kst": "2026-11-03 05:54",
+  "ts_utc": "2026-11-02T20:54:55+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "HXHX",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 588k (당일 평균 99.3배)"
+  ],
+  "title": "🚀 HXHX 거래량 급증",
+  "body": "$0.218 (+28.2%) · 정규장 · 레벨 3 · 점수 51\n$0.250 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 247만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 588k (당일 평균 99.3배)\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.207 지정가(기준가 $0.218의 −5%) · 체결 가능성 약 69% · 손익분기 $0.210\n숏 지지구간 $0.150–$0.200 · 손절 $0.125 · 1차목표 $0.250\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.218,
+  "level": 3,
+  "score": 51.0,
+  "prob": 45.01661129568107,
+  "cp": 30.09746327043516,
+  "rl": 0.25000000000000006,
+  "stop": 0.12500000000000003,
+  "zone": [
+   0.15000000000000002,
+   0.2
+  ],
+  "bp": 0.2071,
+  "tgt": 0.25000000000000006,
+  "stp": 0.12500000000000003,
+  "penalties": [
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250415002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250415002",
+  "grade": "open"
  }
 ]
