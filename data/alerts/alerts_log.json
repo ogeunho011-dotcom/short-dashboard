@@ -11187,5 +11187,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230801002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230801002",
   "grade": "open"
+ },
+ {
+  "id": "BESS-1793634452",
+  "ts_kst": "2026-11-03 00:47",
+  "ts_utc": "2026-11-02T15:47:32+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "BESS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.3% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BESS 장중 급등 포착",
+  "body": "$2.720 (+15.3%) · 정규장 · 레벨 1 · 점수 20\n$3.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 710만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +15.3% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 51%\n추천 매수가 $2.584 지정가(기준가 $2.720의 −5%) · 체결 가능성 약 57% · 손익분기 $2.615\n숏 지지구간 $2.500–$2.720 · 손절 $2.250 · 1차목표 $3.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.72,
+  "level": 1,
+  "score": 19.9,
+  "prob": 51.26701516813075,
+  "cp": 29.559099481636487,
+  "rl": 3.25,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   2.7200000286102295
+  ],
+  "bp": 2.584,
+  "tgt": 3.25,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
+  "grade": "open"
  }
 ]
