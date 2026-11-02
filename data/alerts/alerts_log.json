@@ -13335,5 +13335,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211214006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211214006",
   "grade": "open"
+ },
+ {
+  "id": "SEGG-1793649691",
+  "ts_kst": "2026-11-03 05:01",
+  "ts_utc": "2026-11-02T20:01:31+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "SEGG",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +44.4% · 거래량 평소의 888.4배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 50%)"
+  ],
+  "title": "🚀 SEGG 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.920 (+44.4%) · 정규장 · 레벨 3 · 점수 47\n공매도 물량 대부분 손해 중, $2.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 341만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +44.4% · 거래량 평소의 888.4배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 50%)\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $1.824 지정가(기준가 $1.920의 −5%) · 체결 가능성 약 69% · 손익분기 $1.846\n숏 지지구간 $1.344–$1.344 · 손절 $0.960 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.92,
+  "level": 3,
+  "score": 47.1,
+  "prob": 49.82058271564581,
+  "cp": 69.09703696962056,
+  "rl": 2.0,
+  "stop": 0.9599999785423279,
+  "zone": [
+   1.3439999699592589,
+   1.3439999699592589
+  ],
+  "bp": 1.824,
+  "tgt": 2.0,
+  "stp": 0.9599999785423279,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230615003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230615003",
+  "grade": "open"
  }
 ]
