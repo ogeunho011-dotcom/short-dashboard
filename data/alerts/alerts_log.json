@@ -11894,5 +11894,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20060131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20060131002",
   "grade": "open"
+ },
+ {
+  "id": "TNMG-1793638838",
+  "ts_kst": "2026-11-03 02:00",
+  "ts_utc": "2026-11-02T17:00:38+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "TNMG",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 20k (당일 평균 5.1배)"
+  ],
+  "title": "🚀 TNMG 거래량 급증",
+  "body": "$4.518 (+16.1%) · 정규장 · 레벨 3 · 점수 45\n$5.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 256만 주뿐이라 쉽게 크게 움직임\n• 5분 거래량 20k (당일 평균 5.1배)\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $4.292 지정가(기준가 $4.518의 −5%) · 체결 가능성 약 61% · 손익분기 $4.344\n숏 지지구간 $2.500–$3.206 · 손절 $2.259 · 1차목표 $5.000\n⚠ 역분할 2026-09-08\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.5181,
+  "level": 3,
+  "score": 44.7,
+  "prob": 28.643216080402006,
+  "cp": 42.62032865506255,
+  "rl": 5.0,
+  "stop": 2.259049892425537,
+  "zone": [
+   2.5,
+   3.206334924697876
+  ],
+  "bp": 4.2922,
+  "tgt": 5.0,
+  "stp": 2.259049892425537,
+  "penalties": [
+   "역분할 2026-09-08"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220124003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220124003",
+  "grade": "open"
  }
 ]

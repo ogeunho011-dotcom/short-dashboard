@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "UFG",
-  "form": "6-K",
-  "acc": "0001493152-26-049307",
-  "items": "",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T21:20:01+00:00",
-  "accepted_kst": "10/30 06:20",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Uni-Fuels Announces Effective Date of Share Consolidation",
-  "url": "https://www.sec.gov/Archives/edgar/data/2021688/000149315226049307/0001493152-26-049307-index.htm",
-  "seen_kst": "2026-10-30 06:24"
- },
- {
   "ticker": "KOSS",
   "form": "8-K",
   "acc": "0000056701-26-000046",
@@ -8703,5 +8684,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/355948/000119312526443094/0001193125-26-443094-index.htm",
   "seen_kst": "2026-11-03 01:57"
+ },
+ {
+  "ticker": "AGNT",
+  "form": "4",
+  "acc": "0001932848-26-000023",
+  "items": "",
+  "filed": "2026-11-02",
+  "accepted": "2026-11-02T16:59:44+00:00",
+  "accepted_kst": "11/03 01:59",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1495932/000193284826000023/0001932848-26-000023-index.htm",
+  "seen_kst": "2026-11-03 02:00"
  }
 ]
