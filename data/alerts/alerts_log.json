@@ -10636,5 +10636,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20060131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20060131002",
   "grade": "open"
+ },
+ {
+  "id": "NXH-1793631295",
+  "ts_kst": "2026-11-02 23:54",
+  "ts_utc": "2026-11-02T14:54:55+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "NXH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.6% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NXH 장중 급등 포착",
+  "body": "$1.815 (+18.6%) · 정규장 · 레벨 1 · 점수 8\n$2.00 넘으면 공매도 되사기 압박 ↑ · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +18.6% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.724 지정가(기준가 $1.815의 −5%) · 체결 가능성 약 58% · 손익분기 $1.745\n숏 지지구간 $1.250–$1.500 · 손절 $1.000 · 1차목표 $2.000\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 10/06)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.815,
+  "level": 1,
+  "score": 8.2,
+  "prob": 47.808764940239065,
+  "cp": 32.59794053614458,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.7243,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 10/06)",
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20020530001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20020530001",
+  "grade": "open"
+ },
+ {
+  "id": "PLCE-1793631295",
+  "ts_kst": "2026-11-02 23:54",
+  "ts_utc": "2026-11-02T14:54:55+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "PLCE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.7% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PLCE 장중 급등 포착",
+  "body": "$0.490 (+16.7%) · 정규장 · 레벨 1 · 점수 9\n$1 미만, 상장폐지 주의\n• 전일 대비 +16.7% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.466 지정가(기준가 $0.490의 −5%) · 체결 가능성 약 81% · 손익분기 $0.471\n숏 지지구간 $0.343–$0.490 · 손절 $0.245 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.49,
+  "level": 1,
+  "score": 8.7,
+  "prob": 31.25,
+  "cp": 43.428550030296826,
+  "rl": 0.75,
+  "stop": 0.24500000476837158,
+  "zone": [
+   0.34300000667572017,
+   0.49000000953674316
+  ],
+  "bp": 0.4655,
+  "tgt": 0.75,
+  "stp": 0.24500000476837158,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19970919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19970919001",
+  "grade": "open"
  }
 ]
