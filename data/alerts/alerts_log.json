@@ -9442,7 +9442,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230328007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230328007",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "PAAI-1793387104",
@@ -10975,5 +10978,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230517004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230517004",
   "grade": "open"
+ },
+ {
+  "id": "CAPR-1793633269",
+  "ts_kst": "2026-11-03 00:27",
+  "ts_utc": "2026-11-02T15:27:49+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "CAPR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CAPR 장중 급등 포착",
+  "body": "$7.430 (+16.5%) · 정규장 · 레벨 1 · 점수 21\n$8.00 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +16.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $7.058 지정가(기준가 $7.430의 −5%) · 체결 가능성 약 50% · 손익분기 $7.144\n숏 지지구간 $5.000–$6.000 · 손절 $4.000 · 1차목표 $8.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.43,
+  "level": 1,
+  "score": 21.4,
+  "prob": 52.91666666666666,
+  "cp": 37.82715910315307,
+  "rl": 8.0,
+  "stop": 4.0,
+  "zone": [
+   5.0,
+   6.0
+  ],
+  "bp": 7.0585,
+  "tgt": 8.0,
+  "stp": 4.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150309001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150309001",
+  "grade": "open"
+ },
+ {
+  "id": "ABOS-1793633269",
+  "ts_kst": "2026-11-03 00:27",
+  "ts_utc": "2026-11-02T15:27:49+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "ABOS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 20.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ABOS 장중 급등 포착",
+  "body": "$0.243 (+15.8%) · 정규장 · 레벨 1 · 점수 20\n오늘 거래량 평소의 6배 이상, 관심 급증 · 최근 회사 공시 있음 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +15.8% · 거래량 평소의 20.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.231 지정가(기준가 $0.243의 −5%) · 체결 가능성 약 85% · 손익분기 $0.234\n숏 지지구간 $0.170–$0.243 · 손절 $0.122 · 1차목표 $0.500\n⚠ 최근 악재 공시: 8-K 임상 실패·FDA 거절 (10/30)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2432,
+  "level": 1,
+  "score": 20.3,
+  "prob": 38.456237077877326,
+  "cp": 26.161843740366454,
+  "rl": 0.5,
+  "stop": 0.12160000205039978,
+  "zone": [
+   0.17024000287055968,
+   0.24320000410079956
+  ],
+  "bp": 0.231,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "최근 악재 공시: 8-K 임상 실패·FDA 거절 (10/30)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630001",
+  "grade": "n/a"
  }
 ]
