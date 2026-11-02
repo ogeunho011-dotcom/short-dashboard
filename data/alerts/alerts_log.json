@@ -11399,5 +11399,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20151218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20151218001",
   "grade": "open"
+ },
+ {
+  "id": "NSPR-1793636561",
+  "ts_kst": "2026-11-03 01:22",
+  "ts_utc": "2026-11-02T16:22:41+00:00",
+  "date_et": "2026-11-02",
+  "session": "regular",
+  "ticker": "NSPR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.6% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NSPR 장중 급등 포착",
+  "body": "$0.525 (+16.6%) · 정규장 · 레벨 1 · 점수 14\n$0.600 넘으면 공매도 되사기 압박 ↑ · $1 미만, 상장폐지 주의\n• 전일 대비 +16.6% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.498 지정가(기준가 $0.525의 −5%) · 체결 가능성 약 61% · 손익분기 $0.504\n숏 지지구간 $0.500–$0.525 · 손절 $0.450 · 1차목표 $0.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5246,
+  "level": 1,
+  "score": 13.7,
+  "prob": 31.25,
+  "cp": 35.65961567505243,
+  "rl": 0.6,
+  "stop": 0.45,
+  "zone": [
+   0.5,
+   0.5246000289916992
+  ],
+  "bp": 0.4984,
+  "tgt": 0.6,
+  "stp": 0.45,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210521002",
+  "grade": "open"
  }
 ]

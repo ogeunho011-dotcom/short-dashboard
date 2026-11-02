@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BFST",
-  "form": "8-K",
-  "acc": "0001437749-26-033999",
-  "items": "8.01,9.01",
-  "filed": "2026-10-29",
-  "accepted": "2026-10-29T21:15:18+00:00",
-  "accepted_kst": "10/30 06:15",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 9.01 Financial Statements and Exhibits. (d) Exhibits 99.1 Press Release of Business First Bancshares, Inc., dated October 29, 2026. 104 Cover Page Interact",
-  "url": "https://www.sec.gov/Archives/edgar/data/1624322/000143774926033999/0001437749-26-033999-index.htm",
-  "seen_kst": "2026-10-30 06:24"
- },
- {
   "ticker": "HYFM",
   "form": "4",
   "acc": "0001437749-26-034001",
@@ -8703,5 +8686,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/69633/000110465926121109/0001104659-26-121109-index.htm",
   "seen_kst": "2026-11-03 01:07"
+ },
+ {
+  "ticker": "CBNK",
+  "form": "4",
+  "acc": "0001419536-26-000173",
+  "items": "",
+  "filed": "2026-11-02",
+  "accepted": "2026-11-02T16:21:11+00:00",
+  "accepted_kst": "11/03 01:21",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1419536/000141953626000173/0001419536-26-000173-index.htm",
+  "seen_kst": "2026-11-03 01:22"
  }
 ]
