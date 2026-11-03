@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NUAI",
-  "form": "3",
-  "acc": "0001193125-26-441951",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:03:40+00:00",
-  "accepted_kst": "10/31 07:03",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028336/000119312526441951/0001193125-26-441951-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
   "ticker": "RGS",
   "form": "4",
   "acc": "0002109682-26-000006",
@@ -8679,5 +8662,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926034541/0001437749-26-034541-index.htm",
   "seen_kst": "2026-11-03 23:16"
+ },
+ {
+  "ticker": "AIOK",
+  "form": "6-K",
+  "acc": "0001140361-26-041723",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T14:20:21+00:00",
+  "accepted_kst": "11/03 23:20",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "November 3, 2026 To Our Shareholders: This information letter relates to our special dividend that we have declared on our common shares, par value $0.001 per s",
+  "url": "https://www.sec.gov/Archives/edgar/data/2095591/000114036126041723/0001140361-26-041723-index.htm",
+  "seen_kst": "2026-11-03 23:21"
  }
 ]
