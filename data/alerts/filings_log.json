@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "MDXH",
-  "form": "6-K",
-  "acc": "0001213900-26-114400",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T20:15:25+00:00",
-  "accepted_kst": "10/31 05:15",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Unofficial English translation – For informational purposes only MDxHealth SA Limited Liability Company ( société anonyme) CAP Business Center Zone Industrielle",
-  "url": "https://www.sec.gov/Archives/edgar/data/1872529/000121390026114400/0001213900-26-114400-index.htm",
-  "seen_kst": "2026-10-31 05:20"
- },
- {
-  "ticker": "ALPS",
-  "form": "6-K",
-  "acc": "0001493152-26-049433",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T20:15:25+00:00",
-  "accepted_kst": "10/31 05:15",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Alps Group Inc Announces Shareholder Approval for a Share Consolidation, Share Capital Increase, and Adoption of Second Amended and Restated Memorandum and Arti",
-  "url": "https://www.sec.gov/Archives/edgar/data/2025774/000149315226049433/0001493152-26-049433-index.htm",
-  "seen_kst": "2026-10-31 05:20"
- },
- {
   "ticker": "PTHS",
   "form": "425",
   "acc": "0001104659-26-120678",
@@ -8695,5 +8659,45 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1875444/000188961426000002/0001889614-26-000002-index.htm",
   "seen_kst": "2026-11-03 08:47"
+ },
+ {
+  "ticker": "VCIG",
+  "form": "F-1/A",
+  "acc": "0001213900-26-115124",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T02:52:12+00:00",
+  "accepted_kst": "11/03 11:52",
+  "polarity": "neg",
+  "label": "증자 서류(F-1/A)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1930510/000121390026115124/0001213900-26-115124-index.htm",
+  "seen_kst": "2026-11-03 20:06"
+ },
+ {
+  "ticker": "KPTI",
+  "form": "8-K",
+  "acc": "0001193125-26-444164",
+  "items": "1.01,1.03,2.03,2.04,7.01,8.01,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T02:58:15+00:00",
+  "accepted_kst": "11/03 11:58",
+  "polarity": "neg",
+  "label": "파산·청산",
+  "cats": [],
+  "negs": [
+   "파산·청산",
+   "파산(항목 1.03)",
+   "채무 가속(항목 2.04)"
+  ],
+  "strength": 0,
+  "headline": "Certain portions of this exhibit have been omitted pursuant to Item 601 of Regulation S-K. Information that was omitted has been noted in this document with a p",
+  "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526444164/0001193125-26-444164-index.htm",
+  "seen_kst": "2026-11-03 20:06"
  }
 ]
