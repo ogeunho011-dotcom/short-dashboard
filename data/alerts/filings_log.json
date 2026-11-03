@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "BWAY",
-  "form": "6-K",
-  "acc": "0001171843-26-007014",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:30:05+00:00",
-  "accepted_kst": "11/02 21:30",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Indicate by check mark if the regist",
-  "url": "https://www.sec.gov/Archives/edgar/data/1505065/000117184326007014/0001171843-26-007014-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "STKH",
   "form": "4",
   "acc": "0001213900-26-114660",
@@ -8671,5 +8652,24 @@
   "headline": "EX-99.1 2 nksh-ex99_1.htm EX-99.1 NATIONAL BANKSHARES, INC. Q3 2026 Investor Presentation Results for the three and nine months ended September 30, 2026 NASDAQ:",
   "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526445013/0001193125-26-445013-index.htm",
   "seen_kst": "2026-11-04 04:02"
+ },
+ {
+  "ticker": "JAGX",
+  "form": "8-K",
+  "acc": "0001193125-26-445055",
+  "items": "8.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T19:15:39+00:00",
+  "accepted_kst": "11/04 04:15",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. As previously disclosed, on October 15, 2026, Jaguar Health, Inc. (the “Company” or “Jaguar”) paid a special one time dividend of one sh",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526445055/0001193125-26-445055-index.htm",
+  "seen_kst": "2026-11-04 04:18"
  }
 ]
