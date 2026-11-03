@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "INTZ",
-  "form": "8-K",
-  "acc": "0001683168-26-008223",
-  "items": "1.01,3.02,5.03,7.01,8.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:53:32+00:00",
-  "accepted_kst": "11/02 21:53",
-  "polarity": "neg",
-  "label": "미등록 주식 발행(사모)(항목 3.02)",
-  "cats": [],
-  "negs": [
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. Exchange Agreement with Streeterville Capital, LLC On October 29, 2026, Intrusion Inc. (the “Company”), en",
-  "url": "https://www.sec.gov/Archives/edgar/data/736012/000168316826008223/0001683168-26-008223-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "IRHO",
   "form": "425",
   "acc": "0001213900-26-114675",
@@ -8673,5 +8654,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526445132/0001193125-26-445132-index.htm",
   "seen_kst": "2026-11-04 04:57"
+ },
+ {
+  "ticker": "OCFC",
+  "form": "4",
+  "acc": "0001636468-26-000004",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T20:00:49+00:00",
+  "accepted_kst": "11/04 05:00",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $10,008 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Farris Jack M.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1004702/000163646826000004/0001636468-26-000004-index.htm",
+  "seen_kst": "2026-11-04 05:04"
  }
 ]
