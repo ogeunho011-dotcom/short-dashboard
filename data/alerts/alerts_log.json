@@ -17420,5 +17420,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
   "grade": "n/a"
+ },
+ {
+  "id": "DCGO-1793733098",
+  "ts_kst": "2026-11-04 04:11",
+  "ts_utc": "2026-11-03T19:11:38+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "DCGO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.6% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ DCGO 장중 급등 포착",
+  "body": "$0.259 (+21.6%) · 정규장 · 레벨 1 · 점수 18\n$0.300 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +21.6% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.252 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -2.7%) · 체결 가능성 약 78% · 손익분기 $0.255\n숏 지지구간 $0.200–$0.250 · 손절 $0.150 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2586,
+  "level": 1,
+  "score": 18.3,
+  "prob": 38.456237077877326,
+  "cp": 21.99160099129262,
+  "rl": 0.3,
+  "stop": 0.15000000000000002,
+  "zone": [
+   0.2,
+   0.25
+  ],
+  "bp": 0.2517,
+  "tgt": 0.3,
+  "stp": 0.15000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211108001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211108001",
+  "grade": "open"
  }
 ]
