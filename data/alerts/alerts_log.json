@@ -15394,5 +15394,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210914005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210914005",
   "grade": "n/a"
+ },
+ {
+  "id": "PMN-1793718393",
+  "ts_kst": "2026-11-04 00:06",
+  "ts_utc": "2026-11-03T15:06:33+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "PMN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.7% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PMN 장중 급등 포착",
+  "body": "$3.560 (+18.7%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $5.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 897만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +18.7% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $3.382 지정가(기준가 $3.560의 −5%) · 체결 가능성 약 84% · 손익분기 $3.423\n숏 지지구간 $2.000–$3.000 · 손절 $1.780 · 1차목표 $5.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.56,
+  "level": 3,
+  "score": 41.9,
+  "prob": 45.01661129568107,
+  "cp": 40.40513702123443,
+  "rl": 5.0,
+  "stop": 1.7799999713897705,
+  "zone": [
+   2.0,
+   3.0
+  ],
+  "bp": 3.382,
+  "tgt": 5.0,
+  "stp": 1.7799999713897705,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220708002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220708002",
+  "grade": "open"
+ },
+ {
+  "id": "PSHG-1793718393",
+  "ts_kst": "2026-11-04 00:06",
+  "ts_utc": "2026-11-03T15:06:33+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "PSHG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.4% · 거래량 평소의 17.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PSHG 장중 급등 포착",
+  "body": "$1.785 (+17.4%) · 정규장 · 레벨 2 · 점수 34\n공매도 물량 대부분 손해 중, $1.90 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,243만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +17.4% · 거래량 평소의 17.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.701 지정가(60일선, 기준가 대비 -4.7%) · 체결 가능성 약 32% · 손익분기 $1.722\n숏 지지구간 $1.540–$1.626 · 손절 $1.520 · 1차목표 $1.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.785,
+  "level": 2,
+  "score": 33.7,
+  "prob": 53.44827586206896,
+  "cp": 61.1193157557327,
+  "rl": 1.9000000000000004,
+  "stop": 1.52,
+  "zone": [
+   1.54,
+   1.6257499883174897
+  ],
+  "bp": 1.7013,
+  "tgt": 1.9000000000000004,
+  "stp": 1.52,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221115007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221115007",
+  "grade": "open"
  }
 ]
