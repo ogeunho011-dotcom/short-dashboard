@@ -16842,5 +16842,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210201009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210201009",
   "grade": "open"
+ },
+ {
+  "id": "BRAI-1793729592",
+  "ts_kst": "2026-11-04 03:13",
+  "ts_utc": "2026-11-03T18:13:12+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "BRAI",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 59k (당일 평균 42.1배)"
+  ],
+  "title": "🚀 BRAI 거래량 급증",
+  "body": "$3.170 (+24.8%) · 정규장 · 레벨 3 · 점수 47\n$4.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 5분 거래량 59k (당일 평균 42.1배)\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $3.012 지정가(기준가 $3.170의 −5%) · 체결 가능성 약 82% · 손익분기 $3.048\n숏 지지구간 $2.500–$3.000 · 손절 $2.250 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.17,
+  "level": 3,
+  "score": 47.0,
+  "prob": 41.15942028985507,
+  "cp": 12.174888376429656,
+  "rl": 4.0,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   3.0
+  ],
+  "bp": 3.0115,
+  "tgt": 4.0,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2602012003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2602012003",
+  "grade": "open"
  }
 ]
