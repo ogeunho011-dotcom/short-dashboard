@@ -14774,5 +14774,46 @@
    "accepted_kst": "11/03 23:00",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "BJDX-1793715542",
+  "ts_kst": "2026-11-03 23:19",
+  "ts_utc": "2026-11-03T14:19:02+00:00",
+  "date_et": "2026-11-03",
+  "session": "pre",
+  "ticker": "BJDX",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +291.7%"
+  ],
+  "title": "🚀 BJDX 프리마켓 갭",
+  "body": "$2.077 (+291.7%) · 프리마켓 · 레벨 3 · 점수 40\n시장에 도는 주식 447만 주뿐이라 쉽게 크게 움직임 · $1 다시 회복 · 갭 상승 후 밀리는 중\n• 프리마켓 갭 +291.7%\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $1.912 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -8.0%) · 체결 가능성 약 69% · 손익분기 $1.935\n숏 지지구간 $1.454–$1.454 · 손절 $1.038 · 1차목표 $4.500\n⚠ 역분할 2026-11-03\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.077,
+  "level": 3,
+  "score": 40.1,
+  "prob": 12.916666666666668,
+  "cp": 2.0298619007480916,
+  "rl": 4.5,
+  "stop": 1.0385,
+  "zone": [
+   1.4539,
+   1.4539
+  ],
+  "bp": 1.9119,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-11-03"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211110005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211110005",
+  "grade": "n/a"
  }
 ]
