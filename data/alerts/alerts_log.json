@@ -6928,7 +6928,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221101001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221101001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 2
  },
  {
   "id": "NCPL-1793368128",
@@ -16880,6 +16883,131 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2602012003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2602012003",
+  "grade": "open"
+ },
+ {
+  "id": "CRIS-1793730165",
+  "ts_kst": "2026-11-04 03:22",
+  "ts_utc": "2026-11-03T18:22:45+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "CRIS",
+  "types": [
+   "spike",
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +24.7% · 거래량 평소의 67.9배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 50%)",
+   "5분 거래량 1,245k (당일 평균 64.3배)"
+  ],
+  "title": "🚀 CRIS 장중 급등 포착 · 상위 확률 신호 · 거래량 급증",
+  "body": "$0.817 (+24.7%) · 정규장 · 레벨 3 · 점수 49\n$1.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 209만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +24.7% · 거래량 평소의 67.9배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 50%)\n• 5분 거래량 1,245k (당일 평균 64.3배)\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $0.777 지정가(기준가 $0.817의 −5%) · 체결 가능성 약 76% · 손익분기 $0.786\n숏 지지구간 $0.572–$0.572 · 손절 $0.409 · 1차목표 $1.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8175,
+  "level": 3,
+  "score": 48.8,
+  "prob": 50.26975415070976,
+  "cp": 28.114657929360774,
+  "rl": 1.0,
+  "stop": 0.4087499976158142,
+  "zone": [
+   0.5722499966621398,
+   0.5722499966621398
+  ],
+  "bp": 0.7766,
+  "tgt": 1.0,
+  "stp": 0.4087499976158142,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
+  "grade": "open"
+ },
+ {
+  "id": "BJDX-1793730165",
+  "ts_kst": "2026-11-04 03:22",
+  "ts_utc": "2026-11-03T18:22:45+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "BJDX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +315.0% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BJDX 장중 급등 포착",
+  "body": "$2.200 (+315.0%) · 정규장 · 레벨 4 · 점수 58\n시장에 도는 주식 447만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +315.0% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $2.090 지정가(기준가 $2.200의 −5%) · 체결 가능성 약 79% · 손익분기 $2.115\n숏 지지구간 $1.540–$1.540 · 손절 $1.100 · 1차목표 $4.500\n⚠ 역분할 2026-11-03\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.2001,
+  "level": 4,
+  "score": 58.2,
+  "prob": 41.15942028985507,
+  "cp": 2.0242892827100434,
+  "rl": 4.5,
+  "stop": 1.1000499725341797,
+  "zone": [
+   1.5400699615478515,
+   1.5400699615478515
+  ],
+  "bp": 2.0901,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-11-03"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211110005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211110005",
+  "grade": "n/a"
+ },
+ {
+  "id": "ZNB-1793730165",
+  "ts_kst": "2026-11-04 03:22",
+  "ts_utc": "2026-11-03T18:22:45+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "ZNB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +11.4% 급변 · 전일 대비 +31.3% — 추격 매수 주의"
+  ],
+  "title": "⚡ ZNB 장중 급등 포착",
+  "body": "$0.653 (+31.3%) · 정규장 · 레벨 2 · 점수 26\n$0.750 넘으면 공매도 되사기 압박 ↑ · $1 미만, 상장폐지 주의\n• 5분 +11.4% 급변 · 전일 대비 +31.3% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.620 지정가(기준가 $0.653의 −5%) · 체결 가능성 약 77% · 손익분기 $0.627\n숏 지지구간 $0.457–$0.500 · 손절 $0.326 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6526,
+  "level": 2,
+  "score": 26.2,
+  "prob": 31.25,
+  "cp": 39.38505404992896,
+  "rl": 0.75,
+  "stop": 0.3262999951839447,
+  "zone": [
+   0.45681999325752254,
+   0.5
+  ],
+  "bp": 0.62,
+  "tgt": 0.75,
+  "stp": 0.3262999951839447,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221101001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221101001",
   "grade": "open"
  }
 ]
