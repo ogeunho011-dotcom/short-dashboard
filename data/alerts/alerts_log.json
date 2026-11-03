@@ -15472,5 +15472,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221115007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221115007",
   "grade": "open"
+ },
+ {
+  "id": "NMRA-1793718535",
+  "ts_kst": "2026-11-04 00:08",
+  "ts_utc": "2026-11-03T15:08:55+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "NMRA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.2% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NMRA 장중 급등 포착",
+  "body": "$0.570 (+15.2%) · 정규장 · 레벨 1 · 점수 20\n$0.600 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.2% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $0.541 지정가(기준가 $0.570의 −5%) · 체결 가능성 약 66% · 손익분기 $0.548\n숏 지지구간 $0.399–$0.400 · 손절 $0.285 · 1차목표 $0.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5699,
+  "level": 1,
+  "score": 19.7,
+  "prob": 49.81137776414047,
+  "cp": 43.19762264560902,
+  "rl": 0.6,
+  "stop": 0.28494998812675476,
+  "zone": [
+   0.39892998337745667,
+   0.4
+  ],
+  "bp": 0.5414,
+  "tgt": 0.6,
+  "stp": 0.28494998812675476,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230915004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230915004",
+  "grade": "open"
  }
 ]
