@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "HAPN",
-  "form": "4",
-  "acc": "0001409970-26-000204",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:33:53+00:00",
-  "accepted_kst": "10/31 07:33",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1409970/000140997026000204/0001409970-26-000204-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
   "ticker": "NUAI",
   "form": "3",
   "acc": "0001193125-26-442053",
@@ -8681,5 +8664,25 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1901279/000197640826000930/0001976408-26-000930-index.htm",
   "seen_kst": "2026-11-04 01:41"
+ },
+ {
+  "ticker": "XXII",
+  "form": "8-K",
+  "acc": "0001493152-26-049743",
+  "items": "3.03,5.03,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T16:40:30+00:00",
+  "accepted_kst": "11/04 01:40",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할",
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "Item 3.03. Material Modification to Rights of Security Holders. On November 3, 2026, 22nd Century Group, Inc. (the “Company”) will file a Certificate of Amendme",
+  "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226049743/0001493152-26-049743-index.htm",
+  "seen_kst": "2026-11-04 01:44"
  }
 ]
