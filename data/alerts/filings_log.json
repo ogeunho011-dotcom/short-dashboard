@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "CYN",
-  "form": "8-K",
-  "acc": "0001213900-26-114511",
-  "items": "3.01,5.02",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:20:24+00:00",
-  "accepted_kst": "10/31 06:20",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Item 3.01. Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. The information in Item 5.02 below is incorporat",
-  "url": "https://www.sec.gov/Archives/edgar/data/1874097/000121390026114511/0001213900-26-114511-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "DCH",
-  "form": "8-K",
-  "acc": "0001062231-26-000148",
-  "items": "2.02",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:20:38+00:00",
-  "accepted_kst": "10/31 06:20",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 2.02 Results of Operations and Financial Condition In light of requirements applicable to companies with a secondary listing on the London Stock Exchange,",
-  "url": "https://www.sec.gov/Archives/edgar/data/1062231/000106223126000148/0001062231-26-000148-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "PD",
-  "form": "4",
-  "acc": "0001736979-26-000025",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:21:07+00:00",
-  "accepted_kst": "10/31 06:21",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1568100/000173697926000025/0001736979-26-000025-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
   "ticker": "FCEL",
   "form": "3",
   "acc": "0000897069-26-001879",
@@ -8681,5 +8628,60 @@
   "headline": "Cre8 Enterprise Limited Completes Acquisition of a Hong Kong-Based Translation Firm Hong Kong, Nov. 03, 2026",
   "url": "https://www.sec.gov/Archives/edgar/data/2003977/000121390026115177/0001213900-26-115177-index.htm",
   "seen_kst": "2026-11-03 22:41"
+ },
+ {
+  "ticker": "AEON",
+  "form": "8-K",
+  "acc": "0001837607-26-000081",
+  "items": "1.01,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:42:00+00:00",
+  "accepted_kst": "11/03 22:42",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 2, 2026, AEON Biopharma, Inc. (the “Company”) entered into an Amendment to Two-Year Milestone",
+  "url": "https://www.sec.gov/Archives/edgar/data/1837607/000183760726000081/0001837607-26-000081-index.htm",
+  "seen_kst": "2026-11-03 22:44"
+ },
+ {
+  "ticker": "CHGG",
+  "form": "10-Q",
+  "acc": "0001437749-26-034534",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:43:06+00:00",
+  "accepted_kst": "11/03 22:43",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1364954/000143774926034534/0001437749-26-034534-index.htm",
+  "seen_kst": "2026-11-03 22:44"
+ },
+ {
+  "ticker": "AEON",
+  "form": "424B3",
+  "acc": "0001837607-26-000082",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:43:08+00:00",
+  "accepted_kst": "11/03 22:43",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1837607/000183760726000082/0001837607-26-000082-index.htm",
+  "seen_kst": "2026-11-03 22:44"
  }
 ]
