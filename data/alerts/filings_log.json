@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "TCBK",
-  "form": "8-K",
-  "acc": "0000356171-26-000119",
-  "items": "5.07,7.01,9.01",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:05:13+00:00",
-  "accepted_kst": "10/31 06:05",
-  "polarity": "neutral",
-  "label": "주총 결과 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders On October 29, TriCo Bancshares (the “Company”), held a special meeting of its stockholders (the “",
-  "url": "https://www.sec.gov/Archives/edgar/data/356171/000035617126000119/0000356171-26-000119-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "ACTU",
-  "form": "4",
-  "acc": "0001791917-26-000006",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:05:22+00:00",
-  "accepted_kst": "10/31 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1652935/000179191726000006/0001791917-26-000006-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
   "ticker": "BKYI",
   "form": "8-K",
   "acc": "0001437749-26-034242",
@@ -8681,5 +8647,41 @@
   "headline": "ARCHIMED Life Science Tools & Services Completes Acquisition of Standard BioTools’ Microfluidics Business, Now Biomark Scientific Business will operate as Bioma",
   "url": "https://www.sec.gov/Archives/edgar/data/1162194/000114036126041705/0001140361-26-041705-index.htm",
   "seen_kst": "2026-11-03 22:24"
+ },
+ {
+  "ticker": "HDL",
+  "form": "6-K",
+  "acc": "0001104659-26-121691",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:24:27+00:00",
+  "accepted_kst": "11/03 22:24",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FF301 Page 1 of 10 v 1.2.1 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movement",
+  "url": "https://www.sec.gov/Archives/edgar/data/1995306/000110465926121691/0001104659-26-121691-index.htm",
+  "seen_kst": "2026-11-03 22:26"
+ },
+ {
+  "ticker": "WLFC",
+  "form": "8-K",
+  "acc": "0001018164-26-000092",
+  "items": "2.02,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:25:22+00:00",
+  "accepted_kst": "11/03 22:25",
+  "polarity": "pos",
+  "label": "실적 호조·가이던스 상향",
+  "cats": [
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "CONTACT: Scott B. Flaherty NEWS RELEASE Executive Vice President & Chief Financial Officer 561.413.0112 Willis Lease Finance Corporation Reports Solid Third Qua",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/0001018164-26-000092-index.htm",
+  "seen_kst": "2026-11-03 22:26"
  }
 ]
