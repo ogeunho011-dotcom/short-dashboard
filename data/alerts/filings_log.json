@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ETOR",
-  "form": "4",
-  "acc": "0001193125-26-441963",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:06:06+00:00",
-  "accepted_kst": "10/31 07:06",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1493318/000119312526441963/0001193125-26-441963-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
   "ticker": "RLYB",
   "form": "4",
   "acc": "0001193125-26-441964",
@@ -8679,5 +8662,22 @@
   "headline": ". Item 9.01 Finance Statements and Exhibits. (d) Exhibits Exhibit Number Description 99.1 Press Release announcing earnings for the Company for the third quarte",
   "url": "https://www.sec.gov/Archives/edgar/data/1026655/000102665526000072/0001026655-26-000072-index.htm",
   "seen_kst": "2026-11-03 23:41"
+ },
+ {
+  "ticker": "ACB",
+  "form": "6-K",
+  "acc": "0001104659-26-121740",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T14:42:38+00:00",
+  "accepted_kst": "11/03 23:42",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Organigram to Acquire Aurora and Establish a Global Cannabis Leader · Organigram to acquire Aurora for C$7.80 per Aurora Common Share; Aurora shareholders will",
+  "url": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926121740/0001104659-26-121740-index.htm",
+  "seen_kst": "2026-11-03 23:44"
  }
 ]
