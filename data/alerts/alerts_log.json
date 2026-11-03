@@ -14180,5 +14180,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220215001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220215001",
   "grade": "open"
+ },
+ {
+  "id": "HUBC-1793708340",
+  "ts_kst": "2026-11-03 21:19",
+  "ts_utc": "2026-11-03T12:19:00+00:00",
+  "date_et": "2026-11-03",
+  "session": "pre",
+  "ticker": "HUBC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.6% 급변 · 전일 대비 +57.1% — 추격 매수 주의"
+  ],
+  "title": "⚡ HUBC 장중 급등 포착",
+  "body": "$0.124 (+57.1%) · 프리마켓 · 레벨 2 · 점수 39\n갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 5분 +12.6% 급변 · 전일 대비 +57.1% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.113 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -8.9%) · 체결 가능성 약 83% · 손익분기 $0.115\n숏 지지구간 $0.087–$0.124 · 손절 $0.062 · 1차목표 $0.187\n⚠ 역분할 2026-09-14\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1244,
+  "level": 2,
+  "score": 39.2,
+  "prob": 18.993839835728956,
+  "cp": 2.0,
+  "rl": 2.0,
+  "stop": 0.0622,
+  "zone": [
+   0.08707999999999999,
+   0.1244
+  ],
+  "bp": 0.1134,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-09-14"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230301002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230301002",
+  "grade": "n/a"
  }
 ]
