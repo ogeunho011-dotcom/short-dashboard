@@ -11494,7 +11494,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210521002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "XCH-1793637463",
@@ -12631,7 +12634,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210521002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "PMAX-1793644094",
@@ -15684,5 +15690,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20110415001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20110415001",
   "grade": "open"
+ },
+ {
+  "id": "ZBAO-1793719433",
+  "ts_kst": "2026-11-04 00:23",
+  "ts_utc": "2026-11-03T15:23:53+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "ZBAO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +57.4% · 거래량 평소의 34.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZBAO 장중 급등 포착",
+  "body": "$0.410 (+57.4%) · 정규장 · 레벨 1 · 점수 22\n오늘 거래량 평소의 10배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +57.4% · 거래량 평소의 34.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.390 지정가(기준가 $0.410의 −5%) · 체결 가능성 약 82% · 손익분기 $0.394\n숏 지지구간 $0.287–$0.410 · 손절 $0.205 · 1차목표 $0.615\n⚠ 역분할 2026-10-12\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4101,
+  "level": 1,
+  "score": 21.9,
+  "prob": 20.50473186119874,
+  "cp": 22.0,
+  "rl": 6.0,
+  "stop": 0.2050500065088272,
+  "zone": [
+   0.2870700091123581,
+   0.4101000130176544
+  ],
+  "bp": 0.3896,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-10-12"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240402009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240402009",
+  "grade": "n/a"
+ },
+ {
+  "id": "HCTI-1793719433",
+  "ts_kst": "2026-11-04 00:23",
+  "ts_utc": "2026-11-03T15:23:53+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "HCTI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.1% · 거래량 평소의 32.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HCTI 장중 급등 포착",
+  "body": "$5.711 (+15.1%) · 정규장 · 레벨 3 · 점수 54\n시장에 도는 주식 1,497만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +15.1% · 거래량 평소의 32.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $5.425 지정가(기준가 $5.711의 −5%) · 체결 가능성 약 72% · 손익분기 $5.491\n숏 지지구간 $5.000–$5.711 · 손절 $2.855 · 1차목표 $11.900\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-26\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.7109,
+  "level": 3,
+  "score": 53.6,
+  "prob": 24.587706146926536,
+  "cp": 22.029744259618102,
+  "rl": 20.0,
+  "stop": 2.855449914932251,
+  "zone": [
+   5.0,
+   5.710899829864502
+  ],
+  "bp": 5.4254,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-26",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211005002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211005002",
+  "grade": "n/a"
  }
 ]
