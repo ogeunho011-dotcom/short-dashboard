@@ -16349,5 +16349,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210525001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210525001",
   "grade": "open"
+ },
+ {
+  "id": "WFF-1793725141",
+  "ts_kst": "2026-11-04 01:59",
+  "ts_utc": "2026-11-03T16:59:01+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "WFF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.8% · 거래량 평소의 9.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WFF 장중 급등 포착",
+  "body": "$1.340 (+21.8%) · 정규장 · 레벨 3 · 점수 42\n시장에 도는 주식 504만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 3배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +21.8% · 거래량 평소의 9.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $1.273 지정가(기준가 $1.340의 −5%) · 체결 가능성 약 85% · 손익분기 $1.288\n숏 지지구간 $0.938–$1.340 · 손절 $0.670 · 1차목표 $2.010\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 10/28)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.34,
+  "level": 3,
+  "score": 42.0,
+  "prob": 24.69816949820096,
+  "cp": 2.0,
+  "rl": 100.0,
+  "stop": 0.6700000166893005,
+  "zone": [
+   0.9380000233650206,
+   1.340000033378601
+  ],
+  "bp": 1.273,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 10/28)",
+   "역분할 2026-10-30",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
+  "grade": "n/a"
  }
 ]
