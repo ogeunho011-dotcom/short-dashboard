@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "QVCG",
-  "form": "8-K",
-  "acc": "0001254699-26-000028",
-  "items": "7.01,9.01",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:29:06+00:00",
-  "accepted_kst": "10/31 06:29",
-  "polarity": "neg",
-  "label": "파산·청산",
-  "cats": [],
-  "negs": [
-   "파산·청산"
-  ],
-  "strength": 0,
-  "headline": "Item 7.01 Regulation FD Disclosure As previously disclosed in the Current Report on Form 8-K filed by QVC Group, Inc. (f/k/a QVC, Inc.) (the “Company”), on Apri",
-  "url": "https://www.sec.gov/Archives/edgar/data/1254699/000125469926000028/0001254699-26-000028-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
   "ticker": "LEGH",
   "form": "8-K",
   "acc": "0001104659-26-120752",
@@ -8678,5 +8659,22 @@
   "headline": "Cenntro Delivers LS450 Electric Trucks in the United States Under Government Incentive Programs 20 deliveries under New York State program generate more than $2",
   "url": "https://www.sec.gov/Archives/edgar/data/1707919/000114036126041719/0001140361-26-041719-index.htm",
   "seen_kst": "2026-11-03 23:04"
+ },
+ {
+  "ticker": "EVAX",
+  "form": "6-K",
+  "acc": "0001171843-26-007058",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T14:05:04+00:00",
+  "accepted_kst": "11/03 23:05",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Note: Regulation S-T Rule 101(b)(1)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1828253/000117184326007058/0001171843-26-007058-index.htm",
+  "seen_kst": "2026-11-03 23:06"
  }
 ]
