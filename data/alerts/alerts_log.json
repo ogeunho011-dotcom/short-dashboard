@@ -16639,5 +16639,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210811004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210811004",
   "grade": "open"
+ },
+ {
+  "id": "NSPR-1793728077",
+  "ts_kst": "2026-11-04 02:47",
+  "ts_utc": "2026-11-03T17:47:57+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "NSPR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NSPR 장중 급등 포착",
+  "body": "$0.618 (+16.2%) · 정규장 · 레벨 1 · 점수 15\n공매도 물량 대부분 손해 중, $0.700 넘으면 급등 가능성 ↑ · $1 미만, 상장폐지 주의\n• 전일 대비 +16.2% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.587 지정가(기준가 $0.618의 −5%) · 체결 가능성 약 59% · 손익분기 $0.594\n숏 지지구간 $0.600–$0.618 · 손절 $0.550 · 1차목표 $0.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6181,
+  "level": 1,
+  "score": 15.3,
+  "prob": 38.456237077877326,
+  "cp": 41.65179479443951,
+  "rl": 0.7,
+  "stop": 0.5499999999999999,
+  "zone": [
+   0.6,
+   0.6180999875068665
+  ],
+  "bp": 0.5872,
+  "tgt": 0.7,
+  "stp": 0.5499999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210521002",
+  "grade": "open"
+ },
+ {
+  "id": "IBTA-1793728077",
+  "ts_kst": "2026-11-04 02:47",
+  "ts_utc": "2026-11-03T17:47:57+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "IBTA",
+  "types": [
+   "spike",
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "전일 대비 +28.8% · 거래량 평소의 6.4배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 75/100"
+  ],
+  "title": "🚀 IBTA 장중 급등 포착 · 상위 확률 신호 · 커버 압력",
+  "body": "$64.465 (+28.8%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $66.39 넘으면 급등 가능성 ↑ · 시장에 도는 주식 743만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +28.8% · 거래량 평소의 6.4배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 75/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $61.242 지정가(기준가 $64.465의 −5%) · 체결 가능성 약 30% · 손익분기 $61.981\n숏 지지구간 $44.000–$51.000 · 손절 $42.000 · 1차목표 $66.390\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 64.465,
+  "level": 3,
+  "score": 40.4,
+  "prob": 53.44827586206896,
+  "cp": 75.02660468962976,
+  "rl": 66.38999938964844,
+  "stop": 42.0,
+  "zone": [
+   44.0,
+   51.0
+  ],
+  "bp": 61.2417,
+  "tgt": 66.38999938964844,
+  "stp": 42.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240417002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240417002",
+  "grade": "open"
  }
 ]
