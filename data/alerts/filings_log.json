@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NUAI",
-  "form": "3",
-  "acc": "0001193125-26-442089",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:40:49+00:00",
-  "accepted_kst": "10/31 07:40",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028336/000119312526442089/0001193125-26-442089-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
   "ticker": "SNDX",
   "form": "4",
   "acc": "0001193125-26-442119",
@@ -8686,5 +8669,22 @@
   "headline": "XCHG LIMITED NOTICE OF EXTRAORDINARY GENERAL MEETING OF SHAREHOLDERS TO BE HELD ON DECEMBER 4, 2026 Notice is hereby given that XCHG Limited, a Cayman Islands e",
   "url": "https://www.sec.gov/Archives/edgar/data/1979887/000119312526444740/0001193125-26-444740-index.htm",
   "seen_kst": "2026-11-04 02:01"
+ },
+ {
+  "ticker": "VTEX",
+  "form": "4",
+  "acc": "0001193125-26-444765",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T17:10:59+00:00",
+  "accepted_kst": "11/04 02:10",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526444765/0001193125-26-444765-index.htm",
+  "seen_kst": "2026-11-04 02:13"
  }
 ]
