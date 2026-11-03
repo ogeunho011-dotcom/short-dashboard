@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "FLOC",
-  "form": "8-K",
-  "acc": "0001193125-26-442647",
-  "items": "8.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:15:15+00:00",
-  "accepted_kst": "11/02 21:15",
-  "polarity": "pos",
-  "label": "자사주 매입",
-  "cats": [
-   "자사주 매입"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Flowco Holdings Inc. Announces Expansion of Share Repurchase Program HOUSTON",
-  "url": "https://www.sec.gov/Archives/edgar/data/2035149/000119312526442647/0001193125-26-442647-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "QURE",
   "form": "8-K",
   "acc": "0001104659-26-120915",
@@ -8676,5 +8657,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2028177/000121390026115379/0001213900-26-115379-index.htm",
   "seen_kst": "2026-11-04 03:45"
+ },
+ {
+  "ticker": "SAFT",
+  "form": "8-K",
+  "acc": "0001172052-26-000026",
+  "items": "5.07",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T18:57:05+00:00",
+  "accepted_kst": "11/04 03:57",
+  "polarity": "neutral",
+  "label": "주총 결과",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders. On November 3, 2026, Safety Insurance Group, Inc., a Delaware corporation (“ Safety ”), held a s",
+  "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000026/0001172052-26-000026-index.htm",
+  "seen_kst": "2026-11-04 03:58"
  }
 ]
