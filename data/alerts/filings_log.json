@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CRMD",
-  "form": "8-K",
-  "acc": "0001213900-26-114665",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:39:46+00:00",
-  "accepted_kst": "11/02 21:39",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "CORMEDIX THERAPEUTICS PROVIDES BUSINESS UPDATE, REAFFIRMS 2026 TOTAL REVENUE GUIDANCE, AND REPORTS THIRD Quarter Cash Position Parsippany, NJ – November 2, 2026",
-  "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026114665/0001213900-26-114665-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "VBIO",
   "form": "8-K",
   "acc": "0001683168-26-008221",
@@ -8671,5 +8654,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1083220/000110465926121584/0001104659-26-121584-index.htm",
   "seen_kst": "2026-11-04 04:41"
+ },
+ {
+  "ticker": "FRD",
+  "form": "4",
+  "acc": "0001437749-26-034616",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T19:49:36+00:00",
+  "accepted_kst": "11/04 04:49",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926034616/0001437749-26-034616-index.htm",
+  "seen_kst": "2026-11-04 04:51"
  }
 ]

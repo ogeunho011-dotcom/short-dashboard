@@ -17665,5 +17665,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210811004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210811004",
   "grade": "open"
+ },
+ {
+  "id": "IFBD-1793735478",
+  "ts_kst": "2026-11-04 04:51",
+  "ts_utc": "2026-11-03T19:51:18+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "IFBD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.6% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ IFBD 장중 급등 포착",
+  "body": "$1.230 (+20.6%) · 정규장 · 레벨 3 · 점수 47\n$1.40 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 819만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +20.6% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.169 지정가(기준가 $1.230의 −5%) · 체결 가능성 약 52% · 손익분기 $1.183\n숏 지지구간 $1.200–$1.230 · 손절 $1.100 · 1차목표 $1.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.23,
+  "level": 3,
+  "score": 47.1,
+  "prob": 45.01661129568107,
+  "cp": 21.613932412940414,
+  "rl": 1.4,
+  "stop": 1.0999999999999999,
+  "zone": [
+   1.2,
+   1.2300000190734863
+  ],
+  "bp": 1.1685,
+  "tgt": 1.4,
+  "stp": 1.0999999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210420011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210420011",
+  "grade": "open"
  }
 ]
