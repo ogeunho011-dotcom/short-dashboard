@@ -16474,5 +16474,122 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221115007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221115007",
   "grade": "open"
+ },
+ {
+  "id": "DCGO-1793725817",
+  "ts_kst": "2026-11-04 02:10",
+  "ts_utc": "2026-11-03T17:10:17+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "DCGO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.8% · 거래량 평소의 4.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ DCGO 장중 급등 포착",
+  "body": "$0.261 (+22.8%) · 정규장 · 레벨 1 · 점수 14\n$0.300 넘으면 공매도 되사기 압박 ↑ · $1 미만, 상장폐지 주의\n• 전일 대비 +22.8% · 거래량 평소의 4.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.252 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.6%) · 체결 가능성 약 72% · 손익분기 $0.255\n숏 지지구간 $0.200–$0.250 · 손절 $0.150 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2612,
+  "level": 1,
+  "score": 14.4,
+  "prob": 38.456237077877326,
+  "cp": 21.704168467316386,
+  "rl": 0.3,
+  "stop": 0.15000000000000002,
+  "zone": [
+   0.2,
+   0.25
+  ],
+  "bp": 0.2517,
+  "tgt": 0.3,
+  "stp": 0.15000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211108001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211108001",
+  "grade": "open"
+ },
+ {
+  "id": "NMRA-1793725817",
+  "ts_kst": "2026-11-04 02:10",
+  "ts_utc": "2026-11-03T17:10:17+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "NMRA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.2% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NMRA 장중 급등 포착",
+  "body": "$0.590 (+19.2%) · 정규장 · 레벨 1 · 점수 24\n$0.600 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 전일 대비 +19.2% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.560 지정가(기준가 $0.590의 −5%) · 체결 가능성 약 66% · 손익분기 $0.567\n숏 지지구간 $0.413–$0.413 · 손절 $0.295 · 1차목표 $0.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5896,
+  "level": 1,
+  "score": 24.1,
+  "prob": 52.91666666666666,
+  "cp": 44.967498266711864,
+  "rl": 0.6,
+  "stop": 0.2948000133037567,
+  "zone": [
+   0.41272001862525937,
+   0.41272001862525937
+  ],
+  "bp": 0.5601,
+  "tgt": 0.6,
+  "stp": 0.2948000133037567,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230915004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230915004",
+  "grade": "open"
+ },
+ {
+  "id": "PMN-1793725817",
+  "ts_kst": "2026-11-04 02:10",
+  "ts_utc": "2026-11-03T17:10:17+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "PMN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.0% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PMN 장중 급등 포착",
+  "body": "$3.480 (+16.0%) · 정규장 · 레벨 3 · 점수 43\n$5.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 897만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.0% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $3.306 지정가(기준가 $3.480의 −5%) · 체결 가능성 약 84% · 손익분기 $3.346\n숏 지지구간 $2.000–$3.000 · 손절 $1.740 · 1차목표 $5.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.4799,
+  "level": 3,
+  "score": 42.8,
+  "prob": 38.456237077877326,
+  "cp": 17.08427083514152,
+  "rl": 5.0,
+  "stop": 1.7399499416351318,
+  "zone": [
+   2.0,
+   3.0
+  ],
+  "bp": 3.3059,
+  "tgt": 5.0,
+  "stp": 1.7399499416351318,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220708002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220708002",
+  "grade": "open"
  }
 ]
