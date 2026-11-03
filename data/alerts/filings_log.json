@@ -1,23 +1,6 @@
 [
  {
   "ticker": "NUAI",
-  "form": "4",
-  "acc": "0001193125-26-442076",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:36:53+00:00",
-  "accepted_kst": "10/31 07:36",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028336/000119312526442076/0001193125-26-442076-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
-  "ticker": "NUAI",
   "form": "3",
   "acc": "0001193125-26-442089",
   "items": "",
@@ -8686,5 +8669,22 @@
   "headline": "Item 1.01 Entry into a Material Definitive Agreement. Amendments to Purchase Agreement As previously disclosed in the Company’s Quarterly Report on Form 10-Q fi",
   "url": "https://www.sec.gov/Archives/edgar/data/1962011/000149315226049744/0001493152-26-049744-index.htm",
   "seen_kst": "2026-11-04 01:53"
+ },
+ {
+  "ticker": "XCH",
+  "form": "6-K",
+  "acc": "0001193125-26-444740",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T17:00:02+00:00",
+  "accepted_kst": "11/04 02:00",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "XCHG LIMITED NOTICE OF EXTRAORDINARY GENERAL MEETING OF SHAREHOLDERS TO BE HELD ON DECEMBER 4, 2026 Notice is hereby given that XCHG Limited, a Cayman Islands e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1979887/000119312526444740/0001193125-26-444740-index.htm",
+  "seen_kst": "2026-11-04 02:01"
  }
 ]
