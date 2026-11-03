@@ -17540,5 +17540,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251111001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251111001",
   "grade": "open"
+ },
+ {
+  "id": "XELB-1793734314",
+  "ts_kst": "2026-11-04 04:31",
+  "ts_utc": "2026-11-03T19:31:54+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "XELB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +11.6% 급변 · 전일 대비 +18.2% — 추격 매수 주의"
+  ],
+  "title": "⚡ XELB 장중 급등 포착",
+  "body": "$0.414 (+18.2%) · 정규장 · 레벨 1 · 점수 20\n$0.500 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 656만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 +11.6% 급변 · 전일 대비 +18.2% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.413 지정가(20일선, 기준가 대비 -0.2%) · 체결 가능성 약 85% · 손익분기 $0.418\n숏 지지구간 $0.300–$0.400 · 손절 $0.250 · 1차목표 $0.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4139,
+  "level": 1,
+  "score": 19.9,
+  "prob": 21.428571428571427,
+  "cp": 13.828632199146261,
+  "rl": 0.5000000000000001,
+  "stop": 0.25000000000000006,
+  "zone": [
+   0.30000000000000004,
+   0.4
+  ],
+  "bp": 0.4132,
+  "tgt": 0.5000000000000001,
+  "stp": 0.25000000000000006,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150803002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150803002",
+  "grade": "open"
  }
 ]
