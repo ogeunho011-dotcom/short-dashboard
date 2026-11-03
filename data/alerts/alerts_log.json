@@ -15606,5 +15606,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960223001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960223001",
   "grade": "open"
+ },
+ {
+  "id": "IBTA-1793719306",
+  "ts_kst": "2026-11-04 00:21",
+  "ts_utc": "2026-11-03T15:21:46+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "IBTA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.7% · 거래량 평소의 10.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ IBTA 장중 급등 포착",
+  "body": "$65.400 (+30.7%) · 정규장 · 레벨 2 · 점수 37\n공매도 물량 대부분 손해 중, $66.39 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +30.7% · 거래량 평소의 10.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $62.130 지정가(기준가 $65.400의 −5%) · 체결 가능성 약 30% · 손익분기 $62.880\n숏 지지구간 $44.000–$46.100 · 손절 $42.000 · 1차목표 $66.390\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 65.4,
+  "level": 2,
+  "score": 37.3,
+  "prob": 53.44827586206896,
+  "cp": 77.55729589253644,
+  "rl": 66.38999938964844,
+  "stop": 42.0,
+  "zone": [
+   44.0,
+   46.1
+  ],
+  "bp": 62.13,
+  "tgt": 66.38999938964844,
+  "stp": 42.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240417002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240417002",
+  "grade": "open"
+ },
+ {
+  "id": "SQNS-1793719306",
+  "ts_kst": "2026-11-04 00:21",
+  "ts_utc": "2026-11-03T15:21:46+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "SQNS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.7% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SQNS 장중 급등 포착",
+  "body": "$2.975 (+16.7%) · 정규장 · 레벨 1 · 점수 15\n공매도 물량 대부분 손해 중, $3.05 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +16.7% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.786 지정가(60일선, 기준가 대비 -6.3%) · 체결 가능성 약 27% · 손익분기 $2.820\n숏 지지구간 $2.600–$2.731 · 손절 $2.550 · 1차목표 $3.050\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.975,
+  "level": 1,
+  "score": 14.8,
+  "prob": 53.163376188281816,
+  "cp": 51.507171787441706,
+  "rl": 3.0499999999999976,
+  "stop": 2.5499999999999994,
+  "zone": [
+   2.599999999999999,
+   2.7312499666213985
+  ],
+  "bp": 2.7864,
+  "tgt": 3.0499999999999976,
+  "stp": 2.5499999999999994,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20110415001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20110415001",
+  "grade": "open"
  }
 ]
