@@ -18033,5 +18033,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220107005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220107005",
   "grade": "n/a"
+ },
+ {
+  "id": "REED-1793739203",
+  "ts_kst": "2026-11-04 05:53",
+  "ts_utc": "2026-11-03T20:53:23+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "REED",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 80/100"
+  ],
+  "title": "🚀 REED 상위 확률 신호 · 커버 압력",
+  "body": "$1.080 (+45.4%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $1.10 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,186만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 80/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.026 지정가(기준가 $1.080의 −5%) · 체결 가능성 약 75% · 손익분기 $1.038\n숏 지지구간 $0.900–$1.000 · 손절 $0.800 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.08,
+  "level": 3,
+  "score": 40.9,
+  "prob": 52.91666666666666,
+  "cp": 79.79301010437837,
+  "rl": 1.0999999999999999,
+  "stop": 0.7999999999999999,
+  "zone": [
+   0.8999999999999999,
+   0.9999999999999999
+  ],
+  "bp": 1.026,
+  "tgt": 1.0999999999999999,
+  "stp": 0.7999999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0251205002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0251205002",
+  "grade": "open"
+ },
+ {
+  "id": "BIVI-1793739203",
+  "ts_kst": "2026-11-04 05:53",
+  "ts_utc": "2026-11-03T20:53:23+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "BIVI",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +24.1% · 거래량 평소의 76.1배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 BIVI 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.700 (+24.1%) · 정규장 · 레벨 3 · 점수 42\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 754만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +24.1% · 거래량 평소의 76.1배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.604 지정가(60일선, 기준가 대비 -5.7%) · 체결 가능성 약 61% · 손익분기 $1.623\n숏 지지구간 $1.500–$1.700 · 손절 $1.250 · 1차목표 $2.000\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.7,
+  "level": 3,
+  "score": 41.6,
+  "prob": 53.158672331026544,
+  "cp": 42.59558182509698,
+  "rl": 2.0,
+  "stop": 1.25,
+  "zone": [
+   1.5,
+   1.7000000476837158
+  ],
+  "bp": 1.6038,
+  "tgt": 2.0,
+  "stp": 1.25,
+  "penalties": [
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200918002",
+  "grade": "open"
  }
 ]
