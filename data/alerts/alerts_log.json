@@ -14646,5 +14646,46 @@
    "accepted_kst": "11/03 22:40",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "NTCL-1793714020",
+  "ts_kst": "2026-11-03 22:53",
+  "ts_utc": "2026-11-03T13:53:40+00:00",
+  "date_et": "2026-11-03",
+  "session": "pre",
+  "ticker": "NTCL",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +22.7%"
+  ],
+  "title": "🚀 NTCL 프리마켓 갭",
+  "body": "$0.444 (+22.7%) · 프리마켓 · 레벨 3 · 점수 44\n갭 상승 후 버티는 중 · 최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 프리마켓 갭 +22.7%\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.422 지정가(기준가 $0.444의 −5%) · 체결 가능성 약 79% · 손익분기 $0.427\n숏 지지구간 $0.345–$0.444 · 손절 $0.222 · 1차목표 $0.666\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/02)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4442,
+  "level": 3,
+  "score": 44.0,
+  "prob": 29.179653408311523,
+  "cp": 22.295471454078406,
+  "rl": 1.5,
+  "stop": 0.2221,
+  "zone": [
+   0.3449999988079071,
+   0.4442
+  ],
+  "bp": 0.422,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/02)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
+  "grade": "n/a"
  }
 ]
