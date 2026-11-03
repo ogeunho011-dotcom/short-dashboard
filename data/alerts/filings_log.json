@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RGS",
-  "form": "4",
-  "acc": "0001631325-26-000004",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:09:04+00:00",
-  "accepted_kst": "10/31 07:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/716643/000163132526000004/0001631325-26-000004-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
   "ticker": "HAIN",
   "form": "4",
   "acc": "0001193125-26-441980",
@@ -8681,5 +8664,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000928/0001976408-26-000928-index.htm",
   "seen_kst": "2026-11-04 00:57"
+ },
+ {
+  "ticker": "ALLT",
+  "form": "4",
+  "acc": "0001976408-26-000929",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T15:56:56+00:00",
+  "accepted_kst": "11/04 00:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1365767/000197640826000929/0001976408-26-000929-index.htm",
+  "seen_kst": "2026-11-04 01:00"
  }
 ]
