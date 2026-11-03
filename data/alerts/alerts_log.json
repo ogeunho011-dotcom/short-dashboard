@@ -17994,5 +17994,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160725003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160725003",
   "grade": "open"
+ },
+ {
+  "id": "SGLY-1793738996",
+  "ts_kst": "2026-11-04 05:49",
+  "ts_utc": "2026-11-03T20:49:56+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "SGLY",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 51k (당일 평균 8.2배)"
+  ],
+  "title": "🚀 SGLY 거래량 급증",
+  "body": "$0.535 (+28.0%) · 정규장 · 레벨 3 · 점수 42\n시장에 도는 주식 540만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 51k (당일 평균 8.2배)\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.526 지정가(20일선, 기준가 대비 -1.7%) · 체결 가능성 약 85% · 손익분기 $0.533\n숏 지지구간 $0.375–$0.500 · 손절 $0.268 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.535,
+  "level": 3,
+  "score": 41.8,
+  "prob": 24.587706146926536,
+  "cp": 16.476537293609873,
+  "rl": 1.5,
+  "stop": 0.26750001311302185,
+  "zone": [
+   0.37450001835823055,
+   0.5
+  ],
+  "bp": 0.5262,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220107005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220107005",
+  "grade": "n/a"
  }
 ]
