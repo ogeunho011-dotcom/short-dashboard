@@ -14687,5 +14687,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
   "grade": "n/a"
+ },
+ {
+  "id": "PARA-1793714185",
+  "ts_kst": "2026-11-03 22:56",
+  "ts_utc": "2026-11-03T13:56:25+00:00",
+  "date_et": "2026-11-03",
+  "session": "pre",
+  "ticker": "PARA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +10.5% 급변 · 전일 대비 +19.0% — 추격 매수 주의"
+  ],
+  "title": "⚡ PARA 장중 급등 포착",
+  "body": "$2.000 (+19.0%) · 프리마켓 · 레벨 2 · 점수 30\n공매도 물량 대부분 손해 중, $2.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 269만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +10.5% 급변 · 전일 대비 +19.0% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.900 지정가(기준가 $2.000의 −5%) · 체결 가능성 약 83% · 손익분기 $1.923\n숏 지지구간 $1.500–$1.750 · 손절 $1.250 · 1차목표 $2.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-27\n⚠ 희석 위험 60/100\n⚠ 최근 악재 공시: S-1 증자 서류(S-1) (10/30)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.0,
+  "level": 2,
+  "score": 30.3,
+  "prob": 45.01661129568107,
+  "cp": 61.57161431927527,
+  "rl": 2.5,
+  "stop": 1.25,
+  "zone": [
+   1.5,
+   1.75
+  ],
+  "bp": 1.9,
+  "tgt": 2.5,
+  "stp": 1.25,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-27",
+   "희석 위험 60/100",
+   "최근 악재 공시: S-1 증자 서류(S-1) (10/30)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210212007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210212007",
+  "grade": "open"
  }
 ]

@@ -1,25 +1,5 @@
 [
  {
-  "ticker": "SHFS",
-  "form": "8-K",
-  "acc": "0001493152-26-049470",
-  "items": "3.02",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:24:19+00:00",
-  "accepted_kst": "10/31 06:24",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 3.02 Unregistered Sales of Equity Securities. As previously disclosed, on September 30, 2025 SHF Holdings, Inc. (the “Company”) entered into a Securities P",
-  "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226049470/0001493152-26-049470-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
   "ticker": "PARA",
   "form": "S-1",
   "acc": "0001493152-26-049469",
@@ -8683,5 +8663,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2077345/000146392826000002/0001463928-26-000002-index.htm",
   "seen_kst": "2026-11-03 22:51"
+ },
+ {
+  "ticker": "SURG",
+  "form": "8-K",
+  "acc": "0001493152-26-049719",
+  "items": "7.01,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:55:41+00:00",
+  "accepted_kst": "11/03 22:55",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "SurgePays Signs Agreement with Etime system for $48 Million in Annual Prepaid Wireless Purchase Volume Etime system commits to at least $4 million a month in pr",
+  "url": "https://www.sec.gov/Archives/edgar/data/1392694/000149315226049719/0001493152-26-049719-index.htm",
+  "seen_kst": "2026-11-03 22:56"
  }
 ]
