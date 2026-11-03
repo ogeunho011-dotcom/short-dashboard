@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SLE",
-  "form": "8-K",
-  "acc": "0001437749-26-034280",
-  "items": "8.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T13:00:10+00:00",
-  "accepted_kst": "11/02 22:00",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 8.01. Other Events During the period from October 28, 2026 through November 1, 2026, the Company purchased eight (8) Bitcoin at an average purchase price o",
-  "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926034280/0001437749-26-034280-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "WIMI",
   "form": "6-K",
   "acc": "0001213900-26-114679",
@@ -8671,5 +8654,22 @@
   "headline": "and incorporated herein by reference in upcoming meetings with investors/analysts. The information in this Current Report on Form 8-K is being furnished under I",
   "url": "https://www.sec.gov/Archives/edgar/data/1074902/000143774926034631/0001437749-26-034631-index.htm",
   "seen_kst": "2026-11-04 05:31"
+ },
+ {
+  "ticker": "WRLD",
+  "form": "4",
+  "acc": "0001674621-26-000010",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T20:38:42+00:00",
+  "accepted_kst": "11/04 05:38",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/108385/000167462126000010/0001674621-26-000010-index.htm",
+  "seen_kst": "2026-11-04 05:40"
  }
 ]
