@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "AUXX",
-  "form": "6-K",
-  "acc": "0001062993-26-005643",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:50:52+00:00",
-  "accepted_kst": "11/02 21:50",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Gold X2 Enters Definitive Property Purchase Agreement with Bold Ventures Inc. and Completes Coldstream Claims Acquisition",
-  "url": "https://www.sec.gov/Archives/edgar/data/1961592/000106299326005643/0001062993-26-005643-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
-  "ticker": "IRHO",
-  "form": "8-K",
-  "acc": "0001213900-26-114672",
-  "items": "7.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:51:38+00:00",
-  "accepted_kst": "11/02 21:51",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Top News from ELECTRA AI October 2026 From the Racecourse to the Grid → New Customer: Westbrook Racing by Visit Angola names ELECTRA AI its Official Battery Int",
-  "url": "https://www.sec.gov/Archives/edgar/data/2051985/000121390026114672/0001213900-26-114672-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "INTZ",
   "form": "8-K",
   "acc": "0001683168-26-008223",
@@ -8671,5 +8637,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1419536/000141953626000177/0001419536-26-000177-index.htm",
   "seen_kst": "2026-11-04 04:54"
+ },
+ {
+  "ticker": "CBNK",
+  "form": "4",
+  "acc": "0001419536-26-000178",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T19:54:05+00:00",
+  "accepted_kst": "11/04 04:54",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1419536/000141953626000178/0001419536-26-000178-index.htm",
+  "seen_kst": "2026-11-04 04:57"
+ },
+ {
+  "ticker": "JAGX",
+  "form": "S-3/A",
+  "acc": "0001193125-26-445132",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T19:55:12+00:00",
+  "accepted_kst": "11/04 04:55",
+  "polarity": "neg",
+  "label": "증자 서류(S-3/A)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526445132/0001193125-26-445132-index.htm",
+  "seen_kst": "2026-11-04 04:57"
  }
 ]
