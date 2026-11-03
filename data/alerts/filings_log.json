@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PINE",
-  "form": "8-K",
-  "acc": "0001104659-26-120907",
-  "items": "2.01,7.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T11:57:38+00:00",
-  "accepted_kst": "11/02 20:57",
-  "polarity": "neutral",
-  "label": "인수·매각 완료 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Press Release ​ ​ ​ ​ ​ ​ ​ ​ ​ FOR IMMEDIATE RELEASE ALPINE INCOME PROPERTY TRUST COMPLETES ACQUISITION OF 13-PROPERTY INDUSTRIAL PORTFOLIO FOR $117.3 MILLION",
-  "url": "https://www.sec.gov/Archives/edgar/data/1786117/000110465926120907/0001104659-26-120907-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "KMDA",
   "form": "6-K",
   "acc": "0001213900-26-114649",
@@ -8682,5 +8665,22 @@
   "headline": "Utah Medical Products, Inc. Increases Quarterly Dividend Contact: Brian Koopman November 3, 2026 (801) 566-1200 Salt Lake City, Utah - Utah Medical Products, In",
   "url": "https://www.sec.gov/Archives/edgar/data/706698/000109690626001664/0001096906-26-001664-index.htm",
   "seen_kst": "2026-11-04 03:00"
+ },
+ {
+  "ticker": "CCB",
+  "form": "4",
+  "acc": "0002005790-26-000030",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T18:03:36+00:00",
+  "accepted_kst": "11/04 03:03",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1437958/000200579026000030/0002005790-26-000030-index.htm",
+  "seen_kst": "2026-11-04 03:06"
  }
 ]
