@@ -16803,5 +16803,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210212007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210212007",
   "grade": "open"
+ },
+ {
+  "id": "CLVT-1793729405",
+  "ts_kst": "2026-11-04 03:10",
+  "ts_utc": "2026-11-03T18:10:05+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "CLVT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CLVT 장중 급등 포착",
+  "body": "$1.935 (+16.2%) · 정규장 · 레벨 1 · 점수 12\n$2.20 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +16.2% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.838 지정가(60일선, 기준가 대비 -5.0%) · 체결 가능성 약 41% · 손익분기 $1.860\n숏 지지구간 $1.800–$1.850 · 손절 $1.750 · 1차목표 $2.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.935,
+  "level": 1,
+  "score": 11.8,
+  "prob": 52.808742257569996,
+  "cp": 51.95482560134157,
+  "rl": 2.200000000000001,
+  "stop": 1.7500000000000004,
+  "zone": [
+   1.8000000000000005,
+   1.8500000000000005
+  ],
+  "bp": 1.8377,
+  "tgt": 2.200000000000001,
+  "stp": 1.7500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210201009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210201009",
+  "grade": "open"
  }
 ]
