@@ -2,23 +2,6 @@
  {
   "ticker": "NUAI",
   "form": "4",
-  "acc": "0001193125-26-442010",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:20:16+00:00",
-  "accepted_kst": "10/31 07:20",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028336/000119312526442010/0001193125-26-442010-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
-  "ticker": "NUAI",
-  "form": "4",
   "acc": "0001193125-26-442023",
   "items": "",
   "filed": "2026-10-30",
@@ -8681,5 +8664,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926034575/0001437749-26-034575-index.htm",
   "seen_kst": "2026-11-04 01:26"
+ },
+ {
+  "ticker": "PSIG",
+  "form": "6-K",
+  "acc": "0001213900-26-115288",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T16:33:02+00:00",
+  "accepted_kst": "11/04 01:33",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "http://fasb.org/srt/2026#ChiefExecutiveOfficerMember http://xbrl.sec.gov/country/2026#HK P5Y The secured bank loan was obtained from Nanyang Commercial Bank, Li",
+  "url": "https://www.sec.gov/Archives/edgar/data/1997201/000121390026115288/0001213900-26-115288-index.htm",
+  "seen_kst": "2026-11-04 01:34"
  }
 ]
