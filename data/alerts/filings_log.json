@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "FRTT",
-  "form": "6-K",
-  "acc": "0001185185-26-005113",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:10:25+00:00",
-  "accepted_kst": "11/02 21:10",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Fort Technology Announces Receipt of Approval for a Voluntary Delisting of its Common Shares From the TSX Venture Exchange Toronto, Ontario, Nov. 02, 2026",
-  "url": "https://www.sec.gov/Archives/edgar/data/2092967/000118518526005113/0001185185-26-005113-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "INO",
   "form": "8-K",
   "acc": "0001193125-26-442648",
@@ -8678,5 +8659,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/14707/000001470726000166/0000014707-26-000166-index.htm",
   "seen_kst": "2026-11-04 03:26"
+ },
+ {
+  "ticker": "OGI",
+  "form": "6-K",
+  "acc": "0001628280-26-069317",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T18:38:16+00:00",
+  "accepted_kst": "11/04 03:38",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "X ] SUBMITTED HEREWITH Exhibits 99.1 News Release dated November 3, 2026 SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the regi",
+  "url": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026069317/0001628280-26-069317-index.htm",
+  "seen_kst": "2026-11-04 03:39"
  }
 ]
