@@ -5868,7 +5868,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221031003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221031003",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 2
  },
  {
   "id": "MAX-1793350617",
@@ -6033,7 +6036,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221031003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221031003",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 2
  },
  {
   "id": "HUBC-1793358846",
@@ -17827,6 +17833,49 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240417002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240417002",
+  "grade": "open"
+ },
+ {
+  "id": "CHSN-1793737707",
+  "ts_kst": "2026-11-04 05:28",
+  "ts_utc": "2026-11-03T20:28:27+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "CHSN",
+  "types": [
+   "prob",
+   "cover",
+   "rvol"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 50%)",
+   "커버 압력 75/100",
+   "5분 거래량 984k (당일 평균 5.3배)"
+  ],
+  "title": "🚀 CHSN 상위 확률 신호 · 커버 압력 · 거래량 급증",
+  "body": "$3.550 (+255.0%) · 정규장 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중, $3.75 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 33배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 50%)\n• 커버 압력 75/100\n• 5분 거래량 984k (당일 평균 5.3배)\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $3.372 지정가(기준가 $3.550의 −5%) · 체결 가능성 약 66% · 손익분기 $3.413\n숏 지지구간 $3.250–$3.500 · 손절 $3.000 · 1차목표 $3.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.55,
+  "level": 3,
+  "score": 51.3,
+  "prob": 49.501426285680715,
+  "cp": 74.97250657958153,
+  "rl": 3.75,
+  "stop": 3.0,
+  "zone": [
+   3.25,
+   3.5
+  ],
+  "bp": 3.3725,
+  "tgt": 3.75,
+  "stp": 3.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230329001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230329001",
   "grade": "open"
  }
 ]
