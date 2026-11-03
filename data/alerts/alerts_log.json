@@ -15980,5 +15980,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200918002",
   "grade": "open"
+ },
+ {
+  "id": "CRIS-1793722827",
+  "ts_kst": "2026-11-04 01:20",
+  "ts_utc": "2026-11-03T16:20:27+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "CRIS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.4% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CRIS 장중 급등 포착",
+  "body": "$0.796 (+21.4%) · 정규장 · 레벨 2 · 점수 36\n$1.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 209만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +21.4% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 40%\n추천 매수가 $0.756 지정가(기준가 $0.796의 −5%) · 체결 가능성 약 69% · 손익분기 $0.765\n숏 지지구간 $0.557–$0.557 · 손절 $0.398 · 1차목표 $1.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7958,
+  "level": 2,
+  "score": 35.8,
+  "prob": 40.16991402373187,
+  "cp": 24.321280563611914,
+  "rl": 1.0,
+  "stop": 0.3978999853134155,
+  "zone": [
+   0.5570599794387817,
+   0.5570599794387817
+  ],
+  "bp": 0.756,
+  "tgt": 1.0,
+  "stp": 0.3978999853134155,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
+  "grade": "open"
+ },
+ {
+  "id": "BJDX-1793722827",
+  "ts_kst": "2026-11-04 01:20",
+  "ts_utc": "2026-11-03T16:20:27+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "BJDX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +332.9% · 거래량 평소의 6.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BJDX 장중 급등 포착",
+  "body": "$2.295 (+332.9%) · 정규장 · 레벨 4 · 점수 58\n시장에 도는 주식 447만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +332.9% · 거래량 평소의 6.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $2.180 지정가(기준가 $2.295의 −5%) · 체결 가능성 약 77% · 손익분기 $2.207\n숏 지지구간 $1.607–$1.607 · 손절 $1.148 · 1차목표 $4.500\n⚠ 역분할 2026-11-03\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.295,
+  "level": 4,
+  "score": 57.8,
+  "prob": 41.15942028985507,
+  "cp": 2.2067921010744724,
+  "rl": 4.5,
+  "stop": 1.1475000381469727,
+  "zone": [
+   1.6065000534057616,
+   1.6065000534057616
+  ],
+  "bp": 2.1803,
+  "tgt": 4.5,
+  "stp": 1.1475000381469727,
+  "penalties": [
+   "역분할 2026-11-03"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211110005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211110005",
+  "grade": "open"
  }
 ]
