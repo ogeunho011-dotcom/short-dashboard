@@ -17916,5 +17916,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210514014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210514014",
   "grade": "n/a"
+ },
+ {
+  "id": "BRAI-1793738812",
+  "ts_kst": "2026-11-04 05:46",
+  "ts_utc": "2026-11-03T20:46:52+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "BRAI",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 74k (당일 평균 5.4배)"
+  ],
+  "title": "🚀 BRAI 거래량 급증",
+  "body": "$3.090 (+21.7%) · 정규장 · 레벨 3 · 점수 48\n$4.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 5분 거래량 74k (당일 평균 5.4배)\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $2.935 지정가(기준가 $3.090의 −5%) · 체결 가능성 약 82% · 손익분기 $2.971\n숏 지지구간 $2.500–$3.000 · 손절 $2.250 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.09,
+  "level": 3,
+  "score": 48.3,
+  "prob": 41.15942028985507,
+  "cp": 11.238621619225677,
+  "rl": 4.0,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   3.0
+  ],
+  "bp": 2.9355,
+  "tgt": 4.0,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2602012003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2602012003",
+  "grade": "open"
+ },
+ {
+  "id": "SRTS-1793738812",
+  "ts_kst": "2026-11-04 05:46",
+  "ts_utc": "2026-11-03T20:46:52+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "SRTS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.3% · 거래량 평소의 408.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SRTS 장중 급등 포착",
+  "body": "$3.290 (+18.3%) · 정규장 · 레벨 2 · 점수 31\n$3.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,646만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +18.3% · 거래량 평소의 408.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.043 지정가(60일선, 기준가 대비 -7.5%) · 체결 가능성 약 40% · 손익분기 $3.079\n숏 지지구간 $3.250–$3.290 · 손절 $3.000 · 1차목표 $3.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.2899,
+  "level": 2,
+  "score": 30.7,
+  "prob": 53.0512488258495,
+  "cp": 38.686265360762455,
+  "rl": 3.75,
+  "stop": 3.0,
+  "zone": [
+   3.25,
+   3.289900064468384
+  ],
+  "bp": 3.0426,
+  "tgt": 3.75,
+  "stp": 3.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160725003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160725003",
+  "grade": "open"
  }
 ]
