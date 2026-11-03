@@ -18246,5 +18246,261 @@
    "accepted_kst": "11/04 06:07",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "EVER-1793742836",
+  "ts_kst": "2026-11-04 06:53",
+  "ts_utc": "2026-11-03T21:53:56+00:00",
+  "date_et": "2026-11-03",
+  "session": "post",
+  "ticker": "EVER",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 79/100"
+  ],
+  "title": "🚀 EVER 상위 확률 신호 · 커버 압력",
+  "body": "$29.140 (+19.9%) · 애프터마켓 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $29.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 79/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $27.683 지정가(기준가 $29.140의 −5%) · 체결 가능성 약 27% · 손익분기 $28.017\n숏 지지구간 $27.500–$28.000 · 손절 $27.000 · 1차목표 $29.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 29.14,
+  "level": 3,
+  "score": 41.6,
+  "prob": 53.44827586206896,
+  "cp": 79.4253197905889,
+  "rl": 29.25,
+  "stop": 27.0,
+  "zone": [
+   27.5,
+   28.0
+  ],
+  "bp": 27.683,
+  "tgt": 33.637499999999996,
+  "stp": 27.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180627001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180627001",
+  "grade": "open"
+ },
+ {
+  "id": "RVLV-fil-0001193125-26-445379",
+  "ts_kst": "2026-11-04 06:54",
+  "ts_utc": "2026-11-03T21:54:00+00:00",
+  "date_et": "2026-11-03",
+  "session": "filing",
+  "ticker": "RVLV",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 제휴·라이선스"
+  ],
+  "title": "📢 RVLV 호재 공시",
+  "body": "8-K · 제휴·라이선스 (11/04 06:15 KST)\nRevolve Group Announces Third Quarter 2026 Financial Results Los Angeles, CA – November 3, 2026 - Revolve Group, Inc. (NYSE: RVLV), the next\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190606002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190606002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-445379",
+   "items": "2.02,9.01",
+   "label": "제휴·라이선스",
+   "cats": [
+    "제휴·라이선스"
+   ],
+   "strength": 4,
+   "headline": "Revolve Group Announces Third Quarter 2026 Financial Results Los Angeles, CA – November 3, 2026 - Revolve Group, Inc. (NYSE: RVLV), the next-generation fashion",
+   "url": "https://www.sec.gov/Archives/edgar/data/1746618/000119312526445379/0001193125-26-445379-index.htm",
+   "accepted_kst": "11/04 06:15",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "AQST-fil-0001398733-26-000073",
+  "ts_kst": "2026-11-04 06:54",
+  "ts_utc": "2026-11-03T21:54:00+00:00",
+  "date_et": "2026-11-03",
+  "session": "filing",
+  "ticker": "AQST",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가"
+  ],
+  "title": "📢 AQST 호재 공시",
+  "body": "8-K · FDA 승인·허가 (11/04 06:15 KST)\nAquestive Therapeutics Reports Third Quarter 2026 Financial Results and Provides Business Update • Anaphylm resubmission accepted with PDUFA\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180724001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180724001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001398733-26-000073",
+   "items": "2.02,7.01,9.01",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "Aquestive Therapeutics Reports Third Quarter 2026 Financial Results and Provides Business Update • Anaphylm resubmission accepted with PDUFA goal date of March",
+   "url": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000073/0001398733-26-000073-index.htm",
+   "accepted_kst": "11/04 06:15",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SWIM-fil-0001833197-26-000039",
+  "ts_kst": "2026-11-04 06:54",
+  "ts_utc": "2026-11-03T21:54:00+00:00",
+  "date_et": "2026-11-03",
+  "session": "filing",
+  "ticker": "SWIM",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 SWIM 호재 공시",
+  "body": "8-K · 자사주 매입 (11/04 06:15 KST)\nLatham Group, Inc. Reports Third Quarter 2026 Financial Results • Third Quarter Net Sales Increased 12.5%, Led by 8.4% Organic Growth; YTD N\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210423001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210423001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001833197-26-000039",
+   "items": "2.02,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "Latham Group, Inc. Reports Third Quarter 2026 Financial Results • Third Quarter Net Sales Increased 12.5%, Led by 8.4% Organic Growth; YTD Net Sales Were Up 11.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1833197/000183319726000039/0001833197-26-000039-index.htm",
+   "accepted_kst": "11/04 06:15",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "LMB-fil-0001628280-26-069582",
+  "ts_kst": "2026-11-04 06:54",
+  "ts_utc": "2026-11-03T21:54:00+00:00",
+  "date_et": "2026-11-03",
+  "session": "filing",
+  "ticker": "LMB",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 LMB 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/04 06:33 KST)\nEX-99.1 2 a20260930ex991pr.htm EX-99.1 FOR IMMEDIATE RELEASE Limbach Reports Third Quarter 2026 Results Expects Full-Year 2026 Revenue and A\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161116001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161116001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001628280-26-069582",
+   "items": "2.02,7.01,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "EX-99.1 2 a20260930ex991pr.htm EX-99.1 FOR IMMEDIATE RELEASE Limbach Reports Third Quarter 2026 Results Expects Full-Year 2026 Revenue and Adjusted EBITDA to be",
+   "url": "https://www.sec.gov/Archives/edgar/data/1606163/000162828026069582/0001628280-26-069582-index.htm",
+   "accepted_kst": "11/04 06:33",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "CBLL-fil-0001193125-26-445487",
+  "ts_kst": "2026-11-04 06:54",
+  "ts_utc": "2026-11-03T21:54:00+00:00",
+  "date_et": "2026-11-03",
+  "session": "filing",
+  "ticker": "CBLL",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가"
+  ],
+  "title": "📢 CBLL 호재 공시",
+  "body": "8-K · FDA 승인·허가 (11/04 06:36 KST)\nEX-99.1 2 cbll-ex99_1.htm EX-99.1 Ceribell Reports Third Quarter 2026 Financial Results Sunnyvale, Calif. – November 3, 2026 – CeriBell, Inc\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241011003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241011003",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-445487",
+   "items": "2.02,9.01",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "EX-99.1 2 cbll-ex99_1.htm EX-99.1 Ceribell Reports Third Quarter 2026 Financial Results Sunnyvale, Calif. – November 3, 2026 – CeriBell, Inc. (Nasdaq: CBLL) (“C",
+   "url": "https://www.sec.gov/Archives/edgar/data/1861107/000119312526445487/0001193125-26-445487-index.htm",
+   "accepted_kst": "11/04 06:36",
+   "polarity": "pos"
+  }
  }
 ]
