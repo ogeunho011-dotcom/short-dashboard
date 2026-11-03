@@ -15140,5 +15140,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20040805001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20040805001",
   "grade": "open"
+ },
+ {
+  "id": "UFG-1793717623",
+  "ts_kst": "2026-11-03 23:53",
+  "ts_utc": "2026-11-03T14:53:43+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "UFG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +1085.1% · 거래량 평소의 91.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ UFG 장중 급등 포착",
+  "body": "$3.330 (+1085.1%) · 정규장 · 레벨 3 · 점수 49\n오늘 거래량 평소의 19배 이상, 관심 급증 · 갭 상승 후 버티는 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +1085.1% · 거래량 평소의 91.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $3.372 지정가(20일선, 기준가 대비 +1.3%) · 체결 가능성 약 85% · 손익분기 $3.413\n숏 지지구간 $2.331–$2.331 · 손절 $1.665 · 1차목표 $5.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 2026-11-03\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.33,
+  "level": 3,
+  "score": 49.4,
+  "prob": 38.456237077877326,
+  "cp": 23.216722678750582,
+  "rl": 5.5,
+  "stop": 1.6649999618530273,
+  "zone": [
+   2.330999946594238,
+   2.330999946594238
+  ],
+  "bp": 3.3719,
+  "tgt": 5.5,
+  "stp": 1.6649999618530273,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 2026-11-03"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250114006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250114006",
+  "grade": "open"
+ },
+ {
+  "id": "ACB-1793717623",
+  "ts_kst": "2026-11-03 23:53",
+  "ts_utc": "2026-11-03T14:53:43+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "ACB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.9% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ACB 장중 급등 포착",
+  "body": "$5.060 (+19.9%) · 정규장 · 레벨 2 · 점수 36\n공매도 물량 대부분 손해 중, $5.10 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +19.9% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.807 지정가(기준가 $5.060의 −5%) · 체결 가능성 약 22% · 손익분기 $4.865\n숏 지지구간 $4.500–$4.750 · 손절 $4.250 · 1차목표 $5.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.06,
+  "level": 2,
+  "score": 35.8,
+  "prob": 53.44827586206896,
+  "cp": 69.8119182400654,
+  "rl": 5.099999904632568,
+  "stop": 4.25,
+  "zone": [
+   4.5,
+   4.75
+  ],
+  "bp": 4.807,
+  "tgt": 5.099999904632568,
+  "stp": 4.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210525001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210525001",
+  "grade": "open"
  }
 ]
