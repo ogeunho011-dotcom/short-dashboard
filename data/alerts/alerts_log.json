@@ -11575,7 +11575,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140915002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140915002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "CLRO-1793638212",
@@ -15510,6 +15513,86 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230915004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230915004",
+  "grade": "open"
+ },
+ {
+  "id": "CNSY-1793718830",
+  "ts_kst": "2026-11-04 00:13",
+  "ts_utc": "2026-11-03T15:13:50+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "CNSY",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +42.1% · 거래량 평소의 51.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CNSY 장중 급등 포착",
+  "body": "$2.415 (+42.1%) · 정규장 · 레벨 2 · 점수 35\n공매도 물량 대부분 손해 중, $2.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 759만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +42.1% · 거래량 평소의 51.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.289 지정가(60일선, 기준가 대비 -5.2%) · 체결 가능성 약 51% · 손익분기 $2.317\n숏 지지구간 $2.000–$2.250 · 손절 $1.750 · 1차목표 $2.500\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.415,
+  "level": 2,
+  "score": 34.7,
+  "prob": 53.44827586206896,
+  "cp": 49.3042805703617,
+  "rl": 2.5,
+  "stop": 1.75,
+  "zone": [
+   2.0,
+   2.25
+  ],
+  "bp": 2.2892,
+  "tgt": 2.5,
+  "stp": 1.75,
+  "penalties": [
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190729001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190729001",
+  "grade": "open"
+ },
+ {
+  "id": "CMCO-1793718830",
+  "ts_kst": "2026-11-04 00:13",
+  "ts_utc": "2026-11-03T15:13:50+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "CMCO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.6% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CMCO 장중 급등 포착",
+  "body": "$18.260 (+15.6%) · 정규장 · 레벨 1 · 점수 18\n공매도 물량 대부분 손해 중, $18.50 넘으면 급등 가능성 ↑ · 한 달 고점 돌파 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.6% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $17.347 지정가(기준가 $18.260의 −5%) · 체결 가능성 약 28% · 손익분기 $17.556\n숏 지지구간 $17.000–$17.500 · 손절 $16.500 · 1차목표 $18.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 18.26,
+  "level": 1,
+  "score": 18.0,
+  "prob": 53.10739000348759,
+  "cp": 63.474929355550685,
+  "rl": 18.5,
+  "stop": 16.5,
+  "zone": [
+   17.0,
+   17.5
+  ],
+  "bp": 17.347,
+  "tgt": 18.5,
+  "stp": 16.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960223001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960223001",
   "grade": "open"
  }
 ]
