@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IRHO",
-  "form": "425",
-  "acc": "0001213900-26-114675",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:54:48+00:00",
-  "accepted_kst": "11/02 21:54",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2051985/000121390026114675/0001213900-26-114675-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "SLE",
   "form": "8-K",
   "acc": "0001437749-26-034280",
@@ -8671,5 +8654,22 @@
   "headline": "Farris Jack M.",
   "url": "https://www.sec.gov/Archives/edgar/data/1004702/000163646826000004/0001636468-26-000004-index.htm",
   "seen_kst": "2026-11-04 05:04"
+ },
+ {
+  "ticker": "LCNB",
+  "form": "8-K",
+  "acc": "0001437749-26-034631",
+  "items": "7.01,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T20:30:13+00:00",
+  "accepted_kst": "11/04 05:30",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "and incorporated herein by reference in upcoming meetings with investors/analysts. The information in this Current Report on Form 8-K is being furnished under I",
+  "url": "https://www.sec.gov/Archives/edgar/data/1074902/000143774926034631/0001437749-26-034631-index.htm",
+  "seen_kst": "2026-11-04 05:31"
  }
 ]
