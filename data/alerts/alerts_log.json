@@ -16600,5 +16600,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220708002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220708002",
   "grade": "open"
+ },
+ {
+  "id": "KTTA-1793727562",
+  "ts_kst": "2026-11-04 02:39",
+  "ts_utc": "2026-11-03T17:39:22+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "KTTA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.0% · 거래량 평소의 55.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KTTA 장중 급등 포착",
+  "body": "$0.413 (+18.0%) · 정규장 · 레벨 2 · 점수 26\n$0.420 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +18.0% · 거래량 평소의 55.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.379 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -8.2%) · 체결 가능성 약 52% · 손익분기 $0.384\n숏 지지구간 $0.360–$0.380 · 손절 $0.340 · 1차목표 $0.420\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4132,
+  "level": 2,
+  "score": 26.2,
+  "prob": 47.808764940239065,
+  "cp": 41.683937159488416,
+  "rl": 0.4200000000000001,
+  "stop": 0.34,
+  "zone": [
+   0.36000000000000004,
+   0.38000000000000006
+  ],
+  "bp": 0.3794,
+  "tgt": 0.4200000000000001,
+  "stp": 0.34,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210811004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210811004",
+  "grade": "open"
  }
 ]
