@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NUAI",
-  "form": "4",
-  "acc": "0001193125-26-441978",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:08:43+00:00",
-  "accepted_kst": "10/31 07:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028336/000119312526441978/0001193125-26-441978-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
   "ticker": "RGS",
   "form": "4",
   "acc": "0001631325-26-000004",
@@ -8681,5 +8664,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000925/0001976408-26-000925-index.htm",
   "seen_kst": "2026-11-04 00:54"
+ },
+ {
+  "ticker": "RDWR",
+  "form": "4",
+  "acc": "0001976408-26-000928",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T15:53:41+00:00",
+  "accepted_kst": "11/04 00:53",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1094366/000197640826000928/0001976408-26-000928-index.htm",
+  "seen_kst": "2026-11-04 00:57"
  }
 ]
