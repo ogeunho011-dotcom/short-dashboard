@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "EVGO",
-  "form": "SCHEDULE 13D/A",
-  "acc": "0001104659-26-120924",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:32:50+00:00",
-  "accepted_kst": "11/02 21:32",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1821159/000110465926120924/0001104659-26-120924-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "CRMD",
   "form": "8-K",
   "acc": "0001213900-26-114665",
@@ -8671,5 +8654,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1513525/000110465926121891/0001104659-26-121891-index.htm",
   "seen_kst": "2026-11-04 04:31"
+ },
+ {
+  "ticker": "XELB",
+  "form": "DEF 14A",
+  "acc": "0001104659-26-121584",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T00:58:30+00:00",
+  "accepted_kst": "11/03 09:58",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1083220/000110465926121584/0001104659-26-121584-index.htm",
+  "seen_kst": "2026-11-04 04:41"
  }
 ]
