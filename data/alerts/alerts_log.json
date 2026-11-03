@@ -15051,5 +15051,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240702003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240702003",
   "grade": "open"
+ },
+ {
+  "id": "SGRX-1793716718",
+  "ts_kst": "2026-11-03 23:38",
+  "ts_utc": "2026-11-03T14:38:38+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "SGRX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +34.4% · 거래량 평소의 27.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SGRX 장중 급등 포착",
+  "body": "$0.975 (+34.4%) · 정규장 · 레벨 5 · 점수 72\n시장에 도는 주식 97만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 8배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +34.4% · 거래량 평소의 27.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.926 지정가(기준가 $0.975의 −5%) · 체결 가능성 약 78% · 손익분기 $0.938\n숏 지지구간 $0.683–$0.975 · 손절 $0.488 · 1차목표 $1.500\n⚠ 역분할 2026-08-21\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.9751,
+  "level": 5,
+  "score": 71.8,
+  "prob": 38.456237077877326,
+  "cp": 45.247763844859676,
+  "rl": 1.5,
+  "stop": 0.4875499904155731,
+  "zone": [
+   0.6825699865818023,
+   0.9750999808311462
+  ],
+  "bp": 0.9263,
+  "tgt": 1.5,
+  "stp": 0.4875499904155731,
+  "penalties": [
+   "역분할 2026-08-21"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220215001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220215001",
+  "grade": "open"
  }
 ]
