@@ -14221,5 +14221,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230301002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230301002",
   "grade": "n/a"
+ },
+ {
+  "id": "SGRX-1793709407",
+  "ts_kst": "2026-11-03 21:36",
+  "ts_utc": "2026-11-03T12:36:47+00:00",
+  "date_et": "2026-11-03",
+  "session": "pre",
+  "ticker": "SGRX",
+  "types": [
+   "spike",
+   "pregap"
+  ],
+  "msgs": [
+   "5분 +14.1% 급변 · 전일 대비 +32.0% — 추격 매수 주의",
+   "프리마켓 갭 +32.0%"
+  ],
+  "title": "🚀 SGRX 장중 급등 포착 · 프리마켓 갭",
+  "body": "$0.958 (+32.0%) · 프리마켓 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $1.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 97만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 +14.1% 급변 · 전일 대비 +32.0% — 추격 매수 주의\n• 프리마켓 갭 +32.0%\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.910 지정가(기준가 $0.958의 −5%) · 체결 가능성 약 78% · 손익분기 $0.921\n숏 지지구간 $0.670–$0.670 · 손절 $0.479 · 1차목표 $1.000\n⚠ 역분할 2026-08-21\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (10/30)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.9578,
+  "level": 3,
+  "score": 44.0,
+  "prob": 31.25,
+  "cp": 64.55290638946404,
+  "rl": 1.0,
+  "stop": 0.4789,
+  "zone": [
+   0.67046,
+   0.67046
+  ],
+  "bp": 0.9099,
+  "tgt": 1.0,
+  "stp": 0.4789,
+  "penalties": [
+   "역분할 2026-08-21",
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (10/30)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220215001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220215001",
+  "grade": "open"
  }
 ]
