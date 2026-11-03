@@ -1,61 +1,5 @@
 [
  {
-  "ticker": "BKYI",
-  "form": "8-K",
-  "acc": "0001437749-26-034242",
-  "items": "5.07",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:06:35+00:00",
-  "accepted_kst": "10/31 06:06",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders. On September 3, 2026, BIO-key International, Inc. (the “ Company ”) convened its 2026 Annual Meet",
-  "url": "https://www.sec.gov/Archives/edgar/data/1019034/000143774926034242/0001437749-26-034242-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "AEI",
-  "form": "8-K",
-  "acc": "0001493152-26-049459",
-  "items": "3.01",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:06:57+00:00",
-  "accepted_kst": "10/31 06:06",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할",
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Item 3.01. Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On October 28, 2026, Alset Inc. (the “Company”)",
-  "url": "https://www.sec.gov/Archives/edgar/data/1750106/000149315226049459/0001493152-26-049459-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "JAGU",
-  "form": "4",
-  "acc": "0001213900-26-114487",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:08:00+00:00",
-  "accepted_kst": "10/31 06:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039273/000121390026114487/0001213900-26-114487-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
   "ticker": "JAGU",
   "form": "4",
   "acc": "0001213900-26-114488",
@@ -8683,5 +8627,56 @@
   "headline": "CONTACT: Scott B. Flaherty NEWS RELEASE Executive Vice President & Chief Financial Officer 561.413.0112 Willis Lease Finance Corporation Reports Solid Third Qua",
   "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000092/0001018164-26-000092-index.htm",
   "seen_kst": "2026-11-03 22:26"
+ },
+ {
+  "ticker": "IMXI",
+  "form": "8-K",
+  "acc": "0001140361-26-041709",
+  "items": "8.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:25:50+00:00",
+  "accepted_kst": "11/03 22:25",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. As previously announced, on August 10, 2025, International Money Express, Inc., a Delaware corporation (the “Company”), entered into an",
+  "url": "https://www.sec.gov/Archives/edgar/data/1683695/000114036126041709/0001140361-26-041709-index.htm",
+  "seen_kst": "2026-11-03 22:28"
+ },
+ {
+  "ticker": "PMN",
+  "form": "4",
+  "acc": "0001374339-26-000009",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:26:35+00:00",
+  "accepted_kst": "11/03 22:26",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $38,600 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Cashman Neil",
+  "url": "https://www.sec.gov/Archives/edgar/data/1374339/000137433926000009/0001374339-26-000009-index.htm",
+  "seen_kst": "2026-11-03 22:28"
+ },
+ {
+  "ticker": "LAB",
+  "form": "425",
+  "acc": "0001140361-26-041711",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:26:40+00:00",
+  "accepted_kst": "11/03 22:26",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1162194/000114036126041711/0001140361-26-041711-index.htm",
+  "seen_kst": "2026-11-03 22:28"
  }
 ]
