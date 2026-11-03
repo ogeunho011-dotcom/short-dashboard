@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "VBIO",
-  "form": "8-K",
-  "acc": "0001683168-26-008221",
-  "items": "5.02,8.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:50:14+00:00",
-  "accepted_kst": "11/02 21:50",
-  "polarity": "neutral",
-  "label": "임원 변경 · 기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Valion Bio Advancing Entolimod into U.S. Government-Funded Therapeutic Efficacy Study Following Positive Safety Results NIAID-RNCP elects to evaluate the effica",
-  "url": "https://www.sec.gov/Archives/edgar/data/1787740/000168316826008221/0001683168-26-008221-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "AUXX",
   "form": "6-K",
   "acc": "0001062993-26-005643",
@@ -8671,5 +8654,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926034616/0001437749-26-034616-index.htm",
   "seen_kst": "2026-11-04 04:51"
+ },
+ {
+  "ticker": "CBNK",
+  "form": "4",
+  "acc": "0001419536-26-000177",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T19:52:33+00:00",
+  "accepted_kst": "11/04 04:52",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1419536/000141953626000177/0001419536-26-000177-index.htm",
+  "seen_kst": "2026-11-04 04:54"
  }
 ]
