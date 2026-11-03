@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "LEGH",
-  "form": "8-K",
-  "acc": "0001104659-26-120752",
-  "items": "5.07",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:29:14+00:00",
-  "accepted_kst": "10/31 06:29",
-  "polarity": "neutral",
-  "label": "주총 결과",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders ​ The Company held its Annual Meeting of Stockholders (the “Annual Meeting”) on October 28, 2026.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1436208/000110465926120752/0001104659-26-120752-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "LARK",
-  "form": "4",
-  "acc": "0001493152-26-049477",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:29:17+00:00",
-  "accepted_kst": "10/31 06:29",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1141688/000149315226049477/0001493152-26-049477-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
   "ticker": "SPRU",
   "form": "4",
   "acc": "0001628280-26-068632",
@@ -8676,5 +8642,42 @@
   "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Note: Regulation S-T Rule 101(b)(1)",
   "url": "https://www.sec.gov/Archives/edgar/data/1828253/000117184326007058/0001171843-26-007058-index.htm",
   "seen_kst": "2026-11-03 23:06"
+ },
+ {
+  "ticker": "GEOS",
+  "form": "8-K",
+  "acc": "0001437749-26-034539",
+  "items": "1.01,1.02,2.03,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T14:08:46+00:00",
+  "accepted_kst": "11/03 23:08",
+  "polarity": "neg",
+  "label": "파산·청산",
+  "cats": [],
+  "negs": [
+   "파산·청산",
+   "중요 계약 해지(항목 1.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01. Entry into a Material Definitive Agreement On October 29, 2026, Geospace Technologies Corporation (the “Company”) entered into a Revolving Loan and S",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/000143774926034539/0001437749-26-034539-index.htm",
+  "seen_kst": "2026-11-03 23:11"
+ },
+ {
+  "ticker": "PBK",
+  "form": "6-K",
+  "acc": "0001493152-26-049724",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T14:10:30+00:00",
+  "accepted_kst": "11/03 23:10",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "PowerBank Secures Permission to Operate for 3.26 MW New York Solar Project Valued at US$7.3 Million New York Community Solar Project Reaches Key Operational Mil",
+  "url": "https://www.sec.gov/Archives/edgar/data/2011053/000149315226049724/0001493152-26-049724-index.htm",
+  "seen_kst": "2026-11-03 23:11"
  }
 ]
