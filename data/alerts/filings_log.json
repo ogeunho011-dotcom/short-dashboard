@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NUAI",
-  "form": "4",
-  "acc": "0001193125-26-442045",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:30:50+00:00",
-  "accepted_kst": "10/31 07:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028336/000119312526442045/0001193125-26-442045-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
   "ticker": "HAPN",
   "form": "4",
   "acc": "0001409970-26-000204",
@@ -8681,5 +8664,22 @@
   "headline": "Item 7.01 and shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934 (the “Exchange Act”), or otherwise subject to",
   "url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000094/0001829576-26-000094-index.htm",
   "seen_kst": "2026-11-04 01:38"
+ },
+ {
+  "ticker": "NYAX",
+  "form": "4",
+  "acc": "0001976408-26-000930",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T16:37:24+00:00",
+  "accepted_kst": "11/04 01:37",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1901279/000197640826000930/0001976408-26-000930-index.htm",
+  "seen_kst": "2026-11-04 01:41"
  }
 ]
