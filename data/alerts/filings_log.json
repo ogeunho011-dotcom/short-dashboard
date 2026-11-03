@@ -2,23 +2,6 @@
  {
   "ticker": "HAIN",
   "form": "4",
-  "acc": "0001193125-26-441980",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T22:09:16+00:00",
-  "accepted_kst": "10/31 07:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/910406/000119312526441980/0001193125-26-441980-index.htm",
-  "seen_kst": "2026-10-31 07:47"
- },
- {
-  "ticker": "HAIN",
-  "form": "4",
   "acc": "0001193125-26-441984",
   "items": "",
   "filed": "2026-10-30",
@@ -8681,5 +8664,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1365767/000197640826000929/0001976408-26-000929-index.htm",
   "seen_kst": "2026-11-04 01:00"
+ },
+ {
+  "ticker": "CMTV",
+  "form": "4",
+  "acc": "0001654954-26-009444",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T16:02:55+00:00",
+  "accepted_kst": "11/04 01:02",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $21,492 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Caldwell Christopher L.",
+  "url": "https://www.sec.gov/Archives/edgar/data/718413/000165495426009444/0001654954-26-009444-index.htm",
+  "seen_kst": "2026-11-04 01:06"
  }
 ]
