@@ -1,42 +1,5 @@
 [
  {
-  "ticker": "QURE",
-  "form": "8-K",
-  "acc": "0001104659-26-120915",
-  "items": "7.01,8.01,9.01",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:15:22+00:00",
-  "accepted_kst": "11/02 21:15",
-  "polarity": "pos",
-  "label": "FDA 승인·허가 · FDA 특별 지정(혁신·신속·희귀)",
-  "cats": [
-   "FDA 승인·허가",
-   "FDA 특별 지정(혁신·신속·희귀)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "uniQure Announces FDA Acceptance and Priority Review of the Biologics License Application for ifezuntirgene inilparvovec for the Treatment of Huntington’s Disea",
-  "url": "https://www.sec.gov/Archives/edgar/data/1590560/000110465926120915/0001104659-26-120915-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
-  "ticker": "TATT",
-  "form": "6-K",
-  "acc": "0001178913-26-004947",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T12:15:45+00:00",
-  "accepted_kst": "11/02 21:15",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "TAT TECHNOLOGIES LTD. TAT Technologies Ltd. (the “Company”) hereby furnishes the following documents: Item/Exhibit No. Description 99.1 Company Presentation Thi",
-  "url": "https://www.sec.gov/Archives/edgar/data/808439/000117891326004947/0001178913-26-004947-index.htm",
-  "seen_kst": "2026-11-02 23:49"
- },
- {
   "ticker": "BWAY",
   "form": "6-K",
   "acc": "0001171843-26-007014",
@@ -8674,5 +8637,39 @@
   "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders. On November 3, 2026, Safety Insurance Group, Inc., a Delaware corporation (“ Safety ”), held a s",
   "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000026/0001172052-26-000026-index.htm",
   "seen_kst": "2026-11-04 03:58"
+ },
+ {
+  "ticker": "NKSH",
+  "form": "8-K",
+  "acc": "0001193125-26-445014",
+  "items": "7.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T19:00:16+00:00",
+  "accepted_kst": "11/04 04:00",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 nksh-ex99_1.htm EX-99.1 NATIONAL BANKSHARES, INC. Q2 2026 Investor Presentation Results for the three and six months ended June 30, 2026 NASDAQ: NKSH",
+  "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526445014/0001193125-26-445014-index.htm",
+  "seen_kst": "2026-11-04 04:02"
+ },
+ {
+  "ticker": "NKSH",
+  "form": "8-K",
+  "acc": "0001193125-26-445013",
+  "items": "7.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T19:00:16+00:00",
+  "accepted_kst": "11/04 04:00",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 nksh-ex99_1.htm EX-99.1 NATIONAL BANKSHARES, INC. Q3 2026 Investor Presentation Results for the three and nine months ended September 30, 2026 NASDAQ:",
+  "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526445013/0001193125-26-445013-index.htm",
+  "seen_kst": "2026-11-04 04:02"
  }
 ]
