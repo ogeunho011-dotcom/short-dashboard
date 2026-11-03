@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "JAGU",
-  "form": "4",
-  "acc": "0001213900-26-114493",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:09:52+00:00",
-  "accepted_kst": "10/31 06:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039273/000121390026114493/0001213900-26-114493-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "JAGU",
-  "form": "4",
-  "acc": "0001213900-26-114494",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:10:19+00:00",
-  "accepted_kst": "10/31 06:10",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039273/000121390026114494/0001213900-26-114494-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
-  "ticker": "ANVS",
-  "form": "8-K",
-  "acc": "0001104659-26-120732",
-  "items": "3.01,7.01,9.01",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:10:31+00:00",
-  "accepted_kst": "10/31 06:10",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "ANNOVIS BIO, INC. RECEIVES CONTINUED LISTING STANDARD",
-  "url": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926120732/0001104659-26-120732-index.htm",
-  "seen_kst": "2026-10-31 06:47"
- },
- {
   "ticker": "GANX",
   "form": "4",
   "acc": "0001104659-26-120734",
@@ -8681,5 +8628,59 @@
   "headline": "3 November 2026 | NYSE: NXRT EARNINGS SUPPLEMENT: THIRD QUARTER 2026 NEXPOINT RESIDENTIAL TRUST, INC. 300 CRESCENT COURT, SUITE 700 DALLAS, TX 75201 INVESTOR RE",
   "url": "https://www.sec.gov/Archives/edgar/data/1620393/000119312526444451/0001193125-26-444451-index.htm",
   "seen_kst": "2026-11-03 22:34"
+ },
+ {
+  "ticker": "LGIH",
+  "form": "8-K",
+  "acc": "0001580670-26-000085",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:34:34+00:00",
+  "accepted_kst": "11/03 22:34",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "LGI Homes, Inc. Reports Third Quarter 2026 Results",
+  "url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067026000085/0001580670-26-000085-index.htm",
+  "seen_kst": "2026-11-03 22:36"
+ },
+ {
+  "ticker": "PRSO",
+  "form": "8-K",
+  "acc": "0001213900-26-115173",
+  "items": "1.01,3.02,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:35:17+00:00",
+  "accepted_kst": "11/03 22:35",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. As previously reported in the Current Report on Form 8-K filed by Peraso Inc., a Delaware corporation (the",
+  "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026115173/0001213900-26-115173-index.htm",
+  "seen_kst": "2026-11-03 22:36"
+ },
+ {
+  "ticker": "TOP",
+  "form": "8-K",
+  "acc": "0001213900-26-115172",
+  "items": "7.01,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:35:17+00:00",
+  "accepted_kst": "11/03 22:35",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "TOP Financial Group Limited Addresses Recent Unusual Fluctuations in Stock Price",
+  "url": "https://www.sec.gov/Archives/edgar/data/1848275/000121390026115172/0001213900-26-115172-index.htm",
+  "seen_kst": "2026-11-03 22:36"
  }
 ]
