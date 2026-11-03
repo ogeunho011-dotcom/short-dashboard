@@ -18502,5 +18502,169 @@
    "accepted_kst": "11/04 06:36",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "CRIS-1793746407",
+  "ts_kst": "2026-11-04 07:53",
+  "ts_utc": "2026-11-03T22:53:27+00:00",
+  "date_et": "2026-11-03",
+  "session": "post",
+  "ticker": "CRIS",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 CRIS 상위 확률 신호",
+  "body": "$0.975 (+48.7%) · 애프터마켓 · 레벨 3 · 점수 54\n$1.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 209만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.926 지정가(기준가 $0.975의 −5%) · 체결 가능성 약 73% · 손익분기 $0.937\n숏 지지구간 $0.682–$0.682 · 손절 $0.487 · 1차목표 $1.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.975,
+  "level": 3,
+  "score": 53.8,
+  "prob": 53.11271854919586,
+  "cp": 37.49081015185203,
+  "rl": 1.0,
+  "stop": 0.4875,
+  "zone": [
+   0.6825,
+   0.6825
+  ],
+  "bp": 0.9262,
+  "tgt": 1.0,
+  "stp": 0.4875,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
+  "grade": "open"
+ },
+ {
+  "id": "CHSN-1793746407",
+  "ts_kst": "2026-11-04 07:53",
+  "ts_utc": "2026-11-03T22:53:27+00:00",
+  "date_et": "2026-11-03",
+  "session": "post",
+  "ticker": "CHSN",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 50%)",
+   "커버 압력 76/100"
+  ],
+  "title": "🚀 CHSN 상위 확률 신호 · 커버 압력",
+  "body": "$3.230 (+223.0%) · 애프터마켓 · 레벨 3 · 점수 50\n공매도 물량 대부분 손해 중, $3.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 39배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 50%)\n• 커버 압력 76/100\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $3.068 지정가(기준가 $3.230의 −5%) · 체결 가능성 약 69% · 손익분기 $3.106\n숏 지지구간 $2.500–$2.756 · 손절 $2.250 · 1차목표 $3.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.23,
+  "level": 3,
+  "score": 50.4,
+  "prob": 49.52532423332258,
+  "cp": 75.99332016323919,
+  "rl": 3.25,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   2.7555
+  ],
+  "bp": 3.0685,
+  "tgt": 3.25,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230329001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230329001",
+  "grade": "open"
+ },
+ {
+  "id": "CRMT-1793746407",
+  "ts_kst": "2026-11-04 07:53",
+  "ts_utc": "2026-11-03T22:53:27+00:00",
+  "date_et": "2026-11-03",
+  "session": "post",
+  "ticker": "CRMT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 CRMT 상위 확률 신호",
+  "body": "$1.190 (+30.5%) · 애프터마켓 · 레벨 3 · 점수 41\n$1.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 834만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.059 지정가(20일선, 기준가 대비 -11.0%) · 체결 가능성 약 57% · 손익분기 $1.072\n숏 지지구간 $0.833–$0.833 · 손절 $0.595 · 1차목표 $1.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.19,
+  "level": 3,
+  "score": 40.6,
+  "prob": 52.91666666666666,
+  "cp": 50.431746273014596,
+  "rl": 1.25,
+  "stop": 0.595,
+  "zone": [
+   0.833,
+   0.833
+  ],
+  "bp": 1.0591,
+  "tgt": 1.25,
+  "stp": 0.595,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19931109001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19931109001",
+  "grade": "open"
+ },
+ {
+  "id": "PLBY-fil-0001012975-26-001005",
+  "ts_kst": "2026-11-04 07:53",
+  "ts_utc": "2026-11-03T22:53:28+00:00",
+  "date_et": "2026-11-03",
+  "session": "filing",
+  "ticker": "PLBY",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $5,000,000"
+  ],
+  "title": "📢 PLBY 호재 공시",
+  "body": "4 · 내부자 장내 매수 $5,000,000 (11/04 07:41 KST)\nDocler Holding S.a r.l.\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210211005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210211005",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001012975-26-001005",
+   "items": "",
+   "label": "내부자 장내 매수 $5,000,000",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Docler Holding S.a r.l.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1803914/000101297526001005/0001012975-26-001005-index.htm",
+   "accepted_kst": "11/04 07:41",
+   "polarity": "pos"
+  }
  }
 ]
