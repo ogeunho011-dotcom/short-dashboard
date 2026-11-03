@@ -1,60 +1,5 @@
 [
  {
-  "ticker": "AKTX",
-  "form": "S-8",
-  "acc": "0001493152-26-049453",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:00:33+00:00",
-  "accepted_kst": "10/31 06:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1541157/000149315226049453/0001493152-26-049453-index.htm",
-  "seen_kst": "2026-10-31 06:02"
- },
- {
-  "ticker": "MASK",
-  "form": "6-K",
-  "acc": "0001185185-26-005106",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:00:34+00:00",
-  "accepted_kst": "10/31 06:00",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "3 E Network Technology Group Limited Receives Determination Letter from Nasdaq Hong Kong, China, October 30, 2026",
-  "url": "https://www.sec.gov/Archives/edgar/data/1993097/000118518526005106/0001185185-26-005106-index.htm",
-  "seen_kst": "2026-10-31 06:02"
- },
- {
-  "ticker": "GYGY",
-  "form": "424B3",
-  "acc": "0001213900-26-114478",
-  "items": "",
-  "filed": "2026-10-30",
-  "accepted": "2026-10-30T21:01:12+00:00",
-  "accepted_kst": "10/31 06:01",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2111846/000121390026114478/0001213900-26-114478-index.htm",
-  "seen_kst": "2026-10-31 06:02"
- },
- {
   "ticker": "FCEL",
   "form": "SCHEDULE 13G",
   "acc": "0002100119-26-001593",
@@ -8687,5 +8632,56 @@
   "headline": "STAK Inc. Announces Changes in Management",
   "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226049712/0001493152-26-049712-index.htm",
   "seen_kst": "2026-11-03 22:19"
+ },
+ {
+  "ticker": "DKI",
+  "form": "6-K",
+  "acc": "0001493152-26-049713",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:18:43+00:00",
+  "accepted_kst": "11/03 22:18",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Amendments to Memorandum As approved by its shareholders at the extraordinary general meeting of shareholders on October 6, 2026 and later approved by its board",
+  "url": "https://www.sec.gov/Archives/edgar/data/2058584/000149315226049713/0001493152-26-049713-index.htm",
+  "seen_kst": "2026-11-03 22:21"
+ },
+ {
+  "ticker": "XMAX",
+  "form": "8-K",
+  "acc": "0001493152-26-049714",
+  "items": "8.01,9.01",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:20:29+00:00",
+  "accepted_kst": "11/03 22:20",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. On October 31, 2026, the Board of Directors (the “Board”) of XMax Inc. (the “Company”) approved a share repurchase program (the “Repurch",
+  "url": "https://www.sec.gov/Archives/edgar/data/1473334/000149315226049714/0001493152-26-049714-index.htm",
+  "seen_kst": "2026-11-03 22:21"
+ },
+ {
+  "ticker": "FTH",
+  "form": "S-8",
+  "acc": "0001193125-26-444421",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T13:21:02+00:00",
+  "accepted_kst": "11/03 22:21",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1829802/000119312526444421/0001193125-26-444421-index.htm",
+  "seen_kst": "2026-11-03 22:21"
  }
 ]
