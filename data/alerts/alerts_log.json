@@ -16392,5 +16392,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
   "grade": "n/a"
+ },
+ {
+  "id": "NXXT-1793725474",
+  "ts_kst": "2026-11-04 02:04",
+  "ts_utc": "2026-11-03T17:04:34+00:00",
+  "date_et": "2026-11-03",
+  "session": "regular",
+  "ticker": "NXXT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.5% · 거래량 평소의 18.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NXXT 장중 급등 포착",
+  "body": "$2.605 (+16.5%) · 정규장 · 레벨 2 · 점수 26\n오늘 거래량 평소의 9배 이상, 관심 급증\n• 전일 대비 +16.5% · 거래량 평소의 18.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $2.475 지정가(기준가 $2.605의 −5%) · 체결 가능성 약 80% · 손익분기 $2.505\n숏 지지구간 $2.170–$2.605 · 손절 $1.303 · 1차목표 $6.670\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 100/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.605,
+  "level": 2,
+  "score": 26.5,
+  "prob": 24.587706146926536,
+  "cp": 26.58,
+  "rl": 20.0,
+  "stop": 1.3025000095367432,
+  "zone": [
+   2.1700000762939453,
+   2.6050000190734863
+  ],
+  "bp": 2.4748,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-30",
+   "희석 위험 100/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210914005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210914005",
+  "grade": "n/a"
  }
 ]
