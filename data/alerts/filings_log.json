@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RXST",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0001104659-26-121475",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T22:08:59+00:00",
-  "accepted_kst": "11/03 07:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1111485/000110465926121475/0001104659-26-121475-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
   "ticker": "ASTE",
   "form": "3",
   "acc": "0001674332-26-000014",
@@ -8637,5 +8620,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034848/0001437749-26-034848-index.htm",
   "seen_kst": "2026-11-05 04:05"
+ },
+ {
+  "ticker": "RGCO",
+  "form": "4",
+  "acc": "0001437749-26-034851",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T19:06:04+00:00",
+  "accepted_kst": "11/05 04:06",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034851/0001437749-26-034851-index.htm",
+  "seen_kst": "2026-11-05 04:08"
  }
 ]

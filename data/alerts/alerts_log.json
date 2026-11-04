@@ -23344,5 +23344,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211206010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211206010",
   "grade": "open"
+ },
+ {
+  "id": "OMH-1793819301",
+  "ts_kst": "2026-11-05 04:08",
+  "ts_utc": "2026-11-04T19:08:21+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "OMH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.4% · 거래량 평소의 1576.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OMH 장중 급등 포착",
+  "body": "$3.767 (+29.4%) · 정규장 · 레벨 3 · 점수 48\n시장에 도는 주식 236만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +29.4% · 거래량 평소의 1576.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $3.579 지정가(기준가 $3.767의 −5%) · 체결 가능성 약 81% · 손익분기 $3.622\n숏 지지구간 $2.637–$3.767 · 손절 $1.884 · 1차목표 $5.651\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/07)\n⚠ 역분할 2026-08-31\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.7672,
+  "level": 3,
+  "score": 47.5,
+  "prob": 45.01661129568107,
+  "cp": 28.61456708498646,
+  "rl": 15.0,
+  "stop": 1.8835999965667725,
+  "zone": [
+   2.637039995193481,
+   3.767199993133545
+  ],
+  "bp": 3.5788,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/07)",
+   "역분할 2026-08-31"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
+  "grade": "n/a"
+ },
+ {
+  "id": "OPRT-1793819301",
+  "ts_kst": "2026-11-05 04:08",
+  "ts_utc": "2026-11-04T19:08:21+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "OPRT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.1% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OPRT 장중 급등 포착",
+  "body": "$12.690 (+26.1%) · 정규장 · 레벨 2 · 점수 27\n공매도 물량 대부분 손해 중, $13.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +26.1% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $12.055 지정가(기준가 $12.690의 −5%) · 체결 가능성 약 23% · 손익분기 $12.201\n숏 지지구간 $12.000–$12.500 · 손절 $11.750 · 1차목표 $13.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.69,
+  "level": 2,
+  "score": 26.9,
+  "prob": 53.25103698585261,
+  "cp": 56.569251561966205,
+  "rl": 13.0,
+  "stop": 11.75,
+  "zone": [
+   12.0,
+   12.5
+  ],
+  "bp": 12.0555,
+  "tgt": 13.0,
+  "stp": 11.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190925011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190925011",
+  "grade": "open"
  }
 ]
