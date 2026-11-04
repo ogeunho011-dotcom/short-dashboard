@@ -23791,5 +23791,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210810004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210810004",
   "grade": "open"
+ },
+ {
+  "id": "LOT-1793822166",
+  "ts_kst": "2026-11-05 04:56",
+  "ts_utc": "2026-11-04T19:56:06+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "LOT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.0% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LOT 장중 급등 포착",
+  "body": "$0.342 (+18.0%) · 정규장 · 레벨 1 · 점수 24\n$0.400 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +18.0% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 32%\n추천 매수가 $0.325 지정가(기준가 $0.342의 −5%) · 체결 가능성 약 75% · 손익분기 $0.329\n숏 지지구간 $0.300–$0.342 · 손절 $0.275 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3422,
+  "level": 1,
+  "score": 23.6,
+  "prob": 32.18620764123267,
+  "cp": 25.67007537794484,
+  "rl": 0.39999999999999997,
+  "stop": 0.27499999999999997,
+  "zone": [
+   0.3,
+   0.34220001101493835
+  ],
+  "bp": 0.3251,
+  "tgt": 0.39999999999999997,
+  "stp": 0.27499999999999997,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210503008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210503008",
+  "grade": "open"
+ },
+ {
+  "id": "LDI-1793822166",
+  "ts_kst": "2026-11-05 04:56",
+  "ts_utc": "2026-11-04T19:56:06+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "LDI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.3% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LDI 장중 급등 포착",
+  "body": "$0.673 (+16.3%) · 정규장 · 레벨 1 · 점수 21\n$0.750 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.3% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.640 지정가(기준가 $0.673의 −5%) · 체결 가능성 약 56% · 손익분기 $0.647\n숏 지지구간 $0.600–$0.650 · 손절 $0.550 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6732,
+  "level": 1,
+  "score": 20.7,
+  "prob": 53.31693555346341,
+  "cp": 35.050522315276595,
+  "rl": 0.75,
+  "stop": 0.5499999999999999,
+  "zone": [
+   0.6,
+   0.65
+  ],
+  "bp": 0.6395,
+  "tgt": 0.75,
+  "stp": 0.5499999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210203006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210203006",
+  "grade": "open"
  }
 ]
