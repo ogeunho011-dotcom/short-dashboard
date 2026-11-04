@@ -20548,5 +20548,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211027012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211027012",
   "grade": "open"
+ },
+ {
+  "id": "HELE-1793804852",
+  "ts_kst": "2026-11-05 00:07",
+  "ts_utc": "2026-11-04T15:07:32+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "HELE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HELE 장중 급등 포착",
+  "body": "$36.190 (+22.3%) · 정규장 · 레벨 2 · 점수 27\n공매도 물량 대부분 손해 중, $37.01 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +22.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $34.380 지정가(기준가 $36.190의 −5%) · 체결 가능성 약 27% · 손익분기 $34.796\n숏 지지구간 $25.000–$26.925 · 손절 $24.750 · 1차목표 $37.005\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 36.19,
+  "level": 2,
+  "score": 27.0,
+  "prob": 53.44827586206896,
+  "cp": 65.08967494960014,
+  "rl": 37.005001068115234,
+  "stop": 24.75,
+  "zone": [
+   25.0,
+   26.925
+  ],
+  "bp": 34.3805,
+  "tgt": 37.005001068115234,
+  "stp": 24.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326023%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326023",
+  "grade": "open"
  }
 ]
