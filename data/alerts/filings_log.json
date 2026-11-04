@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CCB",
-  "form": "4",
-  "acc": "0002005790-26-000030",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T18:03:36+00:00",
-  "accepted_kst": "11/04 03:03",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1437958/000200579026000030/0002005790-26-000030-index.htm",
-  "seen_kst": "2026-11-04 03:06"
- },
- {
   "ticker": "PEBO",
   "form": "4",
   "acc": "0000318300-26-000246",
@@ -8641,5 +8624,22 @@
   "headline": "CollPlant Announces Proposed Name Change to OptiPhi Computing Reflecting Expansion to Computing with Light Proposed new identity reflects the Company’s strategi",
   "url": "https://www.sec.gov/Archives/edgar/data/1631487/000121390026115778/0001213900-26-115778-index.htm",
   "seen_kst": "2026-11-05 00:22"
+ },
+ {
+  "ticker": "ACH",
+  "form": "3",
+  "acc": "0000075252-26-000045",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T15:23:42+00:00",
+  "accepted_kst": "11/05 00:23",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/75252/000007525226000045/0000075252-26-000045-index.htm",
+  "seen_kst": "2026-11-05 00:25"
  }
 ]

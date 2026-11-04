@@ -20992,5 +20992,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210426005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210426005",
   "grade": "open"
+ },
+ {
+  "id": "JXG-1793805915",
+  "ts_kst": "2026-11-05 00:25",
+  "ts_utc": "2026-11-04T15:25:15+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "JXG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +25.9% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ JXG 장중 급등 포착",
+  "body": "$8.700 (+25.9%) · 정규장 · 레벨 1 · 점수 23\n공매도 물량 대부분 손해 중, $9.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 143만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +25.9% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.265 지정가(기준가 $8.700의 −5%) · 체결 가능성 약 52% · 손익분기 $8.365\n숏 지지구간 $8.000–$8.500 · 손절 $7.500 · 1차목표 $9.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.7,
+  "level": 1,
+  "score": 23.1,
+  "prob": 52.91666666666666,
+  "cp": 70.96672890724595,
+  "rl": 9.0,
+  "stop": 7.5,
+  "zone": [
+   8.0,
+   8.5
+  ],
+  "bp": 8.265,
+  "tgt": 9.0,
+  "stp": 7.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230426003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230426003",
+  "grade": "open"
  }
 ]
