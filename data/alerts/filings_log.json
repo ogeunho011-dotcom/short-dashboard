@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "CMCO",
-  "form": "8-K",
-  "acc": "0001005229-26-000065",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:09:25+00:00",
-  "accepted_kst": "11/03 22:09",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "News Release CMCO's Growth and Integration Momentum Continues in Q2 FY27; Increases Full Year Guidance • Kito Crosby integration remains on track, with synergy ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1005229/000100522926000065/0001005229-26-000065-index.htm",
-  "seen_kst": "2026-11-03 22:11"
- },
- {
   "ticker": "ARVN",
   "form": "8-K",
   "acc": "0001628280-26-069101",
@@ -8633,5 +8614,22 @@
   "headline": "Havertys Furniture Reports Operating Results for Third Quarter 2026 Atlanta, Georgia, November 4, 2026 – Haverty Furniture Companies, Inc. (NYSE: HVT and HVT.A)",
   "url": "https://www.sec.gov/Archives/edgar/data/216085/000162828026069778/0001628280-26-069778-index.htm",
   "seen_kst": "2026-11-04 20:50"
+ },
+ {
+  "ticker": "ADNT",
+  "form": "8-K",
+  "acc": "0001670541-26-000114",
+  "items": "2.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:49:32+00:00",
+  "accepted_kst": "11/04 20:49",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Appendix Page 1 Adient plc Condensed Consolidated Statements of Income (Loss) (Unaudited) Three Months Ended September 30, Twelve Months Ended September 30, (in",
+  "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054126000114/0001670541-26-000114-index.htm",
+  "seen_kst": "2026-11-04 20:52"
  }
 ]
