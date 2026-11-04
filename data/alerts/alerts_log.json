@@ -23186,5 +23186,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210706002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210706002",
   "grade": "open"
+ },
+ {
+  "id": "SMRT-1793818651",
+  "ts_kst": "2026-11-05 03:57",
+  "ts_utc": "2026-11-04T18:57:31+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "SMRT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.2% · 거래량 평소의 26.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SMRT 장중 급등 포착",
+  "body": "$1.635 (+17.2%) · 정규장 · 레벨 2 · 점수 34\n공매도 물량 대부분 손해 중, $1.70 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 19배 이상, 관심 급증\n• 전일 대비 +17.2% · 거래량 평소의 26.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.553 지정가(기준가 $1.635의 −5%) · 체결 가능성 약 23% · 손익분기 $1.572\n숏 지지구간 $1.550–$1.600 · 손절 $1.525 · 1차목표 $1.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.635,
+  "level": 2,
+  "score": 34.4,
+  "prob": 53.44827586206896,
+  "cp": 73.6299288389924,
+  "rl": 1.7000000000000006,
+  "stop": 1.5250000000000008,
+  "zone": [
+   1.5500000000000007,
+   1.6000000000000008
+  ],
+  "bp": 1.5532,
+  "tgt": 1.7000000000000006,
+  "stp": 1.5250000000000008,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210825004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210825004",
+  "grade": "open"
  }
 ]

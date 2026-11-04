@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WRLD",
-  "form": "4",
-  "acc": "0001674621-26-000010",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T20:38:42+00:00",
-  "accepted_kst": "11/04 05:38",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/108385/000167462126000010/0001674621-26-000010-index.htm",
-  "seen_kst": "2026-11-04 05:40"
- },
- {
   "ticker": "APOG",
   "form": "4",
   "acc": "0001331748-26-000014",
@@ -8637,5 +8620,22 @@
   "headline": "and is hereby furnished pursuant to this Item 7.01. The information disclosed under this Item 7.01, including Exhibit 99.1 attached hereto, shall not be deemed",
   "url": "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000078/0001627282-26-000078-index.htm",
   "seen_kst": "2026-11-05 03:29"
+ },
+ {
+  "ticker": "HELE",
+  "form": "DEFA14A",
+  "acc": "0000916789-26-000145",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T18:55:49+00:00",
+  "accepted_kst": "11/05 03:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/916789/000091678926000145/0000916789-26-000145-index.htm",
+  "seen_kst": "2026-11-05 03:57"
  }
 ]
