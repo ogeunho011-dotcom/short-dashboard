@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "TRTX",
-  "form": "4",
-  "acc": "0001193125-26-444483",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T14:00:07+00:00",
-  "accepted_kst": "11/03 23:00",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $253,239",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "SILVERSTEIN WENDY",
-  "url": "https://www.sec.gov/Archives/edgar/data/1630472/000119312526444483/0001193125-26-444483-index.htm",
-  "seen_kst": "2026-11-03 23:01"
- },
- {
-  "ticker": "IBG",
-  "form": "6-K",
-  "acc": "0001731122-26-001399",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T14:00:16+00:00",
-  "accepted_kst": "11/03 23:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "BlockFuel Energy Advances Oklahoma Drilling Plans and Commences Initial Gas-to-Compute Operations Proposed merger with Innovation Beverage Group (Nasdaq: IBG) t",
-  "url": "https://www.sec.gov/Archives/edgar/data/1924482/000173112226001399/0001731122-26-001399-index.htm",
-  "seen_kst": "2026-11-03 23:01"
- },
- {
   "ticker": "UXIN",
   "form": "4",
   "acc": "0001493152-26-049721",
@@ -8632,5 +8596,39 @@
   "headline": "NewcelX Enters into Binding Term Sheet to Divest Legacy Mazindol Portfolio (CVR), Providing for Upfront Cash, Equity Ownership and Up to $55 Million in Potentia",
   "url": "https://www.sec.gov/Archives/edgar/data/1783036/000121390026115753/0001213900-26-115753-index.htm",
   "seen_kst": "2026-11-04 22:17"
+ },
+ {
+  "ticker": "GBLI",
+  "form": "3",
+  "acc": "0001193125-26-445688",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T22:40:52+00:00",
+  "accepted_kst": "11/04 07:40",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1494904/000119312526445688/0001193125-26-445688-index.htm",
+  "seen_kst": "2026-11-04 22:22"
+ },
+ {
+  "ticker": "GBLI",
+  "form": "8-K",
+  "acc": "0001193125-26-446266",
+  "items": "2.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T13:21:32+00:00",
+  "accepted_kst": "11/04 22:21",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "For Immediate Release — November 4, 2026 Global Indemnity Group, LLC Reports Financial Results for the three and nine months ended September 30, 2026 Wilmington",
+  "url": "https://www.sec.gov/Archives/edgar/data/1494904/000119312526446266/0001193125-26-446266-index.htm",
+  "seen_kst": "2026-11-04 22:22"
  }
 ]
