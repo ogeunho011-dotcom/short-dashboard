@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NYAX",
-  "form": "4",
-  "acc": "0001976408-26-000930",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T16:37:24+00:00",
-  "accepted_kst": "11/04 01:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1901279/000197640826000930/0001976408-26-000930-index.htm",
-  "seen_kst": "2026-11-04 01:41"
- },
- {
   "ticker": "XXII",
   "form": "8-K",
   "acc": "0001493152-26-049743",
@@ -8641,5 +8624,22 @@
   "headline": "Clarivate Commences Offers to Purchase for Cash Certain of its Outstanding Debt Securities",
   "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326016908/0000950103-26-016908-index.htm",
   "seen_kst": "2026-11-04 23:22"
+ },
+ {
+  "ticker": "SHLS",
+  "form": "8-K",
+  "acc": "0001193125-26-446356",
+  "items": "1.01,5.02,7.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:24:14+00:00",
+  "accepted_kst": "11/04 23:24",
+  "polarity": "neutral",
+  "label": "중요 계약 · 임원 변경 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "ARRAY Technologies and Shoals Technologies Group Announce Transformative Merger, Creating an Integrated Energy Infrastructure Platform • Combines market-leading",
+  "url": "https://www.sec.gov/Archives/edgar/data/1831651/000119312526446356/0001193125-26-446356-index.htm",
+  "seen_kst": "2026-11-04 23:27"
  }
 ]
