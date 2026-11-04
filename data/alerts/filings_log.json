@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SMWB",
-  "form": "6-K",
-  "acc": "0001842731-26-000052",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:46:42+00:00",
-  "accepted_kst": "11/03 22:46",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Similarweb Ltd. 33 Yitzhak Rabin Rd. Givatayim, 5348303, Israel SUPPLEMENT TO PROXY STATEMENT FOR THE SPECIAL GENERAL MEETING OF SHAREHOLDERS Dated November 3,",
-  "url": "https://www.sec.gov/Archives/edgar/data/1842731/000184273126000052/0001842731-26-000052-index.htm",
-  "seen_kst": "2026-11-03 22:48"
- },
- {
   "ticker": "IVAI",
   "form": "4",
   "acc": "0001463928-26-000002",
@@ -8628,5 +8611,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1786108/000119312526446245/0001193125-26-446245-index.htm",
   "seen_kst": "2026-11-04 22:05"
+ },
+ {
+  "ticker": "SMRT",
+  "form": "8-K",
+  "acc": "0001193125-26-446250",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T13:05:03+00:00",
+  "accepted_kst": "11/04 22:05",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "SmartRent Reports Third Quarter 2026 Financial Results Revenue Growth and Higher Margins Power Increasing Investment in Growth, Technology, and the Company's Ma",
+  "url": "https://www.sec.gov/Archives/edgar/data/1837014/000119312526446250/0001193125-26-446250-index.htm",
+  "seen_kst": "2026-11-04 22:07"
  }
 ]
