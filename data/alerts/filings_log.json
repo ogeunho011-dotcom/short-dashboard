@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AVXL",
-  "form": "8-K",
-  "acc": "0001731122-26-001395",
-  "items": "5.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:08:28+00:00",
-  "accepted_kst": "11/03 22:08",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Anavex Life Sciences Names Terrie Kellmeyer, Ph.D., as President and Chief Executive Officer and Member of the Board of Directors Seasoned biopharmaceutical exe",
-  "url": "https://www.sec.gov/Archives/edgar/data/1314052/000173112226001395/0001731122-26-001395-index.htm",
-  "seen_kst": "2026-11-03 22:11"
- },
- {
   "ticker": "SQNS",
   "form": "6-K",
   "acc": "0001383395-26-000117",
@@ -8633,5 +8616,22 @@
   "headline": "FTC Solar Announces Third Quarter 2026 Financial Results Third Quarter Highlights and Recent Developments • Third quarter revenue up 25% q/q; profitability metr",
   "url": "https://www.sec.gov/Archives/edgar/data/1828161/000119312526446154/0001193125-26-446154-index.htm",
   "seen_kst": "2026-11-04 20:42"
+ },
+ {
+  "ticker": "NOMD",
+  "form": "6-K",
+  "acc": "0001651717-26-000036",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:45:50+00:00",
+  "accepted_kst": "11/04 20:45",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Nomad Foods Reports Third Quarter 2026 Financial Results Organic revenue increased 1.6% year-on-year on stable volume and positive price/mix Strong cash flow wi",
+  "url": "https://www.sec.gov/Archives/edgar/data/1651717/000165171726000036/0001651717-26-000036-index.htm",
+  "seen_kst": "2026-11-04 20:47"
  }
 ]
