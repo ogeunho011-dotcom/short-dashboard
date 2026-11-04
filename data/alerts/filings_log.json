@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "HELP",
-  "form": "6-K",
-  "acc": "0001062993-26-005696",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T16:23:32+00:00",
-  "accepted_kst": "11/04 01:23",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Helus Pharma to Participate in the Guggenheim Healthcare Innovation Conference CEO Michael Halstead to participate in a fireside chat on November 9, 2026 at 3:0",
-  "url": "https://www.sec.gov/Archives/edgar/data/1833141/000106299326005696/0001062993-26-005696-index.htm",
-  "seen_kst": "2026-11-04 01:26"
- },
- {
   "ticker": "FRD",
   "form": "4",
   "acc": "0001437749-26-034573",
@@ -8641,5 +8624,22 @@
   "headline": "LUXFER SHAREHOLDERS APPROVE ACQUISITION",
   "url": "https://www.sec.gov/Archives/edgar/data/1096056/000207709626000300/0002077096-26-000300-index.htm",
   "seen_kst": "2026-11-04 23:10"
+ },
+ {
+  "ticker": "CTRM",
+  "form": "6-K",
+  "acc": "0001140361-26-041909",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:13:00+00:00",
+  "accepted_kst": "11/04 23:13",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Castor Maritime Announces that MPC Oceanic Group Has Entered into Agreement to Acquire a 41% Stake in Marlow Navigation Limassol, Cyprus, November 4, 2026 – Cas",
+  "url": "https://www.sec.gov/Archives/edgar/data/1720161/000114036126041909/0001140361-26-041909-index.htm",
+  "seen_kst": "2026-11-04 23:15"
  }
 ]
