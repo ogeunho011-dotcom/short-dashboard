@@ -24234,5 +24234,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251211010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251211010",
   "grade": "open"
+ },
+ {
+  "id": "WEYS-1793824718",
+  "ts_kst": "2026-11-05 05:38",
+  "ts_utc": "2026-11-04T20:38:38+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "WEYS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.1% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WEYS 장중 급등 포착",
+  "body": "$62.690 (+19.1%) · 정규장 · 레벨 2 · 점수 32\n공매도 물량 대부분 손해 중, $63.08 넘으면 급등 가능성 ↑ · 시장에 도는 주식 955만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +19.1% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $59.555 지정가(기준가 $62.690의 −5%) · 체결 가능성 약 14% · 손익분기 $60.274\n숏 지지구간 $58.000–$60.000 · 손절 $57.000 · 1차목표 $63.080\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 62.69,
+  "level": 2,
+  "score": 32.4,
+  "prob": 53.44827586206896,
+  "cp": 65.59697092001866,
+  "rl": 63.08000183105469,
+  "stop": 57.0,
+  "zone": [
+   58.0,
+   60.0
+  ],
+  "bp": 59.5555,
+  "tgt": 63.08000183105469,
+  "stp": 57.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326057%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326057",
+  "grade": "open"
  }
 ]
