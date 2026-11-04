@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FTH",
-  "form": "S-8",
-  "acc": "0001193125-26-444421",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:21:02+00:00",
-  "accepted_kst": "11/03 22:21",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1829802/000119312526444421/0001193125-26-444421-index.htm",
-  "seen_kst": "2026-11-03 22:21"
- },
- {
   "ticker": "CMPS",
   "form": "10-Q",
   "acc": "0001816590-26-000076",
@@ -8636,5 +8619,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1844417/000216315326000002/0002163153-26-000002-index.htm",
   "seen_kst": "2026-11-04 21:25"
+ },
+ {
+  "ticker": "QURE",
+  "form": "10-Q",
+  "acc": "0001104659-26-122367",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T12:28:37+00:00",
+  "accepted_kst": "11/04 21:28",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1590560/000110465926122367/0001104659-26-122367-index.htm",
+  "seen_kst": "2026-11-04 21:30"
  }
 ]
