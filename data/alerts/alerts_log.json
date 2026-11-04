@@ -8330,10 +8330,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240327005",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 3,
+  "grade_ret": 0.08782422802850354,
+  "graded_bars": 3
  },
  {
   "id": "WKHS-1793375353",
@@ -17635,7 +17635,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251111001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251111001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.04600000000000037,
+  "graded_bars": 1
  },
  {
   "id": "XELB-1793734314",
@@ -20132,6 +20135,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210708009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210708009",
+  "grade": "open"
+ },
+ {
+  "id": "LYEL-1793803658",
+  "ts_kst": "2026-11-04 23:47",
+  "ts_utc": "2026-11-04T14:47:38+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "LYEL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +35.8% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LYEL 장중 급등 포착",
+  "body": "$14.650 (+35.8%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중, $15.50 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +35.8% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $13.917 지정가(기준가 $14.650의 −5%) · 체결 가능성 약 46% · 손익분기 $14.086\n숏 지지구간 $12.500–$13.252 · 손절 $12.000 · 1차목표 $15.500\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/04)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 14.65,
+  "level": 2,
+  "score": 27.6,
+  "prob": 53.44827586206896,
+  "cp": 64.57175398100786,
+  "rl": 15.5,
+  "stop": 12.0,
+  "zone": [
+   12.5,
+   13.252499866485596
+  ],
+  "bp": 13.9175,
+  "tgt": 15.5,
+  "stp": 12.0,
+  "penalties": [
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/04)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210616003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210616003",
   "grade": "open"
  }
 ]
