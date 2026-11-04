@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LAB",
-  "form": "8-K",
-  "acc": "0001140361-26-041705",
-  "items": "7.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:23:00+00:00",
-  "accepted_kst": "11/03 22:23",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "ARCHIMED Life Science Tools & Services Completes Acquisition of Standard BioTools’ Microfluidics Business, Now Biomark Scientific Business will operate as Bioma",
-  "url": "https://www.sec.gov/Archives/edgar/data/1162194/000114036126041705/0001140361-26-041705-index.htm",
-  "seen_kst": "2026-11-03 22:24"
- },
- {
   "ticker": "HDL",
   "form": "6-K",
   "acc": "0001104659-26-121691",
@@ -8636,5 +8619,24 @@
   "headline": "News Release L.B. Foster Announces Third Quarter Results Reflecting Strong Sales and Profitability Growth; Finishes Quarter with Lowest Debt Level in a Decade U",
   "url": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000055/0000352825-26-000055-index.htm",
   "seen_kst": "2026-11-04 21:37"
+ },
+ {
+  "ticker": "SPB",
+  "form": "8-K",
+  "acc": "0000950103-26-016905",
+  "items": "8.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T12:40:30+00:00",
+  "accepted_kst": "11/04 21:40",
+  "polarity": "pos",
+  "label": "피인수·합병(주당 가격 제시)",
+  "cats": [
+   "피인수·합병(주당 가격 제시)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "EMPOWER BRANDS ANNOUNCES PROPOSAL TO ACQUIRE HELEN OF TROY LTD. FOR $37.00 PER SHARE IN CASH Proposal Represents Immediate, Compelling Cash Premium of 31% Over",
+  "url": "https://www.sec.gov/Archives/edgar/data/109177/000095010326016905/0000950103-26-016905-index.htm",
+  "seen_kst": "2026-11-04 21:42"
  }
 ]

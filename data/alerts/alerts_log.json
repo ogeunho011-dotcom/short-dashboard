@@ -19218,5 +19218,48 @@
    "accepted_kst": "11/04 21:12",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "SPB-fil-0000950103-26-016905",
+  "ts_kst": "2026-11-04 21:42",
+  "ts_utc": "2026-11-04T12:42:48+00:00",
+  "date_et": "2026-11-04",
+  "session": "filing",
+  "ticker": "SPB",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 피인수·합병(주당 가격 제시)"
+  ],
+  "title": "📢 SPB 호재 공시",
+  "body": "8-K · 피인수·합병(주당 가격 제시) (11/04 21:40 KST)\nEMPOWER BRANDS ANNOUNCES PROPOSAL TO ACQUIRE HELEN OF TROY LTD. FOR $37.00 PER SHARE IN CASH Proposal Represents Immediate, Compelling Cash \n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19971124001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19971124001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0000950103-26-016905",
+   "items": "8.01,9.01",
+   "label": "피인수·합병(주당 가격 제시)",
+   "cats": [
+    "피인수·합병(주당 가격 제시)"
+   ],
+   "strength": 5,
+   "headline": "EMPOWER BRANDS ANNOUNCES PROPOSAL TO ACQUIRE HELEN OF TROY LTD. FOR $37.00 PER SHARE IN CASH Proposal Represents Immediate, Compelling Cash Premium of 31% Over",
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000095010326016905/0000950103-26-016905-index.htm",
+   "accepted_kst": "11/04 21:40",
+   "polarity": "pos"
+  }
  }
 ]
