@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DTIL",
-  "form": "10-Q",
-  "acc": "0001628280-26-069092",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:09:30+00:00",
-  "accepted_kst": "11/03 22:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1357874/000162828026069092/0001628280-26-069092-index.htm",
-  "seen_kst": "2026-11-03 22:11"
- },
- {
   "ticker": "IBG",
   "form": "6-K",
   "acc": "0001731122-26-001397",
@@ -8633,5 +8616,22 @@
   "headline": "Item 1.01 Entry into a Material Definitive Agreement. The information set forth under Item 3.03 of this Current Report on Form 8-K is hereby incorporated into t",
   "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054126000115/0001670541-26-000115-index.htm",
   "seen_kst": "2026-11-04 20:55"
+ },
+ {
+  "ticker": "ADNT",
+  "form": "N-8A",
+  "acc": "0001670541-26-000116",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:56:14+00:00",
+  "accepted_kst": "11/04 20:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054126000116/0001670541-26-000116-index.htm",
+  "seen_kst": "2026-11-04 20:57"
  }
 ]
