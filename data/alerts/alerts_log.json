@@ -20509,5 +20509,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20111117001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20111117001",
   "grade": "open"
+ },
+ {
+  "id": "FLNC-1793804707",
+  "ts_kst": "2026-11-05 00:05",
+  "ts_utc": "2026-11-04T15:05:07+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "FLNC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.3% · 거래량 평소의 6.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FLNC 장중 급등 포착",
+  "body": "$6.335 (+15.3%) · 정규장 · 레벨 1 · 점수 24\n$8.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +15.3% · 거래량 평소의 6.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $6.140 지정가(20일선, 기준가 대비 -3.1%) · 체결 가능성 약 67% · 손익분기 $6.214\n숏 지지구간 $5.000–$6.000 · 손절 $4.000 · 1차목표 $8.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.335,
+  "level": 1,
+  "score": 23.7,
+  "prob": 47.808764940239065,
+  "cp": 22.73601294490951,
+  "rl": 8.0,
+  "stop": 4.0,
+  "zone": [
+   5.0,
+   6.0
+  ],
+  "bp": 6.14,
+  "tgt": 8.0,
+  "stp": 4.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211027012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211027012",
+  "grade": "open"
  }
 ]
