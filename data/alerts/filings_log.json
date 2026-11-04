@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CMT",
-  "form": "8-K",
-  "acc": "0001026655-26-000072",
-  "items": "2.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T14:39:29+00:00",
-  "accepted_kst": "11/03 23:39",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ". Item 9.01 Finance Statements and Exhibits. (d) Exhibits Exhibit Number Description 99.1 Press Release announcing earnings for the Company for the third quarte",
-  "url": "https://www.sec.gov/Archives/edgar/data/1026655/000102665526000072/0001026655-26-000072-index.htm",
-  "seen_kst": "2026-11-03 23:41"
- },
- {
   "ticker": "ACB",
   "form": "6-K",
   "acc": "0001104659-26-121740",
@@ -8633,5 +8616,22 @@
   "headline": "reAlpha Tech Corp. Announces Pricing of $1.75 Million Public Offering",
   "url": "https://www.sec.gov/Archives/edgar/data/1859199/000121390026115759/0001213900-26-115759-index.htm",
   "seen_kst": "2026-11-04 22:42"
+ },
+ {
+  "ticker": "LAW",
+  "form": "10-Q",
+  "acc": "0001625641-26-000193",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T13:44:25+00:00",
+  "accepted_kst": "11/04 22:44",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1625641/000162564126000193/0001625641-26-000193-index.htm",
+  "seen_kst": "2026-11-04 22:45"
  }
 ]
