@@ -1,23 +1,6 @@
 [
  {
   "ticker": "ADIL",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0001104659-26-121888",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T19:29:06+00:00",
-  "accepted_kst": "11/04 04:29",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1513525/000110465926121888/0001104659-26-121888-index.htm",
-  "seen_kst": "2026-11-04 04:31"
- },
- {
-  "ticker": "ADIL",
   "form": "4",
   "acc": "0001104659-26-121891",
   "items": "",
@@ -8637,5 +8620,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1027838/000195917326007688/0001959173-26-007688-index.htm",
   "seen_kst": "2026-11-05 01:57"
+ },
+ {
+  "ticker": "UMH",
+  "form": "4",
+  "acc": "0000752642-26-000134",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T17:09:45+00:00",
+  "accepted_kst": "11/05 02:09",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $7,610 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Carus Jeffrey A",
+  "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000134/0000752642-26-000134-index.htm",
+  "seen_kst": "2026-11-05 02:12"
  }
 ]
