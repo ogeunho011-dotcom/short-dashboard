@@ -22868,5 +22868,44 @@
    "accepted_kst": "11/05 02:51",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "WXM-1793815792",
+  "ts_kst": "2026-11-05 03:09",
+  "ts_utc": "2026-11-04T18:09:52+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "WXM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.0% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WXM 장중 급등 포착",
+  "body": "$2.600 (+30.0%) · 정규장 · 레벨 2 · 점수 27\n시장에 도는 주식 690만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +30.0% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $2.512 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.4%) · 체결 가능성 약 82% · 손익분기 $2.542\n숏 지지구간 $2.500–$2.600 · 손절 $2.250 · 1차목표 $5.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.6,
+  "level": 2,
+  "score": 26.8,
+  "prob": 18.993839835728956,
+  "cp": 22.19108167852854,
+  "rl": 5.5,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   2.5999999046325684
+  ],
+  "bp": 2.5118,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250401010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250401010",
+  "grade": "n/a"
  }
 ]
