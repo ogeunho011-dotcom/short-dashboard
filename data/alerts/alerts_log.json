@@ -18746,5 +18746,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230912005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230912005",
   "grade": "n/a"
+ },
+ {
+  "id": "CRIS-1793790427",
+  "ts_kst": "2026-11-04 20:07",
+  "ts_utc": "2026-11-04T11:07:07+00:00",
+  "date_et": "2026-11-04",
+  "session": "pre",
+  "ticker": "CRIS",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +93.8%"
+  ],
+  "title": "🚀 CRIS 프리마켓 갭",
+  "body": "$1.341 (+93.8%) · 프리마켓 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $2.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 209만 주뿐이라 쉽게 크게 움직임\n• 프리마켓 갭 +93.8%\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.274 지정가(기준가 $1.341의 −5%) · 체결 가능성 약 72% · 손익분기 $1.289\n숏 지지구간 $1.000–$1.341 · 손절 $0.670 · 1차목표 $2.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3407,
+  "level": 3,
+  "score": 42.5,
+  "prob": 45.01661129568107,
+  "cp": 36.75237164370554,
+  "rl": 2.0,
+  "stop": 0.67035,
+  "zone": [
+   1.0,
+   1.3407
+  ],
+  "bp": 1.2737,
+  "tgt": 2.0,
+  "stp": 0.67035,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
+  "grade": "open"
+ },
+ {
+  "id": "AEON-1793790427",
+  "ts_kst": "2026-11-04 20:07",
+  "ts_utc": "2026-11-04T11:07:07+00:00",
+  "date_et": "2026-11-04",
+  "session": "pre",
+  "ticker": "AEON",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +13.4% 급변 · 전일 대비 +28.3% — 추격 매수 주의"
+  ],
+  "title": "⚡ AEON 장중 급등 포착",
+  "body": "$0.272 (+28.3%) · 프리마켓 · 레벨 1 · 점수 24\n$0.400 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +13.4% 급변 · 전일 대비 +28.3% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.258 지정가(60일선, 기준가 대비 -5.2%) · 체결 가능성 약 57% · 손익분기 $0.261\n숏 지지구간 $0.250–$0.272 · 손절 $0.200 · 1차목표 $0.400\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/03)\n⚠ 희석 위험 85/100\n⚠ 최근 악재 공시: 424B3 증자 서류(424B3) (11/03)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2722,
+  "level": 1,
+  "score": 24.2,
+  "prob": 24.587706146926536,
+  "cp": 4.054129703925295,
+  "rl": 0.39999999999999997,
+  "stop": 0.2,
+  "zone": [
+   0.25,
+   0.2722
+  ],
+  "bp": 0.258,
+  "tgt": 0.39999999999999997,
+  "stp": 0.2,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/03)",
+   "희석 위험 85/100",
+   "최근 악재 공시: 424B3 증자 서류(424B3) (11/03)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210412008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210412008",
+  "grade": "open"
  }
 ]

@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "VCIG",
-  "form": "F-1/A",
-  "acc": "0001213900-26-115124",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T02:52:12+00:00",
-  "accepted_kst": "11/03 11:52",
-  "polarity": "neg",
-  "label": "증자 서류(F-1/A)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1930510/000121390026115124/0001213900-26-115124-index.htm",
-  "seen_kst": "2026-11-03 20:06"
- },
- {
   "ticker": "KPTI",
   "form": "8-K",
   "acc": "0001193125-26-444164",
@@ -8624,5 +8605,24 @@
   "headline": ", shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to",
   "url": "https://www.sec.gov/Archives/edgar/data/1499832/000162828026069760/0001628280-26-069760-index.htm",
   "seen_kst": "2026-11-04 20:04"
+ },
+ {
+  "ticker": "AIIO",
+  "form": "424B3",
+  "acc": "0001213900-26-115706",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:05:36+00:00",
+  "accepted_kst": "11/04 20:05",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1932737/000121390026115706/0001213900-26-115706-index.htm",
+  "seen_kst": "2026-11-04 20:07"
  }
 ]
