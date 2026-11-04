@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "JAGX",
-  "form": "8-K",
-  "acc": "0001193125-26-445055",
-  "items": "8.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T19:15:39+00:00",
-  "accepted_kst": "11/04 04:15",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 8.01 Other Events. As previously disclosed, on October 15, 2026, Jaguar Health, Inc. (the “Company” or “Jaguar”) paid a special one time dividend of one sh",
-  "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526445055/0001193125-26-445055-index.htm",
-  "seen_kst": "2026-11-04 04:18"
- },
- {
   "ticker": "ADIL",
   "form": "SCHEDULE 13G/A",
   "acc": "0001104659-26-121888",
@@ -8639,5 +8620,22 @@
   "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
   "url": "https://www.sec.gov/Archives/edgar/data/1860871/000149315226049903/0001493152-26-049903-index.htm",
   "seen_kst": "2026-11-05 01:52"
+ },
+ {
+  "ticker": "TCMD",
+  "form": "144",
+  "acc": "0001959173-26-007688",
+  "items": "",
+  "filed": "2026-11-03",
+  "accepted": "2026-11-03T18:47:12+00:00",
+  "accepted_kst": "11/04 03:47",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1027838/000195917326007688/0001959173-26-007688-index.htm",
+  "seen_kst": "2026-11-05 01:57"
  }
 ]

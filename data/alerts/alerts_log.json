@@ -21979,5 +21979,125 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211206010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211206010",
   "grade": "open"
+ },
+ {
+  "id": "OMH-1793811439",
+  "ts_kst": "2026-11-05 01:57",
+  "ts_utc": "2026-11-04T16:57:19+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "OMH",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 OMH 상위 확률 신호",
+  "body": "$9.200 (+216.0%) · 정규장 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 236만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.740 지정가(기준가 $9.200의 −5%) · 체결 가능성 약 52% · 손익분기 $8.846\n숏 지지구간 $6.440–$6.440 · 손절 $4.600 · 1차목표 $15.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/07)\n⚠ 역분할 2026-08-31\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 9.2,
+  "level": 3,
+  "score": 51.3,
+  "prob": 52.98519535410339,
+  "cp": 50.693008766407104,
+  "rl": 15.0,
+  "stop": 4.599999904632568,
+  "zone": [
+   6.4399998664855955,
+   6.4399998664855955
+  ],
+  "bp": 8.74,
+  "tgt": 15.0,
+  "stp": 4.599999904632568,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/07)",
+   "역분할 2026-08-31"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
+  "grade": "open"
+ },
+ {
+  "id": "OPRT-1793811439",
+  "ts_kst": "2026-11-05 01:57",
+  "ts_utc": "2026-11-04T16:57:19+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "OPRT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.2% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OPRT 장중 급등 포착",
+  "body": "$12.390 (+23.2%) · 정규장 · 레벨 1 · 점수 24\n공매도 물량 대부분 손해 중, $13.00 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +23.2% · 거래량 평소의 6.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $12.000–$12.390 · 손절 $11.750 · 1차목표 $13.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.39,
+  "level": 1,
+  "score": 24.2,
+  "prob": 53.029312383592874,
+  "cp": 57.91156207680963,
+  "rl": 13.0,
+  "stop": 11.75,
+  "zone": [
+   12.0,
+   12.390000343322754
+  ],
+  "bp": null,
+  "tgt": 13.0,
+  "stp": 11.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190925011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190925011",
+  "grade": "open"
+ },
+ {
+  "id": "NAMM-1793811439",
+  "ts_kst": "2026-11-05 01:57",
+  "ts_utc": "2026-11-04T16:57:19+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "NAMM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.0% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NAMM 장중 급등 포착",
+  "body": "$0.858 (+15.0%) · 정규장 · 레벨 2 · 점수 39\n$0.900 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.0% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 36%\n추천 매수가 $0.815 지정가(기준가 $0.858의 −5%) · 체결 가능성 약 58% · 손익분기 $0.825\n숏 지지구간 $0.700–$0.800 · 손절 $0.600 · 1차목표 $0.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8579,
+  "level": 2,
+  "score": 39.2,
+  "prob": 35.56475000988492,
+  "cp": 22.067710797788028,
+  "rl": 0.9,
+  "stop": 0.6000000000000001,
+  "zone": [
+   0.7000000000000001,
+   0.8
+  ],
+  "bp": 0.815,
+  "tgt": 0.9,
+  "stp": 0.6000000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250606002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250606002",
+  "grade": "open"
  }
 ]
