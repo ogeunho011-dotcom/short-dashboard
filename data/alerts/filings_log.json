@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BOW",
-  "form": "8-K",
-  "acc": "0001628280-26-069082",
-  "items": "2.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:08:01+00:00",
-  "accepted_kst": "11/03 22:08",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Current Report on Form 8-K. Item 9.01. Financial Statements and Exhibits. (d) Exhibits. Exhibit No. Description 99.1 Press release of Bowhead Specialty",
-  "url": "https://www.sec.gov/Archives/edgar/data/2002473/000162828026069082/0001628280-26-069082-index.htm",
-  "seen_kst": "2026-11-03 22:11"
- },
- {
   "ticker": "AVXL",
   "form": "8-K",
   "acc": "0001731122-26-001395",
@@ -8633,5 +8616,22 @@
   "headline": "to this Form 8-K and shall not be deemed to be “filed” for any purpose. Item 9.01 Financial Statements and Exhibits. Exhibit No. Description 99.1 Press release",
   "url": "https://www.sec.gov/Archives/edgar/data/1487952/000143774926034760/0001437749-26-034760-index.htm",
   "seen_kst": "2026-11-04 20:35"
+ },
+ {
+  "ticker": "FTCI",
+  "form": "8-K",
+  "acc": "0001193125-26-446154",
+  "items": "2.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:39:55+00:00",
+  "accepted_kst": "11/04 20:39",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FTC Solar Announces Third Quarter 2026 Financial Results Third Quarter Highlights and Recent Developments • Third quarter revenue up 25% q/q; profitability metr",
+  "url": "https://www.sec.gov/Archives/edgar/data/1828161/000119312526446154/0001193125-26-446154-index.htm",
+  "seen_kst": "2026-11-04 20:42"
  }
 ]
