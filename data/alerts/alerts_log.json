@@ -23065,5 +23065,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326057%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326057",
   "grade": "open"
+ },
+ {
+  "id": "TREE-1793817589",
+  "ts_kst": "2026-11-05 03:39",
+  "ts_utc": "2026-11-04T18:39:49+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "TREE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.1% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TREE 장중 급등 포착",
+  "body": "$38.375 (+32.1%) · 정규장 · 레벨 2 · 점수 40\n공매도 물량 대부분 손해 중, $41.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,404만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +32.1% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $38.000–$38.375 · 손절 $37.000 · 1차목표 $41.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 38.375,
+  "level": 2,
+  "score": 39.6,
+  "prob": 53.44827586206896,
+  "cp": 57.98800016408749,
+  "rl": 41.0,
+  "stop": 37.0,
+  "zone": [
+   38.0,
+   38.375
+  ],
+  "bp": null,
+  "tgt": 41.0,
+  "stp": 37.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20080812001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20080812001",
+  "grade": "open"
  }
 ]
