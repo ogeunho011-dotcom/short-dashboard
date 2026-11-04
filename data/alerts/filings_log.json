@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CBNK",
-  "form": "4",
-  "acc": "0001419536-26-000178",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T19:54:05+00:00",
-  "accepted_kst": "11/04 04:54",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1419536/000141953626000178/0001419536-26-000178-index.htm",
-  "seen_kst": "2026-11-04 04:57"
- },
- {
   "ticker": "JAGX",
   "form": "S-3/A",
   "acc": "0001193125-26-445132",
@@ -8637,5 +8620,24 @@
   "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers Ensy",
   "url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315226049906/0001493152-26-049906-index.htm",
   "seen_kst": "2026-11-05 02:49"
+ },
+ {
+  "ticker": "HELE",
+  "form": "8-K",
+  "acc": "0000916789-26-000141",
+  "items": "7.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T17:51:14+00:00",
+  "accepted_kst": "11/05 02:51",
+  "polarity": "pos",
+  "label": "피인수·합병(주당 가격 제시)",
+  "cats": [
+   "피인수·합병(주당 가격 제시)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "EX-99.1 2 ex-991finalhelepressrele.htm EX-99.1 PRESS RELEASE HELE Press Release Helen of Troy Confirms Rejection of Unsolicited, Non-Binding Proposal from Spect",
+  "url": "https://www.sec.gov/Archives/edgar/data/916789/000091678926000141/0000916789-26-000141-index.htm",
+  "seen_kst": "2026-11-05 02:52"
  }
 ]
