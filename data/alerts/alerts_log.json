@@ -22459,5 +22459,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210419014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210419014",
   "grade": "open"
+ },
+ {
+  "id": "THCH-1793812787",
+  "ts_kst": "2026-11-05 02:19",
+  "ts_utc": "2026-11-04T17:19:47+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "THCH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ THCH 장중 급등 포착",
+  "body": "$1.490 (+17.3%) · 정규장 · 레벨 2 · 점수 26\n공매도 물량 대부분 손해 중, $1.50 넘으면 급등 가능성 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +17.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 47%\n추천 매수가 $1.415 지정가(기준가 $1.490의 −5%) · 체결 가능성 약 38% · 손익분기 $1.432\n숏 지지구간 $1.400–$1.450 · 손절 $1.350 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.4899,
+  "level": 2,
+  "score": 25.9,
+  "prob": 46.8958508967733,
+  "cp": 60.317435096646726,
+  "rl": 1.4999999999999993,
+  "stop": 1.3499999999999994,
+  "zone": [
+   1.3999999999999995,
+   1.4499999999999995
+  ],
+  "bp": 1.4154,
+  "tgt": 1.4999999999999993,
+  "stp": 1.3499999999999994,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220929003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220929003",
+  "grade": "open"
+ },
+ {
+  "id": "SRTA-1793812787",
+  "ts_kst": "2026-11-05 02:19",
+  "ts_utc": "2026-11-04T17:19:47+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "SRTA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.3% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SRTA 장중 급등 포착",
+  "body": "$5.115 (+15.3%) · 정규장 · 레벨 1 · 점수 24\n$5.50 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파\n• 전일 대비 +15.3% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.859 지정가(기준가 $5.115의 −5%) · 체결 가능성 약 31% · 손익분기 $4.918\n숏 지지구간 $4.400–$4.650 · 손절 $4.300 · 1차목표 $5.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.115,
+  "level": 1,
+  "score": 23.8,
+  "prob": 53.44827586206896,
+  "cp": 44.65545951225421,
+  "rl": 5.499999999999996,
+  "stop": 4.3,
+  "zone": [
+   4.3999999999999995,
+   4.650249919891357
+  ],
+  "bp": 4.8592,
+  "tgt": 5.499999999999996,
+  "stp": 4.3,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210510002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210510002",
+  "grade": "open"
  }
 ]
