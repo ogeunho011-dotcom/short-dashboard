@@ -23106,5 +23106,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20080812001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20080812001",
   "grade": "open"
+ },
+ {
+  "id": "CMTG-1793818501",
+  "ts_kst": "2026-11-05 03:55",
+  "ts_utc": "2026-11-04T18:55:01+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "CMTG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +60.2% · 거래량 평소의 42.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CMTG 장중 급등 포착",
+  "body": "$1.810 (+60.2%) · 정규장 · 레벨 2 · 점수 33\n공매도 물량 대부분 손해 중, $2.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 33배 이상, 관심 급증\n• 전일 대비 +60.2% · 거래량 평소의 42.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.719 지정가(기준가 $1.810의 −5%) · 체결 가능성 약 40% · 손익분기 $1.740\n숏 지지구간 $1.800–$1.810 · 손절 $1.700 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.81,
+  "level": 2,
+  "score": 33.0,
+  "prob": 53.44827586206896,
+  "cp": 52.64841425816743,
+  "rl": 2.000000000000001,
+  "stop": 1.7000000000000006,
+  "zone": [
+   1.8000000000000007,
+   1.809999942779541
+  ],
+  "bp": 1.7195,
+  "tgt": 2.000000000000001,
+  "stp": 1.7000000000000006,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211102004",
+  "grade": "open"
+ },
+ {
+  "id": "ALIT-1793818501",
+  "ts_kst": "2026-11-05 03:55",
+  "ts_utc": "2026-11-04T18:55:01+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "ALIT",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +35.1% · 거래량 평소의 14.4배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ALIT 장중 급등 포착 · 상위 확률 신호",
+  "body": "$13.730 (+35.1%) · 정규장 · 레벨 3 · 점수 41\n$16.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 11배 이상, 관심 급증\n• 전일 대비 +35.1% · 거래량 평소의 14.4배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $13.043 지정가(기준가 $13.730의 −5%) · 체결 가능성 약 57% · 손익분기 $13.201\n숏 지지구간 $13.000–$13.730 · 손절 $12.000 · 1차목표 $16.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 13.73,
+  "level": 3,
+  "score": 40.9,
+  "prob": 53.44827586206896,
+  "cp": 35.29193235037248,
+  "rl": 16.0,
+  "stop": 12.0,
+  "zone": [
+   13.0,
+   13.729999542236328
+  ],
+  "bp": 13.0435,
+  "tgt": 16.0,
+  "stp": 12.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210706002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210706002",
+  "grade": "open"
  }
 ]
