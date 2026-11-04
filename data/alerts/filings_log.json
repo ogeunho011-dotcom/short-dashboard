@@ -2,23 +2,6 @@
  {
   "ticker": "CBNK",
   "form": "4",
-  "acc": "0001419536-26-000177",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T19:52:33+00:00",
-  "accepted_kst": "11/04 04:52",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1419536/000141953626000177/0001419536-26-000177-index.htm",
-  "seen_kst": "2026-11-04 04:54"
- },
- {
-  "ticker": "CBNK",
-  "form": "4",
   "acc": "0001419536-26-000178",
   "items": "",
   "filed": "2026-11-03",
@@ -8637,5 +8620,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1779128/000162828026069265/0001628280-26-069265-index.htm",
   "seen_kst": "2026-11-05 02:37"
+ },
+ {
+  "ticker": "ENSC",
+  "form": "8-K",
+  "acc": "0001493152-26-049906",
+  "items": "5.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T17:46:23+00:00",
+  "accepted_kst": "11/05 02:46",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers Ensy",
+  "url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315226049906/0001493152-26-049906-index.htm",
+  "seen_kst": "2026-11-05 02:49"
  }
 ]
