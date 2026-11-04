@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FUSE",
-  "form": "10-Q",
-  "acc": "0001493152-26-049667",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T00:45:51+00:00",
-  "accepted_kst": "11/03 09:45",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2033383/000149315226049667/0001493152-26-049667-index.htm",
-  "seen_kst": "2026-11-03 23:16"
- },
- {
   "ticker": "BAFN",
   "form": "8-K",
   "acc": "0001649739-26-000145",
@@ -8629,5 +8612,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1859199/000121390026115755/0001213900-26-115755-index.htm",
   "seen_kst": "2026-11-04 22:27"
+ },
+ {
+  "ticker": "OCGN",
+  "form": "8-K",
+  "acc": "0001104659-26-122401",
+  "items": "2.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T13:28:39+00:00",
+  "accepted_kst": "11/04 22:28",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Ocugen Provides Business Update with Third Quarter 2026 Financial Results Conference Call and Webcast Today at 8:30 a.m. ET · Received Provisional Approval and",
+  "url": "https://www.sec.gov/Archives/edgar/data/1372299/000110465926122401/0001104659-26-122401-index.htm",
+  "seen_kst": "2026-11-04 22:30"
  }
 ]
