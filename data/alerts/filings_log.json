@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CLVT",
-  "form": "8-K",
-  "acc": "0001764046-26-000125",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:04:52+00:00",
-  "accepted_kst": "11/03 22:04",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 ex991q32026earningsrelease.htm EX-99.1 1 Clarivate Reports Third Quarter 2026 Results, Delivering Clear Path to Value Creation — Improved recurring or",
-  "url": "https://www.sec.gov/Archives/edgar/data/1764046/000176404626000125/0001764046-26-000125-index.htm",
-  "seen_kst": "2026-11-03 22:09"
- },
- {
   "ticker": "BHR",
   "form": "8-K",
   "acc": "0001104659-26-121636",
@@ -8624,5 +8607,24 @@
   "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 3, 2026, Addentax Group Corp., a Nevada corporation (the “Company”), entered into a Share Exch",
   "url": "https://www.sec.gov/Archives/edgar/data/1650101/000149315226049861/0001493152-26-049861-index.htm",
   "seen_kst": "2026-11-04 20:12"
+ },
+ {
+  "ticker": "FLOC",
+  "form": "8-K",
+  "acc": "0001193125-26-446133",
+  "items": "2.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:15:18+00:00",
+  "accepted_kst": "11/04 20:15",
+  "polarity": "pos",
+  "label": "자사주 매입",
+  "cats": [
+   "자사주 매입"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Flowco Holdings Inc. Reports Third Quarter 2026 Results HOUSTON",
+  "url": "https://www.sec.gov/Archives/edgar/data/2035149/000119312526446133/0001193125-26-446133-index.htm",
+  "seen_kst": "2026-11-04 20:17"
  }
 ]
