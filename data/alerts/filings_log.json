@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "UTMD",
-  "form": "8-K",
-  "acc": "0001096906-26-001664",
-  "items": "8.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T17:58:10+00:00",
-  "accepted_kst": "11/04 02:58",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Utah Medical Products, Inc. Increases Quarterly Dividend Contact: Brian Koopman November 3, 2026 (801) 566-1200 Salt Lake City, Utah - Utah Medical Products, In",
-  "url": "https://www.sec.gov/Archives/edgar/data/706698/000109690626001664/0001096906-26-001664-index.htm",
-  "seen_kst": "2026-11-04 03:00"
- },
- {
   "ticker": "CCB",
   "form": "4",
   "acc": "0002005790-26-000030",
@@ -8641,5 +8624,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1538716/000153871626000119/0001538716-26-000119-index.htm",
   "seen_kst": "2026-11-05 00:05"
+ },
+ {
+  "ticker": "CLGN",
+  "form": "6-K",
+  "acc": "0001213900-26-115778",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T15:21:32+00:00",
+  "accepted_kst": "11/05 00:21",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "CollPlant Announces Proposed Name Change to OptiPhi Computing Reflecting Expansion to Computing with Light Proposed new identity reflects the Company’s strategi",
+  "url": "https://www.sec.gov/Archives/edgar/data/1631487/000121390026115778/0001213900-26-115778-index.htm",
+  "seen_kst": "2026-11-05 00:22"
  }
 ]
