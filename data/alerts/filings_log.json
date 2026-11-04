@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "TRBG",
-  "form": "6-K",
-  "acc": "0001213900-26-115164",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:27:42+00:00",
-  "accepted_kst": "11/03 22:27",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "TurboGen Completes Assembly of First TR2000 20kW Combined Heat and Power System for Use in Defense and Civilian Markets",
-  "url": "https://www.sec.gov/Archives/edgar/data/2088375/000121390026115164/0001213900-26-115164-index.htm",
-  "seen_kst": "2026-11-03 22:31"
- },
- {
-  "ticker": "PMN",
-  "form": "4",
-  "acc": "0001374339-26-000010",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:28:05+00:00",
-  "accepted_kst": "11/03 22:28",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $5,251 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Williams Eugene",
-  "url": "https://www.sec.gov/Archives/edgar/data/1374339/000137433926000010/0001374339-26-000010-index.htm",
-  "seen_kst": "2026-11-03 22:31"
- },
- {
   "ticker": "WAVE",
   "form": "6-K",
   "acc": "0001213900-26-115167",
@@ -8636,5 +8602,41 @@
   "headline": "1 Material Fact BRASILAGRO – COMPANHIA BRASILEIRA DE PROPRIEDADES AGRÍCOLAS Publicly-Held Company with Authorized Capital CNPJ/MF No. 07.628.528/0001-59 NIRE 35",
   "url": "https://www.sec.gov/Archives/edgar/data/1499849/000121390026115739/0001213900-26-115739-index.htm",
   "seen_kst": "2026-11-04 21:50"
+ },
+ {
+  "ticker": "BIVI",
+  "form": "424B5",
+  "acc": "0001520138-26-000450",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T12:50:26+00:00",
+  "accepted_kst": "11/04 21:50",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1580149/000152013826000450/0001520138-26-000450-index.htm",
+  "seen_kst": "2026-11-04 21:52"
+ },
+ {
+  "ticker": "LND",
+  "form": "6-K",
+  "acc": "0001213900-26-115741",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T12:51:49+00:00",
+  "accepted_kst": "11/04 21:51",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "1 São Paulo, November 3, 2026 – BrasilAgro (B3: AGRO3) (NYSE: LND) announces its consolidated results for the first quarter ended September 30, 2026 (\"1Q27\"). T",
+  "url": "https://www.sec.gov/Archives/edgar/data/1499849/000121390026115741/0001213900-26-115741-index.htm",
+  "seen_kst": "2026-11-04 21:52"
  }
 ]
