@@ -20709,5 +20709,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170124001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170124001",
   "grade": "open"
+ },
+ {
+  "id": "SPWR-1793805145",
+  "ts_kst": "2026-11-05 00:12",
+  "ts_utc": "2026-11-04T15:12:25+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "SPWR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.8% · 거래량 평소의 18.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SPWR 장중 급등 포착",
+  "body": "$0.266 (+16.8%) · 정규장 · 레벨 1 · 점수 14\n최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.8% · 거래량 평소의 18.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.246 지정가(20일선, 기준가 대비 -7.4%) · 체결 가능성 약 35% · 손익분기 $0.249\n숏 지지구간 $0.250–$0.266 · 손절 $0.200 · 1차목표 $0.400\n⚠ 희석 위험 100/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2657,
+  "level": 1,
+  "score": 13.7,
+  "prob": 45.01661129568107,
+  "cp": 18.699130625555235,
+  "rl": 0.39999999999999997,
+  "stop": 0.2,
+  "zone": [
+   0.25,
+   0.26570001244544983
+  ],
+  "bp": 0.2461,
+  "tgt": 0.39999999999999997,
+  "stp": 0.2,
+  "penalties": [
+   "희석 위험 100/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210419014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210419014",
+  "grade": "open"
+ },
+ {
+  "id": "PMCB-1793805145",
+  "ts_kst": "2026-11-05 00:12",
+  "ts_utc": "2026-11-04T15:12:25+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "PMCB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.5% · 거래량 평소의 27.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PMCB 장중 급등 포착",
+  "body": "$0.393 (+15.5%) · 정규장 · 레벨 1 · 점수 23\n$0.400 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,074만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.5% · 거래량 평소의 27.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $0.373 지정가(기준가 $0.393의 −5%) · 체결 가능성 약 58% · 손익분기 $0.378\n숏 지지구간 $0.380–$0.393 · 손절 $0.360 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3929,
+  "level": 1,
+  "score": 23.4,
+  "prob": 41.15942028985507,
+  "cp": 28.194909209333076,
+  "rl": 0.4000000000000001,
+  "stop": 0.36000000000000004,
+  "zone": [
+   0.38000000000000006,
+   0.3928999900817871
+  ],
+  "bp": 0.3733,
+  "tgt": 0.4000000000000001,
+  "stp": 0.36000000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210810004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210810004",
+  "grade": "open"
  }
 ]
