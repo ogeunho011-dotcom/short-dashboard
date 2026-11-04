@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MERC",
-  "form": "8-K",
-  "acc": "0001193125-26-444106",
-  "items": "1.01,7.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T01:43:33+00:00",
-  "accepted_kst": "11/03 10:43",
-  "polarity": "neutral",
-  "label": "중요 계약 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "For Immediate Release MERCER INTERNATIONAL ANNOUNCES COMPREHENSIVE RECAPITALIZATION AGREEMENT WITH SIGNIFICANT SUPPORT FROM NOTEHOLDERS AND SHAREHOLDERS The Com",
-  "url": "https://www.sec.gov/Archives/edgar/data/1333274/000119312526444106/0001193125-26-444106-index.htm",
-  "seen_kst": "2026-11-03 23:38"
- },
- {
   "ticker": "CMT",
   "form": "8-K",
   "acc": "0001026655-26-000072",
@@ -8631,5 +8614,24 @@
   "headline": "DEFSEC Receives Favorable ATF Classification for Arwen Micro Non-Lethal Irritant Launcher, Clearing Path to U.S. Civilian Market",
   "url": "https://www.sec.gov/Archives/edgar/data/1889823/000127956926001031/0001279569-26-001031-index.htm",
   "seen_kst": "2026-11-04 22:37"
+ },
+ {
+  "ticker": "AIRE",
+  "form": "8-K",
+  "acc": "0001213900-26-115759",
+  "items": "1.01,8.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T13:40:18+00:00",
+  "accepted_kst": "11/04 22:40",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "reAlpha Tech Corp. Announces Pricing of $1.75 Million Public Offering",
+  "url": "https://www.sec.gov/Archives/edgar/data/1859199/000121390026115759/0001213900-26-115759-index.htm",
+  "seen_kst": "2026-11-04 22:42"
  }
 ]
