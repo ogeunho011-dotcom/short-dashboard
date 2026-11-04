@@ -1,56 +1,5 @@
 [
  {
-  "ticker": "IBTA",
-  "form": "144",
-  "acc": "0001959173-26-007678",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T16:16:28+00:00",
-  "accepted_kst": "11/04 01:16",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1538379/000195917326007678/0001959173-26-007678-index.htm",
-  "seen_kst": "2026-11-04 01:23"
- },
- {
-  "ticker": "HELP",
-  "form": "3",
-  "acc": "0000912282-26-001414",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T18:27:35+00:00",
-  "accepted_kst": "11/03 03:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1833141/000091228226001414/0000912282-26-001414-index.htm",
-  "seen_kst": "2026-11-04 01:26"
- },
- {
-  "ticker": "FRD",
-  "form": "4",
-  "acc": "0001437749-26-034571",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T16:22:54+00:00",
-  "accepted_kst": "11/04 01:22",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926034571/0001437749-26-034571-index.htm",
-  "seen_kst": "2026-11-04 01:26"
- },
- {
   "ticker": "FRD",
   "form": "4",
   "acc": "0001437749-26-034572",
@@ -8634,5 +8583,61 @@
   "headline": "Vox Royalty Provides Update & Timeline for Assets Entering Production DENVER, CO / November 4, 2026 / Vox Royalty Corp. (NASDAQ: VOXR ) (TSX: VOXR ) (“ Vox ” or",
   "url": "https://www.sec.gov/Archives/edgar/data/1907909/000165495426009495/0001654954-26-009495-index.htm",
   "seen_kst": "2026-11-04 23:04"
+ },
+ {
+  "ticker": "EVAX",
+  "form": "6-K",
+  "acc": "0001171843-26-007102",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:05:04+00:00",
+  "accepted_kst": "11/04 23:05",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Note: Regulation S-T Rule 101(b)(1)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1828253/000117184326007102/0001171843-26-007102-index.htm",
+  "seen_kst": "2026-11-04 23:07"
+ },
+ {
+  "ticker": "LYEL",
+  "form": "8-K",
+  "acc": "0001193125-26-446317",
+  "items": "3.02",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:05:07+00:00",
+  "accepted_kst": "11/04 23:05",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 3.02 Unregistered Sales of Equity Securities. On November 3, 2026, Lyell Immunopharma, Inc., a Delaware corporation (the “Company”), entered into a Securit",
+  "url": "https://www.sec.gov/Archives/edgar/data/1806952/000119312526446317/0001193125-26-446317-index.htm",
+  "seen_kst": "2026-11-04 23:07"
+ },
+ {
+  "ticker": "CDT",
+  "form": "424B3",
+  "acc": "0001493152-26-049891",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:05:36+00:00",
+  "accepted_kst": "11/04 23:05",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1896212/000149315226049891/0001493152-26-049891-index.htm",
+  "seen_kst": "2026-11-04 23:07"
  }
 ]
