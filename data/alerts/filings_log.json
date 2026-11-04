@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CARE",
-  "form": "8-K",
-  "acc": "0001829576-26-000094",
-  "items": "7.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T16:34:37+00:00",
-  "accepted_kst": "11/04 01:34",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 7.01 and shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934 (the “Exchange Act”), or otherwise subject to",
-  "url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000094/0001829576-26-000094-index.htm",
-  "seen_kst": "2026-11-04 01:38"
- },
- {
   "ticker": "NYAX",
   "form": "4",
   "acc": "0001976408-26-000930",
@@ -8641,5 +8624,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1668243/000143774926034780/0001437749-26-034780-index.htm",
   "seen_kst": "2026-11-04 23:20"
+ },
+ {
+  "ticker": "CLVT",
+  "form": "8-K",
+  "acc": "0000950103-26-016908",
+  "items": "8.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:19:54+00:00",
+  "accepted_kst": "11/04 23:19",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Clarivate Commences Offers to Purchase for Cash Certain of its Outstanding Debt Securities",
+  "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326016908/0000950103-26-016908-index.htm",
+  "seen_kst": "2026-11-04 23:22"
  }
 ]
