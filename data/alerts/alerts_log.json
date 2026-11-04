@@ -15226,7 +15226,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20040805001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20040805001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.13234408602150538,
+  "graded_bars": 1
  },
  {
   "id": "UFG-1793717623",
@@ -17320,7 +17323,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20040805001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20040805001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.15298162729658793,
+  "graded_bars": 1
  },
  {
   "id": "SRTS-1793730966",
@@ -21045,6 +21051,171 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230426003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230426003",
+  "grade": "open"
+ },
+ {
+  "id": "KPTI-1793806354",
+  "ts_kst": "2026-11-05 00:32",
+  "ts_utc": "2026-11-04T15:32:34+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "KPTI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.0% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KPTI 장중 급등 포착",
+  "body": "$0.109 (+20.0%) · 정규장 · 레벨 2 · 점수 35\n최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 전일 대비 +20.0% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.103 지정가(기준가 $0.109의 −5%) · 체결 가능성 약 85% · 손익분기 $0.104\n숏 지지구간 $0.076–$0.109 · 손절 $0.054 · 1차목표 $0.163\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1086,
+  "level": 2,
+  "score": 34.8,
+  "prob": 31.25,
+  "cp": 29.678186,
+  "rl": 1.0,
+  "stop": 0.05429999902844429,
+  "zone": [
+   0.076019998639822,
+   0.10859999805688858
+  ],
+  "bp": 0.1032,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20131105002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20131105002",
+  "grade": "n/a"
+ },
+ {
+  "id": "XCH-1793806354",
+  "ts_kst": "2026-11-05 00:32",
+  "ts_utc": "2026-11-04T15:32:34+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "XCH",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 51%)"
+  ],
+  "title": "🚀 XCH 상위 확률 신호",
+  "body": "$5.980 (+18.2%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $7.00 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 검증 모델 상위 신호 (보정확률 51%)\n10일 내 셋업 성공 확률(보정): 51%\n추천 매수가 $5.681 지정가(기준가 $5.980의 −5%) · 체결 가능성 약 69% · 손익분기 $5.750\n숏 지지구간 $4.000–$5.000 · 손절 $3.000 · 1차목표 $7.000\n⚠ 역분할 2026-08-21\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.98,
+  "level": 3,
+  "score": 40.4,
+  "prob": 50.562395904499446,
+  "cp": 59.27538166102063,
+  "rl": 7.0,
+  "stop": 3.0,
+  "zone": [
+   4.0,
+   5.0
+  ],
+  "bp": 5.681,
+  "tgt": 7.0,
+  "stp": 3.0,
+  "penalties": [
+   "역분할 2026-08-21"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240910009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240910009",
+  "grade": "open"
+ },
+ {
+  "id": "NIPG-1793806354",
+  "ts_kst": "2026-11-05 00:32",
+  "ts_utc": "2026-11-04T15:32:34+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "NIPG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.2% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NIPG 장중 급등 포착",
+  "body": "$4.490 (+18.2%) · 정규장 · 레벨 1 · 점수 24\n뚜렷한 신호 없음, 지켜보기\n• 전일 대비 +18.2% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $4.160 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.4%) · 체결 가능성 약 69% · 손익분기 $4.210\n숏 지지구간 $4.000–$4.490 · 손절 $2.245 · 1차목표 $10.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.49,
+  "level": 1,
+  "score": 24.5,
+  "prob": 21.428571428571427,
+  "cp": 26.581807706532526,
+  "rl": 10.0,
+  "stop": 2.244999885559082,
+  "zone": [
+   4.0,
+   4.489999771118164
+  ],
+  "bp": 4.1597,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240726001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240726001",
+  "grade": "n/a"
+ },
+ {
+  "id": "BJDX-1793806354",
+  "ts_kst": "2026-11-05 00:32",
+  "ts_utc": "2026-11-04T15:32:34+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "BJDX",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +17.5% · 거래량 평소의 10.7배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 11k (당일 평균 17.2배)"
+  ],
+  "title": "🚀 BJDX 장중 급등 포착 · 거래량 급증",
+  "body": "$2.550 (+17.5%) · 정규장 · 레벨 3 · 점수 40\n시장에 도는 주식 447만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +17.5% · 거래량 평소의 10.7배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 11k (당일 평균 17.2배)\n10일 내 셋업 성공 확률(보정): 26%\n추천 매수가 $2.422 지정가(기준가 $2.550의 −5%) · 체결 가능성 약 65% · 손익분기 $2.452\n숏 지지구간 $1.841–$2.341 · 손절 $1.341 · 1차목표 $4.500\n⚠ 역분할 2026-11-03\n⚠ 최근 악재 공시: 8-K 역분할 (11/04)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.55,
+  "level": 3,
+  "score": 40.2,
+  "prob": 25.52490656862255,
+  "cp": 22.26905040019043,
+  "rl": 4.5,
+  "stop": 1.3408000469207764,
+  "zone": [
+   1.8408000469207764,
+   2.3408000469207764
+  ],
+  "bp": 2.4225,
+  "tgt": 4.5,
+  "stp": 1.3408000469207764,
+  "penalties": [
+   "역분할 2026-11-03",
+   "최근 악재 공시: 8-K 역분할 (11/04)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211110005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211110005",
   "grade": "open"
  }
 ]
