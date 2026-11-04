@@ -8425,10 +8425,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220124003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220124003",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 3,
+  "grade_ret": 0.045105131114272286,
+  "graded_bars": 3
  },
  {
   "id": "IVF-1793375651",
@@ -17207,7 +17207,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200918002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.2750485936494942,
+  "graded_bars": 1
  },
  {
   "id": "MERC-1793730966",
@@ -18248,7 +18251,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200918002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.27070588235294113,
+  "graded_bars": 1
  },
  {
   "id": "MTW-fil-0001193125-26-445304",
@@ -21336,6 +21342,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2608012004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2608012004",
+  "grade": "open"
+ },
+ {
+  "id": "EHTH-1793807533",
+  "ts_kst": "2026-11-05 00:52",
+  "ts_utc": "2026-11-04T15:52:13+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "EHTH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.6% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EHTH 장중 급등 포착",
+  "body": "$0.674 (+15.6%) · 정규장 · 레벨 1 · 점수 11\n$0.800 넘으면 공매도 되사기 압박 ↑ · $1 미만, 상장폐지 주의\n• 전일 대비 +15.6% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.640 지정가(기준가 $0.674의 −5%) · 체결 가능성 약 52% · 손익분기 $0.648\n숏 지지구간 $0.600–$0.674 · 손절 $0.500 · 1차목표 $0.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6737,
+  "level": 1,
+  "score": 11.3,
+  "prob": 38.456237077877326,
+  "cp": 32.280351007029225,
+  "rl": 0.7999999999999999,
+  "stop": 0.5,
+  "zone": [
+   0.6,
+   0.6736999750137329
+  ],
+  "bp": 0.64,
+  "tgt": 0.7999999999999999,
+  "stp": 0.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20061013001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20061013001",
   "grade": "open"
  }
 ]
