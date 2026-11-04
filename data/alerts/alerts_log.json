@@ -18666,5 +18666,46 @@
    "accepted_kst": "11/04 07:41",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "CRIS-1793783091",
+  "ts_kst": "2026-11-04 18:04",
+  "ts_utc": "2026-11-04T09:04:51+00:00",
+  "date_et": "2026-11-04",
+  "session": "pre",
+  "ticker": "CRIS",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +56.0%"
+  ],
+  "title": "🚀 CRIS 프리마켓 갭",
+  "body": "$1.079 (+56.0%) · 프리마켓 · 레벨 3 · 점수 43\n시장에 도는 주식 209만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중\n• 프리마켓 갭 +56.0%\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.011 지정가(60일선, 기준가 대비 -6.3%) · 체결 가능성 약 69% · 손익분기 $1.023\n숏 지지구간 $1.000–$1.079 · 손절 $0.540 · 1차목표 $2.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.0792,
+  "level": 3,
+  "score": 43.3,
+  "prob": 45.01661129568107,
+  "cp": 26.103741139113094,
+  "rl": 2.0,
+  "stop": 0.5396,
+  "zone": [
+   1.0,
+   1.0792
+  ],
+  "bp": 1.0107,
+  "tgt": 2.0,
+  "stp": 0.5396,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
+  "grade": "open"
  }
 ]
