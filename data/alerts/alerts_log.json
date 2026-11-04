@@ -19426,5 +19426,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210426005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210426005",
   "grade": "open"
+ },
+ {
+  "id": "CHSN-1793798410",
+  "ts_kst": "2026-11-04 22:20",
+  "ts_utc": "2026-11-04T13:20:10+00:00",
+  "date_et": "2026-11-04",
+  "session": "pre",
+  "ticker": "CHSN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.1% 급변 · 전일 대비 +13.1% — 추격 매수 주의"
+  ],
+  "title": "⚡ CHSN 장중 급등 포착",
+  "body": "$3.813 (+13.1%) · 프리마켓 · 레벨 1 · 점수 20\n공매도 물량 대부분 손해 중, $4.25 넘으면 급등 가능성 ↑\n• 5분 +12.1% 급변 · 전일 대비 +13.1% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $3.622 지정가(기준가 $3.813의 −5%) · 체결 가능성 약 68% · 손익분기 $3.666\n숏 지지구간 $3.750–$3.813 · 손절 $3.500 · 1차목표 $4.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.8126,
+  "level": 1,
+  "score": 19.8,
+  "prob": 38.456237077877326,
+  "cp": 74.15176752302946,
+  "rl": 4.25,
+  "stop": 3.5,
+  "zone": [
+   3.75,
+   3.8126
+  ],
+  "bp": 3.622,
+  "tgt": 4.25,
+  "stp": 3.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230329001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230329001",
+  "grade": "open"
  }
 ]
