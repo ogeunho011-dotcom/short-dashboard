@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NKSH",
-  "form": "8-K",
-  "acc": "0001193125-26-445013",
-  "items": "7.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T19:00:16+00:00",
-  "accepted_kst": "11/04 04:00",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 nksh-ex99_1.htm EX-99.1 NATIONAL BANKSHARES, INC. Q3 2026 Investor Presentation Results for the three and nine months ended September 30, 2026 NASDAQ:",
-  "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526445013/0001193125-26-445013-index.htm",
-  "seen_kst": "2026-11-04 04:02"
- },
- {
   "ticker": "JAGX",
   "form": "8-K",
   "acc": "0001193125-26-445055",
@@ -8639,5 +8622,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1111485/000119312526445501/0001193125-26-445501-index.htm",
   "seen_kst": "2026-11-05 01:27"
+ },
+ {
+  "ticker": "TVGN",
+  "form": "8-K",
+  "acc": "0001493152-26-049903",
+  "items": "5.02",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T16:50:13+00:00",
+  "accepted_kst": "11/05 01:50",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
+  "url": "https://www.sec.gov/Archives/edgar/data/1860871/000149315226049903/0001493152-26-049903-index.htm",
+  "seen_kst": "2026-11-05 01:52"
  }
 ]
