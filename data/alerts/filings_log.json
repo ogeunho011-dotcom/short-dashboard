@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "YOUL",
-  "form": "424B5",
-  "acc": "0001213900-26-115379",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T18:44:26+00:00",
-  "accepted_kst": "11/04 03:44",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028177/000121390026115379/0001213900-26-115379-index.htm",
-  "seen_kst": "2026-11-04 03:45"
- },
- {
   "ticker": "SAFT",
   "form": "8-K",
   "acc": "0001172052-26-000026",
@@ -8641,5 +8622,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1130144/000113014426000066/0001130144-26-000066-index.htm",
   "seen_kst": "2026-11-05 01:22"
+ },
+ {
+  "ticker": "UMH",
+  "form": "4",
+  "acc": "0000752642-26-000133",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T16:23:13+00:00",
+  "accepted_kst": "11/05 01:23",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $19,578 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Mitchell William Edward",
+  "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000133/0000752642-26-000133-index.htm",
+  "seen_kst": "2026-11-05 01:24"
  }
 ]
