@@ -23912,5 +23912,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2605020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2605020001",
   "grade": "open"
+ },
+ {
+  "id": "ARRY-1793822752",
+  "ts_kst": "2026-11-05 05:05",
+  "ts_utc": "2026-11-04T20:05:52+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "ARRY",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ARRY 장중 급등 포착 · 상위 확률 신호",
+  "body": "$5.395 (+15.8%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $6.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 8배 이상, 관심 급증\n• 전일 대비 +15.8% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.126 지정가(기준가 $5.395의 −5%) · 체결 가능성 약 43% · 손익분기 $5.187\n숏 지지구간 $5.000–$5.250 · 손절 $4.750 · 1차목표 $6.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.3953,
+  "level": 3,
+  "score": 44.2,
+  "prob": 53.44827586206896,
+  "cp": 54.84087095238911,
+  "rl": 6.0,
+  "stop": 4.75,
+  "zone": [
+   5.0,
+   5.25
+  ],
+  "bp": 5.1255,
+  "tgt": 6.0,
+  "stp": 4.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201014001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201014001",
+  "grade": "open"
  }
 ]
