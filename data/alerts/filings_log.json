@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PAMT",
-  "form": "8-K",
-  "acc": "0001437749-26-034598",
-  "items": "2.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T18:22:34+00:00",
-  "accepted_kst": "11/04 03:22",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "hereto shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), or incorporated by refere",
-  "url": "https://www.sec.gov/Archives/edgar/data/798287/000143774926034598/0001437749-26-034598-index.htm",
-  "seen_kst": "2026-11-04 03:26"
- },
- {
   "ticker": "CAL",
   "form": "4",
   "acc": "0000014707-26-000166",
@@ -8641,5 +8624,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1820721/000119312526446487/0001193125-26-446487-index.htm",
   "seen_kst": "2026-11-05 00:44"
+ },
+ {
+  "ticker": "HMN",
+  "form": "4",
+  "acc": "0001214659-26-013718",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T15:46:47+00:00",
+  "accepted_kst": "11/05 00:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/850141/000121465926013718/0001214659-26-013718-index.htm",
+  "seen_kst": "2026-11-05 00:49"
  }
 ]
