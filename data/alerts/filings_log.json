@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CMTV",
-  "form": "4",
-  "acc": "0001654954-26-009444",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T16:02:55+00:00",
-  "accepted_kst": "11/04 01:02",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $21,492 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Caldwell Christopher L.",
-  "url": "https://www.sec.gov/Archives/edgar/data/718413/000165495426009444/0001654954-26-009444-index.htm",
-  "seen_kst": "2026-11-04 01:06"
- },
- {
   "ticker": "IBTA",
   "form": "144",
   "acc": "0001959173-26-007678",
@@ -8634,5 +8617,22 @@
   "headline": "Laser Photonics Announces Name Change to LASE Corp. Rebranding supports a simpler corporate structure and prioritizes defense growth",
   "url": "https://www.sec.gov/Archives/edgar/data/1807887/000149315226049890/0001493152-26-049890-index.htm",
   "seen_kst": "2026-11-04 23:02"
+ },
+ {
+  "ticker": "VOXR",
+  "form": "6-K",
+  "acc": "0001654954-26-009495",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:03:31+00:00",
+  "accepted_kst": "11/04 23:03",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Vox Royalty Provides Update & Timeline for Assets Entering Production DENVER, CO / November 4, 2026 / Vox Royalty Corp. (NASDAQ: VOXR ) (TSX: VOXR ) (“ Vox ” or",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907909/000165495426009495/0001654954-26-009495-index.htm",
+  "seen_kst": "2026-11-04 23:04"
  }
 ]
