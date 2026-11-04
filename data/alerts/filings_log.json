@@ -2,23 +2,6 @@
  {
   "ticker": "TRTX",
   "form": "4",
-  "acc": "0001193125-26-444482",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T14:00:05+00:00",
-  "accepted_kst": "11/03 23:00",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $32,600 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Smith Michael Bradley",
-  "url": "https://www.sec.gov/Archives/edgar/data/1630472/000119312526444482/0001193125-26-444482-index.htm",
-  "seen_kst": "2026-11-03 23:01"
- },
- {
-  "ticker": "TRTX",
-  "form": "4",
   "acc": "0001193125-26-444483",
   "items": "",
   "filed": "2026-11-03",
@@ -8632,5 +8615,22 @@
   "headline": "Jasper Therapeutics Announces 1-for-30 Reverse Stock Split",
   "url": "https://www.sec.gov/Archives/edgar/data/1788028/000121390026115751/0001213900-26-115751-index.htm",
   "seen_kst": "2026-11-04 22:15"
+ },
+ {
+  "ticker": "NCEL",
+  "form": "6-K",
+  "acc": "0001213900-26-115753",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T13:16:07+00:00",
+  "accepted_kst": "11/04 22:16",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NewcelX Enters into Binding Term Sheet to Divest Legacy Mazindol Portfolio (CVR), Providing for Upfront Cash, Equity Ownership and Up to $55 Million in Potentia",
+  "url": "https://www.sec.gov/Archives/edgar/data/1783036/000121390026115753/0001213900-26-115753-index.htm",
+  "seen_kst": "2026-11-04 22:17"
  }
 ]
