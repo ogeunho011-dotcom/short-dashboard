@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FRD",
-  "form": "4",
-  "acc": "0001437749-26-034572",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T16:23:15+00:00",
-  "accepted_kst": "11/04 01:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/39092/000143774926034572/0001437749-26-034572-index.htm",
-  "seen_kst": "2026-11-04 01:26"
- },
- {
   "ticker": "HELP",
   "form": "6-K",
   "acc": "0001062993-26-005696",
@@ -8639,5 +8622,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1896212/000149315226049891/0001493152-26-049891-index.htm",
   "seen_kst": "2026-11-04 23:07"
+ },
+ {
+  "ticker": "LXFR",
+  "form": "8-K",
+  "acc": "0002077096-26-000300",
+  "items": "5.07,8.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T14:06:52+00:00",
+  "accepted_kst": "11/04 23:06",
+  "polarity": "pos",
+  "label": "피인수·합병(주당 가격 제시)",
+  "cats": [
+   "피인수·합병(주당 가격 제시)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "LUXFER SHAREHOLDERS APPROVE ACQUISITION",
+  "url": "https://www.sec.gov/Archives/edgar/data/1096056/000207709626000300/0002077096-26-000300-index.htm",
+  "seen_kst": "2026-11-04 23:10"
  }
 ]
