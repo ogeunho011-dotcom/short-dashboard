@@ -1,26 +1,5 @@
 [
  {
-  "ticker": "KPTI",
-  "form": "8-K",
-  "acc": "0001193125-26-444164",
-  "items": "1.01,1.03,2.03,2.04,7.01,8.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T02:58:15+00:00",
-  "accepted_kst": "11/03 11:58",
-  "polarity": "neg",
-  "label": "파산·청산",
-  "cats": [],
-  "negs": [
-   "파산·청산",
-   "파산(항목 1.03)",
-   "채무 가속(항목 2.04)"
-  ],
-  "strength": 0,
-  "headline": "Certain portions of this exhibit have been omitted pursuant to Item 601 of Regulation S-K. Information that was omitted has been noted in this document with a p",
-  "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526444164/0001193125-26-444164-index.htm",
-  "seen_kst": "2026-11-03 20:06"
- },
- {
   "ticker": "CMCL",
   "form": "6-K",
   "acc": "0001683168-26-008248",
@@ -8624,5 +8603,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1932737/000121390026115706/0001213900-26-115706-index.htm",
   "seen_kst": "2026-11-04 20:07"
+ },
+ {
+  "ticker": "TBLA",
+  "form": "10-Q",
+  "acc": "0001840502-26-000018",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:07:45+00:00",
+  "accepted_kst": "11/04 20:07",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840502/000184050226000018/0001840502-26-000018-index.htm",
+  "seen_kst": "2026-11-04 20:09"
  }
 ]
