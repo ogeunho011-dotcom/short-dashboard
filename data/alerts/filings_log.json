@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GOOD",
-  "form": "10-Q",
-  "acc": "0001234006-26-000024",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:01:41+00:00",
-  "accepted_kst": "11/04 06:01",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1234006/000123400626000024/0001234006-26-000024-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
   "ticker": "KFRC",
   "form": "4",
   "acc": "0000930420-26-000076",
@@ -8633,5 +8616,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034879/0001437749-26-034879-index.htm",
   "seen_kst": "2026-11-05 04:31"
+ },
+ {
+  "ticker": "VIR",
+  "form": "4",
+  "acc": "0001628280-26-070025",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T19:56:12+00:00",
+  "accepted_kst": "11/05 04:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026070025/0001628280-26-070025-index.htm",
+  "seen_kst": "2026-11-05 04:58"
  }
 ]
