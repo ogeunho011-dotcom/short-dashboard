@@ -23992,5 +23992,50 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240905004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240905004",
   "grade": "open"
+ },
+ {
+  "id": "ACEL-1793823508",
+  "ts_kst": "2026-11-05 05:18",
+  "ts_utc": "2026-11-04T20:18:28+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "ACEL",
+  "types": [
+   "spike",
+   "prob",
+   "cover",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +15.7% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 72/100",
+   "5분 거래량 53k (당일 평균 6.3배)"
+  ],
+  "title": "🚀 ACEL 장중 급등 포착 · 상위 확률 신호 · 커버 압력 · 거래량 급증",
+  "body": "$13.740 (+15.7%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $13.75 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +15.7% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 72/100\n• 5분 거래량 53k (당일 평균 6.3배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $13.250–$13.500 · 손절 $13.000 · 1차목표 $13.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 13.74,
+  "level": 3,
+  "score": 40.2,
+  "prob": 53.44827586206896,
+  "cp": 72.46286886717384,
+  "rl": 13.75,
+  "stop": 13.0,
+  "zone": [
+   13.25,
+   13.5
+  ],
+  "bp": null,
+  "tgt": 15.812499999999998,
+  "stp": 13.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191121003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191121003",
+  "grade": "open"
  }
 ]

@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "MTW",
-  "form": "8-K",
-  "acc": "0001193125-26-445304",
-  "items": "2.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:02:21+00:00",
-  "accepted_kst": "11/04 06:02",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "The Manitowoc Company Reports Strong Third-Quarter 2026 Results; Raises Full Year Guidance Third-Quarter 2026 Highlights • Orders of $676.4 million, up 37.6% ye",
-  "url": "https://www.sec.gov/Archives/edgar/data/61986/000119312526445304/0001193125-26-445304-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
-  "ticker": "TSLX",
-  "form": "10-Q",
-  "acc": "0001193125-26-445299",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:02:24+00:00",
-  "accepted_kst": "11/04 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1508655/000119312526445299/0001193125-26-445299-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
   "ticker": "TRNS",
   "form": "8-K",
   "acc": "0001628280-26-069453",
@@ -8633,5 +8597,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1098151/000143774926034890/0001437749-26-034890-index.htm",
   "seen_kst": "2026-11-05 05:13"
+ },
+ {
+  "ticker": "EBMT",
+  "form": "4",
+  "acc": "0001437749-26-034892",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T20:15:28+00:00",
+  "accepted_kst": "11/05 05:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1478454/000143774926034892/0001437749-26-034892-index.htm",
+  "seen_kst": "2026-11-05 05:18"
+ },
+ {
+  "ticker": "EBMT",
+  "form": "4",
+  "acc": "0001437749-26-034894",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T20:18:02+00:00",
+  "accepted_kst": "11/05 05:18",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1478454/000143774926034894/0001437749-26-034894-index.htm",
+  "seen_kst": "2026-11-05 05:18"
  }
 ]
