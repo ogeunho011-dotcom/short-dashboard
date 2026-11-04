@@ -22537,5 +22537,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210510002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210510002",
   "grade": "open"
+ },
+ {
+  "id": "LAW-1793812944",
+  "ts_kst": "2026-11-05 02:22",
+  "ts_utc": "2026-11-04T17:22:24+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "LAW",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.3% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LAW 장중 급등 포착",
+  "body": "$6.190 (+19.3%) · 정규장 · 레벨 2 · 점수 30\n공매도 물량 대부분 손해 중, $6.39 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +19.3% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.881 지정가(기준가 $6.190의 −5%) · 체결 가능성 약 29% · 손익분기 $5.951\n숏 지지구간 $4.750–$5.000 · 손절 $4.500 · 1차목표 $6.385\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.19,
+  "level": 2,
+  "score": 30.0,
+  "prob": 53.44827586206896,
+  "cp": 77.13954562709907,
+  "rl": 6.385000228881836,
+  "stop": 4.5,
+  "zone": [
+   4.75,
+   5.0
+  ],
+  "bp": 5.8805,
+  "tgt": 6.385000228881836,
+  "stp": 4.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210720007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210720007",
+  "grade": "open"
  }
 ]
