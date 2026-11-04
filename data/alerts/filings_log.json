@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TRVG",
-  "form": "6-K",
-  "acc": "0001683825-26-000042",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:00:26+00:00",
-  "accepted_kst": "11/04 06:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Operating and Financial Review DÜSSELDORF, GERMANY - November 3, 2026 – trivago N.V. (NASDAQ: TRVG) (the “Company”, “we,” “us,” “our,” or “trivago,”) announced",
-  "url": "https://www.sec.gov/Archives/edgar/data/1683825/000168382526000042/0001683825-26-000042-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
   "ticker": "REED",
   "form": "8-K",
   "acc": "0001493152-26-049780",
@@ -8634,5 +8617,22 @@
   "headline": "Miles Christen Brooke",
   "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034863/0001437749-26-034863-index.htm",
   "seen_kst": "2026-11-05 04:16"
+ },
+ {
+  "ticker": "GABC",
+  "form": "8-K",
+  "acc": "0000714395-26-000043",
+  "items": "7.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T19:17:12+00:00",
+  "accepted_kst": "11/05 04:17",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "is the information that will be provided to meeting participants. Such information is incorporated herein by reference. The information in this Item 7.01, inclu",
+  "url": "https://www.sec.gov/Archives/edgar/data/714395/000071439526000043/0000714395-26-000043-index.htm",
+  "seen_kst": "2026-11-05 04:18"
  }
 ]
