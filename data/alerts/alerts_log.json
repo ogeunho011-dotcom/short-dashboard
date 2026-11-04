@@ -16051,7 +16051,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200918002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.37040677966101687,
+  "graded_bars": 1
  },
  {
   "id": "CRIS-1793722827",
@@ -20424,6 +20427,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230725003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230725003",
+  "grade": "open"
+ },
+ {
+  "id": "STEM-1793804410",
+  "ts_kst": "2026-11-05 00:00",
+  "ts_utc": "2026-11-04T15:00:10+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "STEM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ STEM 장중 급등 포착",
+  "body": "$2.720 (+16.2%) · 정규장 · 레벨 1 · 점수 22\n$2.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 963만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.2% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $2.584 지정가(기준가 $2.720의 −5%) · 체결 가능성 약 65% · 손익분기 $2.615\n숏 지지구간 $2.000–$2.252 · 손절 $1.750 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.72,
+  "level": 1,
+  "score": 21.5,
+  "prob": 38.456237077877326,
+  "cp": 40.66121258783597,
+  "rl": 2.75,
+  "stop": 1.75,
+  "zone": [
+   2.0,
+   2.2520000100135804
+  ],
+  "bp": 2.584,
+  "tgt": 2.75,
+  "stp": 1.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210429010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210429010",
   "grade": "open"
  }
 ]
