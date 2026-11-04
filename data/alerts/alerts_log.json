@@ -22907,5 +22907,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250401010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250401010",
   "grade": "n/a"
+ },
+ {
+  "id": "LMB-1793816089",
+  "ts_kst": "2026-11-05 03:14",
+  "ts_utc": "2026-11-04T18:14:49+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "LMB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.5% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LMB 장중 급등 포착",
+  "body": "$57.600 (+15.5%) · 정규장 · 레벨 2 · 점수 38\n공매도 물량 대부분 손해 중, $58.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,192만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +15.5% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $54.720 지정가(기준가 $57.600의 −5%) · 체결 가능성 약 29% · 손익분기 $55.381\n숏 지지구간 $54.000–$56.000 · 손절 $52.000 · 1차목표 $58.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 57.6,
+  "level": 2,
+  "score": 37.7,
+  "prob": 53.44827586206896,
+  "cp": 59.91962356253707,
+  "rl": 58.0,
+  "stop": 52.0,
+  "zone": [
+   54.0,
+   56.0
+  ],
+  "bp": 54.72,
+  "tgt": 58.0,
+  "stp": 52.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161116001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161116001",
+  "grade": "open"
  }
 ]
