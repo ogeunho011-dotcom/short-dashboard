@@ -1,56 +1,5 @@
 [
  {
-  "ticker": "CMCL",
-  "form": "6-K",
-  "acc": "0001683168-26-008248",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T11:00:06+00:00",
-  "accepted_kst": "11/03 20:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Caledonia Mining Corporation Plc Notice of Q3 2026 Results and Investor Presentation (NYSE AMERICAN, AIM and VFEX: CMCL) St Helier, November 3, 2026 - Caledonia",
-  "url": "https://www.sec.gov/Archives/edgar/data/766011/000168316826008248/0001683168-26-008248-index.htm",
-  "seen_kst": "2026-11-03 22:06"
- },
- {
-  "ticker": "PAX",
-  "form": "6-K",
-  "acc": "0001628280-26-069064",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:05:34+00:00",
-  "accepted_kst": "11/03 22:05",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Press release dated November 3, 2026 – Patria Reports Third Quarter 2026 Earnings Results. 99.2 Patria 2026 3Q Earnings Presentation.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1825570/000162828026069064/0001628280-26-069064-index.htm",
-  "seen_kst": "2026-11-03 22:06"
- },
- {
-  "ticker": "CNL",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0001172661-26-004789",
-  "items": "",
-  "filed": "2026-11-02",
-  "accepted": "2026-11-02T14:05:53+00:00",
-  "accepted_kst": "11/02 23:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1953575/000117266126004789/0001172661-26-004789-index.htm",
-  "seen_kst": "2026-11-03 22:09"
- },
- {
   "ticker": "CLVT",
   "form": "8-K",
   "acc": "0001764046-26-000125",
@@ -8620,5 +8569,60 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1840502/000184050226000018/0001840502-26-000018-index.htm",
   "seen_kst": "2026-11-04 20:09"
+ },
+ {
+  "ticker": "TSQ",
+  "form": "10-Q",
+  "acc": "0001628280-26-069765",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:08:50+00:00",
+  "accepted_kst": "11/04 20:08",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1499832/000162828026069765/0001628280-26-069765-index.htm",
+  "seen_kst": "2026-11-04 20:12"
+ },
+ {
+  "ticker": "NWGL",
+  "form": "6-K",
+  "acc": "0001493152-26-049860",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:10:07+00:00",
+  "accepted_kst": "11/04 20:10",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "CL Workshop Group Limited Announces Plan to Implement ADS Ratio Change Hong Kong, November 4, 2026 (PRNewswire ) – CL Workshop Group Limited (NASDAQ: NWGL) (the",
+  "url": "https://www.sec.gov/Archives/edgar/data/1948294/000149315226049860/0001493152-26-049860-index.htm",
+  "seen_kst": "2026-11-04 20:12"
+ },
+ {
+  "ticker": "ATXG",
+  "form": "8-K",
+  "acc": "0001493152-26-049861",
+  "items": "1.01,3.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:10:21+00:00",
+  "accepted_kst": "11/04 20:10",
+  "polarity": "neg",
+  "label": "미등록 주식 발행(사모)(항목 3.02)",
+  "cats": [],
+  "negs": [
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 3, 2026, Addentax Group Corp., a Nevada corporation (the “Company”), entered into a Share Exch",
+  "url": "https://www.sec.gov/Archives/edgar/data/1650101/000149315226049861/0001493152-26-049861-index.htm",
+  "seen_kst": "2026-11-04 20:12"
  }
 ]
