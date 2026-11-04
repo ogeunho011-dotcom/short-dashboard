@@ -23225,5 +23225,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210825004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210825004",
   "grade": "open"
+ },
+ {
+  "id": "CRCT-1793818945",
+  "ts_kst": "2026-11-05 04:02",
+  "ts_utc": "2026-11-04T19:02:25+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "CRCT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +48.3% · 거래량 평소의 10.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CRCT 장중 급등 포착",
+  "body": "$8.860 (+48.3%) · 정규장 · 레벨 2 · 점수 35\n공매도 물량 대부분 손해 중, $9.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 8배 이상, 관심 급증\n• 전일 대비 +48.3% · 거래량 평소의 10.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $8.750–$8.860 · 손절 $8.500 · 1차목표 $9.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.86,
+  "level": 2,
+  "score": 35.2,
+  "prob": 53.44827586206896,
+  "cp": 70.12170779934216,
+  "rl": 9.25,
+  "stop": 8.5,
+  "zone": [
+   8.75,
+   8.859999656677246
+  ],
+  "bp": null,
+  "tgt": 9.25,
+  "stp": 8.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210324003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210324003",
+  "grade": "open"
  }
 ]
