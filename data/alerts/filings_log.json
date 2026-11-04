@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CAL",
-  "form": "4",
-  "acc": "0000014707-26-000166",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T18:23:33+00:00",
-  "accepted_kst": "11/04 03:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/14707/000001470726000166/0000014707-26-000166-index.htm",
-  "seen_kst": "2026-11-04 03:26"
- },
- {
   "ticker": "OGI",
   "form": "6-K",
   "acc": "0001628280-26-069317",
@@ -8641,5 +8624,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/850141/000121465926013718/0001214659-26-013718-index.htm",
   "seen_kst": "2026-11-05 00:49"
+ },
+ {
+  "ticker": "SVM",
+  "form": "6-K/A",
+  "acc": "0001279569-26-001033",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T16:05:24+00:00",
+  "accepted_kst": "11/05 01:05",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001033/0001279569-26-001033-index.htm",
+  "seen_kst": "2026-11-05 01:07"
  }
 ]
