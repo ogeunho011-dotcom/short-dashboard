@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SSTK",
-  "form": "4",
-  "acc": "0002043233-26-000010",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T17:54:20+00:00",
-  "accepted_kst": "11/04 02:54",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1549346/000204323326000010/0002043233-26-000010-index.htm",
-  "seen_kst": "2026-11-04 02:57"
- },
- {
   "ticker": "HRTX",
   "form": "4",
   "acc": "0001193125-26-444847",
@@ -8641,5 +8624,22 @@
   "headline": "EX-99.1 2 hyft-ex99_1.htm EX-99.1 99.1 MindWalk Announces Agreement with Teva Australia to Support Defined Antibody-Discovery Workflows Multi-year agreement cov",
   "url": "https://www.sec.gov/Archives/edgar/data/1715925/000119312526446412/0001193125-26-446412-index.htm",
   "seen_kst": "2026-11-04 23:52"
+ },
+ {
+  "ticker": "MCRB",
+  "form": "10-Q",
+  "acc": "0001193125-26-446427",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T15:00:36+00:00",
+  "accepted_kst": "11/05 00:00",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1609809/000119312526446427/0001193125-26-446427-index.htm",
+  "seen_kst": "2026-11-05 00:02"
  }
 ]

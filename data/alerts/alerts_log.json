@@ -2733,7 +2733,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20151111001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20151111001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 4,
+  "grade_ret": -0.07948242811501605,
+  "graded_bars": 4
  },
  {
   "id": "DKI-1793281654",
@@ -20466,6 +20469,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210429010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210429010",
+  "grade": "open"
+ },
+ {
+  "id": "ANGI-1793804559",
+  "ts_kst": "2026-11-05 00:02",
+  "ts_utc": "2026-11-04T15:02:39+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "ANGI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.0% · 거래량 평소의 5.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ANGI 장중 급등 포착",
+  "body": "$7.150 (+27.0%) · 정규장 · 레벨 1 · 점수 21\n공매도 물량 대부분 손해 중, $7.32 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +27.0% · 거래량 평소의 5.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.793 지정가(기준가 $7.150의 −5%) · 체결 가능성 약 40% · 손익분기 $6.875\n숏 지지구간 $6.500–$6.750 · 손절 $6.250 · 1차목표 $7.324\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.15,
+  "level": 1,
+  "score": 21.4,
+  "prob": 53.443332448887915,
+  "cp": 70.91645389935788,
+  "rl": 7.323999881744385,
+  "stop": 6.25,
+  "zone": [
+   6.5,
+   6.75
+  ],
+  "bp": 6.7925,
+  "tgt": 7.323999881744385,
+  "stp": 6.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20111117001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20111117001",
   "grade": "open"
  }
 ]
