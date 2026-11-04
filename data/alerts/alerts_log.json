@@ -19551,5 +19551,46 @@
    "accepted_kst": "11/04 23:06",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "VCIG-1793802005",
+  "ts_kst": "2026-11-04 23:20",
+  "ts_utc": "2026-11-04T14:20:05+00:00",
+  "date_et": "2026-11-04",
+  "session": "pre",
+  "ticker": "VCIG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.0% 급변 · 전일 대비 +24.2% — 추격 매수 주의"
+  ],
+  "title": "⚡ VCIG 장중 급등 포착",
+  "body": "$7.066 (+24.2%) · 프리마켓 · 레벨 1 · 점수 19\n공매도 물량 대부분 손해 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +12.0% 급변 · 전일 대비 +24.2% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $6.712 지정가(기준가 $7.066의 −5%) · 체결 가능성 약 73% · 손익분기 $6.793\n숏 지지구간 $6.000–$7.066 · 손절 $4.000 · 1차목표 $12.000\n⚠ 역분할 2026-08-24\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.0655,
+  "level": 1,
+  "score": 19.4,
+  "prob": 18.993839835728956,
+  "cp": 57.85974896538665,
+  "rl": 12.0,
+  "stop": 4.0,
+  "zone": [
+   6.0,
+   7.0655
+  ],
+  "bp": 6.7122,
+  "tgt": 12.0,
+  "stp": 4.0,
+  "penalties": [
+   "역분할 2026-08-24"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230322006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230322006",
+  "grade": "open"
  }
 ]
