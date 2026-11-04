@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "AEON",
-  "form": "424B3",
-  "acc": "0001837607-26-000082",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:43:08+00:00",
-  "accepted_kst": "11/03 22:43",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1837607/000183760726000082/0001837607-26-000082-index.htm",
-  "seen_kst": "2026-11-03 22:44"
- },
- {
   "ticker": "SMWB",
   "form": "6-K",
   "acc": "0001842731-26-000052",
@@ -8630,5 +8611,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1227636/000110465926122380/0001104659-26-122380-index.htm",
   "seen_kst": "2026-11-04 22:02"
+ },
+ {
+  "ticker": "TRIN",
+  "form": "10-Q",
+  "acc": "0001193125-26-446245",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T13:02:05+00:00",
+  "accepted_kst": "11/04 22:02",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1786108/000119312526446245/0001193125-26-446245-index.htm",
+  "seen_kst": "2026-11-04 22:05"
  }
 ]
