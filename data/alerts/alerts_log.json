@@ -23953,5 +23953,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201014001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201014001",
   "grade": "open"
+ },
+ {
+  "id": "PMAX-1793822898",
+  "ts_kst": "2026-11-05 05:08",
+  "ts_utc": "2026-11-04T20:08:18+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "PMAX",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)"
+  ],
+  "title": "🚀 PMAX 상위 확률 신호",
+  "body": "$0.980 (+47.4%) · 정규장 · 레벨 4 · 점수 60\n$1.10 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 102만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 48%)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.909 지정가(60일선, 기준가 대비 -7.3%) · 체결 가능성 약 44% · 손익분기 $0.920\n숏 지지구간 $0.800–$0.900 · 손절 $0.700 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.9801,
+  "level": 4,
+  "score": 60.0,
+  "prob": 48.38638597281092,
+  "cp": 45.084985271030924,
+  "rl": 1.0999999999999999,
+  "stop": 0.7,
+  "zone": [
+   0.7999999999999999,
+   0.8999999999999999
+  ],
+  "bp": 0.909,
+  "tgt": 1.0999999999999999,
+  "stp": 0.7,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240905004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240905004",
+  "grade": "open"
  }
 ]
