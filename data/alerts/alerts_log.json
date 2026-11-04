@@ -24397,5 +24397,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250205003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250205003",
   "grade": "n/a"
+ },
+ {
+  "id": "MPU-1793825908",
+  "ts_kst": "2026-11-05 05:58",
+  "ts_utc": "2026-11-04T20:58:28+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "MPU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.7% · 거래량 평소의 4.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MPU 장중 급등 포착",
+  "body": "$1.470 (+15.7%) · 정규장 · 레벨 2 · 점수 27\n갭 상승 후 버티는 중\n• 전일 대비 +15.7% · 거래량 평소의 4.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $1.397 지정가(기준가 $1.470의 −5%) · 체결 가능성 약 76% · 손익분기 $1.413\n숏 지지구간 $1.250–$1.470 · 손절 $1.125 · 1차목표 $2.500\n⚠ 역분할 2026-09-16\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.47,
+  "level": 2,
+  "score": 26.9,
+  "prob": 28.643216080402006,
+  "cp": 22.795115387655912,
+  "rl": 2.5,
+  "stop": 1.125,
+  "zone": [
+   1.25,
+   1.4700000286102295
+  ],
+  "bp": 1.3965,
+  "tgt": 2.5,
+  "stp": 1.125,
+  "penalties": [
+   "역분할 2026-09-16"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230206001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230206001",
+  "grade": "open"
  }
 ]
