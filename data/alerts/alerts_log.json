@@ -22985,5 +22985,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000609001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000609001",
   "grade": "open"
+ },
+ {
+  "id": "STIM-1793817297",
+  "ts_kst": "2026-11-05 03:34",
+  "ts_utc": "2026-11-04T18:34:57+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "STIM",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +24.3% · 거래량 평소의 8.1배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 STIM 장중 급등 포착 · 상위 확률 신호",
+  "body": "$2.810 (+24.3%) · 정규장 · 레벨 3 · 점수 45\n$3.30 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +24.3% · 거래량 평소의 8.1배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.669 지정가(기준가 $2.810의 −5%) · 체결 가능성 약 48% · 손익분기 $2.702\n숏 지지구간 $2.700–$2.800 · 손절 $2.600 · 1차목표 $3.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.81,
+  "level": 3,
+  "score": 44.7,
+  "prob": 53.44827586206896,
+  "cp": 48.399891889626545,
+  "rl": 3.300000000000002,
+  "stop": 2.6000000000000014,
+  "zone": [
+   2.7000000000000015,
+   2.8000000000000016
+  ],
+  "bp": 2.6695,
+  "tgt": 3.300000000000002,
+  "stp": 2.6000000000000014,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180627002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180627002",
+  "grade": "open"
  }
 ]
