@@ -1,42 +1,5 @@
 [
  {
-  "ticker": "REED",
-  "form": "8-K",
-  "acc": "0001493152-26-049780",
-  "items": "1.01,3.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:00:32+00:00",
-  "accepted_kst": "11/04 06:00",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry Into a Material Definitive Agreement. On October 28, 2026, Reed’s, Inc., a Delaware corporation (the “ Company ”), entered into a securities pur",
-  "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226049780/0001493152-26-049780-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
-  "ticker": "KTCC",
-  "form": "8-K",
-  "acc": "0000719733-26-000043",
-  "items": "2.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:00:33+00:00",
-  "accepted_kst": "11/04 06:00",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "CONTACTS: Tony Voorhees Michael Newman Chief Financial Officer Investor Relations Key Tronic Corporation StreetConnect (509)-927-5345 (206) 729-3625 KEY TRONIC",
-  "url": "https://www.sec.gov/Archives/edgar/data/719733/000071973326000043/0000719733-26-000043-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
   "ticker": "CXDO",
   "form": "8-K",
   "acc": "0001654954-26-009477",
@@ -8634,5 +8597,39 @@
   "headline": "is the information that will be provided to meeting participants. Such information is incorporated herein by reference. The information in this Item 7.01, inclu",
   "url": "https://www.sec.gov/Archives/edgar/data/714395/000071439526000043/0000714395-26-000043-index.htm",
   "seen_kst": "2026-11-05 04:18"
+ },
+ {
+  "ticker": "RGCO",
+  "form": "5",
+  "acc": "0001437749-26-034865",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T19:20:30+00:00",
+  "accepted_kst": "11/05 04:20",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034865/0001437749-26-034865-index.htm",
+  "seen_kst": "2026-11-05 04:23"
+ },
+ {
+  "ticker": "RGCO",
+  "form": "5",
+  "acc": "0001437749-26-034867",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T19:22:09+00:00",
+  "accepted_kst": "11/05 04:22",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034867/0001437749-26-034867-index.htm",
+  "seen_kst": "2026-11-05 04:23"
  }
 ]
