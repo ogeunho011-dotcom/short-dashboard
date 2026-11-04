@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "KFRC",
-  "form": "4",
-  "acc": "0000930420-26-000076",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:02:06+00:00",
-  "accepted_kst": "11/04 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000076/0000930420-26-000076-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
   "ticker": "MTW",
   "form": "8-K",
   "acc": "0001193125-26-445304",
@@ -8633,5 +8616,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026070025/0001628280-26-070025-index.htm",
   "seen_kst": "2026-11-05 04:58"
+ },
+ {
+  "ticker": "FDBC",
+  "form": "4",
+  "acc": "0001437749-26-034890",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T20:11:45+00:00",
+  "accepted_kst": "11/05 05:11",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1098151/000143774926034890/0001437749-26-034890-index.htm",
+  "seen_kst": "2026-11-05 05:13"
  }
 ]
