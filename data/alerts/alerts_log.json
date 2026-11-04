@@ -24957,5 +24957,177 @@
    "accepted_kst": "11/05 06:13",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "OPK-fil-0001193125-26-447357",
+  "ts_kst": "2026-11-05 06:56",
+  "ts_utc": "2026-11-04T21:56:41+00:00",
+  "date_et": "2026-11-04",
+  "session": "filing",
+  "ticker": "OPK",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 제휴·라이선스"
+  ],
+  "title": "📢 OPK 호재 공시",
+  "body": "8-K · 제휴·라이선스 (11/05 06:24 KST)\nEX-99.1 2 opk-ex99_1.htm EX-99.1 OPKO Health Reports Third Quarter 2026 Business Highlights and Financial Results Conference Call to Begin T\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160624001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160624001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-447357",
+   "items": "2.02,9.01",
+   "label": "제휴·라이선스",
+   "cats": [
+    "제휴·라이선스"
+   ],
+   "strength": 4,
+   "headline": "EX-99.1 2 opk-ex99_1.htm EX-99.1 OPKO Health Reports Third Quarter 2026 Business Highlights and Financial Results Conference Call to Begin Today at 4:30 p.m.",
+   "url": "https://www.sec.gov/Archives/edgar/data/944809/000119312526447357/0001193125-26-447357-index.htm",
+   "accepted_kst": "11/05 06:24",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "INVA-fil-0001193125-26-447366",
+  "ts_kst": "2026-11-05 06:56",
+  "ts_utc": "2026-11-04T21:56:41+00:00",
+  "date_et": "2026-11-04",
+  "session": "filing",
+  "ticker": "INVA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 INVA 호재 공시",
+  "body": "8-K · 자사주 매입 (11/05 06:25 KST)\nInnoviva Reports Third Quarter 2026 Financial Results; Highlights Recent Company Progress Innoviva Specialty Therapeutics commercial momentu\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160111001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160111001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-447366",
+   "items": "2.02,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "Innoviva Reports Third Quarter 2026 Financial Results; Highlights Recent Company Progress Innoviva Specialty Therapeutics commercial momentum continues with $43",
+   "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526447366/0001193125-26-447366-index.htm",
+   "accepted_kst": "11/05 06:25",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "LILA-fil-0001712184-26-000159",
+  "ts_kst": "2026-11-05 06:56",
+  "ts_utc": "2026-11-04T21:56:41+00:00",
+  "date_et": "2026-11-04",
+  "session": "filing",
+  "ticker": "LILA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 LILA 호재 공시",
+  "body": "8-K · 자사주 매입 (11/05 06:43 KST)\nLiberty Latin America Reports Q3 2026 Results 56,000 postpaid and broadband net adds in Q3 Operating Income of $181 million; 3% Adjusted OIB\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150706003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150706003",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001712184-26-000159",
+   "items": "2.02,7.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "Liberty Latin America Reports Q3 2026 Results 56,000 postpaid and broadband net adds in Q3 Operating Income of $181 million; 3% Adjusted OIBDA rebased YoY growt",
+   "url": "https://www.sec.gov/Archives/edgar/data/1712184/000171218426000159/0001712184-26-000159-index.htm",
+   "accepted_kst": "11/05 06:43",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "CBL-fil-0001193125-26-447517",
+  "ts_kst": "2026-11-05 06:56",
+  "ts_utc": "2026-11-04T21:56:41+00:00",
+  "date_et": "2026-11-04",
+  "session": "filing",
+  "ticker": "CBL",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 CBL 호재 공시",
+  "body": "8-K · 자사주 매입 (11/05 06:51 KST)\nNews Release Investor Contact: Katie Reinsmidt, Executive Vice President & Chief Operating Officer, 423.490.8301, Katie.Reinsmidt@cblpropert\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211103003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211103003",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-447517",
+   "items": "8.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "News Release Investor Contact: Katie Reinsmidt, Executive Vice President & Chief Operating Officer, 423.490.8301, Katie.Reinsmidt@cblproperties.com CBL PROPERTI",
+   "url": "https://www.sec.gov/Archives/edgar/data/910612/000119312526447517/0001193125-26-447517-index.htm",
+   "accepted_kst": "11/05 06:51",
+   "polarity": "pos"
+  }
  }
 ]
