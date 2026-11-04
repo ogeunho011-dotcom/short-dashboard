@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "OBAI",
-  "form": "8-K",
-  "acc": "0001493152-26-049711",
-  "items": "1.01,3.02,5.03,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:16:32+00:00",
-  "accepted_kst": "11/03 22:16",
-  "polarity": "neg",
-  "label": "미등록 주식 발행(사모)(항목 3.02)",
-  "cats": [],
-  "negs": [
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. Amended and Restated Series G Preferred Stock Designation In connection with the conversion and exchange a",
-  "url": "https://www.sec.gov/Archives/edgar/data/1756064/000149315226049711/0001493152-26-049711-index.htm",
-  "seen_kst": "2026-11-03 22:19"
- },
- {
   "ticker": "STAK",
   "form": "6-K",
   "acc": "0001493152-26-049712",
@@ -8638,5 +8619,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1831651/000183165126000123/0001831651-26-000123-index.htm",
   "seen_kst": "2026-11-04 21:20"
+ },
+ {
+  "ticker": "LAW",
+  "form": "8-K",
+  "acc": "0001625641-26-000191",
+  "items": "2.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T12:21:28+00:00",
+  "accepted_kst": "11/04 21:21",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "hereto, shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), or otherwise subject to",
+  "url": "https://www.sec.gov/Archives/edgar/data/1625641/000162564126000191/0001625641-26-000191-index.htm",
+  "seen_kst": "2026-11-04 21:22"
  }
 ]
