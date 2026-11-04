@@ -18707,5 +18707,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
   "grade": "open"
+ },
+ {
+  "id": "NWGL-1793787587",
+  "ts_kst": "2026-11-04 19:19",
+  "ts_utc": "2026-11-04T10:19:47+00:00",
+  "date_et": "2026-11-04",
+  "session": "pre",
+  "ticker": "NWGL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.0% 급변 · 전일 대비 +17.0% — 추격 매수 주의"
+  ],
+  "title": "⚡ NWGL 장중 급등 포착",
+  "body": "$0.066 (+17.0%) · 프리마켓 · 레벨 2 · 점수 25\n최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +12.0% 급변 · 전일 대비 +17.0% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 10%\n추천 매수가 $0.070 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +6.4%) · 체결 가능성 약 85% · 손익분기 $0.071\n숏 지지구간 $0.046–$0.066 · 손절 $0.033 · 1차목표 $0.098\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0655,
+  "level": 2,
+  "score": 25.2,
+  "prob": 9.943138068249704,
+  "cp": 4.660934299362701,
+  "rl": 0.2,
+  "stop": 0.03275,
+  "zone": [
+   0.04585,
+   0.0655
+  ],
+  "bp": 0.0697,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230912005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230912005",
+  "grade": "n/a"
  }
 ]
