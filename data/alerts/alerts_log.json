@@ -21499,5 +21499,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210729012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210729012",
   "grade": "open"
+ },
+ {
+  "id": "VRAX-1793809343",
+  "ts_kst": "2026-11-05 01:22",
+  "ts_utc": "2026-11-04T16:22:23+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "VRAX",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +31.8% · 거래량 평소의 214.3배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 964k (당일 평균 14.3배)"
+  ],
+  "title": "🚀 VRAX 장중 급등 포착 · 거래량 급증",
+  "body": "$1.450 (+31.8%) · 정규장 · 레벨 3 · 점수 47\n시장에 도는 주식 58만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 전일 대비 +31.8% · 거래량 평소의 214.3배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 964k (당일 평균 14.3배)\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $1.425 지정가(20일선, 기준가 대비 -1.7%) · 체결 가능성 약 83% · 손익분기 $1.442\n숏 지지구간 $1.000–$1.450 · 손절 $0.725 · 1차목표 $2.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.45,
+  "level": 3,
+  "score": 46.9,
+  "prob": 24.587706146926536,
+  "cp": 6.209939737512235,
+  "rl": 2.5,
+  "stop": 0.7250000238418579,
+  "zone": [
+   1.0,
+   1.4500000476837158
+  ],
+  "bp": 1.4247,
+  "tgt": 2.5,
+  "stp": 0.7250000238418579,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713007",
+  "grade": "open"
  }
 ]

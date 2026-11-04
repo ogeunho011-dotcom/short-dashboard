@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OGI",
-  "form": "6-K",
-  "acc": "0001628280-26-069317",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T18:38:16+00:00",
-  "accepted_kst": "11/04 03:38",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "X ] SUBMITTED HEREWITH Exhibits 99.1 News Release dated November 3, 2026 SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the regi",
-  "url": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026069317/0001628280-26-069317-index.htm",
-  "seen_kst": "2026-11-04 03:39"
- },
- {
   "ticker": "YOUL",
   "form": "424B5",
   "acc": "0001213900-26-115379",
@@ -8641,5 +8624,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001033/0001279569-26-001033-index.htm",
   "seen_kst": "2026-11-05 01:07"
+ },
+ {
+  "ticker": "BSRR",
+  "form": "4",
+  "acc": "0001130144-26-000066",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T16:21:11+00:00",
+  "accepted_kst": "11/05 01:21",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1130144/000113014426000066/0001130144-26-000066-index.htm",
+  "seen_kst": "2026-11-05 01:22"
  }
 ]
