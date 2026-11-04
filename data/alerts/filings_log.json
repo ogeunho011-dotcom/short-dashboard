@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ARVN",
-  "form": "8-K",
-  "acc": "0001628280-26-069101",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:09:30+00:00",
-  "accepted_kst": "11/03 22:09",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "This presentation contains forward-looking statements within the meaning of The Private Securities Litigation Reform Act of 1995 that involve substantial risks",
-  "url": "https://www.sec.gov/Archives/edgar/data/1655759/000162828026069101/0001628280-26-069101-index.htm",
-  "seen_kst": "2026-11-03 22:11"
- },
- {
   "ticker": "DTIL",
   "form": "10-Q",
   "acc": "0001628280-26-069092",
@@ -8631,5 +8614,24 @@
   "headline": "Appendix Page 1 Adient plc Condensed Consolidated Statements of Income (Loss) (Unaudited) Three Months Ended September 30, Twelve Months Ended September 30, (in",
   "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054126000114/0001670541-26-000114-index.htm",
   "seen_kst": "2026-11-04 20:52"
+ },
+ {
+  "ticker": "ADNT",
+  "form": "8-K",
+  "acc": "0001670541-26-000115",
+  "items": "1.01,3.03,7.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T11:52:09+00:00",
+  "accepted_kst": "11/04 20:52",
+  "polarity": "neg",
+  "label": "주주 권리 변경(역분할 등)(항목 3.03)",
+  "cats": [],
+  "negs": [
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. The information set forth under Item 3.03 of this Current Report on Form 8-K is hereby incorporated into t",
+  "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054126000115/0001670541-26-000115-index.htm",
+  "seen_kst": "2026-11-04 20:55"
  }
 ]
