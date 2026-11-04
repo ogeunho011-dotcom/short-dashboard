@@ -21256,5 +21256,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210203006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210203006",
   "grade": "open"
+ },
+ {
+  "id": "SLQT-1793807078",
+  "ts_kst": "2026-11-05 00:44",
+  "ts_utc": "2026-11-04T15:44:38+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "SLQT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.6% · 거래량 평소의 11.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SLQT 장중 급등 포착",
+  "body": "$0.498 (+18.6%) · 정규장 · 레벨 2 · 점수 25\n$0.600 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 전일 대비 +18.6% · 거래량 평소의 11.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.479 지정가(60일선, 기준가 대비 -3.8%) · 체결 가능성 약 61% · 손익분기 $0.485\n숏 지지구간 $0.450–$0.498 · 손절 $0.400 · 1차목표 $0.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4976,
+  "level": 2,
+  "score": 25.4,
+  "prob": 47.808764940239065,
+  "cp": 32.79322389111985,
+  "rl": 0.6,
+  "stop": 0.4,
+  "zone": [
+   0.45,
+   0.4975999891757965
+  ],
+  "bp": 0.4789,
+  "tgt": 0.6,
+  "stp": 0.4,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200521002",
+  "grade": "open"
  }
 ]

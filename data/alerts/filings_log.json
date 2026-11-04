@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GWRS",
-  "form": "4",
-  "acc": "0001628280-26-069303",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T18:19:58+00:00",
-  "accepted_kst": "11/04 03:19",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1434728/000162828026069303/0001628280-26-069303-index.htm",
-  "seen_kst": "2026-11-04 03:22"
- },
- {
   "ticker": "PAMT",
   "form": "8-K",
   "acc": "0001437749-26-034598",
@@ -8641,5 +8624,22 @@
   "headline": "ARRAY Technologies and Shoals Technologies Group Announce Transformative Merger, Creating an Integrated Energy Infrastructure Platform • Combines market-leading",
   "url": "https://www.sec.gov/Archives/edgar/data/1820721/000119312526446483/0001193125-26-446483-index.htm",
   "seen_kst": "2026-11-05 00:42"
+ },
+ {
+  "ticker": "ARRY",
+  "form": "425",
+  "acc": "0001193125-26-446487",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T15:41:49+00:00",
+  "accepted_kst": "11/05 00:41",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1820721/000119312526446487/0001193125-26-446487-index.htm",
+  "seen_kst": "2026-11-05 00:44"
  }
 ]
