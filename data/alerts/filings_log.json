@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ADIL",
-  "form": "4",
-  "acc": "0001104659-26-121891",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T19:30:23+00:00",
-  "accepted_kst": "11/04 04:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1513525/000110465926121891/0001104659-26-121891-index.htm",
-  "seen_kst": "2026-11-04 04:31"
- },
- {
   "ticker": "XELB",
   "form": "DEF 14A",
   "acc": "0001104659-26-121584",
@@ -8637,5 +8620,22 @@
   "headline": "Carus Jeffrey A",
   "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000134/0000752642-26-000134-index.htm",
   "seen_kst": "2026-11-05 02:12"
+ },
+ {
+  "ticker": "CBLL",
+  "form": "4",
+  "acc": "0001193125-26-446677",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T17:22:57+00:00",
+  "accepted_kst": "11/05 02:22",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1861107/000119312526446677/0001193125-26-446677-index.htm",
+  "seen_kst": "2026-11-05 02:24"
  }
 ]

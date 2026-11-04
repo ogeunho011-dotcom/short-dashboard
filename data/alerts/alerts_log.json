@@ -22576,5 +22576,126 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210720007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210720007",
   "grade": "open"
+ },
+ {
+  "id": "CHSN-1793813096",
+  "ts_kst": "2026-11-05 02:24",
+  "ts_utc": "2026-11-04T17:24:56+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "CHSN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.8% · 거래량 평소의 18.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CHSN 장중 급등 포착",
+  "body": "$4.375 (+29.8%) · 정규장 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중, $5.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 16배 이상, 관심 급증\n• 전일 대비 +29.8% · 거래량 평소의 18.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $4.156 지정가(기준가 $4.375의 −5%) · 체결 가능성 약 68% · 손익분기 $4.206\n숏 지지구간 $4.250–$4.375 · 손절 $4.000 · 1차목표 $5.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.375,
+  "level": 3,
+  "score": 50.8,
+  "prob": 47.808764940239065,
+  "cp": 68.33000117616422,
+  "rl": 5.25,
+  "stop": 4.0,
+  "zone": [
+   4.25,
+   4.375
+  ],
+  "bp": 4.1562,
+  "tgt": 5.25,
+  "stp": 4.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230329001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230329001",
+  "grade": "open"
+ },
+ {
+  "id": "ADV-1793813096",
+  "ts_kst": "2026-11-05 02:24",
+  "ts_utc": "2026-11-04T17:24:56+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "ADV",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.6% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ADV 장중 급등 포착",
+  "body": "$36.940 (+27.6%) · 정규장 · 레벨 2 · 점수 28\n$42.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,282만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +27.6% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $35.093 지정가(기준가 $36.940의 −5%) · 체결 가능성 약 46% · 손익분기 $35.517\n숏 지지구간 $36.000–$36.940 · 손절 $34.000 · 1차목표 $42.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 36.94,
+  "level": 2,
+  "score": 27.8,
+  "prob": 53.13429927844779,
+  "cp": 54.02617399973572,
+  "rl": 42.0,
+  "stop": 34.0,
+  "zone": [
+   36.0,
+   36.939998626708984
+  ],
+  "bp": 35.093,
+  "tgt": 42.0,
+  "stp": 34.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201029001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201029001",
+  "grade": "open"
+ },
+ {
+  "id": "AIMD-1793813096",
+  "ts_kst": "2026-11-05 02:24",
+  "ts_utc": "2026-11-04T17:24:56+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "AIMD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.1% · 거래량 평소의 7.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AIMD 장중 급등 포착",
+  "body": "$0.770 (+24.1%) · 정규장 · 레벨 1 · 점수 22\n$0.800 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 738만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +24.1% · 거래량 평소의 7.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.703 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -8.7%) · 체결 가능성 약 54% · 손익분기 $0.712\n숏 지지구간 $0.600–$0.700 · 손절 $0.550 · 1차목표 $0.800\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.77,
+  "level": 1,
+  "score": 21.8,
+  "prob": 28.814414353814914,
+  "cp": 23.333090125006148,
+  "rl": 0.7999999999999999,
+  "stop": 0.5499999999999999,
+  "zone": [
+   0.6,
+   0.7
+  ],
+  "bp": 0.7031,
+  "tgt": 0.7999999999999999,
+  "stp": 0.5499999999999999,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220809005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220809005",
+  "grade": "open"
  }
 ]
