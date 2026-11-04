@@ -15067,7 +15067,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326031%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326031",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "HUBC-1793716448",
@@ -22696,6 +22699,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220809005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220809005",
+  "grade": "open"
+ },
+ {
+  "id": "FTCI-1793813245",
+  "ts_kst": "2026-11-05 02:27",
+  "ts_utc": "2026-11-04T17:27:25+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "FTCI",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +15.2% · 거래량 평소의 913.9배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 FTCI 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.670 (+15.2%) · 정규장 · 레벨 3 · 점수 41\n$2.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,646만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.2% · 거래량 평소의 913.9배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.562 지정가(20일선, 기준가 대비 -6.5%) · 체결 가능성 약 48% · 손익분기 $1.581\n숏 지지구간 $1.500–$1.670 · 손절 $1.375 · 1차목표 $2.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.67,
+  "level": 3,
+  "score": 41.2,
+  "prob": 53.044541117498,
+  "cp": 25.793629238105705,
+  "rl": 2.25,
+  "stop": 1.375,
+  "zone": [
+   1.5,
+   1.6699999570846558
+  ],
+  "bp": 1.562,
+  "tgt": 2.25,
+  "stp": 1.375,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210426005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210426005",
   "grade": "open"
  }
 ]
