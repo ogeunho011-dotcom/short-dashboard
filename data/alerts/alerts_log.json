@@ -21622,5 +21622,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201014001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201014001",
   "grade": "open"
+ },
+ {
+  "id": "MTVA-1793810236",
+  "ts_kst": "2026-11-05 01:37",
+  "ts_utc": "2026-11-04T16:37:16+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "MTVA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.0% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MTVA 장중 급등 포착",
+  "body": "$1.415 (+15.0%) · 정규장 · 레벨 1 · 점수 21\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 659만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +15.0% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.344 지정가(기준가 $1.415의 −5%) · 체결 가능성 약 55% · 손익분기 $1.360\n숏 지지구간 $1.100–$1.210 · 손절 $1.000 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.415,
+  "level": 1,
+  "score": 20.7,
+  "prob": 38.456237077877326,
+  "cp": 23.00501550780077,
+  "rl": 1.5000000000000004,
+  "stop": 1.0,
+  "zone": [
+   1.1,
+   1.2102499866485597
+  ],
+  "bp": 1.3442,
+  "tgt": 1.5000000000000004,
+  "stp": 1.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
+  "grade": "open"
  }
 ]
