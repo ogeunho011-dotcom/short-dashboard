@@ -1,42 +1,5 @@
 [
  {
-  "ticker": "STBA",
-  "form": "8-K",
-  "acc": "0000719220-26-000120",
-  "items": "7.01,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:00:09+00:00",
-  "accepted_kst": "11/04 06:00",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this report and is incorporated herein by reference. The information in this Current Report on Form 8-K is being furnished under Item 7.01 and shall not be d",
-  "url": "https://www.sec.gov/Archives/edgar/data/719220/000071922026000120/0000719220-26-000120-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
-  "ticker": "LITS",
-  "form": "8-K",
-  "acc": "0001193125-26-445292",
-  "items": "3.02",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T21:00:14+00:00",
-  "accepted_kst": "11/04 06:00",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 3.02 Unregistered Sales of Equity Securities. As previously reported, on July 22, 2025, Lite Strategy, Inc. (the “Company”) entered into an Advisory Agreem",
-  "url": "https://www.sec.gov/Archives/edgar/data/1262104/000119312526445292/0001193125-26-445292-index.htm",
-  "seen_kst": "2026-11-04 06:10"
- },
- {
   "ticker": "CHMG",
   "form": "8-K",
   "acc": "0001171843-26-007073",
@@ -8637,5 +8600,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034856/0001437749-26-034856-index.htm",
   "seen_kst": "2026-11-05 04:10"
+ },
+ {
+  "ticker": "RGCO",
+  "form": "4",
+  "acc": "0001437749-26-034859",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T19:11:21+00:00",
+  "accepted_kst": "11/05 04:11",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034859/0001437749-26-034859-index.htm",
+  "seen_kst": "2026-11-05 04:13"
+ },
+ {
+  "ticker": "RGCO",
+  "form": "4",
+  "acc": "0001437749-26-034861",
+  "items": "",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T19:12:40+00:00",
+  "accepted_kst": "11/05 04:12",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $200 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Oliver Lawrence T.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069533/000143774926034861/0001437749-26-034861-index.htm",
+  "seen_kst": "2026-11-05 04:13"
  }
 ]
