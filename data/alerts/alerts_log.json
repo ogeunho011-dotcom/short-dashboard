@@ -19891,5 +19891,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201117002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201117002",
   "grade": "open"
+ },
+ {
+  "id": "TREE-1793803062",
+  "ts_kst": "2026-11-04 23:37",
+  "ts_utc": "2026-11-04T14:37:42+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "TREE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.3% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TREE 장중 급등 포착",
+  "body": "$35.810 (+23.3%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $41.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,404만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +23.3% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $34.020 지정가(기준가 $35.810의 −5%) · 체결 가능성 약 28% · 손익분기 $34.430\n숏 지지구간 $29.000–$31.100 · 손절 $28.000 · 1차목표 $41.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 35.81,
+  "level": 2,
+  "score": 31.0,
+  "prob": 53.44827586206896,
+  "cp": 54.78423965575814,
+  "rl": 41.0,
+  "stop": 28.0,
+  "zone": [
+   29.0,
+   31.1
+  ],
+  "bp": 34.0195,
+  "tgt": 41.0,
+  "stp": 28.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20080812001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20080812001",
+  "grade": "open"
+ },
+ {
+  "id": "PMAX-1793803062",
+  "ts_kst": "2026-11-04 23:37",
+  "ts_utc": "2026-11-04T14:37:42+00:00",
+  "date_et": "2026-11-04",
+  "session": "regular",
+  "ticker": "PMAX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.1% · 거래량 평소의 5.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PMAX 장중 급등 포착",
+  "body": "$0.772 (+16.1%) · 정규장 · 레벨 2 · 점수 27\n$1.10 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 밀리는 중\n• 전일 대비 +16.1% · 거래량 평소의 5.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.733 지정가(기준가 $0.772의 −5%) · 체결 가능성 약 61% · 손익분기 $0.742\n숏 지지구간 $0.700–$0.772 · 손절 $0.600 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7721,
+  "level": 2,
+  "score": 27.3,
+  "prob": 18.993839835728956,
+  "cp": 28.658648560779724,
+  "rl": 1.0999999999999999,
+  "stop": 0.6,
+  "zone": [
+   0.7,
+   0.7720999717712402
+  ],
+  "bp": 0.7335,
+  "tgt": 1.0999999999999999,
+  "stp": 0.6,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240905004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240905004",
+  "grade": "open"
  }
 ]
