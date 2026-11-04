@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CMPS",
-  "form": "8-K",
-  "acc": "0001816590-26-000078",
-  "items": "2.02,9.01",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-03T13:22:18+00:00",
-  "accepted_kst": "11/03 22:22",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ") shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the li",
-  "url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000078/0001816590-26-000078-index.htm",
-  "seen_kst": "2026-11-03 22:24"
- },
- {
   "ticker": "LAB",
   "form": "8-K",
   "acc": "0001140361-26-041705",
@@ -8636,5 +8619,22 @@
   "headline": "Tronox Declares Fourth Quarter 2026 Dividend",
   "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126041898/0001140361-26-041898-index.htm",
   "seen_kst": "2026-11-04 21:32"
+ },
+ {
+  "ticker": "FSTR",
+  "form": "8-K",
+  "acc": "0000352825-26-000055",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T12:34:44+00:00",
+  "accepted_kst": "11/04 21:34",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "News Release L.B. Foster Announces Third Quarter Results Reflecting Strong Sales and Profitability Growth; Finishes Quarter with Lowest Debt Level in a Decade U",
+  "url": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000055/0000352825-26-000055-index.htm",
+  "seen_kst": "2026-11-04 21:37"
  }
 ]
