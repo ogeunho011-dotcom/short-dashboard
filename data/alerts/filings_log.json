@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "GCDT",
-  "form": "6-K",
-  "acc": "0001493152-26-049964",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:22:12+00:00",
-  "accepted_kst": "11/05 06:22",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Green Circle Decarbonize Technology Limited Transitions to OTC Trading Platform Company Intends to Request Review of NYSE American Delisting Determination Withi",
-  "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226049964/0001493152-26-049964-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "ACR",
   "form": "8-K",
   "acc": "0001193125-26-447348",
@@ -8678,5 +8659,22 @@
   "headline": "Lipocine Announces Financial Results for the Third Quarter of 2026",
   "url": "https://www.sec.gov/Archives/edgar/data/1535955/000149315226050098/0001493152-26-050098-index.htm",
   "seen_kst": "2026-11-05 23:38"
+ },
+ {
+  "ticker": "LYNX",
+  "form": "10-Q",
+  "acc": "0002132582-26-000007",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T00:58:32+00:00",
+  "accepted_kst": "11/05 09:58",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2132582/000213258226000007/0002132582-26-000007-index.htm",
+  "seen_kst": "2026-11-05 23:42"
  }
 ]
