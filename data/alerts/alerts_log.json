@@ -9196,7 +9196,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220124003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220124003",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 4,
+  "grade_ret": -0.2123492063492063,
+  "graded_bars": 4
  },
  {
   "id": "ACCO-1793382603",
@@ -27290,6 +27293,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240718001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240718001",
+  "grade": "open"
+ },
+ {
+  "id": "ARQ-1793892109",
+  "ts_kst": "2026-11-06 00:21",
+  "ts_utc": "2026-11-05T15:21:49+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "ARQ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.8% · 거래량 평소의 206.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ARQ 장중 급등 포착",
+  "body": "$2.345 (+26.8%) · 정규장 · 레벨 2 · 점수 29\n$2.50 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 36배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +26.8% · 거래량 평소의 206.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.228 지정가(기준가 $2.345의 −5%) · 체결 가능성 약 39% · 손익분기 $2.255\n숏 지지구간 $2.100–$2.186 · 손절 $2.050 · 1차목표 $2.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.345,
+  "level": 2,
+  "score": 28.9,
+  "prob": 53.37416319334179,
+  "cp": 39.49618539930185,
+  "rl": 2.500000000000001,
+  "stop": 2.0500000000000007,
+  "zone": [
+   2.1000000000000005,
+   2.1857500100135807
+  ],
+  "bp": 2.2278,
+  "tgt": 2.500000000000001,
+  "stp": 2.0500000000000007,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160707001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160707001",
   "grade": "open"
  }
 ]
