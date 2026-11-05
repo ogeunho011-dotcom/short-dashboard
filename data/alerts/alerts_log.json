@@ -7420,10 +7420,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001014",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 3,
+  "grade_ret": 0.00417805214019718,
+  "graded_bars": 3
  },
  {
   "id": "CHOW-1793370560",
@@ -8856,10 +8856,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201001014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201001014",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 3,
+  "grade_ret": -0.0009239860599018438,
+  "graded_bars": 3
  },
  {
   "id": "PAAI-1793379873",
@@ -11258,10 +11258,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211214006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211214006",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.07072140794703763,
+  "graded_bars": 2
  },
  {
   "id": "GITS-1793634010",
@@ -13466,10 +13466,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211214006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211214006",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.016721506372282764,
+  "graded_bars": 2
  },
  {
   "id": "SEGG-1793649691",
@@ -25174,5 +25174,127 @@
    "accepted_kst": "11/05 07:12",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "TREE-1793869877",
+  "ts_kst": "2026-11-05 18:11",
+  "ts_utc": "2026-11-05T09:11:17+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "TREE",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 TREE 상위 확률 신호",
+  "body": "$38.040 (-0.8%) · 프리마켓 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $41.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,404만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $36.432 지정가(기준가 $38.350의 −5%) · 체결 가능성 약 31% · 손익분기 $36.872\n숏 지지구간 $29.000–$31.100 · 손절 $28.000 · 1차목표 $41.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 38.04,
+  "level": 3,
+  "score": 40.5,
+  "prob": 53.44827586206896,
+  "cp": 58.04904935142177,
+  "rl": 41.0,
+  "stop": 28.0,
+  "zone": [
+   29.0,
+   31.1
+  ],
+  "bp": 36.4325,
+  "tgt": 41.0,
+  "stp": 28.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20080812001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20080812001",
+  "grade": "open"
+ },
+ {
+  "id": "ZNB-1793869877",
+  "ts_kst": "2026-11-05 18:11",
+  "ts_utc": "2026-11-05T09:11:17+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "ZNB",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +119.4%"
+  ],
+  "title": "🚀 ZNB 프리마켓 갭",
+  "body": "$1.360 (+119.4%) · 프리마켓 · 레벨 4 · 점수 58\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 63만 주뿐이라 쉽게 크게 움직임\n• 프리마켓 갭 +119.4%\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.274 지정가(60일선, 기준가 대비 -6.3%) · 체결 가능성 약 67% · 손익분기 $1.289\n숏 지지구간 $1.250–$1.360 · 손절 $1.000 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.36,
+  "level": 4,
+  "score": 58.5,
+  "prob": 47.808764940239065,
+  "cp": 36.42630707372793,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.36
+  ],
+  "bp": 1.274,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221101001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221101001",
+  "grade": "open"
+ },
+ {
+  "id": "ELPW-1793869877",
+  "ts_kst": "2026-11-05 18:11",
+  "ts_utc": "2026-11-05T09:11:17+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "ELPW",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +22.9%"
+  ],
+  "title": "🚀 ELPW 프리마켓 갭",
+  "body": "$3.084 (+22.9%) · 프리마켓 · 레벨 3 · 점수 52\n$4.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 15만 주뿐이라 쉽게 크게 움직임\n• 프리마켓 갭 +22.9%\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $2.982 지정가(60일선, 기준가 대비 -3.3%) · 체결 가능성 약 73% · 손익분기 $3.018\n숏 지지구간 $2.000–$3.084 · 손절 $1.542 · 1차목표 $4.000\n⚠ 역분할 2026-08-10\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.0842,
+  "level": 3,
+  "score": 51.9,
+  "prob": 38.456237077877326,
+  "cp": 30.357482819487995,
+  "rl": 4.0,
+  "stop": 1.5421,
+  "zone": [
+   2.0,
+   3.0842
+  ],
+  "bp": 2.9824,
+  "tgt": 4.0,
+  "stp": 1.5421,
+  "penalties": [
+   "역분할 2026-08-10",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230501002",
+  "grade": "open"
  }
 ]
