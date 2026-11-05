@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "ALT",
-  "form": "4",
-  "acc": "0001795798-26-000009",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:04:26+00:00",
-  "accepted_kst": "11/05 06:04",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1326190/000179579826000009/0001795798-26-000009-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "HMH",
-  "form": "424B3",
-  "acc": "0001628280-26-070117",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:05:02+00:00",
-  "accepted_kst": "11/05 06:05",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2021880/000162828026070117/0001628280-26-070117-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "GENB",
   "form": "4",
   "acc": "0001193125-26-447199",
@@ -8664,5 +8628,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1043000/000104300026000040/0001043000-26-000040-index.htm",
   "seen_kst": "2026-11-05 21:53"
+ },
+ {
+  "ticker": "INTS",
+  "form": "10-Q",
+  "acc": "0001567264-26-000066",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T12:39:33+00:00",
+  "accepted_kst": "11/05 21:39",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1567264/000156726426000066/0001567264-26-000066-index.htm",
+  "seen_kst": "2026-11-05 21:56"
+ },
+ {
+  "ticker": "INTS",
+  "form": "8-K",
+  "acc": "0001567264-26-000068",
+  "items": "2.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T12:55:07+00:00",
+  "accepted_kst": "11/05 21:55",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Intensity Therapeutics Reports Third Quarter 2026 Financial Results and Provides Business Update • New patient enrollment activities resumed in a limited number",
+  "url": "https://www.sec.gov/Archives/edgar/data/1567264/000156726426000068/0001567264-26-000068-index.htm",
+  "seen_kst": "2026-11-05 21:56"
  }
 ]
