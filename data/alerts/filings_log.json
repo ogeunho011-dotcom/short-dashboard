@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ALMS",
-  "form": "4",
-  "acc": "0001789317-26-000009",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:22:51+00:00",
-  "accepted_kst": "11/05 06:22",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1847367/000178931726000009/0001789317-26-000009-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "LOMA",
   "form": "6-K",
   "acc": "0001711375-26-000051",
@@ -8676,5 +8659,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/768899/000076889926000040/0000768899-26-000040-index.htm",
   "seen_kst": "2026-11-05 23:59"
+ },
+ {
+  "ticker": "TDAY",
+  "form": "10-Q",
+  "acc": "0001579684-26-000058",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T15:06:06+00:00",
+  "accepted_kst": "11/06 00:06",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1579684/000157968426000058/0001579684-26-000058-index.htm",
+  "seen_kst": "2026-11-06 00:09"
  }
 ]

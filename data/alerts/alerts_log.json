@@ -27195,5 +27195,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250123003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250123003",
   "grade": "open"
+ },
+ {
+  "id": "AEHL-1793891347",
+  "ts_kst": "2026-11-06 00:09",
+  "ts_utc": "2026-11-05T15:09:07+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "AEHL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +72.3% · 거래량 평소의 54.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AEHL 장중 급등 포착",
+  "body": "$10.800 (+72.3%) · 정규장 · 레벨 3 · 점수 47\n$16.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 458만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +72.3% · 거래량 평소의 54.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $10.260 지정가(기준가 $10.800의 −5%) · 체결 가능성 약 68% · 손익분기 $10.384\n숏 지지구간 $10.000–$10.800 · 손절 $8.000 · 1차목표 $16.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/22)\n⚠ 역분할 2026-08-10\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.8001,
+  "level": 3,
+  "score": 47.2,
+  "prob": 31.25,
+  "cp": 25.036864562226402,
+  "rl": 16.0,
+  "stop": 8.0,
+  "zone": [
+   10.0,
+   10.800100326538086
+  ],
+  "bp": 10.2601,
+  "tgt": 16.0,
+  "stp": 8.0,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/22)",
+   "역분할 2026-08-10"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201015001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201015001",
+  "grade": "open"
+ },
+ {
+  "id": "ARDT-1793891347",
+  "ts_kst": "2026-11-06 00:09",
+  "ts_utc": "2026-11-05T15:09:07+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "ARDT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.9% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ARDT 장중 급등 포착",
+  "body": "$15.710 (+20.9%) · 정규장 · 레벨 2 · 점수 27\n공매도 물량 대부분 손해 중, $16.23 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +20.9% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $14.924 지정가(기준가 $15.710의 −5%) · 체결 가능성 약 25% · 손익분기 $15.105\n숏 지지구간 $11.500–$12.000 · 손절 $11.000 · 1차목표 $16.230\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 15.7099,
+  "level": 2,
+  "score": 26.6,
+  "prob": 53.35067151940088,
+  "cp": 70.94300171254386,
+  "rl": 16.229999542236328,
+  "stop": 11.0,
+  "zone": [
+   11.5,
+   12.0
+  ],
+  "bp": 14.9244,
+  "tgt": 16.229999542236328,
+  "stp": 11.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240718001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240718001",
+  "grade": "open"
  }
 ]
