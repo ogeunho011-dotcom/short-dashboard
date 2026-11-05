@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NC",
-  "form": "8-K",
-  "acc": "0000789933-26-000188",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:40:38+00:00",
-  "accepted_kst": "11/05 06:40",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Current Report on Form 8-K. The information set forth in Item 2.02 of this Current Report on Form 8-K and the information attached hereto are being furn",
-  "url": "https://www.sec.gov/Archives/edgar/data/789933/000078993326000188/0000789933-26-000188-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "ARQ",
   "form": "8-K",
   "acc": "0001515156-26-000137",
@@ -8667,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1736946/000165473726000015/0001654737-26-000015-index.htm",
   "seen_kst": "2026-11-06 05:06"
+ },
+ {
+  "ticker": "ORIO",
+  "form": "6-K",
+  "acc": "0001477932-26-006708",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T20:19:59+00:00",
+  "accepted_kst": "11/06 05:19",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Orion Digital Reports Q3 2026 Results; Raises Full-Year Adjusted EBITDA Guidance to $7–8 Million European Payments Volume of $3.0 Billion, up 7% Year-over-Year",
+  "url": "https://www.sec.gov/Archives/edgar/data/1602842/000147793226006708/0001477932-26-006708-index.htm",
+  "seen_kst": "2026-11-06 05:21"
  }
 ]
