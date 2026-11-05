@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MLR",
-  "form": "10-Q",
-  "acc": "0001104659-26-122708",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:23:57+00:00",
-  "accepted_kst": "11/05 06:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/924822/000110465926122708/0001104659-26-122708-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "DEC",
   "form": "8-K",
   "acc": "0001922446-26-000109",
@@ -8679,5 +8662,22 @@
   "headline": "Item 3.01 Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On November 4, 2026, Intrusion Inc. (the “Company",
   "url": "https://www.sec.gov/Archives/edgar/data/736012/000168316826008314/0001683168-26-008314-index.htm",
   "seen_kst": "2026-11-06 00:24"
+ },
+ {
+  "ticker": "BCBP",
+  "form": "4",
+  "acc": "0001193125-26-448969",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T15:37:13+00:00",
+  "accepted_kst": "11/06 00:37",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $501 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Kim Denny",
+  "url": "https://www.sec.gov/Archives/edgar/data/1228454/000119312526448969/0001193125-26-448969-index.htm",
+  "seen_kst": "2026-11-06 00:38"
  }
 ]

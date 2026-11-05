@@ -27532,5 +27532,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230329002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230329002",
   "grade": "open"
+ },
+ {
+  "id": "FLYE-1793893077",
+  "ts_kst": "2026-11-06 00:37",
+  "ts_utc": "2026-11-05T15:37:57+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "FLYE",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +28.2% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 49%)"
+  ],
+  "title": "🚀 FLYE 장중 급등 포착 · 상위 확률 신호",
+  "body": "$2.180 (+28.2%) · 정규장 · 레벨 4 · 점수 56\n$2.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 163만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +28.2% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 49%)\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $2.071 지정가(기준가 $2.180의 −5%) · 체결 가능성 약 66% · 손익분기 $2.096\n숏 지지구간 $1.500–$1.750 · 손절 $1.375 · 1차목표 $2.500\n⚠ 최근 악재 공시: 8-K 채무 가속(항목 2.04) (11/04)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.18,
+  "level": 4,
+  "score": 56.2,
+  "prob": 49.34874818520495,
+  "cp": 39.62233475962681,
+  "rl": 2.5,
+  "stop": 1.375,
+  "zone": [
+   1.5,
+   1.75
+  ],
+  "bp": 2.071,
+  "tgt": 2.5,
+  "stp": 1.375,
+  "penalties": [
+   "최근 악재 공시: 8-K 채무 가속(항목 2.04) (11/04)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240606001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240606001",
+  "grade": "open"
+ },
+ {
+  "id": "RZAI-1793893077",
+  "ts_kst": "2026-11-06 00:37",
+  "ts_utc": "2026-11-05T15:37:57+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "RZAI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.7% · 거래량 평소의 13.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RZAI 장중 급등 포착",
+  "body": "$2.930 (+16.7%) · 정규장 · 레벨 1 · 점수 24\n오늘 거래량 평소의 3배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.7% · 거래량 평소의 13.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $2.784 지정가(기준가 $2.930의 −5%) · 체결 가능성 약 85% · 손익분기 $2.817\n숏 지지구간 $2.000–$2.930 · 손절 $1.465 · 1차목표 $6.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.93,
+  "level": 1,
+  "score": 23.8,
+  "prob": 21.428571428571427,
+  "cp": 22.0,
+  "rl": 6.0,
+  "stop": 1.465000033378601,
+  "zone": [
+   2.0,
+   2.930000066757202
+  ],
+  "bp": 2.7835,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2609029006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2609029006",
+  "grade": "n/a"
  }
 ]
