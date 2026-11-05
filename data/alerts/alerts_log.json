@@ -30205,5 +30205,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211020012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211020012",
   "grade": "open"
+ },
+ {
+  "id": "KXIN-1793909624",
+  "ts_kst": "2026-11-06 05:13",
+  "ts_utc": "2026-11-05T20:13:44+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "KXIN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.0% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KXIN 장중 급등 포착",
+  "body": "$2.565 (+15.0%) · 정규장 · 레벨 2 · 점수 35\n공매도 물량 대부분 손해 중, $2.75 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +15.0% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.437 지정가(기준가 $2.565의 −5%) · 체결 가능성 약 44% · 손익분기 $2.466\n숏 지지구간 $2.250–$2.500 · 손절 $2.000 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.565,
+  "level": 2,
+  "score": 34.6,
+  "prob": 53.26331241846546,
+  "cp": 50.41755235456184,
+  "rl": 2.75,
+  "stop": 2.0,
+  "zone": [
+   2.25,
+   2.5
+  ],
+  "bp": 2.4368,
+  "tgt": 2.75,
+  "stp": 2.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190502001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190502001",
+  "grade": "open"
  }
 ]
