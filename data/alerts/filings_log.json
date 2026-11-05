@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LOMA",
-  "form": "6-K",
-  "acc": "0001711375-26-000051",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:22:59+00:00",
-  "accepted_kst": "11/05 06:22",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Indicate by check mark if the regist",
-  "url": "https://www.sec.gov/Archives/edgar/data/1711375/000171137526000051/0001711375-26-000051-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "PRSU",
   "form": "8-K",
   "acc": "0001628280-26-070187",
@@ -8676,5 +8659,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1579684/000157968426000058/0001579684-26-000058-index.htm",
   "seen_kst": "2026-11-06 00:09"
+ },
+ {
+  "ticker": "TROX",
+  "form": "10-Q",
+  "acc": "0001530804-26-000018",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T15:16:30+00:00",
+  "accepted_kst": "11/06 00:16",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530804/000153080426000018/0001530804-26-000018-index.htm",
+  "seen_kst": "2026-11-06 00:18"
  }
 ]
