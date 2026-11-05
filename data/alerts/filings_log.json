@@ -1,56 +1,5 @@
 [
  {
-  "ticker": "DXLG",
-  "form": "4",
-  "acc": "0001193125-26-447214",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:06:13+00:00",
-  "accepted_kst": "11/05 06:06",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/813298/000119312526447214/0001193125-26-447214-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "RGR",
-  "form": "10-Q",
-  "acc": "0002077096-26-000304",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:06:14+00:00",
-  "accepted_kst": "11/05 06:06",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/95029/000207709626000304/0002077096-26-000304-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "MNTN",
-  "form": "8-K",
-  "acc": "0001891027-26-000100",
-  "items": "2.02,5.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:06:36+00:00",
-  "accepted_kst": "11/05 06:06",
-  "polarity": "neutral",
-  "label": "실적 · 임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "hereto) shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to",
-  "url": "https://www.sec.gov/Archives/edgar/data/1891027/000189102726000100/0001891027-26-000100-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "ANVS",
   "form": "8-K",
   "acc": "0001104659-26-122665",
@@ -8670,5 +8619,61 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1680367/000162828026070618/0001628280-26-070618-index.htm",
   "seen_kst": "2026-11-05 22:05"
+ },
+ {
+  "ticker": "WCT",
+  "form": "6-K",
+  "acc": "0001213900-26-116128",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:05:10+00:00",
+  "accepted_kst": "11/05 22:05",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Wellchange Holdings Company Limited Announces 1-for-10 Reverse Stock Split Effective November 9, 2026 Hong Kong, Nov. 05, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/1990251/000121390026116128/0001213900-26-116128-index.htm",
+  "seen_kst": "2026-11-05 22:08"
+ },
+ {
+  "ticker": "JRSH",
+  "form": "8-K",
+  "acc": "0001213900-26-116129",
+  "items": "7.01,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:05:22+00:00",
+  "accepted_kst": "11/05 22:05",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Jerash Holdings (US), Inc. Declares Quarterly Dividend Fairfield, New Jersey – November 5, 2026 – Jerash Holdings (US), Inc. (Nasdaq: JRSH) (the “Company” or “J",
+  "url": "https://www.sec.gov/Archives/edgar/data/1696558/000121390026116129/0001213900-26-116129-index.htm",
+  "seen_kst": "2026-11-05 22:08"
+ },
+ {
+  "ticker": "AVTX",
+  "form": "8-K",
+  "acc": "0001104659-26-123079",
+  "items": "1.01,1.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:07:00+00:00",
+  "accepted_kst": "11/05 22:07",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "중요 계약 해지(항목 1.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 5, 2026, Avalo Therapeutics, Inc. (the “Company”) entered into an Open Market Sale Agreement S",
+  "url": "https://www.sec.gov/Archives/edgar/data/1534120/000110465926123079/0001104659-26-123079-index.htm",
+  "seen_kst": "2026-11-05 22:08"
  }
 ]

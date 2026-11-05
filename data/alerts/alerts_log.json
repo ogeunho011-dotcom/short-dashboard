@@ -26020,5 +26020,47 @@
    "accepted_kst": "11/05 22:04",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "AEHL-1793884110",
+  "ts_kst": "2026-11-05 22:08",
+  "ts_utc": "2026-11-05T13:08:30+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "AEHL",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +107.3%"
+  ],
+  "title": "🚀 AEHL 프리마켓 갭",
+  "body": "$13.000 (+107.3%) · 프리마켓 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $16.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 458만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 프리마켓 갭 +107.3%\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $12.350 지정가(기준가 $13.000의 −5%) · 체결 가능성 약 63% · 손익분기 $12.499\n숏 지지구간 $10.000–$12.000 · 손절 $8.000 · 1차목표 $16.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/22)\n⚠ 역분할 2026-08-10\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 13.0,
+  "level": 3,
+  "score": 40.4,
+  "prob": 45.01661129568107,
+  "cp": 59.305955096771385,
+  "rl": 16.0,
+  "stop": 8.0,
+  "zone": [
+   10.0,
+   12.0
+  ],
+  "bp": 12.35,
+  "tgt": 16.0,
+  "stp": 8.0,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/22)",
+   "역분할 2026-08-10"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201015001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201015001",
+  "grade": "open"
  }
 ]
