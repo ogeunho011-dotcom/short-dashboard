@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MX",
-  "form": "8-K",
-  "acc": "0001193125-26-447409",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:16+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Magnachip Reports Results for Third Quarter 2026 Q3 Results Summary • Consolidated revenue from continuing operations (which includes Power Analog Solutions (“P",
-  "url": "https://www.sec.gov/Archives/edgar/data/1325702/000119312526447409/0001193125-26-447409-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "XPER",
   "form": "8-K",
   "acc": "0001788999-26-000022",
@@ -8674,5 +8657,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000052/0000913341-26-000052-index.htm",
   "seen_kst": "2026-11-06 02:19"
+ },
+ {
+  "ticker": "VTEX",
+  "form": "4",
+  "acc": "0001193125-26-449205",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T17:32:59+00:00",
+  "accepted_kst": "11/06 02:32",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449205/0001193125-26-449205-index.htm",
+  "seen_kst": "2026-11-06 02:34"
  }
 ]
