@@ -2,23 +2,6 @@
  {
   "ticker": "AIRE",
   "form": "4",
-  "acc": "0001213900-26-115693",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-04T01:30:13+00:00",
-  "accepted_kst": "11/04 10:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1859199/000121390026115693/0001213900-26-115693-index.htm",
-  "seen_kst": "2026-11-04 22:27"
- },
- {
-  "ticker": "AIRE",
-  "form": "4",
   "acc": "0001213900-26-115694",
   "items": "",
   "filed": "2026-11-03",
@@ -8648,5 +8631,22 @@
   "headline": "hereto, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to",
   "url": "https://www.sec.gov/Archives/edgar/data/1866757/000162828026070530/0001628280-26-070530-index.htm",
   "seen_kst": "2026-11-05 20:52"
+ },
+ {
+  "ticker": "DNUT",
+  "form": "8-K",
+  "acc": "0001857154-26-000049",
+  "items": "2.02",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:53:42+00:00",
+  "accepted_kst": "11/05 20:53",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), or incorporated by reference i",
+  "url": "https://www.sec.gov/Archives/edgar/data/1857154/000185715426000049/0001857154-26-000049-index.htm",
+  "seen_kst": "2026-11-05 20:55"
  }
 ]
