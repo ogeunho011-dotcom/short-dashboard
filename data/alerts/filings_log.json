@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "XMAX",
-  "form": "8-K",
-  "acc": "0001493152-26-049967",
-  "items": "5.07",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:18+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders. On November 2, 2026, XMax Inc., a Nevada corporation (the “ Company ”), held a special meeting of",
-  "url": "https://www.sec.gov/Archives/edgar/data/1473334/000149315226049967/0001493152-26-049967-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "SMTK",
   "form": "8-K",
   "acc": "0001104659-26-122719",
@@ -8674,5 +8655,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449215/0001193125-26-449215-index.htm",
   "seen_kst": "2026-11-06 02:39"
+ },
+ {
+  "ticker": "VTEX",
+  "form": "4",
+  "acc": "0001193125-26-449235",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T17:42:32+00:00",
+  "accepted_kst": "11/06 02:42",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449235/0001193125-26-449235-index.htm",
+  "seen_kst": "2026-11-06 02:45"
  }
 ]
