@@ -1,43 +1,5 @@
 [
  {
-  "ticker": "ALTO",
-  "form": "8-K",
-  "acc": "0001213900-26-115940",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:11:04+00:00",
-  "accepted_kst": "11/05 06:11",
-  "polarity": "pos",
-  "label": "계약·수주",
-  "cats": [
-   "계약·수주"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Alto Ingredients, Inc. Reports Third Quarter 2026 Results Q3 2026 Net Income of $12.7 Million, or $0.16 per Share Q3 2026 Adjusted EBITDA of $21.0 Million Pekin",
-  "url": "https://www.sec.gov/Archives/edgar/data/778164/000121390026115940/0001213900-26-115940-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "QNST",
-  "form": "8-K",
-  "acc": "0001193125-26-447260",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:11:16+00:00",
-  "accepted_kst": "11/05 06:11",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "QuinStreet Reports Record Fiscal First Quarter 2027 Results • Record quarterly Revenue of $416.7 million, up 46% year-over-year • Record quarterly Net Income of",
-  "url": "https://www.sec.gov/Archives/edgar/data/1117297/000119312526447260/0001193125-26-447260-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "EOLS",
   "form": "8-K",
   "acc": "0001628280-26-070150",
@@ -8672,5 +8634,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/738214/000143774926035093/0001437749-26-035093-index.htm",
   "seen_kst": "2026-11-05 22:48"
+ },
+ {
+  "ticker": "KVHI",
+  "form": "8-K",
+  "acc": "0001007587-26-000029",
+  "items": "2.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:48:26+00:00",
+  "accepted_kst": "11/05 22:48",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FOR IMMEDIATE RELEASE Contact: KVH Industries, Inc. Anthony Pike 401-847-3327 IR@kvh.com Longacre Square Partners KVH@longacresquare.com KVH Industries Reports ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1007587/000100758726000029/0001007587-26-000029-index.htm",
+  "seen_kst": "2026-11-05 22:51"
+ },
+ {
+  "ticker": "TROX",
+  "form": "8-K",
+  "acc": "0001140361-26-042049",
+  "items": "2.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:50:52+00:00",
+  "accepted_kst": "11/05 22:50",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "furnished hereto, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), nor shall it b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126042049/0001140361-26-042049-index.htm",
+  "seen_kst": "2026-11-05 22:51"
  }
 ]
