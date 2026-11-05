@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DXLG",
-  "form": "4",
-  "acc": "0001193125-26-447225",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:07:34+00:00",
-  "accepted_kst": "11/05 06:07",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/813298/000119312526447225/0001193125-26-447225-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "MYGN",
   "form": "8-K",
   "acc": "0001628280-26-070135",
@@ -8677,5 +8660,24 @@
   "headline": "Priority Technology Holdings, Inc. Reports Third Quarter Financial Results Third Quarter Performance Driven by Strength of Unified Commerce Platform",
   "url": "https://www.sec.gov/Archives/edgar/data/1653558/000165355826000163/0001653558-26-000163-index.htm",
   "seen_kst": "2026-11-05 22:17"
+ },
+ {
+  "ticker": "DGICA",
+  "form": "4",
+  "acc": "0000935596-26-000027",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:20:04+00:00",
+  "accepted_kst": "11/05 22:20",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $282,214",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "DONEGAL MUTUAL INSURANCE CO",
+  "url": "https://www.sec.gov/Archives/edgar/data/800457/000093559626000027/0000935596-26-000027-index.htm",
+  "seen_kst": "2026-11-05 22:20"
  }
 ]
