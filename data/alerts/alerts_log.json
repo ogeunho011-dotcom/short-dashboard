@@ -25848,5 +25848,48 @@
    "accepted_kst": "11/05 21:32",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "AFCG-fil-0001628280-26-070591",
+  "ts_kst": "2026-11-05 21:38",
+  "ts_utc": "2026-11-05T12:38:18+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "AFCG",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 AFCG 호재 공시",
+  "body": "8-K · 자사주 매입 (11/05 21:35 KST)\nEX-99.1 2 afcg-2026115xex991afcgearn.htm EX-99.1 AFC Announces Financial Results for the Third Quarter 2026 Third quarter 2026 GAAP net inve\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210210001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210210001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001628280-26-070591",
+   "items": "2.02,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "EX-99.1 2 afcg-2026115xex991afcgearn.htm EX-99.1 AFC Announces Financial Results for the Third Quarter 2026 Third quarter 2026 GAAP net investment income (“NII”",
+   "url": "https://www.sec.gov/Archives/edgar/data/1822523/000162828026070591/0001628280-26-070591-index.htm",
+   "accepted_kst": "11/05 21:35",
+   "polarity": "pos"
+  }
  }
 ]
