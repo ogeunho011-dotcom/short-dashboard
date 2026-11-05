@@ -30163,5 +30163,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240606001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240606001",
   "grade": "open"
+ },
+ {
+  "id": "PTLO-1793908570",
+  "ts_kst": "2026-11-06 04:56",
+  "ts_utc": "2026-11-05T19:56:10+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "PTLO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.5% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PTLO 장중 급등 포착",
+  "body": "$6.620 (+21.5%) · 정규장 · 레벨 2 · 점수 30\n공매도 물량 대부분 손해 중, $6.75 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +21.5% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.289 지정가(기준가 $6.620의 −5%) · 체결 가능성 약 35% · 손익분기 $6.365\n숏 지지구간 $6.000–$6.250 · 손절 $5.875 · 1차목표 $6.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.62,
+  "level": 2,
+  "score": 30.1,
+  "prob": 53.429566367211045,
+  "cp": 62.08905958407769,
+  "rl": 6.75,
+  "stop": 5.875,
+  "zone": [
+   6.0,
+   6.25
+  ],
+  "bp": 6.289,
+  "tgt": 6.75,
+  "stp": 5.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211020012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211020012",
+  "grade": "open"
  }
 ]
