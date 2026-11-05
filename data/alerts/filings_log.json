@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DDD",
-  "form": "8-K",
-  "acc": "0001628280-26-070184",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:21:03+00:00",
-  "accepted_kst": "11/05 06:21",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "and is incorporated into this Item 2.02 by reference. The information in this Item 2.02 (and in the Press Release) shall not be deemed “filed” with the Securiti",
-  "url": "https://www.sec.gov/Archives/edgar/data/910638/000162828026070184/0001628280-26-070184-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "SIBN",
   "form": "144",
   "acc": "0001950047-26-010669",
@@ -8678,5 +8661,22 @@
   "headline": "[Form] THE SECURITIES REPRESENTED BY THIS WARRANT AND THE SECURITIES ISSUABLE UPON VESTING HEREOF HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933, AS",
   "url": "https://www.sec.gov/Archives/edgar/data/1951089/000121390026116159/0001213900-26-116159-index.htm",
   "seen_kst": "2026-11-05 23:22"
+ },
+ {
+  "ticker": "NUR",
+  "form": "6-K",
+  "acc": "0001493152-26-050096",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T14:22:12+00:00",
+  "accepted_kst": "11/05 23:22",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "For immediate release NuRAN Targets Africa’s Rural Connectivity Opportunity with More Than US$900 Million in Estimated Contract Revenue 5,092 contracted towers",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680637/000149315226050096/0001493152-26-050096-index.htm",
+  "seen_kst": "2026-11-05 23:25"
  }
 ]
