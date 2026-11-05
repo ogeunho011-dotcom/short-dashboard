@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "WBX",
-  "form": "424B3",
-  "acc": "0001193125-26-447443",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:35:19+00:00",
-  "accepted_kst": "11/05 06:35",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1866501/000119312526447443/0001193125-26-447443-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "MBUU",
   "form": "4",
   "acc": "0001914165-26-000001",
@@ -8668,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035189/0001437749-26-035189-index.htm",
   "seen_kst": "2026-11-06 03:57"
+ },
+ {
+  "ticker": "PKBK",
+  "form": "4",
+  "acc": "0001437749-26-035192",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:02:23+00:00",
+  "accepted_kst": "11/06 04:02",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035192/0001437749-26-035192-index.htm",
+  "seen_kst": "2026-11-06 04:05"
  }
 ]
