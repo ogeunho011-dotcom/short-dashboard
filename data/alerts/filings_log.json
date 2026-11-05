@@ -1,56 +1,5 @@
 [
  {
-  "ticker": "HMH",
-  "form": "10-Q",
-  "acc": "0001628280-26-070108",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:03:44+00:00",
-  "accepted_kst": "11/05 06:03",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2021880/000162828026070108/0001628280-26-070108-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "ULCC",
-  "form": "3",
-  "acc": "0002163494-26-000004",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:03:57+00:00",
-  "accepted_kst": "11/05 06:03",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1670076/000216349426000004/0002163494-26-000004-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "OFIX",
-  "form": "4",
-  "acc": "0001193125-26-447190",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:04:18+00:00",
-  "accepted_kst": "11/05 06:04",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/884624/000119312526447190/0001193125-26-447190-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "ALT",
   "form": "4",
   "acc": "0001795798-26-000009",
@@ -8660,5 +8609,60 @@
   "headline": ". The information is being furnished in this report and shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934 (the",
   "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000141/0002104052-26-000141-index.htm",
   "seen_kst": "2026-11-05 21:50"
+ },
+ {
+  "ticker": "CLYM",
+  "form": "S-3ASR",
+  "acc": "0001193125-26-448619",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T12:50:08+00:00",
+  "accepted_kst": "11/05 21:50",
+  "polarity": "neg",
+  "label": "증자 서류(S-3ASR)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526448619/0001193125-26-448619-index.htm",
+  "seen_kst": "2026-11-05 21:53"
+ },
+ {
+  "ticker": "AVTX",
+  "form": "424B5",
+  "acc": "0001104659-26-123069",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T12:51:15+00:00",
+  "accepted_kst": "11/05 21:51",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1534120/000110465926123069/0001104659-26-123069-index.htm",
+  "seen_kst": "2026-11-05 21:53"
+ },
+ {
+  "ticker": "SNDA",
+  "form": "10-Q",
+  "acc": "0001043000-26-000040",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T12:52:03+00:00",
+  "accepted_kst": "11/05 21:52",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1043000/000104300026000040/0001043000-26-000040-index.htm",
+  "seen_kst": "2026-11-05 21:53"
  }
 ]
