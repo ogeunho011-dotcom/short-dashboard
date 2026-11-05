@@ -15983,10 +15983,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210521002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.06338343907597199,
+  "graded_bars": 2
  },
  {
   "id": "IFBD-1793721029",
@@ -16830,10 +16830,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210521002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.06025141562853909,
+  "graded_bars": 2
  },
  {
   "id": "IBTA-1793728077",
@@ -29395,5 +29395,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2608019001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2608019001",
   "grade": "open"
+ },
+ {
+  "id": "JDZG-1793904308",
+  "ts_kst": "2026-11-06 03:45",
+  "ts_utc": "2026-11-05T18:45:08+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "JDZG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.1% · 거래량 평소의 44.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ JDZG 장중 급등 포착",
+  "body": "$0.360 (+19.1%) · 정규장 · 레벨 4 · 점수 57\n시장에 도는 주식 41만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +19.1% · 거래량 평소의 44.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.342 지정가(기준가 $0.360의 −5%) · 체결 가능성 약 85% · 손익분기 $0.346\n숏 지지구간 $0.252–$0.360 · 손절 $0.180 · 1차목표 $0.539\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3596,
+  "level": 4,
+  "score": 57.3,
+  "prob": 31.25,
+  "cp": 22.0,
+  "rl": 6.0,
+  "stop": 0.17980000376701355,
+  "zone": [
+   0.25172000527381894,
+   0.3596000075340271
+  ],
+  "bp": 0.3416,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240515002",
+  "grade": "n/a"
  }
 ]
