@@ -28545,5 +28545,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221110003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221110003",
   "grade": "n/a"
+ },
+ {
+  "id": "NTCL-1793899605",
+  "ts_kst": "2026-11-06 02:26",
+  "ts_utc": "2026-11-05T17:26:45+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "NTCL",
+  "types": [
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "5분 거래량 3,881k (당일 평균 19.0배)"
+  ],
+  "title": "🚀 NTCL 상위 확률 신호 · 거래량 급증",
+  "body": "$1.080 (+184.2%) · 정규장 · 레벨 4 · 점수 55\n공매도 물량 대부분 손해 중, $1.50 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n• 5분 거래량 3,881k (당일 평균 19.0배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.026 지정가(기준가 $1.080의 −5%) · 체결 가능성 약 70% · 손익분기 $1.038\n숏 지지구간 $0.756–$0.756 · 손절 $0.540 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.08,
+  "level": 4,
+  "score": 55.1,
+  "prob": 52.91666666666666,
+  "cp": 29.84232150044923,
+  "rl": 1.5,
+  "stop": 0.5400000214576721,
+  "zone": [
+   0.7560000300407409,
+   0.7560000300407409
+  ],
+  "bp": 1.026,
+  "tgt": 1.5,
+  "stp": 0.5400000214576721,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
+  "grade": "open"
  }
 ]
