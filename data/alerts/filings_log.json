@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IBTA",
-  "form": "4",
-  "acc": "0001628280-26-070204",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:32:02+00:00",
-  "accepted_kst": "11/05 06:32",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1538379/000162828026070204/0001628280-26-070204-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "SWAG",
   "form": "8-K",
   "acc": "0001213900-26-115971",
@@ -8670,5 +8653,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1823306/000031898926000186/0000318989-26-000186-index.htm",
   "seen_kst": "2026-11-06 03:37"
+ },
+ {
+  "ticker": "LMB",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0000315066-26-002772",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T18:19:14+00:00",
+  "accepted_kst": "11/06 03:19",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1606163/000031506626002772/0000315066-26-002772-index.htm",
+  "seen_kst": "2026-11-06 03:40"
  }
 ]
