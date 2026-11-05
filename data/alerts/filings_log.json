@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "ABTC",
-  "form": "8-K",
-  "acc": "0001193125-26-447441",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:35:14+00:00",
-  "accepted_kst": "11/05 06:35",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "EX-99.1 2 abtc-ex99_1.htm EX-99.1 American Bitcoin Reports Third Quarter 2026 Results Grows Bitcoin Reserve Through Mining Operations, Increases Satoshis Per Sh",
-  "url": "https://www.sec.gov/Archives/edgar/data/1755953/000119312526447441/0001193125-26-447441-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "WBX",
   "form": "424B3",
   "acc": "0001193125-26-447443",
@@ -8670,5 +8651,22 @@
   "headline": "Update: SOL Strategies Clarifies Investor Relations Agreement with KCSA Strategic Communications and announces Participation in Upcoming November Investor and I",
   "url": "https://www.sec.gov/Archives/edgar/data/1846839/000106299326005768/0001062993-26-005768-index.htm",
   "seen_kst": "2026-11-06 03:55"
+ },
+ {
+  "ticker": "PKBK",
+  "form": "4",
+  "acc": "0001437749-26-035189",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T18:55:33+00:00",
+  "accepted_kst": "11/06 03:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035189/0001437749-26-035189-index.htm",
+  "seen_kst": "2026-11-06 03:57"
  }
 ]
