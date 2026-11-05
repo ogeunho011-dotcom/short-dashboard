@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "ARQ",
-  "form": "8-K",
-  "acc": "0001515156-26-000137",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:41:09+00:00",
-  "accepted_kst": "11/05 06:41",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this report. The information furnished pursuant to this Item 2.02, including the attached exhibits, shall not be deemed \"filed\" for purposes of the Securitie",
-  "url": "https://www.sec.gov/Archives/edgar/data/1515156/000151515626000137/0001515156-26-000137-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
-  "ticker": "ALMS",
-  "form": "4",
-  "acc": "0002023806-26-000009",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:41:16+00:00",
-  "accepted_kst": "11/05 06:41",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1847367/000202380626000009/0002023806-26-000009-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "XRN",
   "form": "8-K",
   "acc": "0001628280-26-070231",
@@ -8667,5 +8633,41 @@
   "headline": "Orion Digital Reports Q3 2026 Results; Raises Full-Year Adjusted EBITDA Guidance to $7–8 Million European Payments Volume of $3.0 Billion, up 7% Year-over-Year",
   "url": "https://www.sec.gov/Archives/edgar/data/1602842/000147793226006708/0001477932-26-006708-index.htm",
   "seen_kst": "2026-11-06 05:21"
+ },
+ {
+  "ticker": "GLIBA",
+  "form": "10-Q",
+  "acc": "0001104659-26-123273",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T20:11:30+00:00",
+  "accepted_kst": "11/06 05:11",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2057463/000110465926123273/0001104659-26-123273-index.htm",
+  "seen_kst": "2026-11-06 05:33"
+ },
+ {
+  "ticker": "GLIBK",
+  "form": "8-K",
+  "acc": "0002057463-26-000025",
+  "items": "2.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T20:33:15+00:00",
+  "accepted_kst": "11/06 05:33",
+  "polarity": "pos",
+  "label": "자사주 매입",
+  "cats": [
+   "자사주 매입"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "LIBERTY CAPITAL REPORTS THIRD QUARTER 2026 FINANCIAL AND OPERATING RESULTS ​ Englewood, Colorado, November 5, 2026 – Liberty Capital Corporation (“Liberty Capit",
+  "url": "https://www.sec.gov/Archives/edgar/data/2057463/000205746326000025/0002057463-26-000025-index.htm",
+  "seen_kst": "2026-11-06 05:33"
  }
 ]
