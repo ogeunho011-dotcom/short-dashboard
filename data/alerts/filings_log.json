@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MBUU",
-  "form": "4",
-  "acc": "0001182444-26-000007",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:37:43+00:00",
-  "accepted_kst": "11/05 06:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1590976/000118244426000007/0001182444-26-000007-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "ALMS",
   "form": "4",
   "acc": "0001506218-26-000007",
@@ -8667,5 +8650,22 @@
   "headline": "Skip to Main Content U.S. Securities and Exchange Commission SEC.gov Search Form Search SEC.gov Company Filings | More Search Options --> This page is temporari",
   "url": "https://www.sec.gov/Archives/edgar/data/1515964/000110465926123256/0001104659-26-123256-index.htm",
   "seen_kst": "2026-11-06 04:38"
+ },
+ {
+  "ticker": "PKBK",
+  "form": "4",
+  "acc": "0001437749-26-035218",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:40:43+00:00",
+  "accepted_kst": "11/06 04:40",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035218/0001437749-26-035218-index.htm",
+  "seen_kst": "2026-11-06 04:43"
  }
 ]
