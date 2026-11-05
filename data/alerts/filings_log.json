@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MYGN",
-  "form": "8-K",
-  "acc": "0001628280-26-070135",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:07:44+00:00",
-  "accepted_kst": "11/05 06:07",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Myriad Genetics Reports Third Quarter 2026 Financial Results; Raises Mid-Point of Full-Year 2026 Revenue Guidance Following Solid Execution Definitive Agreement",
-  "url": "https://www.sec.gov/Archives/edgar/data/899923/000162828026070135/0001628280-26-070135-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "AMSC",
   "form": "10-Q",
   "acc": "0001437749-26-034936",
@@ -8679,5 +8662,22 @@
   "headline": "DONEGAL MUTUAL INSURANCE CO",
   "url": "https://www.sec.gov/Archives/edgar/data/800457/000093559626000027/0000935596-26-000027-index.htm",
   "seen_kst": "2026-11-05 22:20"
+ },
+ {
+  "ticker": "HLLY",
+  "form": "8-K",
+  "acc": "0001822928-26-000087",
+  "items": "2.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:22:22+00:00",
+  "accepted_kst": "11/05 22:22",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", attached hereto, is furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act",
+  "url": "https://www.sec.gov/Archives/edgar/data/1822928/000182292826000087/0001822928-26-000087-index.htm",
+  "seen_kst": "2026-11-05 22:23"
  }
 ]
