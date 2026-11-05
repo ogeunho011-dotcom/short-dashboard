@@ -27069,5 +27069,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326070%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326070",
   "grade": "open"
+ },
+ {
+  "id": "XXII-1793890966",
+  "ts_kst": "2026-11-06 00:02",
+  "ts_utc": "2026-11-05T15:02:46+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "XXII",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 XXII 상위 확률 신호",
+  "body": "$2.240 (+5233.3%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 71만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.128 지정가(기준가 $2.240의 −5%) · 체결 가능성 약 59% · 손익분기 $2.154\n숏 지지구간 $1.568–$1.568 · 손절 $1.120\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 10/28)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.24,
+  "level": 3,
+  "score": 42.1,
+  "prob": 52.91666666666666,
+  "cp": 61.847457425250454,
+  "rl": 2.240000009536743,
+  "stop": 1.1200000047683716,
+  "zone": [
+   1.56800000667572,
+   1.56800000667572
+  ],
+  "bp": 2.128,
+  "tgt": 2.5760000109672543,
+  "stp": 1.1200000047683716,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 10/28)",
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210816009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210816009",
+  "grade": "open"
+ },
+ {
+  "id": "INTZ-1793890966",
+  "ts_kst": "2026-11-06 00:02",
+  "ts_utc": "2026-11-05T15:02:46+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "INTZ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.7% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ INTZ 장중 급등 포착",
+  "body": "$0.565 (+17.7%) · 정규장 · 레벨 2 · 점수 36\n$0.600 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 전일 대비 +17.7% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.533 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.6%) · 체결 가능성 약 61% · 손익분기 $0.539\n숏 지지구간 $0.550–$0.565 · 손절 $0.525 · 1차목표 $0.600\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5649,
+  "level": 2,
+  "score": 36.3,
+  "prob": 38.456237077877326,
+  "cp": 37.41436420341999,
+  "rl": 0.6,
+  "stop": 0.525,
+  "zone": [
+   0.55,
+   0.5648999810218811
+  ],
+  "bp": 0.533,
+  "tgt": 0.6,
+  "stp": 0.525,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201009002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201009002",
+  "grade": "open"
  }
 ]
