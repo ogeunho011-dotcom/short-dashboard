@@ -26524,5 +26524,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210126005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210126005",
   "grade": "open"
+ },
+ {
+  "id": "MTVA-fil-0001104659-26-123110",
+  "ts_kst": "2026-11-05 23:19",
+  "ts_utc": "2026-11-05T14:19:22+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "MTVA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 임상 성공(주요 목표 달성)"
+  ],
+  "title": "📢 MTVA 호재 공시",
+  "body": "8-K · 임상 성공(주요 목표 달성) (11/05 23:15 KST)\nMetaVia Announces Statistically Significant 68% Reduction in Liver Fat from DA-1726 Phase 1 Part 3B Interim Data ​ DA-1726 Also Demonstrated\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001104659-26-123110",
+   "items": "7.01,8.01,9.01",
+   "label": "임상 성공(주요 목표 달성)",
+   "cats": [
+    "임상 성공(주요 목표 달성)"
+   ],
+   "strength": 5,
+   "headline": "MetaVia Announces Statistically Significant 68% Reduction in Liver Fat from DA-1726 Phase 1 Part 3B Interim Data ​ DA-1726 Also Demonstrated Statistically Signi",
+   "url": "https://www.sec.gov/Archives/edgar/data/1638287/000110465926123110/0001104659-26-123110-index.htm",
+   "accepted_kst": "11/05 23:15",
+   "polarity": "pos"
+  }
  }
 ]
