@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IBTA",
-  "form": "4",
-  "acc": "0001628280-26-070233",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:42:03+00:00",
-  "accepted_kst": "11/05 06:42",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1538379/000162828026070233/0001628280-26-070233-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "NC",
   "form": "10-Q",
   "acc": "0000789933-26-000189",
@@ -8667,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449614/0001193125-26-449614-index.htm",
   "seen_kst": "2026-11-06 05:36"
+ },
+ {
+  "ticker": "VTEX",
+  "form": "4",
+  "acc": "0001193125-26-449654",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T20:39:31+00:00",
+  "accepted_kst": "11/06 05:39",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449654/0001193125-26-449654-index.htm",
+  "seen_kst": "2026-11-06 05:41"
  }
 ]
