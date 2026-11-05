@@ -9152,10 +9152,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241231003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241231003",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 4,
+  "grade_ret": 0.012115923024606073,
+  "graded_bars": 4
  },
  {
   "id": "TNMG-1793382603",
@@ -27412,6 +27412,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
+  "grade": "open"
+ },
+ {
+  "id": "CCLD-1793892537",
+  "ts_kst": "2026-11-06 00:28",
+  "ts_utc": "2026-11-05T15:28:57+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "CCLD",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +25.6% · 거래량 평소의 32.0배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 CCLD 장중 급등 포착 · 상위 확률 신호",
+  "body": "$2.260 (+25.6%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $2.35 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +25.6% · 거래량 평소의 32.0배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.147 지정가(기준가 $2.260의 −5%) · 체결 가능성 약 28% · 손익분기 $2.173\n숏 지지구간 $2.000–$2.091 · 손절 $1.950 · 1차목표 $2.350\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.26,
+  "level": 3,
+  "score": 40.9,
+  "prob": 53.44827586206896,
+  "cp": 50.405272812896996,
+  "rl": 2.3500000000000005,
+  "stop": 1.9500000000000004,
+  "zone": [
+   2.0000000000000004,
+   2.09099999666214
+  ],
+  "bp": 2.147,
+  "tgt": 2.3500000000000005,
+  "stp": 1.9500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230110003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230110003",
   "grade": "open"
  }
 ]
