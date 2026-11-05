@@ -28832,5 +28832,124 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2609029006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2609029006",
   "grade": "n/a"
+ },
+ {
+  "id": "XERS-1793900496",
+  "ts_kst": "2026-11-06 02:41",
+  "ts_utc": "2026-11-05T17:41:36+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "XERS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.9% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XERS 장중 급등 포착",
+  "body": "$12.860 (+22.9%) · 정규장 · 레벨 2 · 점수 37\n공매도 물량 대부분 손해 중, $13.50 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +22.9% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $12.500–$12.860 · 손절 $12.250 · 1차목표 $13.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.86,
+  "level": 2,
+  "score": 36.8,
+  "prob": 53.44827586206896,
+  "cp": 56.43457841833585,
+  "rl": 13.5,
+  "stop": 12.25,
+  "zone": [
+   12.5,
+   12.859999656677246
+  ],
+  "bp": null,
+  "tgt": 13.5,
+  "stp": 12.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180620010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180620010",
+  "grade": "open"
+ },
+ {
+  "id": "PTLO-1793900496",
+  "ts_kst": "2026-11-06 02:41",
+  "ts_utc": "2026-11-05T17:41:36+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "PTLO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.7% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PTLO 장중 급등 포착",
+  "body": "$6.580 (+20.7%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중, $6.75 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +20.7% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.251 지정가(기준가 $6.580의 −5%) · 체결 가능성 약 35% · 손익분기 $6.326\n숏 지지구간 $6.000–$6.250 · 손절 $5.875 · 1차목표 $6.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.58,
+  "level": 2,
+  "score": 27.6,
+  "prob": 53.23493076939121,
+  "cp": 63.15613705972456,
+  "rl": 6.75,
+  "stop": 5.875,
+  "zone": [
+   6.0,
+   6.25
+  ],
+  "bp": 6.251,
+  "tgt": 6.75,
+  "stp": 5.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211020012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211020012",
+  "grade": "open"
+ },
+ {
+  "id": "MASK-1793900496",
+  "ts_kst": "2026-11-06 02:41",
+  "ts_utc": "2026-11-05T17:41:36+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "MASK",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)"
+  ],
+  "title": "🚀 MASK 상위 확률 신호",
+  "body": "$1.860 (+13.4%) · 정규장 · 레벨 3 · 점수 48\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 15만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 48%)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.868 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +0.4%) · 체결 가능성 약 85% · 손익분기 $1.891\n숏 지지구간 $1.500–$1.860 · 손절 $1.000 · 1차목표 $2.000\n⚠ 역분할 2026-10-30\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.86,
+  "level": 3,
+  "score": 47.9,
+  "prob": 47.808764940239065,
+  "cp": 21.345149218100566,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.5,
+   1.8600000143051147
+  ],
+  "bp": 1.8682,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [
+   "역분할 2026-10-30"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250108004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250108004",
+  "grade": "open"
  }
 ]
