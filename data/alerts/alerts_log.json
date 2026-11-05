@@ -27030,5 +27030,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630006",
   "grade": "open"
+ },
+ {
+  "id": "TBI-1793890748",
+  "ts_kst": "2026-11-05 23:59",
+  "ts_utc": "2026-11-05T14:59:08+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "TBI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +25.1% · 거래량 평소의 12.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TBI 장중 급등 포착",
+  "body": "$12.310 (+25.1%) · 정규장 · 레벨 1 · 점수 22\n공매도 물량 대부분 손해 중, $13.59 넘으면 급등 가능성 ↑ · 1년 최고가 돌파 · 갭 상승 후 밀리는 중\n• 전일 대비 +25.1% · 거래량 평소의 12.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $11.695 지정가(기준가 $12.310의 −5%) · 체결 가능성 약 31% · 손익분기 $11.836\n숏 지지구간 $9.500–$10.025 · 손절 $9.000 · 1차목표 $13.590\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.31,
+  "level": 1,
+  "score": 21.6,
+  "prob": 53.1232405832303,
+  "cp": 56.61191163736301,
+  "rl": 13.59000015258789,
+  "stop": 9.0,
+  "zone": [
+   9.5,
+   10.025
+  ],
+  "bp": 11.6945,
+  "tgt": 13.59000015258789,
+  "stp": 9.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326070%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326070",
+  "grade": "open"
  }
 ]
