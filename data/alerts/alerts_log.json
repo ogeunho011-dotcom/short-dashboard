@@ -29843,5 +29843,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241022002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241022002",
   "grade": "n/a"
+ },
+ {
+  "id": "EDHL-1793907485",
+  "ts_kst": "2026-11-06 04:38",
+  "ts_utc": "2026-11-05T19:38:05+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "EDHL",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 EDHL 상위 확률 신호",
+  "body": "$6.200 (+2.5%) · 정규장 · 레벨 3 · 점수 47\n공매도 물량 대부분 손해 중, $6.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 167만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.875 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.2%) · 체결 가능성 약 12% · 손익분기 $5.946\n숏 지지구간 $6.000–$6.200 · 손절 $5.750 · 1차목표 $6.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.2,
+  "level": 3,
+  "score": 47.0,
+  "prob": 52.91666666666666,
+  "cp": 54.461172897214645,
+  "rl": 6.5,
+  "stop": 5.75,
+  "zone": [
+   6.0,
+   6.199999809265137
+  ],
+  "bp": 5.8755,
+  "tgt": 6.5,
+  "stp": 5.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250417003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250417003",
+  "grade": "open"
  }
 ]

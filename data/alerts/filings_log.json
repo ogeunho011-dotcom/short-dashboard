@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "REPX",
-  "form": "10-Q",
-  "acc": "0001001614-26-000063",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:37:41+00:00",
-  "accepted_kst": "11/05 06:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1001614/000100161426000063/0001001614-26-000063-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "MBUU",
   "form": "4",
   "acc": "0001182444-26-000007",
@@ -8667,5 +8650,22 @@
   "headline": "Tiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results ● Trial met primary endpoint with a statistically",
   "url": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026116277/0001213900-26-116277-index.htm",
   "seen_kst": "2026-11-06 04:28"
+ },
+ {
+  "ticker": "GORO",
+  "form": "6-K",
+  "acc": "0001104659-26-123256",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:35:10+00:00",
+  "accepted_kst": "11/06 04:35",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Skip to Main Content U.S. Securities and Exchange Commission SEC.gov Search Form Search SEC.gov Company Filings | More Search Options --> This page is temporari",
+  "url": "https://www.sec.gov/Archives/edgar/data/1515964/000110465926123256/0001104659-26-123256-index.htm",
+  "seen_kst": "2026-11-06 04:38"
  }
 ]
