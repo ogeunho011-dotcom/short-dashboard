@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "YOUL",
-  "form": "6-K",
-  "acc": "0001213900-26-115965",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:02+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Youlife Group Inc. Announces Initial US$3.0 Million Convertible Note Registered Direct Offering and Potential Additional Investments of Up to US$9.0 Million",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028177/000121390026115965/0001213900-26-115965-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "WOK",
   "form": "6-K",
   "acc": "0001213900-26-115966",
@@ -8681,5 +8662,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826008329/0001683168-26-008329-index.htm",
   "seen_kst": "2026-11-06 01:56"
+ },
+ {
+  "ticker": "CSAI",
+  "form": "4",
+  "acc": "0001683168-26-008330",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T16:56:49+00:00",
+  "accepted_kst": "11/06 01:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1709628/000168316826008330/0001683168-26-008330-index.htm",
+  "seen_kst": "2026-11-06 01:59"
  }
 ]
