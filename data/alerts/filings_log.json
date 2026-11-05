@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "UVV",
-  "form": "8-K",
-  "acc": "0001193125-26-447369",
-  "items": "5.02,7.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:26:34+00:00",
-  "accepted_kst": "11/05 06:26",
-  "polarity": "neutral",
-  "label": "임원 변경 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "P.O. Box 25099 Richmond, VA 23260 ~ phone: (804) 359-9311 ~ fax (804) 254-3584 PRESS RELEASE CONTACT RELEASE Universal Corporation Investor Relations 4:15 p.m.",
-  "url": "https://www.sec.gov/Archives/edgar/data/102037/000119312526447369/0001193125-26-447369-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "RES",
   "form": "4",
   "acc": "0001654954-26-009513",
@@ -8679,5 +8662,22 @@
   "headline": "CONTENTS On November 3, 2026, MediWound Ltd. (the “Company”) entered into an underwriting agreement (the “Underwriting Agreement”) with H.C. Wainwright & Co., L",
   "url": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005046/0001178913-26-005046-index.htm",
   "seen_kst": "2026-11-06 01:28"
+ },
+ {
+  "ticker": "IBTA",
+  "form": "144",
+  "acc": "0001959173-26-007779",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T16:36:06+00:00",
+  "accepted_kst": "11/06 01:36",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1538379/000195917326007779/0001959173-26-007779-index.htm",
+  "seen_kst": "2026-11-06 01:36"
  }
 ]
