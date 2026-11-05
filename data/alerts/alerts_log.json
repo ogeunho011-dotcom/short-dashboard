@@ -28503,5 +28503,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250417003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250417003",
   "grade": "open"
+ },
+ {
+  "id": "NXAT-1793899157",
+  "ts_kst": "2026-11-06 02:19",
+  "ts_utc": "2026-11-05T17:19:17+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "NXAT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.8% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NXAT 장중 급등 포착",
+  "body": "$0.480 (+16.8%) · 정규장 · 레벨 2 · 점수 32\n오늘 거래량 평소의 3배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.8% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 33%\n추천 매수가 $0.449 지정가(20일선, 기준가 대비 -6.5%) · 체결 가능성 약 59% · 손익분기 $0.454\n숏 지지구간 $0.336–$0.480 · 손절 $0.240 · 1차목표 $1.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.48,
+  "level": 2,
+  "score": 32.4,
+  "prob": 33.1858407079646,
+  "cp": 3.9590383079964537,
+  "rl": 1.25,
+  "stop": 0.23999999463558197,
+  "zone": [
+   0.3359999924898147,
+   0.47999998927116394
+  ],
+  "bp": 0.4488,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221110003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221110003",
+  "grade": "n/a"
  }
 ]

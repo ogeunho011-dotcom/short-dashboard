@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CTOR",
-  "form": "8-K",
-  "acc": "0001213900-26-115964",
-  "items": "8.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:14+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Citius Oncology’s Positive Quality of Life Data for LYMPHIR® (denileukin diftitox-cxdl) in Relapsed or Refractory Cutaneous T-Cell Lymphoma Presented at Premier",
-  "url": "https://www.sec.gov/Archives/edgar/data/1851484/000121390026115964/0001213900-26-115964-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "MX",
   "form": "8-K",
   "acc": "0001193125-26-447409",
@@ -8674,5 +8657,22 @@
   "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
   "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526449165/0001193125-26-449165-index.htm",
   "seen_kst": "2026-11-06 02:11"
+ },
+ {
+  "ticker": "CFFI",
+  "form": "10-Q",
+  "acc": "0000913341-26-000052",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T17:16:29+00:00",
+  "accepted_kst": "11/06 02:16",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000052/0000913341-26-000052-index.htm",
+  "seen_kst": "2026-11-06 02:19"
  }
 ]
