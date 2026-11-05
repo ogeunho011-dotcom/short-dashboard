@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SMBC",
-  "form": "8-K",
-  "acc": "0001104659-26-122676",
-  "items": "7.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:11:42+00:00",
-  "accepted_kst": "11/05 06:11",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "NASDAQ: SMBC First Quarter Fiscal 2027 Why Southern Bank? We see people working to seize opportunities, build communities, and achieve their dreams right in the",
-  "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926122676/0001104659-26-122676-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "SLNG",
   "form": "8-K",
   "acc": "0001437749-26-034943",
@@ -8668,5 +8651,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026070656/0001628280-26-070656-index.htm",
   "seen_kst": "2026-11-05 22:54"
+ },
+ {
+  "ticker": "CLGN",
+  "form": "6-K",
+  "acc": "0001213900-26-116147",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:55:38+00:00",
+  "accepted_kst": "11/05 22:55",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "LightSolver Secures ~$1.8 Million Grant from Israel’s Innovation Authority to Advance its Laser Processing Unit (LPU) Government-backed R&D program to advance n",
+  "url": "https://www.sec.gov/Archives/edgar/data/1631487/000121390026116147/0001213900-26-116147-index.htm",
+  "seen_kst": "2026-11-05 23:02"
  }
 ]
