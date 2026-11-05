@@ -29117,5 +29117,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210126005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210126005",
   "grade": "open"
+ },
+ {
+  "id": "APYX-1793903109",
+  "ts_kst": "2026-11-06 03:25",
+  "ts_utc": "2026-11-05T18:25:09+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "APYX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.3% · 거래량 평소의 10.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ APYX 장중 급등 포착",
+  "body": "$2.985 (+15.3%) · 정규장 · 레벨 1 · 점수 24\n공매도 물량 대부분 손해 중, $3.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 7배 이상, 관심 급증\n• 전일 대비 +15.3% · 거래량 평소의 10.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.795 지정가(60일선, 기준가 대비 -6.4%) · 체결 가능성 약 28% · 손익분기 $2.828\n숏 지지구간 $2.500–$2.750 · 손절 $2.250 · 1차목표 $3.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.985,
+  "level": 1,
+  "score": 23.7,
+  "prob": 53.44827586206896,
+  "cp": 43.78801663303937,
+  "rl": 3.25,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   2.75
+  ],
+  "bp": 2.7947,
+  "tgt": 3.25,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190102001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190102001",
+  "grade": "open"
+ },
+ {
+  "id": "HLP-1793903109",
+  "ts_kst": "2026-11-06 03:25",
+  "ts_utc": "2026-11-05T18:25:09+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "HLP",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 45k (당일 평균 12.0배)"
+  ],
+  "title": "🚀 HLP 거래량 급증",
+  "body": "$3.340 (+14.0%) · 정규장 · 레벨 3 · 점수 44\n$4.69 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 5분 거래량 45k (당일 평균 12.0배)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $3.173 지정가(기준가 $3.340의 −5%) · 체결 가능성 약 70% · 손익분기 $3.211\n숏 지지구간 $2.338–$2.338 · 손절 $1.670 · 1차목표 $4.690\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.34,
+  "level": 3,
+  "score": 44.4,
+  "prob": 47.808764940239065,
+  "cp": 25.847227136433393,
+  "rl": 4.690000057220459,
+  "stop": 1.6699999570846558,
+  "zone": [
+   2.337999939918518,
+   2.337999939918518
+  ],
+  "bp": 3.173,
+  "tgt": 4.690000057220459,
+  "stp": 1.6699999570846558,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230329002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230329002",
+  "grade": "open"
  }
 ]
