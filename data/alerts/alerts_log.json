@@ -29273,5 +29273,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230424001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230424001",
   "grade": "open"
+ },
+ {
+  "id": "AMTX-1793903407",
+  "ts_kst": "2026-11-06 03:30",
+  "ts_utc": "2026-11-05T18:30:07+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "AMTX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +44.0% · 거래량 평소의 28.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AMTX 장중 급등 포착",
+  "body": "$1.800 (+44.0%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $1.95 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 20배 이상, 관심 급증\n• 전일 대비 +44.0% · 거래량 평소의 28.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.702 지정가(60일선, 기준가 대비 -5.4%) · 체결 가능성 약 50% · 손익분기 $1.723\n숏 지지구간 $1.650–$1.702 · 손절 $1.600 · 1차목표 $1.950\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.7999,
+  "level": 2,
+  "score": 30.8,
+  "prob": 53.44827586206896,
+  "cp": 61.1125598653466,
+  "rl": 1.9500000000000008,
+  "stop": 1.6000000000000005,
+  "zone": [
+   1.6500000000000006,
+   1.7024650192260746
+  ],
+  "bp": 1.7022,
+  "tgt": 1.9500000000000008,
+  "stp": 1.6000000000000005,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140606001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140606001",
+  "grade": "open"
  }
 ]
