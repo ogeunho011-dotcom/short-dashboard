@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "POLA",
-  "form": "8-K",
-  "acc": "0001493152-26-049878",
-  "items": "7.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T12:30:33+00:00",
-  "accepted_kst": "11/04 21:30",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "FOR IMMEDIATE RELEASE Polar Power Receives Nasdaq Confirmation of Stockholders’ Equity Compliance; Advances Next Phase of Restructuring Following $1.03 million ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226049878/0001493152-26-049878-index.htm",
-  "seen_kst": "2026-11-04 21:32"
- },
- {
-  "ticker": "DIN",
-  "form": "10-Q",
-  "acc": "0001628280-26-069796",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T12:30:38+00:00",
-  "accepted_kst": "11/04 21:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/49754/000162828026069796/0001628280-26-069796-index.htm",
-  "seen_kst": "2026-11-04 21:32"
- },
- {
-  "ticker": "TROX",
-  "form": "8-K",
-  "acc": "0001140361-26-041898",
-  "items": "8.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T12:30:38+00:00",
-  "accepted_kst": "11/04 21:30",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Tronox Declares Fourth Quarter 2026 Dividend",
-  "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126041898/0001140361-26-041898-index.htm",
-  "seen_kst": "2026-11-04 21:32"
- },
- {
   "ticker": "FSTR",
   "form": "8-K",
   "acc": "0000352825-26-000055",
@@ -8646,5 +8593,58 @@
   "headline": "attached hereto, is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange",
   "url": "https://www.sec.gov/Archives/edgar/data/1857816/000162828026070471/0001628280-26-070471-index.htm",
   "seen_kst": "2026-11-05 20:07"
+ },
+ {
+  "ticker": "ARHS",
+  "form": "10-Q",
+  "acc": "0001875444-26-000038",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:07:19+00:00",
+  "accepted_kst": "11/05 20:07",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1875444/000187544426000038/0001875444-26-000038-index.htm",
+  "seen_kst": "2026-11-05 20:10"
+ },
+ {
+  "ticker": "GCT",
+  "form": "10-Q",
+  "acc": "0001628280-26-070475",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:07:25+00:00",
+  "accepted_kst": "11/05 20:07",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1857816/000162828026070475/0001628280-26-070475-index.htm",
+  "seen_kst": "2026-11-05 20:10"
+ },
+ {
+  "ticker": "MEDS",
+  "form": "8-K",
+  "acc": "0001493152-26-050033",
+  "items": "1.02,7.01,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:08:16+00:00",
+  "accepted_kst": "11/05 20:08",
+  "polarity": "neg",
+  "label": "중요 계약 해지(항목 1.02)",
+  "cats": [],
+  "negs": [
+   "중요 계약 해지(항목 1.02)"
+  ],
+  "strength": 0,
+  "headline": "DataMEDS AI Announces Termination of Second Amended and Restated Letter of Intent TAMPA, FL / ACCESS Newswire / November 3, 2026 / DataMeds AI, Inc . (“DataMeds",
+  "url": "https://www.sec.gov/Archives/edgar/data/2030763/000149315226050033/0001493152-26-050033-index.htm",
+  "seen_kst": "2026-11-05 20:10"
  }
 ]
