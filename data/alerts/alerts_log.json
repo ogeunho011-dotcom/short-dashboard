@@ -29882,5 +29882,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250417003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250417003",
   "grade": "open"
+ },
+ {
+  "id": "RZAI-1793907635",
+  "ts_kst": "2026-11-06 04:40",
+  "ts_utc": "2026-11-05T19:40:35+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "RZAI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.5% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RZAI 장중 급등 포착",
+  "body": "$2.950 (+17.5%) · 정규장 · 레벨 2 · 점수 27\n오늘 거래량 평소의 6배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +17.5% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $2.803 지정가(기준가 $2.950의 −5%) · 체결 가능성 약 85% · 손익분기 $2.836\n숏 지지구간 $2.000–$2.950 · 손절 $1.475 · 1차목표 $6.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.95,
+  "level": 2,
+  "score": 27.0,
+  "prob": 31.25,
+  "cp": 22.0,
+  "rl": 6.0,
+  "stop": 1.475000023841858,
+  "zone": [
+   2.0,
+   2.950000047683716
+  ],
+  "bp": 2.8025,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2609029006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2609029006",
+  "grade": "n/a"
  }
 ]
