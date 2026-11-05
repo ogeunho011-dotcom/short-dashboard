@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "OPNW",
-  "form": "8-K",
-  "acc": "0001214659-26-013738",
-  "items": "5.07",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:34+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders On November 3, 2026, stockholders (the “Consenting Stockholders”) holding approximately 50.27% of",
-  "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013738/0001214659-26-013738-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "ABTC",
   "form": "10-Q",
   "acc": "0001193125-26-447413",
@@ -8672,5 +8653,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1687542/000161052026000120/0001610520-26-000120-index.htm",
   "seen_kst": "2026-11-06 02:52"
+ },
+ {
+  "ticker": "RBNE",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0002162486-26-000002",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T17:57:17+00:00",
+  "accepted_kst": "11/06 02:57",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2039060/000216248626000002/0002162486-26-000002-index.htm",
+  "seen_kst": "2026-11-06 02:59"
  }
 ]
