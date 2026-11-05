@@ -2,23 +2,6 @@
  {
   "ticker": "AIRE",
   "form": "4",
-  "acc": "0001213900-26-115694",
-  "items": "",
-  "filed": "2026-11-03",
-  "accepted": "2026-11-04T01:31:01+00:00",
-  "accepted_kst": "11/04 10:31",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1859199/000121390026115694/0001213900-26-115694-index.htm",
-  "seen_kst": "2026-11-04 22:27"
- },
- {
-  "ticker": "AIRE",
-  "form": "4",
   "acc": "0001213900-26-115695",
   "items": "",
   "filed": "2026-11-03",
@@ -8648,5 +8631,22 @@
   "headline": ", shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), or incorporated by reference i",
   "url": "https://www.sec.gov/Archives/edgar/data/1857154/000185715426000049/0001857154-26-000049-index.htm",
   "seen_kst": "2026-11-05 20:55"
+ },
+ {
+  "ticker": "ANIP",
+  "form": "8-K",
+  "acc": "0001023024-26-000077",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:56:36+00:00",
+  "accepted_kst": "11/05 20:56",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ".* Item 7.01 Regulation FD Disclosure On November 5, 2026, the Company provided a presentation in connection with a conference call and webcast that will be hel",
+  "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000077/0001023024-26-000077-index.htm",
+  "seen_kst": "2026-11-05 20:58"
  }
 ]
