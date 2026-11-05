@@ -20535,7 +20535,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230725003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230725003",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.13931022160590945,
+  "graded_bars": 1
  },
  {
   "id": "STEM-1793804410",
@@ -27152,6 +27155,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201009002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201009002",
+  "grade": "open"
+ },
+ {
+  "id": "KAZR-1793891159",
+  "ts_kst": "2026-11-06 00:05",
+  "ts_utc": "2026-11-05T15:05:59+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "KAZR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.7% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KAZR 장중 급등 포착",
+  "body": "$1.330 (+16.7%) · 정규장 · 레벨 2 · 점수 28\n$1.40 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 33만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.7% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.272 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -4.4%) · 체결 가능성 약 77% · 손익분기 $1.287\n숏 지지구간 $1.000–$1.116 · 손절 $0.950 · 1차목표 $1.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.33,
+  "level": 2,
+  "score": 27.7,
+  "prob": 38.456237077877326,
+  "cp": 25.393236754098936,
+  "rl": 1.4,
+  "stop": 0.95,
+  "zone": [
+   1.0,
+   1.1155000150203704
+  ],
+  "bp": 1.2717,
+  "tgt": 1.4,
+  "stp": 0.95,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250123003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250123003",
   "grade": "open"
  }
 ]
