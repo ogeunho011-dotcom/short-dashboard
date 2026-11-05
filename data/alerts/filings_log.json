@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DEC",
-  "form": "8-K",
-  "acc": "0001922446-26-000109",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:24:20+00:00",
-  "accepted_kst": "11/05 06:24",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Current Report on Form 8-K and is incorporated into this Item 2.02 by reference. In accordance with General Instruction B.2 of Form 8-K, the information",
-  "url": "https://www.sec.gov/Archives/edgar/data/1922446/000192244626000109/0001922446-26-000109-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "OPK",
   "form": "8-K",
   "acc": "0001193125-26-447357",
@@ -8679,5 +8662,22 @@
   "headline": "Kim Denny",
   "url": "https://www.sec.gov/Archives/edgar/data/1228454/000119312526448969/0001193125-26-448969-index.htm",
   "seen_kst": "2026-11-06 00:38"
+ },
+ {
+  "ticker": "BCBP",
+  "form": "4",
+  "acc": "0001193125-26-448980",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T15:41:44+00:00",
+  "accepted_kst": "11/06 00:41",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $502 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Gallotta Steven E.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1228454/000119312526448980/0001193125-26-448980-index.htm",
+  "seen_kst": "2026-11-06 00:45"
  }
 ]
