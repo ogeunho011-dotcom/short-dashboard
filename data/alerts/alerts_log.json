@@ -28291,5 +28291,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240515002",
   "grade": "n/a"
+ },
+ {
+  "id": "DNUT-1793897489",
+  "ts_kst": "2026-11-06 01:51",
+  "ts_utc": "2026-11-05T16:51:29+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "DNUT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.8% · 거래량 평소의 10.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ DNUT 장중 급등 포착",
+  "body": "$4.535 (+28.8%) · 정규장 · 레벨 1 · 점수 19\n공매도 물량 대부분 손해 중, $4.60 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +28.8% · 거래량 평소의 10.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.308 지정가(기준가 $4.535의 −5%) · 체결 가능성 약 28% · 손익분기 $4.360\n숏 지지구간 $3.900–$4.122 · 손절 $3.850 · 1차목표 $4.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.535,
+  "level": 1,
+  "score": 19.3,
+  "prob": 53.44827586206896,
+  "cp": 75.92975084046657,
+  "rl": 4.600000000000001,
+  "stop": 3.8500000000000014,
+  "zone": [
+   3.9000000000000012,
+   4.1222499465942395
+  ],
+  "bp": 4.3082,
+  "tgt": 4.600000000000001,
+  "stp": 3.8500000000000014,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630006",
+  "grade": "open"
  }
 ]
