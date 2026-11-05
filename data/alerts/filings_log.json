@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ABTC",
-  "form": "10-Q",
-  "acc": "0001193125-26-447413",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:42+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1755953/000119312526447413/0001193125-26-447413-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "PAHC",
   "form": "8-K",
   "acc": "0001104659-26-122727",
@@ -8670,5 +8653,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2039060/000216248626000002/0002162486-26-000002-index.htm",
   "seen_kst": "2026-11-06 02:59"
+ },
+ {
+  "ticker": "GUNN",
+  "form": "6-K",
+  "acc": "0001493152-26-050162",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T18:04:09+00:00",
+  "accepted_kst": "11/06 03:04",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE Gunnison Copper Celebrates NYSE American “GUNN” Debut with $25,000 “GUNN 25 Challenge” Sweepstakes 25 Reps. 25 Grand. A celebration of American str",
+  "url": "https://www.sec.gov/Archives/edgar/data/1514860/000149315226050162/0001493152-26-050162-index.htm",
+  "seen_kst": "2026-11-06 03:04"
  }
 ]
