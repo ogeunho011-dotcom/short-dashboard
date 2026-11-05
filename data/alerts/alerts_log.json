@@ -26481,5 +26481,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
   "grade": "open"
+ },
+ {
+  "id": "EZGO-1793888161",
+  "ts_kst": "2026-11-05 23:16",
+  "ts_utc": "2026-11-05T14:16:01+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "EZGO",
+  "types": [
+   "prob",
+   "pregap"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 51%)",
+   "프리마켓 갭 +207.2%"
+  ],
+  "title": "🚀 EZGO 상위 확률 신호 · 프리마켓 갭",
+  "body": "$1.800 (+207.2%) · 프리마켓 · 레벨 3 · 점수 47\n공매도 물량 대부분 손해 중 · 한 달 고점 돌파\n• 검증 모델 상위 신호 (보정확률 51%)\n• 프리마켓 갭 +207.2%\n10일 내 셋업 성공 확률(보정): 51%\n추천 매수가 $1.710 지정가(기준가 $1.800의 −5%) · 체결 가능성 약 57% · 손익분기 $1.731\n숏 지지구간 $1.200–$1.300 · 손절 $1.100\n⚠ 역분할 2026-11-05\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.8,
+  "level": 3,
+  "score": 47.2,
+  "prob": 51.24718131617747,
+  "cp": 62.0,
+  "rl": 1.8,
+  "stop": 1.0999999999999996,
+  "zone": [
+   1.1999999999999997,
+   1.2999999999999998
+  ],
+  "bp": 1.71,
+  "tgt": 2.07,
+  "stp": 1.0999999999999996,
+  "penalties": [
+   "역분할 2026-11-05"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210126005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210126005",
+  "grade": "open"
  }
 ]
