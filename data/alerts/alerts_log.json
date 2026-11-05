@@ -1070,10 +1070,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19890105001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19890105001",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 6,
+  "grade_ret": 0.026026166230245347,
+  "graded_bars": 6
  },
  {
   "id": "LUNG-1793220609",
@@ -15791,7 +15791,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20110415001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20110415001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.14885714285714313,
+  "graded_bars": 2
  },
  {
   "id": "ZBAO-1793719433",
@@ -26830,5 +26833,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220202004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220202004",
   "grade": "open"
+ },
+ {
+  "id": "LYNX-1793889537",
+  "ts_kst": "2026-11-05 23:38",
+  "ts_utc": "2026-11-05T14:38:57+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "LYNX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.8% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LYNX 장중 급등 포착",
+  "body": "$11.720 (+24.8%) · 정규장 · 레벨 2 · 점수 28\n$14.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +24.8% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $11.208 지정가(20일선, 기준가 대비 -4.4%) · 체결 가능성 약 57% · 손익분기 $11.343\n숏 지지구간 $11.500–$11.720 · 손절 $11.000 · 1차목표 $14.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 11.72,
+  "level": 2,
+  "score": 28.2,
+  "prob": 41.15942028985507,
+  "cp": 16.497822428021887,
+  "rl": 14.0,
+  "stop": 11.0,
+  "zone": [
+   11.5,
+   11.720000267028809
+  ],
+  "bp": 11.208,
+  "tgt": 14.0,
+  "stp": 11.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2608019001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2608019001",
+  "grade": "open"
+ },
+ {
+  "id": "PLCE-1793889537",
+  "ts_kst": "2026-11-05 23:38",
+  "ts_utc": "2026-11-05T14:38:57+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "PLCE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.9% · 거래량 평소의 56.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PLCE 장중 급등 포착",
+  "body": "$0.295 (+22.9%) · 정규장 · 레벨 3 · 점수 54\n오늘 거래량 평소의 17배 이상, 관심 급증 · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 전일 대비 +22.9% · 거래량 평소의 56.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $0.280 지정가(기준가 $0.295의 −5%) · 체결 가능성 약 84% · 손익분기 $0.284\n숏 지지구간 $0.250–$0.295 · 손절 $0.147 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.295,
+  "level": 3,
+  "score": 54.1,
+  "prob": 41.48807904228051,
+  "cp": 36.197515322443124,
+  "rl": 0.75,
+  "stop": 0.14749999344348907,
+  "zone": [
+   0.25,
+   0.29499998688697815
+  ],
+  "bp": 0.2802,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19970919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19970919001",
+  "grade": "n/a"
  }
 ]
