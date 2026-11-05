@@ -30921,5 +30921,306 @@
    "accepted_kst": "11/06 06:10",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "AMPH-fil-0001297184-26-000051",
+  "ts_kst": "2026-11-06 06:56",
+  "ts_utc": "2026-11-05T21:56:06+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "AMPH",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 AMPH 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/06 06:26 KST)\nAmphastar Pharmaceuticals Reports Financial Results for the Three Months Ended September 30, 2026 ​ - Net revenues of $207.6 million for the\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140624001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140624001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001297184-26-000051",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Amphastar Pharmaceuticals Reports Financial Results for the Three Months Ended September 30, 2026 ​ - Net revenues of $207.6 million for the three months ended ",
+   "url": "https://www.sec.gov/Archives/edgar/data/1297184/000129718426000051/0001297184-26-000051-index.htm",
+   "accepted_kst": "11/06 06:26",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "RDVT-fil-0001193125-26-449969",
+  "ts_kst": "2026-11-06 06:56",
+  "ts_utc": "2026-11-05T21:56:06+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "RDVT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 RDVT 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/06 06:29 KST)\nred violet Reports Third Quarter 2026 Financial Results Revenue Increases 20% to a Record $27.8 Million Producing a Record $12.7 Million in \n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180327002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180327002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-449969",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "red violet Reports Third Quarter 2026 Financial Results Revenue Increases 20% to a Record $27.8 Million Producing a Record $12.7 Million in Cash Flow from Opera",
+   "url": "https://www.sec.gov/Archives/edgar/data/1720116/000119312526449969/0001193125-26-449969-index.htm",
+   "accepted_kst": "11/06 06:29",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "UPBD-fil-0001193125-26-449973",
+  "ts_kst": "2026-11-06 06:56",
+  "ts_utc": "2026-11-05T21:56:06+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "UPBD",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $100,083"
+  ],
+  "title": "📢 UPBD 호재 공시",
+  "body": "4 · 내부자 장내 매수 $100,083 (11/06 06:30 KST)\nKaram Fahmi\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19950125001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19950125001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001193125-26-449973",
+   "items": "",
+   "label": "내부자 장내 매수 $100,083",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Karam Fahmi",
+   "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312526449973/0001193125-26-449973-index.htm",
+   "accepted_kst": "11/06 06:30",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "FBRT-fil-0001104659-26-123375",
+  "ts_kst": "2026-11-06 06:56",
+  "ts_utc": "2026-11-05T21:56:06+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "FBRT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $998,364"
+  ],
+  "title": "📢 FBRT 호재 공시",
+  "body": "4 · 내부자 장내 매수 $998,364 (11/06 06:30 KST)\nByrne Richard J\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211019003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211019003",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001104659-26-123375",
+   "items": "",
+   "label": "내부자 장내 매수 $998,364",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Byrne Richard J",
+   "url": "https://www.sec.gov/Archives/edgar/data/1562528/000110465926123375/0001104659-26-123375-index.htm",
+   "accepted_kst": "11/06 06:30",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "BRSL-fil-0001628280-26-071131",
+  "ts_kst": "2026-11-06 06:56",
+  "ts_utc": "2026-11-05T21:56:06+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "BRSL",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 자사주 매입"
+  ],
+  "title": "📢 BRSL 호재 공시",
+  "body": "6-K · 자사주 매입 (11/06 06:33 KST)\nBrightstar Lottery PLC Announces Repurchase of Ordinary Shares Brightstar Lottery PLC (NYSE: BRSL) (the “Company”) announced today that it h\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19910131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19910131002",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001628280-26-071131",
+   "items": "",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "Brightstar Lottery PLC Announces Repurchase of Ordinary Shares Brightstar Lottery PLC (NYSE: BRSL) (the “Company”) announced today that it has repurchased the f",
+   "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026071131/0001628280-26-071131-index.htm",
+   "accepted_kst": "11/06 06:33",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "KBDC-fil-0001213900-26-116414",
+  "ts_kst": "2026-11-06 06:56",
+  "ts_utc": "2026-11-05T21:56:06+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "KBDC",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 KBDC 호재 공시",
+  "body": "8-K · 자사주 매입 (11/06 06:34 KST)\nKayne Anderson BDC, Inc. Announces September 30, 2026 Financial Results and Declares Fourth Quarter 2026 Dividend of $0.40 Per Share CHICAGO\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240522003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240522003",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001213900-26-116414",
+   "items": "2.02,7.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "Kayne Anderson BDC, Inc. Announces September 30, 2026 Financial Results and Declares Fourth Quarter 2026 Dividend of $0.40 Per Share CHICAGO--( BUSINESS WIRE )-",
+   "url": "https://www.sec.gov/Archives/edgar/data/1747172/000121390026116414/0001213900-26-116414-index.htm",
+   "accepted_kst": "11/06 06:34",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "CBL-fil-0001193125-26-450022",
+  "ts_kst": "2026-11-06 06:56",
+  "ts_utc": "2026-11-05T21:56:06+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "CBL",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 CBL 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/06 06:40 KST)\nEarnings Release and Supplemental Financial and Operating Information For the Three and Nine Months Ended September 30, 2026 Earnings Releas\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211103003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211103003",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-450022",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Earnings Release and Supplemental Financial and Operating Information For the Three and Nine Months Ended September 30, 2026 Earnings Release and Supplemental F",
+   "url": "https://www.sec.gov/Archives/edgar/data/910612/000119312526450022/0001193125-26-450022-index.htm",
+   "accepted_kst": "11/06 06:40",
+   "polarity": "pos"
+  }
  }
 ]
