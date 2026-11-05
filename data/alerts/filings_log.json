@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "SWRD",
-  "form": "424B3",
-  "acc": "0001663577-26-000335",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:02:25+00:00",
-  "accepted_kst": "11/05 06:02",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1795851/000166357726000335/0001663577-26-000335-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "HMH",
-  "form": "8-K",
-  "acc": "0001628280-26-070106",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:02:40+00:00",
-  "accepted_kst": "11/05 06:02",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "HMH Holding Inc. Announces Third Quarter 2026 Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/2021880/000162828026070106/0001628280-26-070106-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "HMH",
   "form": "10-Q",
   "acc": "0001628280-26-070108",
@@ -8662,5 +8626,39 @@
   "headline": "IsoEnergy Confirms High-Grade Uranium Intersections Along the Hurricane South Trend, Including up to 15.4% U ₃ O ₈ 500 m East of the Deposit",
   "url": "https://www.sec.gov/Archives/edgar/data/1997377/000127956926001048/0001279569-26-001048-index.htm",
   "seen_kst": "2026-11-05 21:47"
+ },
+ {
+  "ticker": "DSGR",
+  "form": "10-Q",
+  "acc": "0000703604-26-000051",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T12:46:48+00:00",
+  "accepted_kst": "11/05 21:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/703604/000070360426000051/0000703604-26-000051-index.htm",
+  "seen_kst": "2026-11-05 21:50"
+ },
+ {
+  "ticker": "NVRI",
+  "form": "8-K",
+  "acc": "0002104052-26-000141",
+  "items": "2.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T12:47:09+00:00",
+  "accepted_kst": "11/05 21:47",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ". The information is being furnished in this report and shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934 (the",
+  "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000141/0002104052-26-000141-index.htm",
+  "seen_kst": "2026-11-05 21:50"
  }
 ]
