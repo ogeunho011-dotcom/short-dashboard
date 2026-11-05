@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "ECOR",
-  "form": "8-K",
-  "acc": "0001493152-26-049958",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:10:15+00:00",
-  "accepted_kst": "11/05 06:10",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "electroCore Announces Third Quarter 2026 Financial Results Third quarter 2026 net sales of $9.7 million, an increase of 12% over $8.7 million in the third quart",
-  "url": "https://www.sec.gov/Archives/edgar/data/1560258/000149315226049958/0001493152-26-049958-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "SERA",
   "form": "8-K",
   "acc": "0001534969-26-000038",
@@ -8677,5 +8658,22 @@
   "headline": "EX-99.1 2 cofs-ex99_1.htm EX-99.1 INVESTOR PRESENTATION THIRD QUARTER 2026 FORWARD-LOOKING STATEMENTS This presentation contains forward-looking statements that",
   "url": "https://www.sec.gov/Archives/edgar/data/803164/000119312526448731/0001193125-26-448731-index.htm",
   "seen_kst": "2026-11-05 22:42"
+ },
+ {
+  "ticker": "LU",
+  "form": "6-K",
+  "acc": "0001193125-26-448743",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:44:44+00:00",
+  "accepted_kst": "11/05 22:44",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "—Monthly Return with The Stock Exchange of Hong Kong Limited—Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the",
+  "url": "https://www.sec.gov/Archives/edgar/data/1816007/000119312526448743/0001193125-26-448743-index.htm",
+  "seen_kst": "2026-11-05 22:45"
  }
 ]
