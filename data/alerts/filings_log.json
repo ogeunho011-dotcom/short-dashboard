@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SMTK",
-  "form": "8-K",
-  "acc": "0001104659-26-122719",
-  "items": "1.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:24+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neutral",
-  "label": "중요 계약",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01. Entry into a Material Definitive Agreement As previously announced, the following convertible promissory notes have been issued by Ferrox Critical Mi",
-  "url": "https://www.sec.gov/Archives/edgar/data/1817760/000110465926122719/0001104659-26-122719-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "OPNW",
   "form": "8-K",
   "acc": "0001214659-26-013738",
@@ -8672,5 +8655,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449235/0001193125-26-449235-index.htm",
   "seen_kst": "2026-11-06 02:45"
+ },
+ {
+  "ticker": "FRGT",
+  "form": "SCHEDULE 13G",
+  "acc": "0001610520-26-000120",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T17:51:35+00:00",
+  "accepted_kst": "11/06 02:51",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1687542/000161052026000120/0001610520-26-000120-index.htm",
+  "seen_kst": "2026-11-06 02:52"
  }
 ]

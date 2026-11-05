@@ -20389,9 +20389,9 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190925011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190925011",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.044067949242734376,
   "graded_bars": 1
  },
  {
@@ -22215,9 +22215,9 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190925011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190925011",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.057654560129136494,
   "graded_bars": 1
  },
  {
@@ -23619,9 +23619,9 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190925011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190925011",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.08007407407407408,
   "graded_bars": 1
  },
  {
