@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BUR",
-  "form": "8-K",
-  "acc": "0001714174-26-000111",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T13:00:16+00:00",
-  "accepted_kst": "11/04 22:00",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 bur-20261104xex991.htm EX-99.1 November 4, 2026 Burford Reports 3Q26 and YTD26 Financial Results Burford Capital Limited (“Burford”), the leading glob",
-  "url": "https://www.sec.gov/Archives/edgar/data/1714174/000171417426000111/0001714174-26-000111-index.htm",
-  "seen_kst": "2026-11-04 22:02"
- },
- {
   "ticker": "TRIN",
   "form": "8-K",
   "acc": "0001193125-26-446244",
@@ -8648,5 +8631,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1420800/000142080026000054/0001420800-26-000054-index.htm",
   "seen_kst": "2026-11-05 20:24"
+ },
+ {
+  "ticker": "RGS",
+  "form": "8-K",
+  "acc": "0000716643-26-000039",
+  "items": "2.02",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:29:11+00:00",
+  "accepted_kst": "11/05 20:29",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 2.02 is attached as Exhibit No. 99.1 and incorporated by reference herein. The information in this Form 8-K shall not be deemed \"filed\" for purposes of Sec",
+  "url": "https://www.sec.gov/Archives/edgar/data/716643/000071664326000039/0000716643-26-000039-index.htm",
+  "seen_kst": "2026-11-05 20:29"
  }
 ]
