@@ -1,79 +1,5 @@
 [
  {
-  "ticker": "TRAX",
-  "form": "424B3",
-  "acc": "0001193125-26-447243",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:09:48+00:00",
-  "accepted_kst": "11/05 06:09",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526447243/0001193125-26-447243-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "PACB",
-  "form": "8-K",
-  "acc": "0001299130-26-000133",
-  "items": "2.02,5.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:09:58+00:00",
-  "accepted_kst": "11/05 06:09",
-  "polarity": "pos",
-  "label": "계약·수주",
-  "cats": [
-   "계약·수주"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "PacBio Announces Third Quarter 2026 Financial Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1299130/000129913026000133/0001299130-26-000133-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "ELVR",
-  "form": "6-K",
-  "acc": "0001140361-26-041958",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:10:10+00:00",
-  "accepted_kst": "11/05 06:10",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Appendix 3Y Change of Director’s Interest Notice Rule 3.19A.2 Appendix 3Y Change of Director’s Interest Notice Information or documents not available now must b",
-  "url": "https://www.sec.gov/Archives/edgar/data/1739016/000114036126041958/0001140361-26-041958-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
-  "ticker": "MNRO",
-  "form": "8-K",
-  "acc": "0001193125-26-447246",
-  "items": "1.01,3.03,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:10:14+00:00",
-  "accepted_kst": "11/05 06:10",
-  "polarity": "neg",
-  "label": "주주 권리 변경(역분할 등)(항목 3.03)",
-  "cats": [],
-  "negs": [
-   "주주 권리 변경(역분할 등)(항목 3.03)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 4, 2026, Monro, Inc. (the “ Company ”) entered into the Amendment to Rights Agreement (the “ A",
-  "url": "https://www.sec.gov/Archives/edgar/data/876427/000119312526447246/0001193125-26-447246-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "OKUR",
   "form": "8-K",
   "acc": "0001193125-26-447247",
@@ -8681,5 +8607,75 @@
   "headline": "Price Teddy Ray",
   "url": "https://www.sec.gov/Archives/edgar/data/1071236/000177007126000012/0001770071-26-000012-index.htm",
   "seen_kst": "2026-11-05 22:35"
+ },
+ {
+  "ticker": "APVO",
+  "form": "8-K",
+  "acc": "0001193125-26-448714",
+  "items": "8.01,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:35:14+00:00",
+  "accepted_kst": "11/05 22:35",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Aptevo Achieves Key Clinical Development Objective, Significantly Reducing Infusion-Related Reactions with Mipletamig in Frontline AML Refined priming-dose regi",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671584/000119312526448714/0001193125-26-448714-index.htm",
+  "seen_kst": "2026-11-05 22:38"
+ },
+ {
+  "ticker": "PESI",
+  "form": "8-K",
+  "acc": "0001493152-26-050071",
+  "items": "2.02,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:36:46+00:00",
+  "accepted_kst": "11/05 22:36",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Perma-Fix Reports Third Quarter 2026 Results, with Sequential Growth of 39% in Revenue and 25% in Treatment Backlog from Second Quarter 2026 Treatment backlog o",
+  "url": "https://www.sec.gov/Archives/edgar/data/891532/000149315226050071/0001493152-26-050071-index.htm",
+  "seen_kst": "2026-11-05 22:38"
+ },
+ {
+  "ticker": "PLTK",
+  "form": "10-Q",
+  "acc": "0001828016-26-000056",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:37:28+00:00",
+  "accepted_kst": "11/05 22:37",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1828016/000182801626000056/0001828016-26-000056-index.htm",
+  "seen_kst": "2026-11-05 22:38"
+ },
+ {
+  "ticker": "LOCL",
+  "form": "8-K",
+  "acc": "0001628280-26-070640",
+  "items": "8.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:37:58+00:00",
+  "accepted_kst": "11/05 22:37",
+  "polarity": "neg",
+  "label": "상장 유지 기준 미달·상폐 위험",
+  "cats": [],
+  "negs": [
+   "상장 유지 기준 미달·상폐 위험"
+  ],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. As previously disclosed, on February 5, 2026, Local Bounti Corporation (the “Company”) received a written notice (the “Original Notice”)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840780/000162828026070640/0001628280-26-070640-index.htm",
+  "seen_kst": "2026-11-05 22:38"
  }
 ]
