@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OEC",
-  "form": "8-K",
-  "acc": "0001628280-26-070215",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:37:19+00:00",
-  "accepted_kst": "11/05 06:37",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "attached hereto, is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (“Exchange Act",
-  "url": "https://www.sec.gov/Archives/edgar/data/1609804/000162828026070215/0001628280-26-070215-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "TPVG",
   "form": "10-Q",
   "acc": "0001580345-26-000038",
@@ -8664,5 +8647,22 @@
   "headline": "Onterris Reports Third Quarter Results, Reiterates Full-Year 2026 Guidance, Announces Completed Acquisitions, and Provides Update on Board-led Strategic Review",
   "url": "https://www.sec.gov/Archives/edgar/data/1643615/000119312526447197/0001193125-26-447197-index.htm",
   "seen_kst": "2026-11-06 04:21"
+ },
+ {
+  "ticker": "OBE",
+  "form": "6-K",
+  "acc": "0001193125-26-449415",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:23:15+00:00",
+  "accepted_kst": "11/06 04:23",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Obsidian Energy Announces Third Quarter 2026 Results",
+  "url": "https://www.sec.gov/Archives/edgar/data/1334388/000119312526449415/0001193125-26-449415-index.htm",
+  "seen_kst": "2026-11-06 04:26"
  }
 ]
