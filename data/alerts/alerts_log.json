@@ -25377,5 +25377,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201015001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201015001",
   "grade": "open"
+ },
+ {
+  "id": "ZNB-1793877201",
+  "ts_kst": "2026-11-05 20:13",
+  "ts_utc": "2026-11-05T11:13:21+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "ZNB",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +148.4%"
+  ],
+  "title": "🚀 ZNB 프리마켓 갭",
+  "body": "$1.540 (+148.4%) · 프리마켓 · 레벨 4 · 점수 57\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 63만 주뿐이라 쉽게 크게 움직임\n• 프리마켓 갭 +148.4%\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.463 지정가(기준가 $1.540의 −5%) · 체결 가능성 약 73% · 손익분기 $1.481\n숏 지지구간 $1.250–$1.500 · 손절 $1.000 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.54,
+  "level": 4,
+  "score": 56.7,
+  "prob": 47.808764940239065,
+  "cp": 48.79219233090722,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.463,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221101001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221101001",
+  "grade": "open"
+ },
+ {
+  "id": "ELPW-1793877201",
+  "ts_kst": "2026-11-05 20:13",
+  "ts_utc": "2026-11-05T11:13:21+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "ELPW",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +40.6%"
+  ],
+  "title": "🚀 ELPW 프리마켓 갭",
+  "body": "$3.530 (+40.6%) · 프리마켓 · 레벨 4 · 점수 55\n$4.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 15만 주뿐이라 쉽게 크게 움직임\n• 프리마켓 갭 +40.6%\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $3.353 지정가(기준가 $3.530의 −5%) · 체결 가능성 약 62% · 손익분기 $3.394\n숏 지지구간 $2.000–$3.530 · 손절 $1.765 · 1차목표 $4.000\n⚠ 역분할 2026-08-10\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.53,
+  "level": 4,
+  "score": 55.3,
+  "prob": 47.808764940239065,
+  "cp": 37.78748281948799,
+  "rl": 4.0,
+  "stop": 1.765,
+  "zone": [
+   2.0,
+   3.53
+  ],
+  "bp": 3.3535,
+  "tgt": 4.0,
+  "stp": 1.765,
+  "penalties": [
+   "역분할 2026-08-10",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230501002",
+  "grade": "open"
  }
 ]
