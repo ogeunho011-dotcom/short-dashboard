@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "INVA",
-  "form": "10-Q",
-  "acc": "0001193125-26-447384",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:29:25+00:00",
-  "accepted_kst": "11/05 06:29",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526447384/0001193125-26-447384-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "YOUL",
   "form": "6-K",
   "acc": "0001213900-26-115965",
@@ -8679,5 +8662,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1830072/999999999526003441/9999999995-26-003441-index.htm",
   "seen_kst": "2026-11-06 01:54"
+ },
+ {
+  "ticker": "IPW",
+  "form": "424B3",
+  "acc": "0001683168-26-008329",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T16:53:20+00:00",
+  "accepted_kst": "11/06 01:53",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826008329/0001683168-26-008329-index.htm",
+  "seen_kst": "2026-11-06 01:56"
  }
 ]
