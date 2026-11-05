@@ -28336,5 +28336,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630006",
   "grade": "open"
+ },
+ {
+  "id": "INTZ-1793898237",
+  "ts_kst": "2026-11-06 02:03",
+  "ts_utc": "2026-11-05T17:03:57+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "INTZ",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +34.7% · 거래량 평소의 39.3배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 INTZ 장중 급등 포착 · 상위 확률 신호",
+  "body": "$0.647 (+34.7%) · 정규장 · 레벨 3 · 점수 46\n$0.700 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 21배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +34.7% · 거래량 평소의 39.3배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.599 지정가(20일선, 기준가 대비 -7.3%) · 체결 가능성 약 50% · 손익분기 $0.607\n숏 지지구간 $0.550–$0.600 · 손절 $0.525 · 1차목표 $0.700\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 최근 악재 공시: 8-K 역분할 (11/05)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6468,
+  "level": 3,
+  "score": 46.1,
+  "prob": 52.91666666666666,
+  "cp": 46.004659091989076,
+  "rl": 0.7,
+  "stop": 0.525,
+  "zone": [
+   0.55,
+   0.6000000000000001
+  ],
+  "bp": 0.5993,
+  "tgt": 0.7,
+  "stp": 0.525,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "최근 악재 공시: 8-K 역분할 (11/05)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201009002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201009002",
+  "grade": "open"
+ },
+ {
+  "id": "TBI-1793898237",
+  "ts_kst": "2026-11-06 02:03",
+  "ts_utc": "2026-11-05T17:03:57+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "TBI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.0% · 거래량 평소의 9.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TBI 장중 급등 포착",
+  "body": "$12.000 (+22.0%) · 정규장 · 레벨 1 · 점수 24\n공매도 물량 대부분 손해 중, $13.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +22.0% · 거래량 평소의 9.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $11.400 지정가(기준가 $12.000의 −5%) · 체결 가능성 약 32% · 손익분기 $11.538\n숏 지지구간 $9.500–$10.025 · 손절 $9.000 · 1차목표 $13.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.0,
+  "level": 1,
+  "score": 24.3,
+  "prob": 53.43533888189172,
+  "cp": 55.001300867636175,
+  "rl": 13.0,
+  "stop": 9.0,
+  "zone": [
+   9.5,
+   10.025
+  ],
+  "bp": 11.4,
+  "tgt": 13.0,
+  "stp": 9.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326070%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326070",
+  "grade": "open"
  }
 ]
