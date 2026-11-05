@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "BENF",
-  "form": "8-K",
-  "acc": "0001493152-26-049972",
-  "items": "5.07",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:36:49+00:00",
-  "accepted_kst": "11/05 06:36",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders. On October 29, 2026, Beneficient (the “Company”) held a Special Meeting of Stockholders (the “Mee",
-  "url": "https://www.sec.gov/Archives/edgar/data/1775734/000149315226049972/0001493152-26-049972-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "MBUU",
   "form": "4",
   "acc": "0001205857-26-000009",
@@ -8666,5 +8647,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035194/0001437749-26-035194-index.htm",
   "seen_kst": "2026-11-06 04:08"
+ },
+ {
+  "ticker": "PARA",
+  "form": "S-1MEF",
+  "acc": "0001493152-26-050176",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:02:45+00:00",
+  "accepted_kst": "11/06 04:02",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1826011/000149315226050176/0001493152-26-050176-index.htm",
+  "seen_kst": "2026-11-06 04:11"
  }
 ]
