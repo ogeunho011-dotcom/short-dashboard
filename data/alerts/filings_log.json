@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PAHC",
-  "form": "8-K",
-  "acc": "0001104659-26-122727",
-  "items": "2.02,5.07,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:31:19+00:00",
-  "accepted_kst": "11/05 06:31",
-  "polarity": "neutral",
-  "label": "실적 · 주총 결과",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "For Immediate Release ​ Phibro Animal Health Corporation Reports First Quarter Results, Maintains Financial Guidance",
-  "url": "https://www.sec.gov/Archives/edgar/data/1069899/000110465926122727/0001104659-26-122727-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "ARQ",
   "form": "10-Q",
   "acc": "0001515156-26-000136",
@@ -8670,5 +8653,22 @@
   "headline": "NEWS RELEASE Gunnison Copper Celebrates NYSE American “GUNN” Debut with $25,000 “GUNN 25 Challenge” Sweepstakes 25 Reps. 25 Grand. A celebration of American str",
   "url": "https://www.sec.gov/Archives/edgar/data/1514860/000149315226050162/0001493152-26-050162-index.htm",
   "seen_kst": "2026-11-06 03:04"
+ },
+ {
+  "ticker": "INO",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0000315066-26-002763",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T18:19:14+00:00",
+  "accepted_kst": "11/06 03:19",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1055726/000031506626002763/0000315066-26-002763-index.htm",
+  "seen_kst": "2026-11-06 03:20"
  }
 ]
