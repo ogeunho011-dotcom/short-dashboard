@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TPVG",
-  "form": "10-Q",
-  "acc": "0001580345-26-000038",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:37:19+00:00",
-  "accepted_kst": "11/05 06:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1580345/000158034526000038/0001580345-26-000038-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "REPX",
   "form": "10-Q",
   "acc": "0001001614-26-000063",
@@ -8664,5 +8647,25 @@
   "headline": "Obsidian Energy Announces Third Quarter 2026 Results",
   "url": "https://www.sec.gov/Archives/edgar/data/1334388/000119312526449415/0001193125-26-449415-index.htm",
   "seen_kst": "2026-11-06 04:26"
+ },
+ {
+  "ticker": "TLSA",
+  "form": "6-K",
+  "acc": "0001213900-26-116277",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:26:20+00:00",
+  "accepted_kst": "11/06 04:26",
+  "polarity": "pos",
+  "label": "FDA 승인·허가 · 임상 성공(주요 목표 달성)",
+  "cats": [
+   "FDA 승인·허가",
+   "임상 성공(주요 목표 달성)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "Tiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results ● Trial met primary endpoint with a statistically",
+  "url": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026116277/0001213900-26-116277-index.htm",
+  "seen_kst": "2026-11-06 04:28"
  }
 ]

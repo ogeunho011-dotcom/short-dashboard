@@ -29643,5 +29643,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200722006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200722006",
   "grade": "open"
+ },
+ {
+  "id": "NTCL-1793906898",
+  "ts_kst": "2026-11-06 04:28",
+  "ts_utc": "2026-11-05T19:28:18+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "NTCL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +67.1% · 거래량 평소의 168.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NTCL 장중 급등 포착",
+  "body": "$0.635 (+67.1%) · 정규장 · 레벨 3 · 점수 46\n오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 전일 대비 +67.1% · 거래량 평소의 168.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.603 지정가(기준가 $0.635의 −5%) · 체결 가능성 약 79% · 손익분기 $0.611\n숏 지지구간 $0.444–$0.500 · 손절 $0.317 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.635,
+  "level": 3,
+  "score": 46.2,
+  "prob": 38.456237077877326,
+  "cp": 6.047207342019689,
+  "rl": 1.5,
+  "stop": 0.3174999952316284,
+  "zone": [
+   0.44449999332427975,
+   0.5
+  ],
+  "bp": 0.6032,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
+  "grade": "n/a"
+ },
+ {
+  "id": "TLSA-fil-0001213900-26-116277",
+  "ts_kst": "2026-11-06 04:28",
+  "ts_utc": "2026-11-05T19:28:37+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "TLSA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K FDA 승인·허가 · 임상 성공(주요 목표 달성)"
+  ],
+  "title": "📢 TLSA 호재 공시",
+  "body": "6-K · FDA 승인·허가 · 임상 성공(주요 목표 달성) (11/06 04:26 KST)\nTiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results ● Trial met primary endpoint w\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20181025005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20181025005",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001213900-26-116277",
+   "items": "",
+   "label": "FDA 승인·허가 · 임상 성공(주요 목표 달성)",
+   "cats": [
+    "FDA 승인·허가",
+    "임상 성공(주요 목표 달성)"
+   ],
+   "strength": 5,
+   "headline": "Tiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results ● Trial met primary endpoint with a statistically",
+   "url": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026116277/0001213900-26-116277-index.htm",
+   "accepted_kst": "11/06 04:26",
+   "polarity": "pos"
+  }
  }
 ]
