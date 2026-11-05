@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "XRN",
-  "form": "8-K",
-  "acc": "0001628280-26-070231",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:41:23+00:00",
-  "accepted_kst": "11/05 06:41",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Chiron Real Estate Inc. Announces Third Quarter 2026 Financial Results Bethesda, MD – November 4, 2026",
-  "url": "https://www.sec.gov/Archives/edgar/data/1533615/000162828026070231/0001628280-26-070231-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "IBTA",
   "form": "4",
   "acc": "0001628280-26-070233",
@@ -8669,5 +8650,22 @@
   "headline": "LIBERTY CAPITAL REPORTS THIRD QUARTER 2026 FINANCIAL AND OPERATING RESULTS ​ Englewood, Colorado, November 5, 2026 – Liberty Capital Corporation (“Liberty Capit",
   "url": "https://www.sec.gov/Archives/edgar/data/2057463/000205746326000025/0002057463-26-000025-index.htm",
   "seen_kst": "2026-11-06 05:33"
+ },
+ {
+  "ticker": "VTEX",
+  "form": "4",
+  "acc": "0001193125-26-449614",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T20:32:55+00:00",
+  "accepted_kst": "11/06 05:32",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449614/0001193125-26-449614-index.htm",
+  "seen_kst": "2026-11-06 05:36"
  }
 ]
