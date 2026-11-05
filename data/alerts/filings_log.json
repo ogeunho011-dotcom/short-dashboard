@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MBUU",
-  "form": "4",
-  "acc": "0001598649-26-000001",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:37:18+00:00",
-  "accepted_kst": "11/05 06:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1590976/000159864926000001/0001598649-26-000001-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "OEC",
   "form": "8-K",
   "acc": "0001628280-26-070215",
@@ -8664,5 +8647,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/879585/000092214726000030/0000922147-26-000030-index.htm",
   "seen_kst": "2026-11-06 04:18"
+ },
+ {
+  "ticker": "ONT",
+  "form": "8-K",
+  "acc": "0001193125-26-447197",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T21:05:15+00:00",
+  "accepted_kst": "11/05 06:05",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Onterris Reports Third Quarter Results, Reiterates Full-Year 2026 Guidance, Announces Completed Acquisitions, and Provides Update on Board-led Strategic Review",
+  "url": "https://www.sec.gov/Archives/edgar/data/1643615/000119312526447197/0001193125-26-447197-index.htm",
+  "seen_kst": "2026-11-06 04:21"
  }
 ]
