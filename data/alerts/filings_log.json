@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ARQ",
-  "form": "10-Q",
-  "acc": "0001515156-26-000136",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:31:22+00:00",
-  "accepted_kst": "11/05 06:31",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1515156/000151515626000136/0001515156-26-000136-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "LYNX",
   "form": "8-K",
   "acc": "0002132582-26-000003",
@@ -8670,5 +8653,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1055726/000031506626002763/0000315066-26-002763-index.htm",
   "seen_kst": "2026-11-06 03:20"
+ },
+ {
+  "ticker": "PKBK",
+  "form": "4",
+  "acc": "0001437749-26-035170",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T18:24:45+00:00",
+  "accepted_kst": "11/06 03:24",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035170/0001437749-26-035170-index.htm",
+  "seen_kst": "2026-11-06 03:27"
  }
 ]
