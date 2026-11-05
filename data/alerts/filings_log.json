@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WBX",
-  "form": "6-K",
-  "acc": "0001193125-26-447416",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:30:09+00:00",
-  "accepted_kst": "11/05 06:30",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 wbx-ex99_1.htm EX-99.1 Wallbox Announces Third Quarter 2026 Financial Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1866501/000119312526447416/0001193125-26-447416-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "NTCL",
   "form": "6-K",
   "acc": "0001104659-26-122723",
@@ -8679,5 +8662,22 @@
   "headline": "C&F Financial Corporation NASDAQ: CFFI Third Quarter 2026 Investor Presentation Forward-Looking Statements. Certain statements in this presentation may constitu",
   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000051/0000913341-26-000051-index.htm",
   "seen_kst": "2026-11-06 02:06"
+ },
+ {
+  "ticker": "GYRO",
+  "form": "8-K",
+  "acc": "0001437749-26-035148",
+  "items": "7.01,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T17:07:12+00:00",
+  "accepted_kst": "11/06 02:07",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", shall not be deemed “filed” for purposes of Section 18 of the Exchange Act or otherwise subject to the liabilities under that Section and shall not be deemed",
+  "url": "https://www.sec.gov/Archives/edgar/data/1589061/000143774926035148/0001437749-26-035148-index.htm",
+  "seen_kst": "2026-11-06 02:09"
  }
 ]

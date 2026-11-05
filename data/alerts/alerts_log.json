@@ -28419,5 +28419,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19900326070%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19900326070",
   "grade": "open"
+ },
+ {
+  "id": "ARDT-1793898549",
+  "ts_kst": "2026-11-06 02:09",
+  "ts_utc": "2026-11-05T17:09:09+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "ARDT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.4% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ARDT 장중 급등 포착",
+  "body": "$15.250 (+17.4%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $16.23 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +17.4% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $14.487 지정가(기준가 $15.250의 −5%) · 체결 가능성 약 26% · 손익분기 $14.662\n숏 지지구간 $11.500–$12.000 · 손절 $11.000 · 1차목표 $16.230\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 15.25,
+  "level": 2,
+  "score": 30.6,
+  "prob": 53.44827586206896,
+  "cp": 67.90634144517,
+  "rl": 16.229999542236328,
+  "stop": 11.0,
+  "zone": [
+   11.5,
+   12.0
+  ],
+  "bp": 14.4875,
+  "tgt": 16.229999542236328,
+  "stp": 11.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240718001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240718001",
+  "grade": "open"
  }
 ]
