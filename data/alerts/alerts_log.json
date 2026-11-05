@@ -25296,5 +25296,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230501002",
   "grade": "open"
+ },
+ {
+  "id": "VRAX-1793873602",
+  "ts_kst": "2026-11-05 19:13",
+  "ts_utc": "2026-11-05T10:13:22+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "VRAX",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +20.8%"
+  ],
+  "title": "🚀 VRAX 프리마켓 갭",
+  "body": "$1.450 (+20.8%) · 프리마켓 · 레벨 3 · 점수 43\n시장에 도는 주식 58만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중\n• 프리마켓 갭 +20.8%\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $1.383 지정가(20일선, 기준가 대비 -4.6%) · 체결 가능성 약 69% · 손익분기 $1.400\n숏 지지구간 $1.000–$1.450 · 손절 $0.725 · 1차목표 $3.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.4502,
+  "level": 3,
+  "score": 43.4,
+  "prob": 28.643216080402006,
+  "cp": 30.109002117675658,
+  "rl": 3.0,
+  "stop": 0.7251,
+  "zone": [
+   1.0,
+   1.4502
+  ],
+  "bp": 1.3832,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713007",
+  "grade": "n/a"
  }
 ]
