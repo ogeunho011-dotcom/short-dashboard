@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RES",
-  "form": "4",
-  "acc": "0001654954-26-009517",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:38:30+00:00",
-  "accepted_kst": "11/05 06:38",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/742278/000165495426009517/0001654954-26-009517-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "OEC",
   "form": "10-Q",
   "acc": "0001628280-26-070226",
@@ -8667,5 +8650,22 @@
   "headline": "Item 3.03. Material Modifications to Rights of Security Holders. On October 30, 2026, Spruce Power Holding Corporation (the “Company”) filed (i) a certificate o",
   "url": "https://www.sec.gov/Archives/edgar/data/1772720/000162828026070895/0001628280-26-070895-index.htm",
   "seen_kst": "2026-11-06 04:50"
+ },
+ {
+  "ticker": "GOLD",
+  "form": "10-Q",
+  "acc": "0001193125-26-449473",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:50:11+00:00",
+  "accepted_kst": "11/06 04:50",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1591588/000119312526449473/0001193125-26-449473-index.htm",
+  "seen_kst": "2026-11-06 04:53"
  }
 ]

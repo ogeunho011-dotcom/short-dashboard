@@ -30120,5 +30120,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210720015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210720015",
   "grade": "open"
+ },
+ {
+  "id": "FLYE-1793908403",
+  "ts_kst": "2026-11-06 04:53",
+  "ts_utc": "2026-11-05T19:53:23+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "FLYE",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +36.5% · 거래량 평소의 6.8배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 49%)"
+  ],
+  "title": "🚀 FLYE 장중 급등 포착 · 상위 확률 신호",
+  "body": "$2.320 (+36.5%) · 정규장 · 레벨 4 · 점수 56\n$2.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 163만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +36.5% · 거래량 평소의 6.8배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 49%)\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $2.218 지정가(20일선, 기준가 대비 -4.4%) · 체결 가능성 약 68% · 손익분기 $2.245\n숏 지지구간 $2.000–$2.250 · 손절 $1.750 · 1차목표 $2.750\n⚠ 최근 악재 공시: 8-K 채무 가속(항목 2.04) (11/04)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.3201,
+  "level": 4,
+  "score": 56.2,
+  "prob": 48.79117948419857,
+  "cp": 37.58397319930739,
+  "rl": 2.75,
+  "stop": 1.75,
+  "zone": [
+   2.0,
+   2.25
+  ],
+  "bp": 2.218,
+  "tgt": 2.75,
+  "stp": 1.75,
+  "penalties": [
+   "최근 악재 공시: 8-K 채무 가속(항목 2.04) (11/04)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240606001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240606001",
+  "grade": "open"
  }
 ]
