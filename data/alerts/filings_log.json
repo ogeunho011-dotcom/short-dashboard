@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MBUU",
-  "form": "4",
-  "acc": "0001914165-26-000001",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:36:27+00:00",
-  "accepted_kst": "11/05 06:36",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1590976/000191416526000001/0001914165-26-000001-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "BENF",
   "form": "8-K",
   "acc": "0001493152-26-049972",
@@ -8666,5 +8649,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035192/0001437749-26-035192-index.htm",
   "seen_kst": "2026-11-06 04:05"
+ },
+ {
+  "ticker": "PKBK",
+  "form": "4",
+  "acc": "0001437749-26-035194",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:04:58+00:00",
+  "accepted_kst": "11/06 04:04",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035194/0001437749-26-035194-index.htm",
+  "seen_kst": "2026-11-06 04:08"
  }
 ]
