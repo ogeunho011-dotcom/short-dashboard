@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OKUR",
-  "form": "8-K",
-  "acc": "0001193125-26-447247",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:10:14+00:00",
-  "accepted_kst": "11/05 06:10",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "OnKure Therapeutics Reports Third Quarter 2026 Financial Results and Provides Business Highlights -- Announces PANORAMA, an OnKure-sponsored, large-scale, multi",
-  "url": "https://www.sec.gov/Archives/edgar/data/1637715/000119312526447247/0001193125-26-447247-index.htm",
-  "seen_kst": "2026-11-05 06:14"
- },
- {
   "ticker": "ECOR",
   "form": "8-K",
   "acc": "0001493152-26-049958",
@@ -8677,5 +8660,22 @@
   "headline": "Item 8.01 Other Events. As previously disclosed, on February 5, 2026, Local Bounti Corporation (the “Company”) received a written notice (the “Original Notice”)",
   "url": "https://www.sec.gov/Archives/edgar/data/1840780/000162828026070640/0001628280-26-070640-index.htm",
   "seen_kst": "2026-11-05 22:38"
+ },
+ {
+  "ticker": "COFS",
+  "form": "8-K",
+  "acc": "0001193125-26-448731",
+  "items": "7.01,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T13:41:14+00:00",
+  "accepted_kst": "11/05 22:41",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 cofs-ex99_1.htm EX-99.1 INVESTOR PRESENTATION THIRD QUARTER 2026 FORWARD-LOOKING STATEMENTS This presentation contains forward-looking statements that",
+  "url": "https://www.sec.gov/Archives/edgar/data/803164/000119312526448731/0001193125-26-448731-index.htm",
+  "seen_kst": "2026-11-05 22:42"
  }
 ]
