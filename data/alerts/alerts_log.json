@@ -11771,10 +11771,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240724002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240724002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 3,
+  "grade_ret": 0.0434505494505495,
+  "graded_bars": 3
  },
  {
   "id": "CRIS-1793638212",
@@ -27371,6 +27371,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220405002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220405002",
+  "grade": "open"
+ },
+ {
+  "id": "NTCL-1793892391",
+  "ts_kst": "2026-11-06 00:26",
+  "ts_utc": "2026-11-05T15:26:31+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "NTCL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.5% 급변 · 전일 대비 +15.5% — 추격 매수 주의"
+  ],
+  "title": "⚡ NTCL 장중 급등 포착",
+  "body": "$0.439 (+15.5%) · 정규장 · 레벨 3 · 점수 41\n$0.500 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 5분 +12.5% 급변 · 전일 대비 +15.5% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.405 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.7%) · 체결 가능성 약 68% · 손익분기 $0.410\n숏 지지구간 $0.307–$0.439 · 손절 $0.219 · 1차목표 $0.500\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/04)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4388,
+  "level": 3,
+  "score": 40.8,
+  "prob": 45.01661129568107,
+  "cp": 16.825832593939705,
+  "rl": 0.5,
+  "stop": 0.21940000355243683,
+  "zone": [
+   0.30716000497341156,
+   0.43880000710487366
+  ],
+  "bp": 0.405,
+  "tgt": 0.5,
+  "stp": 0.21940000355243683,
+  "penalties": [
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/04)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
   "grade": "open"
  }
 ]
