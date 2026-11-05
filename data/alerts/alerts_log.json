@@ -553,10 +553,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221212006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221212006",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 6,
+  "grade_ret": 0.20486164391572692,
+  "graded_bars": 6
  },
  {
   "id": "HAO-1793211657",
@@ -3766,10 +3766,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220316003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220316003",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 2
+  "grade": "hit",
+  "grade_day": 5,
+  "grade_ret": 0.008069264069264009,
+  "graded_bars": 5
  },
  {
   "id": "PBK-1793289009",
@@ -24153,7 +24153,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240905004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240905004",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.2917871645750434,
+  "graded_bars": 1
  },
  {
   "id": "ACEL-1793823508",
@@ -27774,6 +27777,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19800425001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19800425001",
+  "grade": "open"
+ },
+ {
+  "id": "APYX-1793893823",
+  "ts_kst": "2026-11-06 00:50",
+  "ts_utc": "2026-11-05T15:50:23+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "APYX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.8% · 거래량 평소의 28.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ APYX 장중 급등 포착",
+  "body": "$3.050 (+17.8%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $3.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 7배 이상, 관심 급증\n• 전일 대비 +17.8% · 거래량 평소의 28.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.898 지정가(기준가 $3.050의 −5%) · 체결 가능성 약 37% · 손익분기 $2.933\n숏 지지구간 $2.500–$2.750 · 손절 $2.250 · 1차목표 $3.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.0505,
+  "level": 2,
+  "score": 30.7,
+  "prob": 53.44827586206896,
+  "cp": 44.266427607384664,
+  "rl": 3.25,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   2.75
+  ],
+  "bp": 2.898,
+  "tgt": 3.25,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190102001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190102001",
   "grade": "open"
  }
 ]
