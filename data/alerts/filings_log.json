@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PRSU",
-  "form": "10-Q",
-  "acc": "0001628280-26-070191",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:25:43+00:00",
-  "accepted_kst": "11/05 06:25",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/884219/000162828026070191/0001628280-26-070191-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "INVA",
   "form": "8-K",
   "acc": "0001193125-26-447366",
@@ -8677,5 +8660,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/27996/000002799626000135/0000027996-26-000135-index.htm",
   "seen_kst": "2026-11-06 00:58"
+ },
+ {
+  "ticker": "MDWD",
+  "form": "424B5",
+  "acc": "0001178913-26-005042",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T16:23:43+00:00",
+  "accepted_kst": "11/06 01:23",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005042/0001178913-26-005042-index.htm",
+  "seen_kst": "2026-11-06 01:26"
  }
 ]
