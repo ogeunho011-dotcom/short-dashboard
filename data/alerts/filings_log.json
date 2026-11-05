@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "BIVI",
-  "form": "424B5",
-  "acc": "0001520138-26-000450",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T12:50:26+00:00",
-  "accepted_kst": "11/04 21:50",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1580149/000152013826000450/0001520138-26-000450-index.htm",
-  "seen_kst": "2026-11-04 21:52"
- },
- {
-  "ticker": "LND",
-  "form": "6-K",
-  "acc": "0001213900-26-115741",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T12:51:49+00:00",
-  "accepted_kst": "11/04 21:51",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "1 São Paulo, November 3, 2026 – BrasilAgro (B3: AGRO3) (NYSE: LND) announces its consolidated results for the first quarter ended September 30, 2026 (\"1Q27\"). T",
-  "url": "https://www.sec.gov/Archives/edgar/data/1499849/000121390026115741/0001213900-26-115741-index.htm",
-  "seen_kst": "2026-11-04 21:52"
- },
- {
-  "ticker": "STIM",
-  "form": "8-K",
-  "acc": "0001193125-26-446239",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T12:55:08+00:00",
-  "accepted_kst": "11/04 21:55",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Neuronetics Reports Third Quarter 2026 Financial and Operating Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1227636/000119312526446239/0001193125-26-446239-index.htm",
-  "seen_kst": "2026-11-04 21:57"
- },
- {
   "ticker": "RADX",
   "form": "6-K",
   "acc": "0001213900-26-115742",
@@ -8648,5 +8595,58 @@
   "headline": "and is incorporated into Item 2.02 of this report by reference. The Company has scheduled a conference call for 8:30 a.m. Eastern on November 5, 2026 to discuss",
   "url": "https://www.sec.gov/Archives/edgar/data/1420800/000142080026000052/0001420800-26-000052-index.htm",
   "seen_kst": "2026-11-05 20:13"
+ },
+ {
+  "ticker": "CGTX",
+  "form": "10-Q",
+  "acc": "0001104659-26-122988",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:15:47+00:00",
+  "accepted_kst": "11/05 20:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1455365/000110465926122988/0001104659-26-122988-index.htm",
+  "seen_kst": "2026-11-05 20:19"
+ },
+ {
+  "ticker": "WD",
+  "form": "10-Q",
+  "acc": "0001104659-26-122986",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:15:49+00:00",
+  "accepted_kst": "11/05 20:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1497770/000110465926122986/0001104659-26-122986-index.htm",
+  "seen_kst": "2026-11-05 20:19"
+ },
+ {
+  "ticker": "AUST",
+  "form": "6-K",
+  "acc": "0001062993-26-005758",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:15:57+00:00",
+  "accepted_kst": "11/05 20:15",
+  "polarity": "neg",
+  "label": "계속기업 불확실성",
+  "cats": [],
+  "negs": [
+   "계속기업 불확실성"
+  ],
+  "strength": 0,
+  "headline": "AUSTIN GOLD CORP. UNAUDITED CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2026 AND 2025 (Expressed in Un",
+  "url": "https://www.sec.gov/Archives/edgar/data/1817740/000106299326005758/0001062993-26-005758-index.htm",
+  "seen_kst": "2026-11-05 20:19"
  }
 ]
