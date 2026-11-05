@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "OPK",
-  "form": "8-K",
-  "acc": "0001193125-26-447357",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:24:24+00:00",
-  "accepted_kst": "11/05 06:24",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "EX-99.1 2 opk-ex99_1.htm EX-99.1 OPKO Health Reports Third Quarter 2026 Business Highlights and Financial Results Conference Call to Begin Today at 4:30 p.m.",
-  "url": "https://www.sec.gov/Archives/edgar/data/944809/000119312526447357/0001193125-26-447357-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "FSCO",
   "form": "8-K",
   "acc": "0001104659-26-122712",
@@ -8679,5 +8660,22 @@
   "headline": "Gallotta Steven E.",
   "url": "https://www.sec.gov/Archives/edgar/data/1228454/000119312526448980/0001193125-26-448980-index.htm",
   "seen_kst": "2026-11-06 00:45"
+ },
+ {
+  "ticker": "DLX",
+  "form": "8-K",
+  "acc": "0000027996-26-000132",
+  "items": "2.02,9.01",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-04T21:03:15+00:00",
+  "accepted_kst": "11/05 06:03",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Contact: Brian Anderson, VP, Strategy & Investor Relations Keith Negrin, VP, Communications 651-447-4197 612-669-1459 brian.anderson@deluxe.com keith.negrin@del",
+  "url": "https://www.sec.gov/Archives/edgar/data/27996/000002799626000132/0000027996-26-000132-index.htm",
+  "seen_kst": "2026-11-06 00:48"
  }
 ]
