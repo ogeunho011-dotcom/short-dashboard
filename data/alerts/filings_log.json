@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "KE",
-  "form": "8-K",
-  "acc": "0001606757-26-000063",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:37:08+00:00",
-  "accepted_kst": "11/05 06:37",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "KIMBALL ELECTRONICS REPORTS Q1 RESULTS HIGHLIGHTED BY THE RETURN TO TOP-LINE GROWTH; COMPANY REITERATES GUIDANCE FOR FISCAL 2027 WITH SALES EXPECTED AT THE",
-  "url": "https://www.sec.gov/Archives/edgar/data/1606757/000160675726000063/0001606757-26-000063-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "MBUU",
   "form": "4",
   "acc": "0001598649-26-000001",
@@ -8664,5 +8647,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035199/0001437749-26-035199-index.htm",
   "seen_kst": "2026-11-06 04:15"
+ },
+ {
+  "ticker": "ATNI",
+  "form": "4",
+  "acc": "0000922147-26-000030",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:15:45+00:00",
+  "accepted_kst": "11/06 04:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/879585/000092214726000030/0000922147-26-000030-index.htm",
+  "seen_kst": "2026-11-06 04:18"
  }
 ]
