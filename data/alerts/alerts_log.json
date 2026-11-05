@@ -29726,5 +29726,122 @@
    "accepted_kst": "11/06 04:26",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "ARQ-1793907348",
+  "ts_kst": "2026-11-06 04:35",
+  "ts_utc": "2026-11-05T19:35:48+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "ARQ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.8% · 거래량 평소의 52.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ARQ 장중 급등 포착",
+  "body": "$2.365 (+27.8%) · 정규장 · 레벨 2 · 점수 28\n$2.60 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 48배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +27.8% · 거래량 평소의 52.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.247 지정가(기준가 $2.365의 −5%) · 체결 가능성 약 38% · 손익분기 $2.274\n숏 지지구간 $2.100–$2.193 · 손절 $2.050 · 1차목표 $2.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.365,
+  "level": 2,
+  "score": 28.2,
+  "prob": 53.33020856514502,
+  "cp": 36.94169490541198,
+  "rl": 2.600000000000001,
+  "stop": 2.0500000000000007,
+  "zone": [
+   2.1000000000000005,
+   2.1927500033378604
+  ],
+  "bp": 2.2468,
+  "tgt": 2.600000000000001,
+  "stp": 2.0500000000000007,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160707001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160707001",
+  "grade": "open"
+ },
+ {
+  "id": "CCLD-1793907348",
+  "ts_kst": "2026-11-06 04:35",
+  "ts_utc": "2026-11-05T19:35:48+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "CCLD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.2% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CCLD 장중 급등 포착",
+  "body": "$2.145 (+19.2%) · 정규장 · 레벨 2 · 점수 34\n$2.35 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 13배 이상, 관심 급증\n• 전일 대비 +19.2% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.038 지정가(기준가 $2.145의 −5%) · 체결 가능성 약 32% · 손익분기 $2.062\n숏 지지구간 $1.950–$2.018 · 손절 $1.900 · 1차목표 $2.350\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.145,
+  "level": 2,
+  "score": 34.5,
+  "prob": 53.44827586206896,
+  "cp": 38.204800166761565,
+  "rl": 2.3500000000000005,
+  "stop": 1.9000000000000004,
+  "zone": [
+   1.9500000000000004,
+   2.01824999332428
+  ],
+  "bp": 2.0377,
+  "tgt": 2.3500000000000005,
+  "stp": 1.9000000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230110003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230110003",
+  "grade": "open"
+ },
+ {
+  "id": "HUHU-1793907348",
+  "ts_kst": "2026-11-06 04:35",
+  "ts_utc": "2026-11-05T19:35:48+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "HUHU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.6% · 거래량 평소의 53.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HUHU 장중 급등 포착",
+  "body": "$0.443 (+16.6%) · 정규장 · 레벨 3 · 점수 44\n오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.6% · 거래량 평소의 53.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.401 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -9.5%) · 체결 가능성 약 84% · 손익분기 $0.406\n숏 지지구간 $0.310–$0.443 · 손절 $0.221 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.443,
+  "level": 3,
+  "score": 43.6,
+  "prob": 31.25,
+  "cp": 39.63616837127981,
+  "rl": 1.0,
+  "stop": 0.2214999943971634,
+  "zone": [
+   0.31009999215602874,
+   0.4429999887943268
+  ],
+  "bp": 0.4009,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241022002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241022002",
+  "grade": "n/a"
  }
 ]
