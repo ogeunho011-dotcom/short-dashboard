@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MBUU",
-  "form": "4",
-  "acc": "0001205857-26-000009",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:36:57+00:00",
-  "accepted_kst": "11/05 06:36",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1590976/000120585726000009/0001205857-26-000009-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "KE",
   "form": "8-K",
   "acc": "0001606757-26-000063",
@@ -8664,5 +8647,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1826011/000149315226050176/0001493152-26-050176-index.htm",
   "seen_kst": "2026-11-06 04:11"
+ },
+ {
+  "ticker": "PKBK",
+  "form": "4",
+  "acc": "0001437749-26-035199",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:13:46+00:00",
+  "accepted_kst": "11/06 04:13",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035199/0001437749-26-035199-index.htm",
+  "seen_kst": "2026-11-06 04:15"
  }
 ]
