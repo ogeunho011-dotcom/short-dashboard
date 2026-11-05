@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OEC",
-  "form": "10-Q",
-  "acc": "0001628280-26-070226",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:40:11+00:00",
-  "accepted_kst": "11/05 06:40",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1609804/000162828026070226/0001628280-26-070226-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "LMAT",
   "form": "8-K",
   "acc": "0001193125-26-447467",
@@ -8667,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1591588/000119312526449473/0001193125-26-449473-index.htm",
   "seen_kst": "2026-11-06 04:53"
+ },
+ {
+  "ticker": "PKBK",
+  "form": "4",
+  "acc": "0001437749-26-035225",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T19:56:07+00:00",
+  "accepted_kst": "11/06 04:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035225/0001437749-26-035225-index.htm",
+  "seen_kst": "2026-11-06 04:58"
  }
 ]
