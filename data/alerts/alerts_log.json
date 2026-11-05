@@ -25458,5 +25458,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230501002",
   "grade": "open"
+ },
+ {
+  "id": "IPHA-fil-0001628280-26-070497",
+  "ts_kst": "2026-11-05 20:21",
+  "ts_utc": "2026-11-05T11:21:42+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "IPHA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K FDA 승인·허가"
+  ],
+  "title": "📢 IPHA 호재 공시",
+  "body": "6-K · FDA 승인·허가 (11/05 20:20 KST)\nINNATE PHARMA REPORTS THIRD QUARTER 2026 BUSINESS AND FINANCIAL UPDATE Marseille, France, November 5, 2026 • Phase 1 dose-escalation data fo\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191016001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191016001",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001628280-26-070497",
+   "items": "",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "INNATE PHARMA REPORTS THIRD QUARTER 2026 BUSINESS AND FINANCIAL UPDATE Marseille, France, November 5, 2026 • Phase 1 dose-escalation data for Nectin-4 ADC IPH45",
+   "url": "https://www.sec.gov/Archives/edgar/data/1598599/000162828026070497/0001628280-26-070497-index.htm",
+   "accepted_kst": "11/05 20:20",
+   "polarity": "pos"
+  }
  }
 ]

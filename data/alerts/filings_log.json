@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "RADX",
-  "form": "6-K",
-  "acc": "0001213900-26-115742",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T13:00:01+00:00",
-  "accepted_kst": "11/04 22:00",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "ASX ANNOUNCEMENT 4 November 2026 Radiopharm Theranostics Announces Alignment with U.S. FDA on Single Pivotal Phase 3 Trial for RAD101 in Diagnosis of Brain Meta",
-  "url": "https://www.sec.gov/Archives/edgar/data/1949257/000121390026115742/0001213900-26-115742-index.htm",
-  "seen_kst": "2026-11-04 22:02"
- },
- {
   "ticker": "UZX",
   "form": "6-K",
   "acc": "0001213900-26-115743",
@@ -8648,5 +8629,24 @@
   "headline": "AUSTIN GOLD CORP. UNAUDITED CONDENSED INTERIM CONSOLIDATED FINANCIAL STATEMENTS FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2026 AND 2025 (Expressed in Un",
   "url": "https://www.sec.gov/Archives/edgar/data/1817740/000106299326005758/0001062993-26-005758-index.htm",
   "seen_kst": "2026-11-05 20:19"
+ },
+ {
+  "ticker": "IPHA",
+  "form": "6-K",
+  "acc": "0001628280-26-070497",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T11:20:40+00:00",
+  "accepted_kst": "11/05 20:20",
+  "polarity": "pos",
+  "label": "FDA 승인·허가",
+  "cats": [
+   "FDA 승인·허가"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "INNATE PHARMA REPORTS THIRD QUARTER 2026 BUSINESS AND FINANCIAL UPDATE Marseille, France, November 5, 2026 • Phase 1 dose-escalation data for Nectin-4 ADC IPH45",
+  "url": "https://www.sec.gov/Archives/edgar/data/1598599/000162828026070497/0001628280-26-070497-index.htm",
+  "seen_kst": "2026-11-05 20:21"
  }
 ]
