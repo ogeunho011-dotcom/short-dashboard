@@ -26229,5 +26229,44 @@
    "accepted_kst": "11/05 22:20",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "LABT-1793885388",
+  "ts_kst": "2026-11-05 22:29",
+  "ts_utc": "2026-11-05T13:29:48+00:00",
+  "date_et": "2026-11-05",
+  "session": "pre",
+  "ticker": "LABT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +26.6% 급변 · 전일 대비 +60.3% — 추격 매수 주의"
+  ],
+  "title": "⚡ LABT 장중 급등 포착",
+  "body": "$0.304 (+60.3%) · 프리마켓 · 레벨 1 · 점수 20\n시장에 도는 주식 217만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 +26.6% 급변 · 전일 대비 +60.3% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.289 지정가(기준가 $0.304의 −5%) · 체결 가능성 약 80% · 손익분기 $0.293\n숏 지지구간 $0.213–$0.304 · 손절 $0.152 · 1차목표 $0.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3045,
+  "level": 1,
+  "score": 20.1,
+  "prob": 28.643216080402006,
+  "cp": 12.632302644240596,
+  "rl": 0.5,
+  "stop": 0.15225,
+  "zone": [
+   0.21314999999999998,
+   0.3045
+  ],
+  "bp": 0.2893,
+  "tgt": 0.5,
+  "stp": 0.15225,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2604023003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2604023003",
+  "grade": "open"
  }
 ]
