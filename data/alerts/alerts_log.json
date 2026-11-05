@@ -27333,5 +27333,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160707001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160707001",
   "grade": "open"
+ },
+ {
+  "id": "ENOV-1793892244",
+  "ts_kst": "2026-11-06 00:24",
+  "ts_utc": "2026-11-05T15:24:04+00:00",
+  "date_et": "2026-11-05",
+  "session": "regular",
+  "ticker": "ENOV",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ENOV 장중 급등 포착",
+  "body": "$28.280 (+15.8%) · 정규장 · 레벨 1 · 점수 20\n공매도 물량 대부분 손해 중, $32.00 넘으면 급등 가능성 ↑ · 한 달 고점 돌파 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.8% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $28.000–$28.280 · 손절 $27.000 · 1차목표 $32.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 28.28,
+  "level": 1,
+  "score": 19.7,
+  "prob": 53.44827586206896,
+  "cp": 64.30437965763711,
+  "rl": 32.0,
+  "stop": 27.0,
+  "zone": [
+   28.0,
+   28.280000686645508
+  ],
+  "bp": null,
+  "tgt": 32.0,
+  "stp": 27.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220405002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220405002",
+  "grade": "open"
  }
 ]
