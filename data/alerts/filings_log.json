@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "INVA",
-  "form": "8-K",
-  "acc": "0001193125-26-447366",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:25:58+00:00",
-  "accepted_kst": "11/05 06:25",
-  "polarity": "pos",
-  "label": "자사주 매입",
-  "cats": [
-   "자사주 매입"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Innoviva Reports Third Quarter 2026 Financial Results; Highlights Recent Company Progress Innoviva Specialty Therapeutics commercial momentum continues with $43",
-  "url": "https://www.sec.gov/Archives/edgar/data/1080014/000119312526447366/0001193125-26-447366-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
-  "ticker": "OPK",
-  "form": "10-Q",
-  "acc": "0001193125-26-447364",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:26:32+00:00",
-  "accepted_kst": "11/05 06:26",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/944809/000119312526447364/0001193125-26-447364-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "UVV",
   "form": "8-K",
   "acc": "0001193125-26-447369",
@@ -8679,5 +8643,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005042/0001178913-26-005042-index.htm",
   "seen_kst": "2026-11-06 01:26"
+ },
+ {
+  "ticker": "SEGG",
+  "form": "8-K",
+  "acc": "0001493152-26-050104",
+  "items": "8.01,9.01",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T16:25:57+00:00",
+  "accepted_kst": "11/06 01:25",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 9.01 Financial Statements and Exhibits (d) Exhibits Exhibit No. Description 104 Cover Page Interactive Data File (embedded within the Inline XBRL document)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226050104/0001493152-26-050104-index.htm",
+  "seen_kst": "2026-11-06 01:28"
+ },
+ {
+  "ticker": "MDWD",
+  "form": "6-K",
+  "acc": "0001178913-26-005046",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T16:27:33+00:00",
+  "accepted_kst": "11/06 01:27",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "CONTENTS On November 3, 2026, MediWound Ltd. (the “Company”) entered into an underwriting agreement (the “Underwriting Agreement”) with H.C. Wainwright & Co., L",
+  "url": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005046/0001178913-26-005046-index.htm",
+  "seen_kst": "2026-11-06 01:28"
  }
 ]
