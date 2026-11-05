@@ -25934,5 +25934,48 @@
    "accepted_kst": "11/05 21:39",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "CARS-fil-0001193125-26-448613",
+  "ts_kst": "2026-11-05 21:47",
+  "ts_utc": "2026-11-05T12:47:32+00:00",
+  "date_et": "2026-11-05",
+  "session": "filing",
+  "ticker": "CARS",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 CARS 호재 공시",
+  "body": "8-K · 자사주 매입 (11/05 21:45 KST)\nFor Immediate Release Cars.com Reports Third Quarter 2026 Results Focused execution drove efficiency and profitability gains while also powe\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170601001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170601001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-448613",
+   "items": "2.02,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "For Immediate Release Cars.com Reports Third Quarter 2026 Results Focused execution drove efficiency and profitability gains while also powering Marketplace mom",
+   "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526448613/0001193125-26-448613-index.htm",
+   "accepted_kst": "11/05 21:45",
+   "polarity": "pos"
+  }
  }
 ]
