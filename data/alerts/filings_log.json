@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DDD",
-  "form": "10-Q",
-  "acc": "0001628280-26-070196",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:28:33+00:00",
-  "accepted_kst": "11/05 06:28",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/910638/000162828026070196/0001628280-26-070196-index.htm",
-  "seen_kst": "2026-11-05 06:56"
- },
- {
   "ticker": "INVA",
   "form": "10-Q",
   "acc": "0001193125-26-447384",
@@ -8679,5 +8662,22 @@
   "headline": "INVESTOR Presentation November 2026 Third Quarter, 2026 Results Safe Harbor Statement and Disclaimer Forward - Looking Statements This presentation and any othe",
   "url": "https://www.sec.gov/Archives/edgar/data/1754226/000110465926123183/0001104659-26-123183-index.htm",
   "seen_kst": "2026-11-06 01:39"
+ },
+ {
+  "ticker": "IPW",
+  "form": "EFFECT",
+  "acc": "9999999995-26-003441",
+  "items": ",,",
+  "filed": "2026-11-04",
+  "accepted": "2026-11-05T05:15:20+00:00",
+  "accepted_kst": "11/05 14:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1830072/999999999526003441/9999999995-26-003441-index.htm",
+  "seen_kst": "2026-11-06 01:54"
  }
 ]
