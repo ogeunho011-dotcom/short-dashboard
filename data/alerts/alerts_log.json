@@ -36127,5 +36127,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201222011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201222011",
   "grade": "open"
+ },
+ {
+  "id": "NEXR-1793996816",
+  "ts_kst": "2026-11-07 05:26",
+  "ts_utc": "2026-11-06T20:26:56+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "NEXR",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 33k (당일 평균 8.5배)"
+  ],
+  "title": "🚀 NEXR 거래량 급증",
+  "body": "$2.000 (+736.8%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 25만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 거래량 33k (당일 평균 8.5배)\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.900 지정가(기준가 $2.000의 −5%) · 체결 가능성 약 69% · 손익분기 $1.923\n숏 지지구간 $1.500–$2.000 · 손절 $1.250 · 1차목표 $4.000\n⚠ 역분할 2026-11-06\n⚠ 희석 위험 60/100\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/05)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.0,
+  "level": 3,
+  "score": 43.7,
+  "prob": 45.01661129568107,
+  "cp": 36.800241760317135,
+  "rl": 4.0,
+  "stop": 1.25,
+  "zone": [
+   1.5,
+   2.0
+  ],
+  "bp": 1.9,
+  "tgt": 4.0,
+  "stp": 1.25,
+  "penalties": [
+   "역분할 2026-11-06",
+   "희석 위험 60/100",
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/05)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220826002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220826002",
+  "grade": "open"
  }
 ]
