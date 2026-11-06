@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AIM",
-  "form": "8-K",
-  "acc": "0001493152-26-050093",
-  "items": "7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:14:29+00:00",
-  "accepted_kst": "11/05 23:14",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 7.01 Regulation FD Disclosure. Furnished herewith as Exhibits 99.1 and 99.2, respectively, are a Corporate Presentation of AIM ImmunoTech Inc. (the “Compan",
-  "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226050093/0001493152-26-050093-index.htm",
-  "seen_kst": "2026-11-05 23:16"
- },
- {
   "ticker": "AAPG",
   "form": "6-K",
   "acc": "0001213900-26-116155",
@@ -8679,5 +8662,22 @@
   "headline": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no repre",
   "url": "https://www.sec.gov/Archives/edgar/data/1816007/000119312526450743/0001193125-26-450743-index.htm",
   "seen_kst": "2026-11-06 21:25"
+ },
+ {
+  "ticker": "PSQL",
+  "form": "6-K",
+  "acc": "0001213900-26-116581",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:27:05+00:00",
+  "accepted_kst": "11/06 21:27",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Pasqal Reports Third Quarter Business Update Solid Execution of Commercial Initiatives, Healthy Global Pipeline of Opportunities, and Technological Advancements",
+  "url": "https://www.sec.gov/Archives/edgar/data/2119292/000121390026116581/0001213900-26-116581-index.htm",
+  "seen_kst": "2026-11-06 21:27"
  }
 ]

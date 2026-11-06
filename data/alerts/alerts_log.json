@@ -32286,5 +32286,46 @@
    "accepted_kst": "11/06 21:23",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "KPTI-1793968048",
+  "ts_kst": "2026-11-06 21:27",
+  "ts_utc": "2026-11-06T12:27:28+00:00",
+  "date_et": "2026-11-06",
+  "session": "pre",
+  "ticker": "KPTI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +14.4% 급변 · 전일 대비 +15.5% — 추격 매수 주의"
+  ],
+  "title": "⚡ KPTI 장중 급등 포착",
+  "body": "$0.069 (+15.5%) · 프리마켓 · 레벨 2 · 점수 31\n최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 5분 +14.4% 급변 · 전일 대비 +15.5% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.104 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +50.3%) · 체결 가능성 약 85% · 손익분기 $0.105\n숏 지지구간 $0.049–$0.069 · 손절 $0.035 · 1차목표 $0.104\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0693,
+  "level": 2,
+  "score": 31.2,
+  "prob": 38.456237077877326,
+  "cp": 9.678186,
+  "rl": 1.0,
+  "stop": 0.03465,
+  "zone": [
+   0.04851,
+   0.0693
+  ],
+  "bp": 0.1042,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20131105002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20131105002",
+  "grade": "n/a"
  }
 ]
