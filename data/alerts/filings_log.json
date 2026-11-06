@@ -1,56 +1,5 @@
 [
  {
-  "ticker": "AMTX",
-  "form": "8-K",
-  "acc": "0001437749-26-035092",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:23+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "hereto shall be deemed “furnished” and not “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, and shall not be incorporated",
-  "url": "https://www.sec.gov/Archives/edgar/data/738214/000143774926035092/0001437749-26-035092-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
-  "ticker": "FCAP",
-  "form": "8-K",
-  "acc": "0001104659-26-123087",
-  "items": "1.01,5.02,7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:30+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neutral",
-  "label": "중요 계약 · 임원 변경 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "November 5, 2026 First Capital, Inc. to Expand Southern Indiana and Western Kentucky Presence with the Acquisition of First Bancorp of Indiana, Inc. Transaction",
-  "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926123087/0001104659-26-123087-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
-  "ticker": "CION",
-  "form": "8-K",
-  "acc": "0001104659-26-123088",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:52+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "CION INVESTMENT CORPORATION REPORTS THIRD QUARTER 2026 FINANCIAL RESULTS Management Successfully Completes Deleveraging Strategy For Immediate Release",
-  "url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926123088/0001104659-26-123088-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
   "ticker": "MKTW",
   "form": "10-Q",
   "acc": "0001628280-26-070634",
@@ -8663,5 +8612,60 @@
   "headline": "NEWS RELEASE Sylvamo Announces Plans to Sell Europe Business",
   "url": "https://www.sec.gov/Archives/edgar/data/1856485/000119312526450635/0001193125-26-450635-index.htm",
   "seen_kst": "2026-11-06 20:06"
+ },
+ {
+  "ticker": "PARA",
+  "form": "424B4",
+  "acc": "0001493152-26-050319",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T03:00:13+00:00",
+  "accepted_kst": "11/06 12:00",
+  "polarity": "neg",
+  "label": "증자 서류(424B4)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1826011/000149315226050319/0001493152-26-050319-index.htm",
+  "seen_kst": "2026-11-06 20:10"
+ },
+ {
+  "ticker": "CABR",
+  "form": "EFFECT",
+  "acc": "9999999995-26-003456",
+  "items": ",,",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-06T05:15:03+00:00",
+  "accepted_kst": "11/06 14:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2020737/999999999526003456/9999999995-26-003456-index.htm",
+  "seen_kst": "2026-11-06 20:10"
+ },
+ {
+  "ticker": "AIRI",
+  "form": "424B3",
+  "acc": "0001213900-26-116546",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:06:19+00:00",
+  "accepted_kst": "11/06 20:06",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026116546/0001213900-26-116546-index.htm",
+  "seen_kst": "2026-11-06 20:10"
  }
 ]
