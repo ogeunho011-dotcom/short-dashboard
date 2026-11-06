@@ -33861,5 +33861,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170814001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170814001",
   "grade": "open"
+ },
+ {
+  "id": "ONCO-1793978414",
+  "ts_kst": "2026-11-07 00:20",
+  "ts_utc": "2026-11-06T15:20:14+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "ONCO",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ONCO 상위 확률 신호",
+  "body": "$7.580 (+39.2%) · 정규장 · 레벨 3 · 점수 40\n$8.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 395만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $7.201 지정가(기준가 $7.580의 −5%) · 체결 가능성 약 67% · 손익분기 $7.288\n숏 지지구간 $7.000–$7.500 · 손절 $6.500 · 1차목표 $8.000\n⚠ 역분할 2026-11-06\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.58,
+  "level": 3,
+  "score": 40.2,
+  "prob": 52.91666666666666,
+  "cp": 39.20195623665611,
+  "rl": 8.0,
+  "stop": 6.5,
+  "zone": [
+   7.0,
+   7.5
+  ],
+  "bp": 7.201,
+  "tgt": 8.0,
+  "stp": 6.5,
+  "penalties": [
+   "역분할 2026-11-06",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220218001",
+  "grade": "open"
+ },
+ {
+  "id": "LGCL-1793978414",
+  "ts_kst": "2026-11-07 00:20",
+  "ts_utc": "2026-11-06T15:20:14+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "LGCL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.3% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LGCL 장중 급등 포착",
+  "body": "$1.420 (+18.3%) · 정규장 · 레벨 2 · 점수 39\n시장에 도는 주식 279만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +18.3% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 7%\n추천 매수가 $1.349 지정가(기준가 $1.420의 −5%) · 체결 가능성 약 64% · 손익분기 $1.365\n숏 지지구간 $0.994–$1.420 · 손절 $0.710 · 1차목표 $2.350\n⚠ 역분할 2026-09-01\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.42,
+  "level": 2,
+  "score": 38.6,
+  "prob": 7.061629343868173,
+  "cp": 2.0,
+  "rl": 25.0,
+  "stop": 0.7099999785423279,
+  "zone": [
+   0.993999969959259,
+   1.4199999570846558
+  ],
+  "bp": 1.349,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-09-01"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240305001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240305001",
+  "grade": "n/a"
  }
 ]

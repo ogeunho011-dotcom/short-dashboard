@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OBE",
-  "form": "6-K",
-  "acc": "0001193125-26-449415",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T19:23:15+00:00",
-  "accepted_kst": "11/06 04:23",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Obsidian Energy Announces Third Quarter 2026 Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1334388/000119312526449415/0001193125-26-449415-index.htm",
-  "seen_kst": "2026-11-06 04:26"
- },
- {
   "ticker": "TLSA",
   "form": "6-K",
   "acc": "0001213900-26-116277",
@@ -8683,5 +8666,22 @@
   "headline": "Press release dated November 4, 2026 SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report",
   "url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026071423/0001628280-26-071423-index.htm",
   "seen_kst": "2026-11-07 00:07"
+ },
+ {
+  "ticker": "SBR",
+  "form": "8-K",
+  "acc": "0001193125-26-450963",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T15:18:20+00:00",
+  "accepted_kst": "11/07 00:18",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Sabine Royalty Trust News Release SABINE ROYALTY TRUST ANNOUNCES MONTHLY CASH DISTRIBUTION FOR NOVEMBER 2026 Dallas, Texas, November 6, 2026 – Argent Trust Comp",
+  "url": "https://www.sec.gov/Archives/edgar/data/710752/000119312526450963/0001193125-26-450963-index.htm",
+  "seen_kst": "2026-11-07 00:20"
  }
 ]
