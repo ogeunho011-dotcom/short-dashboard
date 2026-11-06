@@ -34191,5 +34191,48 @@
    "accepted_kst": "11/07 00:21",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "VIVK-1793979011",
+  "ts_kst": "2026-11-07 00:30",
+  "ts_utc": "2026-11-06T15:30:11+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "VIVK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.2% · 거래량 평소의 363.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ VIVK 장중 급등 포착",
+  "body": "$0.445 (+20.2%) · 정규장 · 레벨 3 · 점수 51\n시장에 도는 주식 818만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +20.2% · 거래량 평소의 363.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.423 지정가(기준가 $0.445의 −5%) · 체결 가능성 약 85% · 손익분기 $0.428\n숏 지지구간 $0.311–$0.445 · 손절 $0.222 · 1차목표 $0.667\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-05\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4449,
+  "level": 3,
+  "score": 50.7,
+  "prob": 20.50473186119874,
+  "cp": 2.0,
+  "rl": 30.0,
+  "stop": 0.22245000302791595,
+  "zone": [
+   0.3114300042390823,
+   0.4449000060558319
+  ],
+  "bp": 0.4227,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-05",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220214007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220214007",
+  "grade": "n/a"
  }
 ]
