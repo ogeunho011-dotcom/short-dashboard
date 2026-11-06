@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RBNE",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0002162486-26-000002",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T17:57:17+00:00",
-  "accepted_kst": "11/06 02:57",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039060/000216248626000002/0002162486-26-000002-index.htm",
-  "seen_kst": "2026-11-06 02:59"
- },
- {
   "ticker": "GUNN",
   "form": "6-K",
   "acc": "0001493152-26-050162",
@@ -8681,5 +8664,22 @@
   "headline": "STEALTHGAS INC. 331 Kifissias Avenue Kifissia 14561 Athens, Greece November 6, 2026 Dear Stockholder: You are cordially invited to attend a Special Meeting of S",
   "url": "https://www.sec.gov/Archives/edgar/data/1328919/000119312526450866/0001193125-26-450866-index.htm",
   "seen_kst": "2026-11-06 23:07"
+ },
+ {
+  "ticker": "NERV",
+  "form": "8-K",
+  "acc": "0001193125-26-450877",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T14:10:21+00:00",
+  "accepted_kst": "11/06 23:10",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Minerva Neurosciences Provides Third Quarter 2026 Financial Results and Business Updates Confirmatory Phase 3 trial of roluperidone (MIN-101C19) ongoing with to",
+  "url": "https://www.sec.gov/Archives/edgar/data/1598646/000119312526450877/0001193125-26-450877-index.htm",
+  "seen_kst": "2026-11-06 23:12"
  }
 ]
