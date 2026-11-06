@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "VTEX",
-  "form": "4",
-  "acc": "0001193125-26-449235",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T17:42:32+00:00",
-  "accepted_kst": "11/06 02:42",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449235/0001193125-26-449235-index.htm",
-  "seen_kst": "2026-11-06 02:45"
- },
- {
   "ticker": "FRGT",
   "form": "SCHEDULE 13G",
   "acc": "0001610520-26-000120",
@@ -8681,5 +8664,22 @@
   "headline": "hereto, is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), o",
   "url": "https://www.sec.gov/Archives/edgar/data/1671927/000167192726000034/0001671927-26-000034-index.htm",
   "seen_kst": "2026-11-06 23:02"
+ },
+ {
+  "ticker": "IMCR",
+  "form": "10-Q",
+  "acc": "0001671927-26-000035",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T14:01:45+00:00",
+  "accepted_kst": "11/06 23:01",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671927/000167192726000035/0001671927-26-000035-index.htm",
+  "seen_kst": "2026-11-06 23:05"
  }
 ]
