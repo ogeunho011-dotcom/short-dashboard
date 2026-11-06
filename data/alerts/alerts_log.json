@@ -35271,5 +35271,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240328005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240328005",
   "grade": "open"
+ },
+ {
+  "id": "AIIO-1793987964",
+  "ts_kst": "2026-11-07 02:59",
+  "ts_utc": "2026-11-06T17:59:24+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "AIIO",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 AIIO 상위 확률 신호",
+  "body": "$8.900 (+2125.0%) · 정규장 · 레벨 3 · 점수 52\n공매도 물량 대부분 손해 중, $10.07 넘으면 급등 가능성 ↑ · 한 달 고점 돌파 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.455 지정가(기준가 $8.900의 −5%) · 체결 가능성 약 54% · 손익분기 $8.557\n숏 지지구간 $6.230–$6.230 · 손절 $4.450 · 1차목표 $10.069\n⚠ 424B 증자 설명서 5건 (30일 내, 최근 11/04)\n⚠ 역분할 2026-11-06\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.8999,
+  "level": 3,
+  "score": 51.8,
+  "prob": 52.91666666666666,
+  "cp": 54.2186439959013,
+  "rl": 10.069299697875977,
+  "stop": 4.449950218200684,
+  "zone": [
+   6.2299303054809565,
+   6.2299303054809565
+  ],
+  "bp": 8.4549,
+  "tgt": 10.069299697875977,
+  "stp": 4.449950218200684,
+  "penalties": [
+   "424B 증자 설명서 5건 (30일 내, 최근 11/04)",
+   "역분할 2026-11-06",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221114004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221114004",
+  "grade": "open"
  }
 ]
