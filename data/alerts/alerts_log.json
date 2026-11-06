@@ -27972,7 +27972,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190102001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190102001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "BDMD-1793893969",
@@ -29272,7 +29275,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190102001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190102001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "HLP-1793903109",
@@ -29595,7 +29601,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630006",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.20721334681496428,
+  "graded_bars": 1
  },
  {
   "id": "INTZ-1793905527",
@@ -30699,7 +30708,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190102001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190102001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "SOUN-fil-0001840856-26-000025",
@@ -33388,6 +33400,84 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250513001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250513001",
+  "grade": "open"
+ },
+ {
+  "id": "GOGO-1793976614",
+  "ts_kst": "2026-11-06 23:50",
+  "ts_utc": "2026-11-06T14:50:14+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "GOGO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.1% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GOGO 장중 급등 포착",
+  "body": "$2.810 (+24.1%) · 정규장 · 레벨 1 · 점수 18\n공매도 물량 대부분 손해 중, $3.00 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +24.1% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.669 지정가(기준가 $2.810의 −5%) · 체결 가능성 약 45% · 손익분기 $2.702\n숏 지지구간 $2.250–$2.500 · 손절 $2.125 · 1차목표 $3.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.81,
+  "level": 1,
+  "score": 17.8,
+  "prob": 53.44827586206896,
+  "cp": 57.080787639877386,
+  "rl": 3.0,
+  "stop": 2.125,
+  "zone": [
+   2.25,
+   2.5
+  ],
+  "bp": 2.6695,
+  "tgt": 3.0,
+  "stp": 2.125,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130621001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130621001",
+  "grade": "open"
+ },
+ {
+  "id": "ETON-1793976614",
+  "ts_kst": "2026-11-06 23:50",
+  "ts_utc": "2026-11-06T14:50:14+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "ETON",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ETON 장중 급등 포착",
+  "body": "$54.620 (+15.8%) · 정규장 · 레벨 1 · 점수 23\n$62.00 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.8% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $51.253 지정가(20일선, 기준가 대비 -6.2%) · 체결 가능성 약 27% · 손익분기 $51.872\n숏 지지구간 $52.000–$54.000 · 손절 $50.000 · 1차목표 $62.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 54.62,
+  "level": 1,
+  "score": 23.1,
+  "prob": 45.01661129568107,
+  "cp": 30.354304848826274,
+  "rl": 62.0,
+  "stop": 50.0,
+  "zone": [
+   52.0,
+   54.0
+  ],
+  "bp": 51.253,
+  "tgt": 62.0,
+  "stp": 50.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20181029001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20181029001",
   "grade": "open"
  }
 ]
