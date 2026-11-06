@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "BDMD",
-  "form": "6-K",
-  "acc": "0001104659-26-123086",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:05+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Baird Medical Announces Receipt of Nasdaq Notification Regarding Minimum Bid Price Deficiency",
-  "url": "https://www.sec.gov/Archives/edgar/data/1982444/000110465926123086/0001104659-26-123086-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
-  "ticker": "MBOT",
-  "form": "8-K",
-  "acc": "0001493152-26-050070",
-  "items": "7.01,8.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:10+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neutral",
-  "label": "IR 자료 · 기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Microbot Medical® Strengthens IP Portfolio as it Continues to Establish Infrastructure to Support Future Commercialization Expansion",
-  "url": "https://www.sec.gov/Archives/edgar/data/883975/000149315226050070/0001493152-26-050070-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
-  "ticker": "WAVE",
-  "form": "6-K",
-  "acc": "0001213900-26-116134",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:12+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "WISeQey, SEALSQ, SEALCOIN and Eco Wave Power Sign Three-Year MoU and Demonstrate Trusted Energy Transactions for AI Data Centers Collaboration combines renewabl",
-  "url": "https://www.sec.gov/Archives/edgar/data/1846715/000121390026116134/0001213900-26-116134-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
   "ticker": "AMTX",
   "form": "8-K",
   "acc": "0001437749-26-035092",
@@ -8661,5 +8608,60 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1357874/000162828026071249/0001628280-26-071249-index.htm",
   "seen_kst": "2026-11-06 20:04"
+ },
+ {
+  "ticker": "CTM",
+  "form": "10-Q",
+  "acc": "0001877939-26-000096",
+  "items": "",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-05T21:04:51+00:00",
+  "accepted_kst": "11/06 06:04",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1877939/000187793926000096/0001877939-26-000096-index.htm",
+  "seen_kst": "2026-11-06 20:06"
+ },
+ {
+  "ticker": "CTM",
+  "form": "8-K",
+  "acc": "0001877939-26-000098",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:01:46+00:00",
+  "accepted_kst": "11/06 20:01",
+  "polarity": "pos",
+  "label": "실적 호조·가이던스 상향",
+  "cats": [
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Castellum Announces Third Quarter 2026 Financial Results Ended the Quarter with a Debt-Free Balance Sheet and $24.5 Million of Cash and Accounts Receivable Repo",
+  "url": "https://www.sec.gov/Archives/edgar/data/1877939/000187793926000098/0001877939-26-000098-index.htm",
+  "seen_kst": "2026-11-06 20:06"
+ },
+ {
+  "ticker": "SLVM",
+  "form": "8-K",
+  "acc": "0001193125-26-450635",
+  "items": "7.01,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:02:16+00:00",
+  "accepted_kst": "11/06 20:02",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "NEWS RELEASE Sylvamo Announces Plans to Sell Europe Business",
+  "url": "https://www.sec.gov/Archives/edgar/data/1856485/000119312526450635/0001193125-26-450635-index.htm",
+  "seen_kst": "2026-11-06 20:06"
  }
 ]
