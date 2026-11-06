@@ -32118,5 +32118,44 @@
    "accepted_kst": "11/06 20:39",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "DBGI-1793967310",
+  "ts_kst": "2026-11-06 21:15",
+  "ts_utc": "2026-11-06T12:15:10+00:00",
+  "date_et": "2026-11-06",
+  "session": "pre",
+  "ticker": "DBGI",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +112.8%"
+  ],
+  "title": "🚀 DBGI 프리마켓 갭",
+  "body": "$1.000 (+112.8%) · 프리마켓 · 레벨 3 · 점수 42\n시장에 도는 주식 93만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중\n• 프리마켓 갭 +112.8%\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.950 지정가(기준가 $1.000의 −5%) · 체결 가능성 약 82% · 손익분기 $0.962\n숏 지지구간 $0.700–$1.000 · 손절 $0.500 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.0003,
+  "level": 3,
+  "score": 42.0,
+  "prob": 21.428571428571427,
+  "cp": 7.59469282907001,
+  "rl": 2.0,
+  "stop": 0.50015,
+  "zone": [
+   0.7002099999999999,
+   1.0003
+  ],
+  "bp": 0.9503,
+  "tgt": 2.0,
+  "stp": 0.50015,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210514014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210514014",
+  "grade": "open"
  }
 ]
