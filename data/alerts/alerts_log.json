@@ -34740,5 +34740,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230127008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230127008",
   "grade": "open"
+ },
+ {
+  "id": "INM-1793983784",
+  "ts_kst": "2026-11-07 01:49",
+  "ts_utc": "2026-11-06T16:49:44+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "INM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.9% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ INM 장중 급등 포착",
+  "body": "$15.200 (+16.9%) · 정규장 · 레벨 1 · 점수 20\n$19.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 549만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.9% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $14.685 지정가(20일선, 기준가 대비 -3.4%) · 체결 가능성 약 75% · 손익분기 $14.862\n숏 지지구간 $14.500–$15.000 · 손절 $14.000 · 1차목표 $19.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/28)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-11-05\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 15.2,
+  "level": 1,
+  "score": 20.3,
+  "prob": 21.229898354972153,
+  "cp": 28.501550708311903,
+  "rl": 19.5,
+  "stop": 14.0,
+  "zone": [
+   14.5,
+   15.0
+  ],
+  "bp": 14.685,
+  "tgt": 19.5,
+  "stp": 14.0,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/28)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-11-05"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201112010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201112010",
+  "grade": "open"
  }
 ]
