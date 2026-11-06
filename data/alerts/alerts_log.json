@@ -34317,5 +34317,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250626004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250626004",
   "grade": "open"
+ },
+ {
+  "id": "THM-1793980187",
+  "ts_kst": "2026-11-07 00:49",
+  "ts_utc": "2026-11-06T15:49:47+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "THM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.8% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ THM 장중 급등 포착",
+  "body": "$1.425 (+17.8%) · 정규장 · 레벨 1 · 점수 14\n$1.50 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +17.8% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.354 지정가(기준가 $1.425의 −5%) · 체결 가능성 약 71% · 손익분기 $1.370\n숏 지지구간 $1.200–$1.300 · 손절 $1.150 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.425,
+  "level": 1,
+  "score": 13.6,
+  "prob": 38.456237077877326,
+  "cp": 32.833943690299115,
+  "rl": 1.5000000000000004,
+  "stop": 1.1500000000000001,
+  "zone": [
+   1.2000000000000002,
+   1.3000000000000003
+  ],
+  "bp": 1.3537,
+  "tgt": 1.5000000000000004,
+  "stp": 1.1500000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070501002",
+  "grade": "open"
  }
 ]
