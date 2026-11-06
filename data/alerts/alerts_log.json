@@ -35801,5 +35801,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
   "grade": "open"
+ },
+ {
+  "id": "ANVS-1793992640",
+  "ts_kst": "2026-11-07 04:17",
+  "ts_utc": "2026-11-06T19:17:20+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "ANVS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.6% · 거래량 평소의 7.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ANVS 장중 급등 포착",
+  "body": "$0.828 (+23.6%) · 정규장 · 레벨 2 · 점수 26\n$0.900 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 11배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +23.6% · 거래량 평소의 7.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.770 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.0%) · 체결 가능성 약 68% · 손익분기 $0.780\n숏 지지구간 $0.600–$0.700 · 손절 $0.500 · 1차목표 $0.900\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 11/05)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 60/100\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/05)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8281,
+  "level": 2,
+  "score": 25.5,
+  "prob": 52.91666666666666,
+  "cp": 49.76767511583854,
+  "rl": 0.9,
+  "stop": 0.5000000000000001,
+  "zone": [
+   0.6000000000000001,
+   0.7000000000000001
+  ],
+  "bp": 0.7704,
+  "tgt": 0.9,
+  "stp": 0.5000000000000001,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 11/05)",
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 60/100",
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/05)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211118010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211118010",
+  "grade": "open"
  }
 ]
