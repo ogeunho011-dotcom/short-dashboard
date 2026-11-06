@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NTRP",
-  "form": "8-K",
-  "acc": "0001493152-26-050073",
-  "items": "7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:45:41+00:00",
-  "accepted_kst": "11/05 22:45",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "NextTrip Advances JOURNYGO to Broader Rollout Following Initial Beta Phase Expanded programming and platform deployment connects JOURNY TV viewers with curated",
-  "url": "https://www.sec.gov/Archives/edgar/data/788611/000149315226050073/0001493152-26-050073-index.htm",
-  "seen_kst": "2026-11-05 22:48"
- },
- {
   "ticker": "AMTX",
   "form": "10-Q",
   "acc": "0001437749-26-035093",
@@ -8668,5 +8651,24 @@
   "headline": "Item 1.02 Termination of a Material Definitive Agreement. As previously disclosed in the Current Report on Form 8-K filed by Beam Global (the “Company”) with th",
   "url": "https://www.sec.gov/Archives/edgar/data/1398805/000143774926035401/0001437749-26-035401-index.htm",
   "seen_kst": "2026-11-06 20:40"
+ },
+ {
+  "ticker": "AGMB",
+  "form": "4",
+  "acc": "0001445826-26-000018",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:39:16+00:00",
+  "accepted_kst": "11/06 20:39",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $103,500",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Epstein David R",
+  "url": "https://www.sec.gov/Archives/edgar/data/2020932/000144582626000018/0001445826-26-000018-index.htm",
+  "seen_kst": "2026-11-06 20:42"
  }
 ]
