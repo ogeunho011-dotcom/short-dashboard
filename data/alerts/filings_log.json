@@ -1,23 +1,6 @@
 [
  {
   "ticker": "KFRC",
-  "form": "144",
-  "acc": "0001034045-26-000015",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:02:51+00:00",
-  "accepted_kst": "11/06 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/930420/000103404526000015/0001034045-26-000015-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
-  "ticker": "KFRC",
   "form": "4",
   "acc": "0000930420-26-000078",
   "items": "",
@@ -8688,5 +8671,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000293/0000939057-26-000293-index.htm",
   "seen_kst": "2026-11-07 01:59"
+ },
+ {
+  "ticker": "SNT",
+  "form": "6-K",
+  "acc": "0001178913-26-005053",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T17:01:11+00:00",
+  "accepted_kst": "11/07 02:01",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "This Form 6-K and its exhibit (except the quotes in the third and fourth paragraphs) are being incorporated by reference into the Registrant’s Form S-8 Registra",
+  "url": "https://www.sec.gov/Archives/edgar/data/1993727/000117891326005053/0001178913-26-005053-index.htm",
+  "seen_kst": "2026-11-07 02:05"
  }
 ]
