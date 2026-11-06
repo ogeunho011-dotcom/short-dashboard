@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CSTL",
-  "form": "8-K",
-  "acc": "0001628280-26-071030",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:07:53+00:00",
-  "accepted_kst": "11/06 06:07",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Castle Biosciences Reports Third Quarter 2026 Results Delivered Q3 2026 revenue of $102.9 million, an increase of 24% over Q3 2025 TissueCypher ® test report vo",
-  "url": "https://www.sec.gov/Archives/edgar/data/1447362/000162828026071030/0001628280-26-071030-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "CRBU",
   "form": "8-K",
   "acc": "0001619856-26-000060",
@@ -8682,5 +8665,22 @@
   "headline": "DeFi Technologies Announces Shareholder Call to Discuss Q3 2026 Financial Results",
   "url": "https://www.sec.gov/Archives/edgar/data/1888274/000127956926001054/0001279569-26-001054-index.htm",
   "seen_kst": "2026-11-07 03:30"
+ },
+ {
+  "ticker": "AVBC",
+  "form": "4",
+  "acc": "0001437749-26-035480",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T18:30:47+00:00",
+  "accepted_kst": "11/07 03:30",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2058758/000143774926035480/0001437749-26-035480-index.htm",
+  "seen_kst": "2026-11-07 03:33"
  }
 ]
