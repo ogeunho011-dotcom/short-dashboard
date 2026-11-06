@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PKBK",
-  "form": "4",
-  "acc": "0001437749-26-035270",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:09:42+00:00",
-  "accepted_kst": "11/06 06:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1315399/000143774926035270/0001437749-26-035270-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "FLGT",
   "form": "10-Q",
   "acc": "0001193125-26-449803",
@@ -8680,5 +8663,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000006/0000766792-26-000006-index.htm",
   "seen_kst": "2026-11-07 05:19"
+ },
+ {
+  "ticker": "CVV",
+  "form": "4",
+  "acc": "0000766792-26-000007",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:23:13+00:00",
+  "accepted_kst": "11/07 05:23",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000007/0000766792-26-000007-index.htm",
+  "seen_kst": "2026-11-07 05:24"
  }
 ]
