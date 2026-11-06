@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "ALEC",
-  "form": "8-K",
-  "acc": "0001193125-26-449813",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:10:15+00:00",
-  "accepted_kst": "11/06 06:10",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Alector Reports Third Quarter 2026 Financial Results and Provides Business Update Advancing a pipeline built entirely on the Alector Brain Carrier (ABC) blood-b",
-  "url": "https://www.sec.gov/Archives/edgar/data/1653087/000119312526449813/0001193125-26-449813-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
-  "ticker": "INAB",
-  "form": "8-K",
-  "acc": "0001193125-26-449820",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:10:15+00:00",
-  "accepted_kst": "11/06 06:10",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "IN8bio Reports Third Quarter 2026 Financial Results and Recent Business Highlights • Strengthened research and development (R&D) leadership by appointing Oxana ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1740279/000119312526449820/0001193125-26-449820-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "SRPT",
   "form": "8-K",
   "acc": "0001193125-26-449822",
@@ -8675,5 +8639,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/41719/000004171926000060/0000041719-26-000060-index.htm",
   "seen_kst": "2026-11-07 05:47"
+ },
+ {
+  "ticker": "MAGN",
+  "form": "4",
+  "acc": "0000041719-26-000062",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:52:04+00:00",
+  "accepted_kst": "11/07 05:52",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/41719/000004171926000062/0000041719-26-000062-index.htm",
+  "seen_kst": "2026-11-07 05:55"
+ },
+ {
+  "ticker": "ECAT",
+  "form": "4",
+  "acc": "0001510281-26-000416",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:55:17+00:00",
+  "accepted_kst": "11/07 05:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1864843/000151028126000416/0001510281-26-000416-index.htm",
+  "seen_kst": "2026-11-07 05:55"
  }
 ]
