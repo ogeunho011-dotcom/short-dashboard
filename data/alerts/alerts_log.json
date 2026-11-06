@@ -36003,5 +36003,90 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070501002",
   "grade": "open"
+ },
+ {
+  "id": "KDK-1793995724",
+  "ts_kst": "2026-11-07 05:08",
+  "ts_utc": "2026-11-06T20:08:44+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "KDK",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 KDK 상위 확률 신호",
+  "body": "$1.342 (+41.1%) · 정규장 · 레벨 3 · 점수 41\n$1.50 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.261 지정가(20일선, 기준가 대비 -6.0%) · 체결 가능성 약 59% · 손익분기 $1.276\n숏 지지구간 $0.750–$1.000 · 손절 $0.671 · 1차목표 $1.500\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3422,
+  "level": 3,
+  "score": 41.3,
+  "prob": 52.91666666666666,
+  "cp": 27.337544853825257,
+  "rl": 1.5,
+  "stop": 0.6711000204086304,
+  "zone": [
+   0.75,
+   1.0
+  ],
+  "bp": 1.2612,
+  "tgt": 1.5,
+  "stp": 0.6711000204086304,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0230612001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0230612001",
+  "grade": "open"
+ },
+ {
+  "id": "RCT-1793995724",
+  "ts_kst": "2026-11-07 05:08",
+  "ts_utc": "2026-11-06T20:08:44+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "RCT",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +22.7% · 거래량 평소의 12.2배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 2,321k (당일 평균 68.6배)"
+  ],
+  "title": "🚀 RCT 장중 급등 포착 · 거래량 급증",
+  "body": "$0.037 (+22.7%) · 정규장 · 레벨 3 · 점수 41\n오늘 거래량 평소의 21배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +22.7% · 거래량 평소의 12.2배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 2,321k (당일 평균 68.6배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.036 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -2.1%) · 체결 가능성 약 85% · 손익분기 $0.036\n숏 지지구간 $0.026–$0.037 · 손절 $0.018 · 1차목표 $0.060\n⚠ 424B 증자 설명서 3건 (30일 내, 최근 10/19)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0368,
+  "level": 3,
+  "score": 40.7,
+  "prob": 31.25,
+  "cp": 13.230957544337262,
+  "rl": 0.06,
+  "stop": 0.018400000408291817,
+  "zone": [
+   0.025760000571608543,
+   0.03680000081658363
+  ],
+  "bp": 0.036,
+  "tgt": 0.06,
+  "stp": 0.018400000408291817,
+  "penalties": [
+   "424B 증자 설명서 3건 (30일 내, 최근 10/19)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250321007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250321007",
+  "grade": "open"
  }
 ]
