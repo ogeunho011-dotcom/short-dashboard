@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ONT",
-  "form": "10-Q",
-  "acc": "0001193125-26-449709",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:00:46+00:00",
-  "accepted_kst": "11/06 06:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1643615/000119312526449709/0001193125-26-449709-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "VTEX",
   "form": "6-K",
   "acc": "0001193125-26-449717",
@@ -8690,5 +8673,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/108985/000010898526000097/0000108985-26-000097-index.htm",
   "seen_kst": "2026-11-07 01:29"
+ },
+ {
+  "ticker": "FSBW",
+  "form": "4",
+  "acc": "0000939057-26-000292",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:30:15+00:00",
+  "accepted_kst": "11/07 01:30",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000292/0000939057-26-000292-index.htm",
+  "seen_kst": "2026-11-07 01:31"
  }
 ]
