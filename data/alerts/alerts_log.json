@@ -29717,7 +29717,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240718001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240718001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "ONT-1793905984",
@@ -29881,7 +29884,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160707001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160707001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "CCLD-1793907348",
@@ -33300,6 +33306,49 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070525001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070525001",
+  "grade": "open"
+ },
+ {
+  "id": "VSA-1793976310",
+  "ts_kst": "2026-11-06 23:45",
+  "ts_utc": "2026-11-06T14:45:10+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "VSA",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +27.9% · 거래량 평소의 7316.9배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 VSA 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.970 (+27.9%) · 정규장 · 레벨 3 · 점수 55\n$2.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 62만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +27.9% · 거래량 평소의 7316.9배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.872 지정가(기준가 $1.970의 −5%) · 체결 가능성 약 50% · 손익분기 $1.894\n숏 지지구간 $1.500–$1.970 · 손절 $1.000 · 1차목표 $2.500\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.97,
+  "level": 3,
+  "score": 54.9,
+  "prob": 52.91666666666666,
+  "cp": 43.41305327107689,
+  "rl": 2.5,
+  "stop": 1.0,
+  "zone": [
+   1.5,
+   1.9700000286102295
+  ],
+  "bp": 1.8715,
+  "tgt": 2.5,
+  "stp": 1.0,
+  "penalties": [
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140403004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140403004",
   "grade": "open"
  }
 ]
