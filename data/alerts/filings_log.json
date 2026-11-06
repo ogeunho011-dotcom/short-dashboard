@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SVV",
-  "form": "8-K",
-  "acc": "0001883313-26-000072",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:07:18+00:00",
-  "accepted_kst": "11/06 06:07",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Savers Value Village, Inc. Reports Third Quarter Financial Results Net Sales Increased 8.5%, Driven by New Stores and Comparable Store Sales Growth of 5.9% in t",
-  "url": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000072/0001883313-26-000072-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "SPWR",
   "form": "8-K",
   "acc": "0001213900-26-116377",
@@ -8688,5 +8671,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026071509/0001628280-26-071509-index.htm",
   "seen_kst": "2026-11-07 03:20"
+ },
+ {
+  "ticker": "WEYS",
+  "form": "144",
+  "acc": "0001312596-26-000018",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T18:22:25+00:00",
+  "accepted_kst": "11/07 03:22",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/106532/000131259626000018/0001312596-26-000018-index.htm",
+  "seen_kst": "2026-11-07 03:22"
  }
 ]
