@@ -1,42 +1,5 @@
 [
  {
-  "ticker": "ARDT",
-  "form": "8-K",
-  "acc": "0001628280-26-070163",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:15:24+00:00",
-  "accepted_kst": "11/05 06:15",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Ardent Health Reports Third Quarter 2026 Results Brentwood, Tenn. ( November 4, 2026 ) – Ardent Health, Inc. (NYSE: ARDT) (\"Ardent Health\" or the \"Company\"), a",
-  "url": "https://www.sec.gov/Archives/edgar/data/1756655/000162828026070163/0001628280-26-070163-index.htm",
-  "seen_kst": "2026-11-06 00:24"
- },
- {
-  "ticker": "INTZ",
-  "form": "8-K",
-  "acc": "0001683168-26-008314",
-  "items": "3.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-04T22:47:28+00:00",
-  "accepted_kst": "11/05 07:47",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할",
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Item 3.01 Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On November 4, 2026, Intrusion Inc. (the “Company",
-  "url": "https://www.sec.gov/Archives/edgar/data/736012/000168316826008314/0001683168-26-008314-index.htm",
-  "seen_kst": "2026-11-06 00:24"
- },
- {
   "ticker": "BCBP",
   "form": "4",
   "acc": "0001193125-26-448969",
@@ -8674,5 +8637,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1799448/000119312526450798/0001193125-26-450798-index.htm",
   "seen_kst": "2026-11-06 22:10"
+ },
+ {
+  "ticker": "LCUT",
+  "form": "8-K/A",
+  "acc": "0000874396-26-000058",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:09:49+00:00",
+  "accepted_kst": "11/06 22:09",
+  "polarity": "pos",
+  "label": "자사주 매입",
+  "cats": [
+   "자사주 매입"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Lifetime Brands, Inc. Reports Third Quarter 2026 Financial Results Declares Regular Quarterly Dividend Board Authorizes $20M Share Repurchase Program",
+  "url": "https://www.sec.gov/Archives/edgar/data/874396/000087439626000058/0000874396-26-000058-index.htm",
+  "seen_kst": "2026-11-06 22:12"
+ },
+ {
+  "ticker": "TARA",
+  "form": "10-Q",
+  "acc": "0001213900-26-116612",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:10:41+00:00",
+  "accepted_kst": "11/06 22:10",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1359931/000121390026116612/0001213900-26-116612-index.htm",
+  "seen_kst": "2026-11-06 22:12"
  }
 ]

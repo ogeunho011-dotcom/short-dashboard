@@ -32411,5 +32411,93 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250410002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250410002",
   "grade": "open"
+ },
+ {
+  "id": "WHLR-1793970753",
+  "ts_kst": "2026-11-06 22:12",
+  "ts_utc": "2026-11-06T13:12:33+00:00",
+  "date_et": "2026-11-06",
+  "session": "pre",
+  "ticker": "WHLR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.8% 급변 · 전일 대비 +17.6% — 추격 매수 주의"
+  ],
+  "title": "⚡ WHLR 장중 급등 포착",
+  "body": "$0.539 (+17.6%) · 프리마켓 · 레벨 1 · 점수 21\n시장에 도는 주식 193만 주뿐이라 쉽게 크게 움직임 · 최근 회사 공시 있음 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +12.8% 급변 · 전일 대비 +17.6% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $0.600 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +11.4%) · 체결 가능성 약 85% · 손익분기 $0.607\n숏 지지구간 $0.377–$0.539 · 손절 $0.269 · 1차목표 $0.808\n⚠ 424B 증자 설명서 18건 (30일 내, 최근 11/05)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 80/100\n⚠ 최근 악재 공시: 424B3 증자 서류(424B3) (11/05)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5386,
+  "level": 1,
+  "score": 21.2,
+  "prob": 12.916666666666668,
+  "cp": 22.0,
+  "rl": 100.0,
+  "stop": 0.2693,
+  "zone": [
+   0.37701999999999997,
+   0.5386
+  ],
+  "bp": 0.6003,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 18건 (30일 내, 최근 11/05)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-30",
+   "희석 위험 80/100",
+   "최근 악재 공시: 424B3 증자 서류(424B3) (11/05)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20121119001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20121119001",
+  "grade": "n/a"
+ },
+ {
+  "id": "LCUT-fil-0000874396-26-000058",
+  "ts_kst": "2026-11-06 22:12",
+  "ts_utc": "2026-11-06T13:12:44+00:00",
+  "date_et": "2026-11-06",
+  "session": "filing",
+  "ticker": "LCUT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K/A 자사주 매입"
+  ],
+  "title": "📢 LCUT 호재 공시",
+  "body": "8-K/A · 자사주 매입 (11/06 22:09 KST)\nLifetime Brands, Inc. Reports Third Quarter 2026 Financial Results Declares Regular Quarterly Dividend Board Authorizes $20M Share Repurchas\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19910612001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19910612001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K/A",
+   "acc": "0000874396-26-000058",
+   "items": "2.02,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "Lifetime Brands, Inc. Reports Third Quarter 2026 Financial Results Declares Regular Quarterly Dividend Board Authorizes $20M Share Repurchase Program",
+   "url": "https://www.sec.gov/Archives/edgar/data/874396/000087439626000058/0000874396-26-000058-index.htm",
+   "accepted_kst": "11/06 22:09",
+   "polarity": "pos"
+  }
  }
 ]
