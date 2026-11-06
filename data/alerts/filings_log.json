@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "AAPG",
-  "form": "6-K",
-  "acc": "0001213900-26-116155",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:15:01+00:00",
-  "accepted_kst": "11/05 23:15",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Ascentage Pharma to Present Data from Multiple Trials, Including an Oral Presentation of APG-5918 at ASH 2026",
-  "url": "https://www.sec.gov/Archives/edgar/data/2023311/000121390026116155/0001213900-26-116155-index.htm",
-  "seen_kst": "2026-11-05 23:16"
- },
- {
-  "ticker": "TOON",
-  "form": "8-K",
-  "acc": "0001683168-26-008324",
-  "items": "7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:15:14+00:00",
-  "accepted_kst": "11/05 23:15",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "KARTOON STUDIOS Announces $300 MILLION SPAC, KARTOON STUDIOS ACQUISITION CORPORATION EF Hutton will be Sole Underwriter",
-  "url": "https://www.sec.gov/Archives/edgar/data/1355848/000168316826008324/0001683168-26-008324-index.htm",
-  "seen_kst": "2026-11-05 23:16"
- },
- {
   "ticker": "KAPA",
   "form": "8-K",
   "acc": "0001493152-26-050094",
@@ -8679,5 +8643,39 @@
   "headline": "Pasqal Reports Third Quarter Business Update Solid Execution of Commercial Initiatives, Healthy Global Pipeline of Opportunities, and Technological Advancements",
   "url": "https://www.sec.gov/Archives/edgar/data/2119292/000121390026116581/0001213900-26-116581-index.htm",
   "seen_kst": "2026-11-06 21:27"
+ },
+ {
+  "ticker": "PLAG",
+  "form": "8-K",
+  "acc": "0001213900-26-116582",
+  "items": "5.07",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:30:19+00:00",
+  "accepted_kst": "11/06 21:30",
+  "polarity": "neutral",
+  "label": "주총 결과",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders. At the Annual Meeting of Stockholders (the “Annual Meeting”) of Planet Green Holdings Corp., whic",
+  "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026116582/0001213900-26-116582-index.htm",
+  "seen_kst": "2026-11-06 21:32"
+ },
+ {
+  "ticker": "CEPU",
+  "form": "6-K",
+  "acc": "0001292814-26-005162",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:30:48+00:00",
+  "accepted_kst": "11/06 21:30",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "_] Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Yes [_] No [X] Indicate by check ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426005162/0001292814-26-005162-index.htm",
+  "seen_kst": "2026-11-06 21:32"
  }
 ]
