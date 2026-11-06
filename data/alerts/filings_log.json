@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "APPS",
-  "form": "8-K",
-  "acc": "0001628280-26-070675",
-  "items": "5.02",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:16:56+00:00",
-  "accepted_kst": "11/05 23:16",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. (c)",
-  "url": "https://www.sec.gov/Archives/edgar/data/317788/000162828026070675/0001628280-26-070675-index.htm",
-  "seen_kst": "2026-11-05 23:19"
- },
- {
-  "ticker": "CISS",
-  "form": "424B3",
-  "acc": "0001193125-26-448817",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:18:17+00:00",
-  "accepted_kst": "11/05 23:18",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1951067/000119312526448817/0001193125-26-448817-index.htm",
-  "seen_kst": "2026-11-05 23:19"
- },
- {
   "ticker": "CRML",
   "form": "4",
   "acc": "0001213900-26-116071",
@@ -8675,5 +8639,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1879403/000121390026116584/0001213900-26-116584-index.htm",
   "seen_kst": "2026-11-06 21:37"
+ },
+ {
+  "ticker": "NIPG",
+  "form": "SCHEDULE 13D",
+  "acc": "0001493152-26-050353",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:30:22+00:00",
+  "accepted_kst": "11/06 21:30",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1966233/000149315226050353/0001493152-26-050353-index.htm",
+  "seen_kst": "2026-11-06 21:45"
+ },
+ {
+  "ticker": "TTGT",
+  "form": "8-K",
+  "acc": "0001193125-26-450761",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:43:14+00:00",
+  "accepted_kst": "11/06 21:43",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Informa TechTarget November 6, 2026 Informa TechTarget Reports Third Quarter 2026 Results Continuing Strategic and Product Progress 2026 Full-Year Guidance Upda",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018064/000119312526450761/0001193125-26-450761-index.htm",
+  "seen_kst": "2026-11-06 21:45"
  }
 ]
