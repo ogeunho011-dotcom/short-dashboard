@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "KVHI",
-  "form": "8-K",
-  "acc": "0001007587-26-000029",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:48:26+00:00",
-  "accepted_kst": "11/05 22:48",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "FOR IMMEDIATE RELEASE Contact: KVH Industries, Inc. Anthony Pike 401-847-3327 IR@kvh.com Longacre Square Partners KVH@longacresquare.com KVH Industries Reports ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1007587/000100758726000029/0001007587-26-000029-index.htm",
-  "seen_kst": "2026-11-05 22:51"
- },
- {
-  "ticker": "TROX",
-  "form": "8-K",
-  "acc": "0001140361-26-042049",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:50:52+00:00",
-  "accepted_kst": "11/05 22:50",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "furnished hereto, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), nor shall it b",
-  "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126042049/0001140361-26-042049-index.htm",
-  "seen_kst": "2026-11-05 22:51"
- },
- {
   "ticker": "STKE",
   "form": "6-K",
   "acc": "0001062993-26-005764",
@@ -8670,5 +8636,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1966233/000149315226050350/0001493152-26-050350-index.htm",
   "seen_kst": "2026-11-06 20:45"
+ },
+ {
+  "ticker": "BWMN",
+  "form": "10-Q",
+  "acc": "0001628280-26-071300",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:47:18+00:00",
+  "accepted_kst": "11/06 20:47",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1847590/000162828026071300/0001628280-26-071300-index.htm",
+  "seen_kst": "2026-11-06 20:50"
+ },
+ {
+  "ticker": "VOGX",
+  "form": "8-K",
+  "acc": "0001185185-26-005214",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:47:25+00:00",
+  "accepted_kst": "11/06 20:47",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Vogenx Reports Third Quarter 2026 Financial Results and Business Highlights Advances PBH Development Program Following August 2026 Initial Public Offering Stren",
+  "url": "https://www.sec.gov/Archives/edgar/data/1903784/000118518526005214/0001185185-26-005214-index.htm",
+  "seen_kst": "2026-11-06 20:50"
  }
 ]
