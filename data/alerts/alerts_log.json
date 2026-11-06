@@ -35478,5 +35478,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130621001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130621001",
   "grade": "open"
+ },
+ {
+  "id": "SNT-1793990143",
+  "ts_kst": "2026-11-07 03:35",
+  "ts_utc": "2026-11-06T18:35:43+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SNT",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +41.5% · 거래량 평소의 253.2배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 SNT 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.840 (+41.5%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $2.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 전일 대비 +41.5% · 거래량 평소의 253.2배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.748 지정가(기준가 $1.840의 −5%) · 체결 가능성 약 52% · 손익분기 $1.769\n숏 지지구간 $1.650–$1.717 · 손절 $1.600 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.8401,
+  "level": 3,
+  "score": 44.5,
+  "prob": 53.15723274809348,
+  "cp": 60.85308191953829,
+  "rl": 2.000000000000001,
+  "stop": 1.6000000000000003,
+  "zone": [
+   1.6500000000000004,
+   1.7165350174903873
+  ],
+  "bp": 1.7481,
+  "tgt": 2.000000000000001,
+  "stp": 1.6000000000000003,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930012",
+  "grade": "open"
+ },
+ {
+  "id": "LYNX-1793990143",
+  "ts_kst": "2026-11-07 03:35",
+  "ts_utc": "2026-11-06T18:35:43+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "LYNX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.7% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LYNX 장중 급등 포착",
+  "body": "$14.028 (+23.7%) · 정규장 · 레벨 1 · 점수 21\n$16.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +23.7% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $14.000–$14.028 · 손절 $13.500 · 1차목표 $16.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 14.0275,
+  "level": 1,
+  "score": 20.6,
+  "prob": 52.91666666666666,
+  "cp": 36.411521502550485,
+  "rl": 16.0,
+  "stop": 13.5,
+  "zone": [
+   14.0,
+   14.02750015258789
+  ],
+  "bp": null,
+  "tgt": 16.0,
+  "stp": 13.5,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2608019001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2608019001",
+  "grade": "open"
  }
 ]
