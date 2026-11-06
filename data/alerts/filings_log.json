@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RCEL",
-  "form": "8-K",
-  "acc": "0001193125-26-449815",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:10:14+00:00",
-  "accepted_kst": "11/06 06:10",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "AVITA Medical Reports Third Quarter Results Delivers Strong Q3 With 53% Year-Over-Year Revenue Growth Raises Full Year 2026 Revenue Guidance",
-  "url": "https://www.sec.gov/Archives/edgar/data/1762303/000119312526449815/0001193125-26-449815-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "ALEC",
   "form": "8-K",
   "acc": "0001193125-26-449813",
@@ -8675,5 +8658,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/41719/000004171926000058/0000041719-26-000058-index.htm",
   "seen_kst": "2026-11-07 05:42"
+ },
+ {
+  "ticker": "MAGN",
+  "form": "4",
+  "acc": "0000041719-26-000060",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:46:57+00:00",
+  "accepted_kst": "11/07 05:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/41719/000004171926000060/0000041719-26-000060-index.htm",
+  "seen_kst": "2026-11-07 05:47"
  }
 ]
