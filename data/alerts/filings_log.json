@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FLGT",
-  "form": "10-Q",
-  "acc": "0001193125-26-449803",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:09:51+00:00",
-  "accepted_kst": "11/06 06:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1674930/000119312526449803/0001193125-26-449803-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "SERV",
   "form": "8-K",
   "acc": "0001832483-26-000048",
@@ -8680,5 +8663,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000007/0000766792-26-000007-index.htm",
   "seen_kst": "2026-11-07 05:24"
+ },
+ {
+  "ticker": "FSBC",
+  "form": "3",
+  "acc": "0001628280-26-071595",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:27:07+00:00",
+  "accepted_kst": "11/07 05:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1275168/000162828026071595/0001628280-26-071595-index.htm",
+  "seen_kst": "2026-11-07 05:29"
  }
 ]
