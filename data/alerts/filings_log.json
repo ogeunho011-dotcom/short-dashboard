@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "BLND",
-  "form": "4",
-  "acc": "0001870974-26-000024",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:15:11+00:00",
-  "accepted_kst": "11/05 06:15",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1855747/000187097426000024/0001870974-26-000024-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
-  "ticker": "CAMP",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0000315066-26-002713",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T18:14:28+00:00",
-  "accepted_kst": "11/06 03:14",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1736730/000031506626002713/0000315066-26-002713-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "MBC",
   "form": "SCHEDULE 13G/A",
   "acc": "0000315066-26-002796",
@@ -8688,5 +8654,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050383/0001493152-26-050383-index.htm",
   "seen_kst": "2026-11-07 01:16"
+ },
+ {
+  "ticker": "WSBK",
+  "form": "4",
+  "acc": "0001193125-26-451132",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:18:45+00:00",
+  "accepted_kst": "11/07 01:18",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451132/0001193125-26-451132-index.htm",
+  "seen_kst": "2026-11-07 01:21"
+ },
+ {
+  "ticker": "ELPW",
+  "form": "424B3",
+  "acc": "0001493152-26-050384",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:20:09+00:00",
+  "accepted_kst": "11/07 01:20",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050384/0001493152-26-050384-index.htm",
+  "seen_kst": "2026-11-07 01:21"
  }
 ]
