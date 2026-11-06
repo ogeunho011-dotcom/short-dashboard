@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TRUP",
-  "form": "8-K",
-  "acc": "0001371285-26-000236",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:02:20+00:00",
-  "accepted_kst": "11/06 06:02",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Trupanion Reports Third Quarter 2026 Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1371285/000137128526000236/0001371285-26-000236-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "KROS",
   "form": "8-K",
   "acc": "0001664710-26-000065",
@@ -8688,5 +8671,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1692376/000121465926013806/0001214659-26-013806-index.htm",
   "seen_kst": "2026-11-07 01:36"
+ },
+ {
+  "ticker": "VEL",
+  "form": "4",
+  "acc": "0001214659-26-013807",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:36:41+00:00",
+  "accepted_kst": "11/07 01:36",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692376/000121465926013807/0001214659-26-013807-index.htm",
+  "seen_kst": "2026-11-07 01:39"
  }
 ]
