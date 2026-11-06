@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AMTX",
-  "form": "10-Q",
-  "acc": "0001437749-26-035093",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:45:52+00:00",
-  "accepted_kst": "11/05 22:45",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/738214/000143774926035093/0001437749-26-035093-index.htm",
-  "seen_kst": "2026-11-05 22:48"
- },
- {
   "ticker": "KVHI",
   "form": "8-K",
   "acc": "0001007587-26-000029",
@@ -8670,5 +8653,22 @@
   "headline": "Epstein David R",
   "url": "https://www.sec.gov/Archives/edgar/data/2020932/000144582626000018/0001445826-26-000018-index.htm",
   "seen_kst": "2026-11-06 20:42"
+ },
+ {
+  "ticker": "NIPG",
+  "form": "SCHEDULE 13D",
+  "acc": "0001493152-26-050350",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:36:23+00:00",
+  "accepted_kst": "11/06 20:36",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1966233/000149315226050350/0001493152-26-050350-index.htm",
+  "seen_kst": "2026-11-06 20:45"
  }
 ]
