@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "KAPA",
-  "form": "8-K",
-  "acc": "0001493152-26-050094",
-  "items": "8.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:15:28+00:00",
-  "accepted_kst": "11/05 23:15",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Kairos Pharma Recognized by Biotech Breakthrough Awards in Oncology Company’s lead candidate ENV-105 has been selected as winner of the Cancer Immunology Soluti",
-  "url": "https://www.sec.gov/Archives/edgar/data/1962011/000149315226050094/0001493152-26-050094-index.htm",
-  "seen_kst": "2026-11-05 23:16"
- },
- {
-  "ticker": "MTVA",
-  "form": "8-K",
-  "acc": "0001104659-26-123110",
-  "items": "7.01,8.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:15:26+00:00",
-  "accepted_kst": "11/05 23:15",
-  "polarity": "pos",
-  "label": "임상 성공(주요 목표 달성)",
-  "cats": [
-   "임상 성공(주요 목표 달성)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "MetaVia Announces Statistically Significant 68% Reduction in Liver Fat from DA-1726 Phase 1 Part 3B Interim Data ​ DA-1726 Also Demonstrated Statistically Signi",
-  "url": "https://www.sec.gov/Archives/edgar/data/1638287/000110465926123110/0001104659-26-123110-index.htm",
-  "seen_kst": "2026-11-05 23:19"
- },
- {
   "ticker": "CISS",
   "form": "424B3",
   "acc": "0001193125-26-448811",
@@ -8677,5 +8641,39 @@
   "headline": "_] Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Yes [_] No [X] Indicate by check ",
   "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426005162/0001292814-26-005162-index.htm",
   "seen_kst": "2026-11-06 21:32"
+ },
+ {
+  "ticker": "AMR",
+  "form": "8-K",
+  "acc": "0001704715-26-000041",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:32:52+00:00",
+  "accepted_kst": "11/06 21:32",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ". Item 7.01 Regulation FD Disclosure. On November 6, 2026, the Company made available a written presentation that management may use from time to time in connec",
+  "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000041/0001704715-26-000041-index.htm",
+  "seen_kst": "2026-11-06 21:35"
+ },
+ {
+  "ticker": "AMR",
+  "form": "10-Q",
+  "acc": "0001704715-26-000042",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:34:30+00:00",
+  "accepted_kst": "11/06 21:34",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000042/0001704715-26-000042-index.htm",
+  "seen_kst": "2026-11-06 21:35"
  }
 ]
