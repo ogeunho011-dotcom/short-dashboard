@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LMB",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0000315066-26-002772",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T18:19:14+00:00",
-  "accepted_kst": "11/06 03:19",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1606163/000031506626002772/0000315066-26-002772-index.htm",
-  "seen_kst": "2026-11-06 03:40"
- },
- {
   "ticker": "CIVB",
   "form": "4",
   "acc": "0001974623-26-000006",
@@ -8683,5 +8666,22 @@
   "headline": "CONTENTS On November 4, 2026, the Nasdaq Hearings Panel notified Gauzy Ltd. (the “Company”) that it determined to grant the Company’s request to continue its li",
   "url": "https://www.sec.gov/Archives/edgar/data/1781446/000121390026116652/0001213900-26-116652-index.htm",
   "seen_kst": "2026-11-06 23:27"
+ },
+ {
+  "ticker": "SBGI",
+  "form": "144",
+  "acc": "0001949846-26-000637",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T14:27:32+00:00",
+  "accepted_kst": "11/06 23:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1971213/000194984626000637/0001949846-26-000637-index.htm",
+  "seen_kst": "2026-11-06 23:30"
  }
 ]
