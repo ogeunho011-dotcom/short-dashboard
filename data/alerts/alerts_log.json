@@ -33262,5 +33262,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230127008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230127008",
   "grade": "open"
+ },
+ {
+  "id": "CLNE-1793976168",
+  "ts_kst": "2026-11-06 23:42",
+  "ts_utc": "2026-11-06T14:42:48+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "CLNE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.5% · 거래량 평소의 4.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CLNE 장중 급등 포착",
+  "body": "$1.880 (+24.5%) · 정규장 · 레벨 2 · 점수 26\n공매도 물량 대부분 손해 중, $1.95 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +24.5% · 거래량 평소의 4.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.786 지정가(기준가 $1.880의 −5%) · 체결 가능성 약 37% · 손익분기 $1.808\n숏 지지구간 $1.800–$1.850 · 손절 $1.750 · 1차목표 $1.950\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.88,
+  "level": 2,
+  "score": 25.5,
+  "prob": 52.91666666666666,
+  "cp": 59.94497032788277,
+  "rl": 1.9500000000000006,
+  "stop": 1.7500000000000004,
+  "zone": [
+   1.8000000000000005,
+   1.8500000000000005
+  ],
+  "bp": 1.786,
+  "tgt": 1.9500000000000006,
+  "stp": 1.7500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070525001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070525001",
+  "grade": "open"
  }
 ]
