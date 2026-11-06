@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CCSI",
-  "form": "8-K",
-  "acc": "0001866633-26-000021",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:00:18+00:00",
-  "accepted_kst": "11/06 06:00",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or inco",
-  "url": "https://www.sec.gov/Archives/edgar/data/1866633/000186663326000021/0001866633-26-000021-index.htm",
-  "seen_kst": "2026-11-06 06:01"
- },
- {
   "ticker": "BLND",
   "form": "4",
   "acc": "0001870974-26-000024",
@@ -8686,5 +8669,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451122/0001193125-26-451122-index.htm",
   "seen_kst": "2026-11-07 01:13"
+ },
+ {
+  "ticker": "ELPW",
+  "form": "424B3",
+  "acc": "0001493152-26-050383",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:15:19+00:00",
+  "accepted_kst": "11/07 01:15",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050383/0001493152-26-050383-index.htm",
+  "seen_kst": "2026-11-07 01:16"
  }
 ]
