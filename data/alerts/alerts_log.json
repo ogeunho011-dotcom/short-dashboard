@@ -3973,10 +3973,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201028014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201028014",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 6,
+  "grade_ret": 0.0034744368966750424,
+  "graded_bars": 6
  },
  {
   "id": "CLMB-1793290507",
@@ -35313,6 +35313,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221114004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221114004",
+  "grade": "open"
+ },
+ {
+  "id": "BLNK-1793988447",
+  "ts_kst": "2026-11-07 03:07",
+  "ts_utc": "2026-11-06T18:07:27+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "BLNK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.7% · 거래량 평소의 7.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BLNK 장중 급등 포착",
+  "body": "$0.509 (+24.7%) · 정규장 · 레벨 1 · 점수 21\n$0.600 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +24.7% · 거래량 평소의 7.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $0.500–$0.509 · 손절 $0.480 · 1차목표 $0.600\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5087,
+  "level": 1,
+  "score": 21.1,
+  "prob": 52.91666666666666,
+  "cp": 48.045884212647145,
+  "rl": 0.6000000000000002,
+  "stop": 0.4800000000000001,
+  "zone": [
+   0.5000000000000001,
+   0.5087000131607056
+  ],
+  "bp": null,
+  "tgt": 0.6000000000000002,
+  "stp": 0.4800000000000001,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180214001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180214001",
   "grade": "open"
  }
 ]
