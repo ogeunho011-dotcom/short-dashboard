@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CIVB",
-  "form": "4",
-  "acc": "0001974623-26-000006",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T18:42:42+00:00",
-  "accepted_kst": "11/06 03:42",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $6,057 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Macioce Mark J.",
-  "url": "https://www.sec.gov/Archives/edgar/data/944745/000197462326000006/0001974623-26-000006-index.htm",
-  "seen_kst": "2026-11-06 03:45"
- },
- {
   "ticker": "GOLD",
   "form": "8-K",
   "acc": "0001193125-26-449344",
@@ -8683,5 +8666,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1971213/000194984626000637/0001949846-26-000637-index.htm",
   "seen_kst": "2026-11-06 23:30"
+ },
+ {
+  "ticker": "APOG",
+  "form": "4",
+  "acc": "0001692983-26-000012",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T14:33:47+00:00",
+  "accepted_kst": "11/06 23:33",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $2,416 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Alvord Christina M",
+  "url": "https://www.sec.gov/Archives/edgar/data/6845/000169298326000012/0001692983-26-000012-index.htm",
+  "seen_kst": "2026-11-06 23:35"
  }
 ]
