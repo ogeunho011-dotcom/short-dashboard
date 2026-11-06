@@ -1,40 +1,6 @@
 [
  {
   "ticker": "WSBK",
-  "form": "10-Q",
-  "acc": "0001193125-26-447179",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:02:54+00:00",
-  "accepted_kst": "11/05 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526447179/0001193125-26-447179-index.htm",
-  "seen_kst": "2026-11-06 02:11"
- },
- {
-  "ticker": "WSBK",
-  "form": "S-8",
-  "acc": "0001193125-26-447483",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:44:04+00:00",
-  "accepted_kst": "11/05 06:44",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526447483/0001193125-26-447483-index.htm",
-  "seen_kst": "2026-11-06 02:11"
- },
- {
-  "ticker": "WSBK",
   "form": "8-K",
   "acc": "0001193125-26-449165",
   "items": "5.02,5.07,9.01",
@@ -8679,5 +8645,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/933267/000093326726000082/0000933267-26-000082-index.htm",
   "seen_kst": "2026-11-06 22:32"
+ },
+ {
+  "ticker": "UBCP",
+  "form": "8-K",
+  "acc": "0001104659-26-123622",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:52:26+00:00",
+  "accepted_kst": "11/06 22:52",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "United Bancorp, Inc. 201 South 4th at Hickory Street, Martins Ferry, OH 43935 Contacts: Scott A. Everson Randall M. Greenwood Chairman, President and CEO Senior",
+  "url": "https://www.sec.gov/Archives/edgar/data/731653/000110465926123622/0001104659-26-123622-index.htm",
+  "seen_kst": "2026-11-06 22:55"
+ },
+ {
+  "ticker": "GMM",
+  "form": "6-K",
+  "acc": "0001213900-26-116634",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:53:07+00:00",
+  "accepted_kst": "11/06 22:53",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "As previously reported on the Report on Form 6-K filed with the Securities and Exchange Commission on November 2, 2026, on October 30, 2026, Global Mofy AI Limi",
+  "url": "https://www.sec.gov/Archives/edgar/data/1913749/000121390026116634/0001213900-26-116634-index.htm",
+  "seen_kst": "2026-11-06 22:55"
  }
 ]
