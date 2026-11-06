@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "JANX",
-  "form": "8-K",
-  "acc": "0001193125-26-449790",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:08:00+00:00",
-  "accepted_kst": "11/06 06:08",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Janux Therapeutics Reports Third Quarter 2026 Financial Results and Business Highlights • Initial clinical data from the Phase 1 healthy-volunteer study of JANX",
-  "url": "https://www.sec.gov/Archives/edgar/data/1817713/000119312526449790/0001193125-26-449790-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
-  "ticker": "SANA",
-  "form": "8-K",
-  "acc": "0001193125-26-449791",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:08:00+00:00",
-  "accepted_kst": "11/06 06:08",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Sana Biotechnology Reports Third Quarter 2026 Financial Results and Business Updates Continued progress toward starting SC451 Phase 1/2 trial in type 1 diabetes",
-  "url": "https://www.sec.gov/Archives/edgar/data/1770121/000119312526449791/0001193125-26-449791-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "FLL",
   "form": "8-K",
   "acc": "0000891482-26-000048",
@@ -8682,5 +8646,39 @@
   "headline": "DeFi Technologies' Subsidiary Valour Launches Eight New Digital Asset ETPs on Spotlight Stock Market, Expanding Access to AI, Institutional Blockchain, DeFi and",
   "url": "https://www.sec.gov/Archives/edgar/data/1888274/000127956926001056/0001279569-26-001056-index.htm",
   "seen_kst": "2026-11-07 03:35"
+ },
+ {
+  "ticker": "WRN",
+  "form": "6-K",
+  "acc": "0001062993-26-005782",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T00:30:36+00:00",
+  "accepted_kst": "11/06 09:30",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Western Copper and Gold Corporation Condensed Interim Consolidated Financial Statements For the nine months ended September 30, 2026 and 2025 (Unaudited, Expres",
+  "url": "https://www.sec.gov/Archives/edgar/data/1364125/000106299326005782/0001062993-26-005782-index.htm",
+  "seen_kst": "2026-11-07 03:40"
+ },
+ {
+  "ticker": "WRN",
+  "form": "6-K",
+  "acc": "0001062993-26-005799",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T18:39:54+00:00",
+  "accepted_kst": "11/07 03:39",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE TSX: WRN NYSE American: WRN October 26, 2026 Western Copper and Gold Announces Leadership Transition Vancouver, B.C. Western Copper and Gold Corpor",
+  "url": "https://www.sec.gov/Archives/edgar/data/1364125/000106299326005799/0001062993-26-005799-index.htm",
+  "seen_kst": "2026-11-07 03:40"
  }
 ]
