@@ -22227,10 +22227,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.3679130393318508,
+  "graded_bars": 2
  },
  {
   "id": "OPRT-1793811439",
@@ -28458,7 +28458,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210630006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210630006",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.1570474090407935,
+  "graded_bars": 1
  },
  {
   "id": "INTZ-1793898237",
@@ -33478,6 +33481,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20181029001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20181029001",
+  "grade": "open"
+ },
+ {
+  "id": "MTVA-1793977062",
+  "ts_kst": "2026-11-06 23:57",
+  "ts_utc": "2026-11-06T14:57:42+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "MTVA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.5% · 거래량 평소의 18.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MTVA 장중 급등 포착",
+  "body": "$1.270 (+16.5%) · 정규장 · 레벨 2 · 점수 33\n$1.30 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 659만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.5% · 거래량 평소의 18.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $1.197 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.8%) · 체결 가능성 약 61% · 손익분기 $1.211\n숏 지지구간 $1.000–$1.100 · 손절 $0.900 · 1차목표 $1.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.27,
+  "level": 2,
+  "score": 32.7,
+  "prob": 28.643216080402006,
+  "cp": 30.086467433246806,
+  "rl": 1.3000000000000003,
+  "stop": 0.9,
+  "zone": [
+   1.0,
+   1.1
+  ],
+  "bp": 1.1966,
+  "tgt": 1.3000000000000003,
+  "stp": 0.9,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
   "grade": "open"
  }
 ]
