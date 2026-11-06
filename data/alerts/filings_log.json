@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AIIR",
-  "form": "6-K",
-  "acc": "0001193125-26-448781",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:05:08+00:00",
-  "accepted_kst": "11/05 23:05",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "AIR Submits Premarket Tobacco Product Application for Crown Switch Rechargeable Pod Vape Platform Dubai, UAE, 5 November 2026: AIR GLOBAL PLC (“AIR” or the “Com",
-  "url": "https://www.sec.gov/Archives/edgar/data/2097725/000119312526448781/0001193125-26-448781-index.htm",
-  "seen_kst": "2026-11-05 23:09"
- },
- {
   "ticker": "AISP",
   "form": "8-K",
   "acc": "0001654954-26-009547",
@@ -8673,5 +8656,22 @@
   "headline": "Scripps reports Q3 2026 financial results Nov. 5, 2026 CINCINNATI – The E.W. Scripps Company (NASDAQ: SSP) delivered $545 million in revenue for the third quart",
   "url": "https://www.sec.gov/Archives/edgar/data/832428/000083242826000041/0000832428-26-000041-index.htm",
   "seen_kst": "2026-11-06 21:10"
+ },
+ {
+  "ticker": "BRNX",
+  "form": "6-K",
+  "acc": "0001213900-26-116569",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:10:57+00:00",
+  "accepted_kst": "11/06 21:10",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "CONTENTS Results of Special General Meeting of Shareholders On November 6, 2026, BrenX Ltd. (the “ Company ”), convened its Special General Meeting of Sharehold",
+  "url": "https://www.sec.gov/Archives/edgar/data/1901215/000121390026116569/0001213900-26-116569-index.htm",
+  "seen_kst": "2026-11-06 21:12"
  }
 ]
