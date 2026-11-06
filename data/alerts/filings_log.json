@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AOMR",
-  "form": "4",
-  "acc": "0001766478-26-000070",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:06:26+00:00",
-  "accepted_kst": "11/06 06:06",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $46,472 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Parsons Landon",
-  "url": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000070/0001766478-26-000070-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "UVE",
   "form": "4",
   "acc": "0001492994-26-000002",
@@ -8688,5 +8671,22 @@
   "headline": "Data I/O Appoints Douglas Adams as SVP Global Services, Support and Quality, Reuniting the Leadership Team That Built the World's Largest Programming Services B",
   "url": "https://www.sec.gov/Archives/edgar/data/351998/000165495426009591/0001654954-26-009591-index.htm",
   "seen_kst": "2026-11-07 02:59"
+ },
+ {
+  "ticker": "WSBK",
+  "form": "4",
+  "acc": "0001193125-26-451360",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T17:58:58+00:00",
+  "accepted_kst": "11/07 02:58",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451360/0001193125-26-451360-index.htm",
+  "seen_kst": "2026-11-07 03:02"
  }
 ]
