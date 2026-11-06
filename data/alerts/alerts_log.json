@@ -34483,5 +34483,129 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220328003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220328003",
   "grade": "n/a"
+ },
+ {
+  "id": "SNT-1793982850",
+  "ts_kst": "2026-11-07 01:34",
+  "ts_utc": "2026-11-06T16:34:10+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SNT",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +27.7% · 거래량 평소의 117.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 SNT 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.660 (+27.7%) · 정규장 · 레벨 3 · 점수 45\n공매도 물량 대부분 손해 중, $1.70 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 전일 대비 +27.7% · 거래량 평소의 117.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.588 지정가(60일선, 기준가 대비 -4.3%) · 체결 가능성 약 52% · 손익분기 $1.607\n숏 지지구간 $1.400–$1.491 · 손절 $1.350 · 1차목표 $1.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.6603,
+  "level": 3,
+  "score": 44.8,
+  "prob": 53.44827586206896,
+  "cp": 54.32423731001739,
+  "rl": 1.7000000000000004,
+  "stop": 1.35,
+  "zone": [
+   1.4000000000000001,
+   1.4911050057411195
+  ],
+  "bp": 1.5882,
+  "tgt": 1.7000000000000004,
+  "stp": 1.35,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930012",
+  "grade": "open"
+ },
+ {
+  "id": "RCT-1793982850",
+  "ts_kst": "2026-11-07 01:34",
+  "ts_utc": "2026-11-06T16:34:10+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "RCT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.7% · 거래량 평소의 31.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RCT 장중 급등 포착",
+  "body": "$0.038 (+26.7%) · 정규장 · 레벨 3 · 점수 41\n오늘 거래량 평소의 20배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +26.7% · 거래량 평소의 31.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.036 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.2%) · 체결 가능성 약 85% · 손익분기 $0.036\n숏 지지구간 $0.027–$0.038 · 손절 $0.019 · 1차목표 $0.060\n⚠ 424B 증자 설명서 3건 (30일 내, 최근 10/19)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.038,
+  "level": 3,
+  "score": 40.6,
+  "prob": 31.25,
+  "cp": 12.246471893637153,
+  "rl": 0.06,
+  "stop": 0.01899999938905239,
+  "zone": [
+   0.026599999144673345,
+   0.03799999877810478
+  ],
+  "bp": 0.036,
+  "tgt": 0.06,
+  "stp": 0.01899999938905239,
+  "penalties": [
+   "424B 증자 설명서 3건 (30일 내, 최근 10/19)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250321007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250321007",
+  "grade": "open"
+ },
+ {
+  "id": "LYNX-1793982850",
+  "ts_kst": "2026-11-07 01:34",
+  "ts_utc": "2026-11-06T16:34:10+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "LYNX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.8% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LYNX 장중 급등 포착",
+  "body": "$13.250 (+16.8%) · 정규장 · 레벨 1 · 점수 18\n$14.00 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파\n• 전일 대비 +16.8% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $12.587 지정가(기준가 $13.250의 −5%) · 체결 가능성 약 52% · 손익분기 $12.739\n숏 지지구간 $11.500–$12.113 · 손절 $11.000 · 1차목표 $14.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 13.25,
+  "level": 1,
+  "score": 18.5,
+  "prob": 52.91666666666666,
+  "cp": 38.045994831709756,
+  "rl": 14.0,
+  "stop": 11.0,
+  "zone": [
+   11.5,
+   12.1125
+  ],
+  "bp": 12.5875,
+  "tgt": 14.0,
+  "stp": 11.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2608019001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2608019001",
+  "grade": "open"
  }
 ]
