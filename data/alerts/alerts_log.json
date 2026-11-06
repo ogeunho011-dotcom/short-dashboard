@@ -33350,5 +33350,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140403004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140403004",
   "grade": "open"
+ },
+ {
+  "id": "ANTA-1793976455",
+  "ts_kst": "2026-11-06 23:47",
+  "ts_utc": "2026-11-06T14:47:35+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "ANTA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.1% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ANTA 장중 급등 포착",
+  "body": "$2.025 (+23.1%) · 정규장 · 레벨 2 · 점수 29\n$2.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,925만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +23.1% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $1.929 지정가(20일선, 기준가 대비 -4.7%) · 체결 가능성 약 67% · 손익분기 $1.952\n숏 지지구간 $2.000–$2.025 · 손절 $1.750 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.025,
+  "level": 2,
+  "score": 29.3,
+  "prob": 28.643216080402006,
+  "cp": 8.809369229168901,
+  "rl": 2.75,
+  "stop": 1.75,
+  "zone": [
+   2.0,
+   2.0250000953674316
+  ],
+  "bp": 1.9289,
+  "tgt": 2.75,
+  "stp": 1.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250513001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250513001",
+  "grade": "open"
  }
 ]
