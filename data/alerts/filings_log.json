@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ONT",
-  "form": "8-K",
-  "acc": "0001193125-26-447197",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:05:15+00:00",
-  "accepted_kst": "11/05 06:05",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Onterris Reports Third Quarter Results, Reiterates Full-Year 2026 Guidance, Announces Completed Acquisitions, and Provides Update on Board-led Strategic Review",
-  "url": "https://www.sec.gov/Archives/edgar/data/1643615/000119312526447197/0001193125-26-447197-index.htm",
-  "seen_kst": "2026-11-06 04:21"
- },
- {
   "ticker": "OBE",
   "form": "6-K",
   "acc": "0001193125-26-449415",
@@ -8683,5 +8666,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1818093/000162828026071173/0001628280-26-071173-index.htm",
   "seen_kst": "2026-11-07 00:05"
+ },
+ {
+  "ticker": "VALN",
+  "form": "6-K",
+  "acc": "0001628280-26-071423",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T15:04:45+00:00",
+  "accepted_kst": "11/07 00:04",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Press release dated November 4, 2026 SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report",
+  "url": "https://www.sec.gov/Archives/edgar/data/1836564/000162828026071423/0001628280-26-071423-index.htm",
+  "seen_kst": "2026-11-07 00:07"
  }
 ]
