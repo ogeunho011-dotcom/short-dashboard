@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "APYX",
-  "form": "10-Q",
-  "acc": "0001437749-26-035127",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T15:51:00+00:00",
-  "accepted_kst": "11/06 00:51",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/719135/000143774926035127/0001437749-26-035127-index.htm",
-  "seen_kst": "2026-11-06 00:58"
- },
- {
-  "ticker": "DLX",
-  "form": "10-Q",
-  "acc": "0000027996-26-000135",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T15:55:11+00:00",
-  "accepted_kst": "11/06 00:55",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/27996/000002799626000135/0000027996-26-000135-index.htm",
-  "seen_kst": "2026-11-06 00:58"
- },
- {
-  "ticker": "MDWD",
-  "form": "424B5",
-  "acc": "0001178913-26-005042",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T16:23:43+00:00",
-  "accepted_kst": "11/06 01:23",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005042/0001178913-26-005042-index.htm",
-  "seen_kst": "2026-11-06 01:26"
- },
- {
   "ticker": "SEGG",
   "form": "8-K",
   "acc": "0001493152-26-050104",
@@ -8678,5 +8625,58 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000429/0001527541-26-000429-index.htm",
   "seen_kst": "2026-11-06 22:20"
+ },
+ {
+  "ticker": "TG",
+  "form": "10-Q",
+  "acc": "0001628280-26-071343",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:18:41+00:00",
+  "accepted_kst": "11/06 22:18",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/850429/000162828026071343/0001628280-26-071343-index.htm",
+  "seen_kst": "2026-11-06 22:22"
+ },
+ {
+  "ticker": "TG",
+  "form": "8-K",
+  "acc": "0001628280-26-071347",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:20:42+00:00",
+  "accepted_kst": "11/06 22:20",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", shall not be deemed “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilities of that",
+  "url": "https://www.sec.gov/Archives/edgar/data/850429/000162828026071347/0001628280-26-071347-index.htm",
+  "seen_kst": "2026-11-06 22:22"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "424B3",
+  "acc": "0001527541-26-000431",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:20:49+00:00",
+  "accepted_kst": "11/06 22:20",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000431/0001527541-26-000431-index.htm",
+  "seen_kst": "2026-11-06 22:22"
  }
 ]
