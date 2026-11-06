@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FRGT",
-  "form": "SCHEDULE 13G",
-  "acc": "0001610520-26-000120",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T17:51:35+00:00",
-  "accepted_kst": "11/06 02:51",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1687542/000161052026000120/0001610520-26-000120-index.htm",
-  "seen_kst": "2026-11-06 02:52"
- },
- {
   "ticker": "RBNE",
   "form": "SCHEDULE 13G/A",
   "acc": "0002162486-26-000002",
@@ -8681,5 +8664,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1671927/000167192726000035/0001671927-26-000035-index.htm",
   "seen_kst": "2026-11-06 23:05"
+ },
+ {
+  "ticker": "GASS",
+  "form": "6-K",
+  "acc": "0001193125-26-450866",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T14:05:10+00:00",
+  "accepted_kst": "11/06 23:05",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "STEALTHGAS INC. 331 Kifissias Avenue Kifissia 14561 Athens, Greece November 6, 2026 Dear Stockholder: You are cordially invited to attend a Special Meeting of S",
+  "url": "https://www.sec.gov/Archives/edgar/data/1328919/000119312526450866/0001193125-26-450866-index.htm",
+  "seen_kst": "2026-11-06 23:07"
  }
 ]
