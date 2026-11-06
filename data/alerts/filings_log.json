@@ -1,23 +1,6 @@
 [
  {
   "ticker": "TBI",
-  "form": "8-K",
-  "acc": "0000768899-26-000039",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:17:38+00:00",
-  "accepted_kst": "11/05 06:17",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "is a slide presentation relating to the financial results for the third quarter and fiscal year ended September 27, 2026 (the “Earnings Results Presentation”),",
-  "url": "https://www.sec.gov/Archives/edgar/data/768899/000076889926000039/0000768899-26-000039-index.htm",
-  "seen_kst": "2026-11-05 23:59"
- },
- {
-  "ticker": "TBI",
   "form": "10-Q",
   "acc": "0000768899-26-000040",
   "items": "",
@@ -8674,5 +8657,22 @@
   "headline": "Strategic Discussion Materials Andy Mutch Managing Director Financial Institutions | Investment Banking (404) 891-6820 (w) | (203) 545-9949 (c) amutch@performan",
   "url": "https://www.sec.gov/Archives/edgar/data/1070965/000110465926123603/0001104659-26-123603-index.htm",
   "seen_kst": "2026-11-06 22:02"
+ },
+ {
+  "ticker": "GBC",
+  "form": "FWP",
+  "acc": "0001104659-26-123604",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:02:20+00:00",
+  "accepted_kst": "11/06 22:02",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1070965/000110465926123604/0001104659-26-123604-index.htm",
+  "seen_kst": "2026-11-06 22:05"
  }
 ]
