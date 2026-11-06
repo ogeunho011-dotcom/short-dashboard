@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FLL",
-  "form": "8-K",
-  "acc": "0000891482-26-000048",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:08:01+00:00",
-  "accepted_kst": "11/06 06:08",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "FULL HOUSE RESORTS ANNOUNCES THIRD QUARTER RESULTS ​ - Consolidated Revenues Rose 4.9% Over the Prior-year Period, With Increases at American Place, Chamonix/Br",
-  "url": "https://www.sec.gov/Archives/edgar/data/891482/000089148226000048/0000891482-26-000048-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "XERS",
   "form": "10-Q",
   "acc": "0001867096-26-000117",
@@ -8680,5 +8663,22 @@
   "headline": "NEWS RELEASE TSX: WRN NYSE American: WRN October 26, 2026 Western Copper and Gold Announces Leadership Transition Vancouver, B.C. Western Copper and Gold Corpor",
   "url": "https://www.sec.gov/Archives/edgar/data/1364125/000106299326005799/0001062993-26-005799-index.htm",
   "seen_kst": "2026-11-07 03:40"
+ },
+ {
+  "ticker": "AIM",
+  "form": "4",
+  "acc": "0001493152-26-050412",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T18:58:42+00:00",
+  "accepted_kst": "11/07 03:58",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $3,167 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Equels Thomas K",
+  "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226050412/0001493152-26-050412-index.htm",
+  "seen_kst": "2026-11-07 03:59"
  }
 ]
