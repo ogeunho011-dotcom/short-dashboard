@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FMC",
-  "form": "4",
-  "acc": "0000037785-26-000173",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:08:45+00:00",
-  "accepted_kst": "11/06 06:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000173/0000037785-26-000173-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "LOMA",
   "form": "6-K",
   "acc": "0001711375-26-000053",
@@ -8678,5 +8661,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/41719/000004171926000055/0000041719-26-000055-index.htm",
   "seen_kst": "2026-11-07 04:40"
+ },
+ {
+  "ticker": "NVRI",
+  "form": "SCHEDULE 13G",
+  "acc": "0000312069-26-000251",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T19:49:56+00:00",
+  "accepted_kst": "11/07 04:49",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2104052/000031206926000251/0000312069-26-000251-index.htm",
+  "seen_kst": "2026-11-07 04:50"
  }
 ]
