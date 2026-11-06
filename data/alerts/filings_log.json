@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AXNX",
-  "form": "6-K",
-  "acc": "0001213900-26-116133",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:01+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Change of Authorized Shares On November 3, 2026, the Board of Directors of Axonex AI Group Limited, a British Virgin Islands business company (the “Company”), a",
-  "url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026116133/0001213900-26-116133-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
   "ticker": "BDMD",
   "form": "6-K",
   "acc": "0001104659-26-123086",
@@ -8659,5 +8642,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1788999/000178899926000024/0001788999-26-000024-index.htm",
   "seen_kst": "2026-11-06 18:04"
+ },
+ {
+  "ticker": "DTIL",
+  "form": "424B5",
+  "acc": "0001628280-26-071249",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T00:55:06+00:00",
+  "accepted_kst": "11/06 09:55",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1357874/000162828026071249/0001628280-26-071249-index.htm",
+  "seen_kst": "2026-11-06 20:04"
  }
 ]
