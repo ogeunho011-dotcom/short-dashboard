@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "VTEX",
-  "form": "4",
-  "acc": "0001193125-26-449654",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T20:39:31+00:00",
-  "accepted_kst": "11/06 05:39",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526449654/0001193125-26-449654-index.htm",
-  "seen_kst": "2026-11-06 05:41"
- },
- {
   "ticker": "SCL",
   "form": "10-Q",
   "acc": "0001193125-26-447581",
@@ -8682,5 +8665,24 @@
   "headline": "Elong Power Holding Limited Enters into Approximately $3.26 Million Warrant Inducement",
   "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050379/0001493152-26-050379-index.htm",
   "seen_kst": "2026-11-07 01:02"
+ },
+ {
+  "ticker": "ELPW",
+  "form": "424B3",
+  "acc": "0001493152-26-050381",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:05:12+00:00",
+  "accepted_kst": "11/07 01:05",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050381/0001493152-26-050381-index.htm",
+  "seen_kst": "2026-11-07 01:05"
  }
 ]
