@@ -36214,5 +36214,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2608019001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2608019001",
   "grade": "open"
+ },
+ {
+  "id": "RDGT-1793998851",
+  "ts_kst": "2026-11-07 06:00",
+  "ts_utc": "2026-11-06T21:00:51+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "RDGT",
+  "types": [
+   "spike",
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +35.3% · 거래량 평소의 31.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "5분 거래량 337k (당일 평균 15.9배)"
+  ],
+  "title": "🚀 RDGT 장중 급등 포착 · 상위 확률 신호 · 거래량 급증",
+  "body": "$1.015 (+35.3%) · 정규장 · 레벨 3 · 점수 48\n$1.10 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 89만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +35.3% · 거래량 평소의 31.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n• 5분 거래량 337k (당일 평균 15.9배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.964 지정가(기준가 $1.015의 −5%) · 체결 가능성 약 49% · 손익분기 $0.976\n숏 지지구간 $0.900–$0.950 · 손절 $0.850 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.015,
+  "level": 3,
+  "score": 48.4,
+  "prob": 53.33561781864389,
+  "cp": 26.13454497110395,
+  "rl": 1.1000000000000005,
+  "stop": 0.8500000000000002,
+  "zone": [
+   0.9000000000000002,
+   0.9500000000000003
+  ],
+  "bp": 0.9642,
+  "tgt": 1.1000000000000005,
+  "stp": 0.8500000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20091001003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20091001003",
+  "grade": "open"
  }
 ]
