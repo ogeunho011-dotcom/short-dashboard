@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CRBU",
-  "form": "10-Q",
-  "acc": "0001619856-26-000061",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:08:44+00:00",
-  "accepted_kst": "11/06 06:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1619856/000161985626000061/0001619856-26-000061-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "FMC",
   "form": "4",
   "acc": "0000037785-26-000173",
@@ -8678,5 +8661,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1835856/000182868926000019/0001828689-26-000019-index.htm",
   "seen_kst": "2026-11-07 04:30"
+ },
+ {
+  "ticker": "MAGN",
+  "form": "4",
+  "acc": "0000041719-26-000055",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T19:36:35+00:00",
+  "accepted_kst": "11/07 04:36",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/41719/000004171926000055/0000041719-26-000055-index.htm",
+  "seen_kst": "2026-11-07 04:40"
  }
 ]
