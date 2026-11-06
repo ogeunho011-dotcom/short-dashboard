@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ALLO",
-  "form": "8-K",
-  "acc": "0001628280-26-071040",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:09:05+00:00",
-  "accepted_kst": "11/06 06:09",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", is being furnished and shall not be deemed “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or",
-  "url": "https://www.sec.gov/Archives/edgar/data/1737287/000162828026071040/0001628280-26-071040-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "CSTL",
   "form": "10-Q",
   "acc": "0001628280-26-071038",
@@ -8678,5 +8661,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2095743/000119312526451650/0001193125-26-451650-index.htm",
   "seen_kst": "2026-11-07 05:01"
+ },
+ {
+  "ticker": "CNMD",
+  "form": "4",
+  "acc": "0000816956-26-000115",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:02:22+00:00",
+  "accepted_kst": "11/07 05:02",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/816956/000081695626000115/0000816956-26-000115-index.htm",
+  "seen_kst": "2026-11-07 05:03"
  }
 ]
