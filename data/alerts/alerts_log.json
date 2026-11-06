@@ -33822,5 +33822,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240418004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240418004",
   "grade": "open"
+ },
+ {
+  "id": "CLAR-1793978263",
+  "ts_kst": "2026-11-07 00:17",
+  "ts_utc": "2026-11-06T15:17:43+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "CLAR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.2% · 거래량 평소의 6.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CLAR 장중 급등 포착",
+  "body": "$5.065 (+19.2%) · 정규장 · 레벨 1 · 점수 22\n공매도 물량 대부분 손해 중, $5.10 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +19.2% · 거래량 평소의 6.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.812 지정가(기준가 $5.065의 −5%) · 체결 가능성 약 31% · 손익분기 $4.870\n숏 지지구간 $4.700–$4.828 · 손절 $4.650 · 1차목표 $5.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.065,
+  "level": 1,
+  "score": 21.9,
+  "prob": 53.41447264358267,
+  "cp": 70.62248440811057,
+  "rl": 5.100000000000001,
+  "stop": 4.650000000000001,
+  "zone": [
+   4.700000000000001,
+   4.827750020027161
+  ],
+  "bp": 4.8118,
+  "tgt": 5.100000000000001,
+  "stp": 4.650000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170814001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170814001",
+  "grade": "open"
  }
 ]
