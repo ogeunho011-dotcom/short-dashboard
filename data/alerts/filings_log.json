@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "CISS",
-  "form": "424B3",
-  "acc": "0001193125-26-448811",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:16:13+00:00",
-  "accepted_kst": "11/05 23:16",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1951067/000119312526448811/0001193125-26-448811-index.htm",
-  "seen_kst": "2026-11-05 23:19"
- },
- {
-  "ticker": "FBIZ",
-  "form": "8-K",
-  "acc": "0001193125-26-448813",
-  "items": "7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:16:52+00:00",
-  "accepted_kst": "11/05 23:16",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 fbiz-ex99_1.htm EX-99.1 NASDAQ: FBIZ Investor PresentationThird Quarter 2026 When used in this presentation, and in any other oral statements made wit",
-  "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526448813/0001193125-26-448813-index.htm",
-  "seen_kst": "2026-11-05 23:19"
- },
- {
   "ticker": "APPS",
   "form": "8-K",
   "acc": "0001628280-26-070675",
@@ -8675,5 +8639,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000042/0001704715-26-000042-index.htm",
   "seen_kst": "2026-11-06 21:35"
+ },
+ {
+  "ticker": "SRTM",
+  "form": "EFFECT",
+  "acc": "9999999995-26-003458",
+  "items": ",,",
+  "filed": "2026-11-05",
+  "accepted": "2026-11-06T05:15:06+00:00",
+  "accepted_kst": "11/06 14:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1879403/999999999526003458/9999999995-26-003458-index.htm",
+  "seen_kst": "2026-11-06 21:37"
+ },
+ {
+  "ticker": "SRTM",
+  "form": "424B3",
+  "acc": "0001213900-26-116584",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:35:55+00:00",
+  "accepted_kst": "11/06 21:35",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1879403/000121390026116584/0001213900-26-116584-index.htm",
+  "seen_kst": "2026-11-06 21:37"
  }
 ]
