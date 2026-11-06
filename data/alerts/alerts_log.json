@@ -21725,7 +21725,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713007",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.5059999835573393,
+  "graded_bars": 2
  },
  {
   "id": "STIM-1793810092",
@@ -33777,6 +33780,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210611003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210611003",
+  "grade": "open"
+ },
+ {
+  "id": "SERV-1793978119",
+  "ts_kst": "2026-11-07 00:15",
+  "ts_utc": "2026-11-06T15:15:19+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SERV",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.8% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SERV 장중 급등 포착",
+  "body": "$2.825 (+21.8%) · 정규장 · 레벨 1 · 점수 21\n$3.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +21.8% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.684 지정가(기준가 $2.825의 −5%) · 체결 가능성 약 55% · 손익분기 $2.716\n숏 지지구간 $2.250–$2.500 · 손절 $2.000 · 1차목표 $3.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.825,
+  "level": 1,
+  "score": 21.1,
+  "prob": 45.01661129568107,
+  "cp": 60.553912360402634,
+  "rl": 3.0,
+  "stop": 2.0,
+  "zone": [
+   2.25,
+   2.5
+  ],
+  "bp": 2.6838,
+  "tgt": 3.0,
+  "stp": 2.0,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240418004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240418004",
   "grade": "open"
  }
 ]
