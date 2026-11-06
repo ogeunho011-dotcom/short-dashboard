@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ALAR",
-  "form": "6-K",
-  "acc": "0001213900-26-116373",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:05:18+00:00",
-  "accepted_kst": "11/06 06:05",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "ALARUM TECHNOLOGIES Ltd. Notice of Annual General Meeting of shareholders Notice is hereby given that an annual general meeting of shareholders (the “ Meeting ”",
-  "url": "https://www.sec.gov/Archives/edgar/data/1725332/000121390026116373/0001213900-26-116373-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "SPPL",
   "form": "4",
   "acc": "0001493152-26-050229",
@@ -8688,5 +8671,22 @@
   "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders. On November 3, 2026, Cyngn Inc. (the “Company”) held its 2026 Annual Meeting of Stockholders (th",
   "url": "https://www.sec.gov/Archives/edgar/data/1874097/000121390026116748/0001213900-26-116748-index.htm",
   "seen_kst": "2026-11-07 02:31"
+ },
+ {
+  "ticker": "WSBK",
+  "form": "4",
+  "acc": "0001193125-26-451286",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T17:29:42+00:00",
+  "accepted_kst": "11/07 02:29",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451286/0001193125-26-451286-index.htm",
+  "seen_kst": "2026-11-07 02:33"
  }
 ]
