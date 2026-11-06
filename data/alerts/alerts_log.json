@@ -35439,5 +35439,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210707004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210707004",
   "grade": "open"
+ },
+ {
+  "id": "GOGO-1793989841",
+  "ts_kst": "2026-11-07 03:30",
+  "ts_utc": "2026-11-06T18:30:41+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "GOGO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +58.3% · 거래량 평소의 19.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GOGO 장중 급등 포착",
+  "body": "$3.585 (+58.3%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $3.75 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 14배 이상, 관심 급증\n• 전일 대비 +58.3% · 거래량 평소의 19.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.406 지정가(기준가 $3.585의 −5%) · 체결 가능성 약 46% · 손익분기 $3.447\n숏 지지구간 $3.000–$3.250 · 손절 $2.750 · 1차목표 $3.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.585,
+  "level": 2,
+  "score": 31.2,
+  "prob": 53.44827586206896,
+  "cp": 64.96510090285392,
+  "rl": 3.75,
+  "stop": 2.75,
+  "zone": [
+   3.0,
+   3.25
+  ],
+  "bp": 3.4058,
+  "tgt": 3.75,
+  "stp": 2.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130621001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130621001",
+  "grade": "open"
  }
 ]

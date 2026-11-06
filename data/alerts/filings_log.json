@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "AORT",
-  "form": "8-K",
-  "acc": "0001628280-26-071029",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:07:47+00:00",
-  "accepted_kst": "11/06 06:07",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Contacts: Artivion Gilmartin Group LLC Lance A. Berry Brian Johnston Executive Vice President, Phone: 332-895-3222 Chief Operating Officer & investors@artivion.",
-  "url": "https://www.sec.gov/Archives/edgar/data/784199/000162828026071029/0001628280-26-071029-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
-  "ticker": "INOD",
-  "form": "8-K",
-  "acc": "0001104659-26-123324",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:07:49+00:00",
-  "accepted_kst": "11/06 06:07",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Innodata Reports Record Third Quarter 2026 Results · Revenue Up 53% Year-Over-Year, Beats Consensus by 15% · Adjusted EBITDA of $17.7 Million, Beats Consensus b",
-  "url": "https://www.sec.gov/Archives/edgar/data/903651/000110465926123324/0001104659-26-123324-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "CSTL",
   "form": "8-K",
   "acc": "0001628280-26-071030",
@@ -8684,5 +8648,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/721994/000206986026000012/0002069860-26-000012-index.htm",
   "seen_kst": "2026-11-07 03:28"
+ },
+ {
+  "ticker": "LKFN",
+  "form": "4",
+  "acc": "0001904915-26-000012",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T18:27:31+00:00",
+  "accepted_kst": "11/07 03:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/721994/000190491526000012/0001904915-26-000012-index.htm",
+  "seen_kst": "2026-11-07 03:30"
+ },
+ {
+  "ticker": "DEFT",
+  "form": "6-K",
+  "acc": "0001279569-26-001054",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T18:28:18+00:00",
+  "accepted_kst": "11/07 03:28",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "DeFi Technologies Announces Shareholder Call to Discuss Q3 2026 Financial Results",
+  "url": "https://www.sec.gov/Archives/edgar/data/1888274/000127956926001054/0001279569-26-001054-index.htm",
+  "seen_kst": "2026-11-07 03:30"
  }
 ]
