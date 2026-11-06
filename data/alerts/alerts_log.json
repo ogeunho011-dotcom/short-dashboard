@@ -36088,5 +36088,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250321007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250321007",
   "grade": "open"
+ },
+ {
+  "id": "SPRU-1793996204",
+  "ts_kst": "2026-11-07 05:16",
+  "ts_utc": "2026-11-06T20:16:44+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SPRU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.2% · 거래량 평소의 5.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SPRU 장중 급등 포착",
+  "body": "$1.565 (+23.2%) · 정규장 · 레벨 2 · 점수 34\n$1.60 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,925만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +23.2% · 거래량 평소의 5.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.487 지정가(기준가 $1.565의 −5%) · 체결 가능성 약 44% · 손익분기 $1.505\n숏 지지구간 $1.400–$1.500 · 손절 $1.300 · 1차목표 $1.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.565,
+  "level": 2,
+  "score": 34.3,
+  "prob": 52.91666666666666,
+  "cp": 51.81869661172112,
+  "rl": 1.6000000000000005,
+  "stop": 1.3000000000000003,
+  "zone": [
+   1.4000000000000004,
+   1.5000000000000004
+  ],
+  "bp": 1.4868,
+  "tgt": 1.6000000000000005,
+  "stp": 1.3000000000000003,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201222011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201222011",
+  "grade": "open"
  }
 ]
