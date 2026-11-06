@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "SEGG",
-  "form": "8-K",
-  "acc": "0001493152-26-050104",
-  "items": "8.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T16:25:57+00:00",
-  "accepted_kst": "11/06 01:25",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 9.01 Financial Statements and Exhibits (d) Exhibits Exhibit No. Description 104 Cover Page Interactive Data File (embedded within the Inline XBRL document)",
-  "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226050104/0001493152-26-050104-index.htm",
-  "seen_kst": "2026-11-06 01:28"
- },
- {
-  "ticker": "MDWD",
-  "form": "6-K",
-  "acc": "0001178913-26-005046",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T16:27:33+00:00",
-  "accepted_kst": "11/06 01:27",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "CONTENTS On November 3, 2026, MediWound Ltd. (the “Company”) entered into an underwriting agreement (the “Underwriting Agreement”) with H.C. Wainwright & Co., L",
-  "url": "https://www.sec.gov/Archives/edgar/data/1593984/000117891326005046/0001178913-26-005046-index.htm",
-  "seen_kst": "2026-11-06 01:28"
- },
- {
   "ticker": "IBTA",
   "form": "144",
   "acc": "0001959173-26-007779",
@@ -8678,5 +8642,44 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000431/0001527541-26-000431-index.htm",
   "seen_kst": "2026-11-06 22:22"
+ },
+ {
+  "ticker": "SXTP",
+  "form": "8-K",
+  "acc": "0001213900-26-116620",
+  "items": "1.01,3.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:22:31+00:00",
+  "accepted_kst": "11/06 22:22",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 5, 2026, 60 Degrees Pharmaceuticals, Inc. (the “Company”) entered into inducement offer letter",
+  "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026116620/0001213900-26-116620-index.htm",
+  "seen_kst": "2026-11-06 22:25"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "424B3",
+  "acc": "0001527541-26-000433",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:22:53+00:00",
+  "accepted_kst": "11/06 22:22",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000433/0001527541-26-000433-index.htm",
+  "seen_kst": "2026-11-06 22:25"
  }
 ]
