@@ -32327,5 +32327,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20131105002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20131105002",
   "grade": "n/a"
+ },
+ {
+  "id": "VSA-1793968959",
+  "ts_kst": "2026-11-06 21:42",
+  "ts_utc": "2026-11-06T12:42:39+00:00",
+  "date_et": "2026-11-06",
+  "session": "pre",
+  "ticker": "VSA",
+  "types": [
+   "prob",
+   "pregap"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)",
+   "프리마켓 갭 +35.7%"
+  ],
+  "title": "🚀 VSA 상위 확률 신호 · 프리마켓 갭",
+  "body": "$2.090 (+35.7%) · 프리마켓 · 레벨 3 · 점수 44\n$2.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 62만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 검증 모델 상위 신호 (보정확률 48%)\n• 프리마켓 갭 +35.7%\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.985 지정가(기준가 $2.090의 −5%) · 체결 가능성 약 57% · 손익분기 $2.009\n숏 지지구간 $1.500–$2.000 · 손절 $1.045 · 1차목표 $2.500\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.0899,
+  "level": 3,
+  "score": 44.3,
+  "prob": 47.808764940239065,
+  "cp": 31.511661273161135,
+  "rl": 2.5,
+  "stop": 1.04495,
+  "zone": [
+   1.5,
+   2.0
+  ],
+  "bp": 1.9854,
+  "tgt": 2.5,
+  "stp": 1.04495,
+  "penalties": [
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140403004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140403004",
+  "grade": "open"
  }
 ]
