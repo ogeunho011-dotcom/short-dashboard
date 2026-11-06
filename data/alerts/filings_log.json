@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "STKE",
-  "form": "6-K",
-  "acc": "0001062993-26-005764",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:51:54+00:00",
-  "accepted_kst": "11/05 22:51",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "SOL Strategies to Participate in Upcoming November Investor and Industry Conferences Management and Houdini Swap teams available to meet at Cantor Convergence C",
-  "url": "https://www.sec.gov/Archives/edgar/data/1846839/000106299326005764/0001062993-26-005764-index.htm",
-  "seen_kst": "2026-11-05 22:54"
- },
- {
   "ticker": "PRTH",
   "form": "10-Q",
   "acc": "0001653558-26-000166",
@@ -8672,5 +8655,22 @@
   "headline": "Vogenx Reports Third Quarter 2026 Financial Results and Business Highlights Advances PBH Development Program Following August 2026 Initial Public Offering Stren",
   "url": "https://www.sec.gov/Archives/edgar/data/1903784/000118518526005214/0001185185-26-005214-index.htm",
   "seen_kst": "2026-11-06 20:50"
+ },
+ {
+  "ticker": "AIRS",
+  "form": "8-K",
+  "acc": "0001870940-26-000053",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:54:05+00:00",
+  "accepted_kst": "11/06 20:54",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "AirSculpt Technologies Reports Third Quarter Fiscal 2026 Results Completes Term Loan Refinancing, Extending Maturity to 2031",
+  "url": "https://www.sec.gov/Archives/edgar/data/1870940/000187094026000053/0001870940-26-000053-index.htm",
+  "seen_kst": "2026-11-06 20:55"
  }
 ]
