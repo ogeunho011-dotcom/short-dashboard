@@ -32370,5 +32370,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140403004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140403004",
   "grade": "open"
+ },
+ {
+  "id": "CIIT-1793970448",
+  "ts_kst": "2026-11-06 22:07",
+  "ts_utc": "2026-11-06T13:07:28+00:00",
+  "date_et": "2026-11-06",
+  "session": "pre",
+  "ticker": "CIIT",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +85.8%"
+  ],
+  "title": "🚀 CIIT 프리마켓 갭",
+  "body": "$2.880 (+85.8%) · 프리마켓 · 레벨 3 · 점수 51\n$3.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 118만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 프리마켓 갭 +85.8%\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $2.736 지정가(기준가 $2.880의 −5%) · 체결 가능성 약 55% · 손익분기 $2.769\n숏 지지구간 $2.750–$2.880 · 손절 $2.500 · 1차목표 $3.500\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.8797,
+  "level": 3,
+  "score": 50.9,
+  "prob": 38.456237077877326,
+  "cp": 44.363514468917174,
+  "rl": 3.5,
+  "stop": 2.5,
+  "zone": [
+   2.75,
+   2.8797
+  ],
+  "bp": 2.7357,
+  "tgt": 3.5,
+  "stp": 2.5,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250410002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250410002",
+  "grade": "open"
  }
 ]

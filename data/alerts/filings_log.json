@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TBI",
-  "form": "10-Q",
-  "acc": "0000768899-26-000040",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:43:59+00:00",
-  "accepted_kst": "11/05 06:43",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/768899/000076889926000040/0000768899-26-000040-index.htm",
-  "seen_kst": "2026-11-05 23:59"
- },
- {
   "ticker": "TDAY",
   "form": "10-Q",
   "acc": "0001579684-26-000058",
@@ -8674,5 +8657,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1070965/000110465926123604/0001104659-26-123604-index.htm",
   "seen_kst": "2026-11-06 22:05"
+ },
+ {
+  "ticker": "TARA",
+  "form": "8-K",
+  "acc": "0001213900-26-116607",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:05:21+00:00",
+  "accepted_kst": "11/06 22:05",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Protara Therapeutics Announces Third Quarter 2026 Financial Results and Provides a Business Update Expect to complete enrollment of the BCG-Unresponsive registr",
+  "url": "https://www.sec.gov/Archives/edgar/data/1359931/000121390026116607/0001213900-26-116607-index.htm",
+  "seen_kst": "2026-11-06 22:07"
  }
 ]
