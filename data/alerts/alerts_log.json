@@ -35884,5 +35884,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801002",
   "grade": "open"
+ },
+ {
+  "id": "OBX-1793993718",
+  "ts_kst": "2026-11-07 04:35",
+  "ts_utc": "2026-11-06T19:35:18+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "OBX",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +40.2% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 OBX 장중 급등 포착 · 상위 확률 신호",
+  "body": "$13.460 (+40.2%) · 정규장 · 레벨 3 · 점수 50\n$14.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +40.2% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $12.606 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.3%) · 체결 가능성 약 61% · 손익분기 $12.758\n숏 지지구간 $10.000–$12.000 · 손절 $9.000 · 1차목표 $14.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 13.46,
+  "level": 3,
+  "score": 49.7,
+  "prob": 53.44827586206896,
+  "cp": 63.39462902865927,
+  "rl": 14.0,
+  "stop": 9.0,
+  "zone": [
+   10.0,
+   12.0
+  ],
+  "bp": 12.6059,
+  "tgt": 14.0,
+  "stp": 9.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608004004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608004004",
+  "grade": "open"
+ },
+ {
+  "id": "HPAI-1793993718",
+  "ts_kst": "2026-11-07 04:35",
+  "ts_utc": "2026-11-06T19:35:18+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "HPAI",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 62k (당일 평균 7.5배)"
+  ],
+  "title": "🚀 HPAI 거래량 급증",
+  "body": "$0.367 (+30.5%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $0.400 넘으면 급등 가능성 ↑ · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 5분 거래량 62k (당일 평균 7.5배)\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $0.348 지정가(기준가 $0.367의 −5%) · 체결 가능성 약 69% · 손익분기 $0.353\n숏 지지구간 $0.360–$0.367 · 손절 $0.340 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3668,
+  "level": 3,
+  "score": 43.7,
+  "prob": 39.05419381583304,
+  "cp": 44.86771074525691,
+  "rl": 0.3999999999999999,
+  "stop": 0.3399999999999999,
+  "zone": [
+   0.35999999999999993,
+   0.3668000102043152
+  ],
+  "bp": 0.3485,
+  "tgt": 0.3999999999999999,
+  "stp": 0.3399999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211206010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211206010",
+  "grade": "open"
  }
 ]
