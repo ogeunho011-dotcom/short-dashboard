@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "CSTL",
-  "form": "10-Q",
-  "acc": "0001628280-26-071038",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:09:33+00:00",
-  "accepted_kst": "11/06 06:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1447362/000162828026071038/0001628280-26-071038-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
-  "ticker": "LOCO",
-  "form": "8-K",
-  "acc": "0001606366-26-000058",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:09:35+00:00",
-  "accepted_kst": "11/06 06:09",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "El Pollo Loco Holdings, Inc. Announces Third Quarter 2026 Financial Results ​ Expects to Open 25-30 New Restaurants in 2027",
-  "url": "https://www.sec.gov/Archives/edgar/data/1606366/000160636626000058/0001606366-26-000058-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "MOBI",
   "form": "8-K",
   "acc": "0001193125-26-449807",
@@ -8678,5 +8644,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/816956/000081695626000115/0000816956-26-000115-index.htm",
   "seen_kst": "2026-11-07 05:03"
+ },
+ {
+  "ticker": "CVV",
+  "form": "4",
+  "acc": "0000766792-26-000005",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:09:02+00:00",
+  "accepted_kst": "11/07 05:09",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000005/0000766792-26-000005-index.htm",
+  "seen_kst": "2026-11-07 05:11"
+ },
+ {
+  "ticker": "NTCL",
+  "form": "424B5",
+  "acc": "0001104659-26-123819",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:09:20+00:00",
+  "accepted_kst": "11/07 05:09",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1927578/000110465926123819/0001104659-26-123819-index.htm",
+  "seen_kst": "2026-11-07 05:11"
  }
 ]
