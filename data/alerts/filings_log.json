@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "AGNT",
-  "form": "8-K",
-  "acc": "0001104659-26-123299",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T20:59:07+00:00",
-  "accepted_kst": "11/06 05:59",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "AGNT, Inc. Reports Q3 2026 Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1495932/000110465926123299/0001104659-26-123299-index.htm",
-  "seen_kst": "2026-11-06 06:01"
- },
- {
-  "ticker": "BRBI",
-  "form": "6-K",
-  "acc": "0001213900-26-116358",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:00:15+00:00",
-  "accepted_kst": "11/06 06:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "BRBI BR PARTNERS S.A. Publicly Held Company with Authorized Share Capital CNPJ/MF nº 10.739.356/0001-03 | NIRE 35.300.366.727 Notice to Shareholders Interim Div",
-  "url": "https://www.sec.gov/Archives/edgar/data/2058601/000121390026116358/0001213900-26-116358-index.htm",
-  "seen_kst": "2026-11-06 06:01"
- },
- {
   "ticker": "CCSI",
   "form": "8-K",
   "acc": "0001866633-26-000021",
@@ -8684,5 +8650,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/705432/000152600326000005/0001526003-26-000005-index.htm",
   "seen_kst": "2026-11-07 01:08"
+ },
+ {
+  "ticker": "ELPW",
+  "form": "424B3",
+  "acc": "0001493152-26-050382",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:10:14+00:00",
+  "accepted_kst": "11/07 01:10",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050382/0001493152-26-050382-index.htm",
+  "seen_kst": "2026-11-07 01:13"
+ },
+ {
+  "ticker": "WSBK",
+  "form": "4",
+  "acc": "0001193125-26-451122",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:12:22+00:00",
+  "accepted_kst": "11/07 01:12",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451122/0001193125-26-451122-index.htm",
+  "seen_kst": "2026-11-07 01:13"
  }
 ]
