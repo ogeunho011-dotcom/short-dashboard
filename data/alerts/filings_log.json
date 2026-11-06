@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "PASW",
-  "form": "6-K",
-  "acc": "0001213900-26-116144",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:45:01+00:00",
-  "accepted_kst": "11/05 22:45",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Ping An Biomedical Enters into Patent Purchase Agreement with Future Biotechnology Group for Tumor Cell Technologies The patent acquisition is intended to suppo",
-  "url": "https://www.sec.gov/Archives/edgar/data/1897532/000121390026116144/0001213900-26-116144-index.htm",
-  "seen_kst": "2026-11-05 22:48"
- },
- {
-  "ticker": "DWTX",
-  "form": "8-K",
-  "acc": "0001104659-26-123095",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:45:17+00:00",
-  "accepted_kst": "11/05 22:45",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Dogwood Therapeutics Announces Third Quarter 2026 Financial Results - Completed the Halneuron ® Phase 2b trial in Chemotherapy Induced Neuropathy, top-line resu",
-  "url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926123095/0001104659-26-123095-index.htm",
-  "seen_kst": "2026-11-05 22:48"
- },
- {
   "ticker": "NTRP",
   "form": "8-K",
   "acc": "0001493152-26-050073",
@@ -8668,5 +8632,41 @@
   "headline": "provides a copy of the slides that may be used in connection with and/or referenced in such meetings. The information set forth under this Item 7.01 is being fu",
   "url": "https://www.sec.gov/Archives/edgar/data/43196/000143774926035400/0001437749-26-035400-index.htm",
   "seen_kst": "2026-11-06 20:37"
+ },
+ {
+  "ticker": "PSQH",
+  "form": "10-Q",
+  "acc": "0001847064-26-000020",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:36:45+00:00",
+  "accepted_kst": "11/06 20:36",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1847064/000184706426000020/0001847064-26-000020-index.htm",
+  "seen_kst": "2026-11-06 20:40"
+ },
+ {
+  "ticker": "BEEM",
+  "form": "8-K",
+  "acc": "0001437749-26-035401",
+  "items": "1.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:38:10+00:00",
+  "accepted_kst": "11/06 20:38",
+  "polarity": "neg",
+  "label": "중요 계약 해지(항목 1.02)",
+  "cats": [],
+  "negs": [
+   "중요 계약 해지(항목 1.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.02 Termination of a Material Definitive Agreement. As previously disclosed in the Current Report on Form 8-K filed by Beam Global (the “Company”) with th",
+  "url": "https://www.sec.gov/Archives/edgar/data/1398805/000143774926035401/0001437749-26-035401-index.htm",
+  "seen_kst": "2026-11-06 20:40"
  }
 ]
