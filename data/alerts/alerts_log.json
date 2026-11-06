@@ -34986,5 +34986,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210611003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210611003",
   "grade": "open"
+ },
+ {
+  "id": "SERV-1793985335",
+  "ts_kst": "2026-11-07 02:15",
+  "ts_utc": "2026-11-06T17:15:35+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SERV",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.5% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SERV 장중 급등 포착",
+  "body": "$3.005 (+29.5%) · 정규장 · 레벨 2 · 점수 32\n$3.50 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +29.5% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.855 지정가(기준가 $3.005의 −5%) · 체결 가능성 약 56% · 손익분기 $2.889\n숏 지지구간 $3.000–$3.005 · 손절 $2.750 · 1차목표 $3.500\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.005,
+  "level": 2,
+  "score": 31.6,
+  "prob": 52.91666666666666,
+  "cp": 39.016917543379556,
+  "rl": 3.5,
+  "stop": 2.75,
+  "zone": [
+   3.0,
+   3.005000114440918
+  ],
+  "bp": 2.8548,
+  "tgt": 3.5,
+  "stp": 2.75,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240418004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240418004",
+  "grade": "open"
  }
 ]
