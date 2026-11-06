@@ -1,44 +1,5 @@
 [
  {
-  "ticker": "SERV",
-  "form": "8-K",
-  "acc": "0001832483-26-000048",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:10:07+00:00",
-  "accepted_kst": "11/06 06:10",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Serve Robotics Announces Third Quarter 2026 Results • Delivered over 300% revenue growth in Q3 year over year and raised full year revenue guidance for 2026 to ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000048/0001832483-26-000048-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
-  "ticker": "NEXR",
-  "form": "6-K",
-  "acc": "0001213900-26-116380",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:10:11+00:00",
-  "accepted_kst": "11/06 06:10",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Nexera Technologies: Subsidiary Fort Technology Announces Receipt of Approval for a Voluntary Delisting of its Common Shares From the TSX Venture Exchange Tel A",
-  "url": "https://www.sec.gov/Archives/edgar/data/1885408/000121390026116380/0001213900-26-116380-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "IPSC",
   "form": "4",
   "acc": "0001867173-26-000022",
@@ -8680,5 +8641,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1275168/000162828026071595/0001628280-26-071595-index.htm",
   "seen_kst": "2026-11-07 05:29"
+ },
+ {
+  "ticker": "FSBC",
+  "form": "4",
+  "acc": "0001628280-26-071599",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:28:53+00:00",
+  "accepted_kst": "11/07 05:28",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1275168/000162828026071599/0001628280-26-071599-index.htm",
+  "seen_kst": "2026-11-07 05:32"
+ },
+ {
+  "ticker": "CVV",
+  "form": "4",
+  "acc": "0000766792-26-000008",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:31:00+00:00",
+  "accepted_kst": "11/07 05:31",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000008/0000766792-26-000008-index.htm",
+  "seen_kst": "2026-11-07 05:32"
  }
 ]
