@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BDSX",
-  "form": "8-K",
-  "acc": "0001193125-26-449792",
-  "items": "5.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:08:14+00:00",
-  "accepted_kst": "11/06 06:08",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
-  "url": "https://www.sec.gov/Archives/edgar/data/1439725/000119312526449792/0001193125-26-449792-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "EVCM",
   "form": "8-K",
   "acc": "0001853145-26-000044",
@@ -8680,5 +8663,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1993400/000149315226050417/0001493152-26-050417-index.htm",
   "seen_kst": "2026-11-07 04:06"
+ },
+ {
+  "ticker": "CLMB",
+  "form": "4",
+  "acc": "0001437749-26-035492",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T19:20:28+00:00",
+  "accepted_kst": "11/07 04:20",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/945983/000143774926035492/0001437749-26-035492-index.htm",
+  "seen_kst": "2026-11-07 04:22"
  }
 ]
