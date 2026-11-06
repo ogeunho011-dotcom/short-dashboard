@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "BCBP",
-  "form": "4",
-  "acc": "0001193125-26-448980",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T15:41:44+00:00",
-  "accepted_kst": "11/06 00:41",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $502 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Gallotta Steven E.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1228454/000119312526448980/0001193125-26-448980-index.htm",
-  "seen_kst": "2026-11-06 00:45"
- },
- {
-  "ticker": "DLX",
-  "form": "8-K",
-  "acc": "0000027996-26-000132",
-  "items": "2.02,9.01",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-04T21:03:15+00:00",
-  "accepted_kst": "11/05 06:03",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Contact: Brian Anderson, VP, Strategy & Investor Relations Keith Negrin, VP, Communications 651-447-4197 612-669-1459 brian.anderson@deluxe.com keith.negrin@del",
-  "url": "https://www.sec.gov/Archives/edgar/data/27996/000002799626000132/0000027996-26-000132-index.htm",
-  "seen_kst": "2026-11-06 00:48"
- },
- {
   "ticker": "ARRY",
   "form": "SCHEDULE 13G/A",
   "acc": "0001535929-26-000190",
@@ -8673,5 +8639,42 @@
   "headline": "and is furnished herewith. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. 99.1 Press Release announcing third quarter earnings, dated November 6, 20",
   "url": "https://www.sec.gov/Archives/edgar/data/1315257/000131525726000056/0001315257-26-000056-index.htm",
   "seen_kst": "2026-11-06 22:15"
+ },
+ {
+  "ticker": "PMN",
+  "form": "4",
+  "acc": "0001374339-26-000011",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:15:25+00:00",
+  "accepted_kst": "11/06 22:15",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $90,895 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Williams Eugene",
+  "url": "https://www.sec.gov/Archives/edgar/data/1374339/000137433926000011/0001374339-26-000011-index.htm",
+  "seen_kst": "2026-11-06 22:17"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "8-K",
+  "acc": "0001527541-26-000427",
+  "items": "3.03,8.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:16:35+00:00",
+  "accepted_kst": "11/06 22:16",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "Item 3.03. Material Modification to Rights of Security Holders Conversion Price of 7.00% Subordinated Convertible Notes due 2031 Item 8.01 of this Current Repor",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000427/0001527541-26-000427-index.htm",
+  "seen_kst": "2026-11-06 22:17"
  }
 ]
