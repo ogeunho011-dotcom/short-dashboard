@@ -35400,5 +35400,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070525001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070525001",
   "grade": "open"
+ },
+ {
+  "id": "PSQH-1793989689",
+  "ts_kst": "2026-11-07 03:28",
+  "ts_utc": "2026-11-06T18:28:09+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "PSQH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.0% · 거래량 평소의 72.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PSQH 장중 급등 포착",
+  "body": "$1.980 (+20.0%) · 정규장 · 레벨 4 · 점수 57\n$2.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 337만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +20.0% · 거래량 평소의 72.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.881 지정가(기준가 $1.980의 −5%) · 체결 가능성 약 75% · 손익분기 $1.904\n숏 지지구간 $1.750–$1.980 · 손절 $1.625 · 1차목표 $2.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.98,
+  "level": 4,
+  "score": 57.0,
+  "prob": 45.01661129568107,
+  "cp": 41.027142430889306,
+  "rl": 2.5,
+  "stop": 1.625,
+  "zone": [
+   1.75,
+   1.9800000190734863
+  ],
+  "bp": 1.881,
+  "tgt": 2.5,
+  "stp": 1.625,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210707004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210707004",
+  "grade": "open"
  }
 ]
