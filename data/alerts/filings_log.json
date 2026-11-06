@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LSPD",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0000318989-26-000186",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T18:35:47+00:00",
-  "accepted_kst": "11/06 03:35",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1823306/000031898926000186/0000318989-26-000186-index.htm",
-  "seen_kst": "2026-11-06 03:37"
- },
- {
   "ticker": "LMB",
   "form": "SCHEDULE 13G/A",
   "acc": "0000315066-26-002772",
@@ -8681,5 +8664,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1526520/000152652026000175/0001526520-26-000175-index.htm",
   "seen_kst": "2026-11-06 23:25"
+ },
+ {
+  "ticker": "GAUZ",
+  "form": "6-K",
+  "acc": "0001213900-26-116652",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T14:26:28+00:00",
+  "accepted_kst": "11/06 23:26",
+  "polarity": "pos",
+  "label": "상장 유지 기준 회복",
+  "cats": [
+   "상장 유지 기준 회복"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "CONTENTS On November 4, 2026, the Nasdaq Hearings Panel notified Gauzy Ltd. (the “Company”) that it determined to grant the Company’s request to continue its li",
+  "url": "https://www.sec.gov/Archives/edgar/data/1781446/000121390026116652/0001213900-26-116652-index.htm",
+  "seen_kst": "2026-11-06 23:27"
  }
 ]
