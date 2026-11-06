@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ARRY",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0001535929-26-000190",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T15:47:42+00:00",
-  "accepted_kst": "11/06 00:47",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1820721/000153592926000190/0001535929-26-000190-index.htm",
-  "seen_kst": "2026-11-06 00:58"
- },
- {
   "ticker": "APYX",
   "form": "10-Q",
   "acc": "0001437749-26-035127",
@@ -8676,5 +8659,24 @@
   "headline": "Item 3.03. Material Modification to Rights of Security Holders Conversion Price of 7.00% Subordinated Convertible Notes due 2031 Item 8.01 of this Current Repor",
   "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000427/0001527541-26-000427-index.htm",
   "seen_kst": "2026-11-06 22:17"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "424B3",
+  "acc": "0001527541-26-000429",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:18:45+00:00",
+  "accepted_kst": "11/06 22:18",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000429/0001527541-26-000429-index.htm",
+  "seen_kst": "2026-11-06 22:20"
  }
 ]
