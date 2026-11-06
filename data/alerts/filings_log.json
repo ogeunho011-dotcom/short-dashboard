@@ -1,94 +1,5 @@
 [
  {
-  "ticker": "CRTO",
-  "form": "DEFM14A",
-  "acc": "0001628280-26-070665",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:09:10+00:00",
-  "accepted_kst": "11/05 23:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1576427/000162828026070665/0001628280-26-070665-index.htm",
-  "seen_kst": "2026-11-05 23:12"
- },
- {
-  "ticker": "CRTO",
-  "form": "425",
-  "acc": "0001628280-26-070669",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:09:52+00:00",
-  "accepted_kst": "11/05 23:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1576427/000162828026070669/0001628280-26-070669-index.htm",
-  "seen_kst": "2026-11-05 23:12"
- },
- {
-  "ticker": "CLDT",
-  "form": "8-K",
-  "acc": "0001437749-26-035103",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:11:21+00:00",
-  "accepted_kst": "11/05 23:11",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", shall not be deemed \"filed\" for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilities of that",
-  "url": "https://www.sec.gov/Archives/edgar/data/1476045/000143774926035103/0001437749-26-035103-index.htm",
-  "seen_kst": "2026-11-05 23:12"
- },
- {
-  "ticker": "AIIR",
-  "form": "424B3",
-  "acc": "0001193125-26-448803",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:13:40+00:00",
-  "accepted_kst": "11/05 23:13",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2097725/000119312526448803/0001193125-26-448803-index.htm",
-  "seen_kst": "2026-11-05 23:16"
- },
- {
-  "ticker": "CISS",
-  "form": "6-K",
-  "acc": "0001193125-26-448806",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:14:06+00:00",
-  "accepted_kst": "11/05 23:14",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "C3IS INC. ANNOUNCES REVERSE STOCK SPLIT To be effective November 9, 2026 Aiming to meet the minimum bid price requirement for maintaining listing on Nasdaq",
-  "url": "https://www.sec.gov/Archives/edgar/data/1951067/000119312526448806/0001193125-26-448806-index.htm",
-  "seen_kst": "2026-11-05 23:16"
- },
- {
   "ticker": "AIM",
   "form": "8-K",
   "acc": "0001493152-26-050093",
@@ -8673,5 +8584,100 @@
   "headline": "Item 2.02. Results of Operations and Financial Condition. The following information, including the exhibit attached hereto, is intended to be furnished and shal",
   "url": "https://www.sec.gov/Archives/edgar/data/898437/000117184326007211/0001171843-26-007211-index.htm",
   "seen_kst": "2026-11-06 21:22"
+ },
+ {
+  "ticker": "AXG",
+  "form": "6-K",
+  "acc": "0001213900-26-116488",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-05T23:00:17+00:00",
+  "accepted_kst": "11/06 08:00",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Entry into a Material Definitive Agreement On November 5, 2026, SOLOWIN HOLDINGS, an exempted company incorporated in the Cayman Islands (the “Company”), entere",
+  "url": "https://www.sec.gov/Archives/edgar/data/1959224/000121390026116488/0001213900-26-116488-index.htm",
+  "seen_kst": "2026-11-06 21:25"
+ },
+ {
+  "ticker": "AXG",
+  "form": "6-K",
+  "acc": "0001213900-26-116489",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-05T23:01:48+00:00",
+  "accepted_kst": "11/06 08:01",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Explanatory Note Registered Direct Offering On November 5, 2026, Solowin Holdings (the “ Company ”), an exempted company incorporated in the Cayman Islands, ent",
+  "url": "https://www.sec.gov/Archives/edgar/data/1959224/000121390026116489/0001213900-26-116489-index.htm",
+  "seen_kst": "2026-11-06 21:25"
+ },
+ {
+  "ticker": "AXG",
+  "form": "424B5",
+  "acc": "0001213900-26-116579",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:22:59+00:00",
+  "accepted_kst": "11/06 21:22",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1959224/000121390026116579/0001213900-26-116579-index.htm",
+  "seen_kst": "2026-11-06 21:25"
+ },
+ {
+  "ticker": "SLVM",
+  "form": "8-K",
+  "acc": "0001856485-26-000041",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:23:08+00:00",
+  "accepted_kst": "11/06 21:23",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "NEWS RELEASE Sylvamo Releases Third Quarter Earnings",
+  "url": "https://www.sec.gov/Archives/edgar/data/1856485/000185648526000041/0001856485-26-000041-index.htm",
+  "seen_kst": "2026-11-06 21:25"
+ },
+ {
+  "ticker": "LU",
+  "form": "6-K",
+  "acc": "0001193125-26-450743",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:23:15+00:00",
+  "accepted_kst": "11/06 21:23",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no repre",
+  "url": "https://www.sec.gov/Archives/edgar/data/1816007/000119312526450743/0001193125-26-450743-index.htm",
+  "seen_kst": "2026-11-06 21:25"
  }
 ]
