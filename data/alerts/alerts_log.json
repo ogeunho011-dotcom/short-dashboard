@@ -34356,5 +34356,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070501002",
   "grade": "open"
+ },
+ {
+  "id": "ZVIA-1793980333",
+  "ts_kst": "2026-11-07 00:52",
+  "ts_utc": "2026-11-06T15:52:13+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "ZVIA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZVIA 장중 급등 포착",
+  "body": "$1.570 (+15.4%) · 정규장 · 레벨 1 · 점수 14\n공매도 물량 대부분 손해 중, $1.80 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +15.4% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.492 지정가(기준가 $1.570의 −5%) · 체결 가능성 약 38% · 손익분기 $1.510\n숏 지지구간 $1.500–$1.550 · 손절 $1.450 · 1차목표 $1.800\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.57,
+  "level": 1,
+  "score": 14.5,
+  "prob": 52.91666666666666,
+  "cp": 45.9810737592894,
+  "rl": 1.8000000000000007,
+  "stop": 1.4500000000000004,
+  "zone": [
+   1.5000000000000004,
+   1.5500000000000005
+  ],
+  "bp": 1.4915,
+  "tgt": 1.8000000000000007,
+  "stp": 1.4500000000000004,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210720015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210720015",
+  "grade": "open"
+ },
+ {
+  "id": "PLUT-1793980333",
+  "ts_kst": "2026-11-07 00:52",
+  "ts_utc": "2026-11-06T15:52:13+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "PLUT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.0% · 거래량 평소의 31.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PLUT 장중 급등 포착",
+  "body": "$1.525 (+24.0%) · 정규장 · 레벨 1 · 점수 22\n$1.60 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,535만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +24.0% · 거래량 평소의 31.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $1.428 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.3%) · 체결 가능성 약 74% · 손익분기 $1.445\n숏 지지구간 $1.400–$1.500 · 손절 $1.300 · 1차목표 $1.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.525,
+  "level": 1,
+  "score": 22.5,
+  "prob": 28.643216080402006,
+  "cp": 28.322738511181928,
+  "rl": 1.6000000000000005,
+  "stop": 1.3000000000000003,
+  "zone": [
+   1.4000000000000004,
+   1.5000000000000004
+  ],
+  "bp": 1.4282,
+  "tgt": 1.6000000000000005,
+  "stp": 1.3000000000000003,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250205006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250205006",
+  "grade": "open"
  }
 ]
