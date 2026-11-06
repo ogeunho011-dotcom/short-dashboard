@@ -35599,5 +35599,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210416003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210416003",
   "grade": "open"
+ },
+ {
+  "id": "ZVIA-1793991090",
+  "ts_kst": "2026-11-07 03:51",
+  "ts_utc": "2026-11-06T18:51:30+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "ZVIA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZVIA 장중 급등 포착",
+  "body": "$1.570 (+15.4%) · 정규장 · 레벨 1 · 점수 22\n공매도 물량 대부분 손해 중, $1.80 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +15.4% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $1.550–$1.570 · 손절 $1.500 · 1차목표 $1.800\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.57,
+  "level": 1,
+  "score": 21.7,
+  "prob": 53.44827586206896,
+  "cp": 45.14882263326463,
+  "rl": 1.8000000000000007,
+  "stop": 1.5000000000000004,
+  "zone": [
+   1.5500000000000005,
+   1.5700000524520874
+  ],
+  "bp": null,
+  "tgt": 1.8000000000000007,
+  "stp": 1.5000000000000004,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210720015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210720015",
+  "grade": "open"
  }
 ]
