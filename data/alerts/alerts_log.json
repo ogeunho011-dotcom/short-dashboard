@@ -34905,5 +34905,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
   "grade": "open"
+ },
+ {
+  "id": "SKIN-1793985027",
+  "ts_kst": "2026-11-07 02:10",
+  "ts_utc": "2026-11-06T17:10:27+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SKIN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +38.5% · 거래량 평소의 13.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SKIN 장중 급등 포착",
+  "body": "$14.330 (+38.5%) · 정규장 · 레벨 2 · 점수 27\n$15.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +38.5% · 거래량 평소의 13.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $13.613 지정가(기준가 $14.330의 −5%) · 체결 가능성 약 48% · 손익분기 $13.778\n숏 지지구간 $12.000–$13.000 · 손절 $11.000 · 1차목표 $15.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-14\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 14.33,
+  "level": 2,
+  "score": 26.6,
+  "prob": 52.91666666666666,
+  "cp": 40.80229123348871,
+  "rl": 15.0,
+  "stop": 11.0,
+  "zone": [
+   12.0,
+   13.0
+  ],
+  "bp": 13.6135,
+  "tgt": 15.0,
+  "stp": 11.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-14"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210506004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210506004",
+  "grade": "open"
  }
 ]
