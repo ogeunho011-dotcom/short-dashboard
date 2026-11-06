@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "SOUN",
-  "form": "8-K",
-  "acc": "0001840856-26-000025",
-  "items": "2.02,2.05,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:04:36+00:00",
-  "accepted_kst": "11/06 06:04",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "EX-99.1 2 soun-20261105ex991earnings.htm EX-99.1 SoundHound AI Reports Record Q3 Revenue and Guides to Sustained Adjusted EBITDA Profitability within 2H 2027 SA",
-  "url": "https://www.sec.gov/Archives/edgar/data/1840856/000184085626000025/0001840856-26-000025-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "ALAR",
   "form": "6-K",
   "acc": "0001213900-26-116373",
@@ -8688,5 +8669,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1056943/000119248226000501/0001192482-26-000501-index.htm",
   "seen_kst": "2026-11-07 02:28"
+ },
+ {
+  "ticker": "CYN",
+  "form": "8-K",
+  "acc": "0001213900-26-116748",
+  "items": "5.07",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T17:30:19+00:00",
+  "accepted_kst": "11/07 02:30",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders. On November 3, 2026, Cyngn Inc. (the “Company”) held its 2026 Annual Meeting of Stockholders (th",
+  "url": "https://www.sec.gov/Archives/edgar/data/1874097/000121390026116748/0001213900-26-116748-index.htm",
+  "seen_kst": "2026-11-07 02:31"
  }
 ]
