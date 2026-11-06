@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IPSC",
-  "form": "4",
-  "acc": "0001867173-26-000022",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:10:12+00:00",
-  "accepted_kst": "11/06 06:10",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1850119/000186717326000022/0001867173-26-000022-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "RCEL",
   "form": "8-K",
   "acc": "0001193125-26-449815",
@@ -8675,5 +8658,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000008/0000766792-26-000008-index.htm",
   "seen_kst": "2026-11-07 05:32"
+ },
+ {
+  "ticker": "MAGN",
+  "form": "4",
+  "acc": "0000041719-26-000058",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T20:41:55+00:00",
+  "accepted_kst": "11/07 05:41",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/41719/000004171926000058/0000041719-26-000058-index.htm",
+  "seen_kst": "2026-11-07 05:42"
  }
 ]
