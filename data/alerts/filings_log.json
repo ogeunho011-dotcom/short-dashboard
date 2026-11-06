@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "PLTK",
-  "form": "10-Q",
-  "acc": "0001828016-26-000056",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:37:28+00:00",
-  "accepted_kst": "11/05 22:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1828016/000182801626000056/0001828016-26-000056-index.htm",
-  "seen_kst": "2026-11-05 22:38"
- },
- {
-  "ticker": "LOCL",
-  "form": "8-K",
-  "acc": "0001628280-26-070640",
-  "items": "8.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:37:58+00:00",
-  "accepted_kst": "11/05 22:37",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Item 8.01 Other Events. As previously disclosed, on February 5, 2026, Local Bounti Corporation (the “Company”) received a written notice (the “Original Notice”)",
-  "url": "https://www.sec.gov/Archives/edgar/data/1840780/000162828026070640/0001628280-26-070640-index.htm",
-  "seen_kst": "2026-11-05 22:38"
- },
- {
   "ticker": "COFS",
   "form": "8-K",
   "acc": "0001193125-26-448731",
@@ -8670,5 +8634,39 @@
   "headline": "to this Form 8-K and incorporated herein by reference. The information set forth under this Item 2.02 is being furnished and shall not be deemed “filed” for pur",
   "url": "https://www.sec.gov/Archives/edgar/data/43196/000143774926035398/0001437749-26-035398-index.htm",
   "seen_kst": "2026-11-06 20:32"
+ },
+ {
+  "ticker": "BLMN",
+  "form": "8-K",
+  "acc": "0001546417-26-000043",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:31:38+00:00",
+  "accepted_kst": "11/06 20:31",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Tara Kurian SVP, IR, FP&A, and International (813) 830-5311 Bloomin’ Brands Announces 2026 Q3 Financial Results Q3 Diluted EPS of $(0.02) and Q3 Adjusted Dilute",
+  "url": "https://www.sec.gov/Archives/edgar/data/1546417/000154641726000043/0001546417-26-000043-index.htm",
+  "seen_kst": "2026-11-06 20:35"
+ },
+ {
+  "ticker": "JBGS",
+  "form": "10-Q",
+  "acc": "0001104659-26-123567",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:32:03+00:00",
+  "accepted_kst": "11/06 20:32",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1689796/000110465926123567/0001104659-26-123567-index.htm",
+  "seen_kst": "2026-11-06 20:35"
  }
 ]
