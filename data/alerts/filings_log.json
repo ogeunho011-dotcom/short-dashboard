@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SCSC",
-  "form": "8-K",
-  "acc": "0000918965-26-000052",
-  "items": "2.02,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T13:30:57+00:00",
-  "accepted_kst": "11/05 22:30",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "FOR IMMEDIATE RELEASE Contact: Steve Jones Mary M. Gentry Senior EVP, Chief Financial Officer SVP, Finance and Treasurer ScanSource, Inc. ScanSource, Inc. (864)",
-  "url": "https://www.sec.gov/Archives/edgar/data/918965/000091896526000052/0000918965-26-000052-index.htm",
-  "seen_kst": "2026-11-05 22:32"
- },
- {
   "ticker": "MKTW",
   "form": "8-K",
   "acc": "0001628280-26-070636",
@@ -8670,5 +8653,24 @@
   "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. 20",
   "url": "https://www.sec.gov/Archives/edgar/data/1787297/000114036126042222/0001140361-26-042222-index.htm",
   "seen_kst": "2026-11-06 20:12"
+ },
+ {
+  "ticker": "VSA",
+  "form": "6-K",
+  "acc": "0001213900-26-116549",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T11:10:30+00:00",
+  "accepted_kst": "11/06 20:10",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Closing of Private Placement As previously disclosed on the Company’s Form 6-K filed with the Securities and Exchange Commission on July 10, 2026, VisionSys AI",
+  "url": "https://www.sec.gov/Archives/edgar/data/1592560/000121390026116549/0001213900-26-116549-index.htm",
+  "seen_kst": "2026-11-06 20:15"
  }
 ]
