@@ -2,23 +2,6 @@
  {
   "ticker": "BCBP",
   "form": "4",
-  "acc": "0001193125-26-448969",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T15:37:13+00:00",
-  "accepted_kst": "11/06 00:37",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $501 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Kim Denny",
-  "url": "https://www.sec.gov/Archives/edgar/data/1228454/000119312526448969/0001193125-26-448969-index.htm",
-  "seen_kst": "2026-11-06 00:38"
- },
- {
-  "ticker": "BCBP",
-  "form": "4",
   "acc": "0001193125-26-448980",
   "items": "",
   "filed": "2026-11-05",
@@ -8673,5 +8656,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1359931/000121390026116612/0001213900-26-116612-index.htm",
   "seen_kst": "2026-11-06 22:12"
+ },
+ {
+  "ticker": "KOP",
+  "form": "8-K",
+  "acc": "0001315257-26-000056",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T13:13:32+00:00",
+  "accepted_kst": "11/06 22:13",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "and is furnished herewith. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. 99.1 Press Release announcing third quarter earnings, dated November 6, 20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315257/000131525726000056/0001315257-26-000056-index.htm",
+  "seen_kst": "2026-11-06 22:15"
  }
 ]
