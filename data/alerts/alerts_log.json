@@ -20682,10 +20682,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20111117001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20111117001",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.006167823898208696,
+  "graded_bars": 2
  },
  {
   "id": "FLNC-1793804707",
@@ -33520,6 +33520,87 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
+  "grade": "open"
+ },
+ {
+  "id": "SKIN-1793977217",
+  "ts_kst": "2026-11-07 00:00",
+  "ts_utc": "2026-11-06T15:00:17+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SKIN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.6% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SKIN 장중 급등 포착",
+  "body": "$12.790 (+23.6%) · 정규장 · 레벨 1 · 점수 15\n$14.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +23.6% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $12.350 지정가(60일선, 기준가 대비 -3.4%) · 체결 가능성 약 63% · 손익분기 $12.499\n숏 지지구간 $10.000–$11.000 · 손절 $9.500 · 1차목표 $14.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-14\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.79,
+  "level": 1,
+  "score": 15.3,
+  "prob": 45.01661129568107,
+  "cp": 36.44166530632978,
+  "rl": 14.0,
+  "stop": 9.5,
+  "zone": [
+   10.0,
+   11.0
+  ],
+  "bp": 12.3499,
+  "tgt": 14.0,
+  "stp": 9.5,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-14"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210506004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210506004",
+  "grade": "open"
+ },
+ {
+  "id": "SLVM-1793977217",
+  "ts_kst": "2026-11-07 00:00",
+  "ts_utc": "2026-11-06T15:00:17+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SLVM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SLVM 장중 급등 포착",
+  "body": "$39.190 (+18.5%) · 정규장 · 레벨 1 · 점수 23\n공매도 물량 대부분 손해 중, $41.00 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +18.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $37.230 지정가(기준가 $39.190의 −5%) · 체결 가능성 약 27% · 손익분기 $37.680\n숏 지지구간 $34.000–$35.816 · 손절 $33.500 · 1차목표 $41.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 39.19,
+  "level": 1,
+  "score": 22.6,
+  "prob": 53.44827586206896,
+  "cp": 67.63891675288392,
+  "rl": 41.0,
+  "stop": 33.5,
+  "zone": [
+   34.0,
+   35.81649951934814
+  ],
+  "bp": 37.2305,
+  "tgt": 41.0,
+  "stp": 33.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211001022%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211001022",
   "grade": "open"
  }
 ]
