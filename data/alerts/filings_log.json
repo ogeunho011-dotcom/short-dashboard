@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OPK",
-  "form": "4",
-  "acc": "0001193125-26-449786",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:07:01+00:00",
-  "accepted_kst": "11/06 06:07",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/944809/000119312526449786/0001193125-26-449786-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "DNA",
   "form": "8-K",
   "acc": "0001628280-26-071022",
@@ -8688,5 +8671,22 @@
   "headline": "Table of Contents CERTIFICATES 1 FORWARD LOOKING STATEMENTS 13 1.0 EXECUTIVE SUMMARY 14 1.1 INTRODUCTION 14 1.2 PROPERTY DESCRIPTION, LOCATION, ACCESS AND HISTO",
   "url": "https://www.sec.gov/Archives/edgar/data/1440972/000106299326005797/0001062993-26-005797-index.htm",
   "seen_kst": "2026-11-07 03:04"
+ },
+ {
+  "ticker": "WEYS",
+  "form": "4",
+  "acc": "0001312596-26-000016",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T18:08:25+00:00",
+  "accepted_kst": "11/07 03:08",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/106532/000131259626000016/0001312596-26-000016-index.htm",
+  "seen_kst": "2026-11-07 03:10"
  }
 ]
