@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CRML",
-  "form": "4",
-  "acc": "0001213900-26-116071",
-  "items": "",
-  "filed": "2026-11-04",
-  "accepted": "2026-11-05T01:50:26+00:00",
-  "accepted_kst": "11/05 10:50",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1951089/000121390026116071/0001213900-26-116071-index.htm",
-  "seen_kst": "2026-11-05 23:22"
- },
- {
   "ticker": "CISS",
   "form": "424B3",
   "acc": "0001193125-26-448819",
@@ -8673,5 +8656,22 @@
   "headline": "Informa TechTarget November 6, 2026 Informa TechTarget Reports Third Quarter 2026 Results Continuing Strategic and Product Progress 2026 Full-Year Guidance Upda",
   "url": "https://www.sec.gov/Archives/edgar/data/2018064/000119312526450761/0001193125-26-450761-index.htm",
   "seen_kst": "2026-11-06 21:45"
+ },
+ {
+  "ticker": "TTGT",
+  "form": "10-Q",
+  "acc": "0001193125-26-450764",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:45:37+00:00",
+  "accepted_kst": "11/06 21:45",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018064/000119312526450764/0001193125-26-450764-index.htm",
+  "seen_kst": "2026-11-06 21:47"
  }
 ]
