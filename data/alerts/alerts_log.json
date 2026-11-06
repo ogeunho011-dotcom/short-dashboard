@@ -35845,5 +35845,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211118010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211118010",
   "grade": "open"
+ },
+ {
+  "id": "EVC-1793993240",
+  "ts_kst": "2026-11-07 04:27",
+  "ts_utc": "2026-11-06T19:27:20+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "EVC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.3% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EVC 장중 급등 포착",
+  "body": "$8.870 (+18.3%) · 정규장 · 레벨 2 · 점수 26\n공매도 물량 대부분 손해 중, $10.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +18.3% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.426 지정가(기준가 $8.870의 −5%) · 체결 가능성 약 32% · 손익분기 $8.528\n숏 지지구간 $8.500–$8.870 · 손절 $8.000 · 1차목표 $10.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.87,
+  "level": 2,
+  "score": 26.0,
+  "prob": 53.44827586206896,
+  "cp": 49.872843799985624,
+  "rl": 10.0,
+  "stop": 8.0,
+  "zone": [
+   8.5,
+   8.869999885559082
+  ],
+  "bp": 8.4265,
+  "tgt": 10.0,
+  "stp": 8.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801002",
+  "grade": "open"
  }
 ]
