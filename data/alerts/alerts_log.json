@@ -34825,5 +34825,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200521002",
   "grade": "open"
+ },
+ {
+  "id": "STAK-1793984864",
+  "ts_kst": "2026-11-07 02:07",
+  "ts_utc": "2026-11-06T17:07:44+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "STAK",
+  "types": [
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "5분 거래량 408k (당일 평균 81.0배)"
+  ],
+  "title": "🚀 STAK 상위 확률 신호 · 거래량 급증",
+  "body": "$2.652 (+48.2%) · 정규장 · 레벨 4 · 점수 61\n$3.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,921만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n• 5분 거래량 408k (당일 평균 81.0배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.520 지정가(기준가 $2.652의 −5%) · 체결 가능성 약 69% · 손익분기 $2.550\n숏 지지구간 $2.500–$2.652 · 손절 $2.000 · 1차목표 $3.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.6522,
+  "level": 4,
+  "score": 60.9,
+  "prob": 52.91666666666666,
+  "cp": 49.684666822031005,
+  "rl": 3.5,
+  "stop": 2.0,
+  "zone": [
+   2.5,
+   2.6521999835968018
+  ],
+  "bp": 2.5196,
+  "tgt": 3.5,
+  "stp": 2.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250226004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250226004",
+  "grade": "open"
+ },
+ {
+  "id": "MTVA-1793984864",
+  "ts_kst": "2026-11-07 02:07",
+  "ts_utc": "2026-11-06T17:07:44+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "MTVA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.1% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MTVA 장중 급등 포착",
+  "body": "$1.320 (+21.1%) · 정규장 · 레벨 2 · 점수 34\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 659만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +21.1% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.275 지정가(20일선, 기준가 대비 -3.4%) · 체결 가능성 약 75% · 손익분기 $1.290\n숏 지지구간 $1.300–$1.320 · 손절 $1.200 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.32,
+  "level": 2,
+  "score": 34.2,
+  "prob": 38.456237077877326,
+  "cp": 24.718598416311988,
+  "rl": 1.5000000000000004,
+  "stop": 1.2000000000000002,
+  "zone": [
+   1.3000000000000003,
+   1.3200000524520874
+  ],
+  "bp": 1.2748,
+  "tgt": 1.5000000000000004,
+  "stp": 1.2000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
+  "grade": "open"
  }
 ]

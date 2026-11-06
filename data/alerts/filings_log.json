@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "KFRC",
-  "form": "4",
-  "acc": "0000930420-26-000078",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:03:10+00:00",
-  "accepted_kst": "11/06 06:03",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000078/0000930420-26-000078-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "BDSX",
   "form": "8-K",
   "acc": "0001193125-26-449738",
@@ -8688,5 +8671,22 @@
   "headline": "This Form 6-K and its exhibit (except the quotes in the third and fourth paragraphs) are being incorporated by reference into the Registrant’s Form S-8 Registra",
   "url": "https://www.sec.gov/Archives/edgar/data/1993727/000117891326005053/0001178913-26-005053-index.htm",
   "seen_kst": "2026-11-07 02:05"
+ },
+ {
+  "ticker": "CATX",
+  "form": "8-K",
+  "acc": "0001193125-26-451227",
+  "items": "8.01,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T17:05:21+00:00",
+  "accepted_kst": "11/07 02:05",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 catx-ex99_1.htm EX-99.1 Perspective Therapeutics Presents Promising [212Pb]Lapemelanotide Zapixetar (VMT01) Monotherapy Data from a Phase 1/2a Study i",
+  "url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526451227/0001193125-26-451227-index.htm",
+  "seen_kst": "2026-11-07 02:07"
  }
 ]
