@@ -35115,5 +35115,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608004004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608004004",
   "grade": "open"
+ },
+ {
+  "id": "RHLD-1793987031",
+  "ts_kst": "2026-11-07 02:43",
+  "ts_utc": "2026-11-06T17:43:51+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "RHLD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.9% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RHLD 장중 급등 포착",
+  "body": "$153.210 (+17.9%) · 정규장 · 레벨 1 · 점수 19\n공매도 물량 대부분 손해 중, $153.69 넘으면 급등 가능성 ↑ · 시장에 도는 주식 782만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +17.9% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $150.000–$152.000 · 손절 $148.000 · 1차목표 $153.690\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 153.21,
+  "level": 1,
+  "score": 19.2,
+  "prob": 53.44827586206896,
+  "cp": 89.48176011399755,
+  "rl": 153.69000244140625,
+  "stop": 148.0,
+  "zone": [
+   150.0,
+   152.0
+  ],
+  "bp": null,
+  "tgt": 154.0,
+  "stp": 148.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250228005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250228005",
+  "grade": "open"
+ },
+ {
+  "id": "SLVM-1793987031",
+  "ts_kst": "2026-11-07 02:43",
+  "ts_utc": "2026-11-06T17:43:51+00:00",
+  "date_et": "2026-11-06",
+  "session": "regular",
+  "ticker": "SLVM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.9% · 거래량 평소의 6.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SLVM 장중 급등 포착",
+  "body": "$38.975 (+17.9%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중, $40.50 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +17.9% · 거래량 평소의 6.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $37.026 지정가(기준가 $38.975의 −5%) · 체결 가능성 약 30% · 손익분기 $37.473\n숏 지지구간 $34.000–$35.741 · 손절 $33.500 · 1차목표 $40.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 38.975,
+  "level": 2,
+  "score": 28.5,
+  "prob": 53.44827586206896,
+  "cp": 66.79228072892103,
+  "rl": 40.5,
+  "stop": 33.5,
+  "zone": [
+   34.0,
+   35.74124946594238
+  ],
+  "bp": 37.0262,
+  "tgt": 40.5,
+  "stp": 33.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211001022%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211001022",
+  "grade": "open"
  }
 ]
