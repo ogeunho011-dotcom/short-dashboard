@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "HCWB",
-  "form": "8-K",
-  "acc": "0001493152-26-050082",
-  "items": "1.01,7.01,8.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:00:17+00:00",
-  "accepted_kst": "11/05 23:00",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 3, 2026, HCW Biologics Inc. (the “Company”) entered into a Notes Purchase Agreement (the “Purc",
-  "url": "https://www.sec.gov/Archives/edgar/data/1828673/000149315226050082/0001493152-26-050082-index.htm",
-  "seen_kst": "2026-11-05 23:06"
- },
- {
-  "ticker": "HPP",
-  "form": "8-K",
-  "acc": "0001482512-26-000081",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T14:00:34+00:00",
-  "accepted_kst": "11/05 23:00",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 q32026ex991.htm EX-99.1 Hudson Pacific Properties, Inc. Press Release Hudson Pacific Properties Reports Third Quarter 2026 Financial Results – Fifth C",
-  "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000081/0001482512-26-000081-index.htm",
-  "seen_kst": "2026-11-05 23:06"
- },
- {
   "ticker": "IMUX",
   "form": "8-K",
   "acc": "0001193805-26-001432",
@@ -8675,5 +8639,39 @@
   "headline": "Item 3.03 Material Modifications to Rights of Security Holders. On November 2, 2026, Innovative Industrial Properties, Inc., a Maryland corporation ( the “Compa",
   "url": "https://www.sec.gov/Archives/edgar/data/1677576/000110465926123583/0001104659-26-123583-index.htm",
   "seen_kst": "2026-11-06 21:02"
+ },
+ {
+  "ticker": "AIRS",
+  "form": "10-Q",
+  "acc": "0001870940-26-000055",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:01:39+00:00",
+  "accepted_kst": "11/06 21:01",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1870940/000187094026000055/0001870940-26-000055-index.htm",
+  "seen_kst": "2026-11-06 21:05"
+ },
+ {
+  "ticker": "OWLS",
+  "form": "4",
+  "acc": "0002109337-26-000014",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T12:02:23+00:00",
+  "accepted_kst": "11/06 21:02",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $942 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "WANG CHUN KAI",
+  "url": "https://www.sec.gov/Archives/edgar/data/2025416/000210933726000014/0002109337-26-000014-index.htm",
+  "seen_kst": "2026-11-06 21:05"
  }
 ]
