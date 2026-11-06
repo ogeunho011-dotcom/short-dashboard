@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ARLO",
-  "form": "4",
-  "acc": "0001654737-26-000015",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T20:05:07+00:00",
-  "accepted_kst": "11/06 05:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1736946/000165473726000015/0001654737-26-000015-index.htm",
-  "seen_kst": "2026-11-06 05:06"
- },
- {
   "ticker": "ORIO",
   "form": "6-K",
   "acc": "0001477932-26-006708",
@@ -8682,5 +8665,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/933267/000103718226000007/0001037182-26-000007-index.htm",
   "seen_kst": "2026-11-07 00:25"
+ },
+ {
+  "ticker": "YORW",
+  "form": "8-K",
+  "acc": "0000108985-26-000096",
+  "items": "2.02,9.01",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T15:54:34+00:00",
+  "accepted_kst": "11/07 00:54",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE Contact Information: JT Hand, President & CEO jth@yorkwater.com -OR- Matthew E. Poff, Chief Financial Officer matthewp@yorkwater.com 717-845-3601 1",
+  "url": "https://www.sec.gov/Archives/edgar/data/108985/000010898526000096/0000108985-26-000096-index.htm",
+  "seen_kst": "2026-11-07 00:57"
  }
 ]
