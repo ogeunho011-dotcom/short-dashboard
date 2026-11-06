@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "XERS",
-  "form": "10-Q",
-  "acc": "0001867096-26-000117",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:08:04+00:00",
-  "accepted_kst": "11/06 06:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1867096/000186709626000117/0001867096-26-000117-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "BDSX",
   "form": "8-K",
   "acc": "0001193125-26-449792",
@@ -8680,5 +8663,22 @@
   "headline": "Equels Thomas K",
   "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226050412/0001493152-26-050412-index.htm",
   "seen_kst": "2026-11-07 03:59"
+ },
+ {
+  "ticker": "FATN",
+  "form": "4",
+  "acc": "0001493152-26-050417",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T19:04:35+00:00",
+  "accepted_kst": "11/07 04:04",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1993400/000149315226050417/0001493152-26-050417-index.htm",
+  "seen_kst": "2026-11-07 04:06"
  }
 ]
