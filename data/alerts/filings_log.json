@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MBC",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0000315066-26-002796",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T18:22:27+00:00",
-  "accepted_kst": "11/06 03:22",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1941365/000031506626002796/0000315066-26-002796-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "REAL",
   "form": "SCHEDULE 13G/A",
   "acc": "0000315066-26-002839",
@@ -8690,5 +8673,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050384/0001493152-26-050384-index.htm",
   "seen_kst": "2026-11-07 01:21"
+ },
+ {
+  "ticker": "CLST",
+  "form": "4",
+  "acc": "0001885818-26-000007",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T16:22:08+00:00",
+  "accepted_kst": "11/07 01:22",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $30,255 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Kleiser Kirk E.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1849867/000188581826000007/0001885818-26-000007-index.htm",
+  "seen_kst": "2026-11-07 01:24"
  }
 ]
