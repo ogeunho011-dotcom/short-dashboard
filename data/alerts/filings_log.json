@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SPPL",
-  "form": "4",
-  "acc": "0001493152-26-050229",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:05:28+00:00",
-  "accepted_kst": "11/06 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1948697/000149315226050229/0001493152-26-050229-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "AZ",
   "form": "6-K",
   "acc": "0001493152-26-050236",
@@ -8688,5 +8671,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451286/0001193125-26-451286-index.htm",
   "seen_kst": "2026-11-07 02:33"
+ },
+ {
+  "ticker": "WSBK",
+  "form": "4",
+  "acc": "0001193125-26-451303",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T17:35:03+00:00",
+  "accepted_kst": "11/07 02:35",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451303/0001193125-26-451303-index.htm",
+  "seen_kst": "2026-11-07 02:36"
  }
 ]
