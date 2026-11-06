@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IRD",
-  "form": "4",
-  "acc": "0001140361-26-042102",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:04:21+00:00",
-  "accepted_kst": "11/06 06:04",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1228627/000114036126042102/0001140361-26-042102-index.htm",
-  "seen_kst": "2026-11-06 06:12"
- },
- {
   "ticker": "SOUN",
   "form": "8-K",
   "acc": "0001840856-26-000025",
@@ -8688,5 +8671,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451270/0001193125-26-451270-index.htm",
   "seen_kst": "2026-11-07 02:26"
+ },
+ {
+  "ticker": "PFIS",
+  "form": "3",
+  "acc": "0001192482-26-000501",
+  "items": "",
+  "filed": "2026-11-06",
+  "accepted": "2026-11-06T17:27:06+00:00",
+  "accepted_kst": "11/07 02:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1056943/000119248226000501/0001192482-26-000501-index.htm",
+  "seen_kst": "2026-11-07 02:28"
  }
 ]
