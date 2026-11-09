@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TARA",
-  "form": "10-Q",
-  "acc": "0001213900-26-116612",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:10:41+00:00",
-  "accepted_kst": "11/06 22:10",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1359931/000121390026116612/0001213900-26-116612-index.htm",
-  "seen_kst": "2026-11-06 22:12"
- },
- {
   "ticker": "KOP",
   "form": "8-K",
   "acc": "0001315257-26-000056",
@@ -8708,5 +8691,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1880438/000119312526452664/0001193125-26-452664-index.htm",
   "seen_kst": "2026-11-09 21:35"
+ },
+ {
+  "ticker": "SSTI",
+  "form": "SC 14D9/A",
+  "acc": "0001140361-26-042610",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:34:54+00:00",
+  "accepted_kst": "11/09 21:34",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1351636/000114036126042610/0001140361-26-042610-index.htm",
+  "seen_kst": "2026-11-09 21:38"
  }
 ]
