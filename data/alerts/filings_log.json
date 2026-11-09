@@ -2,45 +2,6 @@
  {
   "ticker": "WHLR",
   "form": "424B3",
-  "acc": "0001527541-26-000431",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:20:49+00:00",
-  "accepted_kst": "11/06 22:20",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000431/0001527541-26-000431-index.htm",
-  "seen_kst": "2026-11-06 22:22"
- },
- {
-  "ticker": "SXTP",
-  "form": "8-K",
-  "acc": "0001213900-26-116620",
-  "items": "1.01,3.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:22:31+00:00",
-  "accepted_kst": "11/06 22:22",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 5, 2026, 60 Degrees Pharmaceuticals, Inc. (the “Company”) entered into inducement offer letter",
-  "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026116620/0001213900-26-116620-index.htm",
-  "seen_kst": "2026-11-06 22:25"
- },
- {
-  "ticker": "WHLR",
-  "form": "424B3",
   "acc": "0001527541-26-000433",
   "items": "",
   "filed": "2026-11-06",
@@ -8709,5 +8670,39 @@
   "headline": "CorMedix Therapeutics to Acquire Substantially All Assets of Heron Therapeutics, Expanding Its Portfolio of Products Used in Institutional Settings of Care Adds",
   "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026117213/0001213900-26-117213-index.htm",
   "seen_kst": "2026-11-09 21:53"
+ },
+ {
+  "ticker": "BCAX",
+  "form": "8-K",
+  "acc": "0001628280-26-071886",
+  "items": "2.02,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:52:21+00:00",
+  "accepted_kst": "11/09 21:52",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "attached hereto is intended to be furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023658/000162828026071886/0001628280-26-071886-index.htm",
+  "seen_kst": "2026-11-09 21:55"
+ },
+ {
+  "ticker": "CRMD",
+  "form": "DEFA14A",
+  "acc": "0001213900-26-117216",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:53:57+00:00",
+  "accepted_kst": "11/09 21:53",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026117216/0001213900-26-117216-index.htm",
+  "seen_kst": "2026-11-09 21:55"
  }
 ]
