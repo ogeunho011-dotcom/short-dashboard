@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "SLVM",
-  "form": "8-K",
-  "acc": "0001193125-26-450635",
-  "items": "7.01,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:02:16+00:00",
-  "accepted_kst": "11/06 20:02",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "NEWS RELEASE Sylvamo Announces Plans to Sell Europe Business",
-  "url": "https://www.sec.gov/Archives/edgar/data/1856485/000119312526450635/0001193125-26-450635-index.htm",
-  "seen_kst": "2026-11-06 20:06"
- },
- {
   "ticker": "PARA",
   "form": "424B4",
   "acc": "0001493152-26-050319",
@@ -8714,5 +8695,24 @@
   "headline": "November 2026 EEI Investor Meetings 104 Cover Page Interactive Data File (embedded within the Inline XBRL document) The information furnished in connection with",
   "url": "https://www.sec.gov/Archives/edgar/data/354707/000035470726000082/0000354707-26-000082-index.htm",
   "seen_kst": "2026-11-09 20:10"
+ },
+ {
+  "ticker": "MRT",
+  "form": "6-K",
+  "acc": "0001213900-26-117159",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:11:34+00:00",
+  "accepted_kst": "11/09 20:11",
+  "polarity": "pos",
+  "label": "실적 호조·가이던스 상향",
+  "cats": [
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Marti Reports First-Ever Positive Operating Income as Q3 2026 Revenue Hits Record $24.7 Million and Gross Margin Expands to Record 81% Net loss narrows to $1.0",
+  "url": "https://www.sec.gov/Archives/edgar/data/1852767/000121390026117159/0001213900-26-117159-index.htm",
+  "seen_kst": "2026-11-09 20:13"
  }
 ]
