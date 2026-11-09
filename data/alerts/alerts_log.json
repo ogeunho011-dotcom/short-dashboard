@@ -41508,5 +41508,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250226004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250226004",
   "grade": "open"
+ },
+ {
+  "id": "SNT-1794257352",
+  "ts_kst": "2026-11-10 05:49",
+  "ts_utc": "2026-11-09T20:49:12+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "SNT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 SNT 상위 확률 신호",
+  "body": "$2.380 (+25.3%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $2.50 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.261 지정가(기준가 $2.380의 −5%) · 체결 가능성 약 52% · 손익분기 $2.288\n숏 지지구간 $2.200–$2.263 · 손절 $2.150 · 1차목표 $2.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.3801,
+  "level": 3,
+  "score": 41.7,
+  "prob": 52.91666666666666,
+  "cp": 58.22052276437711,
+  "rl": 2.500000000000001,
+  "stop": 2.1500000000000012,
+  "zone": [
+   2.200000000000001,
+   2.2630350041389473
+  ],
+  "bp": 2.2611,
+  "tgt": 2.500000000000001,
+  "stp": 2.1500000000000012,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930012",
+  "grade": "open"
  }
 ]
