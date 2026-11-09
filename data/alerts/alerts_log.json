@@ -39149,5 +39149,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125003",
   "grade": "open"
+ },
+ {
+  "id": "MKDW-1794238590",
+  "ts_kst": "2026-11-10 00:36",
+  "ts_utc": "2026-11-09T15:36:30+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "MKDW",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +10.3% 급변 · 전일 대비 +25.8% — 추격 매수 주의"
+  ],
+  "title": "⚡ MKDW 장중 급등 포착",
+  "body": "$0.204 (+25.8%) · 정규장 · 레벨 1 · 점수 22\n시장에 도는 주식 464만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 +10.3% 급변 · 전일 대비 +25.8% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.167 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -18.3%) · 체결 가능성 약 70% · 손익분기 $0.169\n숏 지지구간 $0.143–$0.204 · 손절 $0.102 · 1차목표 $0.306\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.204,
+  "level": 1,
+  "score": 22.2,
+  "prob": 18.993839835728956,
+  "cp": 2.0,
+  "rl": 1.0,
+  "stop": 0.10199999809265137,
+  "zone": [
+   0.1427999973297119,
+   0.20399999618530273
+  ],
+  "bp": 0.1667,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230324001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230324001",
+  "grade": "n/a"
  }
 ]
