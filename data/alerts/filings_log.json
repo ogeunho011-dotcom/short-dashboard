@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ALGS",
-  "form": "8-K",
-  "acc": "0001171843-26-007214",
-  "items": "2.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:00:15+00:00",
-  "accepted_kst": "11/06 22:00",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "are being furnished and shall not be deemed to be \"filed\" for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\")",
-  "url": "https://www.sec.gov/Archives/edgar/data/1799448/000117184326007214/0001171843-26-007214-index.htm",
-  "seen_kst": "2026-11-06 22:02"
- },
- {
   "ticker": "FUFU",
   "form": "6-K",
   "acc": "0001213900-26-116602",
@@ -8701,5 +8684,24 @@
   "headline": "Tonix Pharmaceuticals Reports Third Quarter 2026 Financial Results and Operational Highlights Third quarter TONMYA® net sales of approximately $15 million, up 3",
   "url": "https://www.sec.gov/Archives/edgar/data/1430306/000149315226050621/0001493152-26-050621-index.htm",
   "seen_kst": "2026-11-09 21:22"
+ },
+ {
+  "ticker": "SLXN",
+  "form": "8-K",
+  "acc": "0001178913-26-005089",
+  "items": "8.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:26:54+00:00",
+  "accepted_kst": "11/09 21:26",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. Further to its previous reports, as well as the approval of its shareholders received on October 26, 2026, on November 9, 2026, Silexion",
+  "url": "https://www.sec.gov/Archives/edgar/data/2022416/000117891326005089/0001178913-26-005089-index.htm",
+  "seen_kst": "2026-11-09 21:28"
  }
 ]
