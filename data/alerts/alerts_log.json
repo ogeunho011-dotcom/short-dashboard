@@ -40306,5 +40306,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
   "grade": "open"
+ },
+ {
+  "id": "NXTS-1794246852",
+  "ts_kst": "2026-11-10 02:54",
+  "ts_utc": "2026-11-09T17:54:12+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "NXTS",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 79/100"
+  ],
+  "title": "🚀 NXTS 커버 압력",
+  "body": "$2.200 (+329.3%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $2.25 넘으면 급등 가능성 ↑ · 시장에 도는 주식 145만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 커버 압력 79/100\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.090 지정가(기준가 $2.200의 −5%) · 체결 가능성 약 62% · 손익분기 $2.115\n숏 지지구간 $1.750–$2.000 · 손절 $1.500 · 1차목표 $2.250\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-11-09\n⚠ 최근 악재 공시: 8-K 역분할 (11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.2,
+  "level": 3,
+  "score": 42.0,
+  "prob": 45.01661129568107,
+  "cp": 78.6275744473601,
+  "rl": 2.25,
+  "stop": 1.5,
+  "zone": [
+   1.75,
+   2.0
+  ],
+  "bp": 2.09,
+  "tgt": 2.25,
+  "stp": 1.5,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-11-09",
+   "최근 악재 공시: 8-K 역분할 (11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210514009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210514009",
+  "grade": "open"
  }
 ]
