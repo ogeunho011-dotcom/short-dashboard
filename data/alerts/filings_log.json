@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GLRE",
-  "form": "4",
-  "acc": "0001385613-26-000142",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:54:35+00:00",
-  "accepted_kst": "11/07 01:54",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561326000142/0001385613-26-000142-index.htm",
-  "seen_kst": "2026-11-07 01:57"
- },
- {
   "ticker": "FSBW",
   "form": "4",
   "acc": "0000939057-26-000293",
@@ -8745,5 +8728,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1951067/000119312526452756/0001193125-26-452756-index.htm",
   "seen_kst": "2026-11-09 22:47"
+ },
+ {
+  "ticker": "HRTX",
+  "form": "10-Q",
+  "acc": "0001193125-26-452759",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:50:35+00:00",
+  "accepted_kst": "11/09 22:50",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/818033/000119312526452759/0001193125-26-452759-index.htm",
+  "seen_kst": "2026-11-09 22:53"
  }
 ]
