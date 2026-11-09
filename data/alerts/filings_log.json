@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DAIO",
-  "form": "8-K",
-  "acc": "0001654954-26-009591",
-  "items": "7.01,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T17:58:58+00:00",
-  "accepted_kst": "11/07 02:58",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Data I/O Appoints Douglas Adams as SVP Global Services, Support and Quality, Reuniting the Leadership Team That Built the World's Largest Programming Services B",
-  "url": "https://www.sec.gov/Archives/edgar/data/351998/000165495426009591/0001654954-26-009591-index.htm",
-  "seen_kst": "2026-11-07 02:59"
- },
- {
   "ticker": "WSBK",
   "form": "4",
   "acc": "0001193125-26-451360",
@@ -8752,5 +8735,24 @@
   "headline": "NewcelX Announces Pricing of $1.55 Million Equity Financing at 20% Premium Pricing to Market The financing led by international healthcare investors, alongside ",
   "url": "https://www.sec.gov/Archives/edgar/data/1783036/000121390026117274/0001213900-26-117274-index.htm",
   "seen_kst": "2026-11-09 23:07"
+ },
+ {
+  "ticker": "USGO",
+  "form": "424B5",
+  "acc": "0001493152-26-050656",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T14:08:23+00:00",
+  "accepted_kst": "11/09 23:08",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1947244/000149315226050656/0001493152-26-050656-index.htm",
+  "seen_kst": "2026-11-09 23:10"
  }
 ]
