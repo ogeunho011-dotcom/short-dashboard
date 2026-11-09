@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "SLVM",
-  "form": "10-Q",
-  "acc": "0001856485-26-000044",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T17:17:10+00:00",
-  "accepted_kst": "11/07 02:17",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1856485/000185648526000044/0001856485-26-000044-index.htm",
-  "seen_kst": "2026-11-07 02:23"
- },
- {
-  "ticker": "WEYS",
-  "form": "144",
-  "acc": "0001949846-26-000641",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T17:20:31+00:00",
-  "accepted_kst": "11/07 02:20",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/106532/000194984626000641/0001949846-26-000641-index.htm",
-  "seen_kst": "2026-11-07 02:23"
- },
- {
   "ticker": "SBR",
   "form": "10-Q",
   "acc": "0001193125-26-451259",
@@ -8750,5 +8716,41 @@
   "headline": "Item 1.01. Entry into a Material Definitive Agreement. First Amendment to Senior Secured Convertible Note As previously disclosed, on July 29, 2025, Capstone Ho",
   "url": "https://www.sec.gov/Archives/edgar/data/887151/000143774926035720/0001437749-26-035720-index.htm",
   "seen_kst": "2026-11-09 22:57"
+ },
+ {
+  "ticker": "SRTA",
+  "form": "4",
+  "acc": "0001628280-26-071913",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:57:50+00:00",
+  "accepted_kst": "11/09 22:57",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $9,998 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "LAUCK ANDREW",
+  "url": "https://www.sec.gov/Archives/edgar/data/1779128/000162828026071913/0001628280-26-071913-index.htm",
+  "seen_kst": "2026-11-09 23:00"
+ },
+ {
+  "ticker": "OWLS",
+  "form": "6-K",
+  "acc": "0001193125-26-452768",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:59:32+00:00",
+  "accepted_kst": "11/09 22:59",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "EX-99.1 2 owls-ex99_1.htm EX-99.1 EX-99.1 Owlting Group Secures Additional US$5 Million Financing from The Lind Partners Additional funding to support customer",
+  "url": "https://www.sec.gov/Archives/edgar/data/2025416/000119312526452768/0001193125-26-452768-index.htm",
+  "seen_kst": "2026-11-09 23:00"
  }
 ]
