@@ -36717,5 +36717,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0250522002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0250522002",
   "grade": "open"
+ },
+ {
+  "id": "NTCL-1794215732",
+  "ts_kst": "2026-11-09 18:15",
+  "ts_utc": "2026-11-09T09:15:32+00:00",
+  "date_et": "2026-11-09",
+  "session": "pre",
+  "ticker": "NTCL",
+  "types": [
+   "prob",
+   "pregap"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "프리마켓 갭 +174.6%"
+  ],
+  "title": "🚀 NTCL 상위 확률 신호 · 프리마켓 갭",
+  "body": "$0.640 (+174.6%) · 프리마켓 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $0.750 넘으면 급등 가능성 ↑ · 갭 상승 후 버티는 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n• 프리마켓 갭 +174.6%\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.615 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.9%) · 체결 가능성 약 83% · 손익분기 $0.622\n숏 지지구간 $0.448–$0.500 · 손절 $0.320 · 1차목표 $0.750\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/06)\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6396,
+  "level": 3,
+  "score": 40.0,
+  "prob": 52.91666666666666,
+  "cp": 59.456374914421616,
+  "rl": 0.75,
+  "stop": 0.3198,
+  "zone": [
+   0.44771999999999995,
+   0.5
+  ],
+  "bp": 0.6146,
+  "tgt": 0.75,
+  "stp": 0.3198,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/06)",
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
+  "grade": "open"
  }
 ]
