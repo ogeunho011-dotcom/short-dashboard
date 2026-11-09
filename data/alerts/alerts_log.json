@@ -39817,5 +39817,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241002009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241002009",
   "grade": "open"
+ },
+ {
+  "id": "FJET-1794243253",
+  "ts_kst": "2026-11-10 01:54",
+  "ts_utc": "2026-11-09T16:54:13+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "FJET",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +31.9% · 거래량 평소의 6.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FJET 장중 급등 포착",
+  "body": "$1.080 (+31.9%) · 정규장 · 레벨 1 · 점수 19\n$1.25 넘으면 공매도 되사기 압박 ↑ · $1 다시 회복 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +31.9% · 거래량 평소의 6.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.026 지정가(기준가 $1.080의 −5%) · 체결 가능성 약 65% · 손익분기 $1.038\n숏 지지구간 $0.756–$0.756 · 손절 $0.540 · 1차목표 $1.250\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/13)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.0799,
+  "level": 1,
+  "score": 18.6,
+  "prob": 45.01661129568107,
+  "cp": 26.777652034507643,
+  "rl": 1.25,
+  "stop": 0.5399500131607056,
+  "zone": [
+   0.7559300184249877,
+   0.7559300184249877
+  ],
+  "bp": 1.0259,
+  "tgt": 1.25,
+  "stp": 0.5399500131607056,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/13)",
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0251218002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0251218002",
+  "grade": "open"
+ },
+ {
+  "id": "HOLO-1794243253",
+  "ts_kst": "2026-11-10 01:54",
+  "ts_utc": "2026-11-09T16:54:13+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "HOLO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +25.9% · 거래량 평소의 4.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HOLO 장중 급등 포착",
+  "body": "$1.360 (+25.9%) · 정규장 · 레벨 2 · 점수 26\n$1.40 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +25.9% · 거래량 평소의 4.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $1.292 지정가(기준가 $1.360의 −5%) · 체결 가능성 약 54% · 손익분기 $1.308\n숏 지지구간 $1.300–$1.350 · 손절 $1.250 · 1차목표 $1.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.36,
+  "level": 2,
+  "score": 26.2,
+  "prob": 49.04220975004597,
+  "cp": 40.750875993373924,
+  "rl": 1.4000000000000006,
+  "stop": 1.2500000000000004,
+  "zone": [
+   1.3000000000000005,
+   1.3500000000000005
+  ],
+  "bp": 1.292,
+  "tgt": 1.4000000000000006,
+  "stp": 1.2500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220919001",
+  "grade": "open"
  }
 ]
