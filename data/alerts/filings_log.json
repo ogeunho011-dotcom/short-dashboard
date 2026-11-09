@@ -1,60 +1,5 @@
 [
  {
-  "ticker": "PFIS",
-  "form": "4",
-  "acc": "0001437749-26-035434",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:00:06+00:00",
-  "accepted_kst": "11/07 01:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1056943/000143774926035434/0001437749-26-035434-index.htm",
-  "seen_kst": "2026-11-07 01:02"
- },
- {
-  "ticker": "ELPW",
-  "form": "6-K",
-  "acc": "0001493152-26-050379",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:00:25+00:00",
-  "accepted_kst": "11/07 01:00",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Elong Power Holding Limited Enters into Approximately $3.26 Million Warrant Inducement",
-  "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050379/0001493152-26-050379-index.htm",
-  "seen_kst": "2026-11-07 01:02"
- },
- {
-  "ticker": "ELPW",
-  "form": "424B3",
-  "acc": "0001493152-26-050381",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:05:12+00:00",
-  "accepted_kst": "11/07 01:05",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050381/0001493152-26-050381-index.htm",
-  "seen_kst": "2026-11-07 01:05"
- },
- {
   "ticker": "SBSI",
   "form": "144",
   "acc": "0001950047-26-010725",
@@ -8739,5 +8684,56 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/818033/000119312526452725/0001193125-26-452725-index.htm",
   "seen_kst": "2026-11-09 22:20"
+ },
+ {
+  "ticker": "SHFS",
+  "form": "DEFA14A",
+  "acc": "0001493152-26-050639",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:19:18+00:00",
+  "accepted_kst": "11/09 22:19",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226050639/0001493152-26-050639-index.htm",
+  "seen_kst": "2026-11-09 22:23"
+ },
+ {
+  "ticker": "SHFS",
+  "form": "10-Q",
+  "acc": "0001493152-26-050640",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:21:09+00:00",
+  "accepted_kst": "11/09 22:21",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226050640/0001493152-26-050640-index.htm",
+  "seen_kst": "2026-11-09 22:23"
+ },
+ {
+  "ticker": "SLE",
+  "form": "8-K",
+  "acc": "0001437749-26-035718",
+  "items": "8.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:21:47+00:00",
+  "accepted_kst": "11/09 22:21",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 8.01. Other Events During the period from November 4, 2026 through November 9, 2026, the Company purchased sixteen (16) Bitcoin at an average purchase pric",
+  "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926035718/0001437749-26-035718-index.htm",
+  "seen_kst": "2026-11-09 22:23"
  }
 ]
