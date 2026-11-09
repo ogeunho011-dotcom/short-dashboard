@@ -36761,5 +36761,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241213009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241213009",
   "grade": "open"
+ },
+ {
+  "id": "JDZG-1794216639",
+  "ts_kst": "2026-11-09 18:30",
+  "ts_utc": "2026-11-09T09:30:39+00:00",
+  "date_et": "2026-11-09",
+  "session": "pre",
+  "ticker": "JDZG",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +117.4%"
+  ],
+  "title": "🚀 JDZG 프리마켓 갭",
+  "body": "$0.454 (+117.4%) · 프리마켓 · 레벨 3 · 점수 40\n시장에 도는 주식 41만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 프리마켓 갭 +117.4%\n10일 내 셋업 성공 확률(보정): 20%\n추천 매수가 $0.370 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -18.5%) · 체결 가능성 약 84% · 손익분기 $0.375\n숏 지지구간 $0.318–$0.454 · 손절 $0.227 · 1차목표 $0.682\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4544,
+  "level": 3,
+  "score": 40.3,
+  "prob": 19.802332528511428,
+  "cp": 22.0,
+  "rl": 2.0,
+  "stop": 0.2272,
+  "zone": [
+   0.31808,
+   0.4544
+  ],
+  "bp": 0.3704,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240515002",
+  "grade": "n/a"
  }
 ]
