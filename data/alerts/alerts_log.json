@@ -40477,5 +40477,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210421004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210421004",
   "grade": "open"
+ },
+ {
+  "id": "UG-1794248193",
+  "ts_kst": "2026-11-10 03:16",
+  "ts_utc": "2026-11-09T18:16:33+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "UG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.4% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ UG 장중 급등 포착",
+  "body": "$8.615 (+28.4%) · 정규장 · 레벨 2 · 점수 27\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 459만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +28.4% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.184 지정가(기준가 $8.615의 −5%) · 체결 가능성 약 28% · 손익분기 $8.283\n숏 지지구간 $7.600–$7.950 · 손절 $7.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.615,
+  "level": 2,
+  "score": 26.7,
+  "prob": 53.44827586206896,
+  "cp": 81.16096905331352,
+  "rl": 8.614999771118164,
+  "stop": 7.4999999999999964,
+  "zone": [
+   7.599999999999996,
+   7.949999999999995
+  ],
+  "bp": 8.1842,
+  "tgt": 9.907249736785888,
+  "stp": 7.4999999999999964,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19920317011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19920317011",
+  "grade": "open"
  }
 ]
