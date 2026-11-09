@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "YORW",
-  "form": "10-Q",
-  "acc": "0000108985-26-000097",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:27:24+00:00",
-  "accepted_kst": "11/07 01:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/108985/000010898526000097/0000108985-26-000097-index.htm",
-  "seen_kst": "2026-11-07 01:29"
- },
- {
   "ticker": "FSBW",
   "form": "4",
   "acc": "0000939057-26-000292",
@@ -8735,5 +8718,22 @@
   "headline": "Item 7.01 Regulation FD Disclosure. Vir Biotechnology, Inc. (the Company) is holding a virtual investor conference call at 5:30 a.m. PT / 8:30 a.m. ET on Novemb",
   "url": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026071908/0001628280-26-071908-index.htm",
   "seen_kst": "2026-11-09 22:32"
+ },
+ {
+  "ticker": "VTGN",
+  "form": "8-K",
+  "acc": "0001628280-26-071910",
+  "items": "8.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:34:27+00:00",
+  "accepted_kst": "11/09 22:34",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Vistagen Provides Regulatory Update Following Productive Type C Meeting with U.S. FDA on Phase 3 Development of Fasedienol for Social Anxiety Disorder Construct",
+  "url": "https://www.sec.gov/Archives/edgar/data/1411685/000162828026071910/0001628280-26-071910-index.htm",
+  "seen_kst": "2026-11-09 22:35"
  }
 ]
