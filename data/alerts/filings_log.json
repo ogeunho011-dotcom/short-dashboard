@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "CABR",
-  "form": "EFFECT",
-  "acc": "9999999995-26-003456",
-  "items": ",,",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-06T05:15:03+00:00",
-  "accepted_kst": "11/06 14:15",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2020737/999999999526003456/9999999995-26-003456-index.htm",
-  "seen_kst": "2026-11-06 20:10"
- },
- {
-  "ticker": "AIRI",
-  "form": "424B3",
-  "acc": "0001213900-26-116546",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:06:19+00:00",
-  "accepted_kst": "11/06 20:06",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026116546/0001213900-26-116546-index.htm",
-  "seen_kst": "2026-11-06 20:10"
- },
- {
   "ticker": "PASG",
   "form": "8-K",
   "acc": "0001140361-26-042222",
@@ -8712,5 +8676,39 @@
   "headline": "First Trades of Tokenized U.S. Equity under SEC Innovation Exemption Executed on the Canton Network Shares of CNTN, Canton Strategic Holdings’ Common Stock, Tra",
   "url": "https://www.sec.gov/Archives/edgar/data/1861657/000149315226050596/0001493152-26-050596-index.htm",
   "seen_kst": "2026-11-09 20:18"
+ },
+ {
+  "ticker": "CKX",
+  "form": "8-K",
+  "acc": "0001437749-26-035669",
+  "items": "8.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:19:49+00:00",
+  "accepted_kst": "11/09 20:19",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. On November 9, 2026, CKX Lands, Inc., a Louisiana corporation (the “ Company ”), and Jacobs Private Equity II, LLC, a Delaware limited l",
+  "url": "https://www.sec.gov/Archives/edgar/data/352955/000143774926035669/0001437749-26-035669-index.htm",
+  "seen_kst": "2026-11-09 20:23"
+ },
+ {
+  "ticker": "CKX",
+  "form": "DEFA14A",
+  "acc": "0001437749-26-035671",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:21:00+00:00",
+  "accepted_kst": "11/09 20:21",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/352955/000143774926035671/0001437749-26-035671-index.htm",
+  "seen_kst": "2026-11-09 20:23"
  }
 ]
