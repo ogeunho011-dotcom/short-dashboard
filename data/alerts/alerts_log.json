@@ -40178,5 +40178,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190610001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190610001",
   "grade": "open"
+ },
+ {
+  "id": "ADGM-1794245194",
+  "ts_kst": "2026-11-10 02:26",
+  "ts_utc": "2026-11-09T17:26:34+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "ADGM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +10.6% 급변 · 전일 대비 +2933.5% — 추격 매수 주의"
+  ],
+  "title": "⚡ ADGM 장중 급등 포착",
+  "body": "$1.990 (+2933.5%) · 정규장 · 레벨 1 · 점수 25\n공매도 물량 대부분 손해 중, $2.32 넘으면 급등 가능성 ↑ · 1년 최고가 돌파 · 갭 상승 후 밀리는 중\n• 5분 +10.6% 급변 · 전일 대비 +2933.5% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.891 지정가(기준가 $1.990의 −5%) · 체결 가능성 약 55% · 손익분기 $1.913\n숏 지지구간 $1.393–$1.393 · 손절 $0.995 · 1차목표 $2.320\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-11-09\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.99,
+  "level": 1,
+  "score": 24.9,
+  "prob": 47.808764940239065,
+  "cp": 72.49980641682458,
+  "rl": 2.319999933242798,
+  "stop": 0.9950000047683716,
+  "zone": [
+   1.3930000066757202,
+   1.3930000066757202
+  ],
+  "bp": 1.8905,
+  "tgt": 2.319999933242798,
+  "stp": 0.9950000047683716,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-11-09"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210226002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210226002",
+  "grade": "open"
  }
 ]

@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MED",
-  "form": "4",
-  "acc": "0001213900-26-116801",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T19:28:53+00:00",
-  "accepted_kst": "11/07 04:28",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $8,610 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Kiai Parsa",
-  "url": "https://www.sec.gov/Archives/edgar/data/910329/000121390026116801/0001213900-26-116801-index.htm",
-  "seen_kst": "2026-11-07 04:30"
- },
- {
   "ticker": "BETR",
   "form": "4",
   "acc": "0001828689-26-000019",
@@ -8760,5 +8743,22 @@
   "headline": "Date: November 9, 2026 For Further Information Contact: Donald E. Gibson President and Chief Executive Officer (518) 943-2600 donaldg@bankofgreene.com GREENE CO",
   "url": "https://www.sec.gov/Archives/edgar/data/1070524/000114036126042702/0001140361-26-042702-index.htm",
   "seen_kst": "2026-11-10 02:19"
+ },
+ {
+  "ticker": "SHEN",
+  "form": "4",
+  "acc": "0001697225-26-000004",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T17:23:56+00:00",
+  "accepted_kst": "11/10 02:23",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $4,971 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "QUAGLIO KENNETH L",
+  "url": "https://www.sec.gov/Archives/edgar/data/354963/000169722526000004/0001697225-26-000004-index.htm",
+  "seen_kst": "2026-11-10 02:26"
  }
 ]
