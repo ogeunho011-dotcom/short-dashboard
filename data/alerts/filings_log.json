@@ -2,23 +2,6 @@
  {
   "ticker": "LKFN",
   "form": "4",
-  "acc": "0001189410-26-000010",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:26:29+00:00",
-  "accepted_kst": "11/07 03:26",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/721994/000118941026000010/0001189410-26-000010-index.htm",
-  "seen_kst": "2026-11-07 03:28"
- },
- {
-  "ticker": "LKFN",
-  "form": "4",
   "acc": "0002069860-26-000012",
   "items": "",
   "filed": "2026-11-06",
@@ -8756,5 +8739,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1084869/000143774926035741/0001437749-26-035741-index.htm",
   "seen_kst": "2026-11-09 23:37"
+ },
+ {
+  "ticker": "VBNK",
+  "form": "6-K",
+  "acc": "0001062993-26-005810",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T14:44:24+00:00",
+  "accepted_kst": "11/09 23:44",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ": November 9, 2026 VERSABANK SURPASSES TARGET OF US$1 BILLION IN ADDITIONAL U.S. STRUCTURED RECEIVABLE PROGRAM FUNDINGS FOR FISCAL 2026; ACHIEVES RECORD QUARTER",
+  "url": "https://www.sec.gov/Archives/edgar/data/1690639/000106299326005810/0001062993-26-005810-index.htm",
+  "seen_kst": "2026-11-09 23:45"
  }
 ]
