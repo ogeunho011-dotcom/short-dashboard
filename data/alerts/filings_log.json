@@ -2,23 +2,6 @@
  {
   "ticker": "LKFN",
   "form": "4",
-  "acc": "0002069860-26-000012",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:26:52+00:00",
-  "accepted_kst": "11/07 03:26",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/721994/000206986026000012/0002069860-26-000012-index.htm",
-  "seen_kst": "2026-11-07 03:28"
- },
- {
-  "ticker": "LKFN",
-  "form": "4",
   "acc": "0001904915-26-000012",
   "items": "",
   "filed": "2026-11-06",
@@ -8756,5 +8739,22 @@
   "headline": ": November 9, 2026 VERSABANK SURPASSES TARGET OF US$1 BILLION IN ADDITIONAL U.S. STRUCTURED RECEIVABLE PROGRAM FUNDINGS FOR FISCAL 2026; ACHIEVES RECORD QUARTER",
   "url": "https://www.sec.gov/Archives/edgar/data/1690639/000106299326005810/0001062993-26-005810-index.htm",
   "seen_kst": "2026-11-09 23:45"
+ },
+ {
+  "ticker": "ONCY",
+  "form": "8-K",
+  "acc": "0001129928-26-000080",
+  "items": "8.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T14:49:07+00:00",
+  "accepted_kst": "11/09 23:49",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "is furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilit",
+  "url": "https://www.sec.gov/Archives/edgar/data/1129928/000112992826000080/0001129928-26-000080-index.htm",
+  "seen_kst": "2026-11-09 23:51"
  }
 ]

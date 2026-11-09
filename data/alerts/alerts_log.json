@@ -34231,7 +34231,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930212001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930212001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "EVC-1793978712",
@@ -38691,6 +38694,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201119006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201119006",
+  "grade": "open"
+ },
+ {
+  "id": "BRLS-1794235862",
+  "ts_kst": "2026-11-09 23:51",
+  "ts_utc": "2026-11-09T14:51:02+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "BRLS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BRLS 장중 급등 포착",
+  "body": "$1.090 (+20.3%) · 정규장 · 레벨 2 · 점수 37\n$1.30 넘으면 공매도 되사기 압박 ↑ · $1 다시 회복 · 갭 상승 후 밀리는 중\n• 전일 대비 +20.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 23%\n추천 매수가 $1.036 지정가(기준가 $1.090의 −5%) · 체결 가능성 약 68% · 손익분기 $1.048\n숏 지지구간 $0.800–$0.902 · 손절 $0.750 · 1차목표 $1.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.09,
+  "level": 2,
+  "score": 37.0,
+  "prob": 22.97560080384514,
+  "cp": 34.67478340641112,
+  "rl": 1.2999999999999998,
+  "stop": 0.75,
+  "zone": [
+   0.8,
+   0.9015000116825104
+  ],
+  "bp": 1.0355,
+  "tgt": 1.2999999999999998,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211006007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211006007",
   "grade": "open"
  }
 ]
