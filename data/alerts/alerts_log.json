@@ -11455,7 +11455,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230120003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230120003",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 5
  },
  {
   "id": "BYSI-1793635821",
@@ -41259,6 +41262,48 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240422002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240422002",
+  "grade": "open"
+ },
+ {
+  "id": "SILO-1794255066",
+  "ts_kst": "2026-11-10 05:11",
+  "ts_utc": "2026-11-09T20:11:06+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "SILO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.6% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SILO 장중 급등 포착",
+  "body": "$1.630 (+22.6%) · 정규장 · 레벨 2 · 점수 27\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 159만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +22.6% · 거래량 평소의 7.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.548 지정가(기준가 $1.630의 −5%) · 체결 가능성 약 45% · 손익분기 $1.567\n숏 지지구간 $1.000–$1.500 · 손절 $0.815 · 1차목표 $2.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.63,
+  "level": 2,
+  "score": 26.8,
+  "prob": 47.808764940239065,
+  "cp": 16.05026795266491,
+  "rl": 2.0,
+  "stop": 0.8149999976158142,
+  "zone": [
+   1.0,
+   1.5
+  ],
+  "bp": 1.5485,
+  "tgt": 2.0,
+  "stp": 0.8149999976158142,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220927006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220927006",
   "grade": "open"
  }
 ]
