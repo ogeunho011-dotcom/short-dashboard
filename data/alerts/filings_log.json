@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "JBGS",
-  "form": "10-Q",
-  "acc": "0001104659-26-123567",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:32:03+00:00",
-  "accepted_kst": "11/06 20:32",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1689796/000110465926123567/0001104659-26-123567-index.htm",
-  "seen_kst": "2026-11-06 20:35"
- },
- {
   "ticker": "GTN",
   "form": "8-K",
   "acc": "0001437749-26-035399",
@@ -8708,5 +8691,22 @@
   "headline": "_______ Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Com",
   "url": "https://www.sec.gov/Archives/edgar/data/1049659/000129281426005184/0001292814-26-005184-index.htm",
   "seen_kst": "2026-11-09 20:43"
+ },
+ {
+  "ticker": "SBH",
+  "form": "4",
+  "acc": "0001683382-26-000006",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:42:35+00:00",
+  "accepted_kst": "11/09 20:42",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1368458/000168338226000006/0001683382-26-000006-index.htm",
+  "seen_kst": "2026-11-09 20:45"
  }
 ]
