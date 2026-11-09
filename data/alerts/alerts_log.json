@@ -39274,5 +39274,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140124001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140124001",
   "grade": "open"
+ },
+ {
+  "id": "ICCM-1794239040",
+  "ts_kst": "2026-11-10 00:44",
+  "ts_utc": "2026-11-09T15:44:00+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "ICCM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.7% · 거래량 평소의 21.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ICCM 장중 급등 포착",
+  "body": "$0.890 (+30.7%) · 정규장 · 레벨 2 · 점수 28\n$1.25 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +30.7% · 거래량 평소의 21.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.845 지정가(기준가 $0.890의 −5%) · 체결 가능성 약 67% · 손익분기 $0.856\n숏 지지구간 $0.500–$0.750 · 손절 $0.445 · 1차목표 $1.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.89,
+  "level": 2,
+  "score": 27.7,
+  "prob": 28.643216080402006,
+  "cp": 10.345294885094438,
+  "rl": 1.25,
+  "stop": 0.4449999928474426,
+  "zone": [
+   0.5,
+   0.75
+  ],
+  "bp": 0.8455,
+  "tgt": 1.25,
+  "stp": 0.4449999928474426,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210826004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210826004",
+  "grade": "open"
  }
 ]
