@@ -1,23 +1,6 @@
 [
  {
   "ticker": "TG",
-  "form": "10-Q",
-  "acc": "0001628280-26-071343",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:18:41+00:00",
-  "accepted_kst": "11/06 22:18",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/850429/000162828026071343/0001628280-26-071343-index.htm",
-  "seen_kst": "2026-11-06 22:22"
- },
- {
-  "ticker": "TG",
   "form": "8-K",
   "acc": "0001628280-26-071347",
   "items": "2.02,9.01",
@@ -8707,5 +8690,22 @@
   "headline": "For release 6 November 2026 DAVION HEALTHCARE PLC APPOINTS VIENNA CAPITAL PARTNERS TO SUPPORT US$100 MILLION ACQUISITION FINANCING STRATEGY Financial advisory a",
   "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008401/0001683168-26-008401-index.htm",
   "seen_kst": "2026-11-09 21:48"
+ },
+ {
+  "ticker": "SPRC",
+  "form": "6-K/A",
+  "acc": "0001213900-26-117211",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:48:17+00:00",
+  "accepted_kst": "11/09 21:48",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1611746/000121390026117211/0001213900-26-117211-index.htm",
+  "seen_kst": "2026-11-09 21:50"
  }
 ]
