@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "SNT",
-  "form": "6-K",
-  "acc": "0001178913-26-005053",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T17:01:11+00:00",
-  "accepted_kst": "11/07 02:01",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "This Form 6-K and its exhibit (except the quotes in the third and fourth paragraphs) are being incorporated by reference into the Registrant’s Form S-8 Registra",
-  "url": "https://www.sec.gov/Archives/edgar/data/1993727/000117891326005053/0001178913-26-005053-index.htm",
-  "seen_kst": "2026-11-07 02:05"
- },
- {
-  "ticker": "CATX",
-  "form": "8-K",
-  "acc": "0001193125-26-451227",
-  "items": "8.01,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T17:05:21+00:00",
-  "accepted_kst": "11/07 02:05",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 catx-ex99_1.htm EX-99.1 Perspective Therapeutics Presents Promising [212Pb]Lapemelanotide Zapixetar (VMT01) Monotherapy Data from a Phase 1/2a Study i",
-  "url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526451227/0001193125-26-451227-index.htm",
-  "seen_kst": "2026-11-07 02:07"
- },
- {
   "ticker": "SLVM",
   "form": "10-Q",
   "acc": "0001856485-26-000044",
@@ -8745,5 +8711,44 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/916907/000199239526000006/0001992395-26-000006-index.htm",
   "seen_kst": "2026-11-09 22:55"
+ },
+ {
+  "ticker": "COUR",
+  "form": "8-K",
+  "acc": "0001140361-26-042621",
+  "items": "1.01,3.03,5.03,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:54:56+00:00",
+  "accepted_kst": "11/09 22:54",
+  "polarity": "neg",
+  "label": "파산·청산",
+  "cats": [],
+  "negs": [
+   "파산·청산",
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "Coursera Adopts Limited-Duration Stockholder Rights Plan Board of Directors Takes Action to Protect Long-Term Value for All Stockholders and Other Stakeholders ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1651562/000114036126042621/0001140361-26-042621-index.htm",
+  "seen_kst": "2026-11-09 22:57"
+ },
+ {
+  "ticker": "CAPS",
+  "form": "8-K",
+  "acc": "0001437749-26-035720",
+  "items": "1.01,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:55:11+00:00",
+  "accepted_kst": "11/09 22:55",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01. Entry into a Material Definitive Agreement. First Amendment to Senior Secured Convertible Note As previously disclosed, on July 29, 2025, Capstone Ho",
+  "url": "https://www.sec.gov/Archives/edgar/data/887151/000143774926035720/0001437749-26-035720-index.htm",
+  "seen_kst": "2026-11-09 22:57"
  }
 ]
