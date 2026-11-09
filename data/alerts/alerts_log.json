@@ -18002,10 +18002,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19931109001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19931109001",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 4,
+  "grade_ret": 0.006295081967213073,
+  "graded_bars": 4
  },
  {
   "id": "CLVT-1793736702",
@@ -41052,6 +41052,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220919001",
+  "grade": "open"
+ },
+ {
+  "id": "BESS-1794250743",
+  "ts_kst": "2026-11-10 03:59",
+  "ts_utc": "2026-11-09T18:59:03+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "BESS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.4% · 거래량 평소의 6.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BESS 장중 급등 포착",
+  "body": "$3.770 (+24.4%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중, $4.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 710만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +24.4% · 거래량 평소의 6.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 51%\n추천 매수가 $3.581 지정가(기준가 $3.770의 −5%) · 체결 가능성 약 58% · 손익분기 $3.625\n숏 지지구간 $3.250–$3.500 · 손절 $3.000 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.77,
+  "level": 2,
+  "score": 28.1,
+  "prob": 50.6142798637032,
+  "cp": 49.403023883410064,
+  "rl": 4.0,
+  "stop": 3.0,
+  "zone": [
+   3.25,
+   3.5
+  ],
+  "bp": 3.5815,
+  "tgt": 4.0,
+  "stp": 3.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
   "grade": "open"
  }
 ]

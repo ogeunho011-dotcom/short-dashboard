@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NVRI",
-  "form": "SCHEDULE 13G",
-  "acc": "0000312069-26-000251",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T19:49:56+00:00",
-  "accepted_kst": "11/07 04:49",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2104052/000031206926000251/0000312069-26-000251-index.htm",
-  "seen_kst": "2026-11-07 04:50"
- },
- {
   "ticker": "REA",
   "form": "4",
   "acc": "0001193125-26-451649",
@@ -8762,5 +8745,22 @@
   "headline": "Tiziana KOL Call Highlights Consistency Between Positive Phase 2a INFORM-MS Topline Results and Longer-Term Clinical Benefits Observed in Expanded Access Progra",
   "url": "https://www.sec.gov/Archives/edgar/data/1723069/000121390026117429/0001213900-26-117429-index.htm",
   "seen_kst": "2026-11-10 03:36"
+ },
+ {
+  "ticker": "CBFV",
+  "form": "4",
+  "acc": "0001437749-26-035822",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T18:57:14+00:00",
+  "accepted_kst": "11/10 03:57",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1605301/000143774926035822/0001437749-26-035822-index.htm",
+  "seen_kst": "2026-11-10 03:59"
  }
 ]
