@@ -39450,5 +39450,170 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210719008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210719008",
   "grade": "open"
+ },
+ {
+  "id": "MF-1794242045",
+  "ts_kst": "2026-11-10 01:34",
+  "ts_utc": "2026-11-09T16:34:05+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "MF",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +114.2% · 거래량 평소의 63.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 MF 장중 급등 포착 · 상위 확률 신호",
+  "body": "$22.230 (+114.2%) · 정규장 · 레벨 4 · 점수 55\n공매도 물량 대부분 손해 중, $24.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 83만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +114.2% · 거래량 평소의 63.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $21.118 지정가(기준가 $22.230의 −5%) · 체결 가능성 약 73% · 손익분기 $21.373\n숏 지지구간 $18.000–$19.480 · 손절 $17.000 · 1차목표 $24.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 22.2299,
+  "level": 4,
+  "score": 55.4,
+  "prob": 52.91666666666666,
+  "cp": 69.56786462634942,
+  "rl": 24.0,
+  "stop": 17.0,
+  "zone": [
+   18.0,
+   19.480465126037597
+  ],
+  "bp": 21.1184,
+  "tgt": 24.0,
+  "stp": 17.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240327005",
+  "grade": "open"
+ },
+ {
+  "id": "GFR-1794242045",
+  "ts_kst": "2026-11-10 01:34",
+  "ts_utc": "2026-11-09T16:34:05+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "GFR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +37.9% · 거래량 평소의 15.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GFR 장중 급등 포착",
+  "body": "$7.745 (+37.9%) · 정규장 · 레벨 2 · 점수 32\n공매도 물량 대부분 손해 중, $7.90 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +37.9% · 거래량 평소의 15.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $7.700–$7.745 · 손절 $7.650 · 1차목표 $7.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.745,
+  "level": 2,
+  "score": 32.0,
+  "prob": 52.91666666666666,
+  "cp": 48.120468538989066,
+  "rl": 7.8999999999999915,
+  "stop": 7.649999999999992,
+  "zone": [
+   7.699999999999992,
+   7.744999885559082
+  ],
+  "bp": null,
+  "tgt": 7.8999999999999915,
+  "stp": 7.649999999999992,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0230921001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0230921001",
+  "grade": "open"
+ },
+ {
+  "id": "GPUS-1794242045",
+  "ts_kst": "2026-11-10 01:34",
+  "ts_utc": "2026-11-09T16:34:05+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "GPUS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +34.1% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GPUS 장중 급등 포착",
+  "body": "$0.188 (+34.1%) · 정규장 · 레벨 2 · 점수 35\n공매도 물량 대부분 손해 중, $0.250 넘으면 급등 가능성 ↑ · 갭 상승 후 버티는 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +34.1% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.178 지정가(기준가 $0.188의 −5%) · 체결 가능성 약 73% · 손익분기 $0.181\n숏 지지구간 $0.131–$0.150 · 손절 $0.094 · 1차목표 $0.250\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 11/06)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-08-25\n⚠ 최근 악재 공시: 424B5 증자 서류(424B5) (11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1878,
+  "level": 2,
+  "score": 35.2,
+  "prob": 45.01661129568107,
+  "cp": 33.118640021269236,
+  "rl": 0.25000000000000006,
+  "stop": 0.09390000253915787,
+  "zone": [
+   0.13146000355482101,
+   0.15000000000000002
+  ],
+  "bp": 0.1784,
+  "tgt": 0.25000000000000006,
+  "stp": 0.09390000253915787,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 11/06)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-08-25",
+   "최근 악재 공시: 424B5 증자 서류(424B5) (11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230103002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230103002",
+  "grade": "open"
+ },
+ {
+  "id": "INLF-1794242045",
+  "ts_kst": "2026-11-10 01:34",
+  "ts_utc": "2026-11-09T16:34:05+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "INLF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.9% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ INLF 장중 급등 포착",
+  "body": "$0.290 (+28.9%) · 정규장 · 레벨 1 · 점수 25\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 640만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +28.9% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.276 지정가(기준가 $0.290의 −5%) · 체결 가능성 약 80% · 손익분기 $0.279\n숏 지지구간 $0.203–$0.290 · 손절 $0.145 · 1차목표 $0.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/20)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2903,
+  "level": 1,
+  "score": 24.7,
+  "prob": 30.68705443830464,
+  "cp": 39.093154121438936,
+  "rl": 0.5,
+  "stop": 0.14515000581741333,
+  "zone": [
+   0.20321000814437865,
+   0.29030001163482666
+  ],
+  "bp": 0.2758,
+  "tgt": 0.5,
+  "stp": 0.14515000581741333,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/20)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
+  "grade": "open"
  }
 ]
