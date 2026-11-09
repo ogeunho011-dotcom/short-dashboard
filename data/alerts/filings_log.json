@@ -1,40 +1,6 @@
 [
  {
   "ticker": "VEL",
-  "form": "8-K",
-  "acc": "0001193125-26-450422",
-  "items": "2.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T01:14:46+00:00",
-  "accepted_kst": "11/06 10:14",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Velocity Financial, Inc. Reports Third Quarter 2026 Results Third Quarter Highlights Financial Results • Pretax income of $38.3 million, an increase of 8.2% fro",
-  "url": "https://www.sec.gov/Archives/edgar/data/1692376/000119312526450422/0001193125-26-450422-index.htm",
-  "seen_kst": "2026-11-07 01:36"
- },
- {
-  "ticker": "EDN",
-  "form": "6-K",
-  "acc": "0001292814-26-005168",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:33:50+00:00",
-  "accepted_kst": "11/07 01:33",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Indicate by check mark whether the registrant by furnishing the information contained in this form is also thereby furnishing the information to the Commission",
-  "url": "https://www.sec.gov/Archives/edgar/data/1395213/000129281426005168/0001292814-26-005168-index.htm",
-  "seen_kst": "2026-11-07 01:36"
- },
- {
-  "ticker": "VEL",
   "form": "4",
   "acc": "0001214659-26-013806",
   "items": "",
@@ -8739,5 +8705,43 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1719714/000119312526452745/0001193125-26-452745-index.htm",
   "seen_kst": "2026-11-09 22:40"
+ },
+ {
+  "ticker": "IIPR",
+  "form": "8-K",
+  "acc": "0001104659-26-124214",
+  "items": "8.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:39:54+00:00",
+  "accepted_kst": "11/09 22:39",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. On November 9, 2026, Innovative Industrial Properties, Inc. (the “Company”) and IIP Operating Partnership, LP entered into amendments (c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1677576/000110465926124214/0001104659-26-124214-index.htm",
+  "seen_kst": "2026-11-09 22:43"
+ },
+ {
+  "ticker": "CISS",
+  "form": "424B3",
+  "acc": "0001193125-26-452751",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:40:26+00:00",
+  "accepted_kst": "11/09 22:40",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1951067/000119312526452751/0001193125-26-452751-index.htm",
+  "seen_kst": "2026-11-09 22:43"
  }
 ]
