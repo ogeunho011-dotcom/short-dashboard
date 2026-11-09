@@ -2,23 +2,6 @@
  {
   "ticker": "GTN",
   "form": "8-K",
-  "acc": "0001437749-26-035399",
-  "items": "8.01,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:35:20+00:00",
-  "accepted_kst": "11/06 20:35",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Current Report and incorporated herein by reference. Item 9.01 Financial Statements and Exhibits. (d) Exhibits 99.1 Press release issued by Gray Media,",
-  "url": "https://www.sec.gov/Archives/edgar/data/43196/000143774926035399/0001437749-26-035399-index.htm",
-  "seen_kst": "2026-11-06 20:37"
- },
- {
-  "ticker": "GTN",
-  "form": "8-K",
   "acc": "0001437749-26-035400",
   "items": "7.01,9.01",
   "filed": "2026-11-06",
@@ -8708,5 +8691,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1368458/000168338226000006/0001683382-26-000006-index.htm",
   "seen_kst": "2026-11-09 20:45"
+ },
+ {
+  "ticker": "LDI",
+  "form": "8-K",
+  "acc": "0001831631-26-000113",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:45:42+00:00",
+  "accepted_kst": "11/09 20:45",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 a2026q3earningsreleaseex991.htm EX-99.1 loanDepot announces third quarter 2026 financial results Strategic expansion and continued productivity gains",
+  "url": "https://www.sec.gov/Archives/edgar/data/1831631/000183163126000113/0001831631-26-000113-index.htm",
+  "seen_kst": "2026-11-09 20:47"
  }
 ]
