@@ -38978,5 +38978,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2606018002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2606018002",
   "grade": "open"
+ },
+ {
+  "id": "BYAH-1794236913",
+  "ts_kst": "2026-11-10 00:08",
+  "ts_utc": "2026-11-09T15:08:33+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "BYAH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.4% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BYAH 장중 급등 포착",
+  "body": "$2.599 (+20.4%) · 정규장 · 레벨 2 · 점수 35\n한 달 고점 돌파\n• 전일 대비 +20.4% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.485 지정가(60일선, 기준가 대비 -4.4%) · 체결 가능성 약 56% · 손익분기 $2.515\n숏 지지구간 $2.500–$2.599 · 손절 $2.250 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.5989,
+  "level": 2,
+  "score": 35.3,
+  "prob": 45.01661129568107,
+  "cp": 22.60306945864626,
+  "rl": 4.0,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   2.598900079727173
+  ],
+  "bp": 2.4851,
+  "tgt": 4.0,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241227003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241227003",
+  "grade": "open"
+ },
+ {
+  "id": "CSTE-1794236913",
+  "ts_kst": "2026-11-10 00:08",
+  "ts_utc": "2026-11-09T15:08:33+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "CSTE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.6% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CSTE 장중 급등 포착",
+  "body": "$1.500 (+15.6%) · 정규장 · 레벨 1 · 점수 7\n$1.75 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +15.6% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 27%\n추천 매수가 $1.391 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.2%) · 체결 가능성 약 68% · 손익분기 $1.408\n숏 지지구간 $1.000–$1.250 · 손절 $0.750 · 1차목표 $1.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.4996,
+  "level": 1,
+  "score": 7.1,
+  "prob": 27.137991225816528,
+  "cp": 22.581902979793824,
+  "rl": 1.75,
+  "stop": 0.75,
+  "zone": [
+   1.0,
+   1.25
+  ],
+  "bp": 1.3913,
+  "tgt": 1.75,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20120322001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20120322001",
+  "grade": "open"
  }
 ]
