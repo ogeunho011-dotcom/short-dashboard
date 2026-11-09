@@ -21459,7 +21459,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210203006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210203006",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 3,
+  "grade_ret": -0.19058117123795415,
+  "graded_bars": 3
  },
  {
   "id": "SLQT-1793807078",
@@ -23091,7 +23094,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210203006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210203006",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 3,
+  "grade_ret": -0.21085759722423025,
+  "graded_bars": 3
  },
  {
   "id": "HELE-fil-0000916789-26-000141",
@@ -24177,7 +24183,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210203006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210203006",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 3,
+  "grade_ret": -0.18900653594771255,
+  "graded_bars": 3
  },
  {
   "id": "AMSS-1793822598",
@@ -35300,9 +35309,9 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250228005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250228005",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.040005613210626005,
   "graded_bars": 1
  },
  {
@@ -39061,6 +39070,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20120322001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20120322001",
+  "grade": "open"
+ },
+ {
+  "id": "LINC-1794237969",
+  "ts_kst": "2026-11-10 00:26",
+  "ts_utc": "2026-11-09T15:26:09+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "LINC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.0% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LINC 장중 급등 포착",
+  "body": "$22.250 (+26.0%) · 정규장 · 레벨 1 · 점수 13\n$26.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +26.0% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $21.262 지정가(20일선, 기준가 대비 -4.4%) · 체결 가능성 약 47% · 손익분기 $21.519\n숏 지지구간 $20.000–$22.000 · 손절 $19.000 · 1차목표 $26.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 22.25,
+  "level": 1,
+  "score": 13.3,
+  "prob": 45.01661129568107,
+  "cp": 23.499109568478744,
+  "rl": 26.0,
+  "stop": 19.0,
+  "zone": [
+   20.0,
+   22.0
+  ],
+  "bp": 21.262,
+  "tgt": 26.0,
+  "stp": 19.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20050623002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20050623002",
   "grade": "open"
  }
 ]
