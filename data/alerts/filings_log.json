@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "FUFU",
-  "form": "6-K",
-  "acc": "0001213900-26-116602",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:00:21+00:00",
-  "accepted_kst": "11/06 22:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "BitFuFu Announces October 2026 Bitcoin Production and Operational Updates",
-  "url": "https://www.sec.gov/Archives/edgar/data/1921158/000121390026116602/0001213900-26-116602-index.htm",
-  "seen_kst": "2026-11-06 22:02"
- },
- {
-  "ticker": "AURE",
-  "form": "6-K",
-  "acc": "0001213900-26-116600",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:00:21+00:00",
-  "accepted_kst": "11/06 22:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Explanatory Note The information contained in this current report on Form 6-K is incorporated by reference into the registration statement on Form F-3 of Aureli",
-  "url": "https://www.sec.gov/Archives/edgar/data/1765850/000121390026116600/0001213900-26-116600-index.htm",
-  "seen_kst": "2026-11-06 22:02"
- },
- {
   "ticker": "HIHO",
   "form": "6-K",
   "acc": "0001213900-26-116603",
@@ -8703,5 +8669,41 @@
   "headline": "Item 8.01 Other Events. Further to its previous reports, as well as the approval of its shareholders received on October 26, 2026, on November 9, 2026, Silexion",
   "url": "https://www.sec.gov/Archives/edgar/data/2022416/000117891326005089/0001178913-26-005089-index.htm",
   "seen_kst": "2026-11-09 21:28"
+ },
+ {
+  "ticker": "AIIO",
+  "form": "424B3",
+  "acc": "0001213900-26-117199",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:27:21+00:00",
+  "accepted_kst": "11/09 21:27",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1932737/000121390026117199/0001213900-26-117199-index.htm",
+  "seen_kst": "2026-11-09 21:30"
+ },
+ {
+  "ticker": "OCUL",
+  "form": "8-K",
+  "acc": "0001104659-26-124159",
+  "items": "5.02",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:28:18+00:00",
+  "accepted_kst": "11/09 21:28",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Ele",
+  "url": "https://www.sec.gov/Archives/edgar/data/1393434/000110465926124159/0001104659-26-124159-index.htm",
+  "seen_kst": "2026-11-09 21:30"
  }
 ]
