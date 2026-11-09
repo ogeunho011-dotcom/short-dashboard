@@ -2,23 +2,6 @@
  {
   "ticker": "LKFN",
   "form": "4",
-  "acc": "0000721994-26-000087",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:26:04+00:00",
-  "accepted_kst": "11/07 03:26",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000087/0000721994-26-000087-index.htm",
-  "seen_kst": "2026-11-07 03:28"
- },
- {
-  "ticker": "LKFN",
-  "form": "4",
   "acc": "0001189410-26-000010",
   "items": "",
   "filed": "2026-11-06",
@@ -8756,5 +8739,22 @@
   "headline": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31",
   "url": "https://www.sec.gov/Archives/edgar/data/1075736/000165495426009615/0001654954-26-009615-index.htm",
   "seen_kst": "2026-11-09 23:33"
+ },
+ {
+  "ticker": "FLWS",
+  "form": "4",
+  "acc": "0001437749-26-035741",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T14:35:49+00:00",
+  "accepted_kst": "11/09 23:35",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1084869/000143774926035741/0001437749-26-035741-index.htm",
+  "seen_kst": "2026-11-09 23:37"
  }
 ]
