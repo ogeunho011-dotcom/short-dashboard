@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "SBSI",
-  "form": "4",
-  "acc": "0001526003-26-000005",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:05:30+00:00",
-  "accepted_kst": "11/07 01:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/705432/000152600326000005/0001526003-26-000005-index.htm",
-  "seen_kst": "2026-11-07 01:08"
- },
- {
-  "ticker": "ELPW",
-  "form": "424B3",
-  "acc": "0001493152-26-050382",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:10:14+00:00",
-  "accepted_kst": "11/07 01:10",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226050382/0001493152-26-050382-index.htm",
-  "seen_kst": "2026-11-07 01:13"
- },
- {
-  "ticker": "WSBK",
-  "form": "4",
-  "acc": "0001193125-26-451122",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:12:22+00:00",
-  "accepted_kst": "11/07 01:12",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2047235/000119312526451122/0001193125-26-451122-index.htm",
-  "seen_kst": "2026-11-07 01:13"
- },
- {
   "ticker": "ELPW",
   "form": "424B3",
   "acc": "0001493152-26-050383",
@@ -8737,5 +8684,58 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1430306/000199937126024873/0001999371-26-024873-index.htm",
   "seen_kst": "2026-11-09 22:28"
+ },
+ {
+  "ticker": "BBCI",
+  "form": "6-K",
+  "acc": "0001493152-26-050643",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:28:01+00:00",
+  "accepted_kst": "11/09 22:28",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Effective Nov",
+  "url": "https://www.sec.gov/Archives/edgar/data/1986694/000149315226050643/0001493152-26-050643-index.htm",
+  "seen_kst": "2026-11-09 22:30"
+ },
+ {
+  "ticker": "CISS",
+  "form": "6-K",
+  "acc": "0001193125-26-452731",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:30:02+00:00",
+  "accepted_kst": "11/09 22:30",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Reverse Stock Split On November 6, 2026, C3is Inc. (the “Company”) filed an amendment to its Restated Articles of Incorporation, to effectuate a reverse stock s",
+  "url": "https://www.sec.gov/Archives/edgar/data/1951067/000119312526452731/0001193125-26-452731-index.htm",
+  "seen_kst": "2026-11-09 22:30"
+ },
+ {
+  "ticker": "ONMD",
+  "form": "8-K",
+  "acc": "0001493152-26-050644",
+  "items": "2.02,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:30:04+00:00",
+  "accepted_kst": "11/09 22:30",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "OneMedNet Reports $18.76 Million in Year-to-Date of Contracted Bookings and Publishes “OneMedNet by the Numbers” Growth Recap Contracted Demand Now Stands at Ne",
+  "url": "https://www.sec.gov/Archives/edgar/data/1849380/000149315226050644/0001493152-26-050644-index.htm",
+  "seen_kst": "2026-11-09 22:30"
  }
 ]
