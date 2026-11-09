@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CVV",
-  "form": "4",
-  "acc": "0000766792-26-000002",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T19:27:22+00:00",
-  "accepted_kst": "11/07 04:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000002/0000766792-26-000002-index.htm",
-  "seen_kst": "2026-11-07 04:30"
- },
- {
   "ticker": "MED",
   "form": "4",
   "acc": "0001213900-26-116801",
@@ -8760,5 +8743,22 @@
   "headline": "BARTELS ROBERT E JR",
   "url": "https://www.sec.gov/Archives/edgar/data/721994/000121021226000004/0001210212-26-000004-index.htm",
   "seen_kst": "2026-11-10 01:39"
+ },
+ {
+  "ticker": "GCBC",
+  "form": "8-K",
+  "acc": "0001140361-26-042702",
+  "items": "5.03,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T17:17:05+00:00",
+  "accepted_kst": "11/10 02:17",
+  "polarity": "neutral",
+  "label": "5.03",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Date: November 9, 2026 For Further Information Contact: Donald E. Gibson President and Chief Executive Officer (518) 943-2600 donaldg@bankofgreene.com GREENE CO",
+  "url": "https://www.sec.gov/Archives/edgar/data/1070524/000114036126042702/0001140361-26-042702-index.htm",
+  "seen_kst": "2026-11-10 02:19"
  }
 ]
