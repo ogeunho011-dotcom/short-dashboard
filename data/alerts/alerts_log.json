@@ -39110,5 +39110,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20050623002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20050623002",
   "grade": "open"
+ },
+ {
+  "id": "BAER-1794238122",
+  "ts_kst": "2026-11-10 00:28",
+  "ts_utc": "2026-11-09T15:28:42+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "BAER",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.0% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BAER 장중 급등 포착",
+  "body": "$0.228 (+20.0%) · 정규장 · 레벨 1 · 점수 22\n$0.300 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 전일 대비 +20.0% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.217 지정가(기준가 $0.228의 −5%) · 체결 가능성 약 81% · 손익분기 $0.219\n숏 지지구간 $0.160–$0.200 · 손절 $0.114 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2282,
+  "level": 1,
+  "score": 22.0,
+  "prob": 31.25,
+  "cp": 11.278911135630583,
+  "rl": 0.30000000000000004,
+  "stop": 0.11410000175237656,
+  "zone": [
+   0.15974000245332717,
+   0.2
+  ],
+  "bp": 0.2168,
+  "tgt": 0.30000000000000004,
+  "stp": 0.11410000175237656,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125003",
+  "grade": "open"
  }
 ]
