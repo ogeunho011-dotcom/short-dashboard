@@ -35294,7 +35294,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608004004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608004004",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "RHLD-1793987031",
@@ -36125,7 +36128,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608004004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608004004",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "HPAI-1793993718",
@@ -36585,7 +36591,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608004004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608004004",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "TRNS-fil-0000891839-26-000478",
@@ -40555,5 +40564,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210719008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210719008",
   "grade": "open"
+ },
+ {
+  "id": "NXXT-1794248495",
+  "ts_kst": "2026-11-10 03:21",
+  "ts_utc": "2026-11-09T18:21:35+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "NXXT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.0% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NXXT 장중 급등 포착",
+  "body": "$2.759 (+20.0%) · 정규장 · 레벨 2 · 점수 36\n오늘 거래량 평소의 5배 이상, 관심 급증 · 갭 상승 후 버티는 중\n• 전일 대비 +20.0% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $2.571 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.8%) · 체결 가능성 약 73% · 손익분기 $2.602\n숏 지지구간 $2.000–$2.759 · 손절 $1.380 · 1차목표 $6.340\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 75/100\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.7593,
+  "level": 2,
+  "score": 35.9,
+  "prob": 38.456237077877326,
+  "cp": 26.579522,
+  "rl": 20.0,
+  "stop": 1.3796499967575073,
+  "zone": [
+   2.0,
+   2.7592999935150146
+  ],
+  "bp": 2.5707,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-30",
+   "희석 위험 75/100",
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210914005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210914005",
+  "grade": "n/a"
  }
 ]
