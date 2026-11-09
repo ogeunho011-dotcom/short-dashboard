@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "CTM",
-  "form": "8-K",
-  "acc": "0001877939-26-000098",
-  "items": "2.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:01:46+00:00",
-  "accepted_kst": "11/06 20:01",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Castellum Announces Third Quarter 2026 Financial Results Ended the Quarter with a Debt-Free Balance Sheet and $24.5 Million of Cash and Accounts Receivable Repo",
-  "url": "https://www.sec.gov/Archives/edgar/data/1877939/000187793926000098/0001877939-26-000098-index.htm",
-  "seen_kst": "2026-11-06 20:06"
- },
- {
   "ticker": "SLVM",
   "form": "8-K",
   "acc": "0001193125-26-450635",
@@ -8716,5 +8697,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1857475/000185747526000094/0001857475-26-000094-index.htm",
   "seen_kst": "2026-11-09 20:08"
+ },
+ {
+  "ticker": "HE",
+  "form": "8-K",
+  "acc": "0000354707-26-000082",
+  "items": "7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:07:32+00:00",
+  "accepted_kst": "11/09 20:07",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "November 2026 EEI Investor Meetings 104 Cover Page Interactive Data File (embedded within the Inline XBRL document) The information furnished in connection with",
+  "url": "https://www.sec.gov/Archives/edgar/data/354707/000035470726000082/0000354707-26-000082-index.htm",
+  "seen_kst": "2026-11-09 20:10"
  }
 ]
