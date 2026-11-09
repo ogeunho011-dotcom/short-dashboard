@@ -28598,7 +28598,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201009002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201009002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.19431168831168832,
+  "graded_bars": 2
  },
  {
   "id": "TBI-1793898237",
@@ -29762,7 +29765,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201009002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201009002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.15648543689320382,
+  "graded_bars": 2
  },
  {
   "id": "TBI-1793905678",
@@ -41130,6 +41136,48 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2606018002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2606018002",
+  "grade": "open"
+ },
+ {
+  "id": "HRTX-1794252778",
+  "ts_kst": "2026-11-10 04:32",
+  "ts_utc": "2026-11-09T19:32:58+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "HRTX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.3% · 거래량 평소의 105.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HRTX 장중 급등 포착",
+  "body": "$0.384 (+32.3%) · 정규장 · 레벨 2 · 점수 31\n$0.400 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +32.3% · 거래량 평소의 105.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.365 지정가(기준가 $0.384의 −5%) · 체결 가능성 약 54% · 손익분기 $0.369\n숏 지지구간 $0.340–$0.360 · 손절 $0.320 · 1차목표 $0.400\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 최근 악재 공시: 8-K 주주 권리 변경(역분할 등)(항목 3.03) (11/09)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3837,
+  "level": 2,
+  "score": 30.8,
+  "prob": 53.44827586206896,
+  "cp": 54.95907062247937,
+  "rl": 0.40000000000000013,
+  "stop": 0.32000000000000006,
+  "zone": [
+   0.3400000000000001,
+   0.3600000000000001
+  ],
+  "bp": 0.3645,
+  "tgt": 0.40000000000000013,
+  "stp": 0.32000000000000006,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "최근 악재 공시: 8-K 주주 권리 변경(역분할 등)(항목 3.03) (11/09)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140124001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140124001",
   "grade": "open"
  }
 ]
