@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "GFAI",
-  "form": "6-K",
-  "acc": "0001213900-26-116863",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T21:00:10+00:00",
-  "accepted_kst": "11/07 06:00",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Guardforce AI Co., Limited (the “ Company ”) held its adjourned extraordinary general meeting of members (the “ Meeting ”) at 11:00 a.m., Hong Kong standard tim",
-  "url": "https://www.sec.gov/Archives/edgar/data/1804469/000121390026116863/0001213900-26-116863-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
   "ticker": "JFU",
   "form": "6-K",
   "acc": "0001213900-26-116865",
@@ -8760,5 +8741,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1371285/000100027526000125/0001000275-26-000125-index.htm",
   "seen_kst": "2026-11-10 04:35"
+ },
+ {
+  "ticker": "GROW",
+  "form": "4",
+  "acc": "0001062993-26-005821",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T19:37:01+00:00",
+  "accepted_kst": "11/10 04:37",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $82,691 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Pilecki Derek Steven",
+  "url": "https://www.sec.gov/Archives/edgar/data/754811/000106299326005821/0001062993-26-005821-index.htm",
+  "seen_kst": "2026-11-10 04:41"
  }
 ]
