@@ -41305,5 +41305,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220927006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220927006",
   "grade": "open"
+ },
+ {
+  "id": "DCTH-1794255479",
+  "ts_kst": "2026-11-10 05:17",
+  "ts_utc": "2026-11-09T20:17:59+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "DCTH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.5% · 거래량 평소의 8.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ DCTH 장중 급등 포착",
+  "body": "$19.790 (+32.5%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $20.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 8배 이상, 관심 급증\n• 전일 대비 +32.5% · 거래량 평소의 8.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $18.801 지정가(기준가 $19.790의 −5%) · 체결 가능성 약 25% · 손익분기 $19.027\n숏 지지구간 $18.000–$18.627 · 손절 $17.750 · 1차목표 $20.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 19.79,
+  "level": 2,
+  "score": 39.2,
+  "prob": 53.44827586206896,
+  "cp": 71.78000305175782,
+  "rl": 20.0,
+  "stop": 17.75,
+  "zone": [
+   18.0,
+   18.62650032043457
+  ],
+  "bp": 18.8005,
+  "tgt": 20.0,
+  "stp": 17.75,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200501001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200501001",
+  "grade": "open"
  }
 ]

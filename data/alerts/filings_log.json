@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SELF",
-  "form": "10-Q",
-  "acc": "0001437749-26-035559",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T21:02:34+00:00",
-  "accepted_kst": "11/07 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1031235/000143774926035559/0001437749-26-035559-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
   "ticker": "NKTX",
   "form": "8-K",
   "acc": "0001787400-26-000023",
@@ -8758,5 +8741,22 @@
   "headline": "Calle La Colonia N° 150, Urb. El Vivero - Santiago de Surco Tel: 317-6000 Lima, November 9, 2026 Sirs Superintendencia del Mercado De Valores – SMV Lima.- Refer",
   "url": "https://www.sec.gov/Archives/edgar/data/1221029/000121390026117489/0001213900-26-117489-index.htm",
   "seen_kst": "2026-11-10 05:06"
+ },
+ {
+  "ticker": "DLPN",
+  "form": "4",
+  "acc": "0001079973-26-001439",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T20:14:42+00:00",
+  "accepted_kst": "11/10 05:14",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $4,940 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "O'Dowd William IV",
+  "url": "https://www.sec.gov/Archives/edgar/data/1282224/000107997326001439/0001079973-26-001439-index.htm",
+  "seen_kst": "2026-11-10 05:18"
  }
 ]
