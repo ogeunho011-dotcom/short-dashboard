@@ -37347,5 +37347,50 @@
    "accepted_kst": "11/09 21:13",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "ANTX-fil-0001193125-26-452660",
+  "ts_kst": "2026-11-09 21:33",
+  "ts_utc": "2026-11-09T12:33:06+00:00",
+  "date_et": "2026-11-09",
+  "session": "filing",
+  "ticker": "ANTX",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가 · 임상 시험 승인(IND)"
+  ],
+  "title": "📢 ANTX 호재 공시",
+  "body": "8-K · FDA 승인·허가 · 임상 시험 승인(IND) (11/09 21:31 KST)\nAN2 Therapeutics Reports Third Quarter 2026 Financial Results and Recent Business and Scientific Highlights Global Phase 2 study of oral epe\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220324002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220324002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-452660",
+   "items": "2.02,9.01",
+   "label": "FDA 승인·허가 · 임상 시험 승인(IND)",
+   "cats": [
+    "FDA 승인·허가",
+    "임상 시험 승인(IND)",
+    "제휴·라이선스"
+   ],
+   "strength": 5,
+   "headline": "AN2 Therapeutics Reports Third Quarter 2026 Financial Results and Recent Business and Scientific Highlights Global Phase 2 study of oral epetraborole in polycyt",
+   "url": "https://www.sec.gov/Archives/edgar/data/1880438/000119312526452660/0001193125-26-452660-index.htm",
+   "accepted_kst": "11/09 21:31",
+   "polarity": "pos"
+  }
  }
 ]
