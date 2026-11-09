@@ -40812,5 +40812,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20091001003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20091001003",
   "grade": "open"
+ },
+ {
+  "id": "CKX-1794249994",
+  "ts_kst": "2026-11-10 03:46",
+  "ts_utc": "2026-11-09T18:46:34+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "CKX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +89.0% · 거래량 평소의 19193.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CKX 장중 급등 포착",
+  "body": "$19.600 (+89.0%) · 정규장 · 레벨 2 · 점수 38\n$21.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 205만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +89.0% · 거래량 평소의 19193.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $18.620 지정가(기준가 $19.600의 −5%) · 체결 가능성 약 40% · 손익분기 $18.845\n숏 지지구간 $17.000–$18.000 · 손절 $16.000 · 1차목표 $21.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 19.6,
+  "level": 2,
+  "score": 37.8,
+  "prob": 53.15826539961793,
+  "cp": 58.89418765501999,
+  "rl": 21.0,
+  "stop": 16.0,
+  "zone": [
+   17.0,
+   18.0
+  ],
+  "bp": 18.62,
+  "tgt": 21.0,
+  "stp": 16.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19990713001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19990713001",
+  "grade": "open"
  }
 ]
