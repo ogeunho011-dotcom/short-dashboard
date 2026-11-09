@@ -1,44 +1,5 @@
 [
  {
-  "ticker": "WHLR",
-  "form": "8-K",
-  "acc": "0001527541-26-000427",
-  "items": "3.03,8.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:16:35+00:00",
-  "accepted_kst": "11/06 22:16",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "주주 권리 변경(역분할 등)(항목 3.03)"
-  ],
-  "strength": 0,
-  "headline": "Item 3.03. Material Modification to Rights of Security Holders Conversion Price of 7.00% Subordinated Convertible Notes due 2031 Item 8.01 of this Current Repor",
-  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000427/0001527541-26-000427-index.htm",
-  "seen_kst": "2026-11-06 22:17"
- },
- {
-  "ticker": "WHLR",
-  "form": "424B3",
-  "acc": "0001527541-26-000429",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:18:45+00:00",
-  "accepted_kst": "11/06 22:18",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000429/0001527541-26-000429-index.htm",
-  "seen_kst": "2026-11-06 22:20"
- },
- {
   "ticker": "TG",
   "form": "10-Q",
   "acc": "0001628280-26-071343",
@@ -8710,5 +8671,41 @@
   "headline": "Nov 9, 2026 7:00 AM Eastern Standard Time Air Industries Group Announces Significantly Improved Financial Results for the Three and Nine Months Ended September ",
   "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026117207/0001213900-26-117207-index.htm",
   "seen_kst": "2026-11-09 21:45"
+ },
+ {
+  "ticker": "JAGX",
+  "form": "424B3",
+  "acc": "0001193125-26-452676",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:46:01+00:00",
+  "accepted_kst": "11/09 21:46",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526452676/0001193125-26-452676-index.htm",
+  "seen_kst": "2026-11-09 21:48"
+ },
+ {
+  "ticker": "DAVI",
+  "form": "6-K",
+  "acc": "0001683168-26-008401",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:46:53+00:00",
+  "accepted_kst": "11/09 21:46",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "For release 6 November 2026 DAVION HEALTHCARE PLC APPOINTS VIENNA CAPITAL PARTNERS TO SUPPORT US$100 MILLION ACQUISITION FINANCING STRATEGY Financial advisory a",
+  "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008401/0001683168-26-008401-index.htm",
+  "seen_kst": "2026-11-09 21:48"
  }
 ]
