@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "VSA",
-  "form": "6-K",
-  "acc": "0001213900-26-116549",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:10:30+00:00",
-  "accepted_kst": "11/06 20:10",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Closing of Private Placement As previously disclosed on the Company’s Form 6-K filed with the Securities and Exchange Commission on July 10, 2026, VisionSys AI",
-  "url": "https://www.sec.gov/Archives/edgar/data/1592560/000121390026116549/0001213900-26-116549-index.htm",
-  "seen_kst": "2026-11-06 20:15"
- },
- {
-  "ticker": "PHAR",
-  "form": "6-K",
-  "acc": "0001828316-26-000051",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:09:48+00:00",
-  "accepted_kst": "11/06 20:09",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Report on Form 6-K is a press release of Pharming Group N.V., or the Company, dated November 6, 2026. EXHIBIT INDEX Exhibit No. Description 99.1 MHRA ap",
-  "url": "https://www.sec.gov/Archives/edgar/data/1828316/000182831626000051/0001828316-26-000051-index.htm",
-  "seen_kst": "2026-11-06 20:17"
- },
- {
-  "ticker": "CRNT",
-  "form": "4",
-  "acc": "0001976408-26-000932",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:15:57+00:00",
-  "accepted_kst": "11/06 20:15",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1119769/000197640826000932/0001976408-26-000932-index.htm",
-  "seen_kst": "2026-11-06 20:17"
- },
- {
   "ticker": "DCBO",
   "form": "6-K",
   "acc": "0001628280-26-071289",
@@ -8707,5 +8654,59 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1368458/000180726626000012/0001807266-26-000012-index.htm",
   "seen_kst": "2026-11-09 20:30"
+ },
+ {
+  "ticker": "NHP",
+  "form": "8-K",
+  "acc": "0001140361-26-042582",
+  "items": "5.02,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:30:21+00:00",
+  "accepted_kst": "11/09 20:30",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
+  "url": "https://www.sec.gov/Archives/edgar/data/1561032/000114036126042582/0001140361-26-042582-index.htm",
+  "seen_kst": "2026-11-09 20:33"
+ },
+ {
+  "ticker": "ABEO",
+  "form": "8-K",
+  "acc": "0001493152-26-050606",
+  "items": "1.01,2.01,3.02,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:30:34+00:00",
+  "accepted_kst": "11/09 20:30",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "Abeona Therapeutics ® Acquires Phase 3-Ready APT-1011, Now ABO-801, and Enters Into Agreement for $30 Million Private Placement - Adds a once-daily, oral therap",
+  "url": "https://www.sec.gov/Archives/edgar/data/318306/000149315226050606/0001493152-26-050606-index.htm",
+  "seen_kst": "2026-11-09 20:33"
+ },
+ {
+  "ticker": "SBH",
+  "form": "4",
+  "acc": "0001833119-26-000004",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:31:40+00:00",
+  "accepted_kst": "11/09 20:31",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1368458/000183311926000004/0001833119-26-000004-index.htm",
+  "seen_kst": "2026-11-09 20:33"
  }
 ]
