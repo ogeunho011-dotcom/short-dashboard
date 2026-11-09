@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "GOGO",
-  "form": "10-Q",
-  "acc": "0001193125-26-451817",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T21:05:16+00:00",
-  "accepted_kst": "11/07 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1537054/000119312526451817/0001193125-26-451817-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
-  "ticker": "MDRR",
-  "form": "8-K/A",
-  "acc": "0001104659-26-123849",
-  "items": "9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T21:05:19+00:00",
-  "accepted_kst": "11/07 06:05",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "PILOT POINT CALIBER PROPERTY FINANCIAL STATEMENTS Six Months Ended June 30, 2026 (unaudited) and Year Ended December 31, 2025 Table of Contents Report of Indepe",
-  "url": "https://www.sec.gov/Archives/edgar/data/1654595/000110465926123849/0001104659-26-123849-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
   "ticker": "ATYR",
   "form": "424B5",
   "acc": "0001339970-26-000083",
@@ -8758,5 +8724,41 @@
   "headline": "Equels Thomas K",
   "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226050703/0001493152-26-050703-index.htm",
   "seen_kst": "2026-11-10 05:49"
+ },
+ {
+  "ticker": "CMCO",
+  "form": "4",
+  "acc": "0001628280-26-072106",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T20:54:01+00:00",
+  "accepted_kst": "11/10 05:54",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $551,349",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Wilson David J.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1005229/000162828026072106/0001628280-26-072106-index.htm",
+  "seen_kst": "2026-11-10 05:56"
+ },
+ {
+  "ticker": "NVX",
+  "form": "6-K",
+  "acc": "0001193125-26-453505",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T20:54:14+00:00",
+  "accepted_kst": "11/10 05:54",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Announcement Summary Entity name NOVONIX LIMITED Date of this announcement Monday November 9, 2026 The +securities the subject of this notification are: +Other",
+  "url": "https://www.sec.gov/Archives/edgar/data/1859795/000119312526453505/0001193125-26-453505-index.htm",
+  "seen_kst": "2026-11-10 05:56"
  }
 ]
