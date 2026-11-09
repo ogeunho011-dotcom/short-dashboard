@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "ALGS",
-  "form": "10-Q",
-  "acc": "0001193125-26-450798",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:07:33+00:00",
-  "accepted_kst": "11/06 22:07",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1799448/000119312526450798/0001193125-26-450798-index.htm",
-  "seen_kst": "2026-11-06 22:10"
- },
- {
-  "ticker": "LCUT",
-  "form": "8-K/A",
-  "acc": "0000874396-26-000058",
-  "items": "2.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:09:49+00:00",
-  "accepted_kst": "11/06 22:09",
-  "polarity": "pos",
-  "label": "자사주 매입",
-  "cats": [
-   "자사주 매입"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Lifetime Brands, Inc. Reports Third Quarter 2026 Financial Results Declares Regular Quarterly Dividend Board Authorizes $20M Share Repurchase Program",
-  "url": "https://www.sec.gov/Archives/edgar/data/874396/000087439626000058/0000874396-26-000058-index.htm",
-  "seen_kst": "2026-11-06 22:12"
- },
- {
   "ticker": "TARA",
   "form": "10-Q",
   "acc": "0001213900-26-116612",
@@ -8710,5 +8674,39 @@
   "headline": "AN2 Therapeutics Reports Third Quarter 2026 Financial Results and Recent Business and Scientific Highlights Global Phase 2 study of oral epetraborole in polycyt",
   "url": "https://www.sec.gov/Archives/edgar/data/1880438/000119312526452660/0001193125-26-452660-index.htm",
   "seen_kst": "2026-11-09 21:33"
+ },
+ {
+  "ticker": "GT",
+  "form": "8-K",
+  "acc": "0001628280-26-071879",
+  "items": "5.02,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:32:02+00:00",
+  "accepted_kst": "11/09 21:32",
+  "polarity": "neutral",
+  "label": "임원 변경 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Eff",
+  "url": "https://www.sec.gov/Archives/edgar/data/42582/000162828026071879/0001628280-26-071879-index.htm",
+  "seen_kst": "2026-11-09 21:35"
+ },
+ {
+  "ticker": "ANTX",
+  "form": "10-Q",
+  "acc": "0001193125-26-452664",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:33:12+00:00",
+  "accepted_kst": "11/09 21:33",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1880438/000119312526452664/0001193125-26-452664-index.htm",
+  "seen_kst": "2026-11-09 21:35"
  }
 ]

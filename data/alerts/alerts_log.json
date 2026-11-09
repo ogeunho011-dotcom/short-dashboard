@@ -37392,5 +37392,44 @@
    "accepted_kst": "11/09 21:31",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "JDZG-1794227729",
+  "ts_kst": "2026-11-09 21:35",
+  "ts_utc": "2026-11-09T12:35:29+00:00",
+  "date_et": "2026-11-09",
+  "session": "pre",
+  "ticker": "JDZG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +14.8% 급변 · 전일 대비 +108.9% — 추격 매수 주의"
+  ],
+  "title": "⚡ JDZG 장중 급등 포착",
+  "body": "$0.437 (+108.9%) · 프리마켓 · 레벨 2 · 점수 38\n시장에 도는 주식 41만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 5분 +14.8% 급변 · 전일 대비 +108.9% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 20%\n추천 매수가 $0.370 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -15.2%) · 체결 가능성 약 85% · 손익분기 $0.375\n숏 지지구간 $0.306–$0.437 · 손절 $0.218 · 1차목표 $0.655\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4366,
+  "level": 2,
+  "score": 38.3,
+  "prob": 19.802332528511428,
+  "cp": 22.0,
+  "rl": 2.0,
+  "stop": 0.2183,
+  "zone": [
+   0.30561999999999995,
+   0.4366
+  ],
+  "bp": 0.3704,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240515002",
+  "grade": "n/a"
  }
 ]
