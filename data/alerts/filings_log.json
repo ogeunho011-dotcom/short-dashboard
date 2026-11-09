@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LEU",
-  "form": "4",
-  "acc": "0001628280-26-071509",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:18:48+00:00",
-  "accepted_kst": "11/07 03:18",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026071509/0001628280-26-071509-index.htm",
-  "seen_kst": "2026-11-07 03:20"
- },
- {
   "ticker": "WEYS",
   "form": "144",
   "acc": "0001312596-26-000018",
@@ -8754,5 +8737,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/350852/000035085226000076/0000350852-26-000076-index.htm",
   "seen_kst": "2026-11-09 23:20"
+ },
+ {
+  "ticker": "NKTX",
+  "form": "8-K",
+  "acc": "0001787400-26-000027",
+  "items": "7.01,8.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T14:20:34+00:00",
+  "accepted_kst": "11/09 23:20",
+  "polarity": "neutral",
+  "label": "IR 자료 · 기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Nkarta Announces Initial Clinical Data for NKX019 in Myositis and Systemic Sclerosis at ACR Convergence • In myositis, 5/6 (83%) patients treated at 4 billion c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1787400/000178740026000027/0001787400-26-000027-index.htm",
+  "seen_kst": "2026-11-09 23:22"
  }
 ]
