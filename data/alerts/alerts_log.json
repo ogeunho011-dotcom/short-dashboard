@@ -40851,5 +40851,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19990713001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19990713001",
   "grade": "open"
+ },
+ {
+  "id": "RYDE-1794250144",
+  "ts_kst": "2026-11-10 03:49",
+  "ts_utc": "2026-11-09T18:49:04+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "RYDE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.8% · 거래량 평소의 6.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RYDE 장중 급등 포착",
+  "body": "$0.885 (+19.8%) · 정규장 · 레벨 1 · 점수 25\n공매도 물량 대부분 손해 중, $0.950 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 9배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +19.8% · 거래량 평소의 6.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.841 지정가(기준가 $0.885의 −5%) · 체결 가능성 약 59% · 손익분기 $0.851\n숏 지지구간 $0.850–$0.885 · 손절 $0.800 · 1차목표 $0.950\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.885,
+  "level": 1,
+  "score": 24.9,
+  "prob": 52.91666666666666,
+  "cp": 55.21867374908735,
+  "rl": 0.95,
+  "stop": 0.7999999999999998,
+  "zone": [
+   0.8499999999999999,
+   0.8849999904632568
+  ],
+  "bp": 0.8407,
+  "tgt": 0.95,
+  "stp": 0.7999999999999998,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240229002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240229002",
+  "grade": "open"
+ },
+ {
+  "id": "SNT-1794250144",
+  "ts_kst": "2026-11-10 03:49",
+  "ts_utc": "2026-11-09T18:49:04+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "SNT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 SNT 상위 확률 신호",
+  "body": "$2.339 (+23.1%) · 정규장 · 레벨 3 · 점수 43\n공매도 물량 대부분 손해 중, $2.35 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.222 지정가(기준가 $2.339의 −5%) · 체결 가능성 약 51% · 손익분기 $2.248\n숏 지지구간 $2.150–$2.216 · 손절 $2.100 · 1차목표 $2.350\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.3385,
+  "level": 3,
+  "score": 42.9,
+  "prob": 52.91666666666666,
+  "cp": 61.67375951455837,
+  "rl": 2.350000000000001,
+  "stop": 2.100000000000001,
+  "zone": [
+   2.150000000000001,
+   2.2159750080108647
+  ],
+  "bp": 2.2216,
+  "tgt": 2.702500000000001,
+  "stp": 2.100000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930012",
+  "grade": "open"
  }
 ]
