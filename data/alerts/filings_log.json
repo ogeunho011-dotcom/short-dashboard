@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SBSI",
-  "form": "144",
-  "acc": "0001950047-26-010725",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:13:18+00:00",
-  "accepted_kst": "11/06 06:13",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/705432/000195004726010725/0001950047-26-010725-index.htm",
-  "seen_kst": "2026-11-07 01:08"
- },
- {
   "ticker": "EVAX",
   "form": "6-K",
   "acc": "0001171843-26-007220",
@@ -8735,5 +8718,24 @@
   "headline": "Item 8.01. Other Events During the period from November 4, 2026 through November 9, 2026, the Company purchased sixteen (16) Bitcoin at an average purchase pric",
   "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926035718/0001437749-26-035718-index.htm",
   "seen_kst": "2026-11-09 22:23"
+ },
+ {
+  "ticker": "IIPR",
+  "form": "424B5",
+  "acc": "0001104659-26-124205",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:24:01+00:00",
+  "accepted_kst": "11/09 22:24",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1677576/000110465926124205/0001104659-26-124205-index.htm",
+  "seen_kst": "2026-11-09 22:25"
  }
 ]
