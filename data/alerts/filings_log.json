@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "PARA",
-  "form": "424B4",
-  "acc": "0001493152-26-050319",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T03:00:13+00:00",
-  "accepted_kst": "11/06 12:00",
-  "polarity": "neg",
-  "label": "증자 서류(424B4)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1826011/000149315226050319/0001493152-26-050319-index.htm",
-  "seen_kst": "2026-11-06 20:10"
- },
- {
   "ticker": "CABR",
   "form": "EFFECT",
   "acc": "9999999995-26-003456",
@@ -8714,5 +8695,22 @@
   "headline": "Marti Reports First-Ever Positive Operating Income as Q3 2026 Revenue Hits Record $24.7 Million and Gross Margin Expands to Record 81% Net loss narrows to $1.0",
   "url": "https://www.sec.gov/Archives/edgar/data/1852767/000121390026117159/0001213900-26-117159-index.htm",
   "seen_kst": "2026-11-09 20:13"
+ },
+ {
+  "ticker": "CNTN",
+  "form": "8-K",
+  "acc": "0001493152-26-050596",
+  "items": "7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:15:23+00:00",
+  "accepted_kst": "11/09 20:15",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "First Trades of Tokenized U.S. Equity under SEC Innovation Exemption Executed on the Canton Network Shares of CNTN, Canton Strategic Holdings’ Common Stock, Tra",
+  "url": "https://www.sec.gov/Archives/edgar/data/1861657/000149315226050596/0001493152-26-050596-index.htm",
+  "seen_kst": "2026-11-09 20:18"
  }
 ]
