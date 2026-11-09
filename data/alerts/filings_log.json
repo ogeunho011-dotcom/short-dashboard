@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PSIX",
-  "form": "8-K",
-  "acc": "0001193125-26-451805",
-  "items": "5.02",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T21:02:02+00:00",
-  "accepted_kst": "11/07 06:02",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. (b)",
-  "url": "https://www.sec.gov/Archives/edgar/data/1137091/000119312526451805/0001193125-26-451805-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
   "ticker": "SELF",
   "form": "10-Q",
   "acc": "0001437749-26-035559",
@@ -8758,5 +8741,22 @@
   "headline": "Cooper Arthur S.",
   "url": "https://www.sec.gov/Archives/edgar/data/1234006/000187396126000002/0001873961-26-000002-index.htm",
   "seen_kst": "2026-11-10 04:43"
+ },
+ {
+  "ticker": "CPAC",
+  "form": "6-K",
+  "acc": "0001213900-26-117489",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T20:04:57+00:00",
+  "accepted_kst": "11/10 05:04",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Calle La Colonia N° 150, Urb. El Vivero - Santiago de Surco Tel: 317-6000 Lima, November 9, 2026 Sirs Superintendencia del Mercado De Valores – SMV Lima.- Refer",
+  "url": "https://www.sec.gov/Archives/edgar/data/1221029/000121390026117489/0001213900-26-117489-index.htm",
+  "seen_kst": "2026-11-10 05:06"
  }
 ]
