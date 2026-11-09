@@ -1,23 +1,6 @@
 [
  {
   "ticker": "AMR",
-  "form": "8-K",
-  "acc": "0001704715-26-000041",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T12:32:52+00:00",
-  "accepted_kst": "11/06 21:32",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ". Item 7.01 Regulation FD Disclosure. On November 6, 2026, the Company made available a written presentation that management may use from time to time in connec",
-  "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000041/0001704715-26-000041-index.htm",
-  "seen_kst": "2026-11-06 21:35"
- },
- {
-  "ticker": "AMR",
   "form": "10-Q",
   "acc": "0001704715-26-000042",
   "items": "",
@@ -8701,5 +8684,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1368458/000136845826000015/0001368458-26-000015-index.htm",
   "seen_kst": "2026-11-09 21:13"
+ },
+ {
+  "ticker": "AIOT",
+  "form": "8-K",
+  "acc": "0001493152-26-050619",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:13:56+00:00",
+  "accepted_kst": "11/09 21:13",
+  "polarity": "pos",
+  "label": "실적 호조·가이던스 상향",
+  "cats": [
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Powerfleet Reports Results for Second Quarter Fiscal 2027 ● Record revenue of $115.7 million, 4% sequential growth. ● Agreed to terms for a device financing fac",
+  "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226050619/0001493152-26-050619-index.htm",
+  "seen_kst": "2026-11-09 21:15"
  }
 ]
