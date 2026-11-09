@@ -1,56 +1,5 @@
 [
  {
-  "ticker": "AMAL",
-  "form": "144",
-  "acc": "0001974078-26-000403",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T20:23:35+00:00",
-  "accepted_kst": "11/06 05:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1823608/000197407826000403/0001974078-26-000403-index.htm",
-  "seen_kst": "2026-11-06 22:30"
- },
- {
-  "ticker": "AMAL",
-  "form": "4",
-  "acc": "0000902664-26-004394",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:27:38+00:00",
-  "accepted_kst": "11/06 22:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1823608/000090266426004394/0000902664-26-004394-index.htm",
-  "seen_kst": "2026-11-06 22:30"
- },
- {
-  "ticker": "WRD",
-  "form": "6-K",
-  "acc": "0001104659-26-123614",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:29:13+00:00",
-  "accepted_kst": "11/06 22:29",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no repre",
-  "url": "https://www.sec.gov/Archives/edgar/data/1867729/000110465926123614/0001104659-26-123614-index.htm",
-  "seen_kst": "2026-11-06 22:32"
- },
- {
   "ticker": "INLF",
   "form": "6-K/A",
   "acc": "0001213900-26-116623",
@@ -8704,5 +8653,60 @@
   "headline": "ADLERSBERG SHABTAI",
   "url": "https://www.sec.gov/Archives/edgar/data/1086434/000197640826000933/0001976408-26-000933-index.htm",
   "seen_kst": "2026-11-09 21:58"
+ },
+ {
+  "ticker": "API",
+  "form": "4",
+  "acc": "0001193125-26-452690",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:57:31+00:00",
+  "accepted_kst": "11/09 21:57",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $123,109",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Zhao Bin",
+  "url": "https://www.sec.gov/Archives/edgar/data/1802883/000119312526452690/0001193125-26-452690-index.htm",
+  "seen_kst": "2026-11-09 22:00"
+ },
+ {
+  "ticker": "PSQL",
+  "form": "424B3",
+  "acc": "0001213900-26-117219",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:57:54+00:00",
+  "accepted_kst": "11/09 21:57",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2119292/000121390026117219/0001213900-26-117219-index.htm",
+  "seen_kst": "2026-11-09 22:00"
+ },
+ {
+  "ticker": "MPAA",
+  "form": "8-K",
+  "acc": "0001140361-26-042613",
+  "items": "2.02,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:58:50+00:00",
+  "accepted_kst": "11/09 21:58",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE CONTACT: Gary S. Maier Vice President, Corporate Communications & IR (310) 972-5124 MOTORCAR PARTS OF AMERICA REPORTS FISCAL 2027 SECOND QUARTER RE",
+  "url": "https://www.sec.gov/Archives/edgar/data/918251/000114036126042613/0001140361-26-042613-index.htm",
+  "seen_kst": "2026-11-09 22:00"
  }
 ]
