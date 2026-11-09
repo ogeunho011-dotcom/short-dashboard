@@ -33640,7 +33640,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20181029001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20181029001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "MTVA-1793977062",
@@ -40395,6 +40398,84 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230308004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230308004",
+  "grade": "open"
+ },
+ {
+  "id": "TLS-1794248045",
+  "ts_kst": "2026-11-10 03:14",
+  "ts_utc": "2026-11-09T18:14:05+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "TLS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.9% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TLS 장중 급등 포착",
+  "body": "$6.291 (+30.9%) · 정규장 · 레벨 2 · 점수 37\n공매도 물량 대부분 손해 중, $6.50 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +30.9% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.976 지정가(기준가 $6.291의 −5%) · 체결 가능성 약 50% · 손익분기 $6.048\n숏 지지구간 $5.250–$5.614 · 손절 $5.000 · 1차목표 $6.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.2905,
+  "level": 2,
+  "score": 37.1,
+  "prob": 53.44827586206896,
+  "cp": 62.38063462673528,
+  "rl": 6.5,
+  "stop": 5.0,
+  "zone": [
+   5.25,
+   5.6141750574111935
+  ],
+  "bp": 5.976,
+  "tgt": 6.5,
+  "stp": 5.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201119006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201119006",
+  "grade": "open"
+ },
+ {
+  "id": "TMCI-1794248045",
+  "ts_kst": "2026-11-10 03:14",
+  "ts_utc": "2026-11-09T18:14:05+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "TMCI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.4% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TMCI 장중 급등 포착",
+  "body": "$4.945 (+22.4%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $5.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +22.4% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.698 지정가(기준가 $4.945의 −5%) · 체결 가능성 약 57% · 손익분기 $4.754\n숏 지지구간 $4.100–$4.396 · 손절 $4.000 · 1차목표 $5.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.945,
+  "level": 2,
+  "score": 39.0,
+  "prob": 53.0664465921569,
+  "cp": 66.9998695304248,
+  "rl": 5.000000000000002,
+  "stop": 4.000000000000002,
+  "zone": [
+   4.100000000000001,
+   4.3957500600814825
+  ],
+  "bp": 4.6978,
+  "tgt": 5.000000000000002,
+  "stp": 4.000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210421004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210421004",
   "grade": "open"
  }
 ]
