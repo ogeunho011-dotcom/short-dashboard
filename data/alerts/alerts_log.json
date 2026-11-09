@@ -33468,7 +33468,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070525001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070525001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "VSA-1793976310",
@@ -40351,6 +40354,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210514009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210514009",
+  "grade": "open"
+ },
+ {
+  "id": "SMX-1794247445",
+  "ts_kst": "2026-11-10 03:04",
+  "ts_utc": "2026-11-09T18:04:05+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "SMX",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 SMX 상위 확률 신호",
+  "body": "$6.230 (+254.0%) · 정규장 · 레벨 4 · 점수 66\n공매도 물량 대부분 손해 중, $7.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 180만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.919 지정가(기준가 $6.230의 −5%) · 체결 가능성 약 56% · 손익분기 $5.990\n숏 지지구간 $5.000–$6.000 · 손절 $4.000 · 1차목표 $7.000\n⚠ 역분할 2026-11-09\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.23,
+  "level": 4,
+  "score": 65.6,
+  "prob": 53.179774728754325,
+  "cp": 51.07037010774918,
+  "rl": 7.0,
+  "stop": 4.0,
+  "zone": [
+   5.0,
+   6.0
+  ],
+  "bp": 5.9185,
+  "tgt": 7.0,
+  "stp": 4.0,
+  "penalties": [
+   "역분할 2026-11-09"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230308004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230308004",
   "grade": "open"
  }
 ]
