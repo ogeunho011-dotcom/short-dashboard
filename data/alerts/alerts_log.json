@@ -39979,5 +39979,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
   "grade": "open"
+ },
+ {
+  "id": "MFI-1794243850",
+  "ts_kst": "2026-11-10 02:04",
+  "ts_utc": "2026-11-09T17:04:10+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "MFI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.4% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MFI 장중 급등 포착",
+  "body": "$6.240 (+22.4%) · 정규장 · 레벨 1 · 점수 23\n갭 상승 후 밀리는 중\n• 전일 대비 +22.4% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $5.928 지정가(기준가 $6.240의 −5%) · 체결 가능성 약 55% · 손익분기 $6.000\n숏 지지구간 $4.600–$5.174 · 손절 $4.100 · 1차목표 $10.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.24,
+  "level": 1,
+  "score": 23.3,
+  "prob": 18.993839835728956,
+  "cp": 13.98196342401461,
+  "rl": 10.0,
+  "stop": 4.099999904632568,
+  "zone": [
+   4.599999904632568,
+   5.173999857902527
+  ],
+  "bp": 5.928,
+  "tgt": 10.0,
+  "stp": 4.099999904632568,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240422002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240422002",
+  "grade": "open"
  }
 ]
