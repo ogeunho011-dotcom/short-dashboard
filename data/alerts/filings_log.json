@@ -1,56 +1,5 @@
 [
  {
-  "ticker": "FSBW",
-  "form": "4",
-  "acc": "0000939057-26-000292",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:30:15+00:00",
-  "accepted_kst": "11/07 01:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000292/0000939057-26-000292-index.htm",
-  "seen_kst": "2026-11-07 01:31"
- },
- {
-  "ticker": "VEL",
-  "form": "144",
-  "acc": "0001950047-26-010746",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:29:40+00:00",
-  "accepted_kst": "11/06 06:29",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1692376/000195004726010746/0001950047-26-010746-index.htm",
-  "seen_kst": "2026-11-07 01:36"
- },
- {
-  "ticker": "VEL",
-  "form": "144",
-  "acc": "0001950047-26-010748",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:30:30+00:00",
-  "accepted_kst": "11/06 06:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1692376/000195004726010748/0001950047-26-010748-index.htm",
-  "seen_kst": "2026-11-07 01:36"
- },
- {
   "ticker": "VEL",
   "form": "8-K",
   "acc": "0001193125-26-450405",
@@ -8735,5 +8684,60 @@
   "headline": "Vistagen Provides Regulatory Update Following Productive Type C Meeting with U.S. FDA on Phase 3 Development of Fasedienol for Social Anxiety Disorder Construct",
   "url": "https://www.sec.gov/Archives/edgar/data/1411685/000162828026071910/0001628280-26-071910-index.htm",
   "seen_kst": "2026-11-09 22:35"
+ },
+ {
+  "ticker": "APVO",
+  "form": "8-K",
+  "acc": "0001193125-26-452737",
+  "items": "8.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:35:16+00:00",
+  "accepted_kst": "11/09 22:35",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Aptevo Presents Preclinical Data at SITC 2026 Showing Potential to Overcome Immune Suppression in Solid Tumors In lab studies, APVO451 and APVO452 helped immune",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671584/000119312526452737/0001193125-26-452737-index.htm",
+  "seen_kst": "2026-11-09 22:38"
+ },
+ {
+  "ticker": "CISS",
+  "form": "424B3",
+  "acc": "0001193125-26-452738",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:35:42+00:00",
+  "accepted_kst": "11/09 22:35",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1951067/000119312526452738/0001193125-26-452738-index.htm",
+  "seen_kst": "2026-11-09 22:38"
+ },
+ {
+  "ticker": "JAGX",
+  "form": "424B5",
+  "acc": "0001193125-26-452741",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:37:17+00:00",
+  "accepted_kst": "11/09 22:37",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526452741/0001193125-26-452741-index.htm",
+  "seen_kst": "2026-11-09 22:38"
  }
 ]
