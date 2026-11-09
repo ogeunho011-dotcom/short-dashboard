@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LKFN",
-  "form": "4",
-  "acc": "0001904915-26-000012",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:27:31+00:00",
-  "accepted_kst": "11/07 03:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/721994/000190491526000012/0001904915-26-000012-index.htm",
-  "seen_kst": "2026-11-07 03:30"
- },
- {
   "ticker": "DEFT",
   "form": "6-K",
   "acc": "0001279569-26-001054",
@@ -8756,5 +8739,24 @@
   "headline": "is furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilit",
   "url": "https://www.sec.gov/Archives/edgar/data/1129928/000112992826000080/0001129928-26-000080-index.htm",
   "seen_kst": "2026-11-09 23:51"
+ },
+ {
+  "ticker": "XLAB",
+  "form": "424B3",
+  "acc": "0001829126-26-012124",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T14:52:20+00:00",
+  "accepted_kst": "11/09 23:52",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2109869/000182912626012124/0001829126-26-012124-index.htm",
+  "seen_kst": "2026-11-09 23:55"
  }
 ]

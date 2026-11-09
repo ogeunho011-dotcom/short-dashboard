@@ -19623,7 +19623,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000801001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 3,
+  "grade_ret": -0.506,
+  "graded_bars": 3
  },
  {
   "id": "DKI-1793797661",
@@ -38772,6 +38775,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220919001",
+  "grade": "open"
+ },
+ {
+  "id": "XHLD-1794236156",
+  "ts_kst": "2026-11-09 23:55",
+  "ts_utc": "2026-11-09T14:55:56+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "XHLD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +11.0% 급변 · 전일 대비 +31.6% — 추격 매수 주의"
+  ],
+  "title": "⚡ XHLD 장중 급등 포착",
+  "body": "$0.750 (+31.6%) · 정규장 · 레벨 1 · 점수 24\n공매도 물량 대부분 손해 중, $1.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 400만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +11.0% 급변 · 전일 대비 +31.6% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.709 지정가(20일선, 기준가 대비 -5.5%) · 체결 가능성 약 79% · 손익분기 $0.718\n숏 지지구간 $0.525–$0.750 · 손절 $0.375 · 1차목표 $1.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/26)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.75,
+  "level": 1,
+  "score": 24.3,
+  "prob": 38.456237077877326,
+  "cp": 40.73565094119971,
+  "rl": 1.0,
+  "stop": 0.375,
+  "zone": [
+   0.5249999999999999,
+   0.75
+  ],
+  "bp": 0.7091,
+  "tgt": 1.0,
+  "stp": 0.375,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/26)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250213012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250213012",
   "grade": "open"
  }
 ]
