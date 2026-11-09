@@ -37132,5 +37132,48 @@
    "accepted_kst": "11/09 20:51",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "NVCR-fil-0001645113-26-000085",
+  "ts_kst": "2026-11-09 21:00",
+  "ts_utc": "2026-11-09T12:00:36+00:00",
+  "date_et": "2026-11-09",
+  "session": "filing",
+  "ticker": "NVCR",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가"
+  ],
+  "title": "📢 NVCR 호재 공시",
+  "body": "8-K · FDA 승인·허가 (11/09 20:59 KST)\nItem 7.01 Regulation FD Disclosure. On November 9, 2026, NovoCure Limited (“Novocure”) issued a press release announcing that it has receive\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20151001001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20151001001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001645113-26-000085",
+   "items": "7.01,9.01",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "Item 7.01 Regulation FD Disclosure. On November 9, 2026, NovoCure Limited (“Novocure”) issued a press release announcing that it has received a Not Approvable L",
+   "url": "https://www.sec.gov/Archives/edgar/data/1645113/000164511326000085/0001645113-26-000085-index.htm",
+   "accepted_kst": "11/09 20:59",
+   "polarity": "pos"
+  }
  }
 ]

@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "BEEM",
-  "form": "8-K",
-  "acc": "0001437749-26-035401",
-  "items": "1.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T11:38:10+00:00",
-  "accepted_kst": "11/06 20:38",
-  "polarity": "neg",
-  "label": "중요 계약 해지(항목 1.02)",
-  "cats": [],
-  "negs": [
-   "중요 계약 해지(항목 1.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.02 Termination of a Material Definitive Agreement. As previously disclosed in the Current Report on Form 8-K filed by Beam Global (the “Company”) with th",
-  "url": "https://www.sec.gov/Archives/edgar/data/1398805/000143774926035401/0001437749-26-035401-index.htm",
-  "seen_kst": "2026-11-06 20:40"
- },
- {
   "ticker": "AGMB",
   "form": "4",
   "acc": "0001445826-26-000018",
@@ -8710,5 +8691,24 @@
   "headline": "Target Hospitality Announces Third Quarter 2026 Results Reflecting Execution at Scale and Building Momentum on Continued Strategic Transformation ​ Since Januar",
   "url": "https://www.sec.gov/Archives/edgar/data/1712189/000110465926124138/0001104659-26-124138-index.htm",
   "seen_kst": "2026-11-09 20:53"
+ },
+ {
+  "ticker": "NVCR",
+  "form": "8-K",
+  "acc": "0001645113-26-000085",
+  "items": "7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T11:59:49+00:00",
+  "accepted_kst": "11/09 20:59",
+  "polarity": "pos",
+  "label": "FDA 승인·허가",
+  "cats": [
+   "FDA 승인·허가"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "Item 7.01 Regulation FD Disclosure. On November 9, 2026, NovoCure Limited (“Novocure”) issued a press release announcing that it has received a Not Approvable L",
+  "url": "https://www.sec.gov/Archives/edgar/data/1645113/000164511326000085/0001645113-26-000085-index.htm",
+  "seen_kst": "2026-11-09 21:00"
  }
 ]
