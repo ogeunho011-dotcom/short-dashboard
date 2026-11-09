@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WRN",
-  "form": "6-K",
-  "acc": "0001062993-26-005799",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:39:54+00:00",
-  "accepted_kst": "11/07 03:39",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "NEWS RELEASE TSX: WRN NYSE American: WRN October 26, 2026 Western Copper and Gold Announces Leadership Transition Vancouver, B.C. Western Copper and Gold Corpor",
-  "url": "https://www.sec.gov/Archives/edgar/data/1364125/000106299326005799/0001062993-26-005799-index.htm",
-  "seen_kst": "2026-11-07 03:40"
- },
- {
   "ticker": "AIM",
   "form": "4",
   "acc": "0001493152-26-050412",
@@ -8758,5 +8741,22 @@
   "headline": "United States Antimony Corporation Announces Webcast Time set for Thursday, November 12, 2026 at 4:15 PM ET to Report on Third Quarter and Nine Months Ended Sep",
   "url": "https://www.sec.gov/Archives/edgar/data/101538/000110465926124277/0001104659-26-124277-index.htm",
   "seen_kst": "2026-11-10 00:18"
+ },
+ {
+  "ticker": "OPY",
+  "form": "8-K",
+  "acc": "0001628280-26-071942",
+  "items": "1.01,2.03,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T15:43:18+00:00",
+  "accepted_kst": "11/10 00:43",
+  "polarity": "neutral",
+  "label": "중요 계약 · 2.03 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the",
+  "url": "https://www.sec.gov/Archives/edgar/data/791963/000162828026071942/0001628280-26-071942-index.htm",
+  "seen_kst": "2026-11-10 00:46"
  }
 ]
