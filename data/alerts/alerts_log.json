@@ -39411,5 +39411,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220927006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220927006",
   "grade": "open"
+ },
+ {
+  "id": "HLLY-1794241011",
+  "ts_kst": "2026-11-10 01:16",
+  "ts_utc": "2026-11-09T16:16:51+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "HLLY",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.3% · 거래량 평소의 4.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HLLY 장중 급등 포착",
+  "body": "$2.529 (+21.3%) · 정규장 · 레벨 1 · 점수 7\n$2.80 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +21.3% · 거래량 평소의 4.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $2.404 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -4.9%) · 체결 가능성 약 53% · 손익분기 $2.433\n숏 지지구간 $2.250–$2.348 · 손절 $2.225 · 1차목표 $2.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.5292,
+  "level": 1,
+  "score": 7.4,
+  "prob": 38.8663967611336,
+  "cp": 31.997254223352005,
+  "rl": 2.799999999999997,
+  "stop": 2.224999999999999,
+  "zone": [
+   2.249999999999999,
+   2.3477200269699092
+  ],
+  "bp": 2.4044,
+  "tgt": 2.799999999999997,
+  "stp": 2.224999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210719008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210719008",
+  "grade": "open"
  }
 ]
