@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "WHLR",
-  "form": "424B3",
-  "acc": "0001527541-26-000433",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:22:53+00:00",
-  "accepted_kst": "11/06 22:22",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000433/0001527541-26-000433-index.htm",
-  "seen_kst": "2026-11-06 22:25"
- },
- {
   "ticker": "AMAL",
   "form": "144",
   "acc": "0001974078-26-000403",
@@ -8704,5 +8685,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026117216/0001213900-26-117216-index.htm",
   "seen_kst": "2026-11-09 21:55"
+ },
+ {
+  "ticker": "AUDC",
+  "form": "4",
+  "acc": "0001976408-26-000933",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:55:51+00:00",
+  "accepted_kst": "11/09 21:55",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $126,140",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "ADLERSBERG SHABTAI",
+  "url": "https://www.sec.gov/Archives/edgar/data/1086434/000197640826000933/0001976408-26-000933-index.htm",
+  "seen_kst": "2026-11-09 21:58"
  }
 ]

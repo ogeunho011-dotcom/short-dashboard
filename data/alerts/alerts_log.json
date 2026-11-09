@@ -37431,5 +37431,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240515002",
   "grade": "n/a"
+ },
+ {
+  "id": "OMH-1794229079",
+  "ts_kst": "2026-11-09 21:57",
+  "ts_utc": "2026-11-09T12:57:59+00:00",
+  "date_et": "2026-11-09",
+  "session": "pre",
+  "ticker": "OMH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +17.9% 급변 · 전일 대비 +141.8% — 추격 매수 주의"
+  ],
+  "title": "⚡ OMH 장중 급등 포착",
+  "body": "$17.820 (+141.8%) · 프리마켓 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $20.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 236만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +17.9% 급변 · 전일 대비 +141.8% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $16.929 지정가(기준가 $17.820의 −5%) · 체결 가능성 약 76% · 손익분기 $17.134\n숏 지지구간 $10.000–$15.000 · 손절 $8.910 · 1차목표 $20.000\n⚠ 역분할 2026-08-31\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 17.8205,
+  "level": 2,
+  "score": 39.3,
+  "prob": 38.456237077877326,
+  "cp": 61.2236864358855,
+  "rl": 20.0,
+  "stop": 8.91025,
+  "zone": [
+   10.0,
+   15.0
+  ],
+  "bp": 16.9295,
+  "tgt": 20.0,
+  "stp": 8.91025,
+  "penalties": [
+   "역분할 2026-08-31"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
+  "grade": "open"
+ },
+ {
+  "id": "AUDC-fil-0001976408-26-000933",
+  "ts_kst": "2026-11-09 21:58",
+  "ts_utc": "2026-11-09T12:58:00+00:00",
+  "date_et": "2026-11-09",
+  "session": "filing",
+  "ticker": "AUDC",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $126,140"
+  ],
+  "title": "📢 AUDC 호재 공시",
+  "body": "4 · 내부자 장내 매수 $126,140 (11/09 21:55 KST)\nADLERSBERG SHABTAI\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19990528001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19990528001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001976408-26-000933",
+   "items": "",
+   "label": "내부자 장내 매수 $126,140",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "ADLERSBERG SHABTAI",
+   "url": "https://www.sec.gov/Archives/edgar/data/1086434/000197640826000933/0001976408-26-000933-index.htm",
+   "accepted_kst": "11/09 21:55",
+   "polarity": "pos"
+  }
  }
 ]
