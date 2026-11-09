@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NKTX",
-  "form": "8-K",
-  "acc": "0001787400-26-000023",
-  "items": "7.01,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T21:04:15+00:00",
-  "accepted_kst": "11/07 06:04",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Nkarta to Host Webcast to Discuss Initial Clinical Data for NKX019 in Autoimmune Diseases at ACR Convergence 2026",
-  "url": "https://www.sec.gov/Archives/edgar/data/1787400/000178740026000023/0001787400-26-000023-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
   "ticker": "TKLF",
   "form": "6-K",
   "acc": "0001213900-26-116869",
@@ -8758,5 +8741,22 @@
   "headline": "O'Dowd William IV",
   "url": "https://www.sec.gov/Archives/edgar/data/1282224/000107997326001439/0001079973-26-001439-index.htm",
   "seen_kst": "2026-11-10 05:18"
+ },
+ {
+  "ticker": "ULBI",
+  "form": "8-K",
+  "acc": "0001437749-26-035865",
+  "items": "2.02,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T20:37:46+00:00",
+  "accepted_kst": "11/10 05:37",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "and is incorporated herein by this reference. Item 9.01 Financial Statements, Pro Forma Financials and Exhibits (d) Exhibits. Exhibit Number Exhibit Description",
+  "url": "https://www.sec.gov/Archives/edgar/data/875657/000143774926035865/0001437749-26-035865-index.htm",
+  "seen_kst": "2026-11-10 05:39"
  }
 ]
