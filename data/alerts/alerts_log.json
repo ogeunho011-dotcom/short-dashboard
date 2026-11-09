@@ -40265,5 +40265,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250226004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250226004",
   "grade": "open"
+ },
+ {
+  "id": "NCPL-1794246695",
+  "ts_kst": "2026-11-10 02:51",
+  "ts_utc": "2026-11-09T17:51:35+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "NCPL",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 201k (당일 평균 14.1배)"
+  ],
+  "title": "🚀 NCPL 거래량 급증",
+  "body": "$1.840 (+45.5%) · 정규장 · 레벨 3 · 점수 42\n$1.90 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 785만 주뿐이라 쉽게 크게 움직임\n• 5분 거래량 201k (당일 평균 14.1배)\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.748 지정가(기준가 $1.840의 −5%) · 체결 가능성 약 81% · 손익분기 $1.769\n숏 지지구간 $1.500–$1.619 · 손절 $1.400 · 1차목표 $1.900\n⚠ 최근 악재 공시: 8-K 상장 유지 기준 미달·상폐 위험 (11/09)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.84,
+  "level": 3,
+  "score": 42.4,
+  "prob": 45.01661129568107,
+  "cp": 39.48427619595614,
+  "rl": 1.9000000000000006,
+  "stop": 1.4000000000000004,
+  "zone": [
+   1.5000000000000004,
+   1.6190000116825107
+  ],
+  "bp": 1.748,
+  "tgt": 1.9000000000000006,
+  "stp": 1.4000000000000004,
+  "penalties": [
+   "최근 악재 공시: 8-K 상장 유지 기준 미달·상폐 위험 (11/09)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
+  "grade": "open"
  }
 ]
