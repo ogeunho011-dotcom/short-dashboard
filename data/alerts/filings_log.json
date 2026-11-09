@@ -2,23 +2,6 @@
  {
   "ticker": "LKFN",
   "form": "4",
-  "acc": "0000721994-26-000085",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:24:26+00:00",
-  "accepted_kst": "11/07 03:24",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000085/0000721994-26-000085-index.htm",
-  "seen_kst": "2026-11-07 03:25"
- },
- {
-  "ticker": "LKFN",
-  "form": "4",
   "acc": "0001525177-26-000012",
   "items": "",
   "filed": "2026-11-06",
@@ -8754,5 +8737,22 @@
   "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 3, 2026, Exascale Labs Holdings Inc. (Nasdaq: XLAB, XLABW), a Delaware corporation (the “Compa",
   "url": "https://www.sec.gov/Archives/edgar/data/2109869/000182912626012120/0001829126-26-012120-index.htm",
   "seen_kst": "2026-11-09 23:25"
+ },
+ {
+  "ticker": "FLWS",
+  "form": "4",
+  "acc": "0001437749-26-035735",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T14:27:19+00:00",
+  "accepted_kst": "11/09 23:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1084869/000143774926035735/0001437749-26-035735-index.htm",
+  "seen_kst": "2026-11-09 23:30"
  }
 ]
