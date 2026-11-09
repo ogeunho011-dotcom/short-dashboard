@@ -36964,5 +36964,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
   "grade": "open"
+ },
+ {
+  "id": "DBGI-1794221138",
+  "ts_kst": "2026-11-09 19:45",
+  "ts_utc": "2026-11-09T10:45:38+00:00",
+  "date_et": "2026-11-09",
+  "session": "pre",
+  "ticker": "DBGI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +18.5% 급변 · 전일 대비 +27.8% — 추격 매수 주의"
+  ],
+  "title": "⚡ DBGI 장중 급등 포착",
+  "body": "$0.359 (+27.8%) · 프리마켓 · 레벨 2 · 점수 29\n시장에 도는 주식 93만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 +18.5% 급변 · 전일 대비 +27.8% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.342 지정가(기준가 $0.359의 −5%) · 체결 가능성 약 85% · 손익분기 $0.346\n숏 지지구간 $0.252–$0.359 · 손절 $0.180 · 1차목표 $0.539\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3595,
+  "level": 2,
+  "score": 29.4,
+  "prob": 24.587706146926536,
+  "cp": 22.0,
+  "rl": 2.0,
+  "stop": 0.17975,
+  "zone": [
+   0.25165,
+   0.3595
+  ],
+  "bp": 0.3415,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210514014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210514014",
+  "grade": "n/a"
  }
 ]
