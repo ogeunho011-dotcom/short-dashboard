@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CLMB",
-  "form": "4",
-  "acc": "0001437749-26-035500",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T19:27:04+00:00",
-  "accepted_kst": "11/07 04:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/945983/000143774926035500/0001437749-26-035500-index.htm",
-  "seen_kst": "2026-11-07 04:27"
- },
- {
   "ticker": "BETR",
   "form": "144",
   "acc": "0001969223-26-001134",
@@ -8758,5 +8741,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1005101/000117120026000021/0001171200-26-000021-index.htm",
   "seen_kst": "2026-11-10 01:21"
+ },
+ {
+  "ticker": "SYPR",
+  "form": "8-K",
+  "acc": "0001437749-26-035762",
+  "items": "5.02",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T16:30:10+00:00",
+  "accepted_kst": "11/10 01:30",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Ef",
+  "url": "https://www.sec.gov/Archives/edgar/data/864240/000143774926035762/0001437749-26-035762-index.htm",
+  "seen_kst": "2026-11-10 01:31"
  }
 ]
