@@ -40929,5 +40929,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930012",
   "grade": "open"
+ },
+ {
+  "id": "WCT-1794250443",
+  "ts_kst": "2026-11-10 03:54",
+  "ts_utc": "2026-11-09T18:54:03+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "WCT",
+  "types": [
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "5분 거래량 1,007k (당일 평균 153.5배)"
+  ],
+  "title": "🚀 WCT 상위 확률 신호 · 거래량 급증",
+  "body": "$4.736 (+1906.9%) · 정규장 · 레벨 3 · 점수 50\n$5.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 15배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n• 5분 거래량 1,007k (당일 평균 153.5배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.499 지정가(기준가 $4.736의 −5%) · 체결 가능성 약 49% · 손익분기 $4.554\n숏 지지구간 $4.500–$4.736 · 손절 $4.000 · 1차목표 $5.000\n⚠ 역분할 2026-11-09\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.7363,
+  "level": 3,
+  "score": 50.2,
+  "prob": 53.44827586206896,
+  "cp": 61.422111945995475,
+  "rl": 5.0,
+  "stop": 4.0,
+  "zone": [
+   4.5,
+   4.736299991607666
+  ],
+  "bp": 4.4995,
+  "tgt": 5.0,
+  "stp": 4.0,
+  "penalties": [
+   "역분할 2026-11-09",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241002009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241002009",
+  "grade": "open"
  }
 ]
