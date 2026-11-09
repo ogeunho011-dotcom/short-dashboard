@@ -37558,5 +37558,91 @@
    "accepted_kst": "11/09 21:57",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "WHWK-fil-0001193125-26-452704",
+  "ts_kst": "2026-11-09 22:07",
+  "ts_utc": "2026-11-09T13:07:59+00:00",
+  "date_et": "2026-11-09",
+  "session": "filing",
+  "ticker": "WHWK",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 특별 지정(혁신·신속·희귀)"
+  ],
+  "title": "📢 WHWK 호재 공시",
+  "body": "8-K · FDA 특별 지정(혁신·신속·희귀) (11/09 22:04 KST)\nEX-99.1 2 whwk-ex99_1.htm EX-99.1 PRESS RELEASE Whitehawk Therapeutics Reports Third Quarter 2026 Financial Results and Recent Highlights On\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210827001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210827001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-452704",
+   "items": "2.02,9.01",
+   "label": "FDA 특별 지정(혁신·신속·희귀)",
+   "cats": [
+    "FDA 특별 지정(혁신·신속·희귀)"
+   ],
+   "strength": 5,
+   "headline": "EX-99.1 2 whwk-ex99_1.htm EX-99.1 PRESS RELEASE Whitehawk Therapeutics Reports Third Quarter 2026 Financial Results and Recent Highlights On track to report ini",
+   "url": "https://www.sec.gov/Archives/edgar/data/1422142/000119312526452704/0001193125-26-452704-index.htm",
+   "accepted_kst": "11/09 22:04",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "UNIT-fil-0001628280-26-071900",
+  "ts_kst": "2026-11-09 22:07",
+  "ts_utc": "2026-11-09T13:07:59+00:00",
+  "date_et": "2026-11-09",
+  "session": "filing",
+  "ticker": "UNIT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 UNIT 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/09 22:07 KST)\nPress Release Release date: November 9, 2026 Uniti Group Inc. Reports Third Quarter 2026 Results Two Straight Quarters of Record Waves Booki\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170227001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170227001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001628280-26-071900",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Press Release Release date: November 9, 2026 Uniti Group Inc. Reports Third Quarter 2026 Results Two Straight Quarters of Record Waves Bookings Raising Full Yea",
+   "url": "https://www.sec.gov/Archives/edgar/data/2020795/000162828026071900/0001628280-26-071900-index.htm",
+   "accepted_kst": "11/09 22:07",
+   "polarity": "pos"
+  }
  }
 ]
