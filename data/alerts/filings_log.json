@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PMN",
-  "form": "4",
-  "acc": "0001374339-26-000011",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:15:25+00:00",
-  "accepted_kst": "11/06 22:15",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $90,895 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Williams Eugene",
-  "url": "https://www.sec.gov/Archives/edgar/data/1374339/000137433926000011/0001374339-26-000011-index.htm",
-  "seen_kst": "2026-11-06 22:17"
- },
- {
   "ticker": "WHLR",
   "form": "8-K",
   "acc": "0001527541-26-000427",
@@ -8710,5 +8693,22 @@
   "headline": "CorMedix Therapeutics to Acquire Substantially All Assets of Heron Therapeutics, Expanding Its Portfolio of Products Used in Institutional Settings of Care Adds",
   "url": "https://www.sec.gov/Archives/edgar/data/818033/000119312526452672/0001193125-26-452672-index.htm",
   "seen_kst": "2026-11-09 21:43"
+ },
+ {
+  "ticker": "AIRI",
+  "form": "8-K",
+  "acc": "0001213900-26-117207",
+  "items": "2.02,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:43:54+00:00",
+  "accepted_kst": "11/09 21:43",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Nov 9, 2026 7:00 AM Eastern Standard Time Air Industries Group Announces Significantly Improved Financial Results for the Three and Nine Months Ended September ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026117207/0001213900-26-117207-index.htm",
+  "seen_kst": "2026-11-09 21:45"
  }
 ]
