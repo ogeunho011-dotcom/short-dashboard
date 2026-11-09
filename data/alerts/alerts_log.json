@@ -39697,5 +39697,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240229002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240229002",
   "grade": "open"
+ },
+ {
+  "id": "WLDS-1794242955",
+  "ts_kst": "2026-11-10 01:49",
+  "ts_utc": "2026-11-09T16:49:15+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "WLDS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.3% · 거래량 평소의 10.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WLDS 장중 급등 포착",
+  "body": "$1.705 (+26.3%) · 정규장 · 레벨 1 · 점수 20\n$2.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 288만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +26.3% · 거래량 평소의 10.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.620 지정가(기준가 $1.705의 −5%) · 체결 가능성 약 47% · 손익분기 $1.639\n숏 지지구간 $1.250–$1.500 · 손절 $1.125 · 1차목표 $2.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.705,
+  "level": 1,
+  "score": 19.8,
+  "prob": 47.808764940239065,
+  "cp": 7.504627848351441,
+  "rl": 2.5,
+  "stop": 1.125,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.6198,
+  "tgt": 2.5,
+  "stp": 1.125,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220913005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220913005",
+  "grade": "open"
+ },
+ {
+  "id": "SHMD-1794242955",
+  "ts_kst": "2026-11-10 01:49",
+  "ts_utc": "2026-11-09T16:49:15+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "SHMD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.1% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SHMD 장중 급등 포착",
+  "body": "$2.625 (+22.1%) · 정규장 · 레벨 1 · 점수 7\n$2.75 넘으면 공매도 되사기 압박 ↑ · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +22.1% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $2.494 지정가(기준가 $2.625의 −5%) · 체결 가능성 약 64% · 손익분기 $2.524\n숏 지지구간 $2.000–$2.250 · 손절 $1.750 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.625,
+  "level": 1,
+  "score": 6.6,
+  "prob": 24.877973930961254,
+  "cp": 28.578544877031096,
+  "rl": 2.75,
+  "stop": 1.75,
+  "zone": [
+   2.0,
+   2.25
+  ],
+  "bp": 2.4937,
+  "tgt": 2.75,
+  "stp": 1.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213014",
+  "grade": "open"
  }
 ]
