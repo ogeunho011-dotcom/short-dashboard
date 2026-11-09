@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CRML",
-  "form": "EFFECT",
-  "acc": "9999999995-26-003453",
-  "items": ",,",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-06T05:15:11+00:00",
-  "accepted_kst": "11/06 14:15",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1951089/999999999526003453/9999999995-26-003453-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
   "ticker": "GFAI",
   "form": "6-K",
   "acc": "0001213900-26-116863",
@@ -8760,5 +8743,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1466026/000146602626000112/0001466026-26-000112-index.htm",
   "seen_kst": "2026-11-10 04:32"
+ },
+ {
+  "ticker": "TRUP",
+  "form": "144",
+  "acc": "0001000275-26-000125",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T19:34:07+00:00",
+  "accepted_kst": "11/10 04:34",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1371285/000100027526000125/0001000275-26-000125-index.htm",
+  "seen_kst": "2026-11-10 04:35"
  }
 ]
