@@ -36882,5 +36882,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
   "grade": "open"
+ },
+ {
+  "id": "BDMD-1794217542",
+  "ts_kst": "2026-11-09 18:45",
+  "ts_utc": "2026-11-09T09:45:42+00:00",
+  "date_et": "2026-11-09",
+  "session": "pre",
+  "ticker": "BDMD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +16.2% 급변 · 전일 대비 +25.5% — 추격 매수 주의"
+  ],
+  "title": "⚡ BDMD 장중 급등 포착",
+  "body": "$0.112 (+25.5%) · 프리마켓 · 레벨 2 · 점수 37\n갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 5분 +16.2% 급변 · 전일 대비 +25.5% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.106 지정가(기준가 $0.112의 −5%) · 체결 가능성 약 85% · 손익분기 $0.107\n숏 지지구간 $0.078–$0.100 · 손절 $0.056 · 1차목표 $0.200\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1117,
+  "level": 2,
+  "score": 36.8,
+  "prob": 20.50473186119874,
+  "cp": 3.4620104806959118,
+  "rl": 0.2,
+  "stop": 0.05585,
+  "zone": [
+   0.07819,
+   0.1
+  ],
+  "bp": 0.1061,
+  "tgt": 0.2,
+  "stp": 0.05585,
+  "penalties": [
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
+  "grade": "open"
  }
 ]
