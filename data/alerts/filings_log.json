@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FSBW",
-  "form": "4",
-  "acc": "0000939057-26-000293",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T16:57:48+00:00",
-  "accepted_kst": "11/07 01:57",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000293/0000939057-26-000293-index.htm",
-  "seen_kst": "2026-11-07 01:59"
- },
- {
   "ticker": "SNT",
   "form": "6-K",
   "acc": "0001178913-26-005053",
@@ -8745,5 +8728,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/818033/000119312526452759/0001193125-26-452759-index.htm",
   "seen_kst": "2026-11-09 22:53"
+ },
+ {
+  "ticker": "SMBC",
+  "form": "4",
+  "acc": "0001992395-26-000006",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T13:53:16+00:00",
+  "accepted_kst": "11/09 22:53",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/916907/000199239526000006/0001992395-26-000006-index.htm",
+  "seen_kst": "2026-11-09 22:55"
  }
 ]
