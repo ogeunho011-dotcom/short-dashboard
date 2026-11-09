@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AIM",
-  "form": "4",
-  "acc": "0001493152-26-050412",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T18:58:42+00:00",
-  "accepted_kst": "11/07 03:58",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $3,167 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Equels Thomas K",
-  "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226050412/0001493152-26-050412-index.htm",
-  "seen_kst": "2026-11-07 03:59"
- },
- {
   "ticker": "FATN",
   "form": "4",
   "acc": "0001493152-26-050417",
@@ -8758,5 +8741,22 @@
   "headline": ", is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the",
   "url": "https://www.sec.gov/Archives/edgar/data/791963/000162828026071942/0001628280-26-071942-index.htm",
   "seen_kst": "2026-11-10 00:46"
+ },
+ {
+  "ticker": "JL",
+  "form": "6-K",
+  "acc": "0001213900-26-117359",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T16:00:29+00:00",
+  "accepted_kst": "11/10 01:00",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "J-Long Group Limited (an exempted company incorporated in the Cayman Islands with limited liability) (NASDAQ: JL) 3A, Hong Kong Spinners Industrial Building (Ph",
+  "url": "https://www.sec.gov/Archives/edgar/data/1948436/000121390026117359/0001213900-26-117359-index.htm",
+  "seen_kst": "2026-11-10 01:04"
  }
 ]

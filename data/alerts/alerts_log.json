@@ -39325,5 +39325,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210826004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210826004",
   "grade": "open"
+ },
+ {
+  "id": "SMX-1794240243",
+  "ts_kst": "2026-11-10 01:04",
+  "ts_utc": "2026-11-09T16:04:03+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "SMX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +204.8% · 거래량 평소의 5.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SMX 장중 급등 포착",
+  "body": "$5.365 (+204.8%) · 정규장 · 레벨 3 · 점수 54\n공매도 물량 대부분 손해 중, $7.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 180만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +204.8% · 거래량 평소의 5.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $5.097 지정가(기준가 $5.365의 −5%) · 체결 가능성 약 60% · 손익분기 $5.158\n숏 지지구간 $5.000–$5.365 · 손절 $4.000 · 1차목표 $7.000\n⚠ 역분할 2026-11-09\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.365,
+  "level": 3,
+  "score": 54.5,
+  "prob": 38.456237077877326,
+  "cp": 40.39437026498076,
+  "rl": 7.0,
+  "stop": 4.0,
+  "zone": [
+   5.0,
+   5.364999771118164
+  ],
+  "bp": 5.0967,
+  "tgt": 7.0,
+  "stp": 4.0,
+  "penalties": [
+   "역분할 2026-11-09"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230308004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230308004",
+  "grade": "open"
  }
 ]
