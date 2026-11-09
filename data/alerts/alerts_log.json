@@ -35158,7 +35158,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240418004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240418004",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "VIVK-1793986259",
@@ -38286,5 +38289,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250226004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250226004",
   "grade": "open"
+ },
+ {
+  "id": "JDZG-1794235225",
+  "ts_kst": "2026-11-09 23:40",
+  "ts_utc": "2026-11-09T14:40:25+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "JDZG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +77.9% · 거래량 평소의 112.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ JDZG 장중 급등 포착",
+  "body": "$0.372 (+77.9%) · 정규장 · 레벨 4 · 점수 58\n시장에 도는 주식 41만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 34배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +77.9% · 거래량 평소의 112.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.370 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -0.4%) · 체결 가능성 약 85% · 손익분기 $0.375\n숏 지지구간 $0.260–$0.372 · 손절 $0.186 · 1차목표 $0.558\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3719,
+  "level": 4,
+  "score": 58.0,
+  "prob": 31.25,
+  "cp": 22.0,
+  "rl": 2.0,
+  "stop": 0.18594950437545776,
+  "zone": [
+   0.26032930612564087,
+   0.3718990087509155
+  ],
+  "bp": 0.3704,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240515002",
+  "grade": "n/a"
  }
 ]
