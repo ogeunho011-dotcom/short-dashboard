@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "JFU",
-  "form": "6-K",
-  "acc": "0001213900-26-116865",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T21:01:05+00:00",
-  "accepted_kst": "11/07 06:01",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "9F Inc. Reports First Half 2026 Unaudited Financial Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1619544/000121390026116865/0001213900-26-116865-index.htm",
-  "seen_kst": "2026-11-07 06:24"
- },
- {
   "ticker": "PSIX",
   "form": "8-K",
   "acc": "0001193125-26-451805",
@@ -8758,5 +8741,22 @@
   "headline": "Pilecki Derek Steven",
   "url": "https://www.sec.gov/Archives/edgar/data/754811/000106299326005821/0001062993-26-005821-index.htm",
   "seen_kst": "2026-11-10 04:41"
+ },
+ {
+  "ticker": "GOOD",
+  "form": "4",
+  "acc": "0001873961-26-000002",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T19:40:46+00:00",
+  "accepted_kst": "11/10 04:40",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $99,999 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Cooper Arthur S.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1234006/000187396126000002/0001873961-26-000002-index.htm",
+  "seen_kst": "2026-11-10 04:43"
  }
 ]
