@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TG",
-  "form": "8-K",
-  "acc": "0001628280-26-071347",
-  "items": "2.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:20:42+00:00",
-  "accepted_kst": "11/06 22:20",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", shall not be deemed “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilities of that",
-  "url": "https://www.sec.gov/Archives/edgar/data/850429/000162828026071347/0001628280-26-071347-index.htm",
-  "seen_kst": "2026-11-06 22:22"
- },
- {
   "ticker": "WHLR",
   "form": "424B3",
   "acc": "0001527541-26-000431",
@@ -8707,5 +8690,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1611746/000121390026117211/0001213900-26-117211-index.htm",
   "seen_kst": "2026-11-09 21:50"
+ },
+ {
+  "ticker": "CRMD",
+  "form": "8-K",
+  "acc": "0001213900-26-117213",
+  "items": "1.01,2.03,3.02,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:49:44+00:00",
+  "accepted_kst": "11/09 21:49",
+  "polarity": "neg",
+  "label": "미등록 주식 발행(사모)(항목 3.02)",
+  "cats": [],
+  "negs": [
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "CorMedix Therapeutics to Acquire Substantially All Assets of Heron Therapeutics, Expanding Its Portfolio of Products Used in Institutional Settings of Care Adds",
+  "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026117213/0001213900-26-117213-index.htm",
+  "seen_kst": "2026-11-09 21:53"
  }
 ]
