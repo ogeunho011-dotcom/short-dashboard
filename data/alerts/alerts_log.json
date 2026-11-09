@@ -27383,10 +27383,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201009002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201009002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.033918582319981246,
+  "graded_bars": 2
  },
  {
   "id": "KAZR-1793891159",
@@ -40972,6 +40972,86 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241002009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241002009",
+  "grade": "open"
+ },
+ {
+  "id": "XHLD-1794250606",
+  "ts_kst": "2026-11-10 03:56",
+  "ts_utc": "2026-11-09T18:56:46+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "XHLD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +40.8% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XHLD 장중 급등 포착",
+  "body": "$0.803 (+40.8%) · 정규장 · 레벨 2 · 점수 32\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 400만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +40.8% · 거래량 평소의 15.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.712 지정가(20일선, 기준가 대비 -11.3%) · 체결 가능성 약 63% · 손익분기 $0.720\n숏 지지구간 $0.562–$0.803 · 손절 $0.401 · 1차목표 $2.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/26)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8026,
+  "level": 2,
+  "score": 31.6,
+  "prob": 38.456237077877326,
+  "cp": 34.30532363377266,
+  "rl": 2.0,
+  "stop": 0.40130001306533813,
+  "zone": [
+   0.5618200182914733,
+   0.8026000261306763
+  ],
+  "bp": 0.7117,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/26)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250213012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250213012",
+  "grade": "n/a"
+ },
+ {
+  "id": "HOLO-1794250606",
+  "ts_kst": "2026-11-10 03:56",
+  "ts_utc": "2026-11-09T18:56:46+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "HOLO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.8% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HOLO 장중 급등 포착",
+  "body": "$1.391 (+28.8%) · 정규장 · 레벨 2 · 점수 29\n$1.40 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +28.8% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.321 지정가(기준가 $1.391의 −5%) · 체결 가능성 약 55% · 손익분기 $1.337\n숏 지지구간 $1.300–$1.350 · 손절 $1.250 · 1차목표 $1.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3906,
+  "level": 2,
+  "score": 29.0,
+  "prob": 52.91666666666666,
+  "cp": 43.83709979459424,
+  "rl": 1.4000000000000006,
+  "stop": 1.2500000000000004,
+  "zone": [
+   1.3000000000000005,
+   1.3500000000000005
+  ],
+  "bp": 1.3211,
+  "tgt": 1.4000000000000006,
+  "stp": 1.2500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220919001",
   "grade": "open"
  }
 ]
