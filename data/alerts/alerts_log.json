@@ -39615,5 +39615,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
   "grade": "open"
+ },
+ {
+  "id": "LKFN-fil-0001210212-26-000004",
+  "ts_kst": "2026-11-10 01:39",
+  "ts_utc": "2026-11-09T16:39:16+00:00",
+  "date_et": "2026-11-09",
+  "session": "filing",
+  "ticker": "LKFN",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $117,177"
+  ],
+  "title": "📢 LKFN 호재 공시",
+  "body": "4 · 내부자 장내 매수 $117,177 (11/10 01:36 KST)\nBARTELS ROBERT E JR\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19970814001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19970814001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001210212-26-000004",
+   "items": "",
+   "label": "내부자 장내 매수 $117,177",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "BARTELS ROBERT E JR",
+   "url": "https://www.sec.gov/Archives/edgar/data/721994/000121021226000004/0001210212-26-000004-index.htm",
+   "accepted_kst": "11/10 01:36",
+   "polarity": "pos"
+  }
  }
 ]

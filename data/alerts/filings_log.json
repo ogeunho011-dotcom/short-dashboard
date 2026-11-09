@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BETR",
-  "form": "144",
-  "acc": "0001969223-26-001134",
-  "items": "",
-  "filed": "2026-11-05",
-  "accepted": "2026-11-05T21:40:07+00:00",
-  "accepted_kst": "11/06 06:40",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1835856/000196922326001134/0001969223-26-001134-index.htm",
-  "seen_kst": "2026-11-07 04:30"
- },
- {
   "ticker": "CVV",
   "form": "4",
   "acc": "0000766792-26-000002",
@@ -8758,5 +8741,24 @@
   "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Ef",
   "url": "https://www.sec.gov/Archives/edgar/data/864240/000143774926035762/0001437749-26-035762-index.htm",
   "seen_kst": "2026-11-10 01:31"
+ },
+ {
+  "ticker": "LKFN",
+  "form": "4",
+  "acc": "0001210212-26-000004",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T16:36:48+00:00",
+  "accepted_kst": "11/10 01:36",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $117,177",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "BARTELS ROBERT E JR",
+  "url": "https://www.sec.gov/Archives/edgar/data/721994/000121021226000004/0001210212-26-000004-index.htm",
+  "seen_kst": "2026-11-10 01:39"
  }
 ]
