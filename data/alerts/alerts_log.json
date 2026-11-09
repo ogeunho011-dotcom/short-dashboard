@@ -40137,5 +40137,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200501001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200501001",
   "grade": "open"
+ },
+ {
+  "id": "EDSA-1794245043",
+  "ts_kst": "2026-11-10 02:24",
+  "ts_utc": "2026-11-09T17:24:03+00:00",
+  "date_et": "2026-11-09",
+  "session": "regular",
+  "ticker": "EDSA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +35.7% · 거래량 평소의 3606.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EDSA 장중 급등 포착",
+  "body": "$2.905 (+35.7%) · 정규장 · 레벨 2 · 점수 32\n$3.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 964만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +35.7% · 거래량 평소의 3606.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.760 지정가(기준가 $2.905의 −5%) · 체결 가능성 약 65% · 손익분기 $2.793\n숏 지지구간 $2.750–$2.905 · 손절 $2.625 · 1차목표 $3.500\n⚠ 최근 악재 공시: 8-K 파산·청산 (11/09)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.905,
+  "level": 2,
+  "score": 32.3,
+  "prob": 45.01661129568107,
+  "cp": 23.72491267788746,
+  "rl": 3.5,
+  "stop": 2.625,
+  "zone": [
+   2.75,
+   2.9049999713897705
+  ],
+  "bp": 2.7597,
+  "tgt": 3.5,
+  "stp": 2.625,
+  "penalties": [
+   "최근 악재 공시: 8-K 파산·청산 (11/09)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190610001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190610001",
+  "grade": "open"
  }
 ]
