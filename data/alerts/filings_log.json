@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "KOP",
-  "form": "8-K",
-  "acc": "0001315257-26-000056",
-  "items": "2.02,9.01",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T13:13:32+00:00",
-  "accepted_kst": "11/06 22:13",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "and is furnished herewith. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. 99.1 Press Release announcing third quarter earnings, dated November 6, 20",
-  "url": "https://www.sec.gov/Archives/edgar/data/1315257/000131525726000056/0001315257-26-000056-index.htm",
-  "seen_kst": "2026-11-06 22:15"
- },
- {
   "ticker": "PMN",
   "form": "4",
   "acc": "0001374339-26-000011",
@@ -8708,5 +8691,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1351636/000114036126042610/0001140361-26-042610-index.htm",
   "seen_kst": "2026-11-09 21:38"
+ },
+ {
+  "ticker": "HRTX",
+  "form": "8-K",
+  "acc": "0001193125-26-452672",
+  "items": "1.01,3.03,7.01,9.01",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T12:40:15+00:00",
+  "accepted_kst": "11/09 21:40",
+  "polarity": "neg",
+  "label": "주주 권리 변경(역분할 등)(항목 3.03)",
+  "cats": [],
+  "negs": [
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "CorMedix Therapeutics to Acquire Substantially All Assets of Heron Therapeutics, Expanding Its Portfolio of Products Used in Institutional Settings of Care Adds",
+  "url": "https://www.sec.gov/Archives/edgar/data/818033/000119312526452672/0001193125-26-452672-index.htm",
+  "seen_kst": "2026-11-09 21:43"
  }
 ]
