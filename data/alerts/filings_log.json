@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CVV",
-  "form": "4",
-  "acc": "0000766792-26-000007",
-  "items": "",
-  "filed": "2026-11-06",
-  "accepted": "2026-11-06T20:23:13+00:00",
-  "accepted_kst": "11/07 05:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000007/0000766792-26-000007-index.htm",
-  "seen_kst": "2026-11-07 05:24"
- },
- {
   "ticker": "FSBC",
   "form": "3",
   "acc": "0001628280-26-071595",
@@ -8760,5 +8743,22 @@
   "headline": "ITEM 7.01 REGULATION FD DISCLOSURE In response to shareholder enquiries, Davion Healthcare Plc confirms that, according to records provided by its transfer agen",
   "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008431/0001683168-26-008431-index.htm",
   "seen_kst": "2026-11-10 04:20"
+ },
+ {
+  "ticker": "CBFV",
+  "form": "10-Q",
+  "acc": "0001605301-26-000045",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T19:20:44+00:00",
+  "accepted_kst": "11/10 04:20",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1605301/000160530126000045/0001605301-26-000045-index.htm",
+  "seen_kst": "2026-11-10 04:22"
  }
 ]
