@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "COUR",
-  "form": "8-A12B",
-  "acc": "0001140361-26-042627",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:05:05+00:00",
-  "accepted_kst": "11/09 23:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1651562/000114036126042627/0001140361-26-042627-index.htm",
-  "seen_kst": "2026-11-09 23:07"
- },
- {
-  "ticker": "MGLD",
-  "form": "8-K",
-  "acc": "0001493152-26-050654",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:05:56+00:00",
-  "accepted_kst": "11/09 23:05",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "The Marygold Companies Reports Financial Results For First Fiscal Quarter Ended September 30, 2026 San Clemente, Calif., November 6, 2026 – The Marygold Compani",
-  "url": "https://www.sec.gov/Archives/edgar/data/1005101/000149315226050654/0001493152-26-050654-index.htm",
-  "seen_kst": "2026-11-09 23:07"
- },
- {
   "ticker": "NCEL",
   "form": "6-K",
   "acc": "0001213900-26-117274",
@@ -8652,5 +8618,42 @@
   "headline": "EX-99.1 2 lmfa-ex99_1.htm EX-99.1 PowerCompute (Nasdaq: PWCM) Increases October Bitcoin Production 20% Year-Over-Year as Fleet Refresh Lifts Active Hashrate 11.",
   "url": "https://www.sec.gov/Archives/edgar/data/1640384/000164038426000008/0001640384-26-000008-index.htm",
   "seen_kst": "2026-11-10 22:30"
+ },
+ {
+  "ticker": "OCGN",
+  "form": "8-K",
+  "acc": "0001104659-26-124836",
+  "items": "1.01,7.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:30:22+00:00",
+  "accepted_kst": "11/10 22:30",
+  "polarity": "pos",
+  "label": "제휴·라이선스 · 임상 성공(주요 목표 달성)",
+  "cats": [
+   "제휴·라이선스",
+   "임상 성공(주요 목표 달성)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "Ocugen and Celairis Therapeutics Enter into Exclusive License Agreement for OCU400 in Australia, New Zealand, and ASEAN · Celairis receives exclusive rights to",
+  "url": "https://www.sec.gov/Archives/edgar/data/1372299/000110465926124836/0001104659-26-124836-index.htm",
+  "seen_kst": "2026-11-10 22:33"
+ },
+ {
+  "ticker": "EVGN",
+  "form": "6-K",
+  "acc": "0001178913-26-005113",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:31:04+00:00",
+  "accepted_kst": "11/10 22:31",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "to a Report of Foreign Private Issuer on Form 6-K that the Company furnished to the Securities and Exchange Commission on October 6, 2026. At the Meeting, Propo",
+  "url": "https://www.sec.gov/Archives/edgar/data/1574565/000117891326005113/0001178913-26-005113-index.htm",
+  "seen_kst": "2026-11-10 22:33"
  }
 ]
