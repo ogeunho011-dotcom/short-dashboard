@@ -44456,5 +44456,122 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210607007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210607007",
   "grade": "open"
+ },
+ {
+  "id": "TTEC-1794322097",
+  "ts_kst": "2026-11-10 23:48",
+  "ts_utc": "2026-11-10T14:48:17+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "TTEC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +38.6% · 거래량 평소의 46.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TTEC 장중 급등 포착",
+  "body": "$1.940 (+38.6%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $2.20 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 8배 이상, 관심 급증\n• 전일 대비 +38.6% · 거래량 평소의 46.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.843 지정가(기준가 $1.940의 −5%) · 체결 가능성 약 46% · 손익분기 $1.865\n숏 지지구간 $1.900–$1.940 · 손절 $1.800 · 1차목표 $2.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.9399,
+  "level": 2,
+  "score": 31.4,
+  "prob": 53.44827586206896,
+  "cp": 57.483393134633864,
+  "rl": 2.200000000000001,
+  "stop": 1.8000000000000007,
+  "zone": [
+   1.9000000000000008,
+   1.9399000406265259
+  ],
+  "bp": 1.8429,
+  "tgt": 2.200000000000001,
+  "stp": 1.8000000000000007,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960801001",
+  "grade": "open"
+ },
+ {
+  "id": "GMHS-1794322097",
+  "ts_kst": "2026-11-10 23:48",
+  "ts_utc": "2026-11-10T14:48:17+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "GMHS",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 GMHS 상위 확률 신호",
+  "body": "$0.769 (+21.2%) · 정규장 · 레벨 3 · 점수 40\n$0.900 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.731 지정가(기준가 $0.769의 −5%) · 체결 가능성 약 63% · 손익분기 $0.740\n숏 지지구간 $0.750–$0.769 · 손절 $0.700 · 1차목표 $0.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7692,
+  "level": 3,
+  "score": 40.2,
+  "prob": 53.292326509393796,
+  "cp": 19.6602762196576,
+  "rl": 0.9000000000000004,
+  "stop": 0.7000000000000002,
+  "zone": [
+   0.7500000000000002,
+   0.7692009806632996
+  ],
+  "bp": 0.7307,
+  "tgt": 0.9000000000000004,
+  "stp": 0.7000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250127006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250127006",
+  "grade": "open"
+ },
+ {
+  "id": "AVAT-1794322097",
+  "ts_kst": "2026-11-10 23:48",
+  "ts_utc": "2026-11-10T14:48:17+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "AVAT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.4% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AVAT 장중 급등 포착",
+  "body": "$1.070 (+16.4%) · 정규장 · 레벨 1 · 점수 20\n$1.10 넘으면 공매도 되사기 압박 ↑ · $1 다시 회복\n• 전일 대비 +16.4% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $1.017 지정가(기준가 $1.070의 −5%) · 체결 가능성 약 72% · 손익분기 $1.029\n숏 지지구간 $0.600–$0.765 · 손절 $0.535 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.07,
+  "level": 1,
+  "score": 20.2,
+  "prob": 21.428571428571427,
+  "cp": 24.589604807204438,
+  "rl": 1.1000000000000003,
+  "stop": 0.5350000262260437,
+  "zone": [
+   0.6000000000000001,
+   0.7645000183582307
+  ],
+  "bp": 1.0165,
+  "tgt": 1.1000000000000003,
+  "stp": 0.5350000262260437,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250203003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250203003",
+  "grade": "open"
  }
 ]
