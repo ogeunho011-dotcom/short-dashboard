@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "QUBT",
-  "form": "10-Q",
-  "acc": "0001628280-26-072119",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:02:22+00:00",
-  "accepted_kst": "11/10 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1758009/000162828026072119/0001628280-26-072119-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "PRZO",
   "form": "6-K",
   "acc": "0001185185-26-005258",
@@ -8667,5 +8650,22 @@
   "headline": ", to this Current Report on Form 8-K and are incorporated by reference herein. The information presented herein shall not be deemed “filed” for purposes of Sect",
   "url": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000077/0001883313-26-000077-index.htm",
   "seen_kst": "2026-11-11 02:47"
+ },
+ {
+  "ticker": "SGLD",
+  "form": "6-K",
+  "acc": "0001753926-26-002084",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:48:32+00:00",
+  "accepted_kst": "11/11 02:48",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NASDAQ: SGLD TSXV: SGLD #750-1095 W. Pender St. Vancouver, BC V6E2M6 WWW.SCORPIOGOLD.COM SCORPIO GOLD DRILLS 9.4 g/t GOLD OVER 13.05 METRES FROM 78.63 METRES AT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1467093/000175392626002084/0001753926-26-002084-index.htm",
+  "seen_kst": "2026-11-11 02:50"
  }
 ]

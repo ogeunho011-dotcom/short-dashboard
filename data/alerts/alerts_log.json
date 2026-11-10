@@ -46634,5 +46634,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
   "grade": "open"
+ },
+ {
+  "id": "STAK-1794333007",
+  "ts_kst": "2026-11-11 02:50",
+  "ts_utc": "2026-11-10T17:50:07+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "STAK",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "5분 +11.8% 급변 · 전일 대비 +34.1% — 추격 매수 주의",
+   "5분 거래량 326k (당일 평균 29.7배)"
+  ],
+  "title": "🚀 STAK 장중 급등 포착 · 거래량 급증",
+  "body": "$5.480 (+34.1%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $6.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,921만 주뿐이라 쉽게 크게 움직임\n• 5분 +11.8% 급변 · 전일 대비 +34.1% — 추격 매수 주의\n• 5분 거래량 326k (당일 평균 29.7배)\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $5.206 지정가(기준가 $5.480의 −5%) · 체결 가능성 약 64% · 손익분기 $5.269\n숏 지지구간 $4.500–$5.000 · 손절 $4.000 · 1차목표 $6.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.48,
+  "level": 3,
+  "score": 40.3,
+  "prob": 45.01661129568107,
+  "cp": 69.68315204681198,
+  "rl": 6.0,
+  "stop": 4.0,
+  "zone": [
+   4.5,
+   5.0
+  ],
+  "bp": 5.206,
+  "tgt": 6.0,
+  "stp": 4.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250226004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250226004",
+  "grade": "open"
  }
 ]
