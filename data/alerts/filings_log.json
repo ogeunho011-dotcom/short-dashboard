@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SSTI",
-  "form": "SC TO-T/A",
-  "acc": "0001140361-26-042603",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:19:11+00:00",
-  "accepted_kst": "11/09 21:19",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1351636/000114036126042603/0001140361-26-042603-index.htm",
-  "seen_kst": "2026-11-09 21:20"
- },
- {
   "ticker": "FTH",
   "form": "8-K",
   "acc": "0001193125-26-452643",
@@ -8694,5 +8677,22 @@
   "headline": "Item 1.01. Entry into a Material Definitive Agreement. On November 9, 2026, Enovum NC-1 Midco, LLC, a Delaware limited liability company (“Holdings”), and Enovu",
   "url": "https://www.sec.gov/Archives/edgar/data/2042022/000121390026117723/0001213900-26-117723-index.htm",
   "seen_kst": "2026-11-10 20:43"
+ },
+ {
+  "ticker": "BRSL",
+  "form": "6-K",
+  "acc": "0001628280-26-072492",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:43:10+00:00",
+  "accepted_kst": "11/10 20:43",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Third Quarter 2026 Results of Brightstar Lottery PLC On November 10, 2026, Brightstar Lottery PLC (NYSE: BRSL) (the \" Company \") reported results for the quarte",
+  "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026072492/0001628280-26-072492-index.htm",
+  "seen_kst": "2026-11-10 20:45"
  }
 ]
