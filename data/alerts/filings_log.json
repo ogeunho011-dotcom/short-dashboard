@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SBH",
-  "form": "4",
-  "acc": "0001368458-26-000012",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:08:23+00:00",
-  "accepted_kst": "11/09 21:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1368458/000136845826000012/0001368458-26-000012-index.htm",
-  "seen_kst": "2026-11-09 21:10"
- },
- {
   "ticker": "OCUL",
   "form": "8-K",
   "acc": "0001104659-26-124151",
@@ -8692,5 +8675,22 @@
   "headline": "Contact: David Anderson Vice President, Chief Financial Officer and Air & Liquid Processing President (412) 246-4010 danderson@ampcopgh.com",
   "url": "https://www.sec.gov/Archives/edgar/data/6176/000119312526454353/0001193125-26-454353-index.htm",
   "seen_kst": "2026-11-10 20:23"
+ },
+ {
+  "ticker": "AOSL",
+  "form": "SCHEDULE 13G",
+  "acc": "0000093751-26-000609",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:23:28+00:00",
+  "accepted_kst": "11/10 20:23",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1387467/000009375126000609/0000093751-26-000609-index.htm",
+  "seen_kst": "2026-11-10 20:25"
  }
 ]
