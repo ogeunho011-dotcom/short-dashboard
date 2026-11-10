@@ -45534,5 +45534,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221013001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221013001",
   "grade": "open"
+ },
+ {
+  "id": "APT-1794327601",
+  "ts_kst": "2026-11-11 01:20",
+  "ts_utc": "2026-11-10T16:20:01+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "APT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 APT 상위 확률 신호",
+  "body": "$6.310 (+12.9%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $6.34 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,021만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.994 지정가(기준가 $6.310의 −5%) · 체결 가능성 약 21% · 손익분기 $6.067\n숏 지지구간 $6.000–$6.100 · 손절 $5.900 · 1차목표 $6.340\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.31,
+  "level": 3,
+  "score": 40.2,
+  "prob": 53.44827586206896,
+  "cp": 61.28260476355668,
+  "rl": 6.340000152587891,
+  "stop": 5.899999999999997,
+  "zone": [
+   5.9999999999999964,
+   6.099999999999996
+  ],
+  "bp": 5.9945,
+  "tgt": 7.291000175476074,
+  "stp": 5.899999999999997,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000404002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000404002",
+  "grade": "open"
  }
 ]
