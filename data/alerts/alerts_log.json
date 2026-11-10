@@ -43010,5 +43010,91 @@
    "accepted_kst": "11/10 21:01",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "MASS-fil-0001104659-26-124772",
+  "ts_kst": "2026-11-10 21:08",
+  "ts_utc": "2026-11-10T12:08:29+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "MASS",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 MASS 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/10 21:05 KST)\n908 Devices Reports Third Quarter 2026 Financial Results and Achieves Record Revenue Revenue increased 35% compared to prior year Raises low\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201217007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201217007",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001104659-26-124772",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "908 Devices Reports Third Quarter 2026 Financial Results and Achieves Record Revenue Revenue increased 35% compared to prior year Raises low end of 2026 revenue",
+   "url": "https://www.sec.gov/Archives/edgar/data/1555279/000110465926124772/0001104659-26-124772-index.htm",
+   "accepted_kst": "11/10 21:05",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "PDYN-fil-0001193125-26-454410",
+  "ts_kst": "2026-11-10 21:08",
+  "ts_utc": "2026-11-10T12:08:29+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "PDYN",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 PDYN 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/10 21:06 KST)\nPalladyne AI Reports Record Third Quarter 2026 Results Revenue increased 895% year-over-year and 48% sequentially to $8.6 million Raises bot\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210927009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210927009",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-454410",
+   "items": "2.02,7.01,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Palladyne AI Reports Record Third Quarter 2026 Results Revenue increased 895% year-over-year and 48% sequentially to $8.6 million Raises bottom end of full-year",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826681/000119312526454410/0001193125-26-454410-index.htm",
+   "accepted_kst": "11/10 21:06",
+   "polarity": "pos"
+  }
  }
 ]
