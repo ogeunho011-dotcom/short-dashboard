@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GDYN",
-  "form": "ARS",
-  "acc": "0001104659-26-124233",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:06:18+00:00",
-  "accepted_kst": "11/09 23:06",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1743725/000110465926124233/0001104659-26-124233-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "OSUR",
   "form": "SCHEDULE 13G/A",
   "acc": "0001142031-26-000028",
@@ -8667,5 +8650,22 @@
   "headline": "ADDISON LEWIS C",
   "url": "https://www.sec.gov/Archives/edgar/data/1275101/000143774926036049/0001437749-26-036049-index.htm",
   "seen_kst": "2026-11-11 01:45"
+ },
+ {
+  "ticker": "CZNC",
+  "form": "8-K",
+  "acc": "0001104659-26-124970",
+  "items": "7.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T16:53:22+00:00",
+  "accepted_kst": "11/11 01:53",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Investor Presentation Data as of or for the period ended September 30, 2026, unless otherwise noted EX 99.1 CAUTION REGARDING FORWARD LOOKING STATEMENTS This pr",
+  "url": "https://www.sec.gov/Archives/edgar/data/810958/000110465926124970/0001104659-26-124970-index.htm",
+  "seen_kst": "2026-11-11 01:55"
  }
 ]
