@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GOOD",
-  "form": "4",
-  "acc": "0001873961-26-000002",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:40:46+00:00",
-  "accepted_kst": "11/10 04:40",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $99,999 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Cooper Arthur S.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1234006/000187396126000002/0001873961-26-000002-index.htm",
-  "seen_kst": "2026-11-10 04:43"
- },
- {
   "ticker": "CPAC",
   "form": "6-K",
   "acc": "0001213900-26-117489",
@@ -8669,5 +8652,22 @@
   "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders . On November 7, 2026, Greene County Bancorp, Inc., now known as Greene Bancorp, Inc. (the “Compan",
   "url": "https://www.sec.gov/Archives/edgar/data/1070524/000114036126042925/0001140361-26-042925-index.htm",
   "seen_kst": "2026-11-11 00:57"
+ },
+ {
+  "ticker": "NXTS",
+  "form": "PRE 14A",
+  "acc": "0001493152-26-050722",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-10T15:53:59+00:00",
+  "accepted_kst": "11/11 00:53",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1789192/000149315226050722/0001493152-26-050722-index.htm",
+  "seen_kst": "2026-11-11 01:10"
  }
 ]
