@@ -34547,10 +34547,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070501002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070501002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.04487721138669732,
+  "graded_bars": 2
  },
  {
   "id": "ZVIA-1793980333",
@@ -46143,5 +46143,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250127006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250127006",
   "grade": "open"
+ },
+ {
+  "id": "DFNS-1794330451",
+  "ts_kst": "2026-11-11 02:07",
+  "ts_utc": "2026-11-10T17:07:31+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "DFNS",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 36k (당일 평균 6.3배)"
+  ],
+  "title": "🚀 DFNS 거래량 급증",
+  "body": "$2.180 (+11.8%) · 정규장 · 레벨 3 · 점수 40\n시장에 도는 주식 76만 주뿐이라 쉽게 크게 움직임 · $2 다시 회복 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 거래량 36k (당일 평균 6.3배)\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $2.071 지정가(기준가 $2.180의 −5%) · 체결 가능성 약 78% · 손익분기 $2.096\n숏 지지구간 $1.526–$2.180 · 손절 $1.090 · 1차목표 $3.270\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 10/23)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.1801,
+  "level": 3,
+  "score": 40.5,
+  "prob": 24.654680813053005,
+  "cp": 2.0,
+  "rl": 10.0,
+  "stop": 1.0900499820709229,
+  "zone": [
+   1.5260699748992919,
+   2.1800999641418457
+  ],
+  "bp": 2.0711,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 10/23)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200722002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200722002",
+  "grade": "n/a"
  }
 ]
