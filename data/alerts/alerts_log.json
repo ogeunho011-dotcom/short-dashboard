@@ -2453,10 +2453,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150630002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150630002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 4
+  "grade": "hit",
+  "grade_day": 8,
+  "grade_ret": 0.06618309859154936,
+  "graded_bars": 8
  },
  {
   "id": "CETX-1793280909",
@@ -20933,7 +20933,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170124001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170124001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 4,
+  "grade_ret": -0.25384381894764996,
+  "graded_bars": 4
  },
  {
   "id": "SPWR-1793805145",
@@ -45186,6 +45189,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230918003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230918003",
+  "grade": "open"
+ },
+ {
+  "id": "NNOX-1794324615",
+  "ts_kst": "2026-11-11 00:30",
+  "ts_utc": "2026-11-10T15:30:15+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "NNOX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +44.8% · 거래량 평소의 246.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NNOX 장중 급등 포착",
+  "body": "$0.341 (+44.8%) · 정규장 · 레벨 1 · 점수 22\n$0.350 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 45배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +44.8% · 거래량 평소의 246.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $0.324 지정가(기준가 $0.341의 −5%) · 체결 가능성 약 70% · 손익분기 $0.328\n숏 지지구간 $0.200–$0.250 · 손절 $0.170 · 1차목표 $0.350\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3407,
+  "level": 1,
+  "score": 22.1,
+  "prob": 49.742372805056775,
+  "cp": 50.15232066092108,
+  "rl": 0.35,
+  "stop": 0.17035050690174103,
+  "zone": [
+   0.2,
+   0.25
+  ],
+  "bp": 0.3237,
+  "tgt": 0.35,
+  "stp": 0.17035050690174103,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200820003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200820003",
   "grade": "open"
  }
 ]
