@@ -47609,5 +47609,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240423003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240423003",
   "grade": "n/a"
+ },
+ {
+  "id": "NNOX-1794339304",
+  "ts_kst": "2026-11-11 04:35",
+  "ts_utc": "2026-11-10T19:35:04+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "NNOX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +46.7% · 거래량 평소의 90.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NNOX 장중 급등 포착",
+  "body": "$0.345 (+46.7%) · 정규장 · 레벨 2 · 점수 29\n$0.350 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +46.7% · 거래량 평소의 90.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.328 지정가(기준가 $0.345의 −5%) · 체결 가능성 약 70% · 손익분기 $0.332\n숏 지지구간 $0.200–$0.251 · 손절 $0.173 · 1차목표 $0.350\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3452,
+  "level": 2,
+  "score": 29.1,
+  "prob": 52.91666666666666,
+  "cp": 53.56091646352013,
+  "rl": 0.35,
+  "stop": 0.17260000109672546,
+  "zone": [
+   0.2,
+   0.25082000076770783
+  ],
+  "bp": 0.3279,
+  "tgt": 0.35,
+  "stp": 0.17260000109672546,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200820003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200820003",
+  "grade": "open"
+ },
+ {
+  "id": "CISS-1794339304",
+  "ts_kst": "2026-11-11 04:35",
+  "ts_utc": "2026-11-10T19:35:04+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "CISS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.0% · 거래량 평소의 25.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CISS 장중 급등 포착",
+  "body": "$2.065 (+18.0%) · 정규장 · 레벨 3 · 점수 47\n시장에 도는 주식 66만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 29배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +18.0% · 거래량 평소의 25.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 33%\n추천 매수가 $1.962 지정가(기준가 $2.065의 −5%) · 체결 가능성 약 66% · 손익분기 $1.985\n숏 지지구간 $1.446–$2.065 · 손절 $1.033 · 1차목표 $2.490\n⚠ 424B 증자 설명서 6건 (30일 내, 최근 11/09)\n⚠ 역분할 2026-11-09\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.065,
+  "level": 3,
+  "score": 46.9,
+  "prob": 33.1858407079646,
+  "cp": 22.0,
+  "rl": 10.0,
+  "stop": 1.0325000286102295,
+  "zone": [
+   1.4455000400543212,
+   2.065000057220459
+  ],
+  "bp": 1.9618,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 6건 (30일 내, 최근 11/09)",
+   "역분할 2026-11-09",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230622001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230622001",
+  "grade": "n/a"
  }
 ]
