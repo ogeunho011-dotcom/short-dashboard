@@ -46104,5 +46104,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250502001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250502001",
   "grade": "open"
+ },
+ {
+  "id": "GMHS-1794330003",
+  "ts_kst": "2026-11-11 02:00",
+  "ts_utc": "2026-11-10T17:00:03+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "GMHS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 10.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GMHS 장중 급등 포착",
+  "body": "$0.738 (+16.2%) · 정규장 · 레벨 2 · 점수 31\n$0.750 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 8배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.2% · 거래량 평소의 10.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.691 지정가(60일선, 기준가 대비 -6.4%) · 체결 가능성 약 55% · 손익분기 $0.699\n숏 지지구간 $0.700–$0.738 · 손절 $0.650 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.738,
+  "level": 2,
+  "score": 31.1,
+  "prob": 28.643216080402006,
+  "cp": 29.30118203290621,
+  "rl": 0.7500000000000002,
+  "stop": 0.6500000000000001,
+  "zone": [
+   0.7000000000000002,
+   0.7379999756813049
+  ],
+  "bp": 0.6908,
+  "tgt": 0.7500000000000002,
+  "stp": 0.6500000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250127006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250127006",
+  "grade": "open"
  }
 ]
