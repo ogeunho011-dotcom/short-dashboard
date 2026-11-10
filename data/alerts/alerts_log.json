@@ -46798,5 +46798,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161228001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161228001",
   "grade": "open"
+ },
+ {
+  "id": "SCAG-1794334655",
+  "ts_kst": "2026-11-11 03:17",
+  "ts_utc": "2026-11-10T18:17:35+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "SCAG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +17.6% 급변 · 전일 대비 +17.6% — 추격 매수 주의"
+  ],
+  "title": "⚡ SCAG 장중 급등 포착",
+  "body": "$1.089 (+17.6%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중 · $1 다시 회복\n• 5분 +17.6% 급변 · 전일 대비 +17.6% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $1.004 지정가(20일선, 기준가 대비 -7.8%) · 체결 가능성 약 80% · 손익분기 $1.016\n숏 지지구간 $0.762–$0.762 · 손절 $0.544 · 1차목표 $2.548\n⚠ 역분할 2026-10-27\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.089,
+  "level": 2,
+  "score": 28.0,
+  "prob": 30.967239251755895,
+  "cp": 38.93269756355232,
+  "rl": 2.54849910736084,
+  "stop": 0.5444999933242798,
+  "zone": [
+   0.7622999906539917,
+   0.7622999906539917
+  ],
+  "bp": 1.0036,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-10-27"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250630006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250630006",
+  "grade": "n/a"
  }
 ]
