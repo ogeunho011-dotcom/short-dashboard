@@ -1,23 +1,6 @@
 [
  {
   "ticker": "GDYN",
-  "form": "DEFA14A",
-  "acc": "0001104659-26-124229",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:02:39+00:00",
-  "accepted_kst": "11/09 23:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1743725/000110465926124229/0001104659-26-124229-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
-  "ticker": "GDYN",
   "form": "ARS",
   "acc": "0001104659-26-124233",
   "items": "",
@@ -8667,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1837607/000121390026117865/0001213900-26-117865-index.htm",
   "seen_kst": "2026-11-11 01:37"
+ },
+ {
+  "ticker": "BOTJ",
+  "form": "4",
+  "acc": "0001437749-26-036049",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T16:43:11+00:00",
+  "accepted_kst": "11/11 01:43",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $1,944 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "ADDISON LEWIS C",
+  "url": "https://www.sec.gov/Archives/edgar/data/1275101/000143774926036049/0001437749-26-036049-index.htm",
+  "seen_kst": "2026-11-11 01:45"
  }
 ]

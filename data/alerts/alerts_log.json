@@ -45745,5 +45745,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000808001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000808001",
   "grade": "open"
+ },
+ {
+  "id": "ZIP-1794329114",
+  "ts_kst": "2026-11-11 01:45",
+  "ts_utc": "2026-11-10T16:45:14+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "ZIP",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +36.9% · 거래량 평소의 7.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZIP 장중 급등 포착",
+  "body": "$5.885 (+36.9%) · 정규장 · 레벨 2 · 점수 38\n공매도 물량 대부분 손해 중, $5.90 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +36.9% · 거래량 평소의 7.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.591 지정가(기준가 $5.885의 −5%) · 체결 가능성 약 47% · 손익분기 $5.658\n숏 지지구간 $5.000–$5.250 · 손절 $4.750 · 1차목표 $5.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.885,
+  "level": 2,
+  "score": 37.9,
+  "prob": 53.44827586206896,
+  "cp": 70.89050998595324,
+  "rl": 5.900000095367432,
+  "stop": 4.75,
+  "zone": [
+   5.0,
+   5.25
+  ],
+  "bp": 5.5908,
+  "tgt": 6.785000109672546,
+  "stp": 4.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210525017%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210525017",
+  "grade": "open"
+ },
+ {
+  "id": "HUHU-1794329114",
+  "ts_kst": "2026-11-11 01:45",
+  "ts_utc": "2026-11-10T16:45:14+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "HUHU",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 69k (당일 평균 19.5배)"
+  ],
+  "title": "🚀 HUHU 거래량 급증",
+  "body": "$0.375 (+13.0%) · 정규장 · 레벨 3 · 점수 48\n공매도 물량 대부분 손해 중 · 오늘 거래량 평소의 27배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 5분 거래량 69k (당일 평균 19.5배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.356 지정가(기준가 $0.375의 −5%) · 체결 가능성 약 85% · 손익분기 $0.361\n숏 지지구간 $0.263–$0.375 · 손절 $0.188 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3752,
+  "level": 3,
+  "score": 47.8,
+  "prob": 31.25,
+  "cp": 51.31349878955768,
+  "rl": 1.0,
+  "stop": 0.18758900463581085,
+  "zone": [
+   0.2626246064901352,
+   0.3751780092716217
+  ],
+  "bp": 0.3564,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241022002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241022002",
+  "grade": "n/a"
  }
 ]
