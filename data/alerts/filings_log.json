@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "CCAP",
-  "form": "10-Q",
-  "acc": "0001193125-26-453562",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:07:19+00:00",
-  "accepted_kst": "11/10 06:07",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526453562/0001193125-26-453562-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
-  "ticker": "LRMR",
-  "form": "8-K",
-  "acc": "0001193125-26-453586",
-  "items": "2.02,8.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:08:26+00:00",
-  "accepted_kst": "11/10 06:08",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Larimar Therapeutics Completes Rolling BLA Submission Seeking Accelerated Approval of Nomlabofusp for Friedreich’s Ataxia • Completed BLA submission marks a maj",
-  "url": "https://www.sec.gov/Archives/edgar/data/1374690/000119312526453586/0001193125-26-453586-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "OSUR",
   "form": "8-K",
   "acc": "0001116463-26-000061",
@@ -8661,5 +8625,39 @@
   "headline": "Slocum William J",
   "url": "https://www.sec.gov/Archives/edgar/data/1013934/000185973026000004/0001859730-26-000004-index.htm",
   "seen_kst": "2026-11-11 03:17"
+ },
+ {
+  "ticker": "CPSH",
+  "form": "4/A",
+  "acc": "0001226537-26-000003",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T18:29:39+00:00",
+  "accepted_kst": "11/11 03:29",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/814676/000122653726000003/0001226537-26-000003-index.htm",
+  "seen_kst": "2026-11-11 03:32"
+ },
+ {
+  "ticker": "MI",
+  "form": "6-K",
+  "acc": "0001213900-26-117915",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T18:30:04+00:00",
+  "accepted_kst": "11/11 03:30",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Statement Regarding Unusual Market Activity NFT Limited (the “Company”) today issued the following statement pursuant to Section 401(d) of the NYSE American Com",
+  "url": "https://www.sec.gov/Archives/edgar/data/1958713/000121390026117915/0001213900-26-117915-index.htm",
+  "seen_kst": "2026-11-11 03:32"
  }
 ]
