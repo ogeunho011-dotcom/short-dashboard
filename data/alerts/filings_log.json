@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ZSTK",
-  "form": "8-K",
-  "acc": "0001062993-26-005837",
-  "items": "1.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:11:03+00:00",
-  "accepted_kst": "11/10 06:11",
-  "polarity": "neutral",
-  "label": "중요 계약",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 3, 2026, ZeroStack Corp. (the \"Company\") entered into a Share Purchase and Transfer Agreement",
-  "url": "https://www.sec.gov/Archives/edgar/data/1790169/000106299326005837/0001062993-26-005837-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "AMPY",
   "form": "8-K",
   "acc": "0001104659-26-124492",
@@ -8657,5 +8640,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/106532/000119494826000017/0001194948-26-000017-index.htm",
   "seen_kst": "2026-11-11 05:27"
+ },
+ {
+  "ticker": "FSBW",
+  "form": "4",
+  "acc": "0000939057-26-000307",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T20:33:21+00:00",
+  "accepted_kst": "11/11 05:33",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000307/0000939057-26-000307-index.htm",
+  "seen_kst": "2026-11-11 05:35"
  }
 ]
