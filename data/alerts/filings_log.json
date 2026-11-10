@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SYPR",
-  "form": "8-K",
-  "acc": "0001437749-26-035762",
-  "items": "5.02",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T16:30:10+00:00",
-  "accepted_kst": "11/10 01:30",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Ef",
-  "url": "https://www.sec.gov/Archives/edgar/data/864240/000143774926035762/0001437749-26-035762-index.htm",
-  "seen_kst": "2026-11-10 01:31"
- },
- {
   "ticker": "LKFN",
   "form": "4",
   "acc": "0001210212-26-000004",
@@ -8669,5 +8652,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1274737/000119312526454588/0001193125-26-454588-index.htm",
   "seen_kst": "2026-11-10 23:35"
+ },
+ {
+  "ticker": "HROW",
+  "form": "10-Q",
+  "acc": "0001628280-26-072325",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T22:12:17+00:00",
+  "accepted_kst": "11/10 07:12",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1360214/000162828026072325/0001628280-26-072325-index.htm",
+  "seen_kst": "2026-11-10 23:38"
  }
 ]
