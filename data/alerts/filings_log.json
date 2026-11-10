@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CGEM",
-  "form": "8-K",
-  "acc": "0001193125-26-452644",
-  "items": "7.01,8.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:20:25+00:00",
-  "accepted_kst": "11/09 21:20",
-  "polarity": "neutral",
-  "label": "IR 자료 · 기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Velinotamig, a BCMAxCD3 T Cell Engager, Achieves Complete Renal Responses and Significantly Reduces Disease Activity in Systemic Lupus Erythematosus in Data Pre",
-  "url": "https://www.sec.gov/Archives/edgar/data/1789972/000119312526452644/0001193125-26-452644-index.htm",
-  "seen_kst": "2026-11-09 21:22"
- },
- {
   "ticker": "TNXP",
   "form": "8-K",
   "acc": "0001493152-26-050621",
@@ -8694,5 +8677,22 @@
   "headline": "Nova Minerals Confirms 216,000 tpa Processing Capacity, Advancing Alaska’s Critical Minerals Hub Anchorage, Alaska, November 10, 2026 – Nova Minerals Corp (“Nov",
   "url": "https://www.sec.gov/Archives/edgar/data/1852551/000149315226050853/0001493152-26-050853-index.htm",
   "seen_kst": "2026-11-10 20:48"
+ },
+ {
+  "ticker": "AP",
+  "form": "10-Q",
+  "acc": "0001193125-26-454378",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:46:56+00:00",
+  "accepted_kst": "11/10 20:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/6176/000119312526454378/0001193125-26-454378-index.htm",
+  "seen_kst": "2026-11-10 20:50"
  }
 ]
