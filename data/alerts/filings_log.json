@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "DFDV",
-  "form": "8-K",
-  "acc": "0001805526-26-000158",
-  "items": "8.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:15:18+00:00",
-  "accepted_kst": "11/09 22:15",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 8.01. Other Events. On November 9, 2026, DeFi Development Corp. (“DFDV” or the “Company”) announced that during the period from November 2, 2026 through No",
-  "url": "https://www.sec.gov/Archives/edgar/data/1805526/000180552626000158/0001805526-26-000158-index.htm",
-  "seen_kst": "2026-11-09 22:17"
- },
- {
-  "ticker": "SHFS",
-  "form": "8-K",
-  "acc": "0001493152-26-050636",
-  "items": "2.02,8.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:15:25+00:00",
-  "accepted_kst": "11/09 22:15",
-  "polarity": "neutral",
-  "label": "실적 · 기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Safe Harbor Financial Reports Third Quarter 2026 Financial Results Revenue increases 6.5% to $1.95 million, supported by 70.2% growth in loan program income Ave",
-  "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226050636/0001493152-26-050636-index.htm",
-  "seen_kst": "2026-11-09 22:17"
- },
- {
   "ticker": "SHFS",
   "form": "425",
   "acc": "0001493152-26-050638",
@@ -8648,5 +8614,41 @@
   "headline": "HIVE DIGITAL TECHNOLOGIES LTD. HIVE Reports Q2 Revenue of $84.9 Million with AI GPU Revenue Expanding 70% as Dual-Engine Model Drives Resilience with $139 Milli",
   "url": "https://www.sec.gov/Archives/edgar/data/1720424/000106299326005856/0001062993-26-005856-index.htm",
   "seen_kst": "2026-11-10 21:45"
+ },
+ {
+  "ticker": "TWG",
+  "form": "6-K",
+  "acc": "0001213900-26-117766",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:45:26+00:00",
+  "accepted_kst": "11/10 21:45",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "TWG Announces Regaining Compliance with Nasdaq Minimum Bid Price Requirement Lille, Nov. 10, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/1978057/000121390026117766/0001213900-26-117766-index.htm",
+  "seen_kst": "2026-11-10 21:48"
+ },
+ {
+  "ticker": "XLO",
+  "form": "S-8",
+  "acc": "0001193125-26-454457",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:45:48+00:00",
+  "accepted_kst": "11/10 21:45",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840233/000119312526454457/0001193125-26-454457-index.htm",
+  "seen_kst": "2026-11-10 21:48"
  }
 ]
