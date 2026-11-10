@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "EVAX",
-  "form": "F-1/A",
-  "acc": "0001171843-26-007254",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:00:41+00:00",
-  "accepted_kst": "11/09 22:00",
-  "polarity": "neg",
-  "label": "증자 서류(F-1/A)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1828253/000117184326007254/0001171843-26-007254-index.htm",
-  "seen_kst": "2026-11-09 22:03"
- },
- {
   "ticker": "TTRX",
   "form": "S-3",
   "acc": "0001213900-26-117224",
@@ -8673,5 +8654,22 @@
   "headline": "City Therapeutics Announces First Participant Dosed in Phase 1 Clinical Trial of CITY-RBP4 for the Treatment of Stargardt Disease CITY-RBP4 is an RNAi therapeut",
   "url": "https://www.sec.gov/Archives/edgar/data/2143850/000110465926124775/0001104659-26-124775-index.htm",
   "seen_kst": "2026-11-10 21:08"
+ },
+ {
+  "ticker": "CGEM",
+  "form": "10-Q",
+  "acc": "0001193125-26-454417",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:09:38+00:00",
+  "accepted_kst": "11/10 21:09",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1789972/000119312526454417/0001193125-26-454417-index.htm",
+  "seen_kst": "2026-11-10 21:10"
  }
 ]
