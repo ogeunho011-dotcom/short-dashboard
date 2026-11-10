@@ -48652,5 +48652,478 @@
    "accepted_kst": "11/11 06:07",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "PRPO-fil-0001104659-26-125196",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "PRPO",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 PRPO 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/11 06:15 KST)\nPrecipio Announces Q3-2026 Financial Results Record quarterly revenue, positive Adjusted EBITDA, and strong operating cash flow - all positi\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170630002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170630002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001104659-26-125196",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Precipio Announces Q3-2026 Financial Results Record quarterly revenue, positive Adjusted EBITDA, and strong operating cash flow - all position Precipio for acce",
+   "url": "https://www.sec.gov/Archives/edgar/data/1043961/000110465926125196/0001104659-26-125196-index.htm",
+   "accepted_kst": "11/11 06:15",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "NHP-fil-0001140361-26-043036",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "NHP",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 피인수·합병(주당 가격 제시)"
+  ],
+  "title": "📢 NHP 호재 공시",
+  "body": "8-K · 피인수·합병(주당 가격 제시) (11/11 06:17 KST)\nNATIONAL HEALTHCARE PROPERTIES, INC. AND SUBSIDIARIES Unaudited Pro Forma Condensed Combined Financial Information ( in thousands ) National\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2604022004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2604022004",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001140361-26-043036",
+   "items": "8.01,9.01",
+   "label": "피인수·합병(주당 가격 제시)",
+   "cats": [
+    "피인수·합병(주당 가격 제시)"
+   ],
+   "strength": 5,
+   "headline": "NATIONAL HEALTHCARE PROPERTIES, INC. AND SUBSIDIARIES Unaudited Pro Forma Condensed Combined Financial Information ( in thousands ) National Healthcare Properti",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561032/000114036126043036/0001140361-26-043036-index.htm",
+   "accepted_kst": "11/11 06:17",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "BRSL-fil-0001628280-26-072756",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "BRSL",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 자사주 매입"
+  ],
+  "title": "📢 BRSL 호재 공시",
+  "body": "6-K · 자사주 매입 (11/11 06:20 KST)\no 1 Table of Contents TABLE OF CONTENTS Page Forward-Looking Statements 3 PART I FINANCIAL INFORMATION 4 Item 1. Condensed Consolidated Fina\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19910131002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19910131002",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001628280-26-072756",
+   "items": "",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "o 1 Table of Contents TABLE OF CONTENTS Page Forward-Looking Statements 3 PART I FINANCIAL INFORMATION 4 Item 1. Condensed Consolidated Financial Statements (Un",
+   "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026072756/0001628280-26-072756-index.htm",
+   "accepted_kst": "11/11 06:20",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "PALI-fil-0001357459-26-000025",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "PALI",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가"
+  ],
+  "title": "📢 PALI 호재 공시",
+  "body": "8-K · FDA 승인·허가 (11/11 06:22 KST)\nPalisade Bio Reports Third Quarter 2026 Financial Results and Advances PALI-2108 Phase 2 Clinical Development Programs First Patient Dosed i\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221116001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221116001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001357459-26-000025",
+   "items": "2.02,9.01",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "Palisade Bio Reports Third Quarter 2026 Financial Results and Advances PALI-2108 Phase 2 Clinical Development Programs First Patient Dosed in Global Phase 2b AS",
+   "url": "https://www.sec.gov/Archives/edgar/data/1357459/000135745926000025/0001357459-26-000025-index.htm",
+   "accepted_kst": "11/11 06:22",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "BMEA-fil-0001193125-26-455557",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "BMEA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 제휴·라이선스"
+  ],
+  "title": "📢 BMEA 호재 공시",
+  "body": "8-K · 제휴·라이선스 (11/11 06:27 KST)\nBiomea Fusion Reports Third Quarter 2026 Financial Results and Corporate Highlights • Completed enrollment in the Phase II COVALENT-211 clin\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210415002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210415002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-455557",
+   "items": "9.01",
+   "label": "제휴·라이선스",
+   "cats": [
+    "제휴·라이선스"
+   ],
+   "strength": 4,
+   "headline": "Biomea Fusion Reports Third Quarter 2026 Financial Results and Corporate Highlights • Completed enrollment in the Phase II COVALENT-211 clinical trial evaluatin",
+   "url": "https://www.sec.gov/Archives/edgar/data/1840439/000119312526455557/0001193125-26-455557-index.htm",
+   "accepted_kst": "11/11 06:27",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "AMPX-fil-0001899287-26-000069",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "AMPX",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 AMPX 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/11 06:28 KST)\nAmprius Technologies Reports Third Quarter 2026 Financial Results and Recent Business Highlights • Q3 2026 revenue increased 83% year-over-y\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220915002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220915002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001899287-26-000069",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Amprius Technologies Reports Third Quarter 2026 Financial Results and Recent Business Highlights • Q3 2026 revenue increased 83% year-over-year to $39.1 million",
+   "url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000069/0001899287-26-000069-index.htm",
+   "accepted_kst": "11/11 06:28",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "UPBD-fil-0001193125-26-455581",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "UPBD",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $150,074"
+  ],
+  "title": "📢 UPBD 호재 공시",
+  "body": "4 · 내부자 장내 매수 $150,074 (11/11 06:30 KST)\nYoung Scott A.\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19950125001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19950125001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001193125-26-455581",
+   "items": "",
+   "label": "내부자 장내 매수 $150,074",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Young Scott A.",
+   "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312526455581/0001193125-26-455581-index.htm",
+   "accepted_kst": "11/11 06:30",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "WD-fil-0001104659-26-125243",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "WD",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $200,526"
+  ],
+  "title": "📢 WD 호재 공시",
+  "body": "4 · 내부자 장내 매수 $200,526 (11/11 06:30 KST)\nPinkus Gary S\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20101215002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20101215002",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001104659-26-125243",
+   "items": "",
+   "label": "내부자 장내 매수 $200,526",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Pinkus Gary S",
+   "url": "https://www.sec.gov/Archives/edgar/data/1497770/000110465926125243/0001104659-26-125243-index.htm",
+   "accepted_kst": "11/11 06:30",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "AVX-fil-0001493152-26-050999",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "AVX",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 AVX 호재 공시",
+  "body": "8-K · 자사주 매입 (11/11 06:40 KST)\nAVAX One Announces Elimination of All Convertible Debt and Additional Share Repurchases Debt Reduction Further Strengthens Balance Sheet and\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210708001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210708001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001493152-26-050999",
+   "items": "7.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "AVAX One Announces Elimination of All Convertible Debt and Additional Share Repurchases Debt Reduction Further Strengthens Balance Sheet and Financial Flexibili",
+   "url": "https://www.sec.gov/Archives/edgar/data/1826397/000149315226050999/0001493152-26-050999-index.htm",
+   "accepted_kst": "11/11 06:40",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SLQT-fil-0001794783-26-000092",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "SLQT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $114,218"
+  ],
+  "title": "📢 SLQT 호재 공시",
+  "body": "4 · 내부자 장내 매수 $114,218 (11/11 06:41 KST)\nHawks Donald L III\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200521002",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001794783-26-000092",
+   "items": "",
+   "label": "내부자 장내 매수 $114,218",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Hawks Donald L III",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794783/000179478326000092/0001794783-26-000092-index.htm",
+   "accepted_kst": "11/11 06:41",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SLQT-fil-0001794783-26-000094",
+  "ts_kst": "2026-11-11 06:51",
+  "ts_utc": "2026-11-10T21:51:21+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "SLQT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $200,820"
+  ],
+  "title": "📢 SLQT 호재 공시",
+  "body": "4 · 내부자 장내 매수 $200,820 (11/11 06:42 KST)\nWeldon Raymond F\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200521002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200521002",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001794783-26-000094",
+   "items": "",
+   "label": "내부자 장내 매수 $200,820",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Weldon Raymond F",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794783/000179478326000094/0001794783-26-000094-index.htm",
+   "accepted_kst": "11/11 06:42",
+   "polarity": "pos"
+  }
  }
 ]
