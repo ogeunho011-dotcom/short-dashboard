@@ -1,25 +1,5 @@
 [
  {
-  "ticker": "COUR",
-  "form": "8-K",
-  "acc": "0001140361-26-042621",
-  "items": "1.01,3.03,5.03,7.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:54:56+00:00",
-  "accepted_kst": "11/09 22:54",
-  "polarity": "neg",
-  "label": "파산·청산",
-  "cats": [],
-  "negs": [
-   "파산·청산",
-   "주주 권리 변경(역분할 등)(항목 3.03)"
-  ],
-  "strength": 0,
-  "headline": "Coursera Adopts Limited-Duration Stockholder Rights Plan Board of Directors Takes Action to Protect Long-Term Value for All Stockholders and Other Stakeholders ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1651562/000114036126042621/0001140361-26-042621-index.htm",
-  "seen_kst": "2026-11-09 22:57"
- },
- {
   "ticker": "CAPS",
   "form": "8-K",
   "acc": "0001437749-26-035720",
@@ -8648,5 +8628,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1863127/000119312526454481/0001193125-26-454481-index.htm",
   "seen_kst": "2026-11-10 22:13"
+ },
+ {
+  "ticker": "IMC",
+  "form": "6-K",
+  "acc": "0001493152-26-050873",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:14:08+00:00",
+  "accepted_kst": "11/10 22:14",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "IMC Rare Earths Advances Development of Brazil Rare Earth Project with Hatch and ANSTO Engineering and metallurgical programs will assess recovery methods and p",
+  "url": "https://www.sec.gov/Archives/edgar/data/2098395/000149315226050873/0001493152-26-050873-index.htm",
+  "seen_kst": "2026-11-10 22:15"
  }
 ]
