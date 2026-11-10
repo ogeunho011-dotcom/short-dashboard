@@ -22996,10 +22996,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220809005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220809005",
-  "grade": "open",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "miss",
+  "grade_day": 4,
+  "grade_ret": -0.2917142857142858,
+  "graded_bars": 4
  },
  {
   "id": "FTCI-1793813245",
@@ -23960,10 +23960,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220809005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220809005",
-  "grade": "open",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "miss",
+  "grade_day": 4,
+  "grade_ret": -0.28145777894875523,
+  "graded_bars": 4
  },
  {
   "id": "LBGJ-1793820510",
