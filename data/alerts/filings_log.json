@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "VFF",
-  "form": "8-K",
-  "acc": "0001193125-26-452618",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:05:15+00:00",
-  "accepted_kst": "11/09 21:05",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Village Farms International Reports Q3 2026 Results Driven by Record Cannabis Revenues • Consolidated Net Sales Increased to $67 Million with Record Cannabis Sa",
-  "url": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526452618/0001193125-26-452618-index.htm",
-  "seen_kst": "2026-11-09 21:07"
- },
- {
   "ticker": "AURA",
   "form": "8-K",
   "acc": "0001193125-26-452620",
@@ -8689,5 +8670,22 @@
   "headline": "SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the und",
   "url": "https://www.sec.gov/Archives/edgar/data/1123134/000119312526454328/0001193125-26-454328-index.htm",
   "seen_kst": "2026-11-10 20:13"
+ },
+ {
+  "ticker": "IMOS",
+  "form": "6-K",
+  "acc": "0001193125-26-454333",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:13:09+00:00",
+  "accepted_kst": "11/10 20:13",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the und",
+  "url": "https://www.sec.gov/Archives/edgar/data/1123134/000119312526454333/0001193125-26-454333-index.htm",
+  "seen_kst": "2026-11-10 20:15"
  }
 ]
