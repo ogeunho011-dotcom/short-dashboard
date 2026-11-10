@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OSUR",
-  "form": "8-K",
-  "acc": "0001116463-26-000061",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:08:42+00:00",
-  "accepted_kst": "11/10 06:08",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934 or otherwise subject to the liabilities of that section, nor shall",
-  "url": "https://www.sec.gov/Archives/edgar/data/1116463/000111646326000061/0001116463-26-000061-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "AMRC",
   "form": "8-K",
   "acc": "0001628280-26-072159",
@@ -8659,5 +8642,22 @@
   "headline": "Statement Regarding Unusual Market Activity NFT Limited (the “Company”) today issued the following statement pursuant to Section 401(d) of the NYSE American Com",
   "url": "https://www.sec.gov/Archives/edgar/data/1958713/000121390026117915/0001213900-26-117915-index.htm",
   "seen_kst": "2026-11-11 03:32"
+ },
+ {
+  "ticker": "PFIS",
+  "form": "144",
+  "acc": "0001628280-26-072614",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T18:37:20+00:00",
+  "accepted_kst": "11/11 03:37",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1056943/000162828026072614/0001628280-26-072614-index.htm",
+  "seen_kst": "2026-11-11 03:40"
  }
 ]
