@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FTH",
-  "form": "8-K",
-  "acc": "0001193125-26-452643",
-  "items": "7.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:19:53+00:00",
-  "accepted_kst": "11/09 21:19",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Faeth Reports Positive Preliminary Phase 2 Topline Results from the PIK-201 Trial Evaluating PIKTOR in Combination with Paclitaxel in Patients with Advanced End",
-  "url": "https://www.sec.gov/Archives/edgar/data/1829802/000119312526452643/0001193125-26-452643-index.htm",
-  "seen_kst": "2026-11-09 21:20"
- },
- {
   "ticker": "CGEM",
   "form": "8-K",
   "acc": "0001193125-26-452644",
@@ -8694,5 +8677,22 @@
   "headline": "Third Quarter 2026 Results of Brightstar Lottery PLC On November 10, 2026, Brightstar Lottery PLC (NYSE: BRSL) (the \" Company \") reported results for the quarte",
   "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026072492/0001628280-26-072492-index.htm",
   "seen_kst": "2026-11-10 20:45"
+ },
+ {
+  "ticker": "NVA",
+  "form": "8-K",
+  "acc": "0001493152-26-050853",
+  "items": "7.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:45:33+00:00",
+  "accepted_kst": "11/10 20:45",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Nova Minerals Confirms 216,000 tpa Processing Capacity, Advancing Alaska’s Critical Minerals Hub Anchorage, Alaska, November 10, 2026 – Nova Minerals Corp (“Nov",
+  "url": "https://www.sec.gov/Archives/edgar/data/1852551/000149315226050853/0001493152-26-050853-index.htm",
+  "seen_kst": "2026-11-10 20:48"
  }
 ]
