@@ -42795,5 +42795,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170629001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170629001",
   "grade": "open"
+ },
+ {
+  "id": "OMH-1794308011",
+  "ts_kst": "2026-11-10 19:53",
+  "ts_utc": "2026-11-10T10:53:31+00:00",
+  "date_et": "2026-11-10",
+  "session": "pre",
+  "ticker": "OMH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +17.1% 급변 · 전일 대비 +27.2% — 추격 매수 주의"
+  ],
+  "title": "⚡ OMH 장중 급등 포착",
+  "body": "$30.510 (+27.2%) · 프리마켓 · 레벨 2 · 점수 35\n공매도 물량 대부분 손해 중, $40.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 236만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +17.1% 급변 · 전일 대비 +27.2% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $28.985 지정가(기준가 $30.510의 −5%) · 체결 가능성 약 82% · 손익분기 $29.334\n숏 지지구간 $30.000–$30.510 · 손절 $25.000 · 1차목표 $40.000\n⚠ 역분할 2026-08-31\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 30.51,
+  "level": 2,
+  "score": 35.3,
+  "prob": 28.718753535693224,
+  "cp": 53.828651939651934,
+  "rl": 40.0,
+  "stop": 25.0,
+  "zone": [
+   30.0,
+   30.51
+  ],
+  "bp": 28.9845,
+  "tgt": 40.0,
+  "stp": 25.0,
+  "penalties": [
+   "역분할 2026-08-31"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
+  "grade": "open"
  }
 ]
