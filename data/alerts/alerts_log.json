@@ -47730,5 +47730,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
   "grade": "open"
+ },
+ {
+  "id": "LGCL-1794339756",
+  "ts_kst": "2026-11-11 04:42",
+  "ts_utc": "2026-11-10T19:42:36+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "LGCL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.6% · 거래량 평소의 16.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LGCL 장중 급등 포착",
+  "body": "$1.700 (+20.6%) · 정규장 · 레벨 3 · 점수 42\n시장에 도는 주식 279만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 20배 이상, 관심 급증\n• 전일 대비 +20.6% · 거래량 평소의 16.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $1.615 지정가(기준가 $1.700의 −5%) · 체결 가능성 약 64% · 손익분기 $1.634\n숏 지지구간 $1.190–$1.700 · 손절 $0.850 · 1차목표 $2.040\n⚠ 역분할 2026-09-01\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.7,
+  "level": 3,
+  "score": 42.2,
+  "prob": 18.993839835728956,
+  "cp": 22.0,
+  "rl": 25.0,
+  "stop": 0.8500000238418579,
+  "zone": [
+   1.190000033378601,
+   1.7000000476837158
+  ],
+  "bp": 1.615,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-09-01"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240305001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240305001",
+  "grade": "n/a"
  }
 ]

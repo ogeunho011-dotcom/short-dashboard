@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "QUBT",
-  "form": "8-K",
-  "acc": "0001628280-26-072163",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:09:21+00:00",
-  "accepted_kst": "11/10 06:09",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", is being furnished and shall not be deemed “filed” for purposes of Section 18 (the “Section”) of the Securities Exchange Act of 1934, as amended (the “Exchang",
-  "url": "https://www.sec.gov/Archives/edgar/data/1758009/000162828026072163/0001628280-26-072163-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "OSG",
   "form": "8-K",
   "acc": "0001628280-26-072166",
@@ -8659,5 +8642,22 @@
   "headline": "NEWS RELEASE Gunnison Copper Confirms High-Grade Massive Copper-Zinc-Silver Sulfides at Strong & Harris, including 40 Feet Grading 5.1% Copper and 12.0% Zinc Dr",
   "url": "https://www.sec.gov/Archives/edgar/data/1514860/000149315226050933/0001493152-26-050933-index.htm",
   "seen_kst": "2026-11-11 04:05"
+ },
+ {
+  "ticker": "CKX",
+  "form": "4",
+  "acc": "0001437749-26-036109",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T19:39:34+00:00",
+  "accepted_kst": "11/11 04:39",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/352955/000143774926036109/0001437749-26-036109-index.htm",
+  "seen_kst": "2026-11-11 04:42"
  }
 ]
