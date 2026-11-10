@@ -42836,5 +42836,50 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
   "grade": "open"
+ },
+ {
+  "id": "MX-fil-0001193125-26-454344",
+  "ts_kst": "2026-11-10 20:18",
+  "ts_utc": "2026-11-10T11:18:28+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "MX",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $155,360"
+  ],
+  "title": "📢 MX 호재 공시",
+  "body": "4 · 내부자 장내 매수 $155,360 (11/10 20:15 KST)\nLEE CHAE\n⚠ 최근 악재: 424B 증자 설명서 1건 (30일 내, 최근 10/14)\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/14)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20110311001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20110311001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001193125-26-454344",
+   "items": "",
+   "label": "내부자 장내 매수 $155,360",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "LEE CHAE",
+   "url": "https://www.sec.gov/Archives/edgar/data/1325702/000119312526454344/0001193125-26-454344-index.htm",
+   "accepted_kst": "11/10 20:15",
+   "polarity": "pos"
+  }
  }
 ]
