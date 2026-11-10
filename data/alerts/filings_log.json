@@ -1,43 +1,5 @@
 [
  {
-  "ticker": "NCEL",
-  "form": "6-K",
-  "acc": "0001213900-26-117274",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:06:14+00:00",
-  "accepted_kst": "11/09 23:06",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "NewcelX Announces Pricing of $1.55 Million Equity Financing at 20% Premium Pricing to Market The financing led by international healthcare investors, alongside ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1783036/000121390026117274/0001213900-26-117274-index.htm",
-  "seen_kst": "2026-11-09 23:07"
- },
- {
-  "ticker": "USGO",
-  "form": "424B5",
-  "acc": "0001493152-26-050656",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:08:23+00:00",
-  "accepted_kst": "11/09 23:08",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1947244/000149315226050656/0001493152-26-050656-index.htm",
-  "seen_kst": "2026-11-09 23:10"
- },
- {
   "ticker": "FLWS",
   "form": "4",
   "acc": "0001437749-26-035725",
@@ -8655,5 +8617,42 @@
   "headline": "to a Report of Foreign Private Issuer on Form 6-K that the Company furnished to the Securities and Exchange Commission on October 6, 2026. At the Meeting, Propo",
   "url": "https://www.sec.gov/Archives/edgar/data/1574565/000117891326005113/0001178913-26-005113-index.htm",
   "seen_kst": "2026-11-10 22:33"
+ },
+ {
+  "ticker": "RXT",
+  "form": "8-K",
+  "acc": "0001810019-26-000117",
+  "items": "3.02",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:33:04+00:00",
+  "accepted_kst": "11/10 22:33",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 3.02 Unregistered Sales of Equity Securities. On November 6, 2026, Rackspace Technology, Inc. (the \"Company\") entered into a share purchase agreement (the ",
+  "url": "https://www.sec.gov/Archives/edgar/data/1810019/000181001926000117/0001810019-26-000117-index.htm",
+  "seen_kst": "2026-11-10 22:35"
+ },
+ {
+  "ticker": "TURB",
+  "form": "6-K",
+  "acc": "0001213900-26-117794",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:33:26+00:00",
+  "accepted_kst": "11/10 22:33",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS Phase II adds a net 51 MWh of contracted batt",
+  "url": "https://www.sec.gov/Archives/edgar/data/1963439/000121390026117794/0001213900-26-117794-index.htm",
+  "seen_kst": "2026-11-10 22:35"
  }
 ]
