@@ -46759,5 +46759,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250516004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250516004",
   "grade": "open"
+ },
+ {
+  "id": "INSE-1794334204",
+  "ts_kst": "2026-11-11 03:10",
+  "ts_utc": "2026-11-10T18:10:04+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "INSE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +11.2% 급변 · 전일 대비 +10.9% — 추격 매수 주의"
+  ],
+  "title": "⚡ INSE 장중 급등 포착",
+  "body": "$4.418 (+10.9%) · 정규장 · 레벨 1 · 점수 13\n공매도 물량 대부분 손해 중, $4.75 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 5분 +11.2% 급변 · 전일 대비 +10.9% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.198 지정가(기준가 $4.418의 −5%) · 체결 가능성 약 42% · 손익분기 $4.248\n숏 지지구간 $4.000–$4.250 · 손절 $3.750 · 1차목표 $4.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.4185,
+  "level": 1,
+  "score": 12.6,
+  "prob": 52.970834198493264,
+  "cp": 49.437012580773185,
+  "rl": 4.75,
+  "stop": 3.75,
+  "zone": [
+   4.0,
+   4.25
+  ],
+  "bp": 4.1976,
+  "tgt": 4.75,
+  "stp": 3.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161228001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161228001",
+  "grade": "open"
  }
 ]
