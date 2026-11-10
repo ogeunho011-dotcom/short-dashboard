@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "GIXI",
-  "form": "6-K",
-  "acc": "0001493152-26-050709",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:01:08+00:00",
-  "accepted_kst": "11/10 06:01",
-  "polarity": "pos",
-  "label": "계약·수주",
-  "cats": [
-   "계약·수주"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "GIX Internet Secures Follow-On Order from One of the Top Hospitals in the World to Double Its Robot Fleet The order, received by Deliverz.AI, is for three addit",
-  "url": "https://www.sec.gov/Archives/edgar/data/1782265/000149315226050709/0001493152-26-050709-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "RVSN",
   "form": "6-K",
   "acc": "0001493152-26-050710",
@@ -8669,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000301/0000939057-26-000301-index.htm",
   "seen_kst": "2026-11-11 02:12"
+ },
+ {
+  "ticker": "AEON",
+  "form": "SCHEDULE 13D/A",
+  "acc": "0001213900-26-117881",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:12:34+00:00",
+  "accepted_kst": "11/11 02:12",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1837607/000121390026117881/0001213900-26-117881-index.htm",
+  "seen_kst": "2026-11-11 02:15"
  }
 ]

@@ -46309,5 +46309,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960801001",
   "grade": "open"
+ },
+ {
+  "id": "ZURA-1794330904",
+  "ts_kst": "2026-11-11 02:15",
+  "ts_utc": "2026-11-10T17:15:04+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "ZURA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZURA 장중 급등 포착",
+  "body": "$1.430 (+15.8%) · 정규장 · 레벨 1 · 점수 12\n$1.50 넘으면 공매도 되사기 압박 ↑ · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +15.8% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.407 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -1.6%) · 체결 가능성 약 85% · 손익분기 $1.424\n숏 지지구간 $1.001–$1.001 · 손절 $0.715 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.4301,
+  "level": 1,
+  "score": 11.7,
+  "prob": 45.01661129568107,
+  "cp": 38.83418530766791,
+  "rl": 1.5,
+  "stop": 0.7150499820709229,
+  "zone": [
+   1.001069974899292,
+   1.001069974899292
+  ],
+  "bp": 1.4074,
+  "tgt": 1.5,
+  "stp": 0.7150499820709229,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230321005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230321005",
+  "grade": "open"
+ },
+ {
+  "id": "BW-1794330904",
+  "ts_kst": "2026-11-11 02:15",
+  "ts_utc": "2026-11-10T17:15:04+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "BW",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.7% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BW 장중 급등 포착",
+  "body": "$4.375 (+15.7%) · 정규장 · 레벨 1 · 점수 4\n$5.00 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +15.7% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $4.258 지정가(20일선, 기준가 대비 -2.7%) · 체결 가능성 약 76% · 손익분기 $4.309\n숏 지지구간 $3.000–$3.500 · 손절 $2.500 · 1차목표 $5.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.375,
+  "level": 1,
+  "score": 3.9,
+  "prob": 31.25,
+  "cp": 23.977932429135567,
+  "rl": 5.0,
+  "stop": 2.5,
+  "zone": [
+   3.0,
+   3.5
+  ],
+  "bp": 4.2577,
+  "tgt": 5.0,
+  "stp": 2.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150702002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150702002",
+  "grade": "open"
  }
 ]
