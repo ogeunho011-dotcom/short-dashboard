@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MSBI",
-  "form": "4",
-  "acc": "0001466026-26-000112",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:30:39+00:00",
-  "accepted_kst": "11/10 04:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1466026/000146602626000112/0001466026-26-000112-index.htm",
-  "seen_kst": "2026-11-10 04:32"
- },
- {
   "ticker": "TRUP",
   "form": "144",
   "acc": "0001000275-26-000125",
@@ -8669,5 +8652,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1398733/000121465926013891/0001214659-26-013891-index.htm",
   "seen_kst": "2026-11-11 00:45"
+ },
+ {
+  "ticker": "AUXX",
+  "form": "6-K",
+  "acc": "0001062993-26-005867",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:45:16+00:00",
+  "accepted_kst": "11/11 00:45",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Gold X2 Intersects 258.4m of 0.97 g/t Au and 192.0m of 0.90 g/t Au in QES Extension Drilling",
+  "url": "https://www.sec.gov/Archives/edgar/data/1961592/000106299326005867/0001062993-26-005867-index.htm",
+  "seen_kst": "2026-11-11 00:47"
  }
 ]
