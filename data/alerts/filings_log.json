@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "TNXP",
-  "form": "8-K",
-  "acc": "0001493152-26-050621",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:20:39+00:00",
-  "accepted_kst": "11/09 21:20",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Tonix Pharmaceuticals Reports Third Quarter 2026 Financial Results and Operational Highlights Third quarter TONMYA® net sales of approximately $15 million, up 3",
-  "url": "https://www.sec.gov/Archives/edgar/data/1430306/000149315226050621/0001493152-26-050621-index.htm",
-  "seen_kst": "2026-11-09 21:22"
- },
- {
-  "ticker": "SLXN",
-  "form": "8-K",
-  "acc": "0001178913-26-005089",
-  "items": "8.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:26:54+00:00",
-  "accepted_kst": "11/09 21:26",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Item 8.01 Other Events. Further to its previous reports, as well as the approval of its shareholders received on October 26, 2026, on November 9, 2026, Silexion",
-  "url": "https://www.sec.gov/Archives/edgar/data/2022416/000117891326005089/0001178913-26-005089-index.htm",
-  "seen_kst": "2026-11-09 21:28"
- },
- {
   "ticker": "AIIO",
   "form": "424B3",
   "acc": "0001213900-26-117199",
@@ -8694,5 +8658,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/6176/000119312526454378/0001193125-26-454378-index.htm",
   "seen_kst": "2026-11-10 20:50"
+ },
+ {
+  "ticker": "SBH",
+  "form": "8-K",
+  "acc": "0001368458-26-000018",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:50:33+00:00",
+  "accepted_kst": "11/10 20:50",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ".htm EX-99.1 Contact: Jeff Harkins Investor Relations 940-297-4131 jharkins@sallybeauty.com Sally Beauty Holdings Reports Fourth Quarter and Full Year 2026 Resu",
+  "url": "https://www.sec.gov/Archives/edgar/data/1368458/000136845826000018/0001368458-26-000018-index.htm",
+  "seen_kst": "2026-11-10 20:53"
+ },
+ {
+  "ticker": "WYFI",
+  "form": "10-Q",
+  "acc": "0001213900-26-117728",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:50:56+00:00",
+  "accepted_kst": "11/10 20:50",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2042022/000121390026117728/0001213900-26-117728-index.htm",
+  "seen_kst": "2026-11-10 20:53"
  }
 ]
