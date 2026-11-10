@@ -45495,5 +45495,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250516004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250516004",
   "grade": "open"
+ },
+ {
+  "id": "CTM-1794327303",
+  "ts_kst": "2026-11-11 01:15",
+  "ts_utc": "2026-11-10T16:15:03+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "CTM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.4% · 거래량 평소의 8.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CTM 장중 급등 포착",
+  "body": "$0.438 (+16.4%) · 정규장 · 레벨 1 · 점수 14\n$0.440 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.4% · 거래량 평소의 8.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 43%\n추천 매수가 $0.410 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.4%) · 체결 가능성 약 49% · 손익분기 $0.415\n숏 지지구간 $0.360–$0.387 · 손절 $0.350 · 1차목표 $0.440\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4378,
+  "level": 1,
+  "score": 14.2,
+  "prob": 43.37337644911612,
+  "cp": 44.72835509632043,
+  "rl": 0.4400000000000001,
+  "stop": 0.35000000000000003,
+  "zone": [
+   0.36000000000000004,
+   0.38722999656200413
+  ],
+  "bp": 0.4097,
+  "tgt": 0.4400000000000001,
+  "stp": 0.35000000000000003,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221013001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221013001",
+  "grade": "open"
  }
 ]
