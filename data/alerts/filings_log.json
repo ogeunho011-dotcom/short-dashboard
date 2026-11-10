@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "AIOT",
-  "form": "8-K",
-  "acc": "0001493152-26-050619",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:13:56+00:00",
-  "accepted_kst": "11/09 21:13",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Powerfleet Reports Results for Second Quarter Fiscal 2027 ● Record revenue of $115.7 million, 4% sequential growth. ● Agreed to terms for a device financing fac",
-  "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226050619/0001493152-26-050619-index.htm",
-  "seen_kst": "2026-11-09 21:15"
- },
- {
-  "ticker": "ELBM",
-  "form": "6-K",
-  "acc": "0001171843-26-007252",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:15:05+00:00",
-  "accepted_kst": "11/09 21:15",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Incorporation by Reference The information contained in this Report on Form 6-K (this “Form 6-K”) and Exhibits 99.1 and 99.2 herewith are hereby incorporated by",
-  "url": "https://www.sec.gov/Archives/edgar/data/1907184/000117184326007252/0001171843-26-007252-index.htm",
-  "seen_kst": "2026-11-09 21:18"
- },
- {
   "ticker": "AURA",
   "form": "10-Q",
   "acc": "0001193125-26-452636",
@@ -8694,5 +8658,39 @@
   "headline": "attached hereto, is being furnished and shall not be deemed “filed” with the Securities and Exchange Commission (the “ SEC ”) for purposes of Section 18 of the",
   "url": "https://www.sec.gov/Archives/edgar/data/1840416/000117184326007302/0001171843-26-007302-index.htm",
   "seen_kst": "2026-11-10 20:31"
+ },
+ {
+  "ticker": "BDTX",
+  "form": "10-Q",
+  "acc": "0001701541-26-000032",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:31:43+00:00",
+  "accepted_kst": "11/10 20:31",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1701541/000170154126000032/0001701541-26-000032-index.htm",
+  "seen_kst": "2026-11-10 20:33"
+ },
+ {
+  "ticker": "SSM",
+  "form": "425",
+  "acc": "0001171843-26-007303",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:32:16+00:00",
+  "accepted_kst": "11/10 20:32",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840416/000117184326007303/0001171843-26-007303-index.htm",
+  "seen_kst": "2026-11-10 20:33"
  }
 ]
