@@ -48309,5 +48309,44 @@
    "accepted_kst": "11/11 05:50",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "XCUR-1794344255",
+  "ts_kst": "2026-11-11 05:57",
+  "ts_utc": "2026-11-10T20:57:35+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "XCUR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.4% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XCUR 장중 급등 포착",
+  "body": "$1.115 (+29.4%) · 정규장 · 레벨 2 · 점수 37\n$1.20 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 655만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +29.4% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.032 지정가(20일선, 기준가 대비 -7.5%) · 체결 가능성 약 52% · 손익분기 $1.044\n숏 지지구간 $0.900–$1.000 · 손절 $0.850 · 1차목표 $1.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.115,
+  "level": 2,
+  "score": 36.7,
+  "prob": 45.01661129568107,
+  "cp": 31.100168126302957,
+  "rl": 1.2,
+  "stop": 0.85,
+  "zone": [
+   0.9,
+   1.0
+  ],
+  "bp": 1.0315,
+  "tgt": 1.2,
+  "stp": 0.85,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190731009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190731009",
+  "grade": "open"
  }
 ]
