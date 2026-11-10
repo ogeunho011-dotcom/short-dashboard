@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AMRC",
-  "form": "8-K",
-  "acc": "0001628280-26-072159",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:08:42+00:00",
-  "accepted_kst": "11/10 06:08",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", respectively, to this Current Report on Form 8-K. The information in this Form 8-K (including Exhibit 99.1 and Exhibit 99.2) shall be deemed “furnished” and s",
-  "url": "https://www.sec.gov/Archives/edgar/data/1488139/000162828026072159/0001628280-26-072159-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "ZNTL",
   "form": "8-K",
   "acc": "0001725160-26-000069",
@@ -8659,5 +8642,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1056943/000162828026072614/0001628280-26-072614-index.htm",
   "seen_kst": "2026-11-11 03:40"
+ },
+ {
+  "ticker": "LKFN",
+  "form": "8-K",
+  "acc": "0000721994-26-000089",
+  "items": "8.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T18:43:54+00:00",
+  "accepted_kst": "11/11 03:43",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 8.01. Other Events On November 10, 2026, the board of directors of Lakeland Financial Corporation (\"Company\") amended the Company's existing share repurcha",
+  "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000089/0000721994-26-000089-index.htm",
+  "seen_kst": "2026-11-11 03:45"
  }
 ]
