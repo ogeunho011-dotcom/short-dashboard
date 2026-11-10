@@ -43605,5 +43605,89 @@
    "accepted_kst": "11/10 22:38",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "OMH-1794319389",
+  "ts_kst": "2026-11-10 23:03",
+  "ts_utc": "2026-11-10T14:03:09+00:00",
+  "date_et": "2026-11-10",
+  "session": "pre",
+  "ticker": "OMH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +15.2% 급변 · 전일 대비 +17.0% — 추격 매수 주의"
+  ],
+  "title": "⚡ OMH 장중 급등 포착",
+  "body": "$28.056 (+17.0%) · 프리마켓 · 레벨 2 · 점수 30\n공매도 물량 대부분 손해 중, $30.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 236만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +15.2% 급변 · 전일 대비 +17.0% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $26.653 지정가(기준가 $28.056의 −5%) · 체결 가능성 약 83% · 손익분기 $26.975\n숏 지지구간 $20.000–$25.000 · 손절 $15.000 · 1차목표 $30.000\n⚠ 역분할 2026-08-31\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 28.0556,
+  "level": 2,
+  "score": 30.1,
+  "prob": 28.834355828220865,
+  "cp": 65.32442971742971,
+  "rl": 30.0,
+  "stop": 15.0,
+  "zone": [
+   20.0,
+   25.0
+  ],
+  "bp": 26.6528,
+  "tgt": 30.0,
+  "stp": 15.0,
+  "penalties": [
+   "역분할 2026-08-31"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
+  "grade": "open"
+ },
+ {
+  "id": "SPAI-fil-0001493152-26-050883",
+  "ts_kst": "2026-11-10 23:03",
+  "ts_utc": "2026-11-10T14:03:10+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "SPAI",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 계약·수주"
+  ],
+  "title": "📢 SPAI 호재 공시",
+  "body": "8-K · 계약·수주 (11/10 23:00 KST)\nSafe Pro Group Awarded U.S. Army Prime Contract, Teams with Anduril for Super Intelligence on Ghost-X Drone for Tank Protection U.S. Governm\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240828004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240828004",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001493152-26-050883",
+   "items": "7.01,9.01",
+   "label": "계약·수주",
+   "cats": [
+    "계약·수주"
+   ],
+   "strength": 4,
+   "headline": "Safe Pro Group Awarded U.S. Army Prime Contract, Teams with Anduril for Super Intelligence on Ghost-X Drone for Tank Protection U.S. Government Prime Contract A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011208/000149315226050883/0001493152-26-050883-index.htm",
+   "accepted_kst": "11/10 23:00",
+   "polarity": "pos"
+  }
  }
 ]

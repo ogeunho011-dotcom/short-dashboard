@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "ONCY",
-  "form": "8-K",
-  "acc": "0001129928-26-000080",
-  "items": "8.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:49:07+00:00",
-  "accepted_kst": "11/09 23:49",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "is furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilit",
-  "url": "https://www.sec.gov/Archives/edgar/data/1129928/000112992826000080/0001129928-26-000080-index.htm",
-  "seen_kst": "2026-11-09 23:51"
- },
- {
-  "ticker": "XLAB",
-  "form": "424B3",
-  "acc": "0001829126-26-012124",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:52:20+00:00",
-  "accepted_kst": "11/09 23:52",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2109869/000182912626012124/0001829126-26-012124-index.htm",
-  "seen_kst": "2026-11-09 23:55"
- },
- {
-  "ticker": "CZNC",
-  "form": "4",
-  "acc": "0001870473-26-000032",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T15:07:32+00:00",
-  "accepted_kst": "11/10 00:07",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $198 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Shattuck Katherine W",
-  "url": "https://www.sec.gov/Archives/edgar/data/810958/000187047326000032/0001870473-26-000032-index.htm",
-  "seen_kst": "2026-11-10 00:11"
- },
- {
   "ticker": "PROV",
   "form": "4",
   "acc": "0000939057-26-000294",
@@ -8661,5 +8608,58 @@
   "headline": "Item 7.01 Regulation FD Disclosure. On November 10, 2026, Stabilis Solutions, Inc. (the “Company”) issued a press release announcing a three-year take-or-pay LN",
   "url": "https://www.sec.gov/Archives/edgar/data/1043186/000143774926036001/0001437749-26-036001-index.htm",
   "seen_kst": "2026-11-10 23:00"
+ },
+ {
+  "ticker": "SPAI",
+  "form": "8-K",
+  "acc": "0001493152-26-050883",
+  "items": "7.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:00:25+00:00",
+  "accepted_kst": "11/10 23:00",
+  "polarity": "pos",
+  "label": "계약·수주",
+  "cats": [
+   "계약·수주"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Safe Pro Group Awarded U.S. Army Prime Contract, Teams with Anduril for Super Intelligence on Ghost-X Drone for Tank Protection U.S. Government Prime Contract A",
+  "url": "https://www.sec.gov/Archives/edgar/data/2011208/000149315226050883/0001493152-26-050883-index.htm",
+  "seen_kst": "2026-11-10 23:03"
+ },
+ {
+  "ticker": "XGN",
+  "form": "10-Q",
+  "acc": "0001274737-26-000065",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:01:13+00:00",
+  "accepted_kst": "11/10 23:01",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1274737/000127473726000065/0001274737-26-000065-index.htm",
+  "seen_kst": "2026-11-10 23:03"
+ },
+ {
+  "ticker": "APXC",
+  "form": "6-K",
+  "acc": "0001493152-26-050884",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:01:15+00:00",
+  "accepted_kst": "11/10 23:01",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Apex Extends Trinity Zone in West Step-out Drilling with 2.52% REO over 223.3 m and 2.49% REO over 123.3 m at Rift Highlights: ● Four additional drillholes, RIF",
+  "url": "https://www.sec.gov/Archives/edgar/data/2093856/000149315226050884/0001493152-26-050884-index.htm",
+  "seen_kst": "2026-11-10 23:03"
  }
 ]
