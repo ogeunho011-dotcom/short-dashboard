@@ -40410,7 +40410,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "NXTS-1794246852",
@@ -44575,6 +44578,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250203003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250203003",
+  "grade": "open"
+ },
+ {
+  "id": "SECZ-1794322390",
+  "ts_kst": "2026-11-10 23:53",
+  "ts_utc": "2026-11-10T14:53:10+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "SECZ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.8% · 거래량 평소의 12.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SECZ 장중 급등 포착",
+  "body": "$9.253 (+32.8%) · 정규장 · 레벨 2 · 점수 27\n$9.50 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +32.8% · 거래량 평소의 12.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 42%\n추천 매수가 $8.790 지정가(기준가 $9.253의 −5%) · 체결 가능성 약 60% · 손익분기 $8.896\n숏 지지구간 $8.500–$9.000 · 손절 $8.000 · 1차목표 $9.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 9.2527,
+  "level": 2,
+  "score": 26.6,
+  "prob": 41.78933269271871,
+  "cp": 51.560201677522116,
+  "rl": 9.5,
+  "stop": 8.0,
+  "zone": [
+   8.5,
+   9.0
+  ],
+  "bp": 8.7901,
+  "tgt": 9.5,
+  "stp": 8.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250502001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250502001",
   "grade": "open"
  }
 ]

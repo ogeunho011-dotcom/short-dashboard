@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GCBC",
-  "form": "8-K",
-  "acc": "0001140361-26-042702",
-  "items": "5.03,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T17:17:05+00:00",
-  "accepted_kst": "11/10 02:17",
-  "polarity": "neutral",
-  "label": "5.03",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Date: November 9, 2026 For Further Information Contact: Donald E. Gibson President and Chief Executive Officer (518) 943-2600 donaldg@bankofgreene.com GREENE CO",
-  "url": "https://www.sec.gov/Archives/edgar/data/1070524/000114036126042702/0001140361-26-042702-index.htm",
-  "seen_kst": "2026-11-10 02:19"
- },
- {
   "ticker": "SHEN",
   "form": "4",
   "acc": "0001697225-26-000004",
@@ -8667,5 +8650,22 @@
   "headline": "dated November 10, 2026, anouncing financial results for the third quarter and nine months ended September 30, 2026. 104 Cover Page Interactive Data File (embed",
   "url": "https://www.sec.gov/Archives/edgar/data/884269/000143774926036020/0001437749-26-036020-index.htm",
   "seen_kst": "2026-11-10 23:43"
+ },
+ {
+  "ticker": "GOOD",
+  "form": "4",
+  "acc": "0001359579-26-000006",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:51:07+00:00",
+  "accepted_kst": "11/10 23:51",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $86,264 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Gerson Gary",
+  "url": "https://www.sec.gov/Archives/edgar/data/1234006/000135957926000006/0001359579-26-000006-index.htm",
+  "seen_kst": "2026-11-10 23:53"
  }
 ]
