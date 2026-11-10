@@ -17242,10 +17242,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20221101001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20221101001",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 2
+  "grade": "hit",
+  "grade_day": 5,
+  "grade_ret": 0.4057377085660888,
+  "graded_bars": 5
  },
  {
   "id": "CHSN-1793730371",
@@ -45147,6 +45147,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210927009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210927009",
+  "grade": "open"
+ },
+ {
+  "id": "CCG-1794324343",
+  "ts_kst": "2026-11-11 00:25",
+  "ts_utc": "2026-11-10T15:25:43+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "CCG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.6% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CCG 장중 급등 포착",
+  "body": "$11.800 (+21.6%) · 정규장 · 레벨 2 · 점수 30\n공매도 물량 대부분 손해 중, $12.00 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +21.6% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $11.210 지정가(기준가 $11.800의 −5%) · 체결 가능성 약 57% · 손익분기 $11.345\n숏 지지구간 $8.000–$9.330 · 손절 $7.000 · 1차목표 $12.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 11.8,
+  "level": 2,
+  "score": 30.5,
+  "prob": 47.808764940239065,
+  "cp": 52.12992759810127,
+  "rl": 12.0,
+  "stop": 7.0,
+  "zone": [
+   8.0,
+   9.330000066757203
+  ],
+  "bp": 11.21,
+  "tgt": 12.0,
+  "stp": 7.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230918003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230918003",
   "grade": "open"
  }
 ]

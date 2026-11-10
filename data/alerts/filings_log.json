@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CBFV",
-  "form": "10-Q",
-  "acc": "0001605301-26-000045",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:20:44+00:00",
-  "accepted_kst": "11/10 04:20",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1605301/000160530126000045/0001605301-26-000045-index.htm",
-  "seen_kst": "2026-11-10 04:22"
- },
- {
   "ticker": "VS",
   "form": "3",
   "acc": "0001213900-26-117220",
@@ -8669,5 +8652,22 @@
   "headline": "Heshmatpour Amir F",
   "url": "https://www.sec.gov/Archives/edgar/data/1979414/000121390026117660/0001213900-26-117660-index.htm",
   "seen_kst": "2026-11-11 00:18"
+ },
+ {
+  "ticker": "ALLT",
+  "form": "144",
+  "acc": "0001976408-26-000934",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:12:52+00:00",
+  "accepted_kst": "11/10 22:12",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1365767/000197640826000934/0001976408-26-000934-index.htm",
+  "seen_kst": "2026-11-11 00:25"
  }
 ]
