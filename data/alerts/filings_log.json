@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "OCUL",
-  "form": "S-8",
-  "acc": "0001104659-26-124187",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:08:29+00:00",
-  "accepted_kst": "11/09 22:08",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1393434/000110465926124187/0001104659-26-124187-index.htm",
-  "seen_kst": "2026-11-09 22:10"
- },
- {
-  "ticker": "NWGL",
-  "form": "6-K",
-  "acc": "0001493152-26-050632",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:00:07+00:00",
-  "accepted_kst": "11/09 22:00",
-  "polarity": "neg",
-  "label": "계속기업 불확실성",
-  "cats": [],
-  "negs": [
-   "계속기업 불확실성"
-  ],
-  "strength": 0,
-  "headline": "Changes in Registrant’s Certifying Accountant On November 9, 2026, the audit committee of the board of the directors (the “Board”) of CL Workshop Group Limited,",
-  "url": "https://www.sec.gov/Archives/edgar/data/1948294/000149315226050632/0001493152-26-050632-index.htm",
-  "seen_kst": "2026-11-09 22:12"
- },
- {
-  "ticker": "CDT",
-  "form": "8-K",
-  "acc": "0001493152-26-050631",
-  "items": "8.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:00:18+00:00",
-  "accepted_kst": "11/09 22:00",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 8.01 Other Events. On November 5, 2026, Dr. Andrew Regan, the former CEO of CDT Equity Inc. (the “Company”), delivered a letter to the Company’s Board of D",
-  "url": "https://www.sec.gov/Archives/edgar/data/1896212/000149315226050631/0001493152-26-050631-index.htm",
-  "seen_kst": "2026-11-09 22:12"
- },
- {
   "ticker": "CDT",
   "form": "424B3",
   "acc": "0001493152-26-050633",
@@ -8655,5 +8602,59 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/924168/000162828026072506/0001628280-26-072506-index.htm",
   "seen_kst": "2026-11-10 21:33"
+ },
+ {
+  "ticker": "XGN",
+  "form": "8-K",
+  "acc": "0001274737-26-000063",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:33:03+00:00",
+  "accepted_kst": "11/10 21:33",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or othe",
+  "url": "https://www.sec.gov/Archives/edgar/data/1274737/000127473726000063/0001274737-26-000063-index.htm",
+  "seen_kst": "2026-11-10 21:36"
+ },
+ {
+  "ticker": "CDXS",
+  "form": "8-K",
+  "acc": "0001193125-26-454447",
+  "items": "1.01,1.02,2.03,3.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:33:26+00:00",
+  "accepted_kst": "11/10 21:33",
+  "polarity": "neg",
+  "label": "중요 계약 해지(항목 1.02)",
+  "cats": [],
+  "negs": [
+   "중요 계약 해지(항목 1.02)",
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. Loan and Security Agreement On November 5, 2026 (the “Closing Date”), Codexis, Inc., a Delaware corporatio",
+  "url": "https://www.sec.gov/Archives/edgar/data/1200375/000119312526454447/0001193125-26-454447-index.htm",
+  "seen_kst": "2026-11-10 21:36"
+ },
+ {
+  "ticker": "ABUS",
+  "form": "10-Q",
+  "acc": "0001447028-26-000064",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:34:01+00:00",
+  "accepted_kst": "11/10 21:34",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1447028/000144702826000064/0001447028-26-000064-index.htm",
+  "seen_kst": "2026-11-10 21:36"
  }
 ]
