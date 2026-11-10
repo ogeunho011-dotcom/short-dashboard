@@ -27443,10 +27443,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250123003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250123003",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 2
+  "grade": "hit",
+  "grade_day": 3,
+  "grade_ret": 0.020315789473684183,
+  "graded_bars": 3
  },
  {
   "id": "AEHL-1793891347",
@@ -47123,6 +47123,84 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19840907001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19840907001",
+  "grade": "open"
+ },
+ {
+  "id": "ZIP-1794336449",
+  "ts_kst": "2026-11-11 03:47",
+  "ts_utc": "2026-11-10T18:47:29+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "ZIP",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +41.3% · 거래량 평소의 6.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZIP 장중 급등 포착",
+  "body": "$6.075 (+41.3%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $6.18 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +41.3% · 거래량 평소의 6.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.771 지정가(기준가 $6.075의 −5%) · 체결 가능성 약 47% · 손익분기 $5.841\n숏 지지구간 $5.500–$5.750 · 손절 $5.250 · 1차목표 $6.180\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.075,
+  "level": 2,
+  "score": 38.8,
+  "prob": 53.44827586206896,
+  "cp": 69.02894687230288,
+  "rl": 6.179900169372559,
+  "stop": 5.25,
+  "zone": [
+   5.5,
+   5.75
+  ],
+  "bp": 5.7712,
+  "tgt": 6.179900169372559,
+  "stp": 5.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210525017%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210525017",
+  "grade": "open"
+ },
+ {
+  "id": "PLX-1794336449",
+  "ts_kst": "2026-11-11 03:47",
+  "ts_utc": "2026-11-10T18:47:29+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "PLX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PLX 장중 급등 포착",
+  "body": "$2.954 (+15.4%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중, $2.96 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +15.4% · 거래량 평소의 7.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.806 지정가(기준가 $2.954의 −5%) · 체결 가능성 약 26% · 손익분기 $2.840\n숏 지지구간 $2.450–$2.590 · 손절 $2.400 · 1차목표 $2.965\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.954,
+  "level": 2,
+  "score": 27.8,
+  "prob": 53.44827586206896,
+  "cp": 65.85610737619672,
+  "rl": 2.9649999141693115,
+  "stop": 2.399999999999999,
+  "zone": [
+   2.449999999999999,
+   2.5899999999999985
+  ],
+  "bp": 2.8063,
+  "tgt": 3.409749901294708,
+  "stp": 2.399999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070312001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070312001",
   "grade": "open"
  }
 ]
