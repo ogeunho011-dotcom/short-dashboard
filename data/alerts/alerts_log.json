@@ -42627,5 +42627,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150324005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150324005",
   "grade": "open"
+ },
+ {
+  "id": "CISS-1794304850",
+  "ts_kst": "2026-11-10 19:00",
+  "ts_utc": "2026-11-10T10:00:50+00:00",
+  "date_et": "2026-11-10",
+  "session": "pre",
+  "ticker": "CISS",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +72.6%"
+  ],
+  "title": "🚀 CISS 프리마켓 갭",
+  "body": "$3.020 (+72.6%) · 프리마켓 · 레벨 3 · 점수 43\n시장에 도는 주식 66만 주뿐이라 쉽게 크게 움직임 · 한 달 고점 돌파 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 프리마켓 갭 +72.6%\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.869 지정가(기준가 $3.020의 −5%) · 체결 가능성 약 66% · 손익분기 $2.903\n숏 지지구간 $2.114–$3.020 · 손절 $1.510 · 1차목표 $3.930\n⚠ 424B 증자 설명서 6건 (30일 내, 최근 11/09)\n⚠ 역분할 2026-11-09\n⚠ 희석 위험 65/100\n⚠ 최근 악재 공시: 424B3 증자 서류(424B3) (11/09)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.0197,
+  "level": 3,
+  "score": 42.9,
+  "prob": 45.01661129568107,
+  "cp": 21.90711590563667,
+  "rl": 10.0,
+  "stop": 1.50985,
+  "zone": [
+   2.11379,
+   3.0197
+  ],
+  "bp": 2.8687,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 6건 (30일 내, 최근 11/09)",
+   "역분할 2026-11-09",
+   "희석 위험 65/100",
+   "최근 악재 공시: 424B3 증자 서류(424B3) (11/09)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230622001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230622001",
+  "grade": "n/a"
  }
 ]
