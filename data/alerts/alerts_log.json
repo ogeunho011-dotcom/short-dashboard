@@ -35808,10 +35808,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210416003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210416003",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.016056904202558238,
+  "graded_bars": 2
  },
  {
   "id": "ZVIA-1793991090",
@@ -44062,5 +44062,126 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210907004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210907004",
   "grade": "open"
+ },
+ {
+  "id": "HUMA-1794321345",
+  "ts_kst": "2026-11-10 23:35",
+  "ts_utc": "2026-11-10T14:35:45+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "HUMA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +11.0% 급변 · 전일 대비 +23.3% — 추격 매수 주의"
+  ],
+  "title": "⚡ HUMA 장중 급등 포착",
+  "body": "$0.555 (+23.3%) · 정규장 · 레벨 2 · 점수 25\n$0.620 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 5분 +11.0% 급변 · 전일 대비 +23.3% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.522 지정가(60일선, 기준가 대비 -5.9%) · 체결 가능성 약 54% · 손익분기 $0.528\n숏 지지구간 $0.520–$0.540 · 손절 $0.500 · 1차목표 $0.620\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5549,
+  "level": 2,
+  "score": 25.3,
+  "prob": 53.08645969547017,
+  "cp": 39.60015682214903,
+  "rl": 0.6200000000000003,
+  "stop": 0.5000000000000002,
+  "zone": [
+   0.5200000000000002,
+   0.5400000000000003
+  ],
+  "bp": 0.5219,
+  "tgt": 0.6200000000000003,
+  "stp": 0.5000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210827005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210827005",
+  "grade": "open"
+ },
+ {
+  "id": "HROW-1794321345",
+  "ts_kst": "2026-11-10 23:35",
+  "ts_utc": "2026-11-10T14:35:45+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "HROW",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.8% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HROW 장중 급등 포착",
+  "body": "$31.990 (+16.8%) · 정규장 · 레벨 1 · 점수 18\n$35.00 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · 갭 상승 후 밀리는 중\n• 전일 대비 +16.8% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $30.390 지정가(기준가 $31.990의 −5%) · 체결 가능성 약 33% · 손익분기 $30.757\n숏 지지구간 $31.000–$31.990 · 손절 $30.000 · 1차목표 $35.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 31.9895,
+  "level": 1,
+  "score": 17.6,
+  "prob": 53.29166073235348,
+  "cp": 52.16819986679013,
+  "rl": 35.0,
+  "stop": 30.0,
+  "zone": [
+   31.0,
+   31.989500045776367
+  ],
+  "bp": 30.39,
+  "tgt": 35.0,
+  "stp": 30.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190102002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190102002",
+  "grade": "open"
+ },
+ {
+  "id": "WFF-1794321345",
+  "ts_kst": "2026-11-10 23:35",
+  "ts_utc": "2026-11-10T14:35:45+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "WFF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.1% · 거래량 평소의 8.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WFF 장중 급등 포착",
+  "body": "$1.260 (+16.1%) · 정규장 · 레벨 3 · 점수 46\n시장에 도는 주식 504만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.1% · 거래량 평소의 8.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $1.226 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -2.7%) · 체결 가능성 약 85% · 손익분기 $1.241\n숏 지지구간 $0.882–$1.260 · 손절 $0.630 · 1차목표 $1.890\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 10/28)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.2599,
+  "level": 3,
+  "score": 46.5,
+  "prob": 24.587706146926536,
+  "cp": 2.0,
+  "rl": 100.0,
+  "stop": 0.6299499869346619,
+  "zone": [
+   0.8819299817085265,
+   1.2598999738693237
+  ],
+  "bp": 1.2265,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 10/28)",
+   "역분할 2026-10-30",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
+  "grade": "n/a"
  }
 ]

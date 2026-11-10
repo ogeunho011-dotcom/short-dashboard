@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MGLD",
-  "form": "4",
-  "acc": "0001171200-26-000021",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T16:21:02+00:00",
-  "accepted_kst": "11/10 01:21",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1005101/000117120026000021/0001171200-26-000021-index.htm",
-  "seen_kst": "2026-11-10 01:21"
- },
- {
   "ticker": "SYPR",
   "form": "8-K",
   "acc": "0001437749-26-035762",
@@ -8667,5 +8650,24 @@
   "headline": "SMX Advances Development of its Scientific Intelligence, an AI-Powered Platform Intended to Create a Comprehensive Codex for Chemical Agents, Additives and Supp",
   "url": "https://www.sec.gov/Archives/edgar/data/1940674/000149315226050888/0001493152-26-050888-index.htm",
   "seen_kst": "2026-11-10 23:33"
+ },
+ {
+  "ticker": "XGN",
+  "form": "S-3",
+  "acc": "0001193125-26-454588",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:33:23+00:00",
+  "accepted_kst": "11/10 23:33",
+  "polarity": "neg",
+  "label": "증자 서류(S-3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1274737/000119312526454588/0001193125-26-454588-index.htm",
+  "seen_kst": "2026-11-10 23:35"
  }
 ]
