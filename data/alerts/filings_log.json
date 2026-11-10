@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ETD",
-  "form": "8-K",
-  "acc": "0001437749-26-035889",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:10:11+00:00",
-  "accepted_kst": "11/10 06:10",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (such act being the “Exchange Act”), or otherwise su",
-  "url": "https://www.sec.gov/Archives/edgar/data/896156/000143774926035889/0001437749-26-035889-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "ATTO",
   "form": "8-K",
   "acc": "0001193125-26-453592",
@@ -8663,5 +8646,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000305/0000939057-26-000305-index.htm",
   "seen_kst": "2026-11-11 05:10"
+ },
+ {
+  "ticker": "FSBW",
+  "form": "4",
+  "acc": "0000939057-26-000306",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T20:20:13+00:00",
+  "accepted_kst": "11/11 05:20",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000306/0000939057-26-000306-index.htm",
+  "seen_kst": "2026-11-11 05:22"
  }
 ]
