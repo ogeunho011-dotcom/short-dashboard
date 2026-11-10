@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "RBNE",
-  "form": "6-K",
-  "acc": "0001140361-26-042632",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:30:23+00:00",
-  "accepted_kst": "11/09 23:30",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Reverse Stock Split The Board of Directors of Robin Energy Ltd. (“Robin Energy” or the “Company”), an international ship-owning company providing energy transpo",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039060/000114036126042632/0001140361-26-042632-index.htm",
-  "seen_kst": "2026-11-09 23:33"
- },
- {
   "ticker": "FLWS",
   "form": "4",
   "acc": "0001437749-26-035738",
@@ -8660,5 +8641,22 @@
   "headline": "Terrestrial Energy Reports Third Quarter 2026 Results ~ Selected as Advanced Nuclear Technology Supplier for Ameresco Project at U.S. Army’s Aberdeen Proving Gr",
   "url": "https://www.sec.gov/Archives/edgar/data/2019804/000201980426000033/0002019804-26-000033-index.htm",
   "seen_kst": "2026-11-10 22:45"
+ },
+ {
+  "ticker": "VABK",
+  "form": "8-K",
+  "acc": "0001193125-26-454539",
+  "items": "8.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:45:13+00:00",
+  "accepted_kst": "11/10 22:45",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "INVESTOR RELATIONS CONTACT: Cathy W. Liles (434) 817-8267 VIRGINIA NATIONAL BANKSHARES CORPORATION ANNOUNCES STOCK AND CASH DIVIDENDS Charlottesville, VA – Nove",
+  "url": "https://www.sec.gov/Archives/edgar/data/1572334/000119312526454539/0001193125-26-454539-index.htm",
+  "seen_kst": "2026-11-10 22:48"
  }
 ]
