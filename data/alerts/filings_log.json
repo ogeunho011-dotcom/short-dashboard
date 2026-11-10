@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FLWS",
-  "form": "4",
-  "acc": "0001437749-26-035738",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:30:49+00:00",
-  "accepted_kst": "11/09 23:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1084869/000143774926035738/0001437749-26-035738-index.htm",
-  "seen_kst": "2026-11-09 23:33"
- },
- {
   "ticker": "CXDO",
   "form": "8-K",
   "acc": "0001654954-26-009615",
@@ -8658,5 +8641,25 @@
   "headline": "INVESTOR RELATIONS CONTACT: Cathy W. Liles (434) 817-8267 VIRGINIA NATIONAL BANKSHARES CORPORATION ANNOUNCES STOCK AND CASH DIVIDENDS Charlottesville, VA – Nove",
   "url": "https://www.sec.gov/Archives/edgar/data/1572334/000119312526454539/0001193125-26-454539-index.htm",
   "seen_kst": "2026-11-10 22:48"
+ },
+ {
+  "ticker": "COSM",
+  "form": "8-K",
+  "acc": "0001477932-26-006793",
+  "items": "3.03,5.03,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:46:55+00:00",
+  "accepted_kst": "11/10 22:46",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할",
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "Item 3.03 Material Modification to Rights of Security Holders. The information set forth in Item 5.03 below in regard to the Amendment and the Reverse Stock Spl",
+  "url": "https://www.sec.gov/Archives/edgar/data/1474167/000147793226006793/0001477932-26-006793-index.htm",
+  "seen_kst": "2026-11-10 22:50"
  }
 ]
