@@ -43774,5 +43774,85 @@
    "accepted_kst": "11/10 23:22",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "SMX-1794320739",
+  "ts_kst": "2026-11-10 23:25",
+  "ts_utc": "2026-11-10T14:25:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "pre",
+  "ticker": "SMX",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +91.2%"
+  ],
+  "title": "🚀 SMX 프리마켓 갭",
+  "body": "$17.880 (+91.2%) · 프리마켓 · 레벨 3 · 점수 49\n공매도 물량 대부분 손해 중, $21.70 넘으면 급등 가능성 ↑ · 시장에 도는 주식 180만 주뿐이라 쉽게 크게 움직임\n• 프리마켓 갭 +91.2%\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $16.986 지정가(기준가 $17.880의 −5%) · 체결 가능성 약 59% · 손익분기 $17.191\n숏 지지구간 $15.000–$16.008 · 손절 $14.500 · 1차목표 $21.700\n⚠ 역분할 2026-11-09\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 17.88,
+  "level": 3,
+  "score": 48.9,
+  "prob": 45.01661129568107,
+  "cp": 69.77924887925896,
+  "rl": 21.6997,
+  "stop": 14.5,
+  "zone": [
+   15.0,
+   16.008
+  ],
+  "bp": 16.986,
+  "tgt": 21.6997,
+  "stp": 14.5,
+  "penalties": [
+   "역분할 2026-11-09"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230308004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230308004",
+  "grade": "open"
+ },
+ {
+  "id": "BYAH-1794320739",
+  "ts_kst": "2026-11-10 23:25",
+  "ts_utc": "2026-11-10T14:25:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "pre",
+  "ticker": "BYAH",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +39.0%"
+  ],
+  "title": "🚀 BYAH 프리마켓 갭",
+  "body": "$3.029 (+39.0%) · 프리마켓 · 레벨 3 · 점수 49\n$4.00 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파\n• 프리마켓 갭 +39.0%\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $2.878 지정가(기준가 $3.029의 −5%) · 체결 가능성 약 60% · 손익분기 $2.913\n숏 지지구간 $2.500–$3.000 · 손절 $2.250 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.0294,
+  "level": 3,
+  "score": 48.9,
+  "prob": 38.456237077877326,
+  "cp": 28.291565354421458,
+  "rl": 4.0,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   3.0
+  ],
+  "bp": 2.8779,
+  "tgt": 4.0,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241227003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241227003",
+  "grade": "open"
  }
 ]
