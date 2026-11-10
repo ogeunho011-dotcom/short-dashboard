@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CASH",
-  "form": "4",
-  "acc": "0001674559-26-000009",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:01:14+00:00",
-  "accepted_kst": "11/10 06:01",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/907471/000167455926000009/0001674559-26-000009-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "BETR",
   "form": "4",
   "acc": "0001989210-26-000027",
@@ -8667,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000302/0000939057-26-000302-index.htm",
   "seen_kst": "2026-11-11 02:27"
+ },
+ {
+  "ticker": "LEGH",
+  "form": "8-K",
+  "acc": "0001104659-26-125012",
+  "items": "5.02",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:36:15+00:00",
+  "accepted_kst": "11/11 02:36",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. (c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1436208/000110465926125012/0001104659-26-125012-index.htm",
+  "seen_kst": "2026-11-11 02:37"
  }
 ]
