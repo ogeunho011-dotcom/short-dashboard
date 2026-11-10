@@ -47771,5 +47771,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240305001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240305001",
   "grade": "n/a"
+ },
+ {
+  "id": "TTEC-1794339908",
+  "ts_kst": "2026-11-11 04:45",
+  "ts_utc": "2026-11-10T19:45:08+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "TTEC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +74.6% · 거래량 평소의 78.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TTEC 장중 급등 포착",
+  "body": "$2.445 (+74.6%) · 정규장 · 레벨 2 · 점수 40\n공매도 물량 대부분 손해 중, $2.70 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 전일 대비 +74.6% · 거래량 평소의 78.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.323 지정가(기준가 $2.445의 −5%) · 체결 가능성 약 47% · 손익분기 $2.351\n숏 지지구간 $2.300–$2.400 · 손절 $2.200 · 1차목표 $2.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.445,
+  "level": 2,
+  "score": 39.6,
+  "prob": 53.44827586206896,
+  "cp": 65.14301847669627,
+  "rl": 2.7000000000000015,
+  "stop": 2.200000000000001,
+  "zone": [
+   2.300000000000001,
+   2.4000000000000012
+  ],
+  "bp": 2.3227,
+  "tgt": 2.7000000000000015,
+  "stp": 2.200000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960801001",
+  "grade": "open"
  }
 ]
