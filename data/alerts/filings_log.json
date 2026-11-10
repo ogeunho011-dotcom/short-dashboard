@@ -2,23 +2,6 @@
  {
   "ticker": "MGLD",
   "form": "4",
-  "acc": "0001171200-26-000019",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T16:20:21+00:00",
-  "accepted_kst": "11/10 01:20",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1005101/000117120026000019/0001171200-26-000019-index.htm",
-  "seen_kst": "2026-11-10 01:21"
- },
- {
-  "ticker": "MGLD",
-  "form": "4",
   "acc": "0001171200-26-000020",
   "items": "",
   "filed": "2026-11-09",
@@ -8665,5 +8648,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1611747/000121390026117817/0001213900-26-117817-index.htm",
   "seen_kst": "2026-11-10 23:20"
+ },
+ {
+  "ticker": "FLOC",
+  "form": "4",
+  "acc": "0001193125-26-454576",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:22:07+00:00",
+  "accepted_kst": "11/10 23:22",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $389,732",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "EDWARDS JOSEPH R",
+  "url": "https://www.sec.gov/Archives/edgar/data/2035149/000119312526454576/0001193125-26-454576-index.htm",
+  "seen_kst": "2026-11-10 23:23"
  }
 ]
