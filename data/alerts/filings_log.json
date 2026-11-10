@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "AIIO",
-  "form": "424B3",
-  "acc": "0001213900-26-117199",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:27:21+00:00",
-  "accepted_kst": "11/09 21:27",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1932737/000121390026117199/0001213900-26-117199-index.htm",
-  "seen_kst": "2026-11-09 21:30"
- },
- {
   "ticker": "OCUL",
   "form": "8-K",
   "acc": "0001104659-26-124159",
@@ -8692,5 +8673,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2042022/000121390026117728/0001213900-26-117728-index.htm",
   "seen_kst": "2026-11-10 20:53"
+ },
+ {
+  "ticker": "PLX",
+  "form": "8-K",
+  "acc": "0001104659-26-124761",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:54:05+00:00",
+  "accepted_kst": "11/10 20:54",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "‌ ​ ​ Protalix BioTherapeutics Reports Third Quarter 2026 Financial and Business Results Company to host conference call and webcast today at 8:00 a.m. ET ● Tot",
+  "url": "https://www.sec.gov/Archives/edgar/data/1006281/000110465926124761/0001104659-26-124761-index.htm",
+  "seen_kst": "2026-11-10 20:55"
  }
 ]
