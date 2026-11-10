@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AURA",
-  "form": "10-Q",
-  "acc": "0001193125-26-452636",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:15:34+00:00",
-  "accepted_kst": "11/09 21:15",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1501796/000119312526452636/0001193125-26-452636-index.htm",
-  "seen_kst": "2026-11-09 21:18"
- },
- {
   "ticker": "OCUL",
   "form": "10-Q",
   "acc": "0001104659-26-124155",
@@ -8692,5 +8675,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1840416/000117184326007303/0001171843-26-007303-index.htm",
   "seen_kst": "2026-11-10 20:33"
+ },
+ {
+  "ticker": "LAR",
+  "form": "6-K",
+  "acc": "0001628280-26-072491",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:38:46+00:00",
+  "accepted_kst": "11/10 20:38",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "EX-99.1 2 lar-20260930xex991fs.htm EX-99.1 CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2026 (EXPRESSED",
+  "url": "https://www.sec.gov/Archives/edgar/data/1440972/000162828026072491/0001628280-26-072491-index.htm",
+  "seen_kst": "2026-11-10 20:40"
  }
 ]
