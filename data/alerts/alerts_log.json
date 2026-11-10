@@ -44946,5 +44946,127 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150702002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150702002",
   "grade": "open"
+ },
+ {
+  "id": "RXT-1794324042",
+  "ts_kst": "2026-11-11 00:20",
+  "ts_utc": "2026-11-10T15:20:42+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "RXT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.6% · 거래량 평소의 4.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RXT 장중 급등 포착",
+  "body": "$3.200 (+16.6%) · 정규장 · 레벨 1 · 점수 21\n$3.50 넘으면 공매도 되사기 압박 ↑ · $3 다시 회복\n• 전일 대비 +16.6% · 거래량 평소의 4.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $3.040 지정가(기준가 $3.200의 −5%) · 체결 가능성 약 59% · 손익분기 $3.077\n숏 지지구간 $2.750–$3.000 · 손절 $2.500 · 1차목표 $3.500\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.2,
+  "level": 1,
+  "score": 21.2,
+  "prob": 45.01661129568107,
+  "cp": 35.20304685450668,
+  "rl": 3.5,
+  "stop": 2.5,
+  "zone": [
+   2.75,
+   3.0
+  ],
+  "bp": 3.04,
+  "tgt": 3.5,
+  "stp": 2.5,
+  "penalties": [
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200804004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200804004",
+  "grade": "open"
+ },
+ {
+  "id": "ELAB-1794324042",
+  "ts_kst": "2026-11-11 00:20",
+  "ts_utc": "2026-11-10T15:20:42+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "ELAB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.1% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ELAB 장중 급등 포착",
+  "body": "$1.835 (+16.1%) · 정규장 · 레벨 1 · 점수 18\n시장에 도는 주식 810만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.1% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 12%\n추천 매수가 $1.781 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.0%) · 체결 가능성 약 80% · 손익분기 $1.802\n숏 지지구간 $1.285–$1.835 · 손절 $0.918 · 1차목표 $3.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-08-21\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.835,
+  "level": 1,
+  "score": 17.5,
+  "prob": 12.097999831378417,
+  "cp": 3.559898737676576,
+  "rl": 3.0,
+  "stop": 0.9175000190734863,
+  "zone": [
+   1.2845000267028808,
+   1.8350000381469727
+  ],
+  "bp": 1.7806,
+  "tgt": 3.0,
+  "stp": 0.9175000190734863,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-08-21"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231121001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231121001",
+  "grade": "open"
+ },
+ {
+  "id": "LCID-1794324042",
+  "ts_kst": "2026-11-11 00:20",
+  "ts_utc": "2026-11-10T15:20:42+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "LCID",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LCID 장중 급등 포착",
+  "body": "$4.185 (+15.8%) · 정규장 · 레벨 1 · 점수 19\n$4.25 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파\n• 전일 대비 +15.8% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.064 지정가(60일선, 기준가 대비 -2.9%) · 체결 가능성 약 70% · 손익분기 $4.113\n숏 지지구간 $3.500–$3.750 · 손절 $3.250 · 1차목표 $4.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.185,
+  "level": 1,
+  "score": 18.8,
+  "prob": 53.44827586206896,
+  "cp": 59.98056584939424,
+  "rl": 4.25,
+  "stop": 3.25,
+  "zone": [
+   3.5,
+   3.75
+  ],
+  "bp": 4.0643,
+  "tgt": 4.25,
+  "stp": 3.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200918008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200918008",
+  "grade": "open"
  }
 ]
