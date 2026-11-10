@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "AMPY",
-  "form": "8-K",
-  "acc": "0001104659-26-124492",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:11:08+00:00",
-  "accepted_kst": "11/10 06:11",
-  "polarity": "pos",
-  "label": "자사주 매입",
-  "cats": [
-   "자사주 매입"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Amplify Energy Announces Third Quarter 2026 Results, Continued Production Growth, Enhanced Beta Royalty Relief, and Share Repurchase Activity",
-  "url": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926124492/0001104659-26-124492-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "NTIP",
   "form": "8-K",
   "acc": "0001072613-26-000859",
@@ -8657,5 +8638,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000307/0000939057-26-000307-index.htm",
   "seen_kst": "2026-11-11 05:35"
+ },
+ {
+  "ticker": "RELL",
+  "form": "4",
+  "acc": "0001193125-26-455292",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T20:37:36+00:00",
+  "accepted_kst": "11/11 05:37",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/355948/000119312526455292/0001193125-26-455292-index.htm",
+  "seen_kst": "2026-11-11 05:40"
  }
 ]
