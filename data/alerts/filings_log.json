@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "CCAP",
-  "form": "8-K",
-  "acc": "0001193125-26-453594",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:10:15+00:00",
-  "accepted_kst": "11/10 06:10",
-  "polarity": "pos",
-  "label": "자사주 매입",
-  "cats": [
-   "자사주 매입"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "EX-99.1 2 ccap-ex99_1.htm EX-99.1 Crescent Capital BDC, Inc. Reports Third Quarter 2026 Earnings Results; Declares a Fourth Quarter Base Dividend of $0.34 Per S",
-  "url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526453594/0001193125-26-453594-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
-  "ticker": "GRPN",
-  "form": "10-Q",
-  "acc": "0001628280-26-072167",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:10:27+00:00",
-  "accepted_kst": "11/10 06:10",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1490281/000162828026072167/0001628280-26-072167-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "ZSTK",
   "form": "8-K",
   "acc": "0001062993-26-005837",
@@ -8659,5 +8623,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/714562/000110465926125108/0001104659-26-125108-index.htm",
   "seen_kst": "2026-11-11 05:25"
+ },
+ {
+  "ticker": "WEYS",
+  "form": "4",
+  "acc": "0001312596-26-000020",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T21:59:00+00:00",
+  "accepted_kst": "11/10 06:59",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/106532/000131259626000020/0001312596-26-000020-index.htm",
+  "seen_kst": "2026-11-11 05:27"
+ },
+ {
+  "ticker": "WEYS",
+  "form": "4",
+  "acc": "0001194948-26-000017",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T20:26:22+00:00",
+  "accepted_kst": "11/11 05:26",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/106532/000119494826000017/0001194948-26-000017-index.htm",
+  "seen_kst": "2026-11-11 05:27"
  }
 ]
