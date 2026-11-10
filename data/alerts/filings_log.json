@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ZNTL",
-  "form": "8-K",
-  "acc": "0001725160-26-000069",
-  "items": "2.02,7.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:08:59+00:00",
-  "accepted_kst": "11/10 06:08",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "to this Current Report on Form 8-K (this \"Current Report\") and is incorporated herein by reference. Item 7.01 Regulation FD Disclosure. Beginning November 9, 20",
-  "url": "https://www.sec.gov/Archives/edgar/data/1725160/000172516026000069/0001725160-26-000069-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "GAIN",
   "form": "10-Q",
   "acc": "0001321741-26-000022",
@@ -8659,5 +8642,22 @@
   "headline": "Item 8.01. Other Events On November 10, 2026, the board of directors of Lakeland Financial Corporation (\"Company\") amended the Company's existing share repurcha",
   "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000089/0000721994-26-000089-index.htm",
   "seen_kst": "2026-11-11 03:45"
+ },
+ {
+  "ticker": "SCL",
+  "form": "4",
+  "acc": "0000094049-26-000127",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T19:00:46+00:00",
+  "accepted_kst": "11/11 04:00",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/94049/000009404926000127/0000094049-26-000127-index.htm",
+  "seen_kst": "2026-11-11 04:02"
  }
 ]

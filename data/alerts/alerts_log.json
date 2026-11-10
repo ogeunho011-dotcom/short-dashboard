@@ -47368,5 +47368,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210607007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210607007",
   "grade": "open"
+ },
+ {
+  "id": "SECZ-1794337355",
+  "ts_kst": "2026-11-11 04:02",
+  "ts_utc": "2026-11-10T19:02:35+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "SECZ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.5% · 거래량 평소의 5.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SECZ 장중 급등 포착",
+  "body": "$8.535 (+22.5%) · 정규장 · 레벨 1 · 점수 20\n$9.50 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +22.5% · 거래량 평소의 5.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $8.108 지정가(기준가 $8.535의 −5%) · 체결 가능성 약 64% · 손익분기 $8.206\n숏 지지구간 $8.500–$8.535 · 손절 $8.000 · 1차목표 $9.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.535,
+  "level": 1,
+  "score": 20.0,
+  "prob": 41.349115303293495,
+  "cp": 42.696400084407045,
+  "rl": 9.5,
+  "stop": 8.0,
+  "zone": [
+   8.5,
+   8.53499984741211
+  ],
+  "bp": 8.1082,
+  "tgt": 9.5,
+  "stp": 8.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250502001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250502001",
+  "grade": "open"
  }
 ]
