@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "LKFN",
-  "form": "4",
-  "acc": "0001210212-26-000004",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T16:36:48+00:00",
-  "accepted_kst": "11/10 01:36",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $117,177",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "BARTELS ROBERT E JR",
-  "url": "https://www.sec.gov/Archives/edgar/data/721994/000121021226000004/0001210212-26-000004-index.htm",
-  "seen_kst": "2026-11-10 01:39"
- },
- {
   "ticker": "GCBC",
   "form": "8-K",
   "acc": "0001140361-26-042702",
@@ -8669,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1360214/000162828026072325/0001628280-26-072325-index.htm",
   "seen_kst": "2026-11-10 23:38"
+ },
+ {
+  "ticker": "APT",
+  "form": "8-K",
+  "acc": "0001437749-26-036020",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:41:00+00:00",
+  "accepted_kst": "11/10 23:41",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "dated November 10, 2026, anouncing financial results for the third quarter and nine months ended September 30, 2026. 104 Cover Page Interactive Data File (embed",
+  "url": "https://www.sec.gov/Archives/edgar/data/884269/000143774926036020/0001437749-26-036020-index.htm",
+  "seen_kst": "2026-11-10 23:43"
  }
 ]
