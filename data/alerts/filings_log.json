@@ -2,23 +2,6 @@
  {
   "ticker": "BAFN",
   "form": "4",
-  "acc": "0001649739-26-000152",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:04:48+00:00",
-  "accepted_kst": "11/10 04:04",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1649739/000164973926000152/0001649739-26-000152-index.htm",
-  "seen_kst": "2026-11-10 04:06"
- },
- {
-  "ticker": "BAFN",
-  "form": "4",
   "acc": "0001649739-26-000153",
   "items": "",
   "filed": "2026-11-09",
@@ -8667,5 +8650,24 @@
   "headline": "secz3q26earning.htm EX-99.1 Securitize Reports Third Quarter 2026 Results Announcing the River One acquisition to expand into tokenized asset-backed finance and",
   "url": "https://www.sec.gov/Archives/edgar/data/2094496/000162828026072463/0001628280-26-072463-index.htm",
   "seen_kst": "2026-11-10 23:58"
+ },
+ {
+  "ticker": "NCT",
+  "form": "6-K",
+  "acc": "0001213900-26-117835",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:00:01+00:00",
+  "accepted_kst": "11/11 00:00",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Split",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018529/000121390026117835/0001213900-26-117835-index.htm",
+  "seen_kst": "2026-11-11 00:03"
  }
 ]
