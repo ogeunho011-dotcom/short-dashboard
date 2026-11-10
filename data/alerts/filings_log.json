@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GROW",
-  "form": "4",
-  "acc": "0001062993-26-005821",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:37:01+00:00",
-  "accepted_kst": "11/10 04:37",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $82,691 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Pilecki Derek Steven",
-  "url": "https://www.sec.gov/Archives/edgar/data/754811/000106299326005821/0001062993-26-005821-index.htm",
-  "seen_kst": "2026-11-10 04:41"
- },
- {
   "ticker": "GOOD",
   "form": "4",
   "acc": "0001873961-26-000002",
@@ -8669,5 +8652,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1617867/000143774926036033/0001437749-26-036033-index.htm",
   "seen_kst": "2026-11-11 00:50"
+ },
+ {
+  "ticker": "GCBC",
+  "form": "8-K",
+  "acc": "0001140361-26-042925",
+  "items": "5.07,8.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:56:46+00:00",
+  "accepted_kst": "11/11 00:56",
+  "polarity": "neutral",
+  "label": "주총 결과 · 기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders . On November 7, 2026, Greene County Bancorp, Inc., now known as Greene Bancorp, Inc. (the “Compan",
+  "url": "https://www.sec.gov/Archives/edgar/data/1070524/000114036126042925/0001140361-26-042925-index.htm",
+  "seen_kst": "2026-11-11 00:57"
  }
 ]

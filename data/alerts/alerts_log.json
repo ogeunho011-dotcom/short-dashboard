@@ -45365,5 +45365,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20050901001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20050901001",
   "grade": "open"
+ },
+ {
+  "id": "RNTZ-1794326253",
+  "ts_kst": "2026-11-11 00:57",
+  "ts_utc": "2026-11-10T15:57:33+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "RNTZ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.4% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RNTZ 장중 급등 포착",
+  "body": "$4.900 (+20.4%) · 정규장 · 레벨 2 · 점수 28\n$5.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,875만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +20.4% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $4.655 지정가(기준가 $4.900의 −5%) · 체결 가능성 약 60% · 손익분기 $4.711\n숏 지지구간 $4.750–$4.900 · 손절 $4.500 · 1차목표 $5.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.9,
+  "level": 2,
+  "score": 28.1,
+  "prob": 38.456237077877326,
+  "cp": 19.60805060184274,
+  "rl": 5.25,
+  "stop": 4.5,
+  "zone": [
+   4.75,
+   4.900000095367432
+  ],
+  "bp": 4.655,
+  "tgt": 5.25,
+  "stp": 4.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241008006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241008006",
+  "grade": "open"
  }
 ]
