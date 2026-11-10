@@ -2,23 +2,6 @@
  {
   "ticker": "MGLD",
   "form": "4",
-  "acc": "0001171200-26-000020",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T16:20:48+00:00",
-  "accepted_kst": "11/10 01:20",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1005101/000117120026000020/0001171200-26-000020-index.htm",
-  "seen_kst": "2026-11-10 01:21"
- },
- {
-  "ticker": "MGLD",
-  "form": "4",
   "acc": "0001171200-26-000021",
   "items": "",
   "filed": "2026-11-09",
@@ -8667,5 +8650,22 @@
   "headline": "EDWARDS JOSEPH R",
   "url": "https://www.sec.gov/Archives/edgar/data/2035149/000119312526454576/0001193125-26-454576-index.htm",
   "seen_kst": "2026-11-10 23:23"
+ },
+ {
+  "ticker": "SMX",
+  "form": "6-K",
+  "acc": "0001493152-26-050888",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T14:31:52+00:00",
+  "accepted_kst": "11/10 23:31",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "SMX Advances Development of its Scientific Intelligence, an AI-Powered Platform Intended to Create a Comprehensive Codex for Chemical Agents, Additives and Supp",
+  "url": "https://www.sec.gov/Archives/edgar/data/1940674/000149315226050888/0001493152-26-050888-index.htm",
+  "seen_kst": "2026-11-10 23:33"
  }
 ]
