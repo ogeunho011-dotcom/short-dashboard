@@ -48017,5 +48017,44 @@
    "accepted_kst": "11/11 04:57",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "LNKS-1794341545",
+  "ts_kst": "2026-11-11 05:12",
+  "ts_utc": "2026-11-10T20:12:25+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "LNKS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +31.3% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LNKS 장중 급등 포착",
+  "body": "$0.880 (+31.3%) · 정규장 · 레벨 3 · 점수 42\n$1.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 150만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +31.3% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.836 지정가(기준가 $0.880의 −5%) · 체결 가능성 약 47% · 손익분기 $0.846\n숏 지지구간 $0.750–$0.880 · 손절 $0.625 · 1차목표 $1.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8799,
+  "level": 3,
+  "score": 41.6,
+  "prob": 45.01661129568107,
+  "cp": 3.1627766426151074,
+  "rl": 1.25,
+  "stop": 0.625,
+  "zone": [
+   0.75,
+   0.8798999786376953
+  ],
+  "bp": 0.8359,
+  "tgt": 1.25,
+  "stp": 0.625,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241205002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241205002",
+  "grade": "open"
  }
 ]
