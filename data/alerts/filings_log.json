@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "EAF",
-  "form": "4",
-  "acc": "0000931148-26-000092",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:29:25+00:00",
-  "accepted_kst": "11/10 04:29",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $50,000 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Shivaram Sachin M",
-  "url": "https://www.sec.gov/Archives/edgar/data/931148/000093114826000092/0000931148-26-000092-index.htm",
-  "seen_kst": "2026-11-10 04:30"
- },
- {
   "ticker": "MSBI",
   "form": "4",
   "acc": "0001466026-26-000111",
@@ -8669,5 +8652,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1718405/000149315226050896/0001493152-26-050896-index.htm",
   "seen_kst": "2026-11-11 00:30"
+ },
+ {
+  "ticker": "ASRV",
+  "form": "4",
+  "acc": "0000707605-26-000095",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:41:25+00:00",
+  "accepted_kst": "11/11 00:41",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $7,104 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "STOPKO JEFFREY A",
+  "url": "https://www.sec.gov/Archives/edgar/data/707605/000070760526000095/0000707605-26-000095-index.htm",
+  "seen_kst": "2026-11-11 00:42"
  }
 ]
