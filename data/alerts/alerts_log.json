@@ -43689,5 +43689,47 @@
    "accepted_kst": "11/10 23:00",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "OFAL-1794319538",
+  "ts_kst": "2026-11-10 23:05",
+  "ts_utc": "2026-11-10T14:05:38+00:00",
+  "date_et": "2026-11-10",
+  "session": "pre",
+  "ticker": "OFAL",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +1146.5%"
+  ],
+  "title": "🚀 OFAL 프리마켓 갭",
+  "body": "$3.160 (+1146.5%) · 프리마켓 · 레벨 3 · 점수 45\n공매도 물량 대부분 손해 중, $3.90 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 프리마켓 갭 +1146.5%\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $3.002 지정가(기준가 $3.160의 −5%) · 체결 가능성 약 58% · 손익분기 $3.038\n숏 지지구간 $2.212–$2.212 · 손절 $1.580 · 1차목표 $3.900\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.16,
+  "level": 3,
+  "score": 44.6,
+  "prob": 47.73859330012066,
+  "cp": 49.281505356488665,
+  "rl": 3.9,
+  "stop": 1.58,
+  "zone": [
+   2.2119999999999997,
+   2.2119999999999997
+  ],
+  "bp": 3.002,
+  "tgt": 3.9,
+  "stp": 1.58,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250516004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250516004",
+  "grade": "open"
  }
 ]
