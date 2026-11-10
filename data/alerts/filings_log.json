@@ -2,23 +2,6 @@
  {
   "ticker": "BAFN",
   "form": "4",
-  "acc": "0001649739-26-000153",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:04:54+00:00",
-  "accepted_kst": "11/10 04:04",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1649739/000164973926000153/0001649739-26-000153-index.htm",
-  "seen_kst": "2026-11-10 04:06"
- },
- {
-  "ticker": "BAFN",
-  "form": "4",
   "acc": "0001649739-26-000154",
   "items": "",
   "filed": "2026-11-09",
@@ -8669,5 +8652,22 @@
   "headline": "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Split",
   "url": "https://www.sec.gov/Archives/edgar/data/2018529/000121390026117835/0001213900-26-117835-index.htm",
   "seen_kst": "2026-11-11 00:03"
+ },
+ {
+  "ticker": "AIM",
+  "form": "4",
+  "acc": "0001493152-26-050892",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:07:35+00:00",
+  "accepted_kst": "11/11 00:07",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $5,070 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Equels Thomas K",
+  "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226050892/0001493152-26-050892-index.htm",
+  "seen_kst": "2026-11-11 00:08"
  }
 ]
