@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OSG",
-  "form": "8-K",
-  "acc": "0001628280-26-072166",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:09:43+00:00",
-  "accepted_kst": "11/10 06:09",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Octave Specialty Group Reports Third Quarter 2026 Results • Insurance Distribution Segment ◦ Total revenue grew 35% to $58 million ◦ Organic revenue growth equa",
-  "url": "https://www.sec.gov/Archives/edgar/data/874501/000162828026072166/0001628280-26-072166-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "MAZE",
   "form": "8-K",
   "acc": "0001193125-26-453590",
@@ -8659,5 +8642,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/352955/000143774926036109/0001437749-26-036109-index.htm",
   "seen_kst": "2026-11-11 04:42"
+ },
+ {
+  "ticker": "PRTA",
+  "form": "4",
+  "acc": "0001045463-26-000024",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T19:45:35+00:00",
+  "accepted_kst": "11/11 04:45",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $1,194,158",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "SCULLY WILLIAM P",
+  "url": "https://www.sec.gov/Archives/edgar/data/1559053/000104546326000024/0001045463-26-000024-index.htm",
+  "seen_kst": "2026-11-11 04:47"
  }
 ]
