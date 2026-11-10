@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "PHOE",
-  "form": "6-K",
-  "acc": "0001493152-26-050718",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:05:10+00:00",
-  "accepted_kst": "11/10 06:05",
-  "polarity": "neg",
-  "label": "계약·합병 해지",
-  "cats": [],
-  "negs": [
-   "계약·합병 해지"
-  ],
-  "strength": 0,
-  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ☐ Indicate by check mark if the regi",
-  "url": "https://www.sec.gov/Archives/edgar/data/2035709/000149315226050718/0001493152-26-050718-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "APEI",
   "form": "10-Q",
   "acc": "0001201792-26-000016",
@@ -8663,5 +8644,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1046050/000093905726000304/0000939057-26-000304-index.htm",
   "seen_kst": "2026-11-11 03:05"
+ },
+ {
+  "ticker": "NUR",
+  "form": "6-K",
+  "acc": "0001493152-26-050924",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T18:10:26+00:00",
+  "accepted_kst": "11/11 03:10",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FORM 51-102F3 Material Change Report Item 1: Name and Address of Company NuRAN Wireless Inc. (the “ Company ” or “ NuRAN ”) 2150 Cyrille-Duquet, suite 100 Quebe",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680637/000149315226050924/0001493152-26-050924-index.htm",
+  "seen_kst": "2026-11-11 03:12"
  }
 ]
