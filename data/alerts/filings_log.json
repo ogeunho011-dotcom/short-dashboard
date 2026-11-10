@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OSUR",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0001142031-26-000028",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T18:53:34+00:00",
-  "accepted_kst": "11/10 03:53",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1116463/000114203126000028/0001142031-26-000028-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "BETR",
   "form": "4",
   "acc": "0001297602-26-000037",
@@ -8667,5 +8650,22 @@
   "headline": "Investor Presentation Data as of or for the period ended September 30, 2026, unless otherwise noted EX 99.1 CAUTION REGARDING FORWARD LOOKING STATEMENTS This pr",
   "url": "https://www.sec.gov/Archives/edgar/data/810958/000110465926124970/0001104659-26-124970-index.htm",
   "seen_kst": "2026-11-11 01:55"
+ },
+ {
+  "ticker": "FSBW",
+  "form": "8-K",
+  "acc": "0000939057-26-000299",
+  "items": "5.02",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T16:56:37+00:00",
+  "accepted_kst": "11/11 01:56",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000299/0000939057-26-000299-index.htm",
+  "seen_kst": "2026-11-11 01:57"
  }
 ]

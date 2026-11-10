@@ -46024,5 +46024,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160316001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160316001",
   "grade": "open"
+ },
+ {
+  "id": "TANH-1794329856",
+  "ts_kst": "2026-11-11 01:57",
+  "ts_utc": "2026-11-10T16:57:36+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "TANH",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 73/100"
+  ],
+  "title": "🚀 TANH 커버 압력",
+  "body": "$25.180 (+29.5%) · 정규장 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $28.25 넘으면 급등 가능성 ↑ · 시장에 도는 주식 621만 주뿐이라 쉽게 크게 움직임\n• 커버 압력 73/100\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $23.921 지정가(기준가 $25.180의 −5%) · 체결 가능성 약 79% · 손익분기 $24.210\n숏 지지구간 $21.000–$22.000 · 손절 $20.000 · 1차목표 $28.250\n⚠ 역분할 2026-09-04\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 25.1802,
+  "level": 3,
+  "score": 41.6,
+  "prob": 45.01661129568107,
+  "cp": 73.21377282467961,
+  "rl": 28.25,
+  "stop": 20.0,
+  "zone": [
+   21.0,
+   22.0
+  ],
+  "bp": 23.9212,
+  "tgt": 28.25,
+  "stp": 20.0,
+  "penalties": [
+   "역분할 2026-09-04"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150324005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150324005",
+  "grade": "open"
+ },
+ {
+  "id": "SECZ-1794329856",
+  "ts_kst": "2026-11-11 01:57",
+  "ts_utc": "2026-11-10T16:57:36+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "SECZ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.2% · 거래량 평소의 9.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SECZ 장중 급등 포착",
+  "body": "$8.935 (+28.2%) · 정규장 · 레벨 2 · 점수 27\n$9.50 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +28.2% · 거래량 평소의 9.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $8.436 지정가(20일선, 기준가 대비 -5.6%) · 체결 가능성 약 58% · 손익분기 $8.538\n숏 지지구간 $8.500–$8.935 · 손절 $8.000 · 1차목표 $9.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 8.935,
+  "level": 2,
+  "score": 27.2,
+  "prob": 45.01661129568107,
+  "cp": 47.10441591415208,
+  "rl": 9.5,
+  "stop": 8.0,
+  "zone": [
+   8.5,
+   8.9350004196167
+  ],
+  "bp": 8.4362,
+  "tgt": 9.5,
+  "stp": 8.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250502001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250502001",
+  "grade": "open"
  }
 ]
