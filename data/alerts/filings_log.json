@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CCEC",
-  "form": "6-K",
-  "acc": "0001193125-26-453518",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T20:59:48+00:00",
-  "accepted_kst": "11/10 05:59",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.(I) 2 d182391dex99i.htm EXHIBIT I Exhibit I CAPITAL CLEAN ENERGY CARRIERS CORP. ANNOUNCES THIRD QUARTER 2026",
-  "url": "https://www.sec.gov/Archives/edgar/data/1392326/000119312526453518/0001193125-26-453518-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "BETR",
   "form": "4",
   "acc": "0001614749-26-000017",
@@ -8669,5 +8652,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1976908/000110465926124977/0001104659-26-124977-index.htm",
   "seen_kst": "2026-11-11 02:02"
+ },
+ {
+  "ticker": "FSBW",
+  "form": "4",
+  "acc": "0000939057-26-000300",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:01:53+00:00",
+  "accepted_kst": "11/11 02:01",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000300/0000939057-26-000300-index.htm",
+  "seen_kst": "2026-11-11 02:05"
  }
 ]
