@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "DGICA",
-  "form": "4",
-  "acc": "0000935596-26-000028",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:18:33+00:00",
-  "accepted_kst": "11/09 22:18",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $621,506",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "DONEGAL MUTUAL INSURANCE CO",
-  "url": "https://www.sec.gov/Archives/edgar/data/800457/000093559626000028/0000935596-26-000028-index.htm",
-  "seen_kst": "2026-11-09 22:20"
- },
- {
   "ticker": "NGNE",
   "form": "8-K",
   "acc": "0001404644-26-000064",
@@ -8652,5 +8633,22 @@
   "headline": "Canaan Inc. Reports Unaudited Third Quarter 2026 Financial Results Received conditional “Studied Load – Firm” classification under ERCOT’s Batch Zero process fo",
   "url": "https://www.sec.gov/Archives/edgar/data/1780652/000110465926124805/0001104659-26-124805-index.htm",
   "seen_kst": "2026-11-10 21:50"
+ },
+ {
+  "ticker": "INTR",
+  "form": "6-K",
+  "acc": "0001864163-26-000087",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:53:40+00:00",
+  "accepted_kst": "11/10 21:53",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Discontinuation of the BDR Program - Completion of Sales Facility 1 SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the registran",
+  "url": "https://www.sec.gov/Archives/edgar/data/1864163/000186416326000087/0001864163-26-000087-index.htm",
+  "seen_kst": "2026-11-10 21:55"
  }
 ]
