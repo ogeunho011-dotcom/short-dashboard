@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OCUL",
-  "form": "10-Q",
-  "acc": "0001104659-26-124155",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:19:06+00:00",
-  "accepted_kst": "11/09 21:19",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1393434/000110465926124155/0001104659-26-124155-index.htm",
-  "seen_kst": "2026-11-09 21:20"
- },
- {
   "ticker": "SSTI",
   "form": "SC TO-T/A",
   "acc": "0001140361-26-042603",
@@ -8694,5 +8677,22 @@
   "headline": "EX-99.1 2 lar-20260930xex991fs.htm EX-99.1 CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2026 (EXPRESSED",
   "url": "https://www.sec.gov/Archives/edgar/data/1440972/000162828026072491/0001628280-26-072491-index.htm",
   "seen_kst": "2026-11-10 20:40"
+ },
+ {
+  "ticker": "WYFI",
+  "form": "8-K",
+  "acc": "0001213900-26-117723",
+  "items": "1.01,2.03",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:40:30+00:00",
+  "accepted_kst": "11/10 20:40",
+  "polarity": "neutral",
+  "label": "중요 계약 · 2.03",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 1.01. Entry into a Material Definitive Agreement. On November 9, 2026, Enovum NC-1 Midco, LLC, a Delaware limited liability company (“Holdings”), and Enovu",
+  "url": "https://www.sec.gov/Archives/edgar/data/2042022/000121390026117723/0001213900-26-117723-index.htm",
+  "seen_kst": "2026-11-10 20:43"
  }
 ]
