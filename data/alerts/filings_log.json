@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "APEI",
-  "form": "10-Q",
-  "acc": "0001201792-26-000016",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:05:20+00:00",
-  "accepted_kst": "11/10 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1201792/000120179226000016/0001201792-26-000016-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "EVI",
   "form": "10-Q",
   "acc": "0001437749-26-035879",
@@ -8661,5 +8644,22 @@
   "headline": "FORM 51-102F3 Material Change Report Item 1: Name and Address of Company NuRAN Wireless Inc. (the “ Company ” or “ NuRAN ”) 2150 Cyrille-Duquet, suite 100 Quebe",
   "url": "https://www.sec.gov/Archives/edgar/data/1680637/000149315226050924/0001493152-26-050924-index.htm",
   "seen_kst": "2026-11-11 03:12"
+ },
+ {
+  "ticker": "OSBC",
+  "form": "4",
+  "acc": "0001829064-26-000012",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T18:12:28+00:00",
+  "accepted_kst": "11/11 03:12",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $572 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Lyons Billy J Jr.",
+  "url": "https://www.sec.gov/Archives/edgar/data/357173/000182906426000012/0001829064-26-000012-index.htm",
+  "seen_kst": "2026-11-11 03:15"
  }
 ]
