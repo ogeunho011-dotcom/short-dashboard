@@ -44189,5 +44189,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
   "grade": "n/a"
+ },
+ {
+  "id": "MNDO-1794321634",
+  "ts_kst": "2026-11-10 23:40",
+  "ts_utc": "2026-11-10T14:40:34+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "MNDO",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +44.8% · 거래량 평소의 1853.4배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 MNDO 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.260 (+44.8%) · 정규장 · 레벨 3 · 점수 55\n$1.28 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 전일 대비 +44.8% · 거래량 평소의 1853.4배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $1.240–$1.260 · 손절 $1.230 · 1차목표 $1.280\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.26,
+  "level": 3,
+  "score": 54.7,
+  "prob": 53.44827586206896,
+  "cp": 41.6536919750304,
+  "rl": 1.2800000000000002,
+  "stop": 1.2300000000000002,
+  "zone": [
+   1.2400000000000002,
+   1.2599999904632568
+  ],
+  "bp": null,
+  "tgt": 1.2800000000000002,
+  "stp": 1.2300000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000808001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000808001",
+  "grade": "open"
  }
 ]
