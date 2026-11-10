@@ -34968,7 +34968,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201112010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201112010",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.08494736842105255,
+  "graded_bars": 1
  },
  {
   "id": "SLQT-1793984084",
@@ -42583,5 +42586,46 @@
    "accepted_kst": "11/10 08:43",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "TANH-1794304726",
+  "ts_kst": "2026-11-10 18:58",
+  "ts_utc": "2026-11-10T09:58:46+00:00",
+  "date_et": "2026-11-10",
+  "session": "pre",
+  "ticker": "TANH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +12.4% 급변 · 전일 대비 +35.2% — 추격 매수 주의"
+  ],
+  "title": "⚡ TANH 장중 급등 포착",
+  "body": "$26.290 (+35.2%) · 프리마켓 · 레벨 2 · 점수 32\n공매도 물량 대부분 손해 중, $31.16 넘으면 급등 가능성 ↑ · 시장에 도는 주식 621만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 5분 +12.4% 급변 · 전일 대비 +35.2% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $24.975 지정가(기준가 $26.290의 −5%) · 체결 가능성 약 78% · 손익분기 $25.277\n숏 지지구간 $21.000–$22.000 · 손절 $20.000 · 1차목표 $31.163\n⚠ 역분할 2026-09-04\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 26.29,
+  "level": 2,
+  "score": 32.1,
+  "prob": 28.643216080402006,
+  "cp": 71.05991921399243,
+  "rl": 31.1635,
+  "stop": 20.0,
+  "zone": [
+   21.0,
+   22.0
+  ],
+  "bp": 24.9755,
+  "tgt": 31.1635,
+  "stp": 20.0,
+  "penalties": [
+   "역분할 2026-09-04"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150324005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150324005",
+  "grade": "open"
  }
 ]
