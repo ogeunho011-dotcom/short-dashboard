@@ -46556,5 +46556,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250327005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250327005",
   "grade": "n/a"
+ },
+ {
+  "id": "NNOX-1794331949",
+  "ts_kst": "2026-11-11 02:32",
+  "ts_utc": "2026-11-10T17:32:29+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "NNOX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.6% · 거래량 평소의 143.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NNOX 장중 급등 포착",
+  "body": "$0.305 (+29.6%) · 정규장 · 레벨 2 · 점수 25\n$0.350 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +29.6% · 거래량 평소의 143.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.290 지정가(기준가 $0.305의 −5%) · 체결 가능성 약 72% · 손익분기 $0.293\n숏 지지구간 $0.200–$0.250 · 손절 $0.152 · 1차목표 $0.350\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3049,
+  "level": 2,
+  "score": 25.4,
+  "prob": 45.01661129568107,
+  "cp": 36.519166694040386,
+  "rl": 0.35,
+  "stop": 0.15244999527931213,
+  "zone": [
+   0.2,
+   0.25
+  ],
+  "bp": 0.2897,
+  "tgt": 0.35,
+  "stp": 0.15244999527931213,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200820003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200820003",
+  "grade": "open"
  }
 ]
