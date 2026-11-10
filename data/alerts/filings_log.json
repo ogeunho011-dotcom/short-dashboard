@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BETR",
-  "form": "4",
-  "acc": "0001297602-26-000037",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T20:59:38+00:00",
-  "accepted_kst": "11/10 05:59",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1835856/000129760226000037/0001297602-26-000037-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "CCEC",
   "form": "6-K",
   "acc": "0001193125-26-453518",
@@ -8667,5 +8650,24 @@
   "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000299/0000939057-26-000299-index.htm",
   "seen_kst": "2026-11-11 01:57"
+ },
+ {
+  "ticker": "JDZG",
+  "form": "424B5",
+  "acc": "0001104659-26-124977",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:01:41+00:00",
+  "accepted_kst": "11/11 02:01",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1976908/000110465926124977/0001104659-26-124977-index.htm",
+  "seen_kst": "2026-11-11 02:02"
  }
 ]
