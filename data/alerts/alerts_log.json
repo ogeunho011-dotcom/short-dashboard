@@ -46387,5 +46387,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150702002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150702002",
   "grade": "open"
+ },
+ {
+  "id": "EFOI-1794331054",
+  "ts_kst": "2026-11-11 02:17",
+  "ts_utc": "2026-11-10T17:17:34+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "EFOI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EFOI 장중 급등 포착",
+  "body": "$5.050 (+16.2%) · 정규장 · 레벨 2 · 점수 40\n공매도 물량 대부분 손해 중, $5.10 넘으면 급등 가능성 ↑ · 시장에 도는 주식 637만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.2% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $4.798 지정가(기준가 $5.050의 −5%) · 체결 가능성 약 52% · 손익분기 $4.855\n숏 지지구간 $4.600–$4.758 · 손절 $4.550 · 1차목표 $5.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.05,
+  "level": 2,
+  "score": 39.9,
+  "prob": 53.44827586206896,
+  "cp": 73.00640772202433,
+  "rl": 5.100000000000002,
+  "stop": 4.550000000000002,
+  "zone": [
+   4.600000000000001,
+   4.757500066757203
+  ],
+  "bp": 4.7975,
+  "tgt": 5.100000000000002,
+  "stp": 4.550000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140807001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140807001",
+  "grade": "open"
  }
 ]
