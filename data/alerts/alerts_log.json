@@ -38978,7 +38978,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "OMH-1794236303",
@@ -40086,7 +40089,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "MFI-1794243850",
@@ -41208,7 +41214,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "FISN-1794251212",
@@ -45268,5 +45277,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
   "grade": "open"
+ },
+ {
+  "id": "OPNW-1794325035",
+  "ts_kst": "2026-11-11 00:37",
+  "ts_utc": "2026-11-10T15:37:15+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "OPNW",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.4% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OPNW 장중 급등 포착",
+  "body": "$0.681 (+17.4%) · 정규장 · 레벨 1 · 점수 20\n시장에 도는 주식 1,317만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +17.4% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $0.647 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.0%) · 체결 가능성 약 82% · 손익분기 $0.655\n숏 지지구간 $0.476–$0.681 · 손절 $0.340 · 1차목표 $1.021\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/30)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-29\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6807,
+  "level": 1,
+  "score": 19.7,
+  "prob": 12.916666666666668,
+  "cp": 5.483546575886136,
+  "rl": 6.0,
+  "stop": 0.3403500020503998,
+  "zone": [
+   0.47649000287055965,
+   0.6807000041007996
+  ],
+  "bp": 0.647,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/30)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-29"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200619003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200619003",
+  "grade": "n/a"
  }
 ]
