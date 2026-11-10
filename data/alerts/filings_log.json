@@ -1,43 +1,5 @@
 [
  {
-  "ticker": "ATTO",
-  "form": "8-K",
-  "acc": "0001193125-26-453592",
-  "items": "2.02,8.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:10:14+00:00",
-  "accepted_kst": "11/10 06:10",
-  "polarity": "pos",
-  "label": "임상 성공(주요 목표 달성)",
-  "cats": [
-   "임상 성공(주요 목표 달성)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "Attovia Therapeutics Reports Third Quarter 2026 Financial Results and Provides a Corporate Update Announced positive topline 12-week Phase 1b results for ATTO-1",
-  "url": "https://www.sec.gov/Archives/edgar/data/2058707/000119312526453592/0001193125-26-453592-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
-  "ticker": "MYO",
-  "form": "8-K",
-  "acc": "0001193125-26-453593",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:10:14+00:00",
-  "accepted_kst": "11/10 06:10",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Myomo Reports Third Quarter 2026 Financial and Operating Results Record revenue of $12.3 million, increased 22% year over year Progress on four success pillars,",
-  "url": "https://www.sec.gov/Archives/edgar/data/1369290/000119312526453593/0001193125-26-453593-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "CCAP",
   "form": "8-K",
   "acc": "0001193125-26-453594",
@@ -8663,5 +8625,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000306/0000939057-26-000306-index.htm",
   "seen_kst": "2026-11-11 05:22"
+ },
+ {
+  "ticker": "THFF",
+  "form": "S-4/A",
+  "acc": "0001104659-26-124611",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T22:27:59+00:00",
+  "accepted_kst": "11/10 07:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/714562/000110465926124611/0001104659-26-124611-index.htm",
+  "seen_kst": "2026-11-11 05:25"
+ },
+ {
+  "ticker": "THFF",
+  "form": "425",
+  "acc": "0001104659-26-125108",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T20:23:17+00:00",
+  "accepted_kst": "11/11 05:23",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/714562/000110465926125108/0001104659-26-125108-index.htm",
+  "seen_kst": "2026-11-11 05:25"
  }
 ]
