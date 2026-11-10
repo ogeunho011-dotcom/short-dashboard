@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MAZE",
-  "form": "8-K",
-  "acc": "0001193125-26-453590",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:09:45+00:00",
-  "accepted_kst": "11/10 06:09",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Maze Therapeutics Reports Third Quarter 2026 Financial Results and Recent Highlights Enrollment completed in Phase 2 HORIZON trial of MZE829; data from all thre",
-  "url": "https://www.sec.gov/Archives/edgar/data/1842295/000119312526453590/0001193125-26-453590-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "PLRZ",
   "form": "6-K",
   "acc": "0001213900-26-117523",
@@ -8661,5 +8644,24 @@
   "headline": "SCULLY WILLIAM P",
   "url": "https://www.sec.gov/Archives/edgar/data/1559053/000104546326000024/0001045463-26-000024-index.htm",
   "seen_kst": "2026-11-11 04:47"
+ },
+ {
+  "ticker": "BOLT",
+  "form": "4",
+  "acc": "0001104659-26-125077",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T19:57:02+00:00",
+  "accepted_kst": "11/11 04:57",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $319,000",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Coastlands Capital LP",
+  "url": "https://www.sec.gov/Archives/edgar/data/1641281/000110465926125077/0001104659-26-125077-index.htm",
+  "seen_kst": "2026-11-11 05:00"
  }
 ]
