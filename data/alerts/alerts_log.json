@@ -32184,10 +32184,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140403004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140403004",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.09687080883409427,
+  "graded_bars": 2
  },
  {
   "id": "AGL-1793963212",
@@ -32651,10 +32651,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140403004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140403004",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.09689965570757297,
+  "graded_bars": 2
  },
  {
   "id": "CIIT-1793970448",
@@ -46270,5 +46270,44 @@
    "accepted_kst": "11/11 02:09",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "TTEC-1794330749",
+  "ts_kst": "2026-11-11 02:12",
+  "ts_utc": "2026-11-10T17:12:29+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "TTEC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +65.7% · 거래량 평소의 92.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TTEC 장중 급등 포착",
+  "body": "$2.320 (+65.7%) · 정규장 · 레벨 2 · 점수 36\n공매도 물량 대부분 손해 중, $2.70 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 45배 이상, 관심 급증\n• 전일 대비 +65.7% · 거래량 평소의 92.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $2.300–$2.320 · 손절 $2.200 · 1차목표 $2.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.32,
+  "level": 2,
+  "score": 36.2,
+  "prob": 53.44827586206896,
+  "cp": 60.010457214383706,
+  "rl": 2.7000000000000015,
+  "stop": 2.200000000000001,
+  "zone": [
+   2.300000000000001,
+   2.319999933242798
+  ],
+  "bp": null,
+  "tgt": 2.7000000000000015,
+  "stp": 2.200000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960801001",
+  "grade": "open"
  }
 ]

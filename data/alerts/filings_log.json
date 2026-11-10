@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "MTLS",
-  "form": "6-K",
-  "acc": "0001104659-26-124480",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:01:05+00:00",
-  "accepted_kst": "11/10 06:01",
-  "polarity": "pos",
-  "label": "자사주 매입",
-  "cats": [
-   "자사주 매입"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "MATERIALISE SHARE-BUY BACK PROGRAM Leuven – 9 November 2026 – 22h00 CET Regulated information 1 Materialise reports on the progress of its share buy-back progra",
-  "url": "https://www.sec.gov/Archives/edgar/data/1091223/000110465926124480/0001104659-26-124480-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "GIXI",
   "form": "6-K",
   "acc": "0001493152-26-050709",
@@ -8671,5 +8652,22 @@
   "headline": "Faison Ralph E",
   "url": "https://www.sec.gov/Archives/edgar/data/1736946/000118981926000002/0001189819-26-000002-index.htm",
   "seen_kst": "2026-11-11 02:10"
+ },
+ {
+  "ticker": "FSBW",
+  "form": "4",
+  "acc": "0000939057-26-000301",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:10:31+00:00",
+  "accepted_kst": "11/11 02:10",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000301/0000939057-26-000301-index.htm",
+  "seen_kst": "2026-11-11 02:12"
  }
 ]
