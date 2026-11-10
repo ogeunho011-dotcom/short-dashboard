@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BETR",
-  "form": "4",
-  "acc": "0001614749-26-000017",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:00:57+00:00",
-  "accepted_kst": "11/10 06:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1835856/000161474926000017/0001614749-26-000017-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "MTLS",
   "form": "6-K",
   "acc": "0001104659-26-124480",
@@ -8669,5 +8652,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000300/0000939057-26-000300-index.htm",
   "seen_kst": "2026-11-11 02:05"
+ },
+ {
+  "ticker": "ARLO",
+  "form": "4",
+  "acc": "0001189819-26-000002",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:09:09+00:00",
+  "accepted_kst": "11/11 02:09",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $100,402",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Faison Ralph E",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736946/000118981926000002/0001189819-26-000002-index.htm",
+  "seen_kst": "2026-11-11 02:10"
  }
 ]
