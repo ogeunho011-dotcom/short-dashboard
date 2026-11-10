@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SHFS",
-  "form": "425",
-  "acc": "0001493152-26-050638",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:17:16+00:00",
-  "accepted_kst": "11/09 22:17",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226050638/0001493152-26-050638-index.htm",
-  "seen_kst": "2026-11-09 22:20"
- },
- {
   "ticker": "DGICA",
   "form": "4",
   "acc": "0000935596-26-000028",
@@ -8650,5 +8633,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1840233/000119312526454457/0001193125-26-454457-index.htm",
   "seen_kst": "2026-11-10 21:48"
+ },
+ {
+  "ticker": "CAN",
+  "form": "6-K",
+  "acc": "0001104659-26-124805",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:48:19+00:00",
+  "accepted_kst": "11/10 21:48",
+  "polarity": "pos",
+  "label": "자사주 매입",
+  "cats": [
+   "자사주 매입"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Canaan Inc. Reports Unaudited Third Quarter 2026 Financial Results Received conditional “Studied Load – Firm” classification under ERCOT’s Batch Zero process fo",
+  "url": "https://www.sec.gov/Archives/edgar/data/1780652/000110465926124805/0001104659-26-124805-index.htm",
+  "seen_kst": "2026-11-10 21:50"
  }
 ]
