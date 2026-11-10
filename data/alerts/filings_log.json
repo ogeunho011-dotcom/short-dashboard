@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GAIN",
-  "form": "10-Q",
-  "acc": "0001321741-26-000022",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:09:21+00:00",
-  "accepted_kst": "11/10 06:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1321741/000132174126000022/0001321741-26-000022-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "QUBT",
   "form": "8-K",
   "acc": "0001628280-26-072163",
@@ -8659,5 +8642,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/94049/000009404926000127/0000094049-26-000127-index.htm",
   "seen_kst": "2026-11-11 04:02"
+ },
+ {
+  "ticker": "GUNN",
+  "form": "6-K",
+  "acc": "0001493152-26-050933",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T19:04:00+00:00",
+  "accepted_kst": "11/11 04:04",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE Gunnison Copper Confirms High-Grade Massive Copper-Zinc-Silver Sulfides at Strong & Harris, including 40 Feet Grading 5.1% Copper and 12.0% Zinc Dr",
+  "url": "https://www.sec.gov/Archives/edgar/data/1514860/000149315226050933/0001493152-26-050933-index.htm",
+  "seen_kst": "2026-11-11 04:05"
  }
 ]
