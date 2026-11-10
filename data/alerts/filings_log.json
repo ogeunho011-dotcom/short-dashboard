@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TLS",
-  "form": "10-Q",
-  "acc": "0000320121-26-000043",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:02:11+00:00",
-  "accepted_kst": "11/10 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/320121/000032012126000043/0000320121-26-000043-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "QUBT",
   "form": "10-Q",
   "acc": "0001628280-26-072119",
@@ -8667,5 +8650,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000303/0000939057-26-000303-index.htm",
   "seen_kst": "2026-11-11 02:40"
+ },
+ {
+  "ticker": "SVV",
+  "form": "8-K",
+  "acc": "0001883313-26-000077",
+  "items": "7.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T17:45:39+00:00",
+  "accepted_kst": "11/11 02:45",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", to this Current Report on Form 8-K and are incorporated by reference herein. The information presented herein shall not be deemed “filed” for purposes of Sect",
+  "url": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000077/0001883313-26-000077-index.htm",
+  "seen_kst": "2026-11-11 02:47"
  }
 ]
