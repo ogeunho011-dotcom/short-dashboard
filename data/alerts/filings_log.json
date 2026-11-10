@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "HAIN",
-  "form": "8-K",
-  "acc": "0001193125-26-452624",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:07:21+00:00",
-  "accepted_kst": "11/09 21:07",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Hain Celestial Reports Fiscal First Quarter 2027 Financial Results Final required regulatory approvals received for the sale of the Company’s International busi",
-  "url": "https://www.sec.gov/Archives/edgar/data/910406/000119312526452624/0001193125-26-452624-index.htm",
-  "seen_kst": "2026-11-09 21:10"
- },
- {
   "ticker": "SBH",
   "form": "4",
   "acc": "0001368458-26-000012",
@@ -8692,5 +8675,22 @@
   "headline": "LEE CHAE",
   "url": "https://www.sec.gov/Archives/edgar/data/1325702/000119312526454344/0001193125-26-454344-index.htm",
   "seen_kst": "2026-11-10 20:18"
+ },
+ {
+  "ticker": "AP",
+  "form": "8-K",
+  "acc": "0001193125-26-454353",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:20:51+00:00",
+  "accepted_kst": "11/10 20:20",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Contact: David Anderson Vice President, Chief Financial Officer and Air & Liquid Processing President (412) 246-4010 danderson@ampcopgh.com",
+  "url": "https://www.sec.gov/Archives/edgar/data/6176/000119312526454353/0001193125-26-454353-index.htm",
+  "seen_kst": "2026-11-10 20:23"
  }
 ]
