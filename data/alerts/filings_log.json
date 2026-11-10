@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BOTJ",
-  "form": "4",
-  "acc": "0001437749-26-035824",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:05:15+00:00",
-  "accepted_kst": "11/10 04:05",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $16,968 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "BRYANT WILLIAM C III",
-  "url": "https://www.sec.gov/Archives/edgar/data/1275101/000143774926035824/0001437749-26-035824-index.htm",
-  "seen_kst": "2026-11-10 04:06"
- },
- {
   "ticker": "DAVI",
   "form": "6-K",
   "acc": "0001683168-26-008431",
@@ -8669,5 +8652,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/814676/000122653726000002/0001226537-26-000002-index.htm",
   "seen_kst": "2026-11-11 00:10"
+ },
+ {
+  "ticker": "APT",
+  "form": "10-Q",
+  "acc": "0001437749-26-036029",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:14:06+00:00",
+  "accepted_kst": "11/11 00:14",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/884269/000143774926036029/0001437749-26-036029-index.htm",
+  "seen_kst": "2026-11-11 00:15"
  }
 ]
