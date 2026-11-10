@@ -43389,5 +43389,48 @@
    "accepted_kst": "11/10 22:02",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "CRBP-fil-0001193125-26-454476",
+  "ts_kst": "2026-11-10 22:10",
+  "ts_utc": "2026-11-10T13:10:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "CRBP",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 임상 성공(주요 목표 달성)"
+  ],
+  "title": "📢 CRBP 호재 공시",
+  "body": "8-K · 임상 성공(주요 목표 달성) (11/10 22:08 KST)\nCorbus Pharmaceuticals Reports Q3 2026 Financial Results and Provides a Corporate Update o Dosed first patient in TEMPO-1 registrational stu\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150417001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150417001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001193125-26-454476",
+   "items": "2.02,7.01,9.01",
+   "label": "임상 성공(주요 목표 달성)",
+   "cats": [
+    "임상 성공(주요 목표 달성)"
+   ],
+   "strength": 5,
+   "headline": "Corbus Pharmaceuticals Reports Q3 2026 Financial Results and Provides a Corporate Update o Dosed first patient in TEMPO-1 registrational study of sutantatug env",
+   "url": "https://www.sec.gov/Archives/edgar/data/1595097/000119312526454476/0001193125-26-454476-index.htm",
+   "accepted_kst": "11/10 22:08",
+   "polarity": "pos"
+  }
  }
 ]
