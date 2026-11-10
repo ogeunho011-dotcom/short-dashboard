@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TRUP",
-  "form": "144",
-  "acc": "0001000275-26-000125",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:34:07+00:00",
-  "accepted_kst": "11/10 04:34",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1371285/000100027526000125/0001000275-26-000125-index.htm",
-  "seen_kst": "2026-11-10 04:35"
- },
- {
   "ticker": "GROW",
   "form": "4",
   "acc": "0001062993-26-005821",
@@ -8669,5 +8652,22 @@
   "headline": "Gold X2 Intersects 258.4m of 0.97 g/t Au and 192.0m of 0.90 g/t Au in QES Extension Drilling",
   "url": "https://www.sec.gov/Archives/edgar/data/1961592/000106299326005867/0001062993-26-005867-index.htm",
   "seen_kst": "2026-11-11 00:47"
+ },
+ {
+  "ticker": "AMIX",
+  "form": "10-Q",
+  "acc": "0001437749-26-036033",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:33:32+00:00",
+  "accepted_kst": "11/11 00:33",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1617867/000143774926036033/0001437749-26-036033-index.htm",
+  "seen_kst": "2026-11-11 00:50"
  }
 ]
