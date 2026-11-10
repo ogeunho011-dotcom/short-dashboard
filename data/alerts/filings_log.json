@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WLDS",
-  "form": "4",
-  "acc": "0001213900-26-117229",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:04:05+00:00",
-  "accepted_kst": "11/09 22:04",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1887673/000121390026117229/0001213900-26-117229-index.htm",
-  "seen_kst": "2026-11-09 22:05"
- },
- {
   "ticker": "WHWK",
   "form": "8-K",
   "acc": "0001193125-26-452704",
@@ -8667,5 +8650,22 @@
   "headline": "o Exhibits. Exhibit Description 99.1 Press release SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly cause",
   "url": "https://www.sec.gov/Archives/edgar/data/1959455/000195945526000126/0001959455-26-000126-index.htm",
   "seen_kst": "2026-11-10 21:23"
+ },
+ {
+  "ticker": "CLRB",
+  "form": "10-Q",
+  "acc": "0001104659-26-124765",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:55:39+00:00",
+  "accepted_kst": "11/10 20:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1279704/000110465926124765/0001104659-26-124765-index.htm",
+  "seen_kst": "2026-11-10 21:25"
  }
 ]
