@@ -49125,5 +49125,220 @@
    "accepted_kst": "11/11 06:42",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "DLPN-fil-0001079973-26-001451",
+  "ts_kst": "2026-11-11 07:52",
+  "ts_utc": "2026-11-10T22:52:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "DLPN",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 DLPN 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/11 06:59 KST)\nDolphin Entertainment Reports Record Revenue in Third Quarter 2026 Q3’26 Revenue Rises 8.3% YoY to a record $16.0 Million; Net Income of $0.\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20171221001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20171221001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001079973-26-001451",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Dolphin Entertainment Reports Record Revenue in Third Quarter 2026 Q3’26 Revenue Rises 8.3% YoY to a record $16.0 Million; Net Income of $0.2 Million or $0.02 p",
+   "url": "https://www.sec.gov/Archives/edgar/data/1282224/000107997326001451/0001079973-26-001451-index.htm",
+   "accepted_kst": "11/11 06:59",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "LVO-fil-0001213900-26-118088",
+  "ts_kst": "2026-11-11 07:52",
+  "ts_utc": "2026-11-10T22:52:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "LVO",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 LVO 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/11 07:00 KST)\nLiveOne (Nasdaq: LVO) Releases Preliminary H1 Fiscal 2027 Results: $37.3 Million in Revenue and Record Audio Adjusted EBITDA* of $7.8 Millio\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211006004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211006004",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001213900-26-118088",
+   "items": "2.02,7.01,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "LiveOne (Nasdaq: LVO) Releases Preliminary H1 Fiscal 2027 Results: $37.3 Million in Revenue and Record Audio Adjusted EBITDA* of $7.8 Million, Up 619% Year-Over",
+   "url": "https://www.sec.gov/Archives/edgar/data/1491419/000121390026118088/0001213900-26-118088-index.htm",
+   "accepted_kst": "11/11 07:00",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "DTI-fil-0001193125-26-455713",
+  "ts_kst": "2026-11-11 07:52",
+  "ts_utc": "2026-11-10T22:52:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "DTI",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $164,300"
+  ],
+  "title": "📢 DTI 호재 공시",
+  "body": "4 · 내부자 장내 매수 $164,300 (11/11 07:06 KST)\nPrejean Robert Wayne\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211229006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211229006",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001193125-26-455713",
+   "items": "",
+   "label": "내부자 장내 매수 $164,300",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Prejean Robert Wayne",
+   "url": "https://www.sec.gov/Archives/edgar/data/1884516/000119312526455713/0001193125-26-455713-index.htm",
+   "accepted_kst": "11/11 07:06",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SNWV-fil-0001628280-26-072832",
+  "ts_kst": "2026-11-11 07:52",
+  "ts_utc": "2026-11-10T22:52:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "SNWV",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K FDA 승인·허가"
+  ],
+  "title": "📢 SNWV 호재 공시",
+  "body": "8-K · FDA 승인·허가 (11/11 07:09 KST)\nSanuwave Announces Q3 FY2026 Financial Results Q3 2026 revenues were $8.6 million, down 24% from $11.3 million in Q3 2025. Q3 2026 gross mar\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250307007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250307007",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001628280-26-072832",
+   "items": "2.02,9.01",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "Sanuwave Announces Q3 FY2026 Financial Results Q3 2026 revenues were $8.6 million, down 24% from $11.3 million in Q3 2025. Q3 2026 gross margin was 77.3%, versu",
+   "url": "https://www.sec.gov/Archives/edgar/data/1417663/000162828026072832/0001628280-26-072832-index.htm",
+   "accepted_kst": "11/11 07:09",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "FUN-fil-0001999001-26-000113",
+  "ts_kst": "2026-11-11 07:52",
+  "ts_utc": "2026-11-10T22:52:39+00:00",
+  "date_et": "2026-11-10",
+  "session": "filing",
+  "ticker": "FUN",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $14,929,000"
+  ],
+  "title": "📢 FUN 호재 공시",
+  "body": "4 · 내부자 장내 매수 $14,929,000 (11/11 07:43 KST)\nJAFFER REHAN\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0240702001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0240702001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001999001-26-000113",
+   "items": "",
+   "label": "내부자 장내 매수 $14,929,000",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "JAFFER REHAN",
+   "url": "https://www.sec.gov/Archives/edgar/data/1999001/000199900126000113/0001999001-26-000113-index.htm",
+   "accepted_kst": "11/11 07:43",
+   "polarity": "pos"
+  }
  }
 ]
