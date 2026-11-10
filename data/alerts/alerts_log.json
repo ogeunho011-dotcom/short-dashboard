@@ -39067,7 +39067,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19990713001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19990713001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.12194202898550721,
+  "graded_bars": 1
  },
  {
   "id": "FISN-1794236767",
@@ -45323,5 +45326,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200619003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200619003",
   "grade": "n/a"
+ },
+ {
+  "id": "XTLB-1794325947",
+  "ts_kst": "2026-11-11 00:52",
+  "ts_utc": "2026-11-10T15:52:27+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "XTLB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.0% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XTLB 장중 급등 포착",
+  "body": "$1.760 (+15.0%) · 정규장 · 레벨 1 · 점수 18\n$1.80 넘으면 공매도 되사기 압박 ↑\n• 전일 대비 +15.0% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $1.694 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.7%) · 체결 가능성 약 75% · 손익분기 $1.715\n숏 지지구간 $1.500–$1.600 · 손절 $1.400 · 1차목표 $1.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.7601,
+  "level": 1,
+  "score": 17.8,
+  "prob": 25.252525252525253,
+  "cp": 31.2558342059233,
+  "rl": 1.8000000000000003,
+  "stop": 1.4,
+  "zone": [
+   1.5,
+   1.6
+  ],
+  "bp": 1.6942,
+  "tgt": 1.8000000000000003,
+  "stp": 1.4,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20050901001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20050901001",
+  "grade": "open"
  }
 ]
