@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RGNT",
-  "form": "6-K",
-  "acc": "0001493152-26-050658",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:15:01+00:00",
-  "accepted_kst": "11/09 23:15",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Regentis Signs Exclusive Distribution Agreement with AMI Technologies to Commercialize GelrinC® in Israel Agreement with Israel’s leading orthopedics distributo",
-  "url": "https://www.sec.gov/Archives/edgar/data/1912966/000149315226050658/0001493152-26-050658-index.htm",
-  "seen_kst": "2026-11-09 23:17"
- },
- {
   "ticker": "TMC",
   "form": "8-K",
   "acc": "0001104659-26-124241",
@@ -8656,5 +8639,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1636651/000119312526454506/0001193125-26-454506-index.htm",
   "seen_kst": "2026-11-10 22:38"
+ },
+ {
+  "ticker": "BTDR",
+  "form": "6-K",
+  "acc": "0001213900-26-117797",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:38:39+00:00",
+  "accepted_kst": "11/10 22:38",
+  "polarity": "pos",
+  "label": "실적 호조·가이던스 상향",
+  "cats": [
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Bitdeer Reports Unaudited Third Quarter 2026 Results: Record Revenue of US$320.7 Million; Adjusted EBITDA Up 173% to US$69.6 Million AI Cloud revenue backlog gr",
+  "url": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026117797/0001213900-26-117797-index.htm",
+  "seen_kst": "2026-11-10 22:40"
  }
 ]
