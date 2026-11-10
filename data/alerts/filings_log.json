@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WBTN",
-  "form": "8-K",
-  "acc": "0001997859-26-000098",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:13:33+00:00",
-  "accepted_kst": "11/10 06:13",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", respectively, to this Current Report on Form 8-K and are incorporated herein by reference. The information furnished pursuant to Item 2.02 of this Current Rep",
-  "url": "https://www.sec.gov/Archives/edgar/data/1997859/000199785926000098/0001997859-26-000098-index.htm",
-  "seen_kst": "2026-11-10 06:33"
- },
- {
   "ticker": "AMPY",
   "form": "10-Q",
   "acc": "0001104659-26-124496",
@@ -8655,5 +8638,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1720420/000197449426000330/0001974494-26-000330-index.htm",
   "seen_kst": "2026-11-11 05:47"
+ },
+ {
+  "ticker": "FLYE",
+  "form": "DEFA14A",
+  "acc": "0001213900-26-117628",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T22:28:04+00:00",
+  "accepted_kst": "11/10 07:28",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1975940/000121390026117628/0001213900-26-117628-index.htm",
+  "seen_kst": "2026-11-11 05:50"
  }
 ]
