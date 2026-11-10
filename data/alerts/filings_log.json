@@ -1,23 +1,6 @@
 [
  {
   "ticker": "VFF",
-  "form": "10-Q",
-  "acc": "0001193125-26-452614",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T12:00:49+00:00",
-  "accepted_kst": "11/09 21:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526452614/0001193125-26-452614-index.htm",
-  "seen_kst": "2026-11-09 21:07"
- },
- {
-  "ticker": "VFF",
   "form": "8-K",
   "acc": "0001193125-26-452618",
   "items": "2.02,9.01",
@@ -8689,5 +8672,22 @@
   "headline": "Cycurion Launches Habit, an AI Security Operations Center That Learns What Normal Looks Like and Hunts Whatever Breaks It November 4, 2026 New product identifie",
   "url": "https://www.sec.gov/Archives/edgar/data/1868419/000186841926000063/0001868419-26-000063-index.htm",
   "seen_kst": "2026-11-10 20:05"
+ },
+ {
+  "ticker": "IMOS",
+  "form": "6-K",
+  "acc": "0001193125-26-454328",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T11:10:48+00:00",
+  "accepted_kst": "11/10 20:10",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the und",
+  "url": "https://www.sec.gov/Archives/edgar/data/1123134/000119312526454328/0001193125-26-454328-index.htm",
+  "seen_kst": "2026-11-10 20:13"
  }
 ]
