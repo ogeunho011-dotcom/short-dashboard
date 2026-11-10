@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NVX",
-  "form": "6-K",
-  "acc": "0001193125-26-453505",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T20:54:14+00:00",
-  "accepted_kst": "11/10 05:54",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Announcement Summary Entity name NOVONIX LIMITED Date of this announcement Monday November 9, 2026 The +securities the subject of this notification are: +Other",
-  "url": "https://www.sec.gov/Archives/edgar/data/1859795/000119312526453505/0001193125-26-453505-index.htm",
-  "seen_kst": "2026-11-10 05:56"
- },
- {
   "ticker": "NXTC",
   "form": "EFFECT",
   "acc": "9999999995-26-003466",
@@ -8667,5 +8650,22 @@
   "headline": "NextBoat Inc. to Announce Third Quarter 2026 Financial and Operating Results on Monday, November 16, 2026 Earnings conference call to be held at 4:30 p.m. Easte",
   "url": "https://www.sec.gov/Archives/edgar/data/2067767/000149315226050903/0001493152-26-050903-index.htm",
   "seen_kst": "2026-11-11 01:20"
+ },
+ {
+  "ticker": "HRTX",
+  "form": "4",
+  "acc": "0001193125-26-454742",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T16:24:36+00:00",
+  "accepted_kst": "11/11 01:24",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/818033/000119312526454742/0001193125-26-454742-index.htm",
+  "seen_kst": "2026-11-11 01:27"
  }
 ]

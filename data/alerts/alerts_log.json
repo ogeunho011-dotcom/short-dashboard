@@ -45573,5 +45573,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000404002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000404002",
   "grade": "open"
+ },
+ {
+  "id": "OMH-1794328056",
+  "ts_kst": "2026-11-11 01:27",
+  "ts_utc": "2026-11-10T16:27:36+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "OMH",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 74/100"
+  ],
+  "title": "🚀 OMH 커버 압력",
+  "body": "$57.110 (+138.2%) · 정규장 · 레벨 3 · 점수 48\n공매도 물량 대부분 손해 중, $60.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 236만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 커버 압력 74/100\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $54.255 지정가(기준가 $57.110의 −5%) · 체결 가능성 약 78% · 손익분기 $54.909\n숏 지지구간 $50.000–$55.000 · 손절 $45.000 · 1차목표 $60.000\n⚠ 역분할 2026-08-31\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 57.11,
+  "level": 3,
+  "score": 47.8,
+  "prob": 38.456237077877326,
+  "cp": 73.92179303664868,
+  "rl": 60.0,
+  "stop": 45.0,
+  "zone": [
+   50.0,
+   55.0
+  ],
+  "bp": 54.2545,
+  "tgt": 60.0,
+  "stp": 45.0,
+  "penalties": [
+   "역분할 2026-08-31"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
+  "grade": "open"
  }
 ]
