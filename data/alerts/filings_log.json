@@ -2,23 +2,6 @@
  {
   "ticker": "MSBI",
   "form": "4",
-  "acc": "0001466026-26-000111",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:29:51+00:00",
-  "accepted_kst": "11/10 04:29",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1466026/000146602626000111/0001466026-26-000111-index.htm",
-  "seen_kst": "2026-11-10 04:32"
- },
- {
-  "ticker": "MSBI",
-  "form": "4",
   "acc": "0001466026-26-000112",
   "items": "",
   "filed": "2026-11-09",
@@ -8669,5 +8652,22 @@
   "headline": "STOPKO JEFFREY A",
   "url": "https://www.sec.gov/Archives/edgar/data/707605/000070760526000095/0000707605-26-000095-index.htm",
   "seen_kst": "2026-11-11 00:42"
+ },
+ {
+  "ticker": "AQST",
+  "form": "4",
+  "acc": "0001214659-26-013891",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T15:42:45+00:00",
+  "accepted_kst": "11/11 00:42",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1398733/000121465926013891/0001214659-26-013891-index.htm",
+  "seen_kst": "2026-11-11 00:45"
  }
 ]
