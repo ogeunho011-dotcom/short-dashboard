@@ -1,43 +1,5 @@
 [
  {
-  "ticker": "HRTX",
-  "form": "8-K",
-  "acc": "0001193125-26-452721",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:15:13+00:00",
-  "accepted_kst": "11/09 22:15",
-  "polarity": "pos",
-  "label": "피인수·합병(주당 가격 제시)",
-  "cats": [
-   "피인수·합병(주당 가격 제시)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "Heron Therapeutics Announces Third Quarter 2026 Financial Results • Q3 2026 net revenue of $35.3 million; ZYNRELEF® net revenue up 13.8% and APONVIE® net revenu",
-  "url": "https://www.sec.gov/Archives/edgar/data/818033/000119312526452721/0001193125-26-452721-index.htm",
-  "seen_kst": "2026-11-09 22:17"
- },
- {
-  "ticker": "MTEK",
-  "form": "6-K",
-  "acc": "0001185185-26-005251",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:15:15+00:00",
-  "accepted_kst": "11/09 22:15",
-  "polarity": "pos",
-  "label": "계약·수주",
-  "cats": [
-   "계약·수주"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Maris-Tech Announces Record Order Backlog of Approximately $11,000,000 2026 marks the first year in which the Company has won governmental tenders as a leading ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1872964/000118518526005251/0001185185-26-005251-index.htm",
-  "seen_kst": "2026-11-09 22:17"
- },
- {
   "ticker": "DFDV",
   "form": "8-K",
   "acc": "0001805526-26-000158",
@@ -8652,5 +8614,39 @@
   "headline": "Kalaris Reports Third Quarter 2026 Financial Results and Provides Business Update Preliminary data from the ongoing Phase 1b/2 study of TH103 in nAMD is now exp",
   "url": "https://www.sec.gov/Archives/edgar/data/1754068/000119312526454454/0001193125-26-454454-index.htm",
   "seen_kst": "2026-11-10 21:43"
+ },
+ {
+  "ticker": "HIVE",
+  "form": "10-Q",
+  "acc": "0001062993-26-005842",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-09T21:50:39+00:00",
+  "accepted_kst": "11/10 06:50",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1720424/000106299326005842/0001062993-26-005842-index.htm",
+  "seen_kst": "2026-11-10 21:45"
+ },
+ {
+  "ticker": "HIVE",
+  "form": "8-K",
+  "acc": "0001062993-26-005856",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:44:55+00:00",
+  "accepted_kst": "11/10 21:44",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "HIVE DIGITAL TECHNOLOGIES LTD. HIVE Reports Q2 Revenue of $84.9 Million with AI GPU Revenue Expanding 70% as Dual-Engine Model Drives Resilience with $139 Milli",
+  "url": "https://www.sec.gov/Archives/edgar/data/1720424/000106299326005856/0001062993-26-005856-index.htm",
+  "seen_kst": "2026-11-10 21:45"
  }
 ]
