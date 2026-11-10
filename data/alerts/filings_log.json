@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LU",
-  "form": "6-K",
-  "acc": "0001193125-26-452772",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T14:04:39+00:00",
-  "accepted_kst": "11/09 23:04",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "— Amended Monthly Return with The Stock Exchange of Hong Kong Limited—Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19",
-  "url": "https://www.sec.gov/Archives/edgar/data/1816007/000119312526452772/0001193125-26-452772-index.htm",
-  "seen_kst": "2026-11-09 23:07"
- },
- {
   "ticker": "COUR",
   "form": "8-A12B",
   "acc": "0001140361-26-042627",
@@ -8652,5 +8635,22 @@
   "headline": "Eocene Announces its First European Sales and Distribution Agreement to Accelerate the Commercialization of Colospan’s CG-100 Device Givatayim, Israel, November",
   "url": "https://www.sec.gov/Archives/edgar/data/1595353/000149315226050877/0001493152-26-050877-index.htm",
   "seen_kst": "2026-11-10 22:23"
+ },
+ {
+  "ticker": "PWCM",
+  "form": "8-K",
+  "acc": "0001640384-26-000008",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T13:29:47+00:00",
+  "accepted_kst": "11/10 22:29",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 lmfa-ex99_1.htm EX-99.1 PowerCompute (Nasdaq: PWCM) Increases October Bitcoin Production 20% Year-Over-Year as Fleet Refresh Lifts Active Hashrate 11.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1640384/000164038426000008/0001640384-26-000008-index.htm",
+  "seen_kst": "2026-11-10 22:30"
  }
 ]
