@@ -1,43 +1,5 @@
 [
  {
-  "ticker": "WHWK",
-  "form": "8-K",
-  "acc": "0001193125-26-452704",
-  "items": "2.02,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:04:26+00:00",
-  "accepted_kst": "11/09 22:04",
-  "polarity": "pos",
-  "label": "FDA 특별 지정(혁신·신속·희귀)",
-  "cats": [
-   "FDA 특별 지정(혁신·신속·희귀)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "EX-99.1 2 whwk-ex99_1.htm EX-99.1 PRESS RELEASE Whitehawk Therapeutics Reports Third Quarter 2026 Financial Results and Recent Highlights On track to report ini",
-  "url": "https://www.sec.gov/Archives/edgar/data/1422142/000119312526452704/0001193125-26-452704-index.htm",
-  "seen_kst": "2026-11-09 22:07"
- },
- {
-  "ticker": "INM",
-  "form": "8-K",
-  "acc": "0001193125-26-452706",
-  "items": "7.01,9.01",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T13:04:59+00:00",
-  "accepted_kst": "11/09 22:04",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Mentari Therapeutics Announces Closing of Merger with InMed Pharmaceuticals and Previously Announced $490 Million Financing Mentari is advancing a robust pipeli",
-  "url": "https://www.sec.gov/Archives/edgar/data/1728328/000119312526452706/0001193125-26-452706-index.htm",
-  "seen_kst": "2026-11-09 22:07"
- },
- {
   "ticker": "WLDS",
   "form": "4",
   "acc": "0001213900-26-117231",
@@ -8667,5 +8629,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1279704/000110465926124765/0001104659-26-124765-index.htm",
   "seen_kst": "2026-11-10 21:25"
+ },
+ {
+  "ticker": "AUTL",
+  "form": "8-K",
+  "acc": "0001730463-26-000141",
+  "items": "2.02,7.01,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:25:08+00:00",
+  "accepted_kst": "11/10 21:25",
+  "polarity": "neutral",
+  "label": "실적 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EX-99.1 2 autlex-991pr111026.htm EX-99.1 Autolus Therapeutics Reports Third Quarter 2026 Financial Results and Business Updates November 10, 2026 at 7:00 AM EST",
+  "url": "https://www.sec.gov/Archives/edgar/data/1730463/000173046326000141/0001730463-26-000141-index.htm",
+  "seen_kst": "2026-11-10 21:28"
+ },
+ {
+  "ticker": "CLRB",
+  "form": "8-K",
+  "acc": "0001104659-26-124790",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T12:25:20+00:00",
+  "accepted_kst": "11/10 21:25",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Cellectar Biosciences Reports Third Quarter 2026 Financial Results and Provides Corporate Updates Presented updated data at the International Workshop for Walde",
+  "url": "https://www.sec.gov/Archives/edgar/data/1279704/000110465926124790/0001104659-26-124790-index.htm",
+  "seen_kst": "2026-11-10 21:28"
  }
 ]
