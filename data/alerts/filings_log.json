@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DAVI",
-  "form": "6-K",
-  "acc": "0001683168-26-008431",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T19:18:07+00:00",
-  "accepted_kst": "11/10 04:18",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "ITEM 7.01 REGULATION FD DISCLOSURE In response to shareholder enquiries, Davion Healthcare Plc confirms that, according to records provided by its transfer agen",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008431/0001683168-26-008431-index.htm",
-  "seen_kst": "2026-11-10 04:20"
- },
- {
   "ticker": "CBFV",
   "form": "10-Q",
   "acc": "0001605301-26-000045",
@@ -8669,5 +8652,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/884269/000143774926036029/0001437749-26-036029-index.htm",
   "seen_kst": "2026-11-11 00:15"
+ },
+ {
+  "ticker": "NTHI",
+  "form": "4",
+  "acc": "0001213900-26-117660",
+  "items": "",
+  "filed": "2026-11-09",
+  "accepted": "2026-11-10T00:00:06+00:00",
+  "accepted_kst": "11/10 09:00",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $38,600 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Heshmatpour Amir F",
+  "url": "https://www.sec.gov/Archives/edgar/data/1979414/000121390026117660/0001213900-26-117660-index.htm",
+  "seen_kst": "2026-11-11 00:18"
  }
 ]
