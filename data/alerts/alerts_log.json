@@ -46878,5 +46878,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250203003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250203003",
   "grade": "open"
+ },
+ {
+  "id": "EVGN-1794334949",
+  "ts_kst": "2026-11-11 03:22",
+  "ts_utc": "2026-11-10T18:22:29+00:00",
+  "date_et": "2026-11-10",
+  "session": "regular",
+  "ticker": "EVGN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +33.3% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EVGN 장중 급등 포착",
+  "body": "$0.387 (+33.3%) · 정규장 · 레벨 1 · 점수 17\n$0.400 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 872만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +33.3% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.361 지정가(20일선, 기준가 대비 -6.6%) · 체결 가능성 약 46% · 손익분기 $0.366\n숏 지지구간 $0.350–$0.387 · 손절 $0.325 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3867,
+  "level": 1,
+  "score": 17.3,
+  "prob": 45.01661129568107,
+  "cp": 51.2553205123005,
+  "rl": 0.39999999999999997,
+  "stop": 0.32499999999999996,
+  "zone": [
+   0.35,
+   0.38670000433921814
+  ],
+  "bp": 0.3613,
+  "tgt": 0.39999999999999997,
+  "stp": 0.32499999999999996,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161230002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161230002",
+  "grade": "open"
  }
 ]
