@@ -47126,7 +47126,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161230002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161230002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "NTHI-1794335106",
@@ -48334,7 +48337,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161230002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161230002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "HUHU-1794342451",
@@ -52336,6 +52342,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200804004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200804004",
+  "grade": "open"
+ },
+ {
+  "id": "YMAT-1794413761",
+  "ts_kst": "2026-11-12 01:16",
+  "ts_utc": "2026-11-11T16:16:01+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "YMAT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.8% · 거래량 평소의 10.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ YMAT 장중 급등 포착",
+  "body": "$1.220 (+20.8%) · 정규장 · 레벨 3 · 점수 51\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,395만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +20.8% · 거래량 평소의 10.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $1.131 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.3%) · 체결 가능성 약 79% · 손익분기 $1.145\n숏 지지구간 $1.000–$1.220 · 손절 $0.875 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.22,
+  "level": 3,
+  "score": 51.2,
+  "prob": 28.834355828220865,
+  "cp": 35.535514655181466,
+  "rl": 1.5,
+  "stop": 0.875,
+  "zone": [
+   1.0,
+   1.2200000286102295
+  ],
+  "bp": 1.131,
+  "tgt": 1.5,
+  "stp": 0.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250730006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250730006",
   "grade": "open"
  }
 ]
