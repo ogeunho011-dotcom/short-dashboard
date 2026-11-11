@@ -54530,5 +54530,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20171129002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20171129002",
   "grade": "n/a"
+ },
+ {
+  "id": "BGS-1794424414",
+  "ts_kst": "2026-11-12 04:13",
+  "ts_utc": "2026-11-11T19:13:34+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BGS",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +32.5% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 BGS 장중 급등 포착 · 상위 확률 신호",
+  "body": "$3.524 (+32.5%) · 정규장 · 레벨 3 · 점수 46\n공매도 물량 대부분 손해 중, $3.80 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +32.5% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.348 지정가(기준가 $3.524의 −5%) · 체결 가능성 약 36% · 손익분기 $3.388\n숏 지지구간 $3.200–$3.313 · 손절 $3.100 · 1차목표 $3.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.5242,
+  "level": 3,
+  "score": 46.4,
+  "prob": 53.44827586206896,
+  "cp": 57.8556058126172,
+  "rl": 3.7999999999999976,
+  "stop": 3.0999999999999983,
+  "zone": [
+   3.1999999999999984,
+   3.3134699869155875
+  ],
+  "bp": 3.348,
+  "tgt": 3.7999999999999976,
+  "stp": 3.0999999999999983,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070523001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070523001",
+  "grade": "open"
+ },
+ {
+  "id": "XAIR-1794424414",
+  "ts_kst": "2026-11-12 04:13",
+  "ts_utc": "2026-11-11T19:13:34+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "XAIR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.5% · 거래량 평소의 8.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XAIR 장중 급등 포착",
+  "body": "$3.240 (+28.5%) · 정규장 · 레벨 2 · 점수 40\n$3.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 96만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +28.5% · 거래량 평소의 8.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.025 지정가(60일선, 기준가 대비 -6.6%) · 체결 가능성 약 39% · 손익분기 $3.061\n숏 지지구간 $2.000–$2.500 · 손절 $1.620 · 1차목표 $3.500\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.24,
+  "level": 2,
+  "score": 39.8,
+  "prob": 53.44827586206896,
+  "cp": 36.89888529672463,
+  "rl": 3.5,
+  "stop": 1.6200000047683716,
+  "zone": [
+   2.0,
+   2.5
+  ],
+  "bp": 3.0247,
+  "tgt": 3.5,
+  "stp": 1.6200000047683716,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190715005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190715005",
+  "grade": "open"
  }
 ]
