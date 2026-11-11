@@ -39056,10 +39056,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.062181818181818234,
+  "graded_bars": 2
  },
  {
   "id": "OMH-1794236303",
@@ -53367,6 +53367,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160602005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160602005",
+  "grade": "open"
+ },
+ {
+  "id": "VIVS-1794418119",
+  "ts_kst": "2026-11-12 02:28",
+  "ts_utc": "2026-11-11T17:28:39+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "VIVS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.9% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ VIVS 장중 급등 포착",
+  "body": "$0.158 (+21.9%) · 정규장 · 레벨 2 · 점수 34\n$0.200 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,485만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +21.9% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.153 지정가(20일선, 기준가 대비 -3.1%) · 체결 가능성 약 74% · 손익분기 $0.155\n숏 지지구간 $0.100–$0.158 · 손절 $0.079 · 1차목표 $0.200\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1577,
+  "level": 2,
+  "score": 34.1,
+  "prob": 38.456237077877326,
+  "cp": 13.602800233830498,
+  "rl": 0.2,
+  "stop": 0.07885000109672546,
+  "zone": [
+   0.1,
+   0.15770000219345093
+  ],
+  "bp": 0.1529,
+  "tgt": 0.2,
+  "stp": 0.07885000109672546,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160808001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160808001",
   "grade": "open"
  }
 ]
