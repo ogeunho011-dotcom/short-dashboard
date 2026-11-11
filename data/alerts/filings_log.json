@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "CODX",
-  "form": "8-K",
-  "acc": "0001493152-26-050868",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:02:16+00:00",
-  "accepted_kst": "11/10 22:02",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Co-Diagnostics Reports Third Quarter 2026 Financial Results Two Regulatory Submissions Under Review in India and the U.S. Third Quarter Operating Expenses Down ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1692415/000149315226050868/0001493152-26-050868-index.htm",
-  "seen_kst": "2026-11-10 22:05"
- },
- {
-  "ticker": "TYRA",
-  "form": "8-K",
-  "acc": "0001193125-26-454474",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:03:06+00:00",
-  "accepted_kst": "11/10 22:03",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Tyra Biosciences Reports Third Quarter 2026 Financial Results and Recent Highlights Reported initial Phase 2 SURF302 results for oral dabogratinib in FGFR3-alte",
-  "url": "https://www.sec.gov/Archives/edgar/data/1863127/000119312526454474/0001193125-26-454474-index.htm",
-  "seen_kst": "2026-11-10 22:05"
- },
- {
   "ticker": "SGML",
   "form": "6-K",
   "acc": "0001292814-26-005213",
@@ -8711,5 +8675,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036171/0001437749-26-036171-index.htm",
   "seen_kst": "2026-11-12 00:33"
+ },
+ {
+  "ticker": "NWTG",
+  "form": "SCHEDULE 13D/A",
+  "acc": "0001493152-26-051080",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-11T02:53:34+00:00",
+  "accepted_kst": "11/11 11:53",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1934245/000149315226051080/0001493152-26-051080-index.htm",
+  "seen_kst": "2026-11-12 00:53"
+ },
+ {
+  "ticker": "NWTG",
+  "form": "4",
+  "acc": "0001493152-26-051085",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-11T02:56:20+00:00",
+  "accepted_kst": "11/11 11:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1934245/000149315226051085/0001493152-26-051085-index.htm",
+  "seen_kst": "2026-11-12 00:53"
  }
 ]
