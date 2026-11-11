@@ -52676,5 +52676,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180725007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180725007",
   "grade": "open"
+ },
+ {
+  "id": "MGX-1794415268",
+  "ts_kst": "2026-11-12 01:41",
+  "ts_utc": "2026-11-11T16:41:08+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "MGX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.3% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MGX 장중 급등 포착",
+  "body": "$0.858 (+22.3%) · 정규장 · 레벨 2 · 점수 30\n$0.900 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 전일 대비 +22.3% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.815 지정가(기준가 $0.858의 −5%) · 체결 가능성 약 61% · 손익분기 $0.825\n숏 지지구간 $0.750–$0.800 · 손절 $0.725 · 1차목표 $0.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8583,
+  "level": 2,
+  "score": 30.1,
+  "prob": 47.808764940239065,
+  "cp": 45.41703214124175,
+  "rl": 0.9000000000000004,
+  "stop": 0.7250000000000002,
+  "zone": [
+   0.7500000000000002,
+   0.8000000000000003
+  ],
+  "bp": 0.8154,
+  "tgt": 0.9000000000000004,
+  "stp": 0.7250000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240209004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240209004",
+  "grade": "open"
  }
 ]
