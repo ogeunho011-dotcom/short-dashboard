@@ -6795,10 +6795,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241231003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241231003",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 8,
+  "grade_ret": 0.18482123069947476,
+  "graded_bars": 8
  },
  {
   "id": "GDYN-1793367693",
@@ -43897,9 +43897,9 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.47134738162791023,
   "graded_bars": 1
  },
  {
@@ -52256,6 +52256,86 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608007002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608007002",
+  "grade": "open"
+ },
+ {
+  "id": "QMLS-1794413155",
+  "ts_kst": "2026-11-12 01:05",
+  "ts_utc": "2026-11-11T16:05:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "QMLS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.3% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ QMLS 장중 급등 포착",
+  "body": "$3.810 (+23.3%) · 정규장 · 레벨 1 · 점수 15\n최근 회사 공시 있음\n• 전일 대비 +23.3% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $3.619 지정가(기준가 $3.810의 −5%) · 체결 가능성 약 67% · 손익분기 $3.663\n숏 지지구간 $2.667–$3.810 · 손절 $1.905 · 1차목표 $8.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.81,
+  "level": 1,
+  "score": 14.6,
+  "prob": 28.643216080402006,
+  "cp": 22.705718542389977,
+  "rl": 8.0,
+  "stop": 1.9049999713897705,
+  "zone": [
+   2.6669999599456786,
+   3.809999942779541
+  ],
+  "bp": 3.6195,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2607016003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2607016003",
+  "grade": "n/a"
+ },
+ {
+  "id": "RXT-1794413155",
+  "ts_kst": "2026-11-12 01:05",
+  "ts_utc": "2026-11-11T16:05:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "RXT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RXT 장중 급등 포착",
+  "body": "$3.210 (+19.3%) · 정규장 · 레벨 2 · 점수 25\n$3.50 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음\n• 전일 대비 +19.3% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $3.050 지정가(기준가 $3.210의 −5%) · 체결 가능성 약 64% · 손익분기 $3.086\n숏 지지구간 $2.750–$3.000 · 손절 $2.500 · 1차목표 $3.500\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.21,
+  "level": 2,
+  "score": 25.0,
+  "prob": 45.01661129568107,
+  "cp": 36.66062539024235,
+  "rl": 3.5,
+  "stop": 2.5,
+  "zone": [
+   2.75,
+   3.0
+  ],
+  "bp": 3.0495,
+  "tgt": 3.5,
+  "stp": 2.5,
+  "penalties": [
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200804004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200804004",
   "grade": "open"
  }
 ]
