@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CRMT",
-  "form": "8-K",
-  "acc": "0001171843-26-007312",
-  "items": "1.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:00:40+00:00",
-  "accepted_kst": "11/10 22:00",
-  "polarity": "neutral",
-  "label": "중요 계약",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. As disclosed in its Current Report on Form 8-K filed on June 25, 2026 (the “June 25th Current Report”), an",
-  "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326007312/0001171843-26-007312-index.htm",
-  "seen_kst": "2026-11-10 22:03"
- },
- {
   "ticker": "SEV",
   "form": "8-K",
   "acc": "0001493152-26-050867",
@@ -8713,5 +8696,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1392380/000162828026072816/0001628280-26-072816-index.htm",
   "seen_kst": "2026-11-11 23:42"
+ },
+ {
+  "ticker": "FOSL",
+  "form": "8-K",
+  "acc": "0000883569-26-000069",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:08:15+00:00",
+  "accepted_kst": "11/11 06:08",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "FOSSIL GROUP, INC. REPORTS THIRD QUARTER 2026 FINANCIAL RESULTS Reported worldwide net sales of $271 million increase 0.4%; Constant currency worldwide net sale",
+  "url": "https://www.sec.gov/Archives/edgar/data/883569/000088356926000069/0000883569-26-000069-index.htm",
+  "seen_kst": "2026-11-12 00:02"
  }
 ]

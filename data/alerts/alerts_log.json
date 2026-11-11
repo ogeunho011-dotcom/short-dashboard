@@ -51464,5 +51464,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160622001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160622001",
   "grade": "n/a"
+ },
+ {
+  "id": "TONX-1794409376",
+  "ts_kst": "2026-11-12 00:02",
+  "ts_utc": "2026-11-11T15:02:56+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "TONX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.6% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TONX 장중 급등 포착",
+  "body": "$3.776 (+17.6%) · 정규장 · 레벨 1 · 점수 19\n공매도 물량 대부분 손해 중, $4.20 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +17.6% · 거래량 평소의 6.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $3.700–$3.776 · 손절 $3.600 · 1차목표 $4.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.7757,
+  "level": 1,
+  "score": 19.3,
+  "prob": 52.91666666666666,
+  "cp": 65.56755196837597,
+  "rl": 4.200000000000001,
+  "stop": 3.600000000000001,
+  "zone": [
+   3.700000000000001,
+   3.775700092315674
+  ],
+  "bp": null,
+  "tgt": 4.200000000000001,
+  "stp": 3.600000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190405002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190405002",
+  "grade": "open"
  }
 ]
