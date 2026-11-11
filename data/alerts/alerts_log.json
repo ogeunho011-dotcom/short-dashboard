@@ -52874,5 +52874,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930408001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930408001",
   "grade": "open"
+ },
+ {
+  "id": "YMT-1794415872",
+  "ts_kst": "2026-11-12 01:51",
+  "ts_utc": "2026-11-11T16:51:12+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "YMT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +178.9% · 거래량 평소의 26.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ YMT 장중 급등 포착",
+  "body": "$0.728 (+178.9%) · 정규장 · 레벨 2 · 점수 26\n$1.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 19배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +178.9% · 거래량 평소의 26.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.692 지정가(기준가 $0.728의 −5%) · 체결 가능성 약 70% · 손익분기 $0.700\n숏 지지구간 $0.510–$0.510 · 손절 $0.364 · 1차목표 $1.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/27)\n⚠ 역분할 2026-08-27\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7281,
+  "level": 2,
+  "score": 26.4,
+  "prob": 38.456237077877326,
+  "cp": 7.283338452951478,
+  "rl": 1.0,
+  "stop": 0.3640500009059906,
+  "zone": [
+   0.5096700012683868,
+   0.5096700012683868
+  ],
+  "bp": 0.6917,
+  "tgt": 1.0,
+  "stp": 0.3640500009059906,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/27)",
+   "역분할 2026-08-27"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250819011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250819011",
+  "grade": "open"
+ },
+ {
+  "id": "SCKT-1794415872",
+  "ts_kst": "2026-11-12 01:51",
+  "ts_utc": "2026-11-11T16:51:12+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "SCKT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +89.1% · 거래량 평소의 691.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SCKT 장중 급등 포착",
+  "body": "$0.473 (+89.1%) · 정규장 · 레벨 3 · 점수 52\n시장에 도는 주식 829만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +89.1% · 거래량 평소의 691.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.449 지정가(기준가 $0.473의 −5%) · 체결 가능성 약 74% · 손익분기 $0.455\n숏 지지구간 $0.331–$0.473 · 손절 $0.236 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4728,
+  "level": 3,
+  "score": 52.1,
+  "prob": 38.456237077877326,
+  "cp": 14.773748468074116,
+  "rl": 0.75,
+  "stop": 0.23639999330043793,
+  "zone": [
+   0.3309599906206131,
+   0.47279998660087585
+  ],
+  "bp": 0.4492,
+  "tgt": 0.75,
+  "stp": 0.23639999330043793,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160622001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160622001",
+  "grade": "open"
  }
 ]
