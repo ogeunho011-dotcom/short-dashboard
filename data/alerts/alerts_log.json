@@ -52382,5 +52382,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250730006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250730006",
   "grade": "open"
+ },
+ {
+  "id": "RCT-1794413910",
+  "ts_kst": "2026-11-12 01:18",
+  "ts_utc": "2026-11-11T16:18:30+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "RCT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.4% · 거래량 평소의 15.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RCT 장중 급등 포착",
+  "body": "$0.037 (+21.4%) · 정규장 · 레벨 2 · 점수 38\n오늘 거래량 평소의 8배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +21.4% · 거래량 평소의 15.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.041 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +9.4%) · 체결 가능성 약 85% · 손익분기 $0.041\n숏 지지구간 $0.026–$0.037 · 손절 $0.019 · 1차목표 $0.060\n⚠ 424B 증자 설명서 3건 (30일 내, 최근 10/19)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0374,
+  "level": 2,
+  "score": 38.4,
+  "prob": 38.456237077877326,
+  "cp": 14.393801095092021,
+  "rl": 0.06,
+  "stop": 0.018699999898672104,
+  "zone": [
+   0.026179999858140943,
+   0.03739999979734421
+  ],
+  "bp": 0.0409,
+  "tgt": 0.06,
+  "stp": 0.018699999898672104,
+  "penalties": [
+   "424B 증자 설명서 3건 (30일 내, 최근 10/19)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250321007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250321007",
+  "grade": "open"
  }
 ]
