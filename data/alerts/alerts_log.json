@@ -41319,10 +41319,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.024503978779840903,
+  "graded_bars": 2
  },
  {
   "id": "FISN-1794251212",
@@ -52424,5 +52424,93 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250321007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250321007",
   "grade": "open"
+ },
+ {
+  "id": "NXXT-1794414665",
+  "ts_kst": "2026-11-12 01:31",
+  "ts_utc": "2026-11-11T16:31:05+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "NXXT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 NXXT 상위 확률 신호",
+  "body": "$1.960 (+949.8%) · 정규장 · 레벨 3 · 점수 49\n공매도 물량 대부분 손해 중, $2.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.862 지정가(기준가 $1.960의 −5%) · 체결 가능성 약 84% · 손익분기 $1.884\n숏 지지구간 $1.372–$1.960 · 손절 $0.980 · 1차목표 $2.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 75/100\n⚠ 최근 악재 공시: 8-K 상장 유지 기준 미달·상폐 위험 (11/10)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.96,
+  "level": 3,
+  "score": 49.2,
+  "prob": 52.91666666666666,
+  "cp": 66.83222654204249,
+  "rl": 2.0,
+  "stop": 0.9800000190734863,
+  "zone": [
+   1.3720000267028807,
+   1.9600000381469727
+  ],
+  "bp": 1.862,
+  "tgt": 2.0,
+  "stp": 0.9800000190734863,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-30",
+   "희석 위험 75/100",
+   "최근 악재 공시: 8-K 상장 유지 기준 미달·상폐 위험 (11/10)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210914005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210914005",
+  "grade": "open"
+ },
+ {
+  "id": "BURU-1794414665",
+  "ts_kst": "2026-11-12 01:31",
+  "ts_utc": "2026-11-11T16:31:05+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BURU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.9% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BURU 장중 급등 포착",
+  "body": "$0.246 (+21.9%) · 정규장 · 레벨 3 · 점수 49\n시장에 도는 주식 926만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +21.9% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.206 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -16.1%) · 체결 가능성 약 68% · 손익분기 $0.209\n숏 지지구간 $0.172–$0.246 · 손절 $0.123 · 1차목표 $0.369\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-02\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2458,
+  "level": 3,
+  "score": 48.9,
+  "prob": 28.834355828220865,
+  "cp": 2.0,
+  "rl": 1.5,
+  "stop": 0.12290000170469284,
+  "zone": [
+   0.17206000238656996,
+   0.24580000340938568
+  ],
+  "bp": 0.2062,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-02",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
+  "grade": "n/a"
  }
 ]
