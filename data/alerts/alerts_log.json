@@ -54815,5 +54815,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200609002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200609002",
   "grade": "open"
+ },
+ {
+  "id": "SFWL-1794425911",
+  "ts_kst": "2026-11-12 04:38",
+  "ts_utc": "2026-11-11T19:38:31+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "SFWL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +34.7% · 거래량 평소의 45.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SFWL 장중 급등 포착",
+  "body": "$4.680 (+34.7%) · 정규장 · 레벨 2 · 점수 28\n$5.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 8배 이상, 관심 급증\n• 전일 대비 +34.7% · 거래량 평소의 45.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 47%\n추천 매수가 $4.446 지정가(기준가 $4.680의 −5%) · 체결 가능성 약 74% · 손익분기 $4.500\n숏 지지구간 $3.000–$4.000 · 손절 $2.340 · 1차목표 $5.000\n⚠ 역분할 2026-09-08\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.68,
+  "level": 2,
+  "score": 27.7,
+  "prob": 47.273082638826935,
+  "cp": 37.392082715976066,
+  "rl": 5.0,
+  "stop": 2.3399999141693115,
+  "zone": [
+   3.0,
+   4.0
+  ],
+  "bp": 4.446,
+  "tgt": 5.0,
+  "stp": 2.3399999141693115,
+  "penalties": [
+   "역분할 2026-09-08"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230331007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230331007",
+  "grade": "open"
  }
 ]
