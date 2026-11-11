@@ -54776,5 +54776,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210618006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210618006",
   "grade": "n/a"
+ },
+ {
+  "id": "UCL-1794425753",
+  "ts_kst": "2026-11-12 04:35",
+  "ts_utc": "2026-11-11T19:35:53+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "UCL",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 UCL 상위 확률 신호",
+  "body": "$0.234 (+23.9%) · 정규장 · 레벨 3 · 점수 45\n공매도 물량 대부분 손해 중, $0.250 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.225 지정가(20일선, 기준가 대비 -4.1%) · 체결 가능성 약 71% · 손익분기 $0.227\n숏 지지구간 $0.150–$0.200 · 손절 $0.117 · 1차목표 $0.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2342,
+  "level": 3,
+  "score": 45.4,
+  "prob": 53.183248596756286,
+  "cp": 43.33243788049975,
+  "rl": 0.25,
+  "stop": 0.11710000038146973,
+  "zone": [
+   0.15000000000000002,
+   0.2
+  ],
+  "bp": 0.2247,
+  "tgt": 0.25,
+  "stp": 0.11710000038146973,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200609002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200609002",
+  "grade": "open"
  }
 ]
