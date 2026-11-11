@@ -55617,5 +55617,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250819011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250819011",
   "grade": "n/a"
+ },
+ {
+  "id": "CAPR-1794435353",
+  "ts_kst": "2026-11-12 07:15",
+  "ts_utc": "2026-11-11T22:15:53+00:00",
+  "date_et": "2026-11-11",
+  "session": "post",
+  "ticker": "CAPR",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 CAPR 상위 확률 신호",
+  "body": "$11.000 (+24.0%) · 애프터마켓 · 레벨 3 · 점수 48\n공매도 물량 대부분 손해 중 · 한 달 고점 돌파\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $10.450 지정가(기준가 $11.000의 −5%) · 체결 가능성 약 53% · 손익분기 $10.576\n숏 지지구간 $8.000–$9.050 · 손절 $7.000 · 1차목표 $20.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 11.0001,
+  "level": 3,
+  "score": 48.2,
+  "prob": 53.44827586206896,
+  "cp": 51.339919358513335,
+  "rl": 20.0,
+  "stop": 7.0,
+  "zone": [
+   8.0,
+   9.05
+  ],
+  "bp": 10.4501,
+  "tgt": 20.0,
+  "stp": 7.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150309001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150309001",
+  "grade": "open"
  }
 ]
