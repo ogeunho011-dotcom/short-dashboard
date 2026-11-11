@@ -54651,5 +54651,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2607024001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2607024001",
   "grade": "n/a"
+ },
+ {
+  "id": "WBUY-1794424877",
+  "ts_kst": "2026-11-12 04:21",
+  "ts_utc": "2026-11-11T19:21:17+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "WBUY",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.3% · 거래량 평소의 18.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WBUY 장중 급등 포착",
+  "body": "$0.560 (+27.3%) · 정규장 · 레벨 2 · 점수 40\n$0.800 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 244만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +27.3% · 거래량 평소의 18.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.532 지정가(기준가 $0.560의 −5%) · 체결 가능성 약 63% · 손익분기 $0.538\n숏 지지구간 $0.500–$0.550 · 손절 $0.475 · 1차목표 $0.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.56,
+  "level": 2,
+  "score": 39.8,
+  "prob": 31.25,
+  "cp": 5.109040036651461,
+  "rl": 0.7999999999999999,
+  "stop": 0.475,
+  "zone": [
+   0.5,
+   0.55
+  ],
+  "bp": 0.532,
+  "tgt": 0.7999999999999999,
+  "stp": 0.475,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231019005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231019005",
+  "grade": "open"
+ },
+ {
+  "id": "ZDGE-1794424877",
+  "ts_kst": "2026-11-12 04:21",
+  "ts_utc": "2026-11-11T19:21:17+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "ZDGE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.2% · 거래량 평소의 154.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZDGE 장중 급등 포착",
+  "body": "$2.870 (+24.2%) · 정규장 · 레벨 2 · 점수 32\n$3.30 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,037만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +24.2% · 거래량 평소의 154.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.726 지정가(기준가 $2.870의 −5%) · 체결 가능성 약 63% · 손익분기 $2.759\n숏 지지구간 $2.700–$2.800 · 손절 $2.600 · 1차목표 $3.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.87,
+  "level": 2,
+  "score": 32.0,
+  "prob": 45.01661129568107,
+  "cp": 31.87290897884738,
+  "rl": 3.300000000000001,
+  "stop": 2.6000000000000005,
+  "zone": [
+   2.7000000000000006,
+   2.8000000000000007
+  ],
+  "bp": 2.7265,
+  "tgt": 3.300000000000001,
+  "stp": 2.6000000000000005,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160602005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160602005",
+  "grade": "open"
  }
 ]
