@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "JRSH",
-  "form": "8-K",
-  "acc": "0001213900-26-117779",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:05:15+00:00",
-  "accepted_kst": "11/10 22:05",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Jerash Holdings Reports Fiscal 2027 Second Quarter Financial Results",
-  "url": "https://www.sec.gov/Archives/edgar/data/1696558/000121390026117779/0001213900-26-117779-index.htm",
-  "seen_kst": "2026-11-10 22:08"
- },
- {
   "ticker": "TTRX",
   "form": "8-K",
   "acc": "0001213900-26-117781",
@@ -8709,5 +8692,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1785279/000119312526455441/0001193125-26-455441-index.htm",
   "seen_kst": "2026-11-12 01:53"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "S-11",
+  "acc": "0001213900-26-118073",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:46:01+00:00",
+  "accepted_kst": "11/11 06:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000121390026118073/0001213900-26-118073-index.htm",
+  "seen_kst": "2026-11-12 03:33"
  }
 ]
