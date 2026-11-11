@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "SEV",
-  "form": "8-K",
-  "acc": "0001493152-26-050867",
-  "items": "8.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:01:11+00:00",
-  "accepted_kst": "11/10 22:01",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 8.01 Other Events. ATM Prospectus Suspension As previously disclosed, Aptera Motors Corp. (the “Company”) entered into a Controlled Equity Offering SM Sale",
-  "url": "https://www.sec.gov/Archives/edgar/data/1786471/000149315226050867/0001493152-26-050867-index.htm",
-  "seen_kst": "2026-11-10 22:03"
- },
- {
   "ticker": "COYA",
   "form": "8-K",
   "acc": "0001193125-26-454473",
@@ -8713,5 +8694,22 @@
   "headline": "FOSSIL GROUP, INC. REPORTS THIRD QUARTER 2026 FINANCIAL RESULTS Reported worldwide net sales of $271 million increase 0.4%; Constant currency worldwide net sale",
   "url": "https://www.sec.gov/Archives/edgar/data/883569/000088356926000069/0000883569-26-000069-index.htm",
   "seen_kst": "2026-11-12 00:02"
+ },
+ {
+  "ticker": "BGS",
+  "form": "10-Q",
+  "acc": "0001104659-26-125162",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:06:59+00:00",
+  "accepted_kst": "11/11 06:06",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1278027/000110465926125162/0001104659-26-125162-index.htm",
+  "seen_kst": "2026-11-12 00:22"
  }
 ]

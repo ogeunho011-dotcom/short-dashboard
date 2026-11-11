@@ -51667,5 +51667,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160602005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160602005",
   "grade": "open"
+ },
+ {
+  "id": "BAER-1794410575",
+  "ts_kst": "2026-11-12 00:22",
+  "ts_utc": "2026-11-11T15:22:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BAER",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BAER 장중 급등 포착",
+  "body": "$0.230 (+16.2%) · 정규장 · 레벨 1 · 점수 9\n$0.300 넘으면 공매도 되사기 압박 ↑ · $1 미만, 상장폐지 주의\n• 전일 대비 +16.2% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.213 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.5%) · 체결 가능성 약 75% · 손익분기 $0.215\n숏 지지구간 $0.161–$0.200 · 손절 $0.115 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2299,
+  "level": 1,
+  "score": 8.6,
+  "prob": 18.993839835728956,
+  "cp": 10.356274492931606,
+  "rl": 0.30000000000000004,
+  "stop": 0.11495000123977661,
+  "zone": [
+   0.16093000173568725,
+   0.2
+  ],
+  "bp": 0.2127,
+  "tgt": 0.30000000000000004,
+  "stp": 0.11495000123977661,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125003",
+  "grade": "open"
+ },
+ {
+  "id": "OPTX-1794410575",
+  "ts_kst": "2026-11-12 00:22",
+  "ts_utc": "2026-11-11T15:22:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "OPTX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OPTX 장중 급등 포착",
+  "body": "$6.256 (+15.4%) · 정규장 · 레벨 1 · 점수 20\n$7.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +15.4% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $6.123 지정가(20일선, 기준가 대비 -2.1%) · 체결 가능성 약 82% · 손익분기 $6.196\n숏 지지구간 $6.000–$6.256 · 손절 $5.500 · 1차목표 $7.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.2563,
+  "level": 1,
+  "score": 20.5,
+  "prob": 45.01661129568107,
+  "cp": 40.560432806944846,
+  "rl": 7.0,
+  "stop": 5.5,
+  "zone": [
+   6.0,
+   6.25629997253418
+  ],
+  "bp": 6.1226,
+  "tgt": 7.0,
+  "stp": 5.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220124007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220124007",
+  "grade": "open"
  }
 ]
