@@ -55147,5 +55147,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20151218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20151218001",
   "grade": "n/a"
+ },
+ {
+  "id": "ELOG-1794427109",
+  "ts_kst": "2026-11-12 04:58",
+  "ts_utc": "2026-11-11T19:58:29+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "ELOG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +38.9% · 거래량 평소의 32.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ELOG 장중 급등 포착",
+  "body": "$0.821 (+38.9%) · 정규장 · 레벨 1 · 점수 22\n$1.000 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,283만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +38.9% · 거래량 평소의 32.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 33%\n추천 매수가 $0.747 지정가(60일선, 기준가 대비 -9.0%) · 체결 가능성 약 58% · 손익분기 $0.756\n숏 지지구간 $0.700–$0.800 · 손절 $0.600 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8209,
+  "level": 1,
+  "score": 22.3,
+  "prob": 33.17007802033454,
+  "cp": 19.499092245504762,
+  "rl": 0.9999999999999999,
+  "stop": 0.6,
+  "zone": [
+   0.7,
+   0.7999999999999999
+  ],
+  "bp": 0.7469,
+  "tgt": 0.9999999999999999,
+  "stp": 0.6,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250828002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250828002",
+  "grade": "open"
  }
 ]
