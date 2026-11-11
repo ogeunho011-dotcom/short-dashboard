@@ -53409,5 +53409,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160808001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160808001",
   "grade": "open"
+ },
+ {
+  "id": "FAMI-1794418418",
+  "ts_kst": "2026-11-12 02:33",
+  "ts_utc": "2026-11-11T17:33:38+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "FAMI",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +22.7% · 거래량 평소의 15.0배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 1,319k (당일 평균 29.0배)"
+  ],
+  "title": "🚀 FAMI 장중 급등 포착 · 거래량 급증",
+  "body": "$0.105 (+22.7%) · 정규장 · 레벨 3 · 점수 46\n$0.140 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 548만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +22.7% · 거래량 평소의 15.0배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 1,319k (당일 평균 29.0배)\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.102 지정가(20일선, 기준가 대비 -3.7%) · 체결 가능성 약 66% · 손익분기 $0.103\n숏 지지구간 $0.080–$0.100 · 손절 $0.060 · 1차목표 $0.140\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1055,
+  "level": 3,
+  "score": 46.1,
+  "prob": 45.01661129568107,
+  "cp": 7.409947478743714,
+  "rl": 0.14,
+  "stop": 0.06,
+  "zone": [
+   0.08,
+   0.1
+  ],
+  "bp": 0.1016,
+  "tgt": 0.14,
+  "stp": 0.06,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180213004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180213004",
+  "grade": "open"
  }
 ]
