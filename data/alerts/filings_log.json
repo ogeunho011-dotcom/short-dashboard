@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SGML",
-  "form": "6-K",
-  "acc": "0001292814-26-005213",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:05:03+00:00",
-  "accepted_kst": "11/10 22:05",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 ex99-1.htm EX-99.1 SIGMA LITHIUM TO RELEASE 3Q 26 EARNINGS RESULTS ON NOVEMBER 13; WATCH CEO ANA CABRAL ON SIGMA’S NEW CHAPTER OF GROWTH Toronto, Nove",
-  "url": "https://www.sec.gov/Archives/edgar/data/1848309/000129281426005213/0001292814-26-005213-index.htm",
-  "seen_kst": "2026-11-10 22:08"
- },
- {
   "ticker": "AVNW",
   "form": "8-K",
   "acc": "0001628280-26-072512",
@@ -8709,5 +8692,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1934245/000149315226051085/0001493152-26-051085-index.htm",
   "seen_kst": "2026-11-12 00:53"
+ },
+ {
+  "ticker": "QMLS",
+  "form": "10-Q",
+  "acc": "0002084026-26-000010",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:08:20+00:00",
+  "accepted_kst": "11/11 06:08",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2084026/000208402626000010/0002084026-26-000010-index.htm",
+  "seen_kst": "2026-11-12 01:13"
  }
 ]
