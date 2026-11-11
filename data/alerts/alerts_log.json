@@ -53615,5 +53615,165 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150325001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150325001",
   "grade": "open"
+ },
+ {
+  "id": "ELOG-1794419172",
+  "ts_kst": "2026-11-12 02:46",
+  "ts_utc": "2026-11-11T17:46:12+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "ELOG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +34.8% · 거래량 평소의 10.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ELOG 장중 급등 포착",
+  "body": "$0.797 (+34.8%) · 정규장 · 레벨 1 · 점수 22\n$0.800 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,283만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +34.8% · 거래량 평소의 10.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 33%\n추천 매수가 $0.746 지정가(60일선, 기준가 대비 -6.3%) · 체결 가능성 약 67% · 손익분기 $0.755\n숏 지지구간 $0.700–$0.797 · 손절 $0.600 · 1차목표 $0.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7968,
+  "level": 1,
+  "score": 22.0,
+  "prob": 32.72464680440803,
+  "cp": 29.836192029900673,
+  "rl": 0.7999999999999999,
+  "stop": 0.6,
+  "zone": [
+   0.7,
+   0.7968000173568726
+  ],
+  "bp": 0.7465,
+  "tgt": 1.5,
+  "stp": 0.6,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250828002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250828002",
+  "grade": "open"
+ },
+ {
+  "id": "BAER-1794419172",
+  "ts_kst": "2026-11-12 02:46",
+  "ts_utc": "2026-11-11T17:46:12+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BAER",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.7% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BAER 장중 급등 포착",
+  "body": "$0.259 (+30.7%) · 정규장 · 레벨 1 · 점수 19\n$0.300 넘으면 공매도 되사기 압박 ↑ · $1 미만, 상장폐지 주의\n• 전일 대비 +30.7% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.246 지정가(기준가 $0.259의 −5%) · 체결 가능성 약 80% · 손익분기 $0.249\n숏 지지구간 $0.181–$0.200 · 손절 $0.129 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2586,
+  "level": 1,
+  "score": 18.6,
+  "prob": 45.01661129568107,
+  "cp": 26.69345067621507,
+  "rl": 0.30000000000000004,
+  "stop": 0.12929999828338623,
+  "zone": [
+   0.1810199975967407,
+   0.2
+  ],
+  "bp": 0.2457,
+  "tgt": 0.30000000000000004,
+  "stp": 0.12929999828338623,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125003",
+  "grade": "open"
+ },
+ {
+  "id": "NWTG-1794419172",
+  "ts_kst": "2026-11-12 02:46",
+  "ts_utc": "2026-11-11T17:46:12+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "NWTG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +25.2% · 거래량 평소의 14.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NWTG 장중 급등 포착",
+  "body": "$0.875 (+25.2%) · 정규장 · 레벨 3 · 점수 42\n$0.900 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 542만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +25.2% · 거래량 평소의 14.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.831 지정가(기준가 $0.875의 −5%) · 체결 가능성 약 75% · 손익분기 $0.841\n숏 지지구간 $0.750–$0.800 · 손절 $0.700 · 1차목표 $0.900\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.875,
+  "level": 3,
+  "score": 41.7,
+  "prob": 38.456237077877326,
+  "cp": 53.85387548937793,
+  "rl": 0.9000000000000004,
+  "stop": 0.7000000000000002,
+  "zone": [
+   0.7500000000000002,
+   0.8000000000000003
+  ],
+  "bp": 0.8312,
+  "tgt": 0.9000000000000004,
+  "stp": 0.7000000000000002,
+  "penalties": [
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230815006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230815006",
+  "grade": "open"
+ },
+ {
+  "id": "KRMD-1794419172",
+  "ts_kst": "2026-11-12 02:46",
+  "ts_utc": "2026-11-11T17:46:12+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "KRMD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.8% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KRMD 장중 급등 포착",
+  "body": "$3.880 (+22.8%) · 정규장 · 레벨 1 · 점수 24\n공매도 물량 대부분 손해 중, $3.90 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +22.8% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.686 지정가(기준가 $3.880의 −5%) · 체결 가능성 약 36% · 손익분기 $3.730\n숏 지지구간 $3.700–$3.800 · 손절 $3.600 · 1차목표 $3.900\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.88,
+  "level": 1,
+  "score": 23.8,
+  "prob": 53.44827586206896,
+  "cp": 68.79263621769132,
+  "rl": 3.9000000000000012,
+  "stop": 3.600000000000001,
+  "zone": [
+   3.700000000000001,
+   3.800000000000001
+  ],
+  "bp": 3.686,
+  "tgt": 3.9000000000000012,
+  "stp": 3.600000000000001,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191024003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191024003",
+  "grade": "open"
  }
 ]
