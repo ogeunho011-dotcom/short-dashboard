@@ -37193,10 +37193,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.36311285838314156,
+  "graded_bars": 2
  },
  {
   "id": "BDMD-1794217542",
@@ -52122,5 +52122,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2602004001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2602004001",
   "grade": "n/a"
+ },
+ {
+  "id": "LSTA-1794412265",
+  "ts_kst": "2026-11-12 00:51",
+  "ts_utc": "2026-11-11T15:51:05+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "LSTA",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +24.3% · 거래량 평소의 28.6배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 LSTA 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.268 (+24.3%) · 정규장 · 레벨 3 · 점수 54\n시장에 도는 주식 901만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 7배 이상, 관심 급증\n• 전일 대비 +24.3% · 거래량 평소의 28.6배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.204 지정가(기준가 $1.268의 −5%) · 체결 가능성 약 55% · 손익분기 $1.219\n숏 지지구간 $1.250–$1.268 · 손절 $1.000 · 1차목표 $2.000\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.2677,
+  "level": 3,
+  "score": 53.9,
+  "prob": 52.91666666666666,
+  "cp": 9.405853537747788,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.267699956893921
+  ],
+  "bp": 1.2043,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220915004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220915004",
+  "grade": "open"
  }
 ]
