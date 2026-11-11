@@ -55497,5 +55497,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220524002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220524002",
   "grade": "open"
+ },
+ {
+  "id": "RKDA-1794429663",
+  "ts_kst": "2026-11-12 05:41",
+  "ts_utc": "2026-11-11T20:41:03+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "RKDA",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 226k (당일 평균 6.0배)"
+  ],
+  "title": "🚀 RKDA 거래량 급증",
+  "body": "$0.215 (+33.3%) · 정규장 · 레벨 3 · 점수 40\n$0.300 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 241만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 226k (당일 평균 6.0배)\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $0.204 지정가(기준가 $0.215의 −5%) · 체결 가능성 약 62% · 손익분기 $0.207\n숏 지지구간 $0.200–$0.215 · 손절 $0.150 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.215,
+  "level": 3,
+  "score": 40.1,
+  "prob": 38.862621038264315,
+  "cp": 11.118634602842365,
+  "rl": 0.30000000000000004,
+  "stop": 0.15000000000000002,
+  "zone": [
+   0.20000000000000004,
+   0.2150000035762787
+  ],
+  "bp": 0.2043,
+  "tgt": 0.30000000000000004,
+  "stp": 0.15000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230301005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230301005",
+  "grade": "open"
  }
 ]
