@@ -342,7 +342,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240126004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240126004",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 10,
+  "grade_ret": -0.05328722065053081,
+  "graded_bars": 10
  },
  {
   "id": "POM-1793205174",
@@ -600,7 +603,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240126004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240126004",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 10,
+  "grade_ret": -0.08017552714928056,
+  "graded_bars": 10
  },
  {
   "id": "SHFS-1793214809",
