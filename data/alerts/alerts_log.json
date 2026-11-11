@@ -54612,5 +54612,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190715005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190715005",
   "grade": "open"
+ },
+ {
+  "id": "BIOT-1794424712",
+  "ts_kst": "2026-11-12 04:18",
+  "ts_utc": "2026-11-11T19:18:32+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BIOT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +11.0% 급변 · 전일 대비 +24.7% — 추격 매수 주의"
+  ],
+  "title": "⚡ BIOT 장중 급등 포착",
+  "body": "$0.219 (+24.7%) · 정규장 · 레벨 1 · 점수 14\n오늘 거래량 평소의 3배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 5분 +11.0% 급변 · 전일 대비 +24.7% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.208 지정가(기준가 $0.219의 −5%) · 체결 가능성 약 58% · 손익분기 $0.210\n숏 지지구간 $0.153–$0.219 · 손절 $0.109 · 1차목표 $0.370\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2188,
+  "level": 1,
+  "score": 14.1,
+  "prob": 45.01661129568107,
+  "cp": 2.0,
+  "rl": 2.0,
+  "stop": 0.10939999669790268,
+  "zone": [
+   0.15315999537706373,
+   0.21879999339580536
+  ],
+  "bp": 0.2079,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2607024001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2607024001",
+  "grade": "n/a"
  }
 ]
