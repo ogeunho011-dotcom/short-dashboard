@@ -50124,5 +50124,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241022002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241022002",
   "grade": "open"
+ },
+ {
+  "id": "LICN-1794403759",
+  "ts_kst": "2026-11-11 22:29",
+  "ts_utc": "2026-11-11T13:29:19+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "LICN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +17.4% 급변 · 전일 대비 +14.3% — 추격 매수 주의"
+  ],
+  "title": "⚡ LICN 장중 급등 포착",
+  "body": "$0.048 (+14.3%) · 프리마켓 · 레벨 1 · 점수 14\n최근 회사 공시 있음 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +17.4% 급변 · 전일 대비 +14.3% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $0.046 지정가(기준가 $0.048의 −5%) · 체결 가능성 약 85% · 손익분기 $0.046\n숏 지지구간 $0.034–$0.048 · 손절 $0.024 · 1차목표 $0.072\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/10)\n⚠ 최근 악재 공시: 424B5 증자 서류(424B5) (11/10)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.048,
+  "level": 1,
+  "score": 14.0,
+  "prob": 12.916666666666668,
+  "cp": 6.559999999999999,
+  "rl": 0.2,
+  "stop": 0.024,
+  "zone": [
+   0.0336,
+   0.048
+  ],
+  "bp": 0.0456,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/10)",
+   "최근 악재 공시: 424B5 증자 서류(424B5) (11/10)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230202007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230202007",
+  "grade": "n/a"
  }
 ]
