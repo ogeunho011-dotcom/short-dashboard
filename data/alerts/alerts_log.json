@@ -51745,5 +51745,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220124007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220124007",
   "grade": "open"
+ },
+ {
+  "id": "DJT-1794410711",
+  "ts_kst": "2026-11-12 00:25",
+  "ts_utc": "2026-11-11T15:25:11+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "DJT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.9% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ DJT 장중 급등 포착",
+  "body": "$5.050 (+17.9%) · 정규장 · 레벨 1 · 점수 15\n$6.50 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +17.9% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $4.798 지정가(기준가 $5.050의 −5%) · 체결 가능성 약 61% · 손익분기 $4.855\n숏 지지구간 $5.000–$5.050 · 손절 $4.500 · 1차목표 $6.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/06)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.05,
+  "level": 1,
+  "score": 15.2,
+  "prob": 41.15942028985507,
+  "cp": 24.68639275530067,
+  "rl": 6.5,
+  "stop": 4.5,
+  "zone": [
+   5.0,
+   5.050000190734863
+  ],
+  "bp": 4.7975,
+  "tgt": 6.5,
+  "stp": 4.5,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/06)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930006",
+  "grade": "open"
  }
 ]
