@@ -52796,5 +52796,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230918004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230918004",
   "grade": "n/a"
+ },
+ {
+  "id": "MVST-1794415567",
+  "ts_kst": "2026-11-12 01:46",
+  "ts_utc": "2026-11-11T16:46:07+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "MVST",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.5% · 거래량 평소의 9.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MVST 장중 급등 포착",
+  "body": "$0.288 (+30.5%) · 정규장 · 레벨 1 · 점수 19\n$0.300 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +30.5% · 거래량 평소의 9.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 33%\n추천 매수가 $0.274 지정가(기준가 $0.288의 −5%) · 체결 가능성 약 82% · 손익분기 $0.277\n숏 지지구간 $0.200–$0.250 · 손절 $0.150 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2881,
+  "level": 1,
+  "score": 19.3,
+  "prob": 33.325381143457186,
+  "cp": 54.870483254337465,
+  "rl": 0.3,
+  "stop": 0.15000000000000002,
+  "zone": [
+   0.2,
+   0.25
+  ],
+  "bp": 0.2737,
+  "tgt": 0.3,
+  "stp": 0.15000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210726004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210726004",
+  "grade": "open"
  }
 ]
