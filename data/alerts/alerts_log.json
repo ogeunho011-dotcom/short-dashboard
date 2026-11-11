@@ -21945,10 +21945,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191231025%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191231025",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 3
+  "grade": "hit",
+  "grade_day": 5,
+  "grade_ret": 0.02403533568904604,
+  "graded_bars": 5
  },
  {
   "id": "TREE-1793810387",
@@ -53197,5 +53197,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20171129002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20171129002",
   "grade": "n/a"
+ },
+ {
+  "id": "BGS-1794416775",
+  "ts_kst": "2026-11-12 02:06",
+  "ts_utc": "2026-11-11T17:06:15+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BGS",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +27.6% · 거래량 평소의 12.8배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 BGS 장중 급등 포착 · 상위 확률 신호",
+  "body": "$3.395 (+27.6%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $3.80 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +27.6% · 거래량 평소의 12.8배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.225 지정가(기준가 $3.395의 −5%) · 체결 가능성 약 38% · 손익분기 $3.264\n숏 지지구간 $3.200–$3.300 · 손절 $3.100 · 1차목표 $3.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.395,
+  "level": 3,
+  "score": 44.4,
+  "prob": 53.44827586206896,
+  "cp": 51.616021699400946,
+  "rl": 3.7999999999999976,
+  "stop": 3.0999999999999983,
+  "zone": [
+   3.1999999999999984,
+   3.2999999999999985
+  ],
+  "bp": 3.2252,
+  "tgt": 3.7999999999999976,
+  "stp": 3.0999999999999983,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070523001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070523001",
+  "grade": "open"
  }
 ]
