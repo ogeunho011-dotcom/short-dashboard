@@ -50003,5 +50003,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
   "grade": "open"
+ },
+ {
+  "id": "SHFS-1794399840",
+  "ts_kst": "2026-11-11 21:24",
+  "ts_utc": "2026-11-11T12:24:00+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "SHFS",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +102.0%"
+  ],
+  "title": "🚀 SHFS 프리마켓 갭",
+  "body": "$0.030 (+102.0%) · 프리마켓 · 레벨 3 · 점수 44\n시장에 도는 주식 1,233만 주뿐이라 쉽게 크게 움직임 · 최근 회사 공시 있음 · 갭 상승 후 밀리는 중\n• 프리마켓 갭 +102.0%\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $0.025 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -16.3%) · 체결 가능성 약 84% · 손익분기 $0.026\n숏 지지구간 $0.021–$0.030 · 손절 $0.015 · 1차목표 $0.046\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-30\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0304,
+  "level": 3,
+  "score": 43.6,
+  "prob": 12.916666666666668,
+  "cp": 2.0,
+  "rl": 0.75,
+  "stop": 0.0152,
+  "zone": [
+   0.02128,
+   0.0304
+  ],
+  "bp": 0.0254,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-30",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220929002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220929002",
+  "grade": "n/a"
  }
 ]
