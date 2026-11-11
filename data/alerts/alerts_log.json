@@ -1004,7 +1004,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19921223001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19921223001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 10,
+  "grade_ret": -0.002394732681856077,
+  "graded_bars": 10
  },
  {
   "id": "KPTI-1793220609",
@@ -1438,7 +1441,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19921223001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19921223001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 10,
+  "grade_ret": -0.0027923271008574117,
+  "graded_bars": 10
  },
  {
   "id": "KPTI-1793231089",
@@ -51362,5 +51368,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210217004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210217004",
   "grade": "open"
+ },
+ {
+  "id": "HUHU-1794408608",
+  "ts_kst": "2026-11-11 23:50",
+  "ts_utc": "2026-11-11T14:50:08+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "HUHU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +37.8% · 거래량 평소의 138.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HUHU 장중 급등 포착",
+  "body": "$0.525 (+37.8%) · 정규장 · 레벨 4 · 점수 65\n오늘 거래량 평소의 42배 이상, 관심 급증 · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 전일 대비 +37.8% · 거래량 평소의 138.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.490 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.7%) · 체결 가능성 약 82% · 손익분기 $0.496\n숏 지지구간 $0.368–$0.500 · 손절 $0.263 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5252,
+  "level": 4,
+  "score": 64.7,
+  "prob": 38.456237077877326,
+  "cp": 39.80495504420663,
+  "rl": 1.0,
+  "stop": 0.26260000467300415,
+  "zone": [
+   0.3676400065422058,
+   0.5
+  ],
+  "bp": 0.4898,
+  "tgt": 1.0,
+  "stp": 0.26260000467300415,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241022002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241022002",
+  "grade": "open"
+ },
+ {
+  "id": "SCKT-1794408608",
+  "ts_kst": "2026-11-11 23:50",
+  "ts_utc": "2026-11-11T14:50:08+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "SCKT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +25.9% · 거래량 평소의 11.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SCKT 장중 급등 포착",
+  "body": "$0.315 (+25.9%) · 정규장 · 레벨 3 · 점수 43\n시장에 도는 주식 829만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 4배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +25.9% · 거래량 평소의 11.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.299 지정가(기준가 $0.315의 −5%) · 체결 가능성 약 76% · 손익분기 $0.303\n숏 지지구간 $0.250–$0.315 · 손절 $0.157 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3148,
+  "level": 3,
+  "score": 43.0,
+  "prob": 25.252525252525253,
+  "cp": 2.0,
+  "rl": 0.75,
+  "stop": 0.1573999971151352,
+  "zone": [
+   0.25,
+   0.3147999942302704
+  ],
+  "bp": 0.2991,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160622001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160622001",
+  "grade": "n/a"
  }
 ]
