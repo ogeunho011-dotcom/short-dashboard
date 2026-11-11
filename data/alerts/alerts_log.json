@@ -38676,7 +38676,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200501001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200501001",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 2
  },
  {
   "id": "TMCI-1794235703",
@@ -43873,7 +43876,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230320002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230320002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "SPAI-fil-0001493152-26-050883",
@@ -51316,6 +51322,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210726004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210726004",
+  "grade": "open"
+ },
+ {
+  "id": "AUUD-1794408465",
+  "ts_kst": "2026-11-11 23:47",
+  "ts_utc": "2026-11-11T14:47:45+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "AUUD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.3% · 거래량 평소의 2969.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AUUD 장중 급등 포착",
+  "body": "$0.291 (+21.3%) · 정규장 · 레벨 3 · 점수 46\n$0.400 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 580만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +21.3% · 거래량 평소의 2969.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.277 지정가(기준가 $0.291의 −5%) · 체결 가능성 약 83% · 손익분기 $0.280\n숏 지지구간 $0.200–$0.291 · 손절 $0.146 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2912,
+  "level": 3,
+  "score": 45.8,
+  "prob": 38.456237077877326,
+  "cp": 42.427137726632935,
+  "rl": 0.4000000000000001,
+  "stop": 0.14560000598430634,
+  "zone": [
+   0.2,
+   0.29120001196861267
+  ],
+  "bp": 0.2766,
+  "tgt": 0.4000000000000001,
+  "stp": 0.14560000598430634,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210217004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210217004",
   "grade": "open"
  }
 ]
