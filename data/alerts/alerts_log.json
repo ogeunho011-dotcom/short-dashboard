@@ -52038,5 +52038,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250328003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250328003",
   "grade": "n/a"
+ },
+ {
+  "id": "NWTG-1794411952",
+  "ts_kst": "2026-11-12 00:45",
+  "ts_utc": "2026-11-11T15:45:52+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "NWTG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.5% · 거래량 평소의 29.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NWTG 장중 급등 포착",
+  "body": "$0.856 (+22.5%) · 정규장 · 레벨 3 · 점수 41\n$0.900 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 542만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +22.5% · 거래량 평소의 29.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.813 지정가(기준가 $0.856의 −5%) · 체결 가능성 약 75% · 손익분기 $0.823\n숏 지지구간 $0.750–$0.800 · 손절 $0.700 · 1차목표 $0.900\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8563,
+  "level": 3,
+  "score": 41.3,
+  "prob": 38.456237077877326,
+  "cp": 52.79802285586474,
+  "rl": 0.9000000000000004,
+  "stop": 0.7000000000000002,
+  "zone": [
+   0.7500000000000002,
+   0.8000000000000003
+  ],
+  "bp": 0.8135,
+  "tgt": 0.9000000000000004,
+  "stp": 0.7000000000000002,
+  "penalties": [
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/10)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230815006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230815006",
+  "grade": "open"
+ },
+ {
+  "id": "OBAI-1794411952",
+  "ts_kst": "2026-11-12 00:45",
+  "ts_utc": "2026-11-11T15:45:52+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "OBAI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.9% · 거래량 평소의 26.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OBAI 장중 급등 포착",
+  "body": "$1.890 (+18.9%) · 정규장 · 레벨 2 · 점수 26\n시장에 도는 주식 150만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 8배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +18.9% · 거래량 평소의 26.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.851 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -2.1%) · 체결 가능성 약 83% · 손익분기 $1.873\n숏 지지구간 $1.323–$1.890 · 손절 $0.945 · 1차목표 $5.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-19\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.89,
+  "level": 2,
+  "score": 25.5,
+  "prob": 38.456237077877326,
+  "cp": 22.825449884379758,
+  "rl": 5.0,
+  "stop": 0.9449999928474426,
+  "zone": [
+   1.3229999899864195,
+   1.8899999856948853
+  ],
+  "bp": 1.8506,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-19",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2602004001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2602004001",
+  "grade": "n/a"
  }
 ]
