@@ -50166,5 +50166,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230202007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230202007",
   "grade": "n/a"
+ },
+ {
+  "id": "TANH-1794405146",
+  "ts_kst": "2026-11-11 22:52",
+  "ts_utc": "2026-11-11T13:52:26+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "TANH",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 72/100"
+  ],
+  "title": "🚀 TANH 커버 압력",
+  "body": "$34.470 (+17.0%) · 프리마켓 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $39.90 넘으면 급등 가능성 ↑ · 시장에 도는 주식 621만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 커버 압력 72/100\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $32.746 지정가(기준가 $34.470의 −5%) · 체결 가능성 약 74% · 손익분기 $33.142\n숏 지지구간 $24.129–$24.129 · 손절 $17.235 · 1차목표 $39.898\n⚠ 역분할 2026-09-04\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 34.47,
+  "level": 3,
+  "score": 44.4,
+  "prob": 28.643216080402006,
+  "cp": 72.48066123201119,
+  "rl": 39.89799880981445,
+  "stop": 17.235,
+  "zone": [
+   24.128999999999998,
+   24.128999999999998
+  ],
+  "bp": 32.7465,
+  "tgt": 39.89799880981445,
+  "stp": 17.235,
+  "penalties": [
+   "역분할 2026-09-04"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150324005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150324005",
+  "grade": "open"
  }
 ]
