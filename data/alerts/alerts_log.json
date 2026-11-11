@@ -55656,5 +55656,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150309001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150309001",
   "grade": "open"
+ },
+ {
+  "id": "PLCE-1794440029",
+  "ts_kst": "2026-11-12 08:33",
+  "ts_utc": "2026-11-11T23:33:49+00:00",
+  "date_et": "2026-11-11",
+  "session": "post",
+  "ticker": "PLCE",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)"
+  ],
+  "title": "🚀 PLCE 상위 확률 신호",
+  "body": "$0.877 (+387.3%) · 애프터마켓 · 레벨 4 · 점수 55\n공매도 물량 대부분 손해 중, $1.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 10배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 48%)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.833 지정가(기준가 $0.877의 −5%) · 체결 가능성 약 75% · 손익분기 $0.843\n숏 지지구간 $0.614–$0.614 · 손절 $0.439 · 1차목표 $1.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8772,
+  "level": 4,
+  "score": 55.1,
+  "prob": 47.808764940239065,
+  "cp": 64.45226776201929,
+  "rl": 1.25,
+  "stop": 0.4386,
+  "zone": [
+   0.6140399999999999,
+   0.6140399999999999
+  ],
+  "bp": 0.8333,
+  "tgt": 1.25,
+  "stp": 0.4386,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19970919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19970919001",
+  "grade": "open"
  }
 ]
