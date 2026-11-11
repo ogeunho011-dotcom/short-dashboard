@@ -54322,5 +54322,132 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250819011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250819011",
   "grade": "n/a"
+ },
+ {
+  "id": "BURU-1794423356",
+  "ts_kst": "2026-11-12 03:55",
+  "ts_utc": "2026-11-11T18:55:56+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BURU",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 809k (당일 평균 5.6배)"
+  ],
+  "title": "🚀 BURU 거래량 급증",
+  "body": "$0.274 (+36.0%) · 정규장 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 926만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 거래량 809k (당일 평균 5.6배)\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $0.260 지정가(기준가 $0.274의 −5%) · 체결 가능성 약 83% · 손익분기 $0.264\n숏 지지구간 $0.192–$0.274 · 손절 $0.137 · 1차목표 $0.411\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-02\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2741,
+  "level": 3,
+  "score": 50.8,
+  "prob": 41.15942028985507,
+  "cp": 36.94392245612973,
+  "rl": 1.5,
+  "stop": 0.13705000281333923,
+  "zone": [
+   0.19187000393867493,
+   0.27410000562667847
+  ],
+  "bp": 0.2604,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-02",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
+  "grade": "n/a"
+ },
+ {
+  "id": "FOSL-1794423356",
+  "ts_kst": "2026-11-12 03:55",
+  "ts_utc": "2026-11-11T18:55:56+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "FOSL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.7% · 거래량 평소의 11.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FOSL 장중 급등 포착",
+  "body": "$10.050 (+27.7%) · 정규장 · 레벨 2 · 점수 37\n공매도 물량 대부분 손해 중, $10.50 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 11배 이상, 관심 급증\n• 전일 대비 +27.7% · 거래량 평소의 11.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $9.548 지정가(기준가 $10.050의 −5%) · 체결 가능성 약 39% · 손익분기 $9.663\n숏 지지구간 $9.000–$9.500 · 손절 $8.750 · 1차목표 $10.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.05,
+  "level": 2,
+  "score": 37.4,
+  "prob": 53.44827586206896,
+  "cp": 62.273129084842004,
+  "rl": 10.5,
+  "stop": 8.75,
+  "zone": [
+   9.0,
+   9.5
+  ],
+  "bp": 9.5475,
+  "tgt": 10.5,
+  "stp": 8.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930408001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930408001",
+  "grade": "open"
+ },
+ {
+  "id": "GIPR-1794423356",
+  "ts_kst": "2026-11-12 03:55",
+  "ts_utc": "2026-11-11T18:55:56+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "GIPR",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +26.2% · 거래량 평소의 19.8배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 1,880k (당일 평균 45.9배)"
+  ],
+  "title": "🚀 GIPR 장중 급등 포착 · 거래량 급증",
+  "body": "$0.290 (+26.2%) · 정규장 · 레벨 3 · 점수 48\n시장에 도는 주식 186만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 16배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +26.2% · 거래량 평소의 19.8배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 1,880k (당일 평균 45.9배)\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.275 지정가(기준가 $0.290의 −5%) · 체결 가능성 약 72% · 손익분기 $0.278\n숏 지지구간 $0.203–$0.250 · 손절 $0.145 · 1차목표 $0.700\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2896,
+  "level": 3,
+  "score": 48.3,
+  "prob": 28.643216080402006,
+  "cp": 2.5469265986998817,
+  "rl": 0.7000000000000001,
+  "stop": 0.14480000734329224,
+  "zone": [
+   0.20272001028060913,
+   0.25000000596046446
+  ],
+  "bp": 0.2751,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211004006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211004006",
+  "grade": "n/a"
  }
 ]
