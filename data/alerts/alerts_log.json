@@ -51628,5 +51628,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240209005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240209005",
   "grade": "open"
+ },
+ {
+  "id": "ZDGE-1794410431",
+  "ts_kst": "2026-11-12 00:20",
+  "ts_utc": "2026-11-11T15:20:31+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "ZDGE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.5% · 거래량 평소의 39.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZDGE 장중 급등 포착",
+  "body": "$2.875 (+24.5%) · 정규장 · 레벨 2 · 점수 30\n$3.20 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 9배 이상, 관심 급증\n• 전일 대비 +24.5% · 거래량 평소의 39.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.731 지정가(기준가 $2.875의 −5%) · 체결 가능성 약 58% · 손익분기 $2.764\n숏 지지구간 $2.650–$2.729 · 손절 $2.600 · 1차목표 $3.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.8749,
+  "level": 2,
+  "score": 30.4,
+  "prob": 53.44827586206896,
+  "cp": 36.504936625781745,
+  "rl": 3.199999999999996,
+  "stop": 2.5999999999999983,
+  "zone": [
+   2.649999999999998,
+   2.7287150359153736
+  ],
+  "bp": 2.7312,
+  "tgt": 3.199999999999996,
+  "stp": 2.5999999999999983,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160602005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160602005",
+  "grade": "open"
  }
 ]
