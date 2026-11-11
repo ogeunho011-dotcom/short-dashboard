@@ -50251,5 +50251,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
   "grade": "n/a"
+ },
+ {
+  "id": "YMAT-1794406206",
+  "ts_kst": "2026-11-11 23:10",
+  "ts_utc": "2026-11-11T14:10:06+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "YMAT",
+  "types": [
+   "spike",
+   "pregap"
+  ],
+  "msgs": [
+   "5분 +10.9% 급변 · 전일 대비 +41.6% — 추격 매수 주의",
+   "프리마켓 갭 +41.6%"
+  ],
+  "title": "🚀 YMAT 장중 급등 포착 · 프리마켓 갭",
+  "body": "$1.430 (+41.6%) · 프리마켓 · 레벨 3 · 점수 41\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,395만 주뿐이라 쉽게 크게 움직임\n• 5분 +10.9% 급변 · 전일 대비 +41.6% — 추격 매수 주의\n• 프리마켓 갭 +41.6%\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $1.358 지정가(기준가 $1.430의 −5%) · 체결 가능성 약 81% · 손익분기 $1.375\n숏 지지구간 $1.000–$1.250 · 손절 $0.875 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.43,
+  "level": 3,
+  "score": 40.8,
+  "prob": 21.428571428571427,
+  "cp": 41.84519695059167,
+  "rl": 1.5,
+  "stop": 0.875,
+  "zone": [
+   1.0,
+   1.25
+  ],
+  "bp": 1.3585,
+  "tgt": 1.5,
+  "stp": 0.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250730006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250730006",
+  "grade": "open"
  }
 ]
