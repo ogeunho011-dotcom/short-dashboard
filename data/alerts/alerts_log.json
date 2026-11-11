@@ -40179,10 +40179,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX2602020001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX2602020001",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.03937521815008727,
+  "graded_bars": 2
  },
  {
   "id": "MFI-1794243850",
@@ -53035,6 +53035,84 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231019005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231019005",
+  "grade": "open"
+ },
+ {
+  "id": "PLCE-1794416159",
+  "ts_kst": "2026-11-12 01:55",
+  "ts_utc": "2026-11-11T16:55:59+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "PLCE",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 571k (당일 평균 6.5배)"
+  ],
+  "title": "🚀 PLCE 거래량 급증",
+  "body": "$0.224 (+24.3%) · 정규장 · 레벨 3 · 점수 43\n최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 5분 거래량 571k (당일 평균 6.5배)\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.213 지정가(기준가 $0.224의 −5%) · 체결 가능성 약 85% · 손익분기 $0.215\n숏 지지구간 $0.157–$0.224 · 손절 $0.112 · 1차목표 $0.336\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2238,
+  "level": 3,
+  "score": 43.3,
+  "prob": 38.456237077877326,
+  "cp": 36.51237150414198,
+  "rl": 0.75,
+  "stop": 0.11190000176429749,
+  "zone": [
+   0.15666000247001646,
+   0.22380000352859497
+  ],
+  "bp": 0.2126,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19970919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19970919001",
+  "grade": "n/a"
+ },
+ {
+  "id": "AUUD-1794416159",
+  "ts_kst": "2026-11-12 01:55",
+  "ts_utc": "2026-11-11T16:55:59+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "AUUD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.7% · 거래량 평소의 1316.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AUUD 장중 급등 포착",
+  "body": "$0.292 (+21.7%) · 정규장 · 레벨 3 · 점수 51\n$0.400 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 580만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +21.7% · 거래량 평소의 1316.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.278 지정가(기준가 $0.292의 −5%) · 체결 가능성 약 82% · 손익분기 $0.281\n숏 지지구간 $0.200–$0.292 · 손절 $0.146 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2922,
+  "level": 3,
+  "score": 50.6,
+  "prob": 45.01661129568107,
+  "cp": 45.84823168833791,
+  "rl": 0.4000000000000001,
+  "stop": 0.1460999995470047,
+  "zone": [
+   0.2,
+   0.2921999990940094
+  ],
+  "bp": 0.2776,
+  "tgt": 0.4000000000000001,
+  "stp": 0.1460999995470047,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210217004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210217004",
   "grade": "open"
  }
 ]
