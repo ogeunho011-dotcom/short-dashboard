@@ -33919,10 +33919,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250226004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250226004",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 3,
+  "grade_ret": 0.27872224650559596,
+  "graded_bars": 3
  },
  {
   "id": "BLNK-1793977810",
@@ -51502,6 +51502,89 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190405002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190405002",
+  "grade": "open"
+ },
+ {
+  "id": "BGS-1794409532",
+  "ts_kst": "2026-11-12 00:05",
+  "ts_utc": "2026-11-11T15:05:32+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BGS",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +26.1% · 거래량 평소의 21.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 BGS 장중 급등 포착 · 상위 확률 신호",
+  "body": "$3.355 (+26.1%) · 정규장 · 레벨 3 · 점수 46\n공매도 물량 대부분 손해 중, $3.80 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +26.1% · 거래량 평소의 21.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.187 지정가(기준가 $3.355의 −5%) · 체결 가능성 약 38% · 손익분기 $3.226\n숏 지지구간 $3.200–$3.300 · 손절 $3.100 · 1차목표 $3.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.355,
+  "level": 3,
+  "score": 46.4,
+  "prob": 53.44827586206896,
+  "cp": 50.81538957223798,
+  "rl": 3.7999999999999976,
+  "stop": 3.0999999999999983,
+  "zone": [
+   3.1999999999999984,
+   3.2999999999999985
+  ],
+  "bp": 3.1873,
+  "tgt": 3.7999999999999976,
+  "stp": 3.0999999999999983,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070523001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070523001",
+  "grade": "open"
+ },
+ {
+  "id": "BTLN-1794409532",
+  "ts_kst": "2026-11-12 00:05",
+  "ts_utc": "2026-11-11T15:05:32+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BTLN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.8% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BTLN 장중 급등 포착",
+  "body": "$4.200 (+16.8%) · 정규장 · 레벨 1 · 점수 11\n$4.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 271만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.8% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $3.990 지정가(기준가 $4.200의 −5%) · 체결 가능성 약 65% · 손익분기 $4.038\n숏 지지구간 $3.250–$3.582 · 손절 $3.125 · 1차목표 $4.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-28\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.2,
+  "level": 1,
+  "score": 11.3,
+  "prob": 28.661275522057554,
+  "cp": 49.40666580219061,
+  "rl": 4.5,
+  "stop": 3.125,
+  "zone": [
+   3.25,
+   3.582499933242798
+  ],
+  "bp": 3.99,
+  "tgt": 4.5,
+  "stp": 3.125,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-28"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210701007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210701007",
   "grade": "open"
  }
 ]
