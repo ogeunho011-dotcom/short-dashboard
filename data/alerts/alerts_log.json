@@ -54449,5 +54449,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211004006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211004006",
   "grade": "n/a"
+ },
+ {
+  "id": "PLCE-1794423521",
+  "ts_kst": "2026-11-12 03:58",
+  "ts_utc": "2026-11-11T18:58:41+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "PLCE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.7% · 거래량 평소의 6.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PLCE 장중 급등 포착",
+  "body": "$0.217 (+20.7%) · 정규장 · 레벨 3 · 점수 53\n오늘 거래량 평소의 9배 이상, 관심 급증 · 최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 전일 대비 +20.7% · 거래량 평소의 6.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.206 지정가(기준가 $0.217의 −5%) · 체결 가능성 약 85% · 손익분기 $0.209\n숏 지지구간 $0.152–$0.217 · 손절 $0.109 · 1차목표 $0.326\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2172,
+  "level": 3,
+  "score": 52.9,
+  "prob": 38.456237077877326,
+  "cp": 38.12892065898903,
+  "rl": 0.75,
+  "stop": 0.10859999805688858,
+  "zone": [
+   0.152039997279644,
+   0.21719999611377716
+  ],
+  "bp": 0.2063,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19970919001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19970919001",
+  "grade": "n/a"
  }
 ]
