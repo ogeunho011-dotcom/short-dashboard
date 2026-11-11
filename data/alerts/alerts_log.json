@@ -26778,7 +26778,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 4
  },
  {
   "id": "PRE-fil-0001628280-26-070655",
@@ -53909,6 +53912,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250723002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250723002",
+  "grade": "open"
+ },
+ {
+  "id": "BGL-1794420656",
+  "ts_kst": "2026-11-12 03:10",
+  "ts_utc": "2026-11-11T18:10:56+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BGL",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 1,238k (당일 평균 68.5배)"
+  ],
+  "title": "🚀 BGL 거래량 급증",
+  "body": "$0.122 (+30.6%) · 정규장 · 레벨 3 · 점수 42\n$0.140 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 978만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 1,238k (당일 평균 68.5배)\n10일 내 셋업 성공 확률(보정): 43%\n추천 매수가 $0.119 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -2.6%) · 체결 가능성 약 82% · 손익분기 $0.120\n숏 지지구간 $0.120–$0.122 · 손절 $0.110 · 1차목표 $0.140\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1217,
+  "level": 3,
+  "score": 42.2,
+  "prob": 42.523537819433535,
+  "cp": 19.472414867758086,
+  "rl": 0.13999999999999996,
+  "stop": 0.10999999999999999,
+  "zone": [
+   0.11999999999999998,
+   0.1216999962925911
+  ],
+  "bp": 0.1185,
+  "tgt": 0.13999999999999996,
+  "stp": 0.10999999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250626004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250626004",
   "grade": "open"
  }
 ]
