@@ -41159,7 +41159,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930012",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.10798845413726699,
+  "graded_bars": 2
  },
  {
   "id": "WCT-1794250443",
@@ -53825,6 +53828,87 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20151218001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20151218001",
+  "grade": "open"
+ },
+ {
+  "id": "BSEM-1794420377",
+  "ts_kst": "2026-11-12 03:06",
+  "ts_utc": "2026-11-11T18:06:17+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BSEM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +31.4% · 거래량 평소의 5.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BSEM 장중 급등 포착",
+  "body": "$1.340 (+31.4%) · 정규장 · 레벨 1 · 점수 19\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,784만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +31.4% · 거래량 평소의 5.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $1.273 지정가(기준가 $1.340의 −5%) · 체결 가능성 약 74% · 손익분기 $1.288\n숏 지지구간 $1.250–$1.340 · 손절 $1.000 · 1차목표 $2.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/13)\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.34,
+  "level": 1,
+  "score": 19.2,
+  "prob": 31.25,
+  "cp": 12.367684162049835,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.340000033378601
+  ],
+  "bp": 1.273,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/13)",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608007002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608007002",
+  "grade": "open"
+ },
+ {
+  "id": "CARL-1794420377",
+  "ts_kst": "2026-11-12 03:06",
+  "ts_utc": "2026-11-11T18:06:17+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CARL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.9% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CARL 장중 급등 포착",
+  "body": "$17.920 (+21.9%) · 정규장 · 레벨 1 · 점수 24\n공매도 물량 대부분 손해 중, $18.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +21.9% · 거래량 평소의 6.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $17.024 지정가(기준가 $17.920의 −5%) · 체결 가능성 약 47% · 손익분기 $17.229\n숏 지지구간 $17.000–$17.500 · 손절 $16.500 · 1차목표 $18.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 17.9199,
+  "level": 1,
+  "score": 23.6,
+  "prob": 53.44827586206896,
+  "cp": 99.7033366450557,
+  "rl": 18.0,
+  "stop": 16.5,
+  "zone": [
+   17.0,
+   17.5
+  ],
+  "bp": 17.0239,
+  "tgt": 20.7,
+  "stp": 16.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250723002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250723002",
   "grade": "open"
  }
 ]
