@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TTRX",
-  "form": "8-K",
-  "acc": "0001213900-26-117781",
-  "items": "7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:05:32+00:00",
-  "accepted_kst": "11/10 22:05",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "November 2026 Corporate Presentation Forward - Looking Statements & Safe Harbor Except for historical information set forth herein, the matters set forth in thi",
-  "url": "https://www.sec.gov/Archives/edgar/data/2023016/000121390026117781/0001213900-26-117781-index.htm",
-  "seen_kst": "2026-11-10 22:08"
- },
- {
   "ticker": "PDSB",
   "form": "8-K",
   "acc": "0001140361-26-042898",
@@ -8709,5 +8692,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1527541/000121390026118073/0001213900-26-118073-index.htm",
   "seen_kst": "2026-11-12 03:33"
+ },
+ {
+  "ticker": "BIOT",
+  "form": "SCHEDULE 13G",
+  "acc": "0001753926-26-002098",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:53:32+00:00",
+  "accepted_kst": "11/11 06:53",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2072188/000175392626002098/0001753926-26-002098-index.htm",
+  "seen_kst": "2026-11-12 04:33"
  }
 ]
