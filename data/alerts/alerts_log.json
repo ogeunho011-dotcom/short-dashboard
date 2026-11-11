@@ -50334,5 +50334,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250321007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250321007",
   "grade": "open"
+ },
+ {
+  "id": "BRAI-1794406799",
+  "ts_kst": "2026-11-11 23:19",
+  "ts_utc": "2026-11-11T14:19:59+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "BRAI",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +20.4%"
+  ],
+  "title": "🚀 BRAI 프리마켓 갭",
+  "body": "$2.150 (+20.4%) · 프리마켓 · 레벨 3 · 점수 40\n$2 다시 회복\n• 프리마켓 갭 +20.4%\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $2.086 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.0%) · 체결 가능성 약 85% · 손익분기 $2.111\n숏 지지구간 $2.000–$2.150 · 손절 $1.750 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.15,
+  "level": 3,
+  "score": 40.0,
+  "prob": 21.428571428571427,
+  "cp": 2.1699475767654914,
+  "rl": 4.0,
+  "stop": 1.75,
+  "zone": [
+   2.0,
+   2.15
+  ],
+  "bp": 2.0863,
+  "tgt": 4.0,
+  "stp": 1.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2602012003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2602012003",
+  "grade": "open"
  }
 ]
