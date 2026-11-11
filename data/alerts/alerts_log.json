@@ -7857,7 +7857,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220209001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 8,
+  "grade_ret": -0.36167010309278347,
+  "graded_bars": 8
  },
  {
   "id": "PLRZ-1793372638",
@@ -8960,7 +8963,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220209001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 8,
+  "grade_ret": -0.3530539072294192,
+  "graded_bars": 8
  },
  {
   "id": "NIPG-1793380317",
@@ -9639,7 +9645,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220209001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 8,
+  "grade_ret": -0.32665217391304346,
+  "graded_bars": 8
  },
  {
   "id": "WKHS-1793387227",
@@ -55348,5 +55357,94 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230918004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230918004",
   "grade": "n/a"
+ },
+ {
+  "id": "WHLR-1794428778",
+  "ts_kst": "2026-11-12 05:26",
+  "ts_utc": "2026-11-11T20:26:18+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "WHLR",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +111.7% · 거래량 평소의 29.6배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 571k (당일 평균 16.4배)"
+  ],
+  "title": "🚀 WHLR 장중 급등 포착 · 거래량 급증",
+  "body": "$0.705 (+111.7%) · 정규장 · 레벨 3 · 점수 44\n시장에 도는 주식 179만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +111.7% · 거래량 평소의 29.6배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 571k (당일 평균 16.4배)\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.670 지정가(기준가 $0.705의 −5%) · 체결 가능성 약 84% · 손익분기 $0.678\n숏 지지구간 $0.493–$0.705 · 손절 $0.352 · 1차목표 $1.057\n⚠ 424B 증자 설명서 24건 (30일 내, 최근 11/09)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-30\n⚠ 희석 위험 80/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.705,
+  "level": 3,
+  "score": 43.5,
+  "prob": 24.587706146926536,
+  "cp": 22.0,
+  "rl": 75.0,
+  "stop": 0.35249999165534973,
+  "zone": [
+   0.4934999883174896,
+   0.7049999833106995
+  ],
+  "bp": 0.6697,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 24건 (30일 내, 최근 11/09)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-30",
+   "희석 위험 80/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20121119001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20121119001",
+  "grade": "n/a"
+ },
+ {
+  "id": "LSTA-1794428778",
+  "ts_kst": "2026-11-12 05:26",
+  "ts_utc": "2026-11-11T20:26:18+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "LSTA",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +23.5% · 거래량 평소의 17.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 LSTA 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.260 (+23.5%) · 정규장 · 레벨 3 · 점수 51\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 901만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +23.5% · 거래량 평소의 17.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.197 지정가(기준가 $1.260의 −5%) · 체결 가능성 약 59% · 손익분기 $1.211\n숏 지지구간 $1.000–$1.250 · 손절 $0.750 · 1차목표 $1.500\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.26,
+  "level": 3,
+  "score": 51.1,
+  "prob": 52.91666666666666,
+  "cp": 20.118708894395088,
+  "rl": 1.5,
+  "stop": 0.75,
+  "zone": [
+   1.0,
+   1.25
+  ],
+  "bp": 1.197,
+  "tgt": 1.5,
+  "stp": 0.75,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220915004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220915004",
+  "grade": "open"
  }
 ]
