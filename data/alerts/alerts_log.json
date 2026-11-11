@@ -50207,5 +50207,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150324005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150324005",
   "grade": "open"
+ },
+ {
+  "id": "BURU-1794405741",
+  "ts_kst": "2026-11-11 23:02",
+  "ts_utc": "2026-11-11T14:02:21+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "BURU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +15.1% 급변 · 전일 대비 +25.0% — 추격 매수 주의"
+  ],
+  "title": "⚡ BURU 장중 급등 포착",
+  "body": "$0.252 (+25.0%) · 프리마켓 · 레벨 2 · 점수 29\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 926만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +15.1% 급변 · 전일 대비 +25.0% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.239 지정가(기준가 $0.252의 −5%) · 체결 가능성 약 83% · 손익분기 $0.242\n숏 지지구간 $0.176–$0.252 · 손절 $0.126 · 1차목표 $0.378\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-02\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.252,
+  "level": 2,
+  "score": 29.2,
+  "prob": 38.456237077877326,
+  "cp": 36.38445143424811,
+  "rl": 1.5,
+  "stop": 0.126,
+  "zone": [
+   0.1764,
+   0.252
+  ],
+  "bp": 0.2394,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-02",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
+  "grade": "n/a"
  }
 ]
