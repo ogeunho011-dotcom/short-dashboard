@@ -53535,5 +53535,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250328003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250328003",
   "grade": "n/a"
+ },
+ {
+  "id": "CRVO-1794419014",
+  "ts_kst": "2026-11-12 02:43",
+  "ts_utc": "2026-11-11T17:43:34+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CRVO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.7% · 거래량 평소의 57.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CRVO 장중 급등 포착",
+  "body": "$1.790 (+30.7%) · 정규장 · 레벨 2 · 점수 36\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,513만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +30.7% · 거래량 평소의 57.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.700 지정가(기준가 $1.790의 −5%) · 체결 가능성 약 68% · 손익분기 $1.721\n숏 지지구간 $1.250–$1.500 · 손절 $1.000 · 1차목표 $2.000\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.79,
+  "level": 2,
+  "score": 35.8,
+  "prob": 47.808764940239065,
+  "cp": 36.82518873331195,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.7005,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161109017%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161109017",
+  "grade": "open"
+ },
+ {
+  "id": "CLLS-1794419014",
+  "ts_kst": "2026-11-12 02:43",
+  "ts_utc": "2026-11-11T17:43:34+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CLLS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.7% · 거래량 평소의 7.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CLLS 장중 급등 포착",
+  "body": "$1.435 (+28.7%) · 정규장 · 레벨 2 · 점수 34\n$1.75 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +28.7% · 거래량 평소의 7.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.363 지정가(기준가 $1.435의 −5%) · 체결 가능성 약 58% · 손익분기 $1.380\n숏 지지구간 $1.000–$1.250 · 손절 $0.750 · 1차목표 $1.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.435,
+  "level": 2,
+  "score": 34.5,
+  "prob": 53.44827586206896,
+  "cp": 31.094819248021906,
+  "rl": 1.75,
+  "stop": 0.75,
+  "zone": [
+   1.0,
+   1.25
+  ],
+  "bp": 1.3632,
+  "tgt": 1.75,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150325001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150325001",
+  "grade": "open"
  }
 ]
