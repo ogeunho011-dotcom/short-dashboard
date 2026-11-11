@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "PDSB",
-  "form": "8-K",
-  "acc": "0001140361-26-042898",
-  "items": "8.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:05:36+00:00",
-  "accepted_kst": "11/10 22:05",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "PDS Biotech Announces Exercise of Warrants by NantWorks for Approximately $3.9 Million in Gross Proceeds Princeton, NJ, November 10, 2026 -- PDS Biotechnology C",
-  "url": "https://www.sec.gov/Archives/edgar/data/1472091/000114036126042898/0001140361-26-042898-index.htm",
-  "seen_kst": "2026-11-10 22:08"
- },
- {
   "ticker": "COUR",
   "form": "8-K",
   "acc": "0001651562-26-000075",
@@ -8709,5 +8690,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2072188/000175392626002098/0001753926-26-002098-index.htm",
   "seen_kst": "2026-11-12 04:33"
+ },
+ {
+  "ticker": "CAPR",
+  "form": "10-Q",
+  "acc": "0001104659-26-125355",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T22:25:43+00:00",
+  "accepted_kst": "11/11 07:25",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133869/000110465926125355/0001104659-26-125355-index.htm",
+  "seen_kst": "2026-11-12 04:53"
  }
 ]
