@@ -55446,5 +55446,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220915004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220915004",
   "grade": "open"
+ },
+ {
+  "id": "RIME-1794428913",
+  "ts_kst": "2026-11-12 05:28",
+  "ts_utc": "2026-11-11T20:28:33+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "RIME",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 270k (당일 평균 36.5배)"
+  ],
+  "title": "🚀 RIME 거래량 급증",
+  "body": "$0.099 (+23.4%) · 정규장 · 레벨 3 · 점수 42\n$0.120 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,699만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 270k (당일 평균 36.5배)\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $0.094 지정가(기준가 $0.099의 −5%) · 체결 가능성 약 66% · 손익분기 $0.095\n숏 지지구간 $0.060–$0.080 · 손절 $0.049 · 1차목표 $0.120\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0987,
+  "level": 3,
+  "score": 42.1,
+  "prob": 41.15942028985507,
+  "cp": 16.81511985559976,
+  "rl": 0.12000000000000001,
+  "stop": 0.04935000091791153,
+  "zone": [
+   0.06,
+   0.08
+  ],
+  "bp": 0.0938,
+  "tgt": 0.12000000000000001,
+  "stp": 0.04935000091791153,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220524002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220524002",
+  "grade": "open"
  }
 ]
