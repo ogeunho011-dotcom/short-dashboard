@@ -17848,7 +17848,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150803002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150803002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 5
  },
  {
   "id": "FRGT-1793734508",
@@ -33177,7 +33180,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210707004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210707004",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.6291155778894473,
+  "graded_bars": 2
  },
  {
   "id": "CENN-1793975570",
@@ -35669,7 +35675,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210707004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210707004",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.6272121212121212,
+  "graded_bars": 2
  },
  {
   "id": "GOGO-1793989841",
@@ -40680,7 +40689,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19920317011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19920317011",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "HLLY-1794248346",
@@ -49466,6 +49478,207 @@
    "headline": "Chernett Jorey",
    "url": "https://www.sec.gov/Archives/edgar/data/1799191/000092189526003018/0000921895-26-003018-index.htm",
    "accepted_kst": "11/11 08:33",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SMX-1794387848",
+  "ts_kst": "2026-11-11 18:04",
+  "ts_utc": "2026-11-11T09:04:08+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "SMX",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 SMX 상위 확률 신호",
+  "body": "$17.162 (-10.3%) · 프리마켓 · 레벨 5 · 점수 79\n공매도 물량 대부분 손해 중, $25.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 180만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $18.180 지정가(기준가 $19.137의 −5%) · 체결 가능성 약 60% · 손익분기 $18.400\n숏 지지구간 $13.396–$15.000 · 손절 $9.568 · 1차목표 $25.000\n⚠ 역분할 2026-11-09\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 17.162,
+  "level": 5,
+  "score": 79.2,
+  "prob": 52.91666666666666,
+  "cp": 63.20877006501867,
+  "rl": 25.0,
+  "stop": 9.568499565124512,
+  "zone": [
+   13.395899391174316,
+   15.0
+  ],
+  "bp": 18.1801,
+  "tgt": 25.0,
+  "stp": 9.568499565124512,
+  "penalties": [
+   "역분할 2026-11-09"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230308004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230308004",
+  "grade": "open"
+ },
+ {
+  "id": "TTEC-1794387848",
+  "ts_kst": "2026-11-11 18:04",
+  "ts_utc": "2026-11-11T09:04:08+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "TTEC",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 TTEC 상위 확률 신호",
+  "body": "$2.477 (+3.6%) · 프리마켓 · 레벨 3 · 점수 47\n공매도 물량 대부분 손해 중, $2.70 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.280 지정가(기준가 $2.400의 −5%) · 체결 가능성 약 47% · 손익분기 $2.308\n숏 지지구간 $2.300–$2.400 · 손절 $2.200 · 1차목표 $2.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.4769,
+  "level": 3,
+  "score": 47.2,
+  "prob": 53.44827586206896,
+  "cp": 63.4687814256728,
+  "rl": 2.7000000000000015,
+  "stop": 2.200000000000001,
+  "zone": [
+   2.300000000000001,
+   2.4000000000000012
+  ],
+  "bp": 2.28,
+  "tgt": 2.7000000000000015,
+  "stp": 2.200000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960801001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960801001",
+  "grade": "open"
+ },
+ {
+  "id": "PXLW-1794387848",
+  "ts_kst": "2026-11-11 18:04",
+  "ts_utc": "2026-11-11T09:04:08+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "PXLW",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 PXLW 상위 확률 신호",
+  "body": "$7.200 (-1.4%) · 프리마켓 · 레벨 3 · 점수 49\n공매도 물량 대부분 손해 중, $7.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 605만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.854 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.0%) · 체결 가능성 약 31% · 손익분기 $6.937\n숏 지지구간 $6.000–$6.451 · 손절 $5.875 · 1차목표 $7.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.2,
+  "level": 3,
+  "score": 48.6,
+  "prob": 53.44827586206896,
+  "cp": 58.831893506629925,
+  "rl": 7.5,
+  "stop": 5.875,
+  "zone": [
+   6.0,
+   6.451499986648559
+  ],
+  "bp": 6.8542,
+  "tgt": 7.5,
+  "stp": 5.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000519001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000519001",
+  "grade": "open"
+ },
+ {
+  "id": "APT-1794387848",
+  "ts_kst": "2026-11-11 18:04",
+  "ts_utc": "2026-11-11T09:04:08+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "APT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 APT 상위 확률 신호",
+  "body": "$6.250 (+1.5%) · 프리마켓 · 레벨 3 · 점수 42\n공매도 물량 대부분 손해 중, $6.30 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,026만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $6.100–$6.200 · 손절 $6.000 · 1차목표 $6.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.25,
+  "level": 3,
+  "score": 42.0,
+  "prob": 53.40016653781663,
+  "cp": 60.639312491197956,
+  "rl": 6.299999999999995,
+  "stop": 5.9999999999999964,
+  "zone": [
+   6.099999999999996,
+   6.199999999999996
+  ],
+  "bp": null,
+  "tgt": 6.299999999999995,
+  "stp": 5.9999999999999964,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20000404002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20000404002",
+  "grade": "open"
+ },
+ {
+  "id": "LILA-fil-0000937797-26-000039",
+  "ts_kst": "2026-11-11 18:04",
+  "ts_utc": "2026-11-11T09:04:09+00:00",
+  "date_et": "2026-11-11",
+  "session": "filing",
+  "ticker": "LILA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $221,216"
+  ],
+  "title": "📢 LILA 호재 공시",
+  "body": "4 · 내부자 장내 매수 $221,216 (11/11 06:19 KST)\nMALONE JOHN C\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150706003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150706003",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0000937797-26-000039",
+   "items": "",
+   "label": "내부자 장내 매수 $221,216",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "MALONE JOHN C",
+   "url": "https://www.sec.gov/Archives/edgar/data/1712184/000093779726000039/0000937797-26-000039-index.htm",
+   "accepted_kst": "11/11 06:19",
    "polarity": "pos"
   }
  }

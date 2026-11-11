@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "PEPG",
-  "form": "8-K",
-  "acc": "0001193125-26-454469",
-  "items": "2.02,7.01,8.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:00:20+00:00",
-  "accepted_kst": "11/10 22:00",
-  "polarity": "pos",
-  "label": "임상 성공(주요 목표 달성)",
-  "cats": [
-   "임상 성공(주요 목표 달성)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "EX-99.1 2 pepg-ex99_1.htm EX-99.1 PepGen Reports Third Quarter 2026 Financial Results and Recent Corporate Highlights – Positive FREEDOM2-DM1 10 mg/kg cohort re",
-  "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526454469/0001193125-26-454469-index.htm",
-  "seen_kst": "2026-11-10 22:03"
- },
- {
-  "ticker": "IMRN",
-  "form": "6-K",
-  "acc": "0001213900-26-117775",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:00:28+00:00",
-  "accepted_kst": "11/10 22:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Immuron Engages LifeSci Capital as its Exclusive Financial Advisor to Explore Strategic Initiatives Melbourne, Australia, November 10, 2026: Immuron Limited (AS",
-  "url": "https://www.sec.gov/Archives/edgar/data/1660046/000121390026117775/0001213900-26-117775-index.htm",
-  "seen_kst": "2026-11-10 22:03"
- },
- {
   "ticker": "NNOX",
   "form": "6-K",
   "acc": "0001213900-26-117774",
@@ -8711,5 +8675,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1943289/000162828026072920/0001628280-26-072920-index.htm",
   "seen_kst": "2026-11-11 08:45"
+ },
+ {
+  "ticker": "LILA",
+  "form": "4",
+  "acc": "0000937797-26-000039",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:19:43+00:00",
+  "accepted_kst": "11/11 06:19",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $221,216",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "MALONE JOHN C",
+  "url": "https://www.sec.gov/Archives/edgar/data/1712184/000093779726000039/0000937797-26-000039-index.htm",
+  "seen_kst": "2026-11-11 18:04"
+ },
+ {
+  "ticker": "GPUS",
+  "form": "SCHEDULE 13G",
+  "acc": "0001214659-26-013939",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T23:56:06+00:00",
+  "accepted_kst": "11/11 08:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926013939/0001214659-26-013939-index.htm",
+  "seen_kst": "2026-11-11 18:04"
  }
 ]
