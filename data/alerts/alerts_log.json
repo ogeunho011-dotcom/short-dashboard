@@ -3324,7 +3324,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211206007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211206007",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 9,
+  "grade_ret": -0.36702236421725243,
+  "graded_bars": 9
  },
  {
   "id": "NXTS-1793284163",
@@ -53951,6 +53954,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250626004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250626004",
+  "grade": "open"
+ },
+ {
+  "id": "RMSG-1794420814",
+  "ts_kst": "2026-11-12 03:13",
+  "ts_utc": "2026-11-11T18:13:34+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "RMSG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.1% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RMSG 장중 급등 포착",
+  "body": "$0.207 (+21.1%) · 정규장 · 레벨 1 · 점수 23\n$0.260 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 482만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +21.1% · 거래량 평소의 5.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.196 지정가(기준가 $0.207의 −5%) · 체결 가능성 약 68% · 손익분기 $0.199\n숏 지지구간 $0.180–$0.200 · 손절 $0.170 · 1차목표 $0.260\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2068,
+  "level": 1,
+  "score": 23.1,
+  "prob": 31.25,
+  "cp": 10.737070402885259,
+  "rl": 0.25999999999999995,
+  "stop": 0.16999999999999998,
+  "zone": [
+   0.18,
+   0.19999999999999998
+  ],
+  "bp": 0.1965,
+  "tgt": 0.25999999999999995,
+  "stp": 0.16999999999999998,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930010",
   "grade": "open"
  }
 ]
