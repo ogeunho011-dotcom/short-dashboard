@@ -3067,10 +3067,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240112002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240112002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 2
+  "grade": "hit",
+  "grade_day": 9,
+  "grade_ret": 0.08186741713571,
+  "graded_bars": 9
  },
  {
   "id": "KPLT-1793283607",
@@ -40005,10 +40005,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241002009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241002009",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.2712020725388601,
+  "graded_bars": 2
  },
  {
   "id": "FJET-1794243253",
@@ -48481,7 +48481,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230404002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230404002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.11276307954062081,
+  "graded_bars": 1
  },
  {
   "id": "XCUR-fil-0001193125-26-455339",
@@ -51785,6 +51788,205 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210930006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210930006",
+  "grade": "open"
+ },
+ {
+  "id": "ELOG-1794411222",
+  "ts_kst": "2026-11-12 00:33",
+  "ts_utc": "2026-11-11T15:33:42+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "ELOG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.0% · 거래량 평소의 20.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ELOG 장중 급등 포착",
+  "body": "$0.780 (+32.0%) · 정규장 · 레벨 1 · 점수 22\n$0.800 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,283만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +32.0% · 거래량 평소의 20.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 32%\n추천 매수가 $0.746 지정가(60일선, 기준가 대비 -4.3%) · 체결 가능성 약 76% · 손익분기 $0.755\n숏 지지구간 $0.700–$0.780 · 손절 $0.600 · 1차목표 $0.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.78,
+  "level": 1,
+  "score": 21.9,
+  "prob": 31.965284312185688,
+  "cp": 27.058711796621587,
+  "rl": 0.7999999999999999,
+  "stop": 0.6,
+  "zone": [
+   0.7,
+   0.7799999713897705
+  ],
+  "bp": 0.7462,
+  "tgt": 0.7999999999999999,
+  "stp": 0.6,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250828002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250828002",
+  "grade": "open"
+ },
+ {
+  "id": "CRVO-1794411222",
+  "ts_kst": "2026-11-12 00:33",
+  "ts_utc": "2026-11-11T15:33:42+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CRVO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.6% · 거래량 평소의 98.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CRVO 장중 급등 포착",
+  "body": "$1.735 (+26.6%) · 정규장 · 레벨 2 · 점수 33\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,513만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +26.6% · 거래량 평소의 98.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.648 지정가(기준가 $1.735의 −5%) · 체결 가능성 약 68% · 손익분기 $1.668\n숏 지지구간 $1.250–$1.500 · 손절 $1.000 · 1차목표 $2.000\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.735,
+  "level": 2,
+  "score": 33.2,
+  "prob": 47.808764940239065,
+  "cp": 34.06261417964881,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.6483,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161109017%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161109017",
+  "grade": "open"
+ },
+ {
+  "id": "CLLS-1794411222",
+  "ts_kst": "2026-11-12 00:33",
+  "ts_utc": "2026-11-11T15:33:42+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CLLS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.3% · 거래량 평소의 17.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CLLS 장중 급등 포착",
+  "body": "$1.330 (+19.3%) · 정규장 · 레벨 2 · 점수 33\n$1.75 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +19.3% · 거래량 평소의 17.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.263 지정가(기준가 $1.330의 −5%) · 체결 가능성 약 59% · 손익분기 $1.279\n숏 지지구간 $1.000–$1.250 · 손절 $0.750 · 1차목표 $1.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3299,
+  "level": 2,
+  "score": 33.3,
+  "prob": 52.91666666666666,
+  "cp": 16.91133407146995,
+  "rl": 1.75,
+  "stop": 0.75,
+  "zone": [
+   1.0,
+   1.25
+  ],
+  "bp": 1.2634,
+  "tgt": 1.75,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150325001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150325001",
+  "grade": "open"
+ },
+ {
+  "id": "CARL-1794411222",
+  "ts_kst": "2026-11-12 00:33",
+  "ts_utc": "2026-11-11T15:33:42+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CARL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.1% · 거래량 평소의 7.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CARL 장중 급등 포착",
+  "body": "$17.655 (+20.1%) · 정규장 · 레벨 1 · 점수 17\n공매도 물량 대부분 손해 중, $17.79 넘으면 급등 가능성 ↑ · 1년 최고가 돌파\n• 전일 대비 +20.1% · 거래량 평소의 7.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $16.772 지정가(기준가 $17.655의 −5%) · 체결 가능성 약 47% · 손익분기 $16.975\n숏 지지구간 $16.500–$17.000 · 손절 $16.000 · 1차목표 $17.790\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 17.655,
+  "level": 1,
+  "score": 17.4,
+  "prob": 53.389621898306984,
+  "cp": 98.82413443381722,
+  "rl": 17.790000915527344,
+  "stop": 16.0,
+  "zone": [
+   16.5,
+   17.0
+  ],
+  "bp": 16.7723,
+  "tgt": 17.790000915527344,
+  "stp": 16.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250723002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250723002",
+  "grade": "open"
+ },
+ {
+  "id": "KRMD-1794411222",
+  "ts_kst": "2026-11-12 00:33",
+  "ts_utc": "2026-11-11T15:33:42+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "KRMD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.5% · 거래량 평소의 6.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KRMD 장중 급등 포착",
+  "body": "$3.776 (+19.5%) · 정규장 · 레벨 1 · 점수 14\n공매도 물량 대부분 손해 중, $3.90 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +19.5% · 거래량 평소의 6.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $3.700–$3.776 · 손절 $3.600 · 1차목표 $3.900\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.7765,
+  "level": 1,
+  "score": 14.0,
+  "prob": 53.44827586206896,
+  "cp": 66.81139294378386,
+  "rl": 3.9000000000000012,
+  "stop": 3.600000000000001,
+  "zone": [
+   3.700000000000001,
+   3.7764999866485596
+  ],
+  "bp": null,
+  "tgt": 3.9000000000000012,
+  "stp": 3.600000000000001,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20191024003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20191024003",
   "grade": "open"
  }
 ]
