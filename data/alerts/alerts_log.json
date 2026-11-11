@@ -54900,5 +54900,165 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250328003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250328003",
   "grade": "n/a"
+ },
+ {
+  "id": "FAMI-1794426355",
+  "ts_kst": "2026-11-12 04:45",
+  "ts_utc": "2026-11-11T19:45:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "FAMI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +31.4% · 거래량 평소의 28.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FAMI 장중 급등 포착",
+  "body": "$0.113 (+31.4%) · 정규장 · 레벨 3 · 점수 46\n$0.140 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 548만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +31.4% · 거래량 평소의 28.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.107 지정가(기준가 $0.113의 −5%) · 체결 가능성 약 54% · 손익분기 $0.109\n숏 지지구간 $0.080–$0.100 · 손절 $0.060 · 1차목표 $0.140\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.113,
+  "level": 3,
+  "score": 46.1,
+  "prob": 47.808764940239065,
+  "cp": 13.456136598429767,
+  "rl": 0.14,
+  "stop": 0.06,
+  "zone": [
+   0.08,
+   0.1
+  ],
+  "bp": 0.1073,
+  "tgt": 0.14,
+  "stp": 0.06,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180213004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180213004",
+  "grade": "open"
+ },
+ {
+  "id": "CRVO-1794426355",
+  "ts_kst": "2026-11-12 04:45",
+  "ts_utc": "2026-11-11T19:45:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CRVO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.3% · 거래량 평소의 37.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CRVO 장중 급등 포착",
+  "body": "$1.785 (+30.3%) · 정규장 · 레벨 2 · 점수 36\n$2.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,513만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +30.3% · 거래량 평소의 37.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.696 지정가(기준가 $1.785의 −5%) · 체결 가능성 약 68% · 손익분기 $1.716\n숏 지지구간 $1.250–$1.500 · 손절 $1.000 · 1차목표 $2.000\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.785,
+  "level": 2,
+  "score": 36.4,
+  "prob": 47.808764940239065,
+  "cp": 36.979852186485964,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.6957,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161109017%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161109017",
+  "grade": "open"
+ },
+ {
+  "id": "CLLS-1794426355",
+  "ts_kst": "2026-11-12 04:45",
+  "ts_utc": "2026-11-11T19:45:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CLLS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.4% · 거래량 평소의 4.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CLLS 장중 급등 포착",
+  "body": "$1.420 (+27.4%) · 정규장 · 레벨 2 · 점수 33\n$1.75 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +27.4% · 거래량 평소의 4.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.349 지정가(기준가 $1.420의 −5%) · 체결 가능성 약 58% · 손익분기 $1.365\n숏 지지구간 $1.000–$1.250 · 손절 $0.750 · 1차목표 $1.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.42,
+  "level": 2,
+  "score": 32.9,
+  "prob": 53.44827586206896,
+  "cp": 30.87161055050258,
+  "rl": 1.75,
+  "stop": 0.75,
+  "zone": [
+   1.0,
+   1.25
+  ],
+  "bp": 1.349,
+  "tgt": 1.75,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150325001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150325001",
+  "grade": "open"
+ },
+ {
+  "id": "CAPR-1794426355",
+  "ts_kst": "2026-11-12 04:45",
+  "ts_utc": "2026-11-11T19:45:55+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "CAPR",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 72/100"
+  ],
+  "title": "🚀 CAPR 상위 확률 신호 · 커버 압력",
+  "body": "$10.950 (+23.4%) · 정규장 · 레벨 3 · 점수 46\n공매도 물량 대부분 손해 중, $11.00 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 72/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $10.402 지정가(기준가 $10.950의 −5%) · 체결 가능성 약 52% · 손익분기 $10.528\n숏 지지구간 $8.000–$9.032 · 손절 $7.000 · 1차목표 $11.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.95,
+  "level": 3,
+  "score": 46.5,
+  "prob": 53.44827586206896,
+  "cp": 71.79538249412711,
+  "rl": 11.0,
+  "stop": 7.0,
+  "zone": [
+   8.0,
+   9.032499933242798
+  ],
+  "bp": 10.4025,
+  "tgt": 20.0,
+  "stp": 7.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150309001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150309001",
+  "grade": "open"
  }
 ]
