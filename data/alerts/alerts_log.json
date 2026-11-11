@@ -52512,5 +52512,124 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
   "grade": "n/a"
+ },
+ {
+  "id": "GEVO-1794414825",
+  "ts_kst": "2026-11-12 01:33",
+  "ts_utc": "2026-11-11T16:33:45+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "GEVO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +28.1% · 거래량 평소의 21.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GEVO 장중 급등 포착",
+  "body": "$1.780 (+28.1%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $1.85 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 9배 이상, 관심 급증\n• 전일 대비 +28.1% · 거래량 평소의 21.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $1.750–$1.780 · 손절 $1.700 · 1차목표 $1.850\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.78,
+  "level": 2,
+  "score": 31.3,
+  "prob": 53.44827586206896,
+  "cp": 63.35812046661155,
+  "rl": 1.8500000000000008,
+  "stop": 1.7000000000000006,
+  "zone": [
+   1.7500000000000007,
+   1.7799999713897705
+  ],
+  "bp": null,
+  "tgt": 1.8500000000000008,
+  "stp": 1.7000000000000006,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20110209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20110209001",
+  "grade": "open"
+ },
+ {
+  "id": "RSKD-1794414825",
+  "ts_kst": "2026-11-12 01:33",
+  "ts_utc": "2026-11-11T16:33:45+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "RSKD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.6% · 거래량 평소의 9.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RSKD 장중 급등 포착",
+  "body": "$10.420 (+22.6%) · 정규장 · 레벨 2 · 점수 29\n공매도 물량 대부분 손해 중, $11.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +22.6% · 거래량 평소의 9.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $10.250–$10.420 · 손절 $10.125 · 1차목표 $11.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.42,
+  "level": 2,
+  "score": 29.1,
+  "prob": 53.44827586206896,
+  "cp": 51.57753093805042,
+  "rl": 11.0,
+  "stop": 10.125,
+  "zone": [
+   10.25,
+   10.420000076293945
+  ],
+  "bp": null,
+  "tgt": 11.0,
+  "stp": 10.125,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210728014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210728014",
+  "grade": "open"
+ },
+ {
+  "id": "INLF-1794414825",
+  "ts_kst": "2026-11-12 01:33",
+  "ts_utc": "2026-11-11T16:33:45+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "INLF",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.6% · 거래량 평소의 9.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ INLF 장중 급등 포착",
+  "body": "$0.657 (+20.6%) · 정규장 · 레벨 2 · 점수 35\n시장에 도는 주식 640만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 6배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +20.6% · 거래량 평소의 9.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.624 지정가(기준가 $0.657의 −5%) · 체결 가능성 약 76% · 손익분기 $0.632\n숏 지지구간 $0.460–$0.500 · 손절 $0.328 · 1차목표 $1.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/20)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6569,
+  "level": 2,
+  "score": 35.3,
+  "prob": 45.01661129568107,
+  "cp": 43.34334688052594,
+  "rl": 1.0,
+  "stop": 0.3284499943256378,
+  "zone": [
+   0.4598299920558929,
+   0.5
+  ],
+  "bp": 0.6241,
+  "tgt": 1.0,
+  "stp": 0.3284499943256378,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/20)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
+  "grade": "open"
  }
 ]
