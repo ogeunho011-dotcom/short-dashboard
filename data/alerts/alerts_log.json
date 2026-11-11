@@ -53238,5 +53238,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20070523001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20070523001",
   "grade": "open"
+ },
+ {
+  "id": "UCL-1794417359",
+  "ts_kst": "2026-11-12 02:15",
+  "ts_utc": "2026-11-11T17:15:59+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "UCL",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +21.2% · 거래량 평소의 419.1배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 UCL 장중 급등 포착 · 상위 확률 신호",
+  "body": "$0.229 (+21.2%) · 정규장 · 레벨 3 · 점수 45\n공매도 물량 대부분 손해 중, $0.250 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +21.2% · 거래량 평소의 419.1배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.211 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.8%) · 체결 가능성 약 47% · 손익분기 $0.214\n숏 지지구간 $0.150–$0.200 · 손절 $0.115 · 1차목표 $0.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.229,
+  "level": 3,
+  "score": 45.4,
+  "prob": 53.18221511373588,
+  "cp": 41.48285884391107,
+  "rl": 0.25,
+  "stop": 0.1145000010728836,
+  "zone": [
+   0.15000000000000002,
+   0.2
+  ],
+  "bp": 0.2111,
+  "tgt": 0.25,
+  "stp": 0.1145000010728836,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200609002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200609002",
+  "grade": "open"
+ },
+ {
+  "id": "BDMD-1794417359",
+  "ts_kst": "2026-11-12 02:15",
+  "ts_utc": "2026-11-11T17:15:59+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "BDMD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.1% · 거래량 평소의 5.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BDMD 장중 급등 포착",
+  "body": "$0.116 (+20.1%) · 정규장 · 레벨 4 · 점수 65\n오늘 거래량 평소의 5배 이상, 관심 급증 · 갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 전일 대비 +20.1% · 거래량 평소의 5.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.110 지정가(기준가 $0.116의 −5%) · 체결 가능성 약 85% · 손익분기 $0.112\n숏 지지구간 $0.081–$0.100 · 손절 $0.058 · 1차목표 $0.200\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.116,
+  "level": 4,
+  "score": 64.7,
+  "prob": 31.25,
+  "cp": 3.1606972830544517,
+  "rl": 0.2,
+  "stop": 0.057999998331069946,
+  "zone": [
+   0.08119999766349792,
+   0.1
+  ],
+  "bp": 0.1102,
+  "tgt": 0.2,
+  "stp": 0.057999998331069946,
+  "penalties": [
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
+  "grade": "open"
  }
 ]
