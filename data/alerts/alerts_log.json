@@ -52955,5 +52955,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160622001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160622001",
   "grade": "open"
+ },
+ {
+  "id": "SMTK-1794416015",
+  "ts_kst": "2026-11-12 01:53",
+  "ts_utc": "2026-11-11T16:53:35+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "SMTK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +87.7% · 거래량 평소의 15.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SMTK 장중 급등 포착",
+  "body": "$0.482 (+87.7%) · 정규장 · 레벨 2 · 점수 31\n오늘 거래량 평소의 11배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +87.7% · 거래량 평소의 15.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.458 지정가(기준가 $0.482의 −5%) · 체결 가능성 약 76% · 손익분기 $0.464\n숏 지지구간 $0.338–$0.482 · 손절 $0.241 · 1차목표 $0.664\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-08-21\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4823,
+  "level": 2,
+  "score": 31.4,
+  "prob": 20.50473186119874,
+  "cp": 26.038672149007635,
+  "rl": 1.5,
+  "stop": 0.24115000665187836,
+  "zone": [
+   0.3376100093126297,
+   0.4823000133037567
+  ],
+  "bp": 0.4582,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-08-21"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240531004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240531004",
+  "grade": "n/a"
+ },
+ {
+  "id": "WBUY-1794416015",
+  "ts_kst": "2026-11-12 01:53",
+  "ts_utc": "2026-11-11T16:53:35+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "WBUY",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.5% · 거래량 평소의 20.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WBUY 장중 급등 포착",
+  "body": "$0.570 (+29.5%) · 정규장 · 레벨 2 · 점수 36\n$0.800 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 244만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +29.5% · 거래량 평소의 20.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.541 지정가(기준가 $0.570의 −5%) · 체결 가능성 약 62% · 손익분기 $0.548\n숏 지지구간 $0.430–$0.480 · 손절 $0.380 · 1차목표 $0.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.57,
+  "level": 2,
+  "score": 35.8,
+  "prob": 31.25,
+  "cp": 5.585703351086036,
+  "rl": 0.7999999999999999,
+  "stop": 0.3800999939441681,
+  "zone": [
+   0.4300999939441681,
+   0.4800999939441681
+  ],
+  "bp": 0.5415,
+  "tgt": 0.7999999999999999,
+  "stp": 0.3800999939441681,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231019005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231019005",
+  "grade": "open"
  }
 ]
