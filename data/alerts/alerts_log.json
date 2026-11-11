@@ -55306,5 +55306,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250723002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250723002",
   "grade": "open"
+ },
+ {
+  "id": "MI-1794427871",
+  "ts_kst": "2026-11-12 05:11",
+  "ts_utc": "2026-11-11T20:11:11+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "MI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.0% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MI 장중 급등 포착",
+  "body": "$0.511 (+26.0%) · 정규장 · 레벨 2 · 점수 40\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 1,432만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +26.0% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.485 지정가(기준가 $0.511의 −5%) · 체결 가능성 약 65% · 손익분기 $0.491\n숏 지지구간 $0.357–$0.511 · 손절 $0.255 · 1차목표 $0.784\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/13)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5105,
+  "level": 2,
+  "score": 39.6,
+  "prob": 31.25,
+  "cp": 27.191331823377993,
+  "rl": 3.0,
+  "stop": 0.2552500069141388,
+  "zone": [
+   0.3573500096797943,
+   0.5105000138282776
+  ],
+  "bp": 0.485,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/13)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230918004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230918004",
+  "grade": "n/a"
  }
 ]
