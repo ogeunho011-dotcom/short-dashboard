@@ -49923,5 +49923,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150324005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150324005",
   "grade": "open"
+ },
+ {
+  "id": "CHSN-1794398501",
+  "ts_kst": "2026-11-11 21:01",
+  "ts_utc": "2026-11-11T12:01:41+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "CHSN",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +21.1%"
+  ],
+  "title": "🚀 CHSN 프리마켓 갭",
+  "body": "$2.870 (+21.1%) · 프리마켓 · 레벨 3 · 점수 40\n$3.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 프리마켓 갭 +21.1%\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $2.818 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -1.8%) · 체결 가능성 약 85% · 손익분기 $2.852\n숏 지지구간 $2.500–$2.750 · 손절 $2.250 · 1차목표 $3.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.87,
+  "level": 3,
+  "score": 40.2,
+  "prob": 38.8663967611336,
+  "cp": 36.37602237970086,
+  "rl": 3.0,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   2.75
+  ],
+  "bp": 2.8185,
+  "tgt": 3.0,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230329001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230329001",
+  "grade": "open"
  }
 ]
