@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "NNOX",
-  "form": "6-K",
-  "acc": "0001213900-26-117774",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:00:28+00:00",
-  "accepted_kst": "11/10 22:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Nanox Announces That Board Has Approved Cost Reduction and Operational Efficiency Measures The Board approved plan targets a 25%–30% reduction in annualized ope",
-  "url": "https://www.sec.gov/Archives/edgar/data/1795251/000121390026117774/0001213900-26-117774-index.htm",
-  "seen_kst": "2026-11-10 22:03"
- },
- {
-  "ticker": "NPWR",
-  "form": "8-K",
-  "acc": "0001104659-26-124814",
-  "items": "5.02",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T13:00:36+00:00",
-  "accepted_kst": "11/10 22:00",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
-  "url": "https://www.sec.gov/Archives/edgar/data/1845437/000110465926124814/0001104659-26-124814-index.htm",
-  "seen_kst": "2026-11-10 22:03"
- },
- {
   "ticker": "CRMT",
   "form": "8-K",
   "acc": "0001171843-26-007312",
@@ -8711,5 +8677,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926013939/0001214659-26-013939-index.htm",
   "seen_kst": "2026-11-11 18:04"
+ },
+ {
+  "ticker": "GEVO",
+  "form": "8-K",
+  "acc": "0001628280-26-072717",
+  "items": "2.02,9.01",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:07:03+00:00",
+  "accepted_kst": "11/11 06:07",
+  "polarity": "pos",
+  "label": "실적 호조·가이던스 상향",
+  "cats": [
+   "실적 호조·가이던스 상향"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Gevo Reports Record Third Quarter 2026 Financial Results Gevo Carbon Business Drives Net Income of $23 million and Adjusted EBITDA 1 of $44 million for Third Qu",
+  "url": "https://www.sec.gov/Archives/edgar/data/1392380/000162828026072717/0001628280-26-072717-index.htm",
+  "seen_kst": "2026-11-11 23:42"
+ },
+ {
+  "ticker": "GEVO",
+  "form": "10-Q",
+  "acc": "0001628280-26-072816",
+  "items": "",
+  "filed": "2026-11-10",
+  "accepted": "2026-11-10T21:56:09+00:00",
+  "accepted_kst": "11/11 06:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1392380/000162828026072816/0001628280-26-072816-index.htm",
+  "seen_kst": "2026-11-11 23:42"
  }
 ]
