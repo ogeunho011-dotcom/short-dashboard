@@ -51239,5 +51239,83 @@
    "accepted_kst": "11/11 06:07",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "FOSL-1794408300",
+  "ts_kst": "2026-11-11 23:45",
+  "ts_utc": "2026-11-11T14:45:00+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "FOSL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.5% · 거래량 평소의 19.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FOSL 장중 급등 포착",
+  "body": "$9.640 (+22.5%) · 정규장 · 레벨 1 · 점수 25\n공매도 물량 대부분 손해 중, $10.50 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +22.5% · 거래량 평소의 19.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $9.158 지정가(기준가 $9.640의 −5%) · 체결 가능성 약 41% · 손익분기 $9.269\n숏 지지구간 $9.000–$9.500 · 손절 $8.750 · 1차목표 $10.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 9.64,
+  "level": 1,
+  "score": 24.7,
+  "prob": 53.44827586206896,
+  "cp": 56.936597301974544,
+  "rl": 10.5,
+  "stop": 8.75,
+  "zone": [
+   9.0,
+   9.5
+  ],
+  "bp": 9.158,
+  "tgt": 10.5,
+  "stp": 8.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19930408001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19930408001",
+  "grade": "open"
+ },
+ {
+  "id": "MVST-1794408300",
+  "ts_kst": "2026-11-11 23:45",
+  "ts_utc": "2026-11-11T14:45:00+00:00",
+  "date_et": "2026-11-11",
+  "session": "regular",
+  "ticker": "MVST",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.7% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MVST 장중 급등 포착",
+  "body": "$0.262 (+18.7%) · 정규장 · 레벨 1 · 점수 15\n최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 전일 대비 +18.7% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.249 지정가(기준가 $0.262의 −5%) · 체결 가능성 약 82% · 손익분기 $0.252\n숏 지지구간 $0.200–$0.250 · 손절 $0.150 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.262,
+  "level": 1,
+  "score": 15.3,
+  "prob": 28.643216080402006,
+  "cp": 14.802190505207944,
+  "rl": 0.39999999999999997,
+  "stop": 0.15000000000000002,
+  "zone": [
+   0.2,
+   0.25
+  ],
+  "bp": 0.2489,
+  "tgt": 0.39999999999999997,
+  "stp": 0.15000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210726004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210726004",
+  "grade": "open"
  }
 ]
