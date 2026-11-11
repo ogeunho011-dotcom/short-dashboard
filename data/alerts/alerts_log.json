@@ -50085,5 +50085,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210217004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210217004",
   "grade": "n/a"
+ },
+ {
+  "id": "HUHU-1794401378",
+  "ts_kst": "2026-11-11 21:49",
+  "ts_utc": "2026-11-11T12:49:38+00:00",
+  "date_et": "2026-11-11",
+  "session": "pre",
+  "ticker": "HUHU",
+  "types": [
+   "pregap"
+  ],
+  "msgs": [
+   "프리마켓 갭 +56.1%"
+  ],
+  "title": "🚀 HUHU 프리마켓 갭",
+  "body": "$0.595 (+56.1%) · 프리마켓 · 레벨 3 · 점수 42\n갭 상승 후 버티는 중 · $1 미만, 상장폐지 주의\n• 프리마켓 갭 +56.1%\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.565 지정가(기준가 $0.595의 −5%) · 체결 가능성 약 84% · 손익분기 $0.572\n숏 지지구간 $0.416–$0.500 · 손절 $0.297 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5949,
+  "level": 3,
+  "score": 41.5,
+  "prob": 21.428571428571427,
+  "cp": 41.32286079843336,
+  "rl": 1.0,
+  "stop": 0.29745,
+  "zone": [
+   0.41642999999999997,
+   0.5
+  ],
+  "bp": 0.5652,
+  "tgt": 1.0,
+  "stp": 0.29745,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241022002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241022002",
+  "grade": "open"
  }
 ]
