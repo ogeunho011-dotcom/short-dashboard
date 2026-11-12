@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SVV",
-  "form": "8-K",
-  "acc": "0001883313-26-000077",
-  "items": "7.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T17:45:39+00:00",
-  "accepted_kst": "11/11 02:45",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", to this Current Report on Form 8-K and are incorporated by reference herein. The information presented herein shall not be deemed “filed” for purposes of Sect",
-  "url": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000077/0001883313-26-000077-index.htm",
-  "seen_kst": "2026-11-11 02:47"
- },
- {
   "ticker": "SGLD",
   "form": "6-K",
   "acc": "0001753926-26-002084",
@@ -8694,5 +8677,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1656472/000201879926000009/0002018799-26-000009-index.htm",
   "seen_kst": "2026-11-13 01:51"
+ },
+ {
+  "ticker": "SAFX",
+  "form": "4",
+  "acc": "0002148419-26-000005",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T16:55:42+00:00",
+  "accepted_kst": "11/13 01:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2019793/000214841926000005/0002148419-26-000005-index.htm",
+  "seen_kst": "2026-11-13 01:55"
  }
 ]
