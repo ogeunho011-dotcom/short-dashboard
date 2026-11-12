@@ -47387,10 +47387,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210827005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210827005",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.03862403373155333,
+  "graded_bars": 2
  },
  {
   "id": "XELB-1794335858",
@@ -58570,5 +58570,44 @@
    "accepted_kst": "11/13 04:29",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "CRE-1794512035",
+  "ts_kst": "2026-11-13 04:33",
+  "ts_utc": "2026-11-12T19:33:55+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "CRE",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 CRE 상위 확률 신호",
+  "body": "$3.100 (+19.7%) · 정규장 · 레벨 3 · 점수 48\n$4.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 110만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.945 지정가(기준가 $3.100의 −5%) · 체결 가능성 약 35% · 손익분기 $2.981\n숏 지지구간 $2.500–$3.000 · 손절 $2.250 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.1,
+  "level": 3,
+  "score": 48.3,
+  "prob": 52.91666666666666,
+  "cp": 29.39851509414911,
+  "rl": 4.0,
+  "stop": 2.25,
+  "zone": [
+   2.5,
+   3.0
+  ],
+  "bp": 2.945,
+  "tgt": 4.0,
+  "stp": 2.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250723003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250723003",
+  "grade": "open"
  }
 ]

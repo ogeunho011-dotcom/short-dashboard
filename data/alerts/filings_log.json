@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "EPRX",
-  "form": "6-K",
-  "acc": "0001171843-26-007331",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:01:03+00:00",
-  "accepted_kst": "11/11 06:01",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "X ] Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Note: Regulation S-T Rule 101(b)",
-  "url": "https://www.sec.gov/Archives/edgar/data/1581178/000117184326007331/0001171843-26-007331-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "BWAY",
   "form": "6-K",
   "acc": "0001171843-26-007332",
@@ -8694,5 +8677,22 @@
   "headline": "Curley Stephen Russell",
   "url": "https://www.sec.gov/Archives/edgar/data/1050441/000144189026000007/0001441890-26-000007-index.htm",
   "seen_kst": "2026-11-13 04:31"
+ },
+ {
+  "ticker": "EGBN",
+  "form": "4",
+  "acc": "0001783612-26-000005",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:32:10+00:00",
+  "accepted_kst": "11/13 04:32",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1050441/000178361226000005/0001783612-26-000005-index.htm",
+  "seen_kst": "2026-11-13 04:34"
  }
 ]
