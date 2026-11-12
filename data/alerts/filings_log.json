@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FSBW",
-  "form": "4",
-  "acc": "0000939057-26-000306",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T20:20:13+00:00",
-  "accepted_kst": "11/11 05:20",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000306/0000939057-26-000306-index.htm",
-  "seen_kst": "2026-11-11 05:22"
- },
- {
   "ticker": "THFF",
   "form": "S-4/A",
   "acc": "0001104659-26-124611",
@@ -8690,5 +8673,22 @@
   "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Indicate by check mark if the regist",
   "url": "https://www.sec.gov/Archives/edgar/data/1711375/000171137526000057/0001711375-26-000057-index.htm",
   "seen_kst": "2026-11-13 02:31"
+ },
+ {
+  "ticker": "CFBK",
+  "form": "4",
+  "acc": "0001193125-26-457773",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T17:34:09+00:00",
+  "accepted_kst": "11/13 02:34",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1070680/000119312526457773/0001193125-26-457773-index.htm",
+  "seen_kst": "2026-11-13 02:36"
  }
 ]
