@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WEYS",
-  "form": "4",
-  "acc": "0001195052-26-000014",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T20:39:03+00:00",
-  "accepted_kst": "11/11 05:39",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/106532/000119505226000014/0001195052-26-000014-index.htm",
-  "seen_kst": "2026-11-11 05:42"
- },
- {
   "ticker": "FNWB",
   "form": "4",
   "acc": "0001437749-26-036132",
@@ -8692,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1943421/000117184326007388/0001171843-26-007388-index.htm",
   "seen_kst": "2026-11-13 02:43"
+ },
+ {
+  "ticker": "BHM",
+  "form": "8-K",
+  "acc": "0001104659-26-126132",
+  "items": "2.01,9.01",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T17:44:42+00:00",
+  "accepted_kst": "11/13 02:44",
+  "polarity": "neutral",
+  "label": "인수·매각 완료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ",726 Partially-owned properties 9,051 (2 ) (1 ) 9,048 Net loss attributable to noncontrolling interests 34,848 (52 ) (22 ) 34,774 Net loss attributable to commo",
+  "url": "https://www.sec.gov/Archives/edgar/data/1903382/000110465926126132/0001104659-26-126132-index.htm",
+  "seen_kst": "2026-11-13 02:46"
  }
 ]
