@@ -48013,10 +48013,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200820003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200820003",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 2,
+  "grade_ret": 0.08061645595610212,
+  "graded_bars": 2
  },
  {
   "id": "CISS-1794339304",
@@ -56979,6 +56979,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
+  "grade": "open"
+ },
+ {
+  "id": "AVEX-1794502424",
+  "ts_kst": "2026-11-13 01:53",
+  "ts_utc": "2026-11-12T16:53:44+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "AVEX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.3% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AVEX 장중 급등 포착",
+  "body": "$14.090 (+16.3%) · 정규장 · 레벨 2 · 점수 38\n$15.00 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 전일 대비 +16.3% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $13.386 지정가(기준가 $14.090의 −5%) · 체결 가능성 약 59% · 손익분기 $13.547\n숏 지지구간 $13.000–$14.000 · 손절 $12.000 · 1차목표 $15.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 14.09,
+  "level": 2,
+  "score": 38.5,
+  "prob": 47.808764940239065,
+  "cp": 29.791738323718594,
+  "rl": 15.0,
+  "stop": 12.0,
+  "zone": [
+   13.0,
+   14.0
+  ],
+  "bp": 13.3855,
+  "tgt": 15.0,
+  "stp": 12.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2604017001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2604017001",
   "grade": "open"
  }
 ]
