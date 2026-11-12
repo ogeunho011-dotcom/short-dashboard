@@ -59606,5 +59606,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0260108007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0260108007",
   "grade": "open"
+ },
+ {
+  "id": "BBLG-1794517155",
+  "ts_kst": "2026-11-13 05:59",
+  "ts_utc": "2026-11-12T20:59:15+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "BBLG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.7% · 거래량 평소의 180.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BBLG 장중 급등 포착",
+  "body": "$0.405 (+15.7%) · 정규장 · 레벨 2 · 점수 32\n$0.450 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 339만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.7% · 거래량 평소의 180.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 43%\n추천 매수가 $0.376 지정가(20일선, 기준가 대비 -7.2%) · 체결 가능성 약 48% · 손익분기 $0.380\n숏 지지구간 $0.300–$0.350 · 손절 $0.250 · 1차목표 $0.450\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.405,
+  "level": 2,
+  "score": 32.0,
+  "prob": 42.979500323589335,
+  "cp": 32.16209986060837,
+  "rl": 0.45,
+  "stop": 0.25000000000000006,
+  "zone": [
+   0.30000000000000004,
+   0.35000000000000003
+  ],
+  "bp": 0.3759,
+  "tgt": 0.45,
+  "stp": 0.25000000000000006,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211013010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211013010",
+  "grade": "open"
  }
 ]

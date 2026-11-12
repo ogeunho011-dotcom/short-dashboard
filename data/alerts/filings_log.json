@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "ACHV",
-  "form": "8-K",
-  "acc": "0001193125-26-455404",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:04:12+00:00",
-  "accepted_kst": "11/11 06:04",
-  "polarity": "pos",
-  "label": "FDA 승인·허가",
-  "cats": [
-   "FDA 승인·허가"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "AchieveRx Reports Third Quarter 2026 Financial Results and Provides Business Updates Launched new corporate brand as AchieveRx, The Quit Company (Nasdaq: QUIT)",
-  "url": "https://www.sec.gov/Archives/edgar/data/949858/000119312526455404/0001193125-26-455404-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "WKSP",
   "form": "SC TO-C",
   "acc": "0001437749-26-036156",
@@ -8692,5 +8673,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1013272/000119312526458228/0001193125-26-458228-index.htm",
   "seen_kst": "2026-11-13 05:56"
+ },
+ {
+  "ticker": "NWFL",
+  "form": "4",
+  "acc": "0001193125-26-458234",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T20:58:34+00:00",
+  "accepted_kst": "11/13 05:58",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013272/000119312526458234/0001193125-26-458234-index.htm",
+  "seen_kst": "2026-11-13 05:59"
  }
 ]
