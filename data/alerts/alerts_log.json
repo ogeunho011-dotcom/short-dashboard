@@ -58735,5 +58735,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220524002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220524002",
   "grade": "open"
+ },
+ {
+  "id": "TREO-1794514004",
+  "ts_kst": "2026-11-13 05:06",
+  "ts_utc": "2026-11-12T20:06:44+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "TREO",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 50%)"
+  ],
+  "title": "🚀 TREO 상위 확률 신호",
+  "body": "$3.212 (+13.0%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $3.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 879만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 50%)\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $3.051 지정가(기준가 $3.212의 −5%) · 체결 가능성 약 65% · 손익분기 $3.088\n숏 지지구간 $2.000–$2.500 · 손절 $1.606 · 1차목표 $3.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.2116,
+  "level": 3,
+  "score": 40.7,
+  "prob": 50.36231869104796,
+  "cp": 65.39775663219719,
+  "rl": 3.5,
+  "stop": 1.6058000326156616,
+  "zone": [
+   2.0,
+   2.5
+  ],
+  "bp": 3.051,
+  "tgt": 3.5,
+  "stp": 1.6058000326156616,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
+  "grade": "open"
  }
 ]
