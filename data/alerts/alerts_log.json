@@ -57379,5 +57379,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170803002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170803002",
   "grade": "open"
+ },
+ {
+  "id": "NIKI-1794504679",
+  "ts_kst": "2026-11-13 02:31",
+  "ts_utc": "2026-11-12T17:31:19+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "NIKI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.6% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NIKI 장중 급등 포착",
+  "body": "$1.830 (+16.6%) · 정규장 · 레벨 1 · 점수 18\n최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.6% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 13%\n추천 매수가 $1.739 지정가(기준가 $1.830의 −5%) · 체결 가능성 약 66% · 손익분기 $1.759\n숏 지지구간 $1.500–$1.830 · 손절 $1.250 · 1차목표 $5.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.83,
+  "level": 1,
+  "score": 17.8,
+  "prob": 12.916666666666668,
+  "cp": 5.822025053965685,
+  "rl": 5.0,
+  "stop": 1.25,
+  "zone": [
+   1.5,
+   1.8300000429153442
+  ],
+  "bp": 1.7385,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230227001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230227001",
+  "grade": "n/a"
  }
 ]
