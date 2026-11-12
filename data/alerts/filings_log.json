@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "USIO",
-  "form": "10-Q",
-  "acc": "0001437749-26-036140",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:00:50+00:00",
-  "accepted_kst": "11/11 06:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1088034/000143774926036140/0001437749-26-036140-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "AVD",
   "form": "8-K",
   "acc": "0001193125-26-455384",
@@ -8692,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000100/0000724004-26-000100-index.htm",
   "seen_kst": "2026-11-13 04:11"
+ },
+ {
+  "ticker": "UMH",
+  "form": "4",
+  "acc": "0000752642-26-000135",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:13:48+00:00",
+  "accepted_kst": "11/13 04:13",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000135/0000752642-26-000135-index.htm",
+  "seen_kst": "2026-11-13 04:16"
  }
 ]
