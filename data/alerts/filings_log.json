@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RVSN",
-  "form": "6-K",
-  "acc": "0001493152-26-050954",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:01:02+00:00",
-  "accepted_kst": "11/11 06:01",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Rail Vision Successfully Completes U.S. Rail Industry Testing Phase Under the Association of American Railroads’ Technology Roadmap Program The Technology Roadm",
-  "url": "https://www.sec.gov/Archives/edgar/data/1743905/000149315226050954/0001493152-26-050954-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "EPRX",
   "form": "6-K",
   "acc": "0001171843-26-007331",
@@ -8692,5 +8675,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2024114/000149315226051334/0001493152-26-051334-index.htm",
   "seen_kst": "2026-11-13 04:29"
+ },
+ {
+  "ticker": "EGBN",
+  "form": "4",
+  "acc": "0001441890-26-000007",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:29:32+00:00",
+  "accepted_kst": "11/13 04:29",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $149,582",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Curley Stephen Russell",
+  "url": "https://www.sec.gov/Archives/edgar/data/1050441/000144189026000007/0001441890-26-000007-index.htm",
+  "seen_kst": "2026-11-13 04:31"
  }
 ]

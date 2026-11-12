@@ -58527,5 +58527,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210618006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210618006",
   "grade": "n/a"
+ },
+ {
+  "id": "EGBN-fil-0001441890-26-000007",
+  "ts_kst": "2026-11-13 04:31",
+  "ts_utc": "2026-11-12T19:31:47+00:00",
+  "date_et": "2026-11-12",
+  "session": "filing",
+  "ticker": "EGBN",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $149,582"
+  ],
+  "title": "📢 EGBN 호재 공시",
+  "body": "4 · 내부자 장내 매수 $149,582 (11/13 04:29 KST)\nCurley Stephen Russell\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19990714001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19990714001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001441890-26-000007",
+   "items": "",
+   "label": "내부자 장내 매수 $149,582",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Curley Stephen Russell",
+   "url": "https://www.sec.gov/Archives/edgar/data/1050441/000144189026000007/0001441890-26-000007-index.htm",
+   "accepted_kst": "11/13 04:29",
+   "polarity": "pos"
+  }
  }
 ]
