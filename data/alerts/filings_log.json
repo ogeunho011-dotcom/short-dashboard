@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AVD",
-  "form": "10-Q",
-  "acc": "0001193125-26-453724",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T21:37:51+00:00",
-  "accepted_kst": "11/10 06:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/5981/000119312526453724/0001193125-26-453724-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "PACB",
   "form": "SCHEDULE 13G",
   "acc": "0000886982-26-000587",
@@ -8694,5 +8677,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000158/0001005817-26-000158-index.htm",
   "seen_kst": "2026-11-13 03:49"
+ },
+ {
+  "ticker": "LCU",
+  "form": "8-K",
+  "acc": "0001493152-26-051322",
+  "items": "7.01,9.01",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T18:48:17+00:00",
+  "accepted_kst": "11/13 03:48",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Lion Copper Corp. Completes S-K 1300 Technical Report Summary for Bear Copper Deposit YERINGTON, NV / ACCESS Newswire / November 11, 2026 / Lion Copper Corp. (N",
+  "url": "https://www.sec.gov/Archives/edgar/data/1339688/000149315226051322/0001493152-26-051322-index.htm",
+  "seen_kst": "2026-11-13 03:51"
  }
 ]
