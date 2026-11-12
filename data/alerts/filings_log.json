@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GEVO",
-  "form": "SCHEDULE 13G",
-  "acc": "0000093751-26-000663",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T12:47:33+00:00",
-  "accepted_kst": "11/10 21:47",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1392380/000009375126000663/0000093751-26-000663-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "UMAC",
   "form": "SCHEDULE 13G",
   "acc": "0001842665-26-000009",
@@ -8694,5 +8677,22 @@
   "headline": "AJB Investment Fund II, LP",
   "url": "https://www.sec.gov/Archives/edgar/data/885307/000153658826000047/0001536588-26-000047-index.htm",
   "seen_kst": "2026-11-13 03:54"
+ },
+ {
+  "ticker": "PESI",
+  "form": "4",
+  "acc": "0001493152-26-051325",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T18:58:07+00:00",
+  "accepted_kst": "11/13 03:58",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/891532/000149315226051325/0001493152-26-051325-index.htm",
+  "seen_kst": "2026-11-13 03:59"
  }
 ]
