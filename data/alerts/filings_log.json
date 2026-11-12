@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GIXI",
-  "form": "6-K",
-  "acc": "0001493152-26-050955",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:01:02+00:00",
-  "accepted_kst": "11/11 06:01",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Gix Internet: Quantum X Labs Expands AI-Powered Quantum Error Correction Program to Three IBM Quantum Processors Quantum X Labs has expanded its AI-powered quan",
-  "url": "https://www.sec.gov/Archives/edgar/data/1782265/000149315226050955/0001493152-26-050955-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "RVSN",
   "form": "6-K",
   "acc": "0001493152-26-050954",
@@ -8692,5 +8675,22 @@
   "headline": ", shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934 (the “Exchange Act”) or otherwise subject to the liabilities und",
   "url": "https://www.sec.gov/Archives/edgar/data/863110/000086311026000114/0000863110-26-000114-index.htm",
   "seen_kst": "2026-11-13 04:24"
+ },
+ {
+  "ticker": "TGHL",
+  "form": "DEL AM",
+  "acc": "0001493152-26-051334",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:20:10+00:00",
+  "accepted_kst": "11/13 04:20",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2024114/000149315226051334/0001493152-26-051334-index.htm",
+  "seen_kst": "2026-11-13 04:29"
  }
 ]
