@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AMBO",
-  "form": "8-K",
-  "acc": "0001213900-26-118002",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:03:39+00:00",
-  "accepted_kst": "11/11 06:03",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Ambow Education Holding Ltd. (NYSE American: AMBO) Announces Third Quarter and First Nine Months of 2026 Financial Results Both business lines grew in the quart",
-  "url": "https://www.sec.gov/Archives/edgar/data/1494558/000121390026118002/0001213900-26-118002-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "EPRX",
   "form": "6-K",
   "acc": "0001193125-26-455405",
@@ -8692,5 +8675,22 @@
   "headline": "o SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the u",
   "url": "https://www.sec.gov/Archives/edgar/data/890541/000162828026073340/0001628280-26-073340-index.htm",
   "seen_kst": "2026-11-13 05:44"
+ },
+ {
+  "ticker": "NWFL",
+  "form": "4",
+  "acc": "0001193125-26-458221",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T20:51:49+00:00",
+  "accepted_kst": "11/13 05:51",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013272/000119312526458221/0001193125-26-458221-index.htm",
+  "seen_kst": "2026-11-13 05:54"
  }
 ]

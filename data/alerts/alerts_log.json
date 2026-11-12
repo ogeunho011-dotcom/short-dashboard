@@ -59325,5 +59325,126 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250516004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250516004",
   "grade": "n/a"
+ },
+ {
+  "id": "ADXN-1794516852",
+  "ts_kst": "2026-11-13 05:54",
+  "ts_utc": "2026-11-12T20:54:12+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "ADXN",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +86.2% · 거래량 평소의 3465.6배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ADXN 장중 급등 포착 · 상위 확률 신호",
+  "body": "$5.380 (+86.2%) · 정규장 · 레벨 3 · 점수 43\n$5.75 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 전일 대비 +86.2% · 거래량 평소의 3465.6배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.111 지정가(기준가 $5.380의 −5%) · 체결 가능성 약 49% · 손익분기 $5.173\n숏 지지구간 $4.750–$5.000 · 손절 $4.500 · 1차목표 $5.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.3799,
+  "level": 3,
+  "score": 43.4,
+  "prob": 53.44827586206896,
+  "cp": 62.07801647306759,
+  "rl": 5.75,
+  "stop": 4.5,
+  "zone": [
+   4.75,
+   5.0
+  ],
+  "bp": 5.1109,
+  "tgt": 5.75,
+  "stp": 4.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200129001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200129001",
+  "grade": "open"
+ },
+ {
+  "id": "ICMB-1794516852",
+  "ts_kst": "2026-11-13 05:54",
+  "ts_utc": "2026-11-12T20:54:12+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "ICMB",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +69.4% · 거래량 평소의 505.5배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 ICMB 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.035 (+69.4%) · 정규장 · 레벨 3 · 점수 50\n공매도 물량 대부분 손해 중, $1.15 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,443만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +69.4% · 거래량 평소의 505.5배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.983 지정가(기준가 $1.035의 −5%) · 체결 가능성 약 58% · 손익분기 $0.995\n숏 지지구간 $0.950–$1.000 · 손절 $0.900 · 1차목표 $1.150\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.035,
+  "level": 3,
+  "score": 49.6,
+  "prob": 52.91666666666666,
+  "cp": 43.08252442792971,
+  "rl": 1.1500000000000006,
+  "stop": 0.9000000000000004,
+  "zone": [
+   0.9500000000000004,
+   1.0000000000000004
+  ],
+  "bp": 0.9832,
+  "tgt": 1.1500000000000006,
+  "stp": 0.9000000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190903002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190903002",
+  "grade": "open"
+ },
+ {
+  "id": "CURI-1794516852",
+  "ts_kst": "2026-11-13 05:54",
+  "ts_utc": "2026-11-12T20:54:12+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "CURI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.0% · 거래량 평소의 11.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CURI 장중 급등 포착",
+  "body": "$2.855 (+21.0%) · 정규장 · 레벨 2 · 점수 30\n$3.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 12배 이상, 관심 급증\n• 전일 대비 +21.0% · 거래량 평소의 11.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.757 지정가(60일선, 기준가 대비 -3.4%) · 체결 가능성 약 56% · 손익분기 $2.790\n숏 지지구간 $2.500–$2.624 · 손절 $2.400 · 1차목표 $3.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.855,
+  "level": 2,
+  "score": 29.7,
+  "prob": 53.06614608700353,
+  "cp": 44.02872005824343,
+  "rl": 3.000000000000001,
+  "stop": 2.4000000000000004,
+  "zone": [
+   2.5000000000000004,
+   2.6242500066757204
+  ],
+  "bp": 2.7572,
+  "tgt": 3.000000000000001,
+  "stp": 2.4000000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201015003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201015003",
+  "grade": "open"
  }
 ]
