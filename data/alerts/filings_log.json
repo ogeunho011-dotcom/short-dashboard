@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LKFN",
-  "form": "8-K",
-  "acc": "0000721994-26-000089",
-  "items": "8.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T18:43:54+00:00",
-  "accepted_kst": "11/11 03:43",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 8.01. Other Events On November 10, 2026, the board of directors of Lakeland Financial Corporation (\"Company\") amended the Company's existing share repurcha",
-  "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000089/0000721994-26-000089-index.htm",
-  "seen_kst": "2026-11-11 03:45"
- },
- {
   "ticker": "SCL",
   "form": "4",
   "acc": "0000094049-26-000127",
@@ -8694,5 +8677,22 @@
   "headline": "Item 1 — Information Contained in this Form 6-K Report Attached as Exhibit 1 is a copy of an announcement of Teekay Corporation Ltd. dated November 11, 2026. SI",
   "url": "https://www.sec.gov/Archives/edgar/data/911971/000091197126000061/0000911971-26-000061-index.htm",
   "seen_kst": "2026-11-13 02:16"
+ },
+ {
+  "ticker": "MLAB",
+  "form": "3",
+  "acc": "0000724004-26-000099",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T17:16:04+00:00",
+  "accepted_kst": "11/13 02:16",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000099/0000724004-26-000099-index.htm",
+  "seen_kst": "2026-11-13 02:18"
  }
 ]
