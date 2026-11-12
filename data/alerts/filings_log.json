@@ -1,23 +1,6 @@
 [
  {
   "ticker": "SND",
-  "form": "8-K",
-  "acc": "0001529628-26-000116",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:02:03+00:00",
-  "accepted_kst": "11/11 06:02",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ".htm EX-99.1 Smart Sand, Inc. Announces Third Quarter 2026 Results • 3Q 2026 revenue of $112.3 million • 3Q 2026 net income of $8.4 million • 3Q 2026 cash flow ",
-  "url": "https://www.sec.gov/Archives/edgar/data/1529628/000152962826000116/0001529628-26-000116-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
-  "ticker": "SND",
   "form": "10-Q",
   "acc": "0001529628-26-000115",
   "items": "",
@@ -8692,5 +8675,22 @@
   "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On",
   "url": "https://www.sec.gov/Archives/edgar/data/1784970/000121390026118848/0001213900-26-118848-index.htm",
   "seen_kst": "2026-11-13 05:09"
+ },
+ {
+  "ticker": "ZVIA",
+  "form": "4",
+  "acc": "0001462709-26-000006",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T20:14:06+00:00",
+  "accepted_kst": "11/13 05:14",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1854139/000146270926000006/0001462709-26-000006-index.htm",
+  "seen_kst": "2026-11-13 05:16"
  }
 ]
