@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BLBD",
-  "form": "8-K",
-  "acc": "0001589526-26-000057",
-  "items": "5.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:03:00+00:00",
-  "accepted_kst": "11/11 06:03",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. (e)",
-  "url": "https://www.sec.gov/Archives/edgar/data/1589526/000158952626000057/0001589526-26-000057-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "TLS",
   "form": "144",
   "acc": "0001950047-26-010910",
@@ -8692,5 +8675,22 @@
   "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders. The Annual Meeting of Shareholders of Atlantic American Corporation (the “Company”) was held on",
   "url": "https://www.sec.gov/Archives/edgar/data/8177/000114036126043410/0001140361-26-043410-index.htm",
   "seen_kst": "2026-11-13 05:31"
+ },
+ {
+  "ticker": "DBGI",
+  "form": "144",
+  "acc": "0001959173-26-007972",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T20:32:07+00:00",
+  "accepted_kst": "11/13 05:32",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1668010/000195917326007972/0001959173-26-007972-index.htm",
+  "seen_kst": "2026-11-13 05:34"
  }
 ]
