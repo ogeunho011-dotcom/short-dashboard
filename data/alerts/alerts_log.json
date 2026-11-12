@@ -58609,5 +58609,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250723003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250723003",
   "grade": "open"
+ },
+ {
+  "id": "MYPS-1794512191",
+  "ts_kst": "2026-11-13 04:36",
+  "ts_utc": "2026-11-12T19:36:31+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "MYPS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.2% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MYPS 장중 급등 포착",
+  "body": "$4.920 (+15.2%) · 정규장 · 레벨 2 · 점수 37\n$5.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 813만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.2% · 거래량 평소의 8.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $4.624 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.0%) · 체결 가능성 약 45% · 손익분기 $4.680\n숏 지지구간 $4.500–$4.750 · 손절 $4.250 · 1차목표 $5.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-01\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.92,
+  "level": 2,
+  "score": 37.0,
+  "prob": 38.456237077877326,
+  "cp": 33.12386183373963,
+  "rl": 5.5,
+  "stop": 4.25,
+  "zone": [
+   4.5,
+   4.75
+  ],
+  "bp": 4.6243,
+  "tgt": 5.5,
+  "stp": 4.25,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-01"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210622004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210622004",
+  "grade": "open"
  }
 ]

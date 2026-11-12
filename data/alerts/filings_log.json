@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BWAY",
-  "form": "6-K",
-  "acc": "0001171843-26-007332",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:01:09+00:00",
-  "accepted_kst": "11/11 06:01",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "This Form 6-K is incorporated by reference into the Company's Registration Statements on Form S-8 filed with the Securities and Exchange Commission on April 22,",
-  "url": "https://www.sec.gov/Archives/edgar/data/1505065/000117184326007332/0001171843-26-007332-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "WKSP",
   "form": "10-Q",
   "acc": "0001437749-26-036143",
@@ -8694,5 +8677,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1050441/000178361226000005/0001783612-26-000005-index.htm",
   "seen_kst": "2026-11-13 04:34"
+ },
+ {
+  "ticker": "ARTNA",
+  "form": "10-Q",
+  "acc": "0000863110-26-000116",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:34:03+00:00",
+  "accepted_kst": "11/13 04:34",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/863110/000086311026000116/0000863110-26-000116-index.htm",
+  "seen_kst": "2026-11-13 04:36"
  }
 ]
