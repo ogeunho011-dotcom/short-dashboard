@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "NCMI",
-  "form": "8-K",
-  "acc": "0001193125-26-455387",
-  "items": "5.02,7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:01:34+00:00",
-  "accepted_kst": "11/11 06:01",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "EX-99.1 2 ncmi-ex99_1.htm EX-99.1 National CineMedia Announces Leadership Transition Plan Tom Lesinski to Retire as Chief Executive Officer Board of Directors I",
-  "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526455387/0001193125-26-455387-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "INO",
   "form": "10-Q",
   "acc": "0001055726-26-000029",
@@ -8694,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/766792/000076679226000012/0000766792-26-000012-index.htm",
   "seen_kst": "2026-11-13 04:49"
+ },
+ {
+  "ticker": "CISS",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0001235976-26-000002",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:51:55+00:00",
+  "accepted_kst": "11/13 04:51",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1951067/000123597626000002/0001235976-26-000002-index.htm",
+  "seen_kst": "2026-11-13 04:56"
  }
 ]
