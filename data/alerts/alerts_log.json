@@ -57463,5 +57463,50 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220201002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220201002",
   "grade": "open"
+ },
+ {
+  "id": "CRVO-1794507384",
+  "ts_kst": "2026-11-13 03:16",
+  "ts_utc": "2026-11-12T18:16:24+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "CRVO",
+  "types": [
+   "spike",
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +20.1% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "5분 거래량 97k (당일 평균 7.1배)"
+  ],
+  "title": "🚀 CRVO 장중 급등 포착 · 상위 확률 신호 · 거래량 급증",
+  "body": "$2.138 (+20.1%) · 정규장 · 레벨 3 · 점수 45\n공매도 물량 대부분 손해 중, $2.25 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,513만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +20.1% · 거래량 평소의 4.8배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n• 5분 거래량 97k (당일 평균 7.1배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.031 지정가(기준가 $2.138의 −5%) · 체결 가능성 약 65% · 손익분기 $2.056\n숏 지지구간 $1.500–$1.750 · 손절 $1.250 · 1차목표 $2.250\n⚠ 희석 위험 75/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.138,
+  "level": 3,
+  "score": 45.2,
+  "prob": 52.96546975531301,
+  "cp": 55.1821836042857,
+  "rl": 2.25,
+  "stop": 1.25,
+  "zone": [
+   1.5,
+   1.75
+  ],
+  "bp": 2.0311,
+  "tgt": 2.25,
+  "stp": 1.25,
+  "penalties": [
+   "희석 위험 75/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20161109017%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20161109017",
+  "grade": "open"
  }
 ]
