@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SND",
-  "form": "10-Q",
-  "acc": "0001529628-26-000115",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:02:07+00:00",
-  "accepted_kst": "11/11 06:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1529628/000152962826000115/0001529628-26-000115-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "UMAC",
   "form": "8-K",
   "acc": "0001683168-26-008496",
@@ -8692,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1854139/000146270926000006/0001462709-26-000006-index.htm",
   "seen_kst": "2026-11-13 05:16"
+ },
+ {
+  "ticker": "GNE",
+  "form": "4",
+  "acc": "0001193125-26-458137",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T20:19:00+00:00",
+  "accepted_kst": "11/13 05:19",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1528356/000119312526458137/0001193125-26-458137-index.htm",
+  "seen_kst": "2026-11-13 05:21"
  }
 ]
