@@ -57136,5 +57136,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19920317026%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19920317026",
   "grade": "open"
+ },
+ {
+  "id": "SOS-1794502878",
+  "ts_kst": "2026-11-13 02:01",
+  "ts_utc": "2026-11-12T17:01:18+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "SOS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.6% · 거래량 평소의 120.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SOS 장중 급등 포착",
+  "body": "$0.213 (+16.6%) · 정규장 · 레벨 3 · 점수 40\n$0.250 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,240만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.6% · 거래량 평소의 120.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.205 지정가(20일선, 기준가 대비 -3.5%) · 체결 가능성 약 76% · 손익분기 $0.208\n숏 지지구간 $0.150–$0.200 · 손절 $0.106 · 1차목표 $0.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2126,
+  "level": 3,
+  "score": 40.5,
+  "prob": 38.456237077877326,
+  "cp": 18.86935854931934,
+  "rl": 0.25,
+  "stop": 0.1062999963760376,
+  "zone": [
+   0.15000000000000002,
+   0.2
+  ],
+  "bp": 0.2052,
+  "tgt": 0.25,
+  "stp": 0.1062999963760376,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200721007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200721007",
+  "grade": "open"
+ },
+ {
+  "id": "REED-1794502878",
+  "ts_kst": "2026-11-13 02:01",
+  "ts_utc": "2026-11-12T17:01:18+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "REED",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 81/100"
+  ],
+  "title": "🚀 REED 커버 압력",
+  "body": "$2.007 (+14.1%) · 정규장 · 레벨 3 · 점수 43\n공매도 물량 대부분 손해 중, $2.03 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,186만 주뿐이라 쉽게 크게 움직임\n• 커버 압력 81/100\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.907 지정가(기준가 $2.007의 −5%) · 체결 가능성 약 63% · 손익분기 $1.930\n숏 지지구간 $1.405–$1.405 · 손절 $1.004 · 1차목표 $2.026\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.0075,
+  "level": 3,
+  "score": 42.8,
+  "prob": 47.808764940239065,
+  "cp": 81.39461555974634,
+  "rl": 2.0255000591278076,
+  "stop": 1.003749966621399,
+  "zone": [
+   1.4052499532699585,
+   1.4052499532699585
+  ],
+  "bp": 1.9071,
+  "tgt": 2.0255000591278076,
+  "stp": 1.003749966621399,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0251205002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0251205002",
+  "grade": "open"
  }
 ]

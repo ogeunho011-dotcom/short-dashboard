@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TSBK",
-  "form": "4",
-  "acc": "0000939057-26-000304",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T18:04:04+00:00",
-  "accepted_kst": "11/11 03:04",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1046050/000093905726000304/0000939057-26-000304-index.htm",
-  "seen_kst": "2026-11-11 03:05"
- },
- {
   "ticker": "NUR",
   "form": "6-K",
   "acc": "0001493152-26-050924",
@@ -8694,5 +8677,22 @@
   "headline": "OPERATING AND FINANCIAL REVIEW AND PROSPECTS. The following discussion, analysis and review of the financial condition results of operations, and prospects of S",
   "url": "https://www.sec.gov/Archives/edgar/data/1517396/000162828026073244/0001628280-26-073244-index.htm",
   "seen_kst": "2026-11-13 01:58"
+ },
+ {
+  "ticker": "AQST",
+  "form": "4",
+  "acc": "0001214659-26-014004",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T16:59:24+00:00",
+  "accepted_kst": "11/13 01:59",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $99,331 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Daly Richard J",
+  "url": "https://www.sec.gov/Archives/edgar/data/1398733/000121465926014004/0001214659-26-014004-index.htm",
+  "seen_kst": "2026-11-13 02:01"
  }
 ]
