@@ -58774,5 +58774,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
   "grade": "open"
+ },
+ {
+  "id": "XLAB-1794515208",
+  "ts_kst": "2026-11-13 05:26",
+  "ts_utc": "2026-11-12T20:26:48+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "XLAB",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 XLAB 상위 확률 신호",
+  "body": "$2.285 (+118.7%) · 정규장 · 레벨 3 · 점수 40\n오늘 거래량 평소의 5배 이상, 관심 급증 · 최근 회사 공시 있음 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.171 지정가(기준가 $2.285의 −5%) · 체결 가능성 약 78% · 손익분기 $2.197\n숏 지지구간 $2.000–$2.285 · 손절 $1.500 · 1차목표 $3.500\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 11/09)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.285,
+  "level": 3,
+  "score": 40.2,
+  "prob": 52.91666666666666,
+  "cp": 38.0676027692346,
+  "rl": 3.5,
+  "stop": 1.5,
+  "zone": [
+   2.0,
+   2.2850000858306885
+  ],
+  "bp": 2.1708,
+  "tgt": 3.5,
+  "stp": 1.5,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 11/09)",
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250820002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250820002",
+  "grade": "open"
  }
 ]
