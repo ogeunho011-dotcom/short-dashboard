@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NVX",
-  "form": "6-K",
-  "acc": "0001193125-26-455361",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T20:56:53+00:00",
-  "accepted_kst": "11/11 05:56",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Announcement Summary Entity name NOVONIX LIMITED Announcement Type New announcement Date of this announcement Tuesday November 10, 2026 Details of +securities t",
-  "url": "https://www.sec.gov/Archives/edgar/data/1859795/000119312526455361/0001193125-26-455361-index.htm",
-  "seen_kst": "2026-11-11 05:57"
- },
- {
   "ticker": "AVD",
   "form": "10-Q",
   "acc": "0001193125-26-453724",
@@ -8694,5 +8677,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000156/0001005817-26-000156-index.htm",
   "seen_kst": "2026-11-13 03:44"
+ },
+ {
+  "ticker": "TMP",
+  "form": "4",
+  "acc": "0001005817-26-000158",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T18:46:46+00:00",
+  "accepted_kst": "11/13 03:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000158/0001005817-26-000158-index.htm",
+  "seen_kst": "2026-11-13 03:49"
  }
 ]
