@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "FLYE",
-  "form": "S-1",
-  "acc": "0001213900-26-117613",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-10T20:55:45+00:00",
-  "accepted_kst": "11/11 05:55",
-  "polarity": "neg",
-  "label": "증자 서류(S-1)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1975940/000121390026117613/0001213900-26-117613-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "CLFD",
   "form": "8-K",
   "acc": "0001171843-26-007330",
@@ -8694,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526457975/0001193125-26-457975-index.htm",
   "seen_kst": "2026-11-13 04:01"
+ },
+ {
+  "ticker": "XCUR",
+  "form": "DEF 14A",
+  "acc": "0001193125-26-457986",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:04:42+00:00",
+  "accepted_kst": "11/13 04:04",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1698530/000119312526457986/0001193125-26-457986-index.htm",
+  "seen_kst": "2026-11-13 04:06"
  }
 ]
