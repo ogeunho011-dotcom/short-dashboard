@@ -58899,5 +58899,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231010003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231010003",
   "grade": "n/a"
+ },
+ {
+  "id": "REED-1794516249",
+  "ts_kst": "2026-11-13 05:44",
+  "ts_utc": "2026-11-12T20:44:09+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "REED",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +18.0% 급변 · 전일 대비 +13.1% — 추격 매수 주의"
+  ],
+  "title": "⚡ REED 장중 급등 포착",
+  "body": "$1.990 (+13.1%) · 정규장 · 레벨 2 · 점수 35\n공매도 물량 대부분 손해 중, $2.03 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,186만 주뿐이라 쉽게 크게 움직임\n• 5분 +18.0% 급변 · 전일 대비 +13.1% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.891 지정가(기준가 $1.990의 −5%) · 체결 가능성 약 65% · 손익분기 $1.913\n숏 지지구간 $1.393–$1.393 · 손절 $0.995 · 1차목표 $2.026\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.99,
+  "level": 2,
+  "score": 35.4,
+  "prob": 45.01661129568107,
+  "cp": 60.80418788313422,
+  "rl": 2.0255000591278076,
+  "stop": 0.9950000047683716,
+  "zone": [
+   1.3930000066757202,
+   1.3930000066757202
+  ],
+  "bp": 1.8905,
+  "tgt": 2.0255000591278076,
+  "stp": 0.9950000047683716,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0251205002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0251205002",
+  "grade": "open"
  }
 ]
