@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "UMAC",
-  "form": "8-K",
-  "acc": "0001683168-26-008496",
-  "items": "7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:02:52+00:00",
-  "accepted_kst": "11/11 06:02",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "INVESTOR PRESENTATION NYSE American: UMAC November 2026 FORWARD LOOKING STATEMENTS This presentation contains forward - looking statements within the meaning of",
-  "url": "https://www.sec.gov/Archives/edgar/data/1956955/000168316826008496/0001683168-26-008496-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "BLBD",
   "form": "8-K",
   "acc": "0001589526-26-000057",
@@ -8692,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1528356/000119312526458137/0001193125-26-458137-index.htm",
   "seen_kst": "2026-11-13 05:21"
+ },
+ {
+  "ticker": "AAME",
+  "form": "8-K",
+  "acc": "0001140361-26-043410",
+  "items": "5.07",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T20:28:46+00:00",
+  "accepted_kst": "11/13 05:28",
+  "polarity": "neutral",
+  "label": "주총 결과",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders. The Annual Meeting of Shareholders of Atlantic American Corporation (the “Company”) was held on",
+  "url": "https://www.sec.gov/Archives/edgar/data/8177/000114036126043410/0001140361-26-043410-index.htm",
+  "seen_kst": "2026-11-13 05:31"
  }
 ]

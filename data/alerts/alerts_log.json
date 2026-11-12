@@ -33667,10 +33667,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140403004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140403004",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 4,
+  "grade_ret": 0.13359390378845526,
+  "graded_bars": 4
  },
  {
   "id": "ANTA-1793976455",
@@ -58816,6 +58816,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250820002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250820002",
+  "grade": "open"
+ },
+ {
+  "id": "BDMD-1794515490",
+  "ts_kst": "2026-11-13 05:31",
+  "ts_utc": "2026-11-12T20:31:30+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "BDMD",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 252k (당일 평균 10.6배)"
+  ],
+  "title": "🚀 BDMD 거래량 급증",
+  "body": "$0.106 (+5.2%) · 정규장 · 레벨 3 · 점수 49\n오늘 거래량 평소의 4배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 5분 거래량 252k (당일 평균 10.6배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.113 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 +6.0%) · 체결 가능성 약 85% · 손익분기 $0.114\n숏 지지구간 $0.074–$0.100 · 손절 $0.053 · 1차목표 $0.200\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1063,
+  "level": 3,
+  "score": 49.0,
+  "prob": 31.25,
+  "cp": 8.293027804189057,
+  "rl": 0.2,
+  "stop": 0.0531499981880188,
+  "zone": [
+   0.07440999746322631,
+   0.1
+  ],
+  "bp": 0.1127,
+  "tgt": 0.2,
+  "stp": 0.0531499981880188,
+  "penalties": [
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
   "grade": "open"
  }
 ]
