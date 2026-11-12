@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "UMAC",
-  "form": "SCHEDULE 13G",
-  "acc": "0001842665-26-000009",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T19:29:19+00:00",
-  "accepted_kst": "11/11 04:29",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1956955/000184266526000009/0001842665-26-000009-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "FLYE",
   "form": "S-1",
   "acc": "0001213900-26-117613",
@@ -8694,5 +8677,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/891532/000149315226051325/0001493152-26-051325-index.htm",
   "seen_kst": "2026-11-13 03:59"
+ },
+ {
+  "ticker": "CARS",
+  "form": "4",
+  "acc": "0001193125-26-457975",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T19:00:04+00:00",
+  "accepted_kst": "11/13 04:00",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526457975/0001193125-26-457975-index.htm",
+  "seen_kst": "2026-11-13 04:01"
  }
 ]
