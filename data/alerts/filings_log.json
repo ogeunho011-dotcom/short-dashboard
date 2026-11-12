@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PFIS",
-  "form": "144",
-  "acc": "0001628280-26-072614",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T18:37:20+00:00",
-  "accepted_kst": "11/11 03:37",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1056943/000162828026072614/0001628280-26-072614-index.htm",
-  "seen_kst": "2026-11-11 03:40"
- },
- {
   "ticker": "LKFN",
   "form": "8-K",
   "acc": "0000721994-26-000089",
@@ -8694,5 +8677,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1474627/000147793226006861/0001477932-26-006861-index.htm",
   "seen_kst": "2026-11-13 02:13"
+ },
+ {
+  "ticker": "TK",
+  "form": "6-K",
+  "acc": "0000911971-26-000061",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T17:15:06+00:00",
+  "accepted_kst": "11/13 02:15",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 1 — Information Contained in this Form 6-K Report Attached as Exhibit 1 is a copy of an announcement of Teekay Corporation Ltd. dated November 11, 2026. SI",
+  "url": "https://www.sec.gov/Archives/edgar/data/911971/000091197126000061/0000911971-26-000061-index.htm",
+  "seen_kst": "2026-11-13 02:16"
  }
 ]
