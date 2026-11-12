@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "EPRX",
-  "form": "6-K",
-  "acc": "0001193125-26-455405",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:04:01+00:00",
-  "accepted_kst": "11/11 06:04",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EUPRAXIA PHARMACEUTICALS INC. CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS FOR THE THREE AND NINE MONTHS ENDED SEPTEMBER 30, 2026 (Unaudited and Expresse",
-  "url": "https://www.sec.gov/Archives/edgar/data/1581178/000119312526455405/0001193125-26-455405-index.htm",
-  "seen_kst": "2026-11-11 06:08"
- },
- {
   "ticker": "ACHV",
   "form": "8-K",
   "acc": "0001193125-26-455404",
@@ -8692,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1013272/000119312526458221/0001193125-26-458221-index.htm",
   "seen_kst": "2026-11-13 05:54"
+ },
+ {
+  "ticker": "NWFL",
+  "form": "4",
+  "acc": "0001193125-26-458228",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T20:55:02+00:00",
+  "accepted_kst": "11/13 05:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013272/000119312526458228/0001193125-26-458228-index.htm",
+  "seen_kst": "2026-11-13 05:56"
  }
 ]
