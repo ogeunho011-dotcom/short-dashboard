@@ -56820,5 +56820,165 @@
    "accepted_kst": "11/13 01:37",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "USEA-1794502293",
+  "ts_kst": "2026-11-13 01:51",
+  "ts_utc": "2026-11-12T16:51:33+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "USEA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +25.5% · 거래량 평소의 24.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ USEA 장중 급등 포착",
+  "body": "$3.050 (+25.5%) · 정규장 · 레벨 2 · 점수 29\n공매도 물량 대부분 손해 중, $3.20 넘으면 급등 가능성 ↑ · 시장에 도는 주식 954만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +25.5% · 거래량 평소의 24.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.897 지정가(기준가 $3.050의 −5%) · 체결 가능성 약 31% · 손익분기 $2.932\n숏 지지구간 $2.850–$2.920 · 손절 $2.800 · 1차목표 $3.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.05,
+  "level": 2,
+  "score": 28.6,
+  "prob": 53.44827586206896,
+  "cp": 65.7083534223376,
+  "rl": 3.1999999999999966,
+  "stop": 2.799999999999998,
+  "zone": [
+   2.849999999999998,
+   2.919999983310698
+  ],
+  "bp": 2.8975,
+  "tgt": 3.1999999999999966,
+  "stp": 2.799999999999998,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220706004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220706004",
+  "grade": "open"
+ },
+ {
+  "id": "TGHL-1794502293",
+  "ts_kst": "2026-11-13 01:51",
+  "ts_utc": "2026-11-12T16:51:33+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "TGHL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.3% · 거래량 평소의 50.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TGHL 장중 급등 포착",
+  "body": "$0.491 (+23.3%) · 정규장 · 레벨 1 · 점수 20\n시장에 도는 주식 1,272만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 27배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +23.3% · 거래량 평소의 50.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.480 지정가(20일선, 기준가 대비 -2.2%) · 체결 가능성 약 82% · 손익분기 $0.486\n숏 지지구간 $0.375–$0.475 · 손절 $0.275 · 1차목표 $1.000\n⚠ 최근 악재 공시: F-1 증자 서류(F-1) (11/10)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.491,
+  "level": 1,
+  "score": 20.5,
+  "prob": 28.643216080402006,
+  "cp": 2.7080831765549225,
+  "rl": 0.9999999999999999,
+  "stop": 0.27509998679161074,
+  "zone": [
+   0.3750999867916107,
+   0.4750999867916107
+  ],
+  "bp": 0.4804,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "최근 악재 공시: F-1 증자 서류(F-1) (11/10)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250828005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250828005",
+  "grade": "n/a"
+ },
+ {
+  "id": "TRAW-1794502293",
+  "ts_kst": "2026-11-13 01:51",
+  "ts_utc": "2026-11-12T16:51:33+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "TRAW",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.3% · 거래량 평소의 6.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TRAW 장중 급등 포착",
+  "body": "$0.298 (+19.3%) · 정규장 · 레벨 1 · 점수 20\n$0.300 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,537만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +19.3% · 거래량 평소의 6.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.283 지정가(기준가 $0.298의 −5%) · 체결 가능성 약 69% · 손익분기 $0.287\n숏 지지구간 $0.250–$0.298 · 손절 $0.225 · 1차목표 $0.300\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2982,
+  "level": 1,
+  "score": 20.0,
+  "prob": 52.91666666666666,
+  "cp": 29.804680280646135,
+  "rl": 0.3,
+  "stop": 0.225,
+  "zone": [
+   0.25,
+   0.29820001125335693
+  ],
+  "bp": 0.2833,
+  "tgt": 0.3,
+  "stp": 0.225,
+  "penalties": [
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130725002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130725002",
+  "grade": "open"
+ },
+ {
+  "id": "TREO-1794502293",
+  "ts_kst": "2026-11-13 01:51",
+  "ts_utc": "2026-11-12T16:51:33+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "TREO",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 TREO 상위 확률 신호",
+  "body": "$3.240 (+14.0%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $3.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 879만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.078 지정가(기준가 $3.240의 −5%) · 체결 가능성 약 64% · 손익분기 $3.115\n숏 지지구간 $2.000–$2.500 · 손절 $1.620 · 1차목표 $3.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.24,
+  "level": 3,
+  "score": 40.7,
+  "prob": 52.91666666666666,
+  "cp": 67.33969185570427,
+  "rl": 3.5,
+  "stop": 1.6200000047683716,
+  "zone": [
+   2.0,
+   2.5
+  ],
+  "bp": 3.078,
+  "tgt": 3.5,
+  "stp": 1.6200000047683716,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
+  "grade": "open"
  }
 ]
