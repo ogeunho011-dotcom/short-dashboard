@@ -58651,5 +58651,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210622004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210622004",
   "grade": "open"
+ },
+ {
+  "id": "ENGN-1794513086",
+  "ts_kst": "2026-11-13 04:51",
+  "ts_utc": "2026-11-12T19:51:26+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "ENGN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.3% · 거래량 평소의 13.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ENGN 장중 급등 포착",
+  "body": "$2.165 (+20.3%) · 정규장 · 레벨 2 · 점수 34\n공매도 물량 대부분 손해 중, $2.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 12배 이상, 관심 급증\n• 전일 대비 +20.3% · 거래량 평소의 13.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.057 지정가(기준가 $2.165의 −5%) · 체결 가능성 약 44% · 손익분기 $2.082\n숏 지지구간 $2.000–$2.058 · 손절 $1.950 · 1차목표 $2.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.165,
+  "level": 2,
+  "score": 33.6,
+  "prob": 53.44827586206896,
+  "cp": 51.35516675962335,
+  "rl": 2.250000000000001,
+  "stop": 1.9500000000000008,
+  "zone": [
+   2.000000000000001,
+   2.05774998664856
+  ],
+  "bp": 2.0567,
+  "tgt": 2.250000000000001,
+  "stp": 1.9500000000000008,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220201002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220201002",
+  "grade": "open"
  }
 ]
