@@ -55545,9 +55545,9 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250723002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250723002",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.060054054054054055,
   "graded_bars": 1
  },
  {
@@ -58858,5 +58858,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
   "grade": "open"
+ },
+ {
+  "id": "GMM-1794515798",
+  "ts_kst": "2026-11-13 05:36",
+  "ts_utc": "2026-11-12T20:36:38+00:00",
+  "date_et": "2026-11-12",
+  "session": "regular",
+  "ticker": "GMM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.0% · 거래량 평소의 66.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GMM 장중 급등 포착",
+  "body": "$1.100 (+17.0%) · 정규장 · 레벨 1 · 점수 23\n오늘 거래량 평소의 50배 이상, 관심 급증 · $1 다시 회복 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +17.0% · 거래량 평소의 66.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $1.041 지정가(20일선, 기준가 대비 -5.3%) · 체결 가능성 약 73% · 손익분기 $1.054\n숏 지지구간 $1.000–$1.100 · 손절 $0.875 · 1차목표 $3.000\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/02)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.1,
+  "level": 1,
+  "score": 23.2,
+  "prob": 24.587706146926536,
+  "cp": 22.289550011973752,
+  "rl": 3.0,
+  "stop": 0.875,
+  "zone": [
+   1.0,
+   1.100000023841858
+  ],
+  "bp": 1.0414,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/02)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231010003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231010003",
+  "grade": "n/a"
  }
 ]
