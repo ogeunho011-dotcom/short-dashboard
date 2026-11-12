@@ -2,23 +2,6 @@
  {
   "ticker": "IBEX",
   "form": "144",
-  "acc": "0001974494-26-000328",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T20:43:49+00:00",
-  "accepted_kst": "11/11 05:43",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1720420/000197449426000328/0001974494-26-000328-index.htm",
-  "seen_kst": "2026-11-11 05:47"
- },
- {
-  "ticker": "IBEX",
-  "form": "144",
   "acc": "0001974494-26-000329",
   "items": "",
   "filed": "2026-11-10",
@@ -8692,5 +8675,26 @@
   "headline": "EX-99.1 2 tci20260930ex991earnings.htm EX-99.1 NEWS RELEASE Contact: Transcontinental Realty Investors, Inc. Investor Relations FOR IMMEDIATE RELEASE Erik Johns",
   "url": "https://www.sec.gov/Archives/edgar/data/733590/000162828026073274/0001628280-26-073274-index.htm",
   "seen_kst": "2026-11-13 02:48"
+ },
+ {
+  "ticker": "TOPP",
+  "form": "8-K",
+  "acc": "0001213900-26-118755",
+  "items": "3.01",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T17:54:38+00:00",
+  "accepted_kst": "11/13 02:54",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할",
+   "상장 유지 기준 미달·상폐 위험",
+   "상장 유지 기준 미달 통지(항목 3.01)"
+  ],
+  "strength": 0,
+  "headline": "Item 3.01 Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On November 10, 2026, Toppoint Holdings Inc. (the",
+  "url": "https://www.sec.gov/Archives/edgar/data/1960847/000121390026118755/0001213900-26-118755-index.htm",
+  "seen_kst": "2026-11-13 02:56"
  }
 ]
