@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "EML",
-  "form": "8-K",
-  "acc": "0001654954-26-009663",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:00:24+00:00",
-  "accepted_kst": "11/11 07:00",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "THE EASTERN COMPANY REPORTS THIRD QUARTER 2026 RESULTS · Net Sales Increased 36% Year-over-Year and 21% Sequentially to $75.0 Million on Higher Shipments of Tru",
-  "url": "https://www.sec.gov/Archives/edgar/data/31107/000165495426009663/0001654954-26-009663-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "WAFDP",
   "form": "8-K",
   "acc": "0000936528-26-000072",
@@ -8682,5 +8665,22 @@
   "headline": "Item 5.07 Submission of Matters to a Vote of Security Holders. On November 12, 2026, Rare Earths Americas, Inc. (the “Company”) held its 2026 Annual Meeting of",
   "url": "https://www.sec.gov/Archives/edgar/data/2095743/000119312526459820/0001193125-26-459820-index.htm",
   "seen_kst": "2026-11-14 02:03"
+ },
+ {
+  "ticker": "PEBO",
+  "form": "4",
+  "acc": "0000318300-26-000250",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T17:02:03+00:00",
+  "accepted_kst": "11/14 02:02",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/318300/000031830026000250/0000318300-26-000250-index.htm",
+  "seen_kst": "2026-11-14 02:05"
  }
 ]
