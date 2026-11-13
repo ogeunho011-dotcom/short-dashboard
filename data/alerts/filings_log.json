@@ -1,61 +1,5 @@
 [
  {
-  "ticker": "SEV",
-  "form": "8-K",
-  "acc": "0001493152-26-051042",
-  "items": "1.01,3.02,5.07,7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:30:39+00:00",
-  "accepted_kst": "11/11 07:30",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Aptera Motors Announces Pricing of $6 Million Registered Direct Offering and Concurrent Private Placement",
-  "url": "https://www.sec.gov/Archives/edgar/data/1786471/000149315226051042/0001493152-26-051042-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "SPRO",
-  "form": "8-K",
-  "acc": "0001193125-26-455789",
-  "items": "5.02",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:30:46+00:00",
-  "accepted_kst": "11/11 07:30",
-  "polarity": "neutral",
-  "label": "임원 변경",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Dir",
-  "url": "https://www.sec.gov/Archives/edgar/data/1701108/000119312526455789/0001193125-26-455789-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "LICN",
-  "form": "424B5",
-  "acc": "0001185185-26-005284",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:31:01+00:00",
-  "accepted_kst": "11/11 07:31",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1876766/000118518526005284/0001185185-26-005284-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "GRPN",
   "form": "3",
   "acc": "0002163322-26-000003",
@@ -8663,5 +8607,56 @@
   "headline": "Park Dental Partners Announces Third Quarter 2026 Results FOR IMMEDIATE RELEASE ​ Correction: This press release corrects the “Percent Change (At Midpoint)” in",
   "url": "https://www.sec.gov/Archives/edgar/data/2069604/000110465926126935/0001104659-26-126935-index.htm",
   "seen_kst": "2026-11-14 05:06"
+ },
+ {
+  "ticker": "GROW",
+  "form": "10-Q",
+  "acc": "0001437749-26-036578",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T21:14:18+00:00",
+  "accepted_kst": "11/13 06:14",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/754811/000143774926036578/0001437749-26-036578-index.htm",
+  "seen_kst": "2026-11-14 05:08"
+ },
+ {
+  "ticker": "GROW",
+  "form": "8-K",
+  "acc": "0001437749-26-036584",
+  "items": "2.02,9.01",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T21:18:14+00:00",
+  "accepted_kst": "11/13 06:18",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": ", shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934 (the \"Exchange Act\"), or otherwise subject to the liability of s",
+  "url": "https://www.sec.gov/Archives/edgar/data/754811/000143774926036584/0001437749-26-036584-index.htm",
+  "seen_kst": "2026-11-14 05:08"
+ },
+ {
+  "ticker": "GROW",
+  "form": "4",
+  "acc": "0001062993-26-006003",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:07:52+00:00",
+  "accepted_kst": "11/14 05:07",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $82,691 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Gator Capital Management, LLC",
+  "url": "https://www.sec.gov/Archives/edgar/data/754811/000106299326006003/0001062993-26-006003-index.htm",
+  "seen_kst": "2026-11-14 05:08"
  }
 ]
