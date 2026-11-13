@@ -1,42 +1,5 @@
 [
  {
-  "ticker": "RLYB",
-  "form": "8-K",
-  "acc": "0001193125-26-455762",
-  "items": "8.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:20:38+00:00",
-  "accepted_kst": "11/11 07:20",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Rallybio Announces Reverse Stock Split of Common Stock in Connection with the Proposed Merger with Avenzo",
-  "url": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526455762/0001193125-26-455762-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "RM",
-  "form": "8-K",
-  "acc": "0001193125-26-455761",
-  "items": "7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:20:46+00:00",
-  "accepted_kst": "11/11 07:20",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 rm-ex99_1.htm EX-99.1 ABS Investor Presentation November 10, 2026 Legal Disclosures The information contained in this electronic presentation (the “In",
-  "url": "https://www.sec.gov/Archives/edgar/data/1519401/000119312526455761/0001193125-26-455761-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "LABT",
   "form": "8-K",
   "acc": "0001213900-26-118127",
@@ -8677,5 +8640,39 @@
   "headline": "Peduzzi Michael D",
   "url": "https://www.sec.gov/Archives/edgar/data/736772/000140972226000015/0001409722-26-000015-index.htm",
   "seen_kst": "2026-11-14 04:18"
+ },
+ {
+  "ticker": "INUV",
+  "form": "10-Q",
+  "acc": "0001654954-26-009771",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:14:54+00:00",
+  "accepted_kst": "11/14 04:14",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/829323/000165495426009771/0001654954-26-009771-index.htm",
+  "seen_kst": "2026-11-14 04:30"
+ },
+ {
+  "ticker": "AUXX",
+  "form": "6-K",
+  "acc": "0001104659-26-126904",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:29:17+00:00",
+  "accepted_kst": "11/14 04:29",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "GOLD X2 MINING INC. Condensed Consolidated Interim Financial Statements For the three and nine months ended September 30, 2026 and 2025 Expressed in Canadian Do",
+  "url": "https://www.sec.gov/Archives/edgar/data/1961592/000110465926126904/0001104659-26-126904-index.htm",
+  "seen_kst": "2026-11-14 04:30"
  }
 ]
