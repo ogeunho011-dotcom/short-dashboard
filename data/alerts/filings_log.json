@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "FUN",
-  "form": "4",
-  "acc": "0001999001-26-000111",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:42:12+00:00",
-  "accepted_kst": "11/11 06:42",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $90,720 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "HADDRILL RICHARD M",
-  "url": "https://www.sec.gov/Archives/edgar/data/1999001/000199900126000111/0001999001-26-000111-index.htm",
-  "seen_kst": "2026-11-11 06:51"
- },
- {
-  "ticker": "AUXX",
-  "form": "6-K",
-  "acc": "0001104659-26-125275",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:42:14+00:00",
-  "accepted_kst": "11/11 06:42",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "FORM 51-102F3 MATERIAL CHANGE REPORT ITEM 1. NAME AND ADDRESS OF ISSUER Gold X2 Mining Inc. (the “ Company ” or “ Gold X2 ”) Suite 2300 – 1021 West Hastings Str",
-  "url": "https://www.sec.gov/Archives/edgar/data/1961592/000110465926125275/0001104659-26-125275-index.htm",
-  "seen_kst": "2026-11-11 06:51"
- },
- {
-  "ticker": "PRME",
-  "form": "424B5",
-  "acc": "0001628280-26-072802",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:43:12+00:00",
-  "accepted_kst": "11/11 06:43",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1894562/000162828026072802/0001628280-26-072802-index.htm",
-  "seen_kst": "2026-11-11 06:51"
- },
- {
   "ticker": "ANGX",
   "form": "10-Q",
   "acc": "0001865200-26-000100",
@@ -8694,5 +8641,58 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/743367/000207600326000003/0002076003-26-000003-index.htm",
   "seen_kst": "2026-11-14 01:14"
+ },
+ {
+  "ticker": "INLX",
+  "form": "10-Q",
+  "acc": "0001493152-26-051371",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T21:00:51+00:00",
+  "accepted_kst": "11/13 06:00",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1081745/000149315226051371/0001493152-26-051371-index.htm",
+  "seen_kst": "2026-11-14 01:18"
+ },
+ {
+  "ticker": "TOPP",
+  "form": "8-K",
+  "acc": "0001213900-26-119351",
+  "items": "7.01,9.01",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T16:13:57+00:00",
+  "accepted_kst": "11/14 01:13",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "Toppoint Holdings Inc. Announces Reverse Stock Split",
+  "url": "https://www.sec.gov/Archives/edgar/data/1960847/000121390026119351/0001213900-26-119351-index.htm",
+  "seen_kst": "2026-11-14 01:18"
+ },
+ {
+  "ticker": "INLX",
+  "form": "8-K",
+  "acc": "0001493152-26-051585",
+  "items": "2.02,9.01",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T16:15:01+00:00",
+  "accepted_kst": "11/14 01:15",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Intellinetics Reports Improved Third-Quarter Profitability and Gross Margin Expansion GAAP Net Loss Narrows; Positive Adjusted EBITDA of $144,821 Reflects $516,",
+  "url": "https://www.sec.gov/Archives/edgar/data/1081745/000149315226051585/0001493152-26-051585-index.htm",
+  "seen_kst": "2026-11-14 01:18"
  }
 ]

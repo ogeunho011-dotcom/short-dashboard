@@ -60942,5 +60942,245 @@
    "accepted_kst": "11/14 00:45",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "RAIN-1794586700",
+  "ts_kst": "2026-11-14 01:18",
+  "ts_utc": "2026-11-13T16:18:20+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "RAIN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +32.6% · 거래량 평소의 4458.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RAIN 장중 급등 포착",
+  "body": "$0.629 (+32.6%) · 정규장 · 레벨 3 · 점수 51\n$0.800 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 335만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +32.6% · 거래량 평소의 4458.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.597 지정가(기준가 $0.629의 −5%) · 체결 가능성 약 71% · 손익분기 $0.604\n숏 지지구간 $0.500–$0.600 · 손절 $0.450 · 1차목표 $0.800\n⚠ 최근 악재 공시: 8-K 역분할 (11/13)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6287,
+  "level": 3,
+  "score": 50.8,
+  "prob": 38.456237077877326,
+  "cp": 16.333314208415775,
+  "rl": 0.7999999999999999,
+  "stop": 0.45,
+  "zone": [
+   0.5,
+   0.6
+  ],
+  "bp": 0.5973,
+  "tgt": 0.7999999999999999,
+  "stp": 0.45,
+  "penalties": [
+   "최근 악재 공시: 8-K 역분할 (11/13)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102014",
+  "grade": "open"
+ },
+ {
+  "id": "SBC-1794586700",
+  "ts_kst": "2026-11-14 01:18",
+  "ts_utc": "2026-11-13T16:18:20+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "SBC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.7% · 거래량 평소의 14.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SBC 장중 급등 포착",
+  "body": "$6.820 (+27.7%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $7.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +27.7% · 거래량 평소의 14.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.479 지정가(기준가 $6.820의 −5%) · 체결 가능성 약 33% · 손익분기 $6.557\n숏 지지구간 $6.250–$6.500 · 손절 $6.125 · 1차목표 $7.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.82,
+  "level": 2,
+  "score": 39.4,
+  "prob": 53.44827586206896,
+  "cp": 63.39858122211758,
+  "rl": 7.0,
+  "stop": 6.125,
+  "zone": [
+   6.25,
+   6.5
+  ],
+  "bp": 6.479,
+  "tgt": 7.0,
+  "stp": 6.125,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220926003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220926003",
+  "grade": "open"
+ },
+ {
+  "id": "ZBAO-1794586700",
+  "ts_kst": "2026-11-14 01:18",
+  "ts_utc": "2026-11-13T16:18:20+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "ZBAO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.3% · 거래량 평소의 414.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ZBAO 장중 급등 포착",
+  "body": "$0.269 (+27.3%) · 정규장 · 레벨 3 · 점수 52\n시장에 도는 주식 152만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +27.3% · 거래량 평소의 414.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.255 지정가(기준가 $0.269의 −5%) · 체결 가능성 약 79% · 손익분기 $0.258\n숏 지지구간 $0.188–$0.269 · 손절 $0.134 · 1차목표 $0.403\n⚠ 역분할 2026-10-12\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2687,
+  "level": 3,
+  "score": 51.6,
+  "prob": 25.252525252525253,
+  "cp": 2.0,
+  "rl": 6.0,
+  "stop": 0.1343500018119812,
+  "zone": [
+   0.18809000253677366,
+   0.2687000036239624
+  ],
+  "bp": 0.2553,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-10-12"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240402009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240402009",
+  "grade": "n/a"
+ },
+ {
+  "id": "PAVM-1794586700",
+  "ts_kst": "2026-11-14 01:18",
+  "ts_utc": "2026-11-13T16:18:20+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "PAVM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.2% · 거래량 평소의 8.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PAVM 장중 급등 포착",
+  "body": "$1.650 (+23.2%) · 정규장 · 레벨 2 · 점수 38\n$1.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 800만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +23.2% · 거래량 평소의 8.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $1.567 지정가(기준가 $1.650의 −5%) · 체결 가능성 약 70% · 손익분기 $1.586\n숏 지지구간 $1.250–$1.500 · 손절 $1.125 · 1차목표 $1.750\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.65,
+  "level": 2,
+  "score": 37.9,
+  "prob": 41.15942028985507,
+  "cp": 28.242242842082625,
+  "rl": 1.75,
+  "stop": 1.125,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.5675,
+  "tgt": 1.75,
+  "stp": 1.125,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160727001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160727001",
+  "grade": "open"
+ },
+ {
+  "id": "BZFD-1794586700",
+  "ts_kst": "2026-11-14 01:18",
+  "ts_utc": "2026-11-13T16:18:20+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "BZFD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.5% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BZFD 장중 급등 포착",
+  "body": "$0.468 (+15.5%) · 정규장 · 레벨 1 · 점수 17\n$0.550 넘으면 공매도 되사기 압박 ↑ · $1 미만, 상장폐지 주의\n• 전일 대비 +15.5% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.445 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -4.9%) · 체결 가능성 약 78% · 손익분기 $0.450\n숏 지지구간 $0.450–$0.468 · 손절 $0.400 · 1차목표 $0.550\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.4676,
+  "level": 1,
+  "score": 16.9,
+  "prob": 31.25,
+  "cp": 35.2343988085353,
+  "rl": 0.55,
+  "stop": 0.4,
+  "zone": [
+   0.45,
+   0.4675999879837036
+  ],
+  "bp": 0.4445,
+  "tgt": 0.55,
+  "stp": 0.4,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211206001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211206001",
+  "grade": "open"
+ },
+ {
+  "id": "BGIN-1794586700",
+  "ts_kst": "2026-11-14 01:18",
+  "ts_utc": "2026-11-13T16:18:20+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "BGIN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.2% · 거래량 평소의 7.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BGIN 장중 급등 포착",
+  "body": "$3.180 (+15.2%) · 정규장 · 레벨 2 · 점수 37\n공매도 물량 대부분 손해 중, $3.40 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +15.2% · 거래량 평소의 7.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.021 지정가(기준가 $3.180의 −5%) · 체결 가능성 약 55% · 손익분기 $3.057\n숏 지지구간 $3.000–$3.100 · 손절 $2.900 · 1차목표 $3.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.1799,
+  "level": 2,
+  "score": 37.2,
+  "prob": 53.40027552969671,
+  "cp": 58.663823488284336,
+  "rl": 3.4000000000000017,
+  "stop": 2.9000000000000012,
+  "zone": [
+   3.0000000000000013,
+   3.1000000000000014
+  ],
+  "bp": 3.0209,
+  "tgt": 3.4000000000000017,
+  "stp": 2.9000000000000012,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251021003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251021003",
+  "grade": "open"
  }
 ]
