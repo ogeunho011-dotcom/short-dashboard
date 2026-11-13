@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "NHP",
-  "form": "8-K",
-  "acc": "0001140361-26-043079",
-  "items": "1.01,8.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:25:57+00:00",
-  "accepted_kst": "11/11 07:25",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 10, 2026, National Healthcare Properties, Inc. (the “Company”) and National Healthcare Propert",
-  "url": "https://www.sec.gov/Archives/edgar/data/1561032/000114036126043079/0001140361-26-043079-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "SPIR",
   "form": "424B3",
   "acc": "0001628280-26-072849",
@@ -8674,5 +8655,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000177/0001005817-26-000177-index.htm",
   "seen_kst": "2026-11-14 04:38"
+ },
+ {
+  "ticker": "NTWK",
+  "form": "8-K",
+  "acc": "0001493152-26-051655",
+  "items": "2.02",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:39:11+00:00",
+  "accepted_kst": "11/14 04:39",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NETSOL Technologies reports fiscal first quarter 2027 revenue growth of 9.3% and gross margin expansion to 50.5% First quarter revenue rises 9.3% to $16.4 milli",
+  "url": "https://www.sec.gov/Archives/edgar/data/1039280/000149315226051655/0001493152-26-051655-index.htm",
+  "seen_kst": "2026-11-14 04:41"
  }
 ]
