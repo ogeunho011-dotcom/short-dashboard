@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "LVO",
-  "form": "8-K",
-  "acc": "0001213900-26-118088",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:00:41+00:00",
-  "accepted_kst": "11/11 07:00",
-  "polarity": "pos",
-  "label": "실적 호조·가이던스 상향",
-  "cats": [
-   "실적 호조·가이던스 상향"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "LiveOne (Nasdaq: LVO) Releases Preliminary H1 Fiscal 2027 Results: $37.3 Million in Revenue and Record Audio Adjusted EBITDA* of $7.8 Million, Up 619% Year-Over",
-  "url": "https://www.sec.gov/Archives/edgar/data/1491419/000121390026118088/0001213900-26-118088-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "KULR",
-  "form": "8-K",
-  "acc": "0001104659-26-125320",
-  "items": "8.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:00:51+00:00",
-  "accepted_kst": "11/11 07:00",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "IN THE COURT OF CHANCERY OF THE STATE OF DELAWARE IN RE KULR TECHNOLOGY GROUP, INC. C.A. No. 2026- ___ - ___ VERIFIED PETITION FOR RELIEF PURSUANT TO 8 DEL. C.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926125320/0001104659-26-125320-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "HSHP",
   "form": "6-K",
   "acc": "0001959455-26-000130",
@@ -8682,5 +8646,41 @@
   "headline": "FOR IMMEDIATE RELEASE VERSABANK AND VERSA BANCORP ANNOUNCE COMPLETION OF REORGANIZATION - Reorganization Is Intended to Support Increased Investor Visibility an",
   "url": "https://www.sec.gov/Archives/edgar/data/1690639/000106299326005979/0001062993-26-005979-index.htm",
   "seen_kst": "2026-11-14 02:13"
+ },
+ {
+  "ticker": "RYDE",
+  "form": "6-K",
+  "acc": "0001493152-26-051526",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T11:15:28+00:00",
+  "accepted_kst": "11/13 20:15",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ☐ Indicate by check mark if the regi",
+  "url": "https://www.sec.gov/Archives/edgar/data/1971115/000149315226051526/0001493152-26-051526-index.htm",
+  "seen_kst": "2026-11-14 02:15"
+ },
+ {
+  "ticker": "RYDE",
+  "form": "3",
+  "acc": "0001493152-26-051554",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T13:54:13+00:00",
+  "accepted_kst": "11/13 22:54",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1971115/000149315226051554/0001493152-26-051554-index.htm",
+  "seen_kst": "2026-11-14 02:15"
  }
 ]
