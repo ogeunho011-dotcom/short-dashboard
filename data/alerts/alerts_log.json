@@ -62427,5 +62427,44 @@
    "accepted_kst": "11/14 03:36",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "CNET-1794595385",
+  "ts_kst": "2026-11-14 03:43",
+  "ts_utc": "2026-11-13T18:43:05+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "CNET",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.3% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CNET 장중 급등 포착",
+  "body": "$0.835 (+19.3%) · 정규장 · 레벨 2 · 점수 26\n시장에 도는 주식 367만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +19.3% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 11%\n추천 매수가 $0.774 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.3%) · 체결 가능성 약 64% · 손익분기 $0.783\n숏 지지구간 $0.600–$0.700 · 손절 $0.500 · 1차목표 $1.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.835,
+  "level": 2,
+  "score": 26.2,
+  "prob": 10.719293441944693,
+  "cp": 2.0935725672627705,
+  "rl": 1.9,
+  "stop": 0.5000000000000001,
+  "zone": [
+   0.6000000000000001,
+   0.7000000000000001
+  ],
+  "bp": 0.774,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230120002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230120002",
+  "grade": "n/a"
  }
 ]
