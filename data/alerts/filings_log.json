@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AARD",
-  "form": "4",
-  "acc": "0001193125-26-455719",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:09:05+00:00",
-  "accepted_kst": "11/11 07:09",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1774857/000119312526455719/0001193125-26-455719-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "SNWV",
   "form": "8-K",
   "acc": "0001628280-26-072832",
@@ -8674,5 +8657,24 @@
   "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Note: Regulation S-T Rule 101(b)(1)",
   "url": "https://www.sec.gov/Archives/edgar/data/1296484/000117184326007423/0001171843-26-007423-index.htm",
   "seen_kst": "2026-11-14 03:18"
+ },
+ {
+  "ticker": "TOPS",
+  "form": "424B3",
+  "acc": "0001171843-26-007424",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T18:19:27+00:00",
+  "accepted_kst": "11/14 03:19",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1296484/000117184326007424/0001171843-26-007424-index.htm",
+  "seen_kst": "2026-11-14 03:20"
  }
 ]
