@@ -61684,5 +61684,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220105004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220105004",
   "grade": "open"
+ },
+ {
+  "id": "NXB-1794592384",
+  "ts_kst": "2026-11-14 02:53",
+  "ts_utc": "2026-11-13T17:53:04+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "NXB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NXB 장중 급등 포착",
+  "body": "$1.351 (+15.5%) · 정규장 · 레벨 1 · 점수 23\n$1.40 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음\n• 전일 대비 +15.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $1.245 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.9%) · 체결 가능성 약 53% · 손익분기 $1.260\n숏 지지구간 $1.200–$1.300 · 손절 $1.150 · 1차목표 $1.400\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3514,
+  "level": 1,
+  "score": 23.4,
+  "prob": 21.428571428571427,
+  "cp": 22.96486270341447,
+  "rl": 1.4000000000000004,
+  "stop": 1.1500000000000001,
+  "zone": [
+   1.2000000000000002,
+   1.3000000000000003
+  ],
+  "bp": 1.2453,
+  "tgt": 1.4000000000000004,
+  "stp": 1.1500000000000001,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0251113007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0251113007",
+  "grade": "open"
  }
 ]
