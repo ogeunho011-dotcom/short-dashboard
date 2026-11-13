@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "OSPN",
-  "form": "144",
-  "acc": "0001969223-26-001157",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T20:23:09+00:00",
-  "accepted_kst": "11/11 05:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1044777/000196922326001157/0001969223-26-001157-index.htm",
-  "seen_kst": "2026-11-11 08:45"
- },
- {
   "ticker": "SVCO",
   "form": "144",
   "acc": "0001950047-26-010951",
@@ -8660,5 +8643,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000178/0001005817-26-000178-index.htm",
   "seen_kst": "2026-11-14 05:24"
+ },
+ {
+  "ticker": "LPCN",
+  "form": "4",
+  "acc": "0001493152-26-051673",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:23:41+00:00",
+  "accepted_kst": "11/14 05:23",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $79,488 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Patel Mahesh V.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1535955/000149315226051673/0001493152-26-051673-index.htm",
+  "seen_kst": "2026-11-14 05:26"
  }
 ]
