@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SUNS",
-  "form": "10-Q",
-  "acc": "0001628280-26-072825",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:05:55+00:00",
-  "accepted_kst": "11/11 07:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2012706/000162828026072825/0001628280-26-072825-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "CPIX",
   "form": "8-K",
   "acc": "0001087294-26-000076",
@@ -8680,5 +8663,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1050441/000162828026073661/0001628280-26-073661-index.htm",
   "seen_kst": "2026-11-14 02:30"
+ },
+ {
+  "ticker": "CFFI",
+  "form": "8-K",
+  "acc": "0000913341-26-000054",
+  "items": "7.01,9.01",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T17:31:35+00:00",
+  "accepted_kst": "11/14 02:31",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Friday, November 13, 2026 Contact: Jason Long Chief Financial Officer (804) 843-2360 ​ C&F Financial Corporation Announces Increase in Quarterly Dividend ​ Toan",
+  "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000054/0000913341-26-000054-index.htm",
+  "seen_kst": "2026-11-14 02:32"
  }
 ]
