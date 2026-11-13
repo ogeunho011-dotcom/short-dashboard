@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "DTI",
-  "form": "4",
-  "acc": "0001193125-26-455731",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:12:46+00:00",
-  "accepted_kst": "11/11 07:12",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $40,636 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Green Ira Harris Jr",
-  "url": "https://www.sec.gov/Archives/edgar/data/1884516/000119312526455731/0001193125-26-455731-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "PPIH",
-  "form": "8-K",
-  "acc": "0001437749-26-036229",
-  "items": "1.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:12:53+00:00",
-  "accepted_kst": "11/11 07:12",
-  "polarity": "neutral",
-  "label": "중요 계약",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. On November 4, 2026 (the \"Execution Date\"), Perma-Pipe QA, a Qatar company and a wholly owned subsidiary o",
-  "url": "https://www.sec.gov/Archives/edgar/data/914122/000143774926036229/0001437749-26-036229-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "IBEX",
   "form": "4",
   "acc": "0001298255-26-000025",
@@ -8677,5 +8643,41 @@
   "headline": "BARNITZ ANNA P",
   "url": "https://www.sec.gov/Archives/edgar/data/894671/000089467126000067/0000894671-26-000067-index.htm",
   "seen_kst": "2026-11-14 03:30"
+ },
+ {
+  "ticker": "REVB",
+  "form": "8-K",
+  "acc": "0001193125-26-460055",
+  "items": "7.01,9.01",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T18:36:50+00:00",
+  "accepted_kst": "11/14 03:36",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 7.01 Regulation FD Disclosure. Disclosure Channels Revelation Biosciences, Inc. (the “Company”) wishes to notify the investment community and others that i",
+  "url": "https://www.sec.gov/Archives/edgar/data/1810560/000119312526460055/0001193125-26-460055-index.htm",
+  "seen_kst": "2026-11-14 03:38"
+ },
+ {
+  "ticker": "GUNN",
+  "form": "6-K",
+  "acc": "0001493152-26-051627",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T18:36:56+00:00",
+  "accepted_kst": "11/14 03:36",
+  "polarity": "pos",
+  "label": "제휴·라이선스",
+  "cats": [
+   "제휴·라이선스"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "NEWS RELEASE Gunnison Copper Reports Third Quarter 2026 Financial and Operational Results Q3 2026 Revenue of US$36.1 Million and EPS of US$0.03 as Johnson Camp",
+  "url": "https://www.sec.gov/Archives/edgar/data/1514860/000149315226051627/0001493152-26-051627-index.htm",
+  "seen_kst": "2026-11-14 03:38"
  }
 ]
