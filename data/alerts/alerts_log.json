@@ -62664,5 +62664,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250425006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250425006",
   "grade": "open"
+ },
+ {
+  "id": "VNRX-1794597194",
+  "ts_kst": "2026-11-14 04:13",
+  "ts_utc": "2026-11-13T19:13:14+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "VNRX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.4% · 거래량 평소의 78.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ VNRX 장중 급등 포착",
+  "body": "$0.219 (+21.4%) · 정규장 · 레벨 4 · 점수 58\n시장에 도는 주식 1,365만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +21.4% · 거래량 평소의 78.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.208 지정가(기준가 $0.219의 −5%) · 체결 가능성 약 64% · 손익분기 $0.210\n숏 지지구간 $0.153–$0.200 · 손절 $0.109 · 1차목표 $0.400\n⚠ 희석 위험 60/100\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/12)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2185,
+  "level": 4,
+  "score": 58.4,
+  "prob": 38.456237077877326,
+  "cp": 5.085828792984083,
+  "rl": 0.4,
+  "stop": 0.10925000160932541,
+  "zone": [
+   0.15295000225305555,
+   0.2
+  ],
+  "bp": 0.2076,
+  "tgt": 0.4,
+  "stp": 0.10925000160932541,
+  "penalties": [
+   "희석 위험 60/100",
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/12)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150209001",
+  "grade": "open"
  }
 ]
