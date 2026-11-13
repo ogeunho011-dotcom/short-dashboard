@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "SPIR",
-  "form": "424B3",
-  "acc": "0001628280-26-072849",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:26:04+00:00",
-  "accepted_kst": "11/11 07:26",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1816017/000162828026072849/0001628280-26-072849-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "AIRI",
   "form": "8-K",
   "acc": "0001213900-26-118138",
@@ -8672,5 +8653,22 @@
   "headline": "NETSOL Technologies reports fiscal first quarter 2027 revenue growth of 9.3% and gross margin expansion to 50.5% First quarter revenue rises 9.3% to $16.4 milli",
   "url": "https://www.sec.gov/Archives/edgar/data/1039280/000149315226051655/0001493152-26-051655-index.htm",
   "seen_kst": "2026-11-14 04:41"
+ },
+ {
+  "ticker": "CSAI",
+  "form": "4",
+  "acc": "0001683168-26-008684",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:51:25+00:00",
+  "accepted_kst": "11/14 04:51",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1709628/000168316826008684/0001683168-26-008684-index.htm",
+  "seen_kst": "2026-11-14 04:53"
  }
 ]
