@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TVA",
-  "form": "4",
-  "acc": "0001271848-26-000007",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:50:26+00:00",
-  "accepted_kst": "11/11 07:50",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2033991/000127184826000007/0001271848-26-000007-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "OSPN",
   "form": "144",
   "acc": "0001969223-26-001157",
@@ -8660,5 +8643,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1093672/000165495426009777/0001654954-26-009777-index.htm",
   "seen_kst": "2026-11-14 05:21"
+ },
+ {
+  "ticker": "TMP",
+  "form": "4",
+  "acc": "0001005817-26-000178",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:22:44+00:00",
+  "accepted_kst": "11/14 05:22",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000178/0001005817-26-000178-index.htm",
+  "seen_kst": "2026-11-14 05:24"
  }
 ]
