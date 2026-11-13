@@ -62345,5 +62345,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102014",
   "grade": "open"
+ },
+ {
+  "id": "SBC-1794594941",
+  "ts_kst": "2026-11-14 03:35",
+  "ts_utc": "2026-11-13T18:35:41+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "SBC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.3% · 거래량 평소의 9.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SBC 장중 급등 포착",
+  "body": "$6.800 (+27.3%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $7.25 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +27.3% · 거래량 평소의 9.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.460 지정가(기준가 $6.800의 −5%) · 체결 가능성 약 34% · 손익분기 $6.538\n숏 지지구간 $6.250–$6.500 · 손절 $6.125 · 1차목표 $7.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.8,
+  "level": 2,
+  "score": 39.4,
+  "prob": 53.44827586206896,
+  "cp": 58.74988357151805,
+  "rl": 7.25,
+  "stop": 6.125,
+  "zone": [
+   6.25,
+   6.5
+  ],
+  "bp": 6.46,
+  "tgt": 7.25,
+  "stp": 6.125,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220926003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220926003",
+  "grade": "open"
  }
 ]
