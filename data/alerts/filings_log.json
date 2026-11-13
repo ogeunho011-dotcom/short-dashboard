@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "TGHL",
-  "form": "F-1",
-  "acc": "0001493152-26-051020",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:07:22+00:00",
-  "accepted_kst": "11/11 07:07",
-  "polarity": "neg",
-  "label": "증자 서류(F-1)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2024114/000149315226051020/0001493152-26-051020-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "HSHP",
-  "form": "6-K",
-  "acc": "0001959455-26-000134",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:07:34+00:00",
-  "accepted_kst": "11/11 07:07",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Yes ☒ No ☐ 1 INFORMATION CONTAINED IN THIS FORM 6-K REPORT Included in this Report on Form 6-K are our Unaudited Consolidated Financial Statements for the three",
-  "url": "https://www.sec.gov/Archives/edgar/data/1959455/000195945526000134/0001959455-26-000134-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "AARD",
   "form": "4",
   "acc": "0001193125-26-455719",
@@ -8676,5 +8640,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/838875/000119983526000395/0001199835-26-000395-index.htm",
   "seen_kst": "2026-11-14 02:35"
+ },
+ {
+  "ticker": "TOPS",
+  "form": "D",
+  "acc": "0001171843-26-007399",
+  "items": "06b",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T21:19:44+00:00",
+  "accepted_kst": "11/13 06:19",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1296484/000117184326007399/0001171843-26-007399-index.htm",
+  "seen_kst": "2026-11-14 03:18"
+ },
+ {
+  "ticker": "TOPS",
+  "form": "6-K",
+  "acc": "0001171843-26-007423",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T18:17:28+00:00",
+  "accepted_kst": "11/14 03:17",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Note: Regulation S-T Rule 101(b)(1)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1296484/000117184326007423/0001171843-26-007423-index.htm",
+  "seen_kst": "2026-11-14 03:18"
  }
 ]
