@@ -62466,5 +62466,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230120002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230120002",
   "grade": "n/a"
+ },
+ {
+  "id": "HAWK-1794595988",
+  "ts_kst": "2026-11-14 03:53",
+  "ts_utc": "2026-11-13T18:53:08+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "HAWK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.4% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HAWK 장중 급등 포착",
+  "body": "$17.520 (+19.4%) · 정규장 · 레벨 2 · 점수 34\n공매도 물량 대부분 손해 중, $18.00 넘으면 급등 가능성 ↑ · 한 달 고점 돌파\n• 전일 대비 +19.4% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $16.644 지정가(기준가 $17.520의 −5%) · 체결 가능성 약 45% · 손익분기 $16.845\n숏 지지구간 $15.000–$16.000 · 손절 $14.000 · 1차목표 $18.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 17.52,
+  "level": 2,
+  "score": 33.9,
+  "prob": 53.44827586206896,
+  "cp": 52.360710652118286,
+  "rl": 18.0,
+  "stop": 14.0,
+  "zone": [
+   15.0,
+   16.0
+  ],
+  "bp": 16.644,
+  "tgt": 18.0,
+  "stp": 14.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2605007002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2605007002",
+  "grade": "open"
  }
 ]
