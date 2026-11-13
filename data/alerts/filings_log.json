@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "HSHP",
-  "form": "6-K",
-  "acc": "0001959455-26-000130",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:01:24+00:00",
-  "accepted_kst": "11/11 07:01",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "o Exhibits. Exhibit Description 99.1 Himalaya Shipping Ltd. Earnings Release for the Third Quarter of 2026 99.2 Himalaya Shipping Ltd. Interim Financial Informa",
-  "url": "https://www.sec.gov/Archives/edgar/data/1959455/000195945526000130/0001959455-26-000130-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "BIVI",
   "form": "8-K",
   "acc": "0001520138-26-000471",
@@ -8682,5 +8665,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1971115/000149315226051554/0001493152-26-051554-index.htm",
   "seen_kst": "2026-11-14 02:15"
+ },
+ {
+  "ticker": "NMAD",
+  "form": "4",
+  "acc": "0001493152-26-051604",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T17:17:57+00:00",
+  "accepted_kst": "11/14 02:17",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1335105/000149315226051604/0001493152-26-051604-index.htm",
+  "seen_kst": "2026-11-14 02:20"
  }
 ]
