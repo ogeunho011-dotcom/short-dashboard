@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GOSS",
-  "form": "8-K",
-  "acc": "0001728117-26-000116",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:50:52+00:00",
-  "accepted_kst": "11/11 06:50",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": ", shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the li",
-  "url": "https://www.sec.gov/Archives/edgar/data/1728117/000172811726000116/0001728117-26-000116-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "NHP",
   "form": "424B5",
   "acc": "0001140361-26-043057",
@@ -8686,5 +8669,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1424929/000185760326000011/0001857603-26-000011-index.htm",
   "seen_kst": "2026-11-14 01:50"
+ },
+ {
+  "ticker": "INSE",
+  "form": "SCHEDULE 13G/A",
+  "acc": "0000919574-26-007674",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T16:47:38+00:00",
+  "accepted_kst": "11/14 01:47",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1615063/000091957426007674/0000919574-26-007674-index.htm",
+  "seen_kst": "2026-11-14 01:55"
  }
 ]
