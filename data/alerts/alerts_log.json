@@ -62907,5 +62907,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0251003002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0251003002",
   "grade": "open"
+ },
+ {
+  "id": "CNVS-1794598099",
+  "ts_kst": "2026-11-14 04:28",
+  "ts_utc": "2026-11-13T19:28:19+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "CNVS",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +22.7% · 거래량 평소의 21.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 CNVS 장중 급등 포착 · 상위 확률 신호",
+  "body": "$2.220 (+22.7%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $2.30 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 20배 이상, 관심 급증\n• 전일 대비 +22.7% · 거래량 평소의 21.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.109 지정가(기준가 $2.220의 −5%) · 체결 가능성 약 45% · 손익분기 $2.134\n숏 지지구간 $1.900–$2.012 · 손절 $1.800 · 1차목표 $2.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.22,
+  "level": 3,
+  "score": 44.3,
+  "prob": 53.44827586206896,
+  "cp": 55.06566369532483,
+  "rl": 2.3000000000000007,
+  "stop": 1.8000000000000005,
+  "zone": [
+   1.9000000000000006,
+   2.0120000100135806
+  ],
+  "bp": 2.109,
+  "tgt": 2.3000000000000007,
+  "stp": 1.8000000000000005,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230609001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230609001",
+  "grade": "open"
  }
 ]
