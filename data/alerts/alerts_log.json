@@ -61381,5 +61381,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150209001",
   "grade": "open"
+ },
+ {
+  "id": "HAWK-fil-0001750704-26-000032",
+  "ts_kst": "2026-11-14 01:35",
+  "ts_utc": "2026-11-13T16:35:32+00:00",
+  "date_et": "2026-11-13",
+  "session": "filing",
+  "ticker": "HAWK",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 HAWK 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/13 06:04 KST)\nearningsrelease.htm EX-99.1 HawkEye 360 Announces Third Quarter 2026 Financial Results Revenue of $59.3 million, up 84% compared to the prio\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2605007002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2605007002",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001750704-26-000032",
+   "items": "2.02,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "earningsrelease.htm EX-99.1 HawkEye 360 Announces Third Quarter 2026 Financial Results Revenue of $59.3 million, up 84% compared to the prior-year period of $32",
+   "url": "https://www.sec.gov/Archives/edgar/data/1750704/000175070426000032/0001750704-26-000032-index.htm",
+   "accepted_kst": "11/13 06:04",
+   "polarity": "pos"
+  }
  }
 ]
