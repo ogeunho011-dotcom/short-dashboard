@@ -1,58 +1,5 @@
 [
  {
-  "ticker": "FUN",
-  "form": "4",
-  "acc": "0001999001-26-000113",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:43:47+00:00",
-  "accepted_kst": "11/11 07:43",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $14,929,000",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "JAFFER REHAN",
-  "url": "https://www.sec.gov/Archives/edgar/data/1999001/000199900126000113/0001999001-26-000113-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "LNN",
-  "form": "4",
-  "acc": "0001193125-26-455811",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:45:03+00:00",
-  "accepted_kst": "11/11 07:45",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/836157/000119312526455811/0001193125-26-455811-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "SILO",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0001213900-26-118165",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:50:19+00:00",
-  "accepted_kst": "11/11 07:50",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1514183/000121390026118165/0001213900-26-118165-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "TVA",
   "form": "4",
   "acc": "0001271848-26-000007",
@@ -8660,5 +8607,58 @@
   "headline": "JACKSON JOHN EARL",
   "url": "https://www.sec.gov/Archives/edgar/data/1084991/000123684926000015/0001236849-26-000015-index.htm",
   "seen_kst": "2026-11-14 05:19"
+ },
+ {
+  "ticker": "EXFY",
+  "form": "4",
+  "acc": "0000929638-26-004269",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T23:54:24+00:00",
+  "accepted_kst": "11/13 08:54",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $988,746",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "McLaughlin Steven J.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1476840/000092963826004269/0000929638-26-004269-index.htm",
+  "seen_kst": "2026-11-14 05:21"
+ },
+ {
+  "ticker": "EXFY",
+  "form": "4/A",
+  "acc": "0000929638-26-004287",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:19:42+00:00",
+  "accepted_kst": "11/14 05:19",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1476840/000092963826004287/0000929638-26-004287-index.htm",
+  "seen_kst": "2026-11-14 05:21"
+ },
+ {
+  "ticker": "PEBK",
+  "form": "4",
+  "acc": "0001654954-26-009777",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:21:06+00:00",
+  "accepted_kst": "11/14 05:21",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1093672/000165495426009777/0001654954-26-009777-index.htm",
+  "seen_kst": "2026-11-14 05:21"
  }
 ]
