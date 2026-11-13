@@ -62948,5 +62948,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230609001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230609001",
   "grade": "open"
+ },
+ {
+  "id": "FCUV-1794598548",
+  "ts_kst": "2026-11-14 04:35",
+  "ts_utc": "2026-11-13T19:35:48+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "FCUV",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +119.4% · 거래량 평소의 11781.4배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 FCUV 장중 급등 포착 · 상위 확률 신호",
+  "body": "$6.582 (+119.4%) · 정규장 · 레벨 3 · 점수 53\n공매도 물량 대부분 손해 중, $8.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 98만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +119.4% · 거래량 평소의 11781.4배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.253 지정가(기준가 $6.582의 −5%) · 체결 가능성 약 55% · 손익분기 $6.329\n숏 지지구간 $5.000–$6.000 · 손절 $4.500 · 1차목표 $8.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.5824,
+  "level": 3,
+  "score": 53.0,
+  "prob": 52.91666666666666,
+  "cp": 58.31989368981305,
+  "rl": 8.0,
+  "stop": 4.5,
+  "zone": [
+   5.0,
+   6.0
+  ],
+  "bp": 6.2533,
+  "tgt": 8.0,
+  "stp": 4.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210831006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210831006",
+  "grade": "open"
  }
 ]
