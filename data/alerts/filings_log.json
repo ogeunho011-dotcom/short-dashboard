@@ -1,61 +1,5 @@
 [
  {
-  "ticker": "VIVK",
-  "form": "8-K",
-  "acc": "0001829126-26-012212",
-  "items": "1.01,3.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:27:56+00:00",
-  "accepted_kst": "11/11 07:27",
-  "polarity": "neg",
-  "label": "미등록 주식 발행(사모)(항목 3.02)",
-  "cats": [],
-  "negs": [
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into Material Definitive Agreement. On November 4, 2026, Vivakor, Inc. (the “Company”), entered into a Consulting Agreement with Les Patterson,",
-  "url": "https://www.sec.gov/Archives/edgar/data/1450704/000182912626012212/0001829126-26-012212-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "IRHO",
-  "form": "425",
-  "acc": "0001213900-26-118141",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:27:57+00:00",
-  "accepted_kst": "11/11 07:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2051985/000121390026118141/0001213900-26-118141-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "COSM",
-  "form": "8-K/A",
-  "acc": "0001477932-26-006823",
-  "items": "3.03,5.03,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:28:22+00:00",
-  "accepted_kst": "11/11 07:28",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할",
-   "주주 권리 변경(역분할 등)(항목 3.03)"
-  ],
-  "strength": 0,
-  "headline": "Item 5.03. In the second paragraph of the section titled “Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year,” certain dates were correcte",
-  "url": "https://www.sec.gov/Archives/edgar/data/1474167/000147793226006823/0001477932-26-006823-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "AHT",
   "form": "8-K",
   "acc": "0001232582-26-000214",
@@ -8668,5 +8612,56 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1822791/000143774926036795/0001437749-26-036795-index.htm",
   "seen_kst": "2026-11-14 04:55"
+ },
+ {
+  "ticker": "ARL",
+  "form": "8-K",
+  "acc": "0001628280-26-073741",
+  "items": "5.07",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:55:33+00:00",
+  "accepted_kst": "11/14 04:55",
+  "polarity": "neutral",
+  "label": "주총 결과",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.07 – Submission of Matters to the Vote of Security Holders On November 11, 2026, the Annual Meeting of Stockholders of American Realty Investors, Inc. (“",
+  "url": "https://www.sec.gov/Archives/edgar/data/1102238/000162828026073741/0001628280-26-073741-index.htm",
+  "seen_kst": "2026-11-14 04:58"
+ },
+ {
+  "ticker": "CLNN",
+  "form": "4",
+  "acc": "0001437749-26-036798",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:56:29+00:00",
+  "accepted_kst": "11/14 04:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1822791/000143774926036798/0001437749-26-036798-index.htm",
+  "seen_kst": "2026-11-14 04:58"
+ },
+ {
+  "ticker": "CLNN",
+  "form": "4",
+  "acc": "0001437749-26-036799",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:57:22+00:00",
+  "accepted_kst": "11/14 04:57",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1822791/000143774926036799/0001437749-26-036799-index.htm",
+  "seen_kst": "2026-11-14 04:58"
  }
 ]
