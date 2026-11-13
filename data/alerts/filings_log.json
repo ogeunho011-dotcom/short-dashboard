@@ -2,23 +2,6 @@
  {
   "ticker": "SMPL",
   "form": "4",
-  "acc": "0002076611-26-000005",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:59:41+00:00",
-  "accepted_kst": "11/11 07:59",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1702744/000207661126000005/0002076611-26-000005-index.htm",
-  "seen_kst": "2026-11-11 08:45"
- },
- {
-  "ticker": "SMPL",
-  "form": "4",
   "acc": "0001203096-26-000010",
   "items": "",
   "filed": "2026-11-10",
@@ -8658,5 +8641,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1829576/000162828026073770/0001628280-26-073770-index.htm",
   "seen_kst": "2026-11-14 05:39"
+ },
+ {
+  "ticker": "BRAG",
+  "form": "6-K",
+  "acc": "0001104659-26-126982",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:38:13+00:00",
+  "accepted_kst": "11/14 05:38",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "BRAGG GAMING GROUP INC. INTERIM UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS Three and nine-month periods ended September 30, 2026 and September 30, 20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1867834/000110465926126982/0001104659-26-126982-index.htm",
+  "seen_kst": "2026-11-14 05:41"
  }
 ]
