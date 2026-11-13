@@ -2,23 +2,6 @@
  {
   "ticker": "SMPL",
   "form": "4",
-  "acc": "0001628973-26-000005",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:58:19+00:00",
-  "accepted_kst": "11/11 07:58",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1702744/000162897326000005/0001628973-26-000005-index.htm",
-  "seen_kst": "2026-11-11 08:45"
- },
- {
-  "ticker": "SMPL",
-  "form": "4",
   "acc": "0002076611-26-000005",
   "items": "",
   "filed": "2026-11-10",
@@ -8658,5 +8641,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1705843/000126201426000001/0001262014-26-000001-index.htm",
   "seen_kst": "2026-11-14 05:34"
+ },
+ {
+  "ticker": "CARE",
+  "form": "4",
+  "acc": "0001628280-26-073770",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:37:31+00:00",
+  "accepted_kst": "11/14 05:37",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1829576/000162828026073770/0001628280-26-073770-index.htm",
+  "seen_kst": "2026-11-14 05:39"
  }
 ]
