@@ -62625,5 +62625,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0250331001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0250331001",
   "grade": "open"
+ },
+ {
+  "id": "SSII-1794597043",
+  "ts_kst": "2026-11-14 04:10",
+  "ts_utc": "2026-11-13T19:10:43+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "SSII",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +29.5% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SSII 장중 급등 포착",
+  "body": "$1.710 (+29.5%) · 정규장 · 레벨 1 · 점수 20\n$2.00 넘으면 공매도 되사기 압박 ↑ · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +29.5% · 거래량 평소의 3.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 40%\n추천 매수가 $1.609 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.9%) · 체결 가능성 약 75% · 손익분기 $1.629\n숏 지지구간 $1.250–$1.500 · 손절 $1.000 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.71,
+  "level": 1,
+  "score": 19.9,
+  "prob": 40.394522940872335,
+  "cp": 25.621689697071076,
+  "rl": 2.0,
+  "stop": 1.0,
+  "zone": [
+   1.25,
+   1.5
+  ],
+  "bp": 1.6094,
+  "tgt": 2.0,
+  "stp": 1.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250425006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250425006",
+  "grade": "open"
  }
 ]
