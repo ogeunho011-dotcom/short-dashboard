@@ -63235,5 +63235,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220929002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220929002",
   "grade": "n/a"
+ },
+ {
+  "id": "NGEN-1794600830",
+  "ts_kst": "2026-11-14 05:13",
+  "ts_utc": "2026-11-13T20:13:50+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "NGEN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.3% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NGEN 장중 급등 포착",
+  "body": "$1.880 (+15.3%) · 정규장 · 레벨 1 · 점수 19\n$1.95 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증\n• 전일 대비 +15.3% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $1.850–$1.880 · 손절 $1.800 · 1차목표 $1.950\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.88,
+  "level": 1,
+  "score": 19.0,
+  "prob": 53.44827586206896,
+  "cp": 60.5913441966337,
+  "rl": 1.9500000000000006,
+  "stop": 1.8000000000000005,
+  "zone": [
+   1.8500000000000005,
+   1.8799999952316284
+  ],
+  "bp": null,
+  "tgt": 1.9500000000000006,
+  "stp": 1.8000000000000005,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0260108007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0260108007",
+  "grade": "open"
  }
 ]

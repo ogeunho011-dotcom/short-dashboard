@@ -1,23 +1,6 @@
 [
  {
   "ticker": "GRPN",
-  "form": "3",
-  "acc": "0002163322-26-000003",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:35:48+00:00",
-  "accepted_kst": "11/11 07:35",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1490281/000216332226000003/0002163322-26-000003-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "GRPN",
   "form": "4",
   "acc": "0002163322-26-000004",
   "items": "",
@@ -8658,5 +8641,24 @@
   "headline": "Gator Capital Management, LLC",
   "url": "https://www.sec.gov/Archives/edgar/data/754811/000106299326006003/0001062993-26-006003-index.htm",
   "seen_kst": "2026-11-14 05:08"
+ },
+ {
+  "ticker": "CPSS",
+  "form": "8-K",
+  "acc": "0001683168-26-008688",
+  "items": "7.01,9.01",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:12:09+00:00",
+  "accepted_kst": "11/14 05:12",
+  "polarity": "neg",
+  "label": "파산·청산",
+  "cats": [],
+  "negs": [
+   "파산·청산"
+  ],
+  "strength": 0,
+  "headline": "Leaders in Auto Finance Since 1991 Company Overview and Investor Presentation - September 2026 Consumer Portfolio Services, Inc. SAFE HARBOR STATEMENT Forward -",
+  "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826008688/0001683168-26-008688-index.htm",
+  "seen_kst": "2026-11-14 05:13"
  }
 ]
