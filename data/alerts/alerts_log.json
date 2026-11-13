@@ -62745,5 +62745,126 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230309002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230309002",
   "grade": "open"
+ },
+ {
+  "id": "BIRD-1794597798",
+  "ts_kst": "2026-11-14 04:23",
+  "ts_utc": "2026-11-13T19:23:18+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "BIRD",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +24.9% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 49%)"
+  ],
+  "title": "🚀 BIRD 장중 급등 포착 · 상위 확률 신호",
+  "body": "$1.387 (+24.9%) · 정규장 · 레벨 3 · 점수 51\n$1.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 750만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +24.9% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 49%)\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $1.258 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -9.2%) · 체결 가능성 약 51% · 손익분기 $1.273\n숏 지지구간 $1.000–$1.250 · 손절 $0.750 · 1차목표 $1.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3865,
+  "level": 3,
+  "score": 50.9,
+  "prob": 49.070681251768434,
+  "cp": 25.54975556871997,
+  "rl": 1.75,
+  "stop": 0.75,
+  "zone": [
+   1.0,
+   1.25
+  ],
+  "bp": 1.2583,
+  "tgt": 1.75,
+  "stp": 0.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211102001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211102001",
+  "grade": "open"
+ },
+ {
+  "id": "XRTX-1794597798",
+  "ts_kst": "2026-11-14 04:23",
+  "ts_utc": "2026-11-13T19:23:18+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "XRTX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.4% · 거래량 평소의 26.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ XRTX 장중 급등 포착",
+  "body": "$1.080 (+17.4%) · 정규장 · 레벨 3 · 점수 47\n$1.20 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 179만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +17.4% · 거래량 평소의 26.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.026 지정가(기준가 $1.080의 −5%) · 체결 가능성 약 66% · 손익분기 $1.038\n숏 지지구간 $0.800–$0.900 · 손절 $0.700 · 1차목표 $1.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.08,
+  "level": 3,
+  "score": 46.7,
+  "prob": 47.808764940239065,
+  "cp": 23.560669655174536,
+  "rl": 1.2,
+  "stop": 0.7000000000000001,
+  "zone": [
+   0.8,
+   0.9
+  ],
+  "bp": 1.026,
+  "tgt": 1.2,
+  "stp": 0.7000000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211013007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211013007",
+  "grade": "open"
+ },
+ {
+  "id": "SNAL-1794597798",
+  "ts_kst": "2026-11-14 04:23",
+  "ts_utc": "2026-11-13T19:23:18+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "SNAL",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 47.0배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 SNAL 장중 급등 포착 · 상위 확률 신호",
+  "body": "$2.640 (+15.8%) · 정규장 · 레벨 3 · 점수 48\n$2.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 313만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.8% · 거래량 평소의 47.0배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $2.508 지정가(기준가 $2.640의 −5%) · 체결 가능성 약 55% · 손익분기 $2.538\n숏 지지구간 $2.000–$2.250 · 손절 $1.875 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.64,
+  "level": 3,
+  "score": 48.2,
+  "prob": 52.91666666666666,
+  "cp": 62.61102828089352,
+  "rl": 2.75,
+  "stop": 1.875,
+  "zone": [
+   2.0,
+   2.25
+  ],
+  "bp": 2.508,
+  "tgt": 2.75,
+  "stp": 1.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221110006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221110006",
+  "grade": "open"
  }
 ]
