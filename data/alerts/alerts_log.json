@@ -63602,5 +63602,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20190729001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20190729001",
   "grade": "open"
+ },
+ {
+  "id": "SLSN-1794601133",
+  "ts_kst": "2026-11-14 05:18",
+  "ts_utc": "2026-11-13T20:18:53+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "SLSN",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 89/100"
+  ],
+  "title": "🚀 SLSN 상위 확률 신호 · 커버 압력",
+  "body": "$1.640 (+80.2%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중, $1.70 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 89/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $1.600–$1.640 · 손절 $1.550 · 1차목표 $1.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.64,
+  "level": 3,
+  "score": 40.5,
+  "prob": 53.44827586206896,
+  "cp": 88.81451439481114,
+  "rl": 1.700000000000001,
+  "stop": 1.550000000000001,
+  "zone": [
+   1.600000000000001,
+   1.6399999856948853
+  ],
+  "bp": null,
+  "tgt": 1.700000000000001,
+  "stp": 1.550000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250408004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250408004",
+  "grade": "open"
  }
 ]
