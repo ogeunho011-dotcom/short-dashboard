@@ -61299,5 +61299,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0250331001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0250331001",
   "grade": "open"
+ },
+ {
+  "id": "HUBC-1794587277",
+  "ts_kst": "2026-11-14 01:27",
+  "ts_utc": "2026-11-13T16:27:57+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "HUBC",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 135k (당일 평균 24.4배)"
+  ],
+  "title": "🚀 HUBC 거래량 급증",
+  "body": "$2.070 (+39.2%) · 정규장 · 레벨 3 · 점수 41\n최근 회사 공시 있음 · $2 다시 회복\n• 5분 거래량 135k (당일 평균 24.4배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $1.966 지정가(기준가 $2.070의 −5%) · 체결 가능성 약 82% · 손익분기 $1.990\n숏 지지구간 $1.449–$2.070 · 손절 $1.035 · 1차목표 $3.105\n⚠ 역분할 2026-11-13\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.07,
+  "level": 3,
+  "score": 41.3,
+  "prob": 31.25,
+  "cp": 2.0,
+  "rl": 50.0,
+  "stop": 1.034999966621399,
+  "zone": [
+   1.4489999532699585,
+   2.069999933242798
+  ],
+  "bp": 1.9665,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-11-13"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230301002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230301002",
+  "grade": "n/a"
  }
 ]
