@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "GPUS",
-  "form": "SCHEDULE 13D",
-  "acc": "0000921895-26-003015",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T23:10:12+00:00",
-  "accepted_kst": "11/11 08:10",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/896493/000092189526003015/0000921895-26-003015-index.htm",
-  "seen_kst": "2026-11-11 08:45"
- },
- {
-  "ticker": "IBEX",
-  "form": "4",
-  "acc": "0001973684-26-000012",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T23:12:00+00:00",
-  "accepted_kst": "11/11 08:12",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1720420/000197368426000012/0001973684-26-000012-index.htm",
-  "seen_kst": "2026-11-11 08:45"
- },
- {
   "ticker": "IBEX",
   "form": "4",
   "acc": "0001973708-26-000013",
@@ -8658,5 +8624,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1655923/000091228226001491/0000912282-26-001491-index.htm",
   "seen_kst": "2026-11-14 05:46"
+ },
+ {
+  "ticker": "OBAI",
+  "form": "8-K",
+  "acc": "0001493152-26-051681",
+  "items": "7.01,9.01",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:48:51+00:00",
+  "accepted_kst": "11/14 05:48",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 9.01 Financial Statements and Exhibits Exhibit No. Description 99.1 Company presentation for November 13, 2026 webinar 104 Cover Page Interactive Data File",
+  "url": "https://www.sec.gov/Archives/edgar/data/1756064/000149315226051681/0001493152-26-051681-index.htm",
+  "seen_kst": "2026-11-14 05:51"
+ },
+ {
+  "ticker": "XBIT",
+  "form": "4",
+  "acc": "0001193125-26-460514",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:49:10+00:00",
+  "accepted_kst": "11/14 05:49",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $143,409",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "SIMARD JOHN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1626878/000119312526460514/0001193125-26-460514-index.htm",
+  "seen_kst": "2026-11-14 05:51"
  }
 ]
