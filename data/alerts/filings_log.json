@@ -1,60 +1,5 @@
 [
  {
-  "ticker": "OESX",
-  "form": "4",
-  "acc": "0000897069-26-001915",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:19:54+00:00",
-  "accepted_kst": "11/11 07:19",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $25,520 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "BRODIN J PER",
-  "url": "https://www.sec.gov/Archives/edgar/data/1409375/000089706926001915/0000897069-26-001915-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "SPIR",
-  "form": "424B3",
-  "acc": "0001628280-26-072844",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:20:11+00:00",
-  "accepted_kst": "11/11 07:20",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1816017/000162828026072844/0001628280-26-072844-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "SEV",
-  "form": "424B5",
-  "acc": "0001493152-26-051029",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:20:13+00:00",
-  "accepted_kst": "11/11 07:20",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1786471/000149315226051029/0001493152-26-051029-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "RLYB",
   "form": "8-K",
   "acc": "0001193125-26-455762",
@@ -8679,5 +8624,58 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2012726/000143774926036772/0001437749-26-036772-index.htm",
   "seen_kst": "2026-11-14 04:10"
+ },
+ {
+  "ticker": "JEM",
+  "form": "EFFECT",
+  "acc": "9999999995-26-003515",
+  "items": ",,",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-13T05:15:04+00:00",
+  "accepted_kst": "11/13 14:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018222/999999999526003515/9999999995-26-003515-index.htm",
+  "seen_kst": "2026-11-14 04:18"
+ },
+ {
+  "ticker": "JEM",
+  "form": "424B4",
+  "acc": "0001493152-26-051641",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:15:55+00:00",
+  "accepted_kst": "11/14 04:15",
+  "polarity": "neg",
+  "label": "증자 서류(424B4)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018222/000149315226051641/0001493152-26-051641-index.htm",
+  "seen_kst": "2026-11-14 04:18"
+ },
+ {
+  "ticker": "CCNE",
+  "form": "4",
+  "acc": "0001409722-26-000015",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:17:29+00:00",
+  "accepted_kst": "11/14 04:17",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $17,817 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Peduzzi Michael D",
+  "url": "https://www.sec.gov/Archives/edgar/data/736772/000140972226000015/0001409722-26-000015-index.htm",
+  "seen_kst": "2026-11-14 04:18"
  }
 ]
