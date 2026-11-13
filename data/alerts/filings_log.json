@@ -1,60 +1,5 @@
 [
  {
-  "ticker": "CPIX",
-  "form": "8-K",
-  "acc": "0001087294-26-000076",
-  "items": "2.02,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:06:04+00:00",
-  "accepted_kst": "11/11 07:06",
-  "polarity": "neutral",
-  "label": "실적",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 a2026q3-ex991er.htm EX-99.1 CUMBERLAND PHARMACEUTICALS REPORTS Q3 2026 FINANCIAL RESULTS & COMPANY UPDATE $100 million Strategic Transaction Closed Pl",
-  "url": "https://www.sec.gov/Archives/edgar/data/1087294/000108729426000076/0001087294-26-000076-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "PEPG",
-  "form": "424B5",
-  "acc": "0001193125-26-455711",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:06:32+00:00",
-  "accepted_kst": "11/11 07:06",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526455711/0001193125-26-455711-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "DTI",
-  "form": "4",
-  "acc": "0001193125-26-455713",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:06:32+00:00",
-  "accepted_kst": "11/11 07:06",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $164,300",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "Prejean Robert Wayne",
-  "url": "https://www.sec.gov/Archives/edgar/data/1884516/000119312526455713/0001193125-26-455713-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "TGHL",
   "form": "F-1",
   "acc": "0001493152-26-051020",
@@ -8680,5 +8625,56 @@
   "headline": "Friday, November 13, 2026 Contact: Jason Long Chief Financial Officer (804) 843-2360 ​ C&F Financial Corporation Announces Increase in Quarterly Dividend ​ Toan",
   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000054/0000913341-26-000054-index.htm",
   "seen_kst": "2026-11-14 02:32"
+ },
+ {
+  "ticker": "SHIM",
+  "form": "8-K",
+  "acc": "0001193125-26-458344",
+  "items": "2.02,9.01",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T21:07:47+00:00",
+  "accepted_kst": "11/13 06:07",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Shimmick Corporation Announces Third Quarter 2026 Results Irvine, CA, November 12, 2026 – Shimmick Corp. (NASDAQ: SHIM), a leading infrastructure solutions prov",
+  "url": "https://www.sec.gov/Archives/edgar/data/1887944/000119312526458344/0001193125-26-458344-index.htm",
+  "seen_kst": "2026-11-14 02:35"
+ },
+ {
+  "ticker": "SHIM",
+  "form": "10-Q",
+  "acc": "0001193125-26-458353",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T21:08:50+00:00",
+  "accepted_kst": "11/13 06:08",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1887944/000119312526458353/0001193125-26-458353-index.htm",
+  "seen_kst": "2026-11-14 02:35"
+ },
+ {
+  "ticker": "WVVI",
+  "form": "10-Q",
+  "acc": "0001199835-26-000395",
+  "items": "",
+  "filed": "2026-11-12",
+  "accepted": "2026-11-12T21:31:03+00:00",
+  "accepted_kst": "11/13 06:31",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/838875/000119983526000395/0001199835-26-000395-index.htm",
+  "seen_kst": "2026-11-14 02:35"
  }
 ]
