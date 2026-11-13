@@ -57549,7 +57549,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170803002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170803002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 1,
+  "grade_ret": -0.10200433917917184,
+  "graded_bars": 1
  },
  {
   "id": "NIKI-1794504679",
@@ -61466,5 +61469,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2607030002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2607030002",
   "grade": "n/a"
+ },
+ {
+  "id": "RYDE-1794589080",
+  "ts_kst": "2026-11-14 01:58",
+  "ts_utc": "2026-11-13T16:58:00+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "RYDE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RYDE 장중 급등 포착",
+  "body": "$1.100 (+15.4%) · 정규장 · 레벨 2 · 점수 27\n공매도 물량 대부분 손해 중, $1.14 넘으면 급등 가능성 ↑ · 한 달 고점 돌파 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +15.4% · 거래량 평소의 3.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.045 지정가(기준가 $1.100의 −5%) · 체결 가능성 약 57% · 손익분기 $1.058\n숏 지지구간 $0.850–$0.900 · 손절 $0.800 · 1차목표 $1.140\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.1,
+  "level": 2,
+  "score": 27.1,
+  "prob": 53.20452494365734,
+  "cp": 67.12960488529686,
+  "rl": 1.1399999856948853,
+  "stop": 0.7999999999999998,
+  "zone": [
+   0.8499999999999999,
+   0.8999999999999999
+  ],
+  "bp": 1.045,
+  "tgt": 1.1399999856948853,
+  "stp": 0.7999999999999998,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240229002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240229002",
+  "grade": "open"
  }
 ]

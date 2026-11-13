@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "NHP",
-  "form": "424B5",
-  "acc": "0001140361-26-043057",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:53:22+00:00",
-  "accepted_kst": "11/11 06:53",
-  "polarity": "neg",
-  "label": "증자 서류(424B5)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1561032/000114036126043057/0001140361-26-043057-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "ETON",
-  "form": "144",
-  "acc": "0001974078-26-000412",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:53:48+00:00",
-  "accepted_kst": "11/11 06:53",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1710340/000197407826000412/0001974078-26-000412-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "ORC",
   "form": "8-K",
   "acc": "0001437749-26-036216",
@@ -8686,5 +8650,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1615063/000091957426007674/0000919574-26-007674-index.htm",
   "seen_kst": "2026-11-14 01:55"
+ },
+ {
+  "ticker": "FOXF",
+  "form": "4",
+  "acc": "0001626219-26-000014",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T16:54:51+00:00",
+  "accepted_kst": "11/14 01:54",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1424929/000162621926000014/0001626219-26-000014-index.htm",
+  "seen_kst": "2026-11-14 01:58"
+ },
+ {
+  "ticker": "DYAI",
+  "form": "8-K",
+  "acc": "0001493152-26-051601",
+  "items": "2.02,9.01",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T16:57:16+00:00",
+  "accepted_kst": "11/14 01:57",
+  "polarity": "neutral",
+  "label": "실적",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "DYADIC ANNOUNCES THIRD QUARTER 2026 FINANCIAL RESULTS AND RECENT DEVELOPMENTS Advances Commercialization, Expands Strategic Partnerships and Accelerates Biophar",
+  "url": "https://www.sec.gov/Archives/edgar/data/1213809/000149315226051601/0001493152-26-051601-index.htm",
+  "seen_kst": "2026-11-14 01:58"
  }
 ]
