@@ -61640,5 +61640,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19940915001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19940915001",
   "grade": "open"
+ },
+ {
+  "id": "NUAI-1794591630",
+  "ts_kst": "2026-11-14 02:40",
+  "ts_utc": "2026-11-13T17:40:30+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "NUAI",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 NUAI 상위 확률 신호",
+  "body": "$3.170 (+16.5%) · 정규장 · 레벨 3 · 점수 40\n$3.50 넘으면 공매도 되사기 압박 ↑ · 갭 상승 후 버티는 중\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.012 지정가(기준가 $3.170의 −5%) · 체결 가능성 약 71% · 손익분기 $3.048\n숏 지지구간 $2.000–$2.500 · 손절 $1.585 · 1차목표 $3.500\n⚠ 희석 위험 80/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.17,
+  "level": 3,
+  "score": 40.0,
+  "prob": 52.91666666666666,
+  "cp": 35.783088889783706,
+  "rl": 3.5,
+  "stop": 1.5850000381469727,
+  "zone": [
+   2.0,
+   2.5
+  ],
+  "bp": 3.0115,
+  "tgt": 3.5,
+  "stp": 1.5850000381469727,
+  "penalties": [
+   "희석 위험 80/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220105004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220105004",
+  "grade": "open"
  }
 ]
