@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IBEX",
-  "form": "4",
-  "acc": "0001973708-26-000013",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T23:16:44+00:00",
-  "accepted_kst": "11/11 08:16",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1720420/000197370826000013/0001973708-26-000013-index.htm",
-  "seen_kst": "2026-11-11 08:45"
- },
- {
   "ticker": "UEIC",
   "form": "144",
   "acc": "0000921895-26-003017",
@@ -8660,5 +8643,22 @@
   "headline": "SIMARD JOHN",
   "url": "https://www.sec.gov/Archives/edgar/data/1626878/000119312526460514/0001193125-26-460514-index.htm",
   "seen_kst": "2026-11-14 05:51"
+ },
+ {
+  "ticker": "PFSA",
+  "form": "10-Q",
+  "acc": "0001213900-26-119647",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T20:55:45+00:00",
+  "accepted_kst": "11/14 05:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1859807/000121390026119647/0001213900-26-119647-index.htm",
+  "seen_kst": "2026-11-14 05:56"
  }
 ]

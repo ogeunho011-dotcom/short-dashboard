@@ -63957,5 +63957,47 @@
    "accepted_kst": "11/14 05:49",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "GYGY-1794603391",
+  "ts_kst": "2026-11-14 05:56",
+  "ts_utc": "2026-11-13T20:56:31+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "GYGY",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.5% · 거래량 평소의 5.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GYGY 장중 급등 포착",
+  "body": "$0.367 (+18.5%) · 정규장 · 레벨 2 · 점수 35\n시장에 도는 주식 1,439만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 11배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +18.5% · 거래량 평소의 5.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.349 지정가(기준가 $0.367의 −5%) · 체결 가능성 약 68% · 손익분기 $0.353\n숏 지지구간 $0.257–$0.367 · 손절 $0.184 · 1차목표 $0.450\n⚠ 424B 증자 설명서 4건 (30일 내, 최근 10/30)\n⚠ 희석 위험 85/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3673,
+  "level": 2,
+  "score": 34.6,
+  "prob": 31.25,
+  "cp": 2.0,
+  "rl": 4.0,
+  "stop": 0.18365000188350677,
+  "zone": [
+   0.2571100026369095,
+   0.36730000376701355
+  ],
+  "bp": 0.3489,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 4건 (30일 내, 최근 10/30)",
+   "희석 위험 85/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2607030002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2607030002",
+  "grade": "n/a"
  }
 ]
