@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DLPN",
-  "form": "10-Q",
-  "acc": "0001079973-26-001454",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:16:56+00:00",
-  "accepted_kst": "11/11 07:16",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1282224/000107997326001454/0001079973-26-001454-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "CRMD",
   "form": "DEFA14A",
   "acc": "0001213900-26-118114",
@@ -8679,5 +8662,22 @@
   "headline": "FORM 51-102F4 BUSINESS ACQUISITION REPORT ITEM 1. - IDENTITY OF COMPANY 1.1 Name and Address of Company Ballard Power Systems Inc. (the “ Company ”) 9000 Glenly",
   "url": "https://www.sec.gov/Archives/edgar/data/1453015/000120677426000601/0001206774-26-000601-index.htm",
   "seen_kst": "2026-11-14 03:53"
+ },
+ {
+  "ticker": "BTTC",
+  "form": "6-K",
+  "acc": "0001493152-26-051637",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T18:57:11+00:00",
+  "accepted_kst": "11/14 03:57",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Other Events Reminder to Shareholders to Vote at the 2026 Annual and Extraordinary General Meeting Black Titan Corporation (the “ Company ”) reminds its shareho",
+  "url": "https://www.sec.gov/Archives/edgar/data/2034400/000149315226051637/0001493152-26-051637-index.htm",
+  "seen_kst": "2026-11-14 03:58"
  }
 ]

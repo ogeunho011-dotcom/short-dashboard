@@ -62586,5 +62586,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0251205002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0251205002",
   "grade": "open"
+ },
+ {
+  "id": "NMAX-1794596292",
+  "ts_kst": "2026-11-14 03:58",
+  "ts_utc": "2026-11-13T18:58:12+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "NMAX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.7% · 거래량 평소의 21.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NMAX 장중 급등 포착",
+  "body": "$9.240 (+26.7%) · 정규장 · 레벨 2 · 점수 28\n$9.75 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 16배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +26.7% · 거래량 평소의 21.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $8.778 지정가(기준가 $9.240의 −5%) · 체결 가능성 약 39% · 손익분기 $8.884\n숏 지지구간 $8.500–$8.759 · 손절 $8.250 · 1차목표 $9.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 9.24,
+  "level": 2,
+  "score": 27.6,
+  "prob": 53.07488096287961,
+  "cp": 44.3004814701773,
+  "rl": 9.75,
+  "stop": 8.25,
+  "zone": [
+   8.5,
+   8.758999919891357
+  ],
+  "bp": 8.778,
+  "tgt": 9.75,
+  "stp": 8.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS0250331001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS0250331001",
+  "grade": "open"
  }
 ]
