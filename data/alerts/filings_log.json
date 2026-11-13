@@ -1,23 +1,6 @@
 [
  {
   "ticker": "GOSS",
-  "form": "10-Q",
-  "acc": "0001728117-26-000114",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T21:49:03+00:00",
-  "accepted_kst": "11/11 06:49",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1728117/000172811726000114/0001728117-26-000114-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "GOSS",
   "form": "8-K",
   "acc": "0001728117-26-000116",
   "items": "2.02,9.01",
@@ -8686,5 +8669,22 @@
   "headline": "EX-99.1 2 nksh-ex99_1.htm EX-99.1 FOR IMMEDIATE RELEASE CONTACTS: LARA E. RAMSEY, PRESIDENT & CEO (540) 951-6250 lramsey@nbbank.com LORA JONES, TREASURER & CFO",
   "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526459783/0001193125-26-459783-index.htm",
   "seen_kst": "2026-11-14 01:45"
+ },
+ {
+  "ticker": "FOXF",
+  "form": "4",
+  "acc": "0001857603-26-000011",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T16:48:23+00:00",
+  "accepted_kst": "11/14 01:48",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1424929/000185760326000011/0001857603-26-000011-index.htm",
+  "seen_kst": "2026-11-14 01:50"
  }
 ]
