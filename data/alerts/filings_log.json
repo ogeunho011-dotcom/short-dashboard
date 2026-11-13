@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "AIRI",
-  "form": "8-K",
-  "acc": "0001213900-26-118138",
-  "items": "7.01,9.01",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:26:05+00:00",
-  "accepted_kst": "11/11 07:26",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "November 10, 2026, 4:30 PM Eastern: Air Industries Group Announces Extended Maturity of Bank Credit Line & Subordinated Notes Bay Shore, N.Y.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026118138/0001213900-26-118138-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
-  "ticker": "FLUX",
-  "form": "424B3",
-  "acc": "0001493152-26-051037",
-  "items": "",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:27:44+00:00",
-  "accepted_kst": "11/11 07:27",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1083743/000149315226051037/0001493152-26-051037-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "VIVK",
   "form": "8-K",
   "acc": "0001829126-26-012212",
@@ -8670,5 +8634,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1709628/000168316826008684/0001683168-26-008684-index.htm",
   "seen_kst": "2026-11-14 04:53"
+ },
+ {
+  "ticker": "CLNN",
+  "form": "4",
+  "acc": "0001437749-26-036794",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:54:53+00:00",
+  "accepted_kst": "11/14 04:54",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1822791/000143774926036794/0001437749-26-036794-index.htm",
+  "seen_kst": "2026-11-14 04:55"
+ },
+ {
+  "ticker": "CLNN",
+  "form": "4",
+  "acc": "0001437749-26-036795",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T19:55:39+00:00",
+  "accepted_kst": "11/14 04:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1822791/000143774926036795/0001437749-26-036795-index.htm",
+  "seen_kst": "2026-11-14 04:55"
  }
 ]
