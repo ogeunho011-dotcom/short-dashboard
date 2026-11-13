@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RM",
-  "form": "144",
-  "acc": "0000899140-26-001250",
-  "items": "",
-  "filed": "2026-11-09",
-  "accepted": "2026-11-09T23:52:34+00:00",
-  "accepted_kst": "11/10 08:52",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1519401/000089914026001250/0000899140-26-001250-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "OESX",
   "form": "SCHEDULE 13G/A",
   "acc": "0001096906-26-001711",
@@ -8686,5 +8669,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1090009/000109000926000108/0001090009-26-000108-index.htm",
   "seen_kst": "2026-11-14 01:35"
+ },
+ {
+  "ticker": "GABC",
+  "form": "4",
+  "acc": "0002055298-26-000005",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T16:38:03+00:00",
+  "accepted_kst": "11/14 01:38",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/714395/000205529826000005/0002055298-26-000005-index.htm",
+  "seen_kst": "2026-11-14 01:40"
  }
 ]
