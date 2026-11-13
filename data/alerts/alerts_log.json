@@ -48185,7 +48185,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 3
  },
  {
   "id": "LGCL-1794339756",
@@ -57147,7 +57150,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "AVEX-1794502424",
@@ -58953,7 +58959,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608020006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608020006",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "XLAB-1794515208",
@@ -61591,6 +61600,45 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211013007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211013007",
+  "grade": "open"
+ },
+ {
+  "id": "WVVI-1794590879",
+  "ts_kst": "2026-11-14 02:27",
+  "ts_utc": "2026-11-13T17:27:59+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "WVVI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.9% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WVVI 장중 급등 포착",
+  "body": "$1.780 (+17.9%) · 정규장 · 레벨 1 · 점수 6\n$1.80 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 498만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +17.9% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $1.689 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.1%) · 체결 가능성 약 53% · 손익분기 $1.709\n숏 지지구간 $1.600–$1.700 · 손절 $1.500 · 1차목표 $1.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.78,
+  "level": 1,
+  "score": 6.0,
+  "prob": 31.25,
+  "cp": 33.562143460636115,
+  "rl": 1.8000000000000003,
+  "stop": 1.5,
+  "zone": [
+   1.6,
+   1.7000000000000002
+  ],
+  "bp": 1.6887,
+  "tgt": 1.8000000000000003,
+  "stp": 1.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19940915001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19940915001",
   "grade": "open"
  }
 ]

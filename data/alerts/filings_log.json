@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "BIVI",
-  "form": "8-K",
-  "acc": "0001520138-26-000471",
-  "items": "5.07",
-  "filed": "2026-11-10",
-  "accepted": "2026-11-10T22:03:14+00:00",
-  "accepted_kst": "11/11 07:03",
-  "polarity": "neg",
-  "label": "감사인 변경·재무제표 정정",
-  "cats": [],
-  "negs": [
-   "감사인 변경·재무제표 정정"
-  ],
-  "strength": 0,
-  "headline": "Item 5.07. Submission of Matters to a Vote of Security Holders. On November 10, 2026, BioVie Inc. ( the “Company”) held its 2026 annual meeting of stockholders",
-  "url": "https://www.sec.gov/Archives/edgar/data/1580149/000152013826000471/0001520138-26-000471-index.htm",
-  "seen_kst": "2026-11-11 07:52"
- },
- {
   "ticker": "AHRT",
   "form": "3",
   "acc": "0001569187-26-000178",
@@ -8682,5 +8663,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1335105/000149315226051604/0001493152-26-051604-index.htm",
   "seen_kst": "2026-11-14 02:20"
+ },
+ {
+  "ticker": "HIVE",
+  "form": "4",
+  "acc": "0001062993-26-005986",
+  "items": "",
+  "filed": "2026-11-13",
+  "accepted": "2026-11-13T17:27:17+00:00",
+  "accepted_kst": "11/14 02:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1720424/000106299326005986/0001062993-26-005986-index.htm",
+  "seen_kst": "2026-11-14 02:28"
  }
 ]
