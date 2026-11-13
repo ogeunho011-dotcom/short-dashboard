@@ -63191,5 +63191,49 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160727001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160727001",
   "grade": "open"
+ },
+ {
+  "id": "SHFS-1794600370",
+  "ts_kst": "2026-11-14 05:06",
+  "ts_utc": "2026-11-13T20:06:10+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "SHFS",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 3,607k (당일 평균 49.4배)"
+  ],
+  "title": "🚀 SHFS 거래량 급증",
+  "body": "$0.027 (+19.1%) · 정규장 · 레벨 4 · 점수 63\n시장에 도는 주식 1,233만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 4배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 5분 거래량 3,607k (당일 평균 49.4배)\n10일 내 셋업 성공 확률(보정): 23%\n추천 매수가 $0.026 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.6%) · 체결 가능성 약 85% · 손익분기 $0.027\n숏 지지구간 $0.019–$0.027 · 손절 $0.014 · 1차목표 $0.041\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-30\n⚠ 희석 위험 65/100\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/12)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0274,
+  "level": 4,
+  "score": 63.3,
+  "prob": 22.511341001184572,
+  "cp": 2.0,
+  "rl": 0.5,
+  "stop": 0.013700000010430813,
+  "zone": [
+   0.019180000014603137,
+   0.027400000020861626
+  ],
+  "bp": 0.0264,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-30",
+   "희석 위험 65/100",
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/12)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220929002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220929002",
+  "grade": "n/a"
  }
 ]
