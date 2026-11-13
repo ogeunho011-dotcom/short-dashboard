@@ -62304,5 +62304,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230301002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230301002",
   "grade": "n/a"
+ },
+ {
+  "id": "RAIN-1794594645",
+  "ts_kst": "2026-11-14 03:30",
+  "ts_utc": "2026-11-13T18:30:45+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "RAIN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +46.6% · 거래량 평소의 2457.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RAIN 장중 급등 포착",
+  "body": "$0.695 (+46.6%) · 정규장 · 레벨 3 · 점수 54\n$0.700 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 335만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +46.6% · 거래량 평소의 2457.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.660 지정가(기준가 $0.695의 −5%) · 체결 가능성 약 69% · 손익분기 $0.668\n숏 지지구간 $0.500–$0.600 · 손절 $0.450 · 1차목표 $0.700\n⚠ 최근 악재 공시: 8-K 역분할 (11/13)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6948,
+  "level": 3,
+  "score": 53.9,
+  "prob": 47.808764940239065,
+  "cp": 41.88124721400598,
+  "rl": 0.7,
+  "stop": 0.45,
+  "zone": [
+   0.5,
+   0.6
+  ],
+  "bp": 0.6601,
+  "tgt": 0.7,
+  "stp": 0.45,
+  "penalties": [
+   "최근 악재 공시: 8-K 역분할 (11/13)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102014",
+  "grade": "open"
  }
 ]
