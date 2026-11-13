@@ -62224,5 +62224,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250828005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250828005",
   "grade": "open"
+ },
+ {
+  "id": "AUUD-1794594337",
+  "ts_kst": "2026-11-14 03:25",
+  "ts_utc": "2026-11-13T18:25:37+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "AUUD",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 AUUD 상위 확률 신호",
+  "body": "$0.369 (+18.8%) · 정규장 · 레벨 3 · 점수 52\n$0.400 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 580만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.351 지정가(기준가 $0.369의 −5%) · 체결 가능성 약 81% · 손익분기 $0.355\n숏 지지구간 $0.259–$0.300 · 손절 $0.185 · 1차목표 $0.400\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3694,
+  "level": 3,
+  "score": 52.2,
+  "prob": 52.91666666666666,
+  "cp": 59.83518595441966,
+  "rl": 0.4000000000000001,
+  "stop": 0.18469999730587006,
+  "zone": [
+   0.2585799962282181,
+   0.30000000000000004
+  ],
+  "bp": 0.3509,
+  "tgt": 0.4000000000000001,
+  "stp": 0.18469999730587006,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210217004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210217004",
+  "grade": "open"
  }
 ]
