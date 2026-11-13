@@ -62706,5 +62706,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150209001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150209001",
   "grade": "open"
+ },
+ {
+  "id": "AKAN-1794597344",
+  "ts_kst": "2026-11-14 04:15",
+  "ts_utc": "2026-11-13T19:15:44+00:00",
+  "date_et": "2026-11-13",
+  "session": "regular",
+  "ticker": "AKAN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +51.8% · 거래량 평소의 168.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AKAN 장중 급등 포착",
+  "body": "$1.020 (+51.8%) · 정규장 · 레벨 3 · 점수 52\n시장에 도는 주식 198만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +51.8% · 거래량 평소의 168.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $0.981 지정가(20일선, 기준가 대비 -3.8%) · 체결 가능성 약 74% · 손익분기 $0.993\n숏 지지구간 $0.714–$1.000 · 손절 $0.510 · 1차목표 $2.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.02,
+  "level": 3,
+  "score": 52.4,
+  "prob": 47.808764940239065,
+  "cp": 39.104397771752026,
+  "rl": 2.0,
+  "stop": 0.5099999904632568,
+  "zone": [
+   0.7139999866485596,
+   1.0
+  ],
+  "bp": 0.9808,
+  "tgt": 2.0,
+  "stp": 0.5099999904632568,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230309002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230309002",
+  "grade": "open"
  }
 ]
