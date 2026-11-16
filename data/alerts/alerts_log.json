@@ -65326,5 +65326,44 @@
    "accepted_kst": "11/17 03:43",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "SPCB-1794854861",
+  "ts_kst": "2026-11-17 03:47",
+  "ts_utc": "2026-11-16T18:47:41+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "SPCB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.1% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SPCB 장중 급등 포착",
+  "body": "$7.100 (+15.1%) · 정규장 · 레벨 1 · 점수 20\n$7.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 537만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +15.1% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $6.745 지정가(기준가 $7.100의 −5%) · 체결 가능성 약 57% · 손익분기 $6.826\n숏 지지구간 $6.000–$6.385 · 손절 $5.750 · 1차목표 $7.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.1,
+  "level": 1,
+  "score": 19.7,
+  "prob": 45.01661129568107,
+  "cp": 32.15004625705604,
+  "rl": 7.5,
+  "stop": 5.75,
+  "zone": [
+   6.0,
+   6.384999966621399
+  ],
+  "bp": 6.745,
+  "tgt": 7.5,
+  "stp": 5.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130918002",
+  "grade": "open"
  }
 ]
