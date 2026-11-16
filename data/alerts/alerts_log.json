@@ -66077,5 +66077,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210122011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210122011",
   "grade": "open"
+ },
+ {
+  "id": "YMT-1794861178",
+  "ts_kst": "2026-11-17 05:32",
+  "ts_utc": "2026-11-16T20:32:58+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "YMT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 49%)"
+  ],
+  "title": "🚀 YMT 상위 확률 신호",
+  "body": "$1.550 (+913.1%) · 정규장 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 6만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 49%)\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $1.472 지정가(기준가 $1.550의 −5%) · 체결 가능성 약 75% · 손익분기 $1.490\n숏 지지구간 $1.500–$1.550 · 손절 $1.000 · 1차목표 $2.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/27)\n⚠ 역분할 2026-11-16\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.55,
+  "level": 3,
+  "score": 50.9,
+  "prob": 49.25844193617744,
+  "cp": 26.67021059687715,
+  "rl": 2.5,
+  "stop": 1.0,
+  "zone": [
+   1.5,
+   1.5499999523162842
+  ],
+  "bp": 1.4725,
+  "tgt": 2.5,
+  "stp": 1.0,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/27)",
+   "역분할 2026-11-16"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250819011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250819011",
+  "grade": "open"
+ },
+ {
+  "id": "EQS-1794861178",
+  "ts_kst": "2026-11-17 05:32",
+  "ts_utc": "2026-11-16T20:32:58+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "EQS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.6% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EQS 장중 급등 포착",
+  "body": "$0.624 (+15.6%) · 정규장 · 레벨 1 · 점수 20\n$0.700 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,397만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +15.6% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 26%\n추천 매수가 $0.582 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.8%) · 체결 가능성 약 48% · 손익분기 $0.589\n숏 지지구간 $0.550–$0.600 · 손절 $0.525 · 1차목표 $0.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6241,
+  "level": 1,
+  "score": 19.5,
+  "prob": 26.2542402285116,
+  "cp": 36.74890898501331,
+  "rl": 0.7000000000000002,
+  "stop": 0.525,
+  "zone": [
+   0.55,
+   0.6000000000000001
+  ],
+  "bp": 0.5816,
+  "tgt": 0.7000000000000002,
+  "stp": 0.525,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19920911001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19920911001",
+  "grade": "open"
  }
 ]
