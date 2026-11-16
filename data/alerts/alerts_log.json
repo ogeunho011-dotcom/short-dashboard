@@ -33726,7 +33726,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230127008%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230127008",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 6,
+  "grade_ret": -0.5059999880273907,
+  "graded_bars": 6
  },
  {
   "id": "CLNE-1793976168",
@@ -66318,6 +66321,247 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130918002",
+  "grade": "open"
+ },
+ {
+  "id": "AKAN-1794869414",
+  "ts_kst": "2026-11-17 07:50",
+  "ts_utc": "2026-11-16T22:50:14+00:00",
+  "date_et": "2026-11-16",
+  "session": "post",
+  "ticker": "AKAN",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 AKAN 상위 확률 신호",
+  "body": "$2.090 (+53.7%) · 애프터마켓 · 레벨 3 · 점수 48\n시장에 도는 주식 198만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 41배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.985 지정가(기준가 $2.090의 −5%) · 체결 가능성 약 64% · 손익분기 $2.009\n숏 지지구간 $2.000–$2.090 · 손절 $1.045 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.09,
+  "level": 3,
+  "score": 48.0,
+  "prob": 53.22051104102048,
+  "cp": 45.951052063009044,
+  "rl": 4.0,
+  "stop": 1.045,
+  "zone": [
+   2.0,
+   2.09
+  ],
+  "bp": 1.9855,
+  "tgt": 4.0,
+  "stp": 1.045,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230309002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230309002",
+  "grade": "open"
+ },
+ {
+  "id": "YMT-1794869414",
+  "ts_kst": "2026-11-17 07:50",
+  "ts_utc": "2026-11-16T22:50:14+00:00",
+  "date_et": "2026-11-16",
+  "session": "post",
+  "ticker": "YMT",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 49%)"
+  ],
+  "title": "🚀 YMT 상위 확률 신호",
+  "body": "$1.530 (+900.0%) · 애프터마켓 · 레벨 3 · 점수 50\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 6만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 49%)\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $1.454 지정가(기준가 $1.530의 −5%) · 체결 가능성 약 75% · 손익분기 $1.471\n숏 지지구간 $1.500–$1.530 · 손절 $1.000 · 1차목표 $2.500\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/27)\n⚠ 역분할 2026-11-16\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.53,
+  "level": 3,
+  "score": 49.9,
+  "prob": 48.57699587375974,
+  "cp": 26.67346377042809,
+  "rl": 2.5,
+  "stop": 1.0,
+  "zone": [
+   1.5,
+   1.53
+  ],
+  "bp": 1.4535,
+  "tgt": 2.5,
+  "stp": 1.0,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/27)",
+   "역분할 2026-11-16"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250819011%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250819011",
+  "grade": "open"
+ },
+ {
+  "id": "GP-1794869414",
+  "ts_kst": "2026-11-17 07:50",
+  "ts_utc": "2026-11-16T22:50:14+00:00",
+  "date_et": "2026-11-16",
+  "session": "post",
+  "ticker": "GP",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 72/100"
+  ],
+  "title": "🚀 GP 커버 압력",
+  "body": "$1.750 (+50.9%) · 애프터마켓 · 레벨 4 · 점수 62\n공매도 물량 대부분 손해 중, $2.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 503만 주뿐이라 쉽게 크게 움직임\n• 커버 압력 72/100\n10일 내 셋업 성공 확률(보정): 42%\n추천 매수가 $1.662 지정가(기준가 $1.750의 −5%) · 체결 가능성 약 72% · 손익분기 $1.683\n숏 지지구간 $1.225–$1.225 · 손절 $0.875 · 1차목표 $2.000\n⚠ 역분할 2026-10-19\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.75,
+  "level": 4,
+  "score": 61.6,
+  "prob": 41.509433962264154,
+  "cp": 72.32999774729909,
+  "rl": 2.0,
+  "stop": 0.875,
+  "zone": [
+   1.2249999999999999,
+   1.2249999999999999
+  ],
+  "bp": 1.6625,
+  "tgt": 2.0,
+  "stp": 0.875,
+  "penalties": [
+   "역분할 2026-10-19"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200828001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200828001",
+  "grade": "open"
+ },
+ {
+  "id": "HIHO-1794869414",
+  "ts_kst": "2026-11-17 07:50",
+  "ts_utc": "2026-11-16T22:50:14+00:00",
+  "date_et": "2026-11-16",
+  "session": "post",
+  "ticker": "HIHO",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 HIHO 상위 확률 신호",
+  "body": "$1.190 (+50.6%) · 애프터마켓 · 레벨 4 · 점수 56\n$1.30 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 463만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.130 지정가(기준가 $1.190의 −5%) · 체결 가능성 약 56% · 손익분기 $1.144\n숏 지지구간 $1.050–$1.100 · 손절 $1.000 · 1차목표 $1.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.19,
+  "level": 4,
+  "score": 55.8,
+  "prob": 53.08574385326017,
+  "cp": 33.905515450393736,
+  "rl": 1.3000000000000007,
+  "stop": 1.0000000000000002,
+  "zone": [
+   1.0500000000000003,
+   1.1000000000000003
+  ],
+  "bp": 1.1305,
+  "tgt": 1.3000000000000007,
+  "stp": 1.0000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19961211001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19961211001",
+  "grade": "open"
+ },
+ {
+  "id": "TDTH-1794869414",
+  "ts_kst": "2026-11-17 07:50",
+  "ts_utc": "2026-11-16T22:50:14+00:00",
+  "date_et": "2026-11-16",
+  "session": "post",
+  "ticker": "TDTH",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 49%)"
+  ],
+  "title": "🚀 TDTH 상위 확률 신호",
+  "body": "$0.989 (+36.7%) · 애프터마켓 · 레벨 3 · 점수 42\n$1.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 49%)\n10일 내 셋업 성공 확률(보정): 49%\n추천 매수가 $0.940 지정가(기준가 $0.989의 −5%) · 체결 가능성 약 72% · 손익분기 $0.951\n숏 지지구간 $0.693–$0.750 · 손절 $0.495 · 1차목표 $1.000\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.9894,
+  "level": 3,
+  "score": 41.7,
+  "prob": 49.19125289863809,
+  "cp": 40.44330917076045,
+  "rl": 1.0,
+  "stop": 0.4947,
+  "zone": [
+   0.69258,
+   0.75
+  ],
+  "bp": 0.9399,
+  "tgt": 1.0,
+  "stp": 0.4947,
+  "penalties": [
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240910007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240910007",
+  "grade": "open"
+ },
+ {
+  "id": "AMST-1794869414",
+  "ts_kst": "2026-11-17 07:50",
+  "ts_utc": "2026-11-16T22:50:14+00:00",
+  "date_et": "2026-11-16",
+  "session": "post",
+  "ticker": "AMST",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 AMST 상위 확률 신호",
+  "body": "$0.592 (+24.6%) · 애프터마켓 · 레벨 3 · 점수 52\n공매도 물량 대부분 손해 중, $0.600 넘으면 급등 가능성 ↑ · 시장에 도는 주식 655만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.564 지정가(20일선, 기준가 대비 -4.7%) · 체결 가능성 약 63% · 손익분기 $0.571\n숏 지지구간 $0.450–$0.500 · 손절 $0.400 · 1차목표 $0.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5919,
+  "level": 3,
+  "score": 52.4,
+  "prob": 52.91666666666666,
+  "cp": 58.14156051153624,
+  "rl": 0.6,
+  "stop": 0.4,
+  "zone": [
+   0.45,
+   0.5
+  ],
+  "bp": 0.564,
+  "tgt": 0.6,
+  "stp": 0.4,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230222001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230222001",
   "grade": "open"
  }
 ]
