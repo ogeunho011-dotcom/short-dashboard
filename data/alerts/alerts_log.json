@@ -65365,5 +65365,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130918002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130918002",
   "grade": "open"
+ },
+ {
+  "id": "OFAL-1794856256",
+  "ts_kst": "2026-11-17 04:10",
+  "ts_utc": "2026-11-16T19:10:56+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "OFAL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +25.4% · 거래량 평소의 7.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OFAL 장중 급등 포착",
+  "body": "$3.110 (+25.4%) · 정규장 · 레벨 2 · 점수 27\n오늘 거래량 평소의 10배 이상, 관심 급증 · $3 다시 회복\n• 전일 대비 +25.4% · 거래량 평소의 7.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $2.839 지정가(20일선, 기준가 대비 -8.7%) · 체결 가능성 약 66% · 손익분기 $2.874\n숏 지지구간 $2.000–$3.110 · 손절 $1.555 · 1차목표 $8.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-11-10\n⚠ 희석 위험 65/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.11,
+  "level": 2,
+  "score": 26.6,
+  "prob": 21.428571428571427,
+  "cp": 23.794242609561156,
+  "rl": 8.0,
+  "stop": 1.5549999475479126,
+  "zone": [
+   2.0,
+   3.109999895095825
+  ],
+  "bp": 2.8395,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-11-10",
+   "희석 위험 65/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250516004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250516004",
+  "grade": "n/a"
  }
 ]
