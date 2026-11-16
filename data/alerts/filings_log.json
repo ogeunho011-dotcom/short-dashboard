@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "NNOX",
-  "form": "6-K",
-  "acc": "0001213900-26-118915",
-  "items": "",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:05:30+00:00",
-  "accepted_kst": "11/13 06:05",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "CONTENTS Standby Equity Purchase Agreements On November 12, 2026, NANO-X IMAGING LTD (the “Company”) entered into two Standby Equity Purchase Agreements with YA",
-  "url": "https://www.sec.gov/Archives/edgar/data/1795251/000121390026118915/0001213900-26-118915-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
-  "ticker": "BTLN",
-  "form": "10-Q",
-  "acc": "0001493152-26-051382",
-  "items": "",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:05:34+00:00",
-  "accepted_kst": "11/13 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1854445/000149315226051382/0001493152-26-051382-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "SLSN",
   "form": "8-K",
   "acc": "0001171843-26-007397",
@@ -8690,5 +8654,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1096752/000160456526000006/0001604565-26-000006-index.htm",
   "seen_kst": "2026-11-17 04:39"
+ },
+ {
+  "ticker": "GOVX",
+  "form": "SCHEDULE 13G",
+  "acc": "0001172661-26-005230",
+  "items": "",
+  "filed": "2026-11-16",
+  "accepted": "2026-11-16T17:10:33+00:00",
+  "accepted_kst": "11/17 02:10",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/832489/000117266126005230/0001172661-26-005230-index.htm",
+  "seen_kst": "2026-11-17 04:50"
+ },
+ {
+  "ticker": "FC",
+  "form": "4",
+  "acc": "0001193125-26-463198",
+  "items": "",
+  "filed": "2026-11-16",
+  "accepted": "2026-11-16T19:43:30+00:00",
+  "accepted_kst": "11/17 04:43",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/886206/000119312526463198/0001193125-26-463198-index.htm",
+  "seen_kst": "2026-11-17 04:50"
  }
 ]
