@@ -66158,5 +66158,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19920911001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19920911001",
   "grade": "open"
+ },
+ {
+  "id": "OFRM-1794861411",
+  "ts_kst": "2026-11-17 05:36",
+  "ts_utc": "2026-11-16T20:36:51+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "OFRM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.1% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OFRM 장중 급등 포착",
+  "body": "$11.684 (+21.1%) · 정규장 · 레벨 1 · 점수 23\n$12.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +21.1% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $11.100 지정가(기준가 $11.684의 −5%) · 체결 가능성 약 64% · 손익분기 $11.234\n숏 지지구간 $11.000–$11.500 · 손절 $10.500 · 1차목표 $12.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 11.6842,
+  "level": 1,
+  "score": 23.4,
+  "prob": 53.18446043843821,
+  "cp": 53.46147546619901,
+  "rl": 12.0,
+  "stop": 10.5,
+  "zone": [
+   11.0,
+   11.5
+  ],
+  "bp": 11.1,
+  "tgt": 12.0,
+  "stp": 10.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNYS2602006002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNYS2602006002",
+  "grade": "open"
  }
 ]
