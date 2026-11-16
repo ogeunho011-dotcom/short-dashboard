@@ -65538,5 +65538,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241001003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241001003",
   "grade": "open"
+ },
+ {
+  "id": "CLRO-1794859849",
+  "ts_kst": "2026-11-17 05:10",
+  "ts_utc": "2026-11-16T20:10:49+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "CLRO",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 30k (당일 평균 107.8배)"
+  ],
+  "title": "🚀 CLRO 거래량 급증",
+  "body": "$4.810 (+42.7%) · 정규장 · 레벨 4 · 점수 58\n$5.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 268만 주뿐이라 쉽게 크게 움직임\n• 5분 거래량 30k (당일 평균 107.8배)\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $4.364 지정가(60일선, 기준가 대비 -9.3%) · 체결 가능성 약 67% · 손익분기 $4.417\n숏 지지구간 $4.000–$4.500 · 손절 $3.500 · 1차목표 $5.000\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.81,
+  "level": 4,
+  "score": 58.2,
+  "prob": 45.01661129568107,
+  "cp": 53.73832443966269,
+  "rl": 5.0,
+  "stop": 3.5,
+  "zone": [
+   4.0,
+   4.5
+  ],
+  "bp": 4.3642,
+  "tgt": 5.0,
+  "stp": 3.5,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19950818001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19950818001",
+  "grade": "open"
  }
 ]
