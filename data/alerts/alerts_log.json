@@ -65497,5 +65497,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200925004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200925004",
   "grade": "open"
+ },
+ {
+  "id": "HTLM-1794859425",
+  "ts_kst": "2026-11-17 05:03",
+  "ts_utc": "2026-11-16T20:03:45+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "HTLM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 26.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HTLM 장중 급등 포착",
+  "body": "$1.235 (+15.4%) · 정규장 · 레벨 1 · 점수 19\n$1.30 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 5배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +15.4% · 거래량 평소의 26.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.173 지정가(기준가 $1.235의 −5%) · 체결 가능성 약 44% · 손익분기 $1.187\n숏 지지구간 $1.050–$1.115 · 손절 $1.000 · 1차목표 $1.300\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/13)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.235,
+  "level": 1,
+  "score": 18.7,
+  "prob": 53.44827586206896,
+  "cp": 52.22840609606993,
+  "rl": 1.3000000000000003,
+  "stop": 1.0,
+  "zone": [
+   1.05,
+   1.1147500050067902
+  ],
+  "bp": 1.1733,
+  "tgt": 1.3000000000000003,
+  "stp": 1.0,
+  "penalties": [
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/13)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241001003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241001003",
+  "grade": "open"
  }
 ]
