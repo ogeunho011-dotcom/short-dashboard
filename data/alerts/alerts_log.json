@@ -65579,5 +65579,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19950818001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19950818001",
   "grade": "open"
+ },
+ {
+  "id": "RCON-1794860496",
+  "ts_kst": "2026-11-17 05:21",
+  "ts_utc": "2026-11-16T20:21:36+00:00",
+  "date_et": "2026-11-16",
+  "session": "regular",
+  "ticker": "RCON",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +27.6% · 거래량 평소의 182.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ RCON 장중 급등 포착",
+  "body": "$1.110 (+27.6%) · 정규장 · 레벨 2 · 점수 39\n시장에 도는 주식 1,063만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 전일 대비 +27.6% · 거래량 평소의 182.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $1.055 지정가(기준가 $1.110의 −5%) · 체결 가능성 약 61% · 손익분기 $1.067\n숏 지지구간 $0.777–$1.110 · 손절 $0.555 · 1차목표 $1.360\n⚠ 역분할 2026-08-18\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.11,
+  "level": 2,
+  "score": 38.7,
+  "prob": 31.25,
+  "cp": 3.16,
+  "rl": 15.0,
+  "stop": 0.5550000071525574,
+  "zone": [
+   0.7770000100135803,
+   1.1100000143051147
+  ],
+  "bp": 1.0545,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-08-18"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20090731001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20090731001",
+  "grade": "n/a"
  }
 ]
