@@ -1,42 +1,6 @@
 [
  {
   "ticker": "INLX",
-  "form": "10-Q",
-  "acc": "0001493152-26-051371",
-  "items": "",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:00:51+00:00",
-  "accepted_kst": "11/13 06:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1081745/000149315226051371/0001493152-26-051371-index.htm",
-  "seen_kst": "2026-11-14 01:18"
- },
- {
-  "ticker": "TOPP",
-  "form": "8-K",
-  "acc": "0001213900-26-119351",
-  "items": "7.01,9.01",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T16:13:57+00:00",
-  "accepted_kst": "11/14 01:13",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Toppoint Holdings Inc. Announces Reverse Stock Split",
-  "url": "https://www.sec.gov/Archives/edgar/data/1960847/000121390026119351/0001213900-26-119351-index.htm",
-  "seen_kst": "2026-11-14 01:18"
- },
- {
-  "ticker": "INLX",
   "form": "8-K",
   "acc": "0001493152-26-051585",
   "items": "2.02,9.01",
@@ -8634,5 +8598,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1096275/000143774926037364/0001437749-26-037364-index.htm",
   "seen_kst": "2026-11-18 04:54"
+ },
+ {
+  "ticker": "TRST",
+  "form": "4",
+  "acc": "0000357301-26-000014",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T19:54:37+00:00",
+  "accepted_kst": "11/18 04:54",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $3,398 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Silverman Frank B",
+  "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000014/0000357301-26-000014-index.htm",
+  "seen_kst": "2026-11-18 04:56"
+ },
+ {
+  "ticker": "WKSP",
+  "form": "4",
+  "acc": "0001437749-26-037367",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T19:55:15+00:00",
+  "accepted_kst": "11/18 04:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1096275/000143774926037367/0001437749-26-037367-index.htm",
+  "seen_kst": "2026-11-18 04:56"
  }
 ]

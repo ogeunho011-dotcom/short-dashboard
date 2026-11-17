@@ -69330,5 +69330,126 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210827002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210827002",
   "grade": "open"
+ },
+ {
+  "id": "AZI-1794945389",
+  "ts_kst": "2026-11-18 04:56",
+  "ts_utc": "2026-11-17T19:56:29+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "AZI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +47.2% · 거래량 평소의 863.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AZI 장중 급등 포착",
+  "body": "$0.770 (+47.2%) · 정규장 · 레벨 2 · 점수 32\n$0.800 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 383만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +47.2% · 거래량 평소의 863.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 42%\n추천 매수가 $0.729 지정가(20일선, 기준가 대비 -5.2%) · 체결 가능성 약 70% · 손익분기 $0.738\n숏 지지구간 $0.500–$0.600 · 손절 $0.450 · 1차목표 $0.800\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7696,
+  "level": 2,
+  "score": 32.3,
+  "prob": 41.509433962264154,
+  "cp": 39.790352576191765,
+  "rl": 0.7999999999999999,
+  "stop": 0.45,
+  "zone": [
+   0.5,
+   0.6
+  ],
+  "bp": 0.7294,
+  "tgt": 0.7999999999999999,
+  "stp": 0.45,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240828001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240828001",
+  "grade": "open"
+ },
+ {
+  "id": "FTHM-1794945389",
+  "ts_kst": "2026-11-18 04:56",
+  "ts_utc": "2026-11-17T19:56:29+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "FTHM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.0% · 거래량 평소의 4.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FTHM 장중 급등 포착",
+  "body": "$0.104 (+18.0%) · 정규장 · 레벨 2 · 점수 28\n$0.150 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 8배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +18.0% · 거래량 평소의 4.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.099 지정가(기준가 $0.104의 −5%) · 체결 가능성 약 80% · 손익분기 $0.100\n숏 지지구간 $0.073–$0.100 · 손절 $0.052 · 1차목표 $0.150\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1038,
+  "level": 2,
+  "score": 27.5,
+  "prob": 38.456237077877326,
+  "cp": 9.022739268828088,
+  "rl": 0.15000000000000002,
+  "stop": 0.051899999380111694,
+  "zone": [
+   0.07265999913215637,
+   0.1
+  ],
+  "bp": 0.0986,
+  "tgt": 0.15000000000000002,
+  "stp": 0.051899999380111694,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200730003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200730003",
+  "grade": "open"
+ },
+ {
+  "id": "CVM-1794945389",
+  "ts_kst": "2026-11-18 04:56",
+  "ts_utc": "2026-11-17T19:56:29+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "CVM",
+  "types": [
+   "spike",
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +16.3% · 거래량 평소의 13.1배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "5분 거래량 32k (당일 평균 15.9배)"
+  ],
+  "title": "🚀 CVM 장중 급등 포착 · 상위 확률 신호 · 거래량 급증",
+  "body": "$1.930 (+16.3%) · 정규장 · 레벨 3 · 점수 43\n$2.10 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,759만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.3% · 거래량 평소의 13.1배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n• 5분 거래량 32k (당일 평균 15.9배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.833 지정가(기준가 $1.930의 −5%) · 체결 가능성 약 59% · 손익분기 $1.856\n숏 지지구간 $1.800–$1.900 · 손절 $1.700 · 1차목표 $2.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.93,
+  "level": 3,
+  "score": 43.2,
+  "prob": 53.44827586206896,
+  "cp": 46.414436248076456,
+  "rl": 2.100000000000001,
+  "stop": 1.7000000000000006,
+  "zone": [
+   1.8000000000000007,
+   1.9000000000000008
+  ],
+  "bp": 1.8335,
+  "tgt": 2.100000000000001,
+  "stp": 1.7000000000000006,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19911010001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19911010001",
+  "grade": "open"
  }
 ]
