@@ -69170,5 +69170,87 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210922001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210922001",
   "grade": "open"
+ },
+ {
+  "id": "MPU-1794944778",
+  "ts_kst": "2026-11-18 04:46",
+  "ts_utc": "2026-11-17T19:46:18+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "MPU",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +46.9% · 거래량 평소의 807.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MPU 장중 급등 포착",
+  "body": "$1.880 (+46.9%) · 정규장 · 레벨 3 · 점수 46\n공매도 물량 대부분 손해 중, $2.25 넘으면 급등 가능성 ↑ · 시장에 도는 주식 297만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +46.9% · 거래량 평소의 807.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.786 지정가(기준가 $1.880의 −5%) · 체결 가능성 약 68% · 손익분기 $1.808\n숏 지지구간 $1.500–$1.750 · 손절 $1.375 · 1차목표 $2.250\n⚠ 역분할 2026-09-16\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.88,
+  "level": 3,
+  "score": 45.6,
+  "prob": 45.01661129568107,
+  "cp": 54.78555879108464,
+  "rl": 2.25,
+  "stop": 1.375,
+  "zone": [
+   1.5,
+   1.75
+  ],
+  "bp": 1.786,
+  "tgt": 2.25,
+  "stp": 1.375,
+  "penalties": [
+   "역분할 2026-09-16"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230206001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230206001",
+  "grade": "open"
+ },
+ {
+  "id": "MAIA-1794944778",
+  "ts_kst": "2026-11-18 04:46",
+  "ts_utc": "2026-11-17T19:46:18+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "MAIA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.8% · 거래량 평소의 7.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MAIA 장중 급등 포착",
+  "body": "$1.220 (+20.8%) · 정규장 · 레벨 1 · 점수 15\n$1.50 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +20.8% · 거래량 평소의 7.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $1.200–$1.220 · 손절 $1.150 · 1차목표 $1.500\n⚠ 희석 위험 100/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.22,
+  "level": 1,
+  "score": 14.9,
+  "prob": 53.44827586206896,
+  "cp": 42.632906255091115,
+  "rl": 1.4999999999999993,
+  "stop": 1.1499999999999997,
+  "zone": [
+   1.1999999999999997,
+   1.2200000286102295
+  ],
+  "bp": null,
+  "tgt": 1.4999999999999993,
+  "stp": 1.1499999999999997,
+  "penalties": [
+   "희석 위험 100/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220727001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220727001",
+  "grade": "open"
  }
 ]
