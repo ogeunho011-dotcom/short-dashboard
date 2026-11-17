@@ -66409,7 +66409,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0250618005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0250618005",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "KALA-1794862278",
@@ -68965,6 +68968,168 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240828004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240828004",
+  "grade": "open"
+ },
+ {
+  "id": "SLS-1794944335",
+  "ts_kst": "2026-11-18 04:38",
+  "ts_utc": "2026-11-17T19:38:55+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "SLS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +162.8% · 거래량 평소의 25.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SLS 장중 급등 포착",
+  "body": "$19.630 (+162.8%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $22.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 25배 이상, 관심 급증 · 갭 상승 후 밀리는 중\n• 전일 대비 +162.8% · 거래량 평소의 25.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $18.648 지정가(기준가 $19.630의 −5%) · 체결 가능성 약 63% · 손익분기 $18.874\n숏 지지구간 $18.000–$19.000 · 손절 $17.500 · 1차목표 $22.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 19.63,
+  "level": 2,
+  "score": 39.1,
+  "prob": 53.44827586206896,
+  "cp": 55.03020614823859,
+  "rl": 22.0,
+  "stop": 17.5,
+  "zone": [
+   18.0,
+   19.0
+  ],
+  "bp": 18.6485,
+  "tgt": 22.0,
+  "stp": 17.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252F%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fwww.tossinvest.com%2F",
+  "grade": "open"
+ },
+ {
+  "id": "SMTK-1794944335",
+  "ts_kst": "2026-11-18 04:38",
+  "ts_utc": "2026-11-17T19:38:55+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "SMTK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +67.0% · 거래량 평소의 120.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SMTK 장중 급등 포착",
+  "body": "$0.274 (+67.0%) · 정규장 · 레벨 4 · 점수 58\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 486만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +67.0% · 거래량 평소의 120.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 41%\n추천 매수가 $0.260 지정가(기준가 $0.274의 −5%) · 체결 가능성 약 83% · 손익분기 $0.263\n숏 지지구간 $0.192–$0.274 · 손절 $0.137 · 1차목표 $0.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-08-21\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2739,
+  "level": 4,
+  "score": 58.4,
+  "prob": 41.15942028985507,
+  "cp": 35.53019048686257,
+  "rl": 0.5,
+  "stop": 0.13695000112056732,
+  "zone": [
+   0.19173000156879424,
+   0.27390000224113464
+  ],
+  "bp": 0.2602,
+  "tgt": 0.5,
+  "stp": 0.13695000112056732,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-08-21"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240531004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240531004",
+  "grade": "open"
+ },
+ {
+  "id": "TCX-1794944335",
+  "ts_kst": "2026-11-18 04:38",
+  "ts_utc": "2026-11-17T19:38:55+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "TCX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +33.2% · 거래량 평소의 8.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ TCX 장중 급등 포착",
+  "body": "$15.250 (+33.2%) · 정규장 · 레벨 2 · 점수 40\n공매도 물량 대부분 손해 중, $16.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,122만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +33.2% · 거래량 평소의 8.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $14.487 지정가(기준가 $15.250의 −5%) · 체결 가능성 약 51% · 손익분기 $14.662\n숏 지지구간 $13.000–$13.787 · 손절 $12.500 · 1차목표 $16.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 15.2499,
+  "level": 2,
+  "score": 39.7,
+  "prob": 53.44827586206896,
+  "cp": 66.42216712572099,
+  "rl": 16.0,
+  "stop": 12.5,
+  "zone": [
+   13.0,
+   13.787464952468872
+  ],
+  "bp": 14.4874,
+  "tgt": 16.0,
+  "stp": 12.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20131230001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20131230001",
+  "grade": "open"
+ },
+ {
+  "id": "RAIN-1794944335",
+  "ts_kst": "2026-11-18 04:38",
+  "ts_utc": "2026-11-17T19:38:55+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "RAIN",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 73/100"
+  ],
+  "title": "🚀 RAIN 커버 압력",
+  "body": "$1.055 (+24.3%) · 정규장 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중, $1.10 넘으면 급등 가능성 ↑ · 시장에 도는 주식 335만 주뿐이라 쉽게 크게 움직임\n• 커버 압력 73/100\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $1.002 지정가(기준가 $1.055의 −5%) · 체결 가능성 약 64% · 손익분기 $1.014\n숏 지지구간 $0.900–$1.000 · 손절 $0.800 · 1차목표 $1.100\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.055,
+  "level": 3,
+  "score": 50.9,
+  "prob": 47.808764940239065,
+  "cp": 72.91789149817367,
+  "rl": 1.0999999999999999,
+  "stop": 0.7999999999999999,
+  "zone": [
+   0.8999999999999999,
+   0.9999999999999999
+  ],
+  "bp": 1.0022,
+  "tgt": 1.0999999999999999,
+  "stp": 0.7999999999999999,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102014",
   "grade": "open"
  }
 ]
