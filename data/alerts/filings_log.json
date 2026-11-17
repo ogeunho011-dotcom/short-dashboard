@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MAX",
-  "form": "SCHEDULE 13D/A",
-  "acc": "0000950157-26-001245",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:42:33+00:00",
-  "accepted_kst": "11/13 23:42",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1818383/000095015726001245/0000950157-26-001245-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "FXNC",
   "form": "8-K",
   "acc": "0001437749-26-036686",
@@ -8635,5 +8618,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2081119/000121390026121269/0001213900-26-121269-index.htm",
   "seen_kst": "2026-11-18 03:49"
+ },
+ {
+  "ticker": "BOT",
+  "form": "497AD",
+  "acc": "0001213900-26-121270",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T18:49:52+00:00",
+  "accepted_kst": "11/18 03:49",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2081119/000121390026121270/0001213900-26-121270-index.htm",
+  "seen_kst": "2026-11-18 03:51"
  }
 ]
