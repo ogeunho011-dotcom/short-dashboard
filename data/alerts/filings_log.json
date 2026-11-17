@@ -1,25 +1,5 @@
 [
  {
-  "ticker": "RETO",
-  "form": "6-K",
-  "acc": "0001213900-26-119269",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:15:01+00:00",
-  "accepted_kst": "11/13 23:15",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "역분할"
-  ],
-  "strength": 0,
-  "headline": "Amendment to Securities Purchase Agreement As previously disclosed, on August 7, 2026 (the “Effective Date”), ReTo Eco-Solutions, Inc. (the “Company”) entered i",
-  "url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026119269/0001213900-26-119269-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "CRMT",
   "form": "8-K",
   "acc": "0001171843-26-007415",
@@ -8642,5 +8622,24 @@
   "headline": "MAIA Biotechnology Reports Consistent Strong Efficacy in Expanded Phase 2 THIO-101 Study in Non-Small Cell Lung Cancer MAIA advances novel telomere-targeting ag",
   "url": "https://www.sec.gov/Archives/edgar/data/1878313/000149315226052720/0001493152-26-052720-index.htm",
   "seen_kst": "2026-11-18 02:49"
+ },
+ {
+  "ticker": "SEGG",
+  "form": "8-K/A",
+  "acc": "0001493152-26-052765",
+  "items": "8.01,9.01",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T17:56:53+00:00",
+  "accepted_kst": "11/18 02:56",
+  "polarity": "pos",
+  "label": "상장 유지 기준 회복",
+  "cats": [
+   "상장 유지 기준 회복"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "FOR OFFICIAL RELEASE 5049 Edwards Ranch Rd, 4 th Floor Fort Worth, TX 76109 SEGG Media Regains Nasdaq Compliance as Q2 Revenue Grows More Than 1,500% Nasdaq can",
+  "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226052765/0001493152-26-052765-index.htm",
+  "seen_kst": "2026-11-18 02:59"
  }
 ]
