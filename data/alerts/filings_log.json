@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "STRR",
-  "form": "8-K",
-  "acc": "0001210708-26-000109",
-  "items": "7.01,9.01",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:09:39+00:00",
-  "accepted_kst": "11/13 23:09",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 7.01, including Exhibits 99.1, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act",
-  "url": "https://www.sec.gov/Archives/edgar/data/1210708/000121070826000109/0001210708-26-000109-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "TONT",
   "form": "425",
   "acc": "0001104659-26-126580",
@@ -8640,5 +8623,22 @@
   "headline": "Miller Kevin S.",
   "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000136/0000752642-26-000136-index.htm",
   "seen_kst": "2026-11-18 02:43"
+ },
+ {
+  "ticker": "UMH",
+  "form": "4",
+  "acc": "0000752642-26-000137",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T17:44:55+00:00",
+  "accepted_kst": "11/18 02:44",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $1,000 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Mitchell William Edward",
+  "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000137/0000752642-26-000137-index.htm",
+  "seen_kst": "2026-11-18 02:46"
  }
 ]
