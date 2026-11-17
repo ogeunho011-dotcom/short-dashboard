@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NMAX",
-  "form": "10-Q",
-  "acc": "0002026478-26-000072",
-  "items": "",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:26:34+00:00",
-  "accepted_kst": "11/13 06:26",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2026478/000202647826000072/0002026478-26-000072-index.htm",
-  "seen_kst": "2026-11-14 01:35"
- },
- {
   "ticker": "BZFD",
   "form": "SCHEDULE 13D/A",
   "acc": "0001493152-26-051427",
@@ -8630,5 +8613,22 @@
   "headline": "Davion Healthcare Plc Provides Shareholders with Guidance on Direct Registration and Confirmation of Share Ownership IRELAND - FOR IMMEDIATE RELEASE Davion Heal",
   "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008905/0001683168-26-008905-index.htm",
   "seen_kst": "2026-11-18 05:03"
+ },
+ {
+  "ticker": "WLFC",
+  "form": "4",
+  "acc": "0002070403-26-000018",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:05:45+00:00",
+  "accepted_kst": "11/18 05:05",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018164/000207040326000018/0002070403-26-000018-index.htm",
+  "seen_kst": "2026-11-18 05:06"
  }
 ]
