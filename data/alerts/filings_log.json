@@ -1,23 +1,6 @@
 [
  {
   "ticker": "NKSH",
-  "form": "8-K",
-  "acc": "0001193125-26-458542",
-  "items": "8.01,9.01",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:30:17+00:00",
-  "accepted_kst": "11/13 06:30",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 nksh-ex99_1.htm EX-99.1 FOR IMMEDIATE RELEASE CONTACTS: LARA E. RAMSEY, PRESIDENT & CEO (540) 951-6250 lramsey@nbbank.com LORA JONES, TREASURER & CFO",
-  "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526458542/0001193125-26-458542-index.htm",
-  "seen_kst": "2026-11-14 01:45"
- },
- {
-  "ticker": "NKSH",
   "form": "10-Q",
   "acc": "0001193125-26-458566",
   "items": "",
@@ -8634,5 +8617,22 @@
   "headline": "Real Jorge Luis",
   "url": "https://www.sec.gov/Archives/edgar/data/890541/000089054126000016/0000890541-26-000016-index.htm",
   "seen_kst": "2026-11-18 05:41"
+ },
+ {
+  "ticker": "BIOX",
+  "form": "6-K",
+  "acc": "0001104659-26-129015",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:41:22+00:00",
+  "accepted_kst": "11/18 05:41",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Bioceres Crop Solutions Reports Fiscal First Quarter 2027 Financial and Operational Results Total revenues were $53.8 million in 1Q27 Net loss was $10.8 million",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769484/000110465926129015/0001104659-26-129015-index.htm",
+  "seen_kst": "2026-11-18 05:44"
  }
 ]
