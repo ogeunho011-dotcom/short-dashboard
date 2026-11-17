@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PAVM",
-  "form": "8-K",
-  "acc": "0001493152-26-051544",
-  "items": "2.02,7.01,9.01",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T13:05:17+00:00",
-  "accepted_kst": "11/13 22:05",
-  "polarity": "neutral",
-  "label": "실적 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "PAVmed Provides Business Update and Reports Preliminary Third Quarter 2026 Financial Results Lucid Diagnostics’ EsoGuard ® now fully reimbursed by Medicare nati",
-  "url": "https://www.sec.gov/Archives/edgar/data/1624326/000149315226051544/0001493152-26-051544-index.htm",
-  "seen_kst": "2026-11-14 01:35"
- },
- {
   "ticker": "SFST",
   "form": "4",
   "acc": "0001090009-26-000108",
@@ -8632,5 +8615,22 @@
   "headline": "BROWN MICHAEL JOHN",
   "url": "https://www.sec.gov/Archives/edgar/data/1966983/000091228226001515/0000912282-26-001515-index.htm",
   "seen_kst": "2026-11-18 05:24"
+ },
+ {
+  "ticker": "LAC",
+  "form": "4",
+  "acc": "0000912282-26-001517",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:29:06+00:00",
+  "accepted_kst": "11/18 05:29",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1966983/000091228226001517/0000912282-26-001517-index.htm",
+  "seen_kst": "2026-11-18 05:31"
  }
 ]
