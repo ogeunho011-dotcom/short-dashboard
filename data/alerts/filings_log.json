@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LFWD",
-  "form": "10-Q",
-  "acc": "0001178913-26-005206",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:22:34+00:00",
-  "accepted_kst": "11/13 23:22",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1607962/000117891326005206/0001178913-26-005206-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "GLND",
   "form": "8-K",
   "acc": "0001829126-26-012345",
@@ -8636,5 +8619,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226052770/0001493152-26-052770-index.htm",
   "seen_kst": "2026-11-18 03:16"
+ },
+ {
+  "ticker": "WVVI",
+  "form": "4",
+  "acc": "0001199835-26-000411",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T18:21:39+00:00",
+  "accepted_kst": "11/18 03:21",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $20,673 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Voorhies Gregory William",
+  "url": "https://www.sec.gov/Archives/edgar/data/838875/000119983526000411/0001199835-26-000411-index.htm",
+  "seen_kst": "2026-11-18 03:24"
  }
 ]
