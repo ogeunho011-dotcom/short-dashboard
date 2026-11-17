@@ -68201,5 +68201,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
   "grade": "n/a"
+ },
+ {
+  "id": "PAVS-1794941337",
+  "ts_kst": "2026-11-18 03:48",
+  "ts_utc": "2026-11-17T18:48:57+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "PAVS",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +20.8% · 거래량 평소의 567.2배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 72k (당일 평균 14.4배)"
+  ],
+  "title": "🚀 PAVS 장중 급등 포착 · 거래량 급증",
+  "body": "$2.730 (+20.8%) · 정규장 · 레벨 3 · 점수 48\n$3.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 8만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 전일 대비 +20.8% · 거래량 평소의 567.2배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 72k (당일 평균 14.4배)\n10일 내 셋업 성공 확률(보정): 42%\n추천 매수가 $2.529 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.4%) · 체결 가능성 약 67% · 손익분기 $2.559\n숏 지지구간 $1.911–$2.000 · 손절 $1.365 · 1차목표 $3.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.73,
+  "level": 3,
+  "score": 48.2,
+  "prob": 41.509433962264154,
+  "cp": 22.561180519651426,
+  "rl": 3.0,
+  "stop": 1.3650000095367432,
+  "zone": [
+   1.9110000133514402,
+   2.0
+  ],
+  "bp": 2.5288,
+  "tgt": 3.0,
+  "stp": 1.3650000095367432,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230314003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230314003",
+  "grade": "open"
  }
 ]
