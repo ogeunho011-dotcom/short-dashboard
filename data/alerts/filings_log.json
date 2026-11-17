@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BZFD",
-  "form": "4",
-  "acc": "0001493152-26-051426",
-  "items": "",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:30:12+00:00",
-  "accepted_kst": "11/13 06:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1828972/000149315226051426/0001493152-26-051426-index.htm",
-  "seen_kst": "2026-11-14 01:35"
- },
- {
   "ticker": "ZBAO",
   "form": "20-F",
   "acc": "0001213900-26-119102",
@@ -8632,5 +8615,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2011514/000114036126044464/0001140361-26-044464-index.htm",
   "seen_kst": "2026-11-18 05:09"
+ },
+ {
+  "ticker": "EPC",
+  "form": "4",
+  "acc": "0002043272-26-000004",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:09:15+00:00",
+  "accepted_kst": "11/18 05:09",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1096752/000204327226000004/0002043272-26-000004-index.htm",
+  "seen_kst": "2026-11-18 05:11"
  }
 ]
