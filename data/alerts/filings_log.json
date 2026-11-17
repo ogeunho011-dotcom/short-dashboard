@@ -1,42 +1,5 @@
 [
  {
-  "ticker": "EOSE",
-  "form": "4",
-  "acc": "0001628280-26-073597",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:05:01+00:00",
-  "accepted_kst": "11/13 23:05",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $46,500 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "DIMITRIEF ALEXANDER",
-  "url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026073597/0001628280-26-073597-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
-  "ticker": "LANV",
-  "form": "6-K",
-  "acc": "0001104659-26-126571",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:05:06+00:00",
-  "accepted_kst": "11/13 23:05",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할",
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Lanvin Group Receives Continued Listing Standard Notice from NYSE Shanghai, China, November 13, 2026 – Lanvin Group Holdings Limited (NYSE: LANV) (“Lanvin Group",
-  "url": "https://www.sec.gov/Archives/edgar/data/1922097/000110465926126571/0001104659-26-126571-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "MVIS",
   "form": "8-K/A",
   "acc": "0001493152-26-051559",
@@ -8647,5 +8610,41 @@
   "headline": "Northern Dynasty Announces Results of Governance Committee Review and Supplemental Director Disclosure November 16 , 2026 Vancouver – Northern Dynasty Minerals",
   "url": "https://www.sec.gov/Archives/edgar/data/1164771/000165495426009921/0001654954-26-009921-index.htm",
   "seen_kst": "2026-11-18 02:36"
+ },
+ {
+  "ticker": "SLS",
+  "form": "8-K",
+  "acc": "0001104659-26-128825",
+  "items": "7.01,8.01,9.01",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T12:14:19+00:00",
+  "accepted_kst": "11/17 21:14",
+  "polarity": "pos",
+  "label": "임상 성공(주요 목표 달성)",
+  "cats": [
+   "임상 성공(주요 목표 달성)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "SELLAS Life Sciences Announces Positive Pivotal Phase 3 REGAL Trial Data Showing Immunotherapeutic Cancer Vaccine, Galinpepimut-S (GPS), Demonstrated a Statisti",
+  "url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926128825/0001104659-26-128825-index.htm",
+  "seen_kst": "2026-11-18 02:39"
+ },
+ {
+  "ticker": "TCX",
+  "form": "8-K",
+  "acc": "0000909494-26-000016",
+  "items": "1.01,7.01,9.01",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T12:30:59+00:00",
+  "accepted_kst": "11/17 21:30",
+  "polarity": "neutral",
+  "label": "중요 계약 · IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 1.01 Entry into a Material Definitive Agreement. Membership Interest Purchase Agreement On November 16, 2026, Ting Fiber, LLC (“Ting”), an indirect wholly",
+  "url": "https://www.sec.gov/Archives/edgar/data/909494/000090949426000016/0000909494-26-000016-index.htm",
+  "seen_kst": "2026-11-18 02:39"
  }
 ]
