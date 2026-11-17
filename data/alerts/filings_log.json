@@ -2,23 +2,6 @@
  {
   "ticker": "BHB",
   "form": "4",
-  "acc": "0001642946-26-000002",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T15:56:52+00:00",
-  "accepted_kst": "11/14 00:56",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/743367/000164294626000002/0001642946-26-000002-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
-  "ticker": "BHB",
-  "form": "4",
   "acc": "0001609077-26-000010",
   "items": "",
   "filed": "2026-11-13",
@@ -8634,5 +8617,22 @@
   "headline": "Kieper-Fusco Patricia Ann",
   "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000012/0000357301-26-000012-index.htm",
   "seen_kst": "2026-11-18 04:21"
+ },
+ {
+  "ticker": "APLM",
+  "form": "4",
+  "acc": "0001193125-26-465295",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T19:33:00+00:00",
+  "accepted_kst": "11/18 04:33",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1944885/000119312526465295/0001193125-26-465295-index.htm",
+  "seen_kst": "2026-11-18 04:34"
  }
 ]
