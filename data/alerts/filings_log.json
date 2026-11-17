@@ -2,23 +2,6 @@
  {
   "ticker": "BHB",
   "form": "4",
-  "acc": "0001242207-26-000002",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T16:11:32+00:00",
-  "accepted_kst": "11/14 01:11",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/743367/000124220726000002/0001242207-26-000002-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
-  "ticker": "BHB",
-  "form": "4",
   "acc": "0002076003-26-000003",
   "items": "",
   "filed": "2026-11-13",
@@ -8634,5 +8617,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1096275/000143774926037361/0001437749-26-037361-index.htm",
   "seen_kst": "2026-11-18 04:49"
+ },
+ {
+  "ticker": "SCZM",
+  "form": "6-K",
+  "acc": "0001493152-26-052795",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T19:49:17+00:00",
+  "accepted_kst": "11/18 04:49",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "false --12-31 2026-09-30 0001548536 0001548536 2026-01-01 2026-09-30 0001548536 2026-09-30 0001548536 2025-12-31 0001548536 2026-07-01 2026-09-30 0001548536 202",
+  "url": "https://www.sec.gov/Archives/edgar/data/1548536/000149315226052795/0001493152-26-052795-index.htm",
+  "seen_kst": "2026-11-18 04:51"
  }
 ]

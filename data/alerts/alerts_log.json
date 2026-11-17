@@ -69291,5 +69291,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210325009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210325009",
   "grade": "open"
+ },
+ {
+  "id": "BRAG-1794945095",
+  "ts_kst": "2026-11-18 04:51",
+  "ts_utc": "2026-11-17T19:51:35+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "BRAG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.0% · 거래량 평소의 9.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BRAG 장중 급등 포착",
+  "body": "$0.687 (+20.0%) · 정규장 · 레벨 2 · 점수 26\n$0.700 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 14배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +20.0% · 거래량 평소의 9.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.648 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.6%) · 체결 가능성 약 71% · 손익분기 $0.656\n숏 지지구간 $0.500–$0.600 · 손절 $0.400 · 1차목표 $0.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6866,
+  "level": 2,
+  "score": 26.4,
+  "prob": 45.01661129568107,
+  "cp": 57.93244543006601,
+  "rl": 0.7,
+  "stop": 0.4,
+  "zone": [
+   0.5,
+   0.6
+  ],
+  "bp": 0.6482,
+  "tgt": 0.7,
+  "stp": 0.4,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210827002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210827002",
+  "grade": "open"
  }
 ]
