@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SBC",
-  "form": "10-Q",
-  "acc": "0001193125-26-459250",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T12:00:49+00:00",
-  "accepted_kst": "11/13 21:00",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1930313/000119312526459250/0001193125-26-459250-index.htm",
-  "seen_kst": "2026-11-14 01:35"
- },
- {
   "ticker": "PAVM",
   "form": "8-K",
   "acc": "0001493152-26-051544",
@@ -8632,5 +8615,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1096752/000204319226000006/0002043192-26-000006-index.htm",
   "seen_kst": "2026-11-18 05:14"
+ },
+ {
+  "ticker": "LAC",
+  "form": "4",
+  "acc": "0000912282-26-001515",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:21:49+00:00",
+  "accepted_kst": "11/18 05:21",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $1,520 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "BROWN MICHAEL JOHN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1966983/000091228226001515/0000912282-26-001515-index.htm",
+  "seen_kst": "2026-11-18 05:24"
  }
 ]
