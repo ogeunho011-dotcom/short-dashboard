@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "RAIN",
-  "form": "425",
-  "acc": "0001213900-26-119277",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:21:49+00:00",
-  "accepted_kst": "11/13 23:21",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2028293/000121390026119277/0001213900-26-119277-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "LFWD",
   "form": "10-Q",
   "acc": "0001178913-26-005206",
@@ -8636,5 +8619,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1984060/000110465926128923/0001104659-26-128923-index.htm",
   "seen_kst": "2026-11-18 03:11"
+ },
+ {
+  "ticker": "SEGG",
+  "form": "NT 10-Q",
+  "acc": "0001493152-26-052770",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T18:15:22+00:00",
+  "accepted_kst": "11/18 03:15",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226052770/0001493152-26-052770-index.htm",
+  "seen_kst": "2026-11-18 03:16"
  }
 ]
