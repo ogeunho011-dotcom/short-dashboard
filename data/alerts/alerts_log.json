@@ -69451,5 +69451,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19911010001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19911010001",
   "grade": "open"
+ },
+ {
+  "id": "CVKD-1794945527",
+  "ts_kst": "2026-11-18 04:58",
+  "ts_utc": "2026-11-17T19:58:47+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "CVKD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.4% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CVKD 장중 급등 포착",
+  "body": "$1.770 (+26.4%) · 정규장 · 레벨 2 · 점수 34\n$1.90 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 357만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +26.4% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.681 지정가(기준가 $1.770의 −5%) · 체결 가능성 약 63% · 손익분기 $1.702\n숏 지지구간 $1.600–$1.700 · 손절 $1.500 · 1차목표 $1.900\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.77,
+  "level": 2,
+  "score": 34.1,
+  "prob": 52.92038204438603,
+  "cp": 40.45240257915397,
+  "rl": 1.8999999999999997,
+  "stop": 1.4999999999999998,
+  "zone": [
+   1.5999999999999999,
+   1.7
+  ],
+  "bp": 1.6815,
+  "tgt": 1.8999999999999997,
+  "stp": 1.4999999999999998,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230120003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230120003",
+  "grade": "open"
  }
 ]
