@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CRMT",
-  "form": "8-K",
-  "acc": "0001171843-26-007415",
-  "items": "1.01",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T14:15:15+00:00",
-  "accepted_kst": "11/13 23:15",
-  "polarity": "neutral",
-  "label": "중요 계약",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 1.01 Entry into a Material Definitive Agreement. As disclosed in its Current Report on Form 8-K filed on June 25, 2026 (the “June 25th Current Report”), an",
-  "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326007415/0001171843-26-007415-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "FGC",
   "form": "8-K",
   "acc": "0001493152-26-051561",
@@ -8641,5 +8624,25 @@
   "headline": "FOR OFFICIAL RELEASE 5049 Edwards Ranch Rd, 4 th Floor Fort Worth, TX 76109 SEGG Media Regains Nasdaq Compliance as Q2 Revenue Grows More Than 1,500% Nasdaq can",
   "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226052765/0001493152-26-052765-index.htm",
   "seen_kst": "2026-11-18 02:59"
+ },
+ {
+  "ticker": "CLRO",
+  "form": "8-K",
+  "acc": "0001753926-26-002169",
+  "items": "1.01,3.02,7.01,9.01",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T18:02:44+00:00",
+  "accepted_kst": "11/18 03:02",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "미등록 주식 발행(사모)(항목 3.02)"
+  ],
+  "strength": 0,
+  "headline": "CLEARONE, INC. UNAUDITED PRO FORMA CONDENSED CONSOLIDATED BALANCE SHEET AS OF SEPTEMBER 30, 2026 (Dollars in thousands, except share amounts) Historical (Form 1",
+  "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626002169/0001753926-26-002169-index.htm",
+  "seen_kst": "2026-11-18 03:04"
  }
 ]
