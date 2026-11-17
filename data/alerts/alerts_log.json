@@ -68118,5 +68118,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240916003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240916003",
   "grade": "open"
+ },
+ {
+  "id": "BMGL-1794939087",
+  "ts_kst": "2026-11-18 03:11",
+  "ts_utc": "2026-11-17T18:11:27+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "BMGL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.2% · 거래량 평소의 46.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BMGL 장중 급등 포착",
+  "body": "$0.360 (+19.2%) · 정규장 · 레벨 2 · 점수 40\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 158만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +19.2% · 거래량 평소의 46.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.342 지정가(기준가 $0.360의 −5%) · 체결 가능성 약 85% · 손익분기 $0.346\n숏 지지구간 $0.252–$0.360 · 손절 $0.180 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.36,
+  "level": 2,
+  "score": 39.6,
+  "prob": 38.456237077877326,
+  "cp": 52.05014516199418,
+  "rl": 1.0,
+  "stop": 0.18000000715255737,
+  "zone": [
+   0.2520000100135803,
+   0.36000001430511475
+  ],
+  "bp": 0.342,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250225001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250225001",
+  "grade": "n/a"
+ },
+ {
+  "id": "BURU-1794939087",
+  "ts_kst": "2026-11-18 03:11",
+  "ts_utc": "2026-11-17T18:11:27+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "BURU",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 160k (당일 평균 59.3배)"
+  ],
+  "title": "🚀 BURU 거래량 급증",
+  "body": "$0.238 (+19.1%) · 정규장 · 레벨 3 · 점수 42\n시장에 도는 주식 926만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 거래량 160k (당일 평균 59.3배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.252 지정가(20일선, 기준가 대비 +5.7%) · 체결 가능성 약 85% · 손익분기 $0.255\n숏 지지구간 $0.167–$0.238 · 손절 $0.119 · 1차목표 $0.620\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-02\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2383,
+  "level": 3,
+  "score": 42.5,
+  "prob": 31.25,
+  "cp": 11.401518778650003,
+  "rl": 0.75,
+  "stop": 0.11914999783039093,
+  "zone": [
+   0.16680999696254728,
+   0.23829999566078186
+  ],
+  "bp": 0.2519,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-02",
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0240802001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0240802001",
+  "grade": "n/a"
  }
 ]
