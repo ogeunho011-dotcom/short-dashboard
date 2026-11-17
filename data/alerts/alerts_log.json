@@ -69252,5 +69252,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220727001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220727001",
   "grade": "open"
+ },
+ {
+  "id": "IMA-1794944933",
+  "ts_kst": "2026-11-18 04:48",
+  "ts_utc": "2026-11-17T19:48:53+00:00",
+  "date_et": "2026-11-17",
+  "session": "regular",
+  "ticker": "IMA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.2% · 거래량 평소의 7.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ IMA 장중 급등 포착",
+  "body": "$3.750 (+17.2%) · 정규장 · 레벨 1 · 점수 17\n$4.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,246만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +17.2% · 거래량 평소의 7.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $3.562 지정가(기준가 $3.750의 −5%) · 체결 가능성 약 53% · 손익분기 $3.606\n숏 지지구간 $3.500–$3.750 · 손절 $3.250 · 1차목표 $4.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.75,
+  "level": 1,
+  "score": 17.4,
+  "prob": 38.8663967611336,
+  "cp": 30.158639450720422,
+  "rl": 4.25,
+  "stop": 3.25,
+  "zone": [
+   3.5,
+   3.75
+  ],
+  "bp": 3.5625,
+  "tgt": 4.25,
+  "stp": 3.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210325009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210325009",
+  "grade": "open"
  }
 ]
