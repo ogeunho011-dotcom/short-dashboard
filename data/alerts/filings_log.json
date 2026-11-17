@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "NMG",
-  "form": "6-K",
-  "acc": "0001104659-26-126667",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T15:45:27+00:00",
-  "accepted_kst": "11/14 00:45",
-  "polarity": "pos",
-  "label": "제휴·라이선스",
-  "cats": [
-   "제휴·라이선스"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "For immediate release NMG Provides Q3 2026 Update and Highlights First Full Quarter of Construction Execution at the Matawinie Mine Highlights ● Construction at",
-  "url": "https://www.sec.gov/Archives/edgar/data/1649752/000110465926126667/0001104659-26-126667-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "CNVS",
   "form": "144",
   "acc": "0001959173-26-007991",
@@ -8636,5 +8617,22 @@
   "headline": "Wentworth William O.",
   "url": "https://www.sec.gov/Archives/edgar/data/351998/000035199826000020/0000351998-26-000020-index.htm",
   "seen_kst": "2026-11-18 04:16"
+ },
+ {
+  "ticker": "TRST",
+  "form": "13F-HR",
+  "acc": "0001140361-26-044256",
+  "items": "",
+  "filed": "2026-11-16",
+  "accepted": "2026-11-16T21:54:54+00:00",
+  "accepted_kst": "11/17 06:54",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/357301/000114036126044256/0001140361-26-044256-index.htm",
+  "seen_kst": "2026-11-18 04:19"
  }
 ]
