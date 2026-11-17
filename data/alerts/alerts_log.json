@@ -69580,5 +69580,300 @@
    "accepted_kst": "11/18 05:39",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "GP-1794951502",
+  "ts_kst": "2026-11-18 06:38",
+  "ts_utc": "2026-11-17T21:38:22+00:00",
+  "date_et": "2026-11-17",
+  "session": "post",
+  "ticker": "GP",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)"
+  ],
+  "title": "🚀 GP 상위 확률 신호",
+  "body": "$2.600 (+84.4%) · 애프터마켓 · 레벨 4 · 점수 63\n$3.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 503만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 검증 모델 상위 신호 (보정확률 48%)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $2.470 지정가(기준가 $2.600의 −5%) · 체결 가능성 약 72% · 손익분기 $2.500\n숏 지지구간 $2.000–$2.500 · 손절 $1.500 · 1차목표 $3.500\n⚠ 역분할 2026-10-19\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.6,
+  "level": 4,
+  "score": 62.8,
+  "prob": 47.885261707087565,
+  "cp": 45.85841063818998,
+  "rl": 3.5,
+  "stop": 1.5,
+  "zone": [
+   2.0,
+   2.5
+  ],
+  "bp": 2.47,
+  "tgt": 3.5,
+  "stp": 1.5,
+  "penalties": [
+   "역분할 2026-10-19"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200828001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200828001",
+  "grade": "open"
+ },
+ {
+  "id": "SPAI-1794951502",
+  "ts_kst": "2026-11-18 06:38",
+  "ts_utc": "2026-11-17T21:38:22+00:00",
+  "date_et": "2026-11-17",
+  "session": "post",
+  "ticker": "SPAI",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 51%)"
+  ],
+  "title": "🚀 SPAI 상위 확률 신호",
+  "body": "$3.040 (+23.1%) · 애프터마켓 · 레벨 4 · 점수 55\n$3.25 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증\n• 검증 모델 상위 신호 (보정확률 51%)\n10일 내 셋업 성공 확률(보정): 51%\n추천 매수가 $2.888 지정가(기준가 $3.040의 −5%) · 체결 가능성 약 67% · 손익분기 $2.923\n숏 지지구간 $2.750–$3.000 · 손절 $2.625 · 1차목표 $3.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.04,
+  "level": 4,
+  "score": 55.4,
+  "prob": 51.444499404228125,
+  "cp": 54.77541420300046,
+  "rl": 3.25,
+  "stop": 2.625,
+  "zone": [
+   2.75,
+   3.0
+  ],
+  "bp": 2.888,
+  "tgt": 3.25,
+  "stp": 2.625,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240828004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240828004",
+  "grade": "open"
+ },
+ {
+  "id": "NCPL-1794951502",
+  "ts_kst": "2026-11-18 06:38",
+  "ts_utc": "2026-11-17T21:38:22+00:00",
+  "date_et": "2026-11-17",
+  "session": "post",
+  "ticker": "NCPL",
+  "types": [
+   "cover"
+  ],
+  "msgs": [
+   "커버 압력 72/100"
+  ],
+  "title": "🚀 NCPL 커버 압력",
+  "body": "$2.370 (+19.1%) · 애프터마켓 · 레벨 3 · 점수 46\n공매도 물량 대부분 손해 중, $2.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 785만 주뿐이라 쉽게 크게 움직임\n• 커버 압력 72/100\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $2.252 지정가(기준가 $2.370의 −5%) · 체결 가능성 약 74% · 손익분기 $2.279\n숏 지지구간 $1.750–$2.000 · 손절 $1.500 · 1차목표 $2.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.37,
+  "level": 3,
+  "score": 45.6,
+  "prob": 45.01661129568107,
+  "cp": 71.51167635221071,
+  "rl": 2.5,
+  "stop": 1.5,
+  "zone": [
+   1.75,
+   2.0
+  ],
+  "bp": 2.2515,
+  "tgt": 2.5,
+  "stp": 1.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220713002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220713002",
+  "grade": "open"
+ },
+ {
+  "id": "MAIA-fil-0001878313-26-000104",
+  "ts_kst": "2026-11-18 06:38",
+  "ts_utc": "2026-11-17T21:38:42+00:00",
+  "date_et": "2026-11-17",
+  "session": "filing",
+  "ticker": "MAIA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $100,000"
+  ],
+  "title": "📢 MAIA 호재 공시",
+  "body": "4 · 내부자 장내 매수 $100,000 (11/18 06:05 KST)\nVitoc Vlad\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220727001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220727001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001878313-26-000104",
+   "items": "",
+   "label": "내부자 장내 매수 $100,000",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Vitoc Vlad",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878313/000187831326000104/0001878313-26-000104-index.htm",
+   "accepted_kst": "11/18 06:05",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "BOF-fil-0001493152-26-052833",
+  "ts_kst": "2026-11-18 06:38",
+  "ts_utc": "2026-11-17T21:38:42+00:00",
+  "date_et": "2026-11-17",
+  "session": "filing",
+  "ticker": "BOF",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 계약·수주"
+  ],
+  "title": "📢 BOF 호재 공시",
+  "body": "8-K · 계약·수주 (11/18 06:05 KST)\nBranchOut Food Reports Third Quarter 2026 Financial Results, Reaffirms Record Fourth Quarter Outlook and Targets 2027 Revenue of More Than $\n⚠ 최근 악재: 424B 증자 설명서 1건 (30일 내, 최근 10/23)\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/23)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230616001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230616001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001493152-26-052833",
+   "items": "2.02,9.01",
+   "label": "계약·수주",
+   "cats": [
+    "계약·수주"
+   ],
+   "strength": 4,
+   "headline": "BranchOut Food Reports Third Quarter 2026 Financial Results, Reaffirms Record Fourth Quarter Outlook and Targets 2027 Revenue of More Than $30 Million",
+   "url": "https://www.sec.gov/Archives/edgar/data/1962481/000149315226052833/0001493152-26-052833-index.htm",
+   "accepted_kst": "11/18 06:05",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "MAIA-fil-0001878313-26-000106",
+  "ts_kst": "2026-11-18 06:38",
+  "ts_utc": "2026-11-17T21:38:42+00:00",
+  "date_et": "2026-11-17",
+  "session": "filing",
+  "ticker": "MAIA",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $100,000"
+  ],
+  "title": "📢 MAIA 호재 공시",
+  "body": "4 · 내부자 장내 매수 $100,000 (11/18 06:07 KST)\nSmith Stan\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220727001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220727001",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001878313-26-000106",
+   "items": "",
+   "label": "내부자 장내 매수 $100,000",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Smith Stan",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878313/000187831326000106/0001878313-26-000106-index.htm",
+   "accepted_kst": "11/18 06:07",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "SSII-fil-0001213900-26-121405",
+  "ts_kst": "2026-11-18 06:38",
+  "ts_utc": "2026-11-17T21:38:42+00:00",
+  "date_et": "2026-11-17",
+  "session": "filing",
+  "ticker": "SSII",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $300,000"
+  ],
+  "title": "📢 SSII 호재 공시",
+  "body": "4 · 내부자 장내 매수 $300,000 (11/18 06:10 KST)\nSudhir Srivastava\n⚠ 최근 악재: 8-K 미등록 주식 발행(사모)(항목 3.02) (11/17)\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [
+   "8-K 미등록 주식 발행(사모)(항목 3.02) (11/17)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250425006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250425006",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001213900-26-121405",
+   "items": "",
+   "label": "내부자 장내 매수 $300,000",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "Sudhir Srivastava",
+   "url": "https://www.sec.gov/Archives/edgar/data/1676163/000121390026121405/0001213900-26-121405-index.htm",
+   "accepted_kst": "11/18 06:10",
+   "polarity": "pos"
+  }
  }
 ]
