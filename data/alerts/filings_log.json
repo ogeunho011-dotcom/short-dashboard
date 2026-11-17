@@ -2,40 +2,6 @@
  {
   "ticker": "EPC",
   "form": "4",
-  "acc": "0001604565-26-000004",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T15:02:19+00:00",
-  "accepted_kst": "11/14 00:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1096752/000160456526000004/0001604565-26-000004-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
-  "ticker": "EPC",
-  "form": "4",
-  "acc": "0001915754-26-000004",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T15:03:26+00:00",
-  "accepted_kst": "11/14 00:03",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1096752/000191575426000004/0001915754-26-000004-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
-  "ticker": "EPC",
-  "form": "4",
   "acc": "0002043192-26-000002",
   "items": "",
   "filed": "2026-11-13",
@@ -8634,5 +8600,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1966983/000091228226001511/0000912282-26-001511-index.htm",
   "seen_kst": "2026-11-18 03:54"
+ },
+ {
+  "ticker": "LAC",
+  "form": "4",
+  "acc": "0000912282-26-001513",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T18:54:45+00:00",
+  "accepted_kst": "11/18 03:54",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1966983/000091228226001513/0000912282-26-001513-index.htm",
+  "seen_kst": "2026-11-18 03:56"
+ },
+ {
+  "ticker": "HNRG",
+  "form": "4",
+  "acc": "0001628280-26-074438",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T18:55:33+00:00",
+  "accepted_kst": "11/18 03:55",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $1,069,710",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Wesley Charles Ray IV",
+  "url": "https://www.sec.gov/Archives/edgar/data/788965/000162828026074438/0001628280-26-074438-index.htm",
+  "seen_kst": "2026-11-18 03:56"
  }
 ]
