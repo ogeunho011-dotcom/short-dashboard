@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GABC",
-  "form": "4",
-  "acc": "0002055298-26-000005",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T16:38:03+00:00",
-  "accepted_kst": "11/14 01:38",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/714395/000205529826000005/0002055298-26-000005-index.htm",
-  "seen_kst": "2026-11-14 01:40"
- },
- {
   "ticker": "NKSH",
   "form": "8-K",
   "acc": "0001193125-26-458542",
@@ -8632,5 +8615,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1966983/000091228226001519/0000912282-26-001519-index.htm",
   "seen_kst": "2026-11-18 05:39"
+ },
+ {
+  "ticker": "BLX",
+  "form": "4",
+  "acc": "0000890541-26-000016",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:39:19+00:00",
+  "accepted_kst": "11/18 05:39",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $124,988",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Real Jorge Luis",
+  "url": "https://www.sec.gov/Archives/edgar/data/890541/000089054126000016/0000890541-26-000016-index.htm",
+  "seen_kst": "2026-11-18 05:41"
  }
 ]
