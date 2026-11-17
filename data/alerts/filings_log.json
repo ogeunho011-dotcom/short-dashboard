@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CNVS",
-  "form": "144",
-  "acc": "0001959173-26-007991",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T15:50:51+00:00",
-  "accepted_kst": "11/14 00:50",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1173204/000195917326007991/0001959173-26-007991-index.htm",
-  "seen_kst": "2026-11-14 01:14"
- },
- {
   "ticker": "BHB",
   "form": "4",
   "acc": "0001642946-26-000002",
@@ -8634,5 +8617,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/357301/000114036126044256/0001140361-26-044256-index.htm",
   "seen_kst": "2026-11-18 04:19"
+ },
+ {
+  "ticker": "TRST",
+  "form": "4",
+  "acc": "0000357301-26-000012",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T19:18:24+00:00",
+  "accepted_kst": "11/18 04:18",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $4,929 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Kieper-Fusco Patricia Ann",
+  "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000012/0000357301-26-000012-index.htm",
+  "seen_kst": "2026-11-18 04:21"
  }
 ]
