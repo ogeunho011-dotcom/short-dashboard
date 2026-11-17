@@ -1,23 +1,6 @@
 [
  {
   "ticker": "NKSH",
-  "form": "10-Q",
-  "acc": "0001193125-26-458566",
-  "items": "",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:30:50+00:00",
-  "accepted_kst": "11/13 06:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/796534/000119312526458566/0001193125-26-458566-index.htm",
-  "seen_kst": "2026-11-14 01:45"
- },
- {
-  "ticker": "NKSH",
   "form": "8-K/A",
   "acc": "0001193125-26-459783",
   "items": "8.01,9.01",
@@ -8634,5 +8617,22 @@
   "headline": "Bioceres Crop Solutions Reports Fiscal First Quarter 2027 Financial and Operational Results Total revenues were $53.8 million in 1Q27 Net loss was $10.8 million",
   "url": "https://www.sec.gov/Archives/edgar/data/1769484/000110465926129015/0001104659-26-129015-index.htm",
   "seen_kst": "2026-11-18 05:44"
+ },
+ {
+  "ticker": "SMP",
+  "form": "4",
+  "acc": "0002163393-26-000004",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:46:14+00:00",
+  "accepted_kst": "11/18 05:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/93389/000216339326000004/0002163393-26-000004-index.htm",
+  "seen_kst": "2026-11-18 05:49"
  }
 ]
