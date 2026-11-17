@@ -1,59 +1,6 @@
 [
  {
   "ticker": "NMAX",
-  "form": "8-K",
-  "acc": "0002026478-26-000070",
-  "items": "2.02,5.02,7.01,9.01",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:05:48+00:00",
-  "accepted_kst": "11/13 06:05",
-  "polarity": "neutral",
-  "label": "실적 · 임원 변경 · IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "is being furnished and shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), or otherw",
-  "url": "https://www.sec.gov/Archives/edgar/data/2026478/000202647826000070/0002026478-26-000070-index.htm",
-  "seen_kst": "2026-11-14 01:35"
- },
- {
-  "ticker": "VNRX",
-  "form": "8-K",
-  "acc": "0001477932-26-006879",
-  "items": "2.02,9.01",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:15:49+00:00",
-  "accepted_kst": "11/13 06:15",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "VolitionRx Limited Announces Third Quarter 2026 Financial Results and Business Update Conference call to discuss financial and operational results scheduled for",
-  "url": "https://www.sec.gov/Archives/edgar/data/93314/000147793226006879/0001477932-26-006879-index.htm",
-  "seen_kst": "2026-11-14 01:35"
- },
- {
-  "ticker": "VNRX",
-  "form": "10-Q",
-  "acc": "0001477932-26-006881",
-  "items": "",
-  "filed": "2026-11-12",
-  "accepted": "2026-11-12T21:21:00+00:00",
-  "accepted_kst": "11/13 06:21",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/93314/000147793226006881/0001477932-26-006881-index.htm",
-  "seen_kst": "2026-11-14 01:35"
- },
- {
-  "ticker": "NMAX",
   "form": "10-Q",
   "acc": "0002026478-26-000072",
   "items": "",
@@ -8630,5 +8577,58 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1171155/000167911726000002/0001679117-26-000002-index.htm",
   "seen_kst": "2026-11-18 05:01"
+ },
+ {
+  "ticker": "AVR",
+  "form": "424B3",
+  "acc": "0001140361-26-044462",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:00:51+00:00",
+  "accepted_kst": "11/18 05:00",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2011514/000114036126044462/0001140361-26-044462-index.htm",
+  "seen_kst": "2026-11-18 05:03"
+ },
+ {
+  "ticker": "WKSP",
+  "form": "4",
+  "acc": "0001437749-26-037371",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:01:14+00:00",
+  "accepted_kst": "11/18 05:01",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1096275/000143774926037371/0001437749-26-037371-index.htm",
+  "seen_kst": "2026-11-18 05:03"
+ },
+ {
+  "ticker": "DAVI",
+  "form": "6-K",
+  "acc": "0001683168-26-008905",
+  "items": "",
+  "filed": "2026-11-17",
+  "accepted": "2026-11-17T20:01:59+00:00",
+  "accepted_kst": "11/18 05:01",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Davion Healthcare Plc Provides Shareholders with Guidance on Direct Registration and Confirmation of Share Ownership IRELAND - FOR IMMEDIATE RELEASE Davion Heal",
+  "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008905/0001683168-26-008905-index.htm",
+  "seen_kst": "2026-11-18 05:03"
  }
 ]
