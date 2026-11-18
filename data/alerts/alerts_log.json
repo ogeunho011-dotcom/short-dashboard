@@ -71309,5 +71309,89 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230206001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230206001",
   "grade": "open"
+ },
+ {
+  "id": "AZI-1795029505",
+  "ts_kst": "2026-11-19 04:18",
+  "ts_utc": "2026-11-18T19:18:25+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "AZI",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 AZI 상위 확률 신호",
+  "body": "$1.015 (+39.0%) · 정규장 · 레벨 3 · 점수 51\n$1.10 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 383만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.964 지정가(기준가 $1.015의 −5%) · 체결 가능성 약 68% · 손익분기 $0.976\n숏 지지구간 $0.800–$0.900 · 손절 $0.700 · 1차목표 $1.100\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/18)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.015,
+  "level": 3,
+  "score": 50.7,
+  "prob": 52.91666666666666,
+  "cp": 44.53693369893765,
+  "rl": 1.0999999999999999,
+  "stop": 0.7,
+  "zone": [
+   0.7999999999999999,
+   0.8999999999999999
+  ],
+  "bp": 0.9642,
+  "tgt": 1.0999999999999999,
+  "stp": 0.7,
+  "penalties": [
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/18)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240828001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240828001",
+  "grade": "open"
+ },
+ {
+  "id": "MEDS-1795029505",
+  "ts_kst": "2026-11-19 04:18",
+  "ts_utc": "2026-11-18T19:18:25+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "MEDS",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.3% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MEDS 장중 급등 포착",
+  "body": "$0.796 (+24.3%) · 정규장 · 레벨 2 · 점수 27\n시장에 도는 주식 572만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 7배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +24.3% · 거래량 평소의 4.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.780 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -1.9%) · 체결 가능성 약 85% · 손익분기 $0.790\n숏 지지구간 $0.500–$0.796 · 손절 $0.398 · 1차목표 $1.193\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 11/17)\n⚠ 희석 위험 85/100\n⚠ 최근 악재 공시: 424B5 증자 서류(424B5) (11/17)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7956,
+  "level": 2,
+  "score": 26.7,
+  "prob": 28.695341752348657,
+  "cp": 4.968735246638308,
+  "rl": 2.5,
+  "stop": 0.3977999985218048,
+  "zone": [
+   0.5,
+   0.7955999970436096
+  ],
+  "bp": 0.7803,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 11/17)",
+   "희석 위험 85/100",
+   "최근 악재 공시: 424B5 증자 서류(424B5) (11/17)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250221004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250221004",
+  "grade": "n/a"
  }
 ]

@@ -2,40 +2,6 @@
  {
   "ticker": "HIT",
   "form": "4",
-  "acc": "0001213900-26-119923",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:34:57+00:00",
-  "accepted_kst": "11/14 07:34",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2019505/000121390026119923/0001213900-26-119923-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
-  "ticker": "HIT",
-  "form": "4",
-  "acc": "0001213900-26-119924",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:35:13+00:00",
-  "accepted_kst": "11/14 07:35",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2019505/000121390026119924/0001213900-26-119924-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
-  "ticker": "HIT",
-  "form": "4",
   "acc": "0001213900-26-119925",
   "items": "",
   "filed": "2026-11-13",
@@ -8654,5 +8620,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1772016/000177201626000027/0001772016-26-000027-index.htm",
   "seen_kst": "2026-11-19 04:03"
+ },
+ {
+  "ticker": "SGML",
+  "form": "6-K",
+  "acc": "0001292814-26-005348",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T19:15:10+00:00",
+  "accepted_kst": "11/19 04:15",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "EX-99.1 2 ex99-1.htm EX-99.1 Form 51–102F3 MATERIAL CHANGE REPORT Item 1. Name and Address of Company Sigma Lithium Corporation (“ Sigma ” or the “ Company ”) 1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1848309/000129281426005348/0001292814-26-005348-index.htm",
+  "seen_kst": "2026-11-19 04:18"
+ },
+ {
+  "ticker": "ESP",
+  "form": "4",
+  "acc": "0001174947-26-000998",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T19:16:37+00:00",
+  "accepted_kst": "11/19 04:16",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/33533/000117494726000998/0001174947-26-000998-index.htm",
+  "seen_kst": "2026-11-19 04:18"
  }
 ]
