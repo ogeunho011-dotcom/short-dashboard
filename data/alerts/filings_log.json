@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TPST",
-  "form": "10-Q",
-  "acc": "0001213900-26-119910",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:25:27+00:00",
-  "accepted_kst": "11/14 07:25",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026119910/0001213900-26-119910-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "MG",
   "form": "8-K",
   "acc": "0001140361-26-043833",
@@ -8660,5 +8643,22 @@
   "headline": "NASDAQ: NICM TSX.V: NIM FSE: HLI A NICOLA MINING PROVIDES MERRITT MILL",
   "url": "https://www.sec.gov/Archives/edgar/data/1526475/000106299326006175/0001062993-26-006175-index.htm",
   "seen_kst": "2026-11-19 02:31"
+ },
+ {
+  "ticker": "TISI",
+  "form": "4",
+  "acc": "0001782810-26-000011",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T17:31:30+00:00",
+  "accepted_kst": "11/19 02:31",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $96,096 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Hill Gary L.",
+  "url": "https://www.sec.gov/Archives/edgar/data/318833/000178281026000011/0001782810-26-000011-index.htm",
+  "seen_kst": "2026-11-19 02:33"
  }
 ]
