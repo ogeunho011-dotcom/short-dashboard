@@ -37659,10 +37659,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 7,
+  "grade_ret": 0.3209930532583526,
+  "graded_bars": 7
  },
  {
   "id": "DBGI-1794221138",
@@ -38730,10 +38730,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 7,
+  "grade_ret": 0.3522217645039478,
+  "graded_bars": 7
  },
  {
   "id": "GPUS-1794234781",
@@ -40196,10 +40196,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 1
+  "grade": "hit",
+  "grade_day": 7,
+  "grade_ret": 0.355178091629349,
+  "graded_bars": 7
  },
  {
   "id": "LKFN-fil-0001210212-26-000004",
@@ -50544,7 +50544,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 5,
+  "grade_ret": -0.506,
+  "graded_bars": 5
  },
  {
   "id": "APT-1794395150",
@@ -71643,5 +71646,44 @@
    "accepted_kst": "11/19 04:55",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "ICCM-1795032802",
+  "ts_kst": "2026-11-19 05:13",
+  "ts_utc": "2026-11-18T20:13:22+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "ICCM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.7% · 거래량 평소의 20.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ICCM 장중 급등 포착",
+  "body": "$1.035 (+24.7%) · 정규장 · 레벨 3 · 점수 47\n$1.25 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 25배 이상, 관심 급증\n• 전일 대비 +24.7% · 거래량 평소의 20.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.983 지정가(기준가 $1.035의 −5%) · 체결 가능성 약 65% · 손익분기 $0.995\n숏 지지구간 $0.724–$0.750 · 손절 $0.517 · 1차목표 $1.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.035,
+  "level": 3,
+  "score": 47.2,
+  "prob": 45.01661129568107,
+  "cp": 23.101193257489687,
+  "rl": 1.25,
+  "stop": 0.5174999833106995,
+  "zone": [
+   0.7244999766349792,
+   0.75
+  ],
+  "bp": 0.9832,
+  "tgt": 1.25,
+  "stp": 0.5174999833106995,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210826004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210826004",
+  "grade": "open"
  }
 ]
