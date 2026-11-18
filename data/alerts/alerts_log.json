@@ -70945,5 +70945,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250715007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250715007",
   "grade": "n/a"
+ },
+ {
+  "id": "GLSI-1795027700",
+  "ts_kst": "2026-11-19 03:48",
+  "ts_utc": "2026-11-18T18:48:20+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "GLSI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.4% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GLSI 장중 급등 포착",
+  "body": "$21.760 (+16.4%) · 정규장 · 레벨 2 · 점수 31\n공매도 물량 대부분 손해 중, $22.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,468만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.4% · 거래량 평소의 4.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $20.672 지정가(기준가 $21.760의 −5%) · 체결 가능성 약 55% · 손익분기 $20.922\n숏 지지구간 $20.000–$20.616 · 손절 $19.500 · 1차목표 $22.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 21.76,
+  "level": 2,
+  "score": 30.9,
+  "prob": 53.44827586206896,
+  "cp": 79.2727279663086,
+  "rl": 22.0,
+  "stop": 19.5,
+  "zone": [
+   20.0,
+   20.61600008010864
+  ],
+  "bp": 20.672,
+  "tgt": 22.0,
+  "stp": 19.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200925003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200925003",
+  "grade": "open"
  }
 ]
