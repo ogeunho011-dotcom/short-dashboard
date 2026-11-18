@@ -71439,5 +71439,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210419014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210419014",
   "grade": "open"
+ },
+ {
+  "id": "PMA-1795030848",
+  "ts_kst": "2026-11-19 04:40",
+  "ts_utc": "2026-11-18T19:40:48+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "PMA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.8% · 거래량 평소의 21.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PMA 장중 급등 포착",
+  "body": "$1.510 (+19.8%) · 정규장 · 레벨 2 · 점수 26\n공매도 물량 대부분 손해 중, $1.60 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,298만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +19.8% · 거래량 평소의 21.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $1.500–$1.510 · 손절 $1.450 · 1차목표 $1.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.51,
+  "level": 2,
+  "score": 25.8,
+  "prob": 53.44827586206896,
+  "cp": 56.93405541275246,
+  "rl": 1.6000000000000005,
+  "stop": 1.4500000000000004,
+  "zone": [
+   1.5000000000000004,
+   1.5099999904632568
+  ],
+  "bp": null,
+  "tgt": 1.6000000000000005,
+  "stp": 1.4500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241122004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241122004",
+  "grade": "open"
+ },
+ {
+  "id": "FRTT-1795030848",
+  "ts_kst": "2026-11-19 04:40",
+  "ts_utc": "2026-11-18T19:40:48+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "FRTT",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 43k (당일 평균 21.8배)"
+  ],
+  "title": "🚀 FRTT 거래량 급증",
+  "body": "$0.813 (+19.6%) · 정규장 · 레벨 3 · 점수 54\n공매도 물량 대부분 손해 중, $0.900 넘으면 급등 가능성 ↑ · 시장에 도는 주식 366만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 43k (당일 평균 21.8배)\n10일 내 셋업 성공 확률(보정): 42%\n추천 매수가 $0.747 지정가(60일선, 기준가 대비 -8.1%) · 체결 가능성 약 42% · 손익분기 $0.756\n숏 지지구간 $0.700–$0.800 · 손절 $0.600 · 1차목표 $0.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8133,
+  "level": 3,
+  "score": 53.6,
+  "prob": 41.509433962264154,
+  "cp": 49.46242101747617,
+  "rl": 0.8999999999999999,
+  "stop": 0.6,
+  "zone": [
+   0.7,
+   0.7999999999999999
+  ],
+  "bp": 0.7472,
+  "tgt": 0.8999999999999999,
+  "stp": 0.6,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2606008006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2606008006",
+  "grade": "open"
  }
 ]
