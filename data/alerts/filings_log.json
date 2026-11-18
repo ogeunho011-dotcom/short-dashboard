@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DJT",
-  "form": "4",
-  "acc": "0001437749-26-036960",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:28:00+00:00",
-  "accepted_kst": "11/14 07:28",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036960/0001437749-26-036960-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "OPTX",
   "form": "10-Q",
   "acc": "0001493152-26-051866",
@@ -8656,5 +8639,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1825079/000119312526466758/0001193125-26-466758-index.htm",
   "seen_kst": "2026-11-19 02:48"
+ },
+ {
+  "ticker": "PMA",
+  "form": "6-K",
+  "acc": "0001493152-26-052995",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T13:00:15+00:00",
+  "accepted_kst": "11/18 22:00",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ☐ Indicate by check mark if the regi",
+  "url": "https://www.sec.gov/Archives/edgar/data/1956166/000149315226052995/0001493152-26-052995-index.htm",
+  "seen_kst": "2026-11-19 02:53"
  }
 ]
