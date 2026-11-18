@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "TPST",
-  "form": "8-K",
-  "acc": "0001213900-26-119916",
-  "items": "2.02,9.01",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:27:38+00:00",
-  "accepted_kst": "11/14 07:27",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)"
-  ],
-  "strength": 0,
-  "headline": "Tempest Reports Third Quarter 2026 Financial Results and Provides Business Update Exclusively licensed Senlang’s CD7-Targeted lentiviral in vivo CAR-T platform",
-  "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026119916/0001213900-26-119916-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "DJT",
   "form": "4",
   "acc": "0001437749-26-036960",
@@ -8658,5 +8639,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/916907/000135543326000011/0001355433-26-000011-index.htm",
   "seen_kst": "2026-11-19 02:43"
+ },
+ {
+  "ticker": "VELO",
+  "form": "4",
+  "acc": "0001193125-26-466758",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T17:46:10+00:00",
+  "accepted_kst": "11/19 02:46",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1825079/000119312526466758/0001193125-26-466758-index.htm",
+  "seen_kst": "2026-11-19 02:48"
  }
 ]
