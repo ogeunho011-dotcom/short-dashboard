@@ -71393,5 +71393,51 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250221004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250221004",
   "grade": "n/a"
+ },
+ {
+  "id": "SPWR-1795030247",
+  "ts_kst": "2026-11-19 04:30",
+  "ts_utc": "2026-11-18T19:30:47+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "SPWR",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 74/100"
+  ],
+  "title": "🚀 SPWR 상위 확률 신호 · 커버 압력",
+  "body": "$4.080 (+4106.2%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $4.45 넘으면 급등 가능성 ↑ · 1년 최고가 돌파 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 74/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $3.876 지정가(기준가 $4.080의 −5%) · 체결 가능성 약 54% · 손익분기 $3.923\n숏 지지구간 $2.856–$2.856 · 손절 $2.040 · 1차목표 $4.449\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/09)\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-11-18\n⚠ 희석 위험 100/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.08,
+  "level": 3,
+  "score": 41.0,
+  "prob": 53.136351304003426,
+  "cp": 74.07315139749288,
+  "rl": 4.449399948120117,
+  "stop": 2.0399999618530273,
+  "zone": [
+   2.8559999465942383,
+   2.8559999465942383
+  ],
+  "bp": 3.876,
+  "tgt": 4.449399948120117,
+  "stp": 2.0399999618530273,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/09)",
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-11-18",
+   "희석 위험 100/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210419014%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210419014",
+  "grade": "open"
  }
 ]
