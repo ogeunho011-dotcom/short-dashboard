@@ -70725,5 +70725,44 @@
    "accepted_kst": "11/19 01:36",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "BRFH-1795022158",
+  "ts_kst": "2026-11-19 02:15",
+  "ts_utc": "2026-11-18T17:15:58+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "BRFH",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.2% · 거래량 평소의 17.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BRFH 장중 급등 포착",
+  "body": "$0.749 (+15.2%) · 정규장 · 레벨 2 · 점수 33\n$0.900 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,631만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.2% · 거래량 평소의 17.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.711 지정가(기준가 $0.749의 −5%) · 체결 가능성 약 63% · 손익분기 $0.720\n숏 지지구간 $0.600–$0.700 · 손절 $0.550 · 1차목표 $0.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7487,
+  "level": 2,
+  "score": 33.4,
+  "prob": 31.25,
+  "cp": 24.499322062292507,
+  "rl": 0.8999999999999999,
+  "stop": 0.5499999999999999,
+  "zone": [
+   0.6,
+   0.7
+  ],
+  "bp": 0.7113,
+  "tgt": 0.8999999999999999,
+  "stp": 0.5499999999999999,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220120001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220120001",
+  "grade": "open"
  }
 ]
