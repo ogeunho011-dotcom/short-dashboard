@@ -71775,5 +71775,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200828001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200828001",
   "grade": "open"
+ },
+ {
+  "id": "VWAV-1795034920",
+  "ts_kst": "2026-11-19 05:48",
+  "ts_utc": "2026-11-18T20:48:40+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "VWAV",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 561k (당일 평균 16.1배)"
+  ],
+  "title": "🚀 VWAV 거래량 급증",
+  "body": "$0.790 (+59.0%) · 정규장 · 레벨 3 · 점수 42\n오늘 거래량 평소의 23배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 5분 거래량 561k (당일 평균 16.1배)\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.751 지정가(기준가 $0.790의 −5%) · 체결 가능성 약 84% · 손익분기 $0.760\n숏 지지구간 $0.553–$0.790 · 손절 $0.395 · 1차목표 $1.185\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-09-22\n⚠ 희석 위험 90/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.79,
+  "level": 3,
+  "score": 41.6,
+  "prob": 38.456237077877326,
+  "cp": 22.096754,
+  "rl": 15.0,
+  "stop": 0.39500001072883606,
+  "zone": [
+   0.5530000150203704,
+   0.7900000214576721
+  ],
+  "bp": 0.7505,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-09-22",
+   "희석 위험 90/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250715007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250715007",
+  "grade": "n/a"
  }
 ]
