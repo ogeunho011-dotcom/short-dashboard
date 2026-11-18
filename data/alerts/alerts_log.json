@@ -71517,5 +71517,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2606008006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2606008006",
   "grade": "open"
+ },
+ {
+  "id": "NUR-1795031147",
+  "ts_kst": "2026-11-19 04:45",
+  "ts_utc": "2026-11-18T19:45:47+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "NUR",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 44k (당일 평균 5.1배)"
+  ],
+  "title": "🚀 NUR 거래량 급증",
+  "body": "$0.508 (+37.4%) · 정규장 · 레벨 3 · 점수 49\n시장에 도는 주식 906만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 3배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 5분 거래량 44k (당일 평균 5.1배)\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.483 지정가(기준가 $0.508의 −5%) · 체결 가능성 약 76% · 손익분기 $0.489\n숏 지지구간 $0.356–$0.500 · 손절 $0.254 · 1차목표 $1.500\n⚠ 최근 악재 공시: 6-K 상장 유지 기준 미달·상폐 위험 (11/16)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5083,
+  "level": 3,
+  "score": 49.2,
+  "prob": 20.50473186119874,
+  "cp": 24.616315014331448,
+  "rl": 1.5,
+  "stop": 0.25415000319480896,
+  "zone": [
+   0.35581000447273253,
+   0.5
+  ],
+  "bp": 0.4829,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "최근 악재 공시: 6-K 상장 유지 기준 미달·상폐 위험 (11/16)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS2608017004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS2608017004",
+  "grade": "n/a"
  }
 ]
