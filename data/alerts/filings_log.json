@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "SBGI",
-  "form": "4",
-  "acc": "0001600353-26-000007",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:33:39+00:00",
-  "accepted_kst": "11/14 07:33",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1971213/000160035326000007/0001600353-26-000007-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "HIT",
   "form": "4",
   "acc": "0001213900-26-119923",
@@ -8654,5 +8637,22 @@
   "headline": "Reiman William L",
   "url": "https://www.sec.gov/Archives/edgar/data/1495240/000212799126000004/0002127991-26-000004-index.htm",
   "seen_kst": "2026-11-19 03:31"
+ },
+ {
+  "ticker": "BRBR",
+  "form": "10-K",
+  "acc": "0001772016-26-000027",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T18:55:43+00:00",
+  "accepted_kst": "11/19 03:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1772016/000177201626000027/0001772016-26-000027-index.htm",
+  "seen_kst": "2026-11-19 04:03"
  }
 ]
