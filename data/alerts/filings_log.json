@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "XHLD",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0002049674-26-000008",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-14T00:49:20+00:00",
-  "accepted_kst": "11/14 09:49",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2030954/000204967426000008/0002049674-26-000008-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "SLQT",
   "form": "4",
   "acc": "0001794783-26-000103",
@@ -8670,5 +8653,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/913341/000160127026000010/0001601270-26-000010-index.htm",
   "seen_kst": "2026-11-19 05:21"
+ },
+ {
+  "ticker": "WAFDP",
+  "form": "4",
+  "acc": "0001969133-26-000010",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T20:23:34+00:00",
+  "accepted_kst": "11/19 05:23",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/936528/000196913326000010/0001969133-26-000010-index.htm",
+  "seen_kst": "2026-11-19 05:26"
  }
 ]
