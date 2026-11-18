@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DJT",
-  "form": "4",
-  "acc": "0001437749-26-036966",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:29:51+00:00",
-  "accepted_kst": "11/14 07:29",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036966/0001437749-26-036966-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "NTHI",
   "form": "4",
   "acc": "0001213900-26-119920",
@@ -8656,5 +8639,22 @@
   "headline": "GERMAN MICHAEL I",
   "url": "https://www.sec.gov/Archives/edgar/data/6176/000119312526466806/0001193125-26-466806-index.htm",
   "seen_kst": "2026-11-19 03:16"
+ },
+ {
+  "ticker": "GORO",
+  "form": "6-K",
+  "acc": "0001104659-26-129580",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T18:16:15+00:00",
+  "accepted_kst": "11/19 03:16",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE GOLDGROUP PROVIDES UPDATE ON TECHNICAL STUDIES, EXPLORATION AND DRILLING PROGRAMS Multiple Work Programs Underway Across Four 100%-Owned Gold Asset",
+  "url": "https://www.sec.gov/Archives/edgar/data/1515964/000110465926129580/0001104659-26-129580-index.htm",
+  "seen_kst": "2026-11-19 03:18"
  }
 ]
