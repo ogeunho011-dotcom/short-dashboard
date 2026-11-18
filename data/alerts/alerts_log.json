@@ -71728,5 +71728,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201124004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201124004",
   "grade": "n/a"
+ },
+ {
+  "id": "GP-1795034160",
+  "ts_kst": "2026-11-19 05:36",
+  "ts_utc": "2026-11-18T20:36:00+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "GP",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 143k (당일 평균 97.7배)"
+  ],
+  "title": "🚀 GP 거래량 급증",
+  "body": "$2.785 (+6.3%) · 정규장 · 레벨 3 · 점수 47\n공매도 물량 대부분 손해 중, $3.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 503만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 5분 거래량 143k (당일 평균 97.7배)\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $2.627 지정가(60일선, 기준가 대비 -5.7%) · 체결 가능성 약 70% · 손익분기 $2.659\n숏 지지구간 $2.000–$2.500 · 손절 $1.500 · 1차목표 $3.500\n⚠ 역분할 2026-10-19\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.785,
+  "level": 3,
+  "score": 46.9,
+  "prob": 29.217110253724115,
+  "cp": 65.33998390876647,
+  "rl": 3.5,
+  "stop": 1.5,
+  "zone": [
+   2.0,
+   2.5
+  ],
+  "bp": 2.6272,
+  "tgt": 3.5,
+  "stp": 1.5,
+  "penalties": [
+   "역분할 2026-10-19"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200828001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200828001",
+  "grade": "open"
  }
 ]
