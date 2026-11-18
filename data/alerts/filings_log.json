@@ -2,23 +2,6 @@
  {
   "ticker": "SLQT",
   "form": "4",
-  "acc": "0001794783-26-000105",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-14T00:51:31+00:00",
-  "accepted_kst": "11/14 09:51",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1794783/000179478326000105/0001794783-26-000105-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
-  "ticker": "SLQT",
-  "form": "4",
   "acc": "0001794783-26-000106",
   "items": "",
   "filed": "2026-11-13",
@@ -8670,5 +8653,22 @@
   "headline": "Isaac Paul J",
   "url": "https://www.sec.gov/Archives/edgar/data/1289340/000106299326006179/0001062993-26-006179-index.htm",
   "seen_kst": "2026-11-19 05:38"
+ },
+ {
+  "ticker": "TROX",
+  "form": "8-K",
+  "acc": "0001140361-26-044721",
+  "items": "7.01,9.01",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T20:49:51+00:00",
+  "accepted_kst": "11/19 05:49",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Tronox Issues Company Update",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126044721/0001140361-26-044721-index.htm",
+  "seen_kst": "2026-11-19 05:51"
  }
 ]
