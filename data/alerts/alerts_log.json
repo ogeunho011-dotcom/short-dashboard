@@ -70845,5 +70845,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250221004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250221004",
   "grade": "n/a"
+ },
+ {
+  "id": "PMA-1795023503",
+  "ts_kst": "2026-11-19 02:38",
+  "ts_utc": "2026-11-18T17:38:23+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "PMA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.4% · 거래량 평소의 19.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PMA 장중 급등 포착",
+  "body": "$1.542 (+22.4%) · 정규장 · 레벨 2 · 점수 26\n공매도 물량 대부분 손해 중, $1.60 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,298만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +22.4% · 거래량 평소의 19.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.465 지정가(기준가 $1.542의 −5%) · 체결 가능성 약 47% · 손익분기 $1.483\n숏 지지구간 $1.500–$1.542 · 손절 $1.450 · 1차목표 $1.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.5421,
+  "level": 2,
+  "score": 25.7,
+  "prob": 53.44827586206896,
+  "cp": 61.707723088393735,
+  "rl": 1.6000000000000005,
+  "stop": 1.4500000000000004,
+  "zone": [
+   1.5000000000000004,
+   1.542099952697754
+  ],
+  "bp": 1.465,
+  "tgt": 1.6000000000000005,
+  "stp": 1.4500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241122004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241122004",
+  "grade": "open"
  }
 ]
