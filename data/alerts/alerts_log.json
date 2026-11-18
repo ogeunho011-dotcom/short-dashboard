@@ -71685,5 +71685,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210826004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210826004",
   "grade": "open"
+ },
+ {
+  "id": "VMAR-1795034007",
+  "ts_kst": "2026-11-19 05:33",
+  "ts_utc": "2026-11-18T20:33:27+00:00",
+  "date_et": "2026-11-18",
+  "session": "regular",
+  "ticker": "VMAR",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +24.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 26k (당일 평균 6.8배)"
+  ],
+  "title": "🚀 VMAR 장중 급등 포착 · 거래량 급증",
+  "body": "$3.623 (+24.5%) · 정규장 · 레벨 3 · 점수 43\n시장에 도는 주식 491만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +24.5% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 26k (당일 평균 6.8배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $3.605 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -0.5%) · 체결 가능성 약 85% · 손익분기 $3.649\n숏 지지구간 $2.900–$3.400 · 손절 $2.400 · 1차목표 $7.500\n⚠ 역분할 2026-08-26\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.6232,
+  "level": 3,
+  "score": 43.4,
+  "prob": 31.25,
+  "cp": 22.364905849185266,
+  "rl": 7.5,
+  "stop": 2.4000000953674316,
+  "zone": [
+   2.9000000953674316,
+   3.4000000953674316
+  ],
+  "bp": 3.605,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-08-26"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201124004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201124004",
+  "grade": "n/a"
  }
 ]
