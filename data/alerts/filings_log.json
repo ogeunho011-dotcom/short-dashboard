@@ -2,23 +2,6 @@
  {
   "ticker": "SLQT",
   "form": "4",
-  "acc": "0001794783-26-000103",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-14T00:51:20+00:00",
-  "accepted_kst": "11/14 09:51",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1794783/000179478326000103/0001794783-26-000103-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
-  "ticker": "SLQT",
-  "form": "4",
   "acc": "0001794783-26-000105",
   "items": "",
   "filed": "2026-11-13",
@@ -8670,5 +8653,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/936528/000196913326000010/0001969133-26-000010-index.htm",
   "seen_kst": "2026-11-19 05:26"
+ },
+ {
+  "ticker": "STXS",
+  "form": "4",
+  "acc": "0001062993-26-006179",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T20:37:22+00:00",
+  "accepted_kst": "11/19 05:37",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $10,900 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Isaac Paul J",
+  "url": "https://www.sec.gov/Archives/edgar/data/1289340/000106299326006179/0001062993-26-006179-index.htm",
+  "seen_kst": "2026-11-19 05:38"
  }
 ]
