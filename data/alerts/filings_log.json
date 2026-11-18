@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "MG",
-  "form": "8-K",
-  "acc": "0001140361-26-043833",
-  "items": "8.01",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:25:40+00:00",
-  "accepted_kst": "11/14 07:25",
-  "polarity": "neg",
-  "label": "상장 유지 기준 미달·상폐 위험",
-  "cats": [],
-  "negs": [
-   "상장 유지 기준 미달·상폐 위험"
-  ],
-  "strength": 0,
-  "headline": "Item 8.01 Other Events. SUPPLEMENT TO DEFINITIVE PROXY STATEMENT This supplement to the Definitive Proxy Statement on Schedule 14A filed with the United States",
-  "url": "https://www.sec.gov/Archives/edgar/data/1436126/000114036126043833/0001140361-26-043833-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "DJT",
   "form": "4",
   "acc": "0001437749-26-036958",
@@ -8660,5 +8641,22 @@
   "headline": "Hill Gary L.",
   "url": "https://www.sec.gov/Archives/edgar/data/318833/000178281026000011/0001782810-26-000011-index.htm",
   "seen_kst": "2026-11-19 02:33"
+ },
+ {
+  "ticker": "NICM",
+  "form": "6-K",
+  "acc": "0001062993-26-006177",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T17:33:29+00:00",
+  "accepted_kst": "11/19 02:33",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "TSX.V: NIM FSE: HLIA OTCQB: HUSIF NICOLA COMPLETES 2026 MINING CAMPAIGN AT DOMINION GOLD PROJECT AND DELIVERS MATERIAL TO MERRITT",
+  "url": "https://www.sec.gov/Archives/edgar/data/1526475/000106299326006177/0001062993-26-006177-index.htm",
+  "seen_kst": "2026-11-19 02:36"
  }
 ]
