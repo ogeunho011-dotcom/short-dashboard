@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NSRX",
-  "form": "4",
-  "acc": "0001493152-26-051888",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-14T00:35:12+00:00",
-  "accepted_kst": "11/14 09:35",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2029039/000149315226051888/0001493152-26-051888-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "NEGG",
   "form": "4",
   "acc": "0001477932-26-006951",
@@ -8668,5 +8651,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000143774926037518/0001437749-26-037518-index.htm",
   "seen_kst": "2026-11-19 04:58"
+ },
+ {
+  "ticker": "UONE",
+  "form": "4",
+  "acc": "0001437482-26-000003",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T20:06:58+00:00",
+  "accepted_kst": "11/19 05:06",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1041657/000143748226000003/0001437482-26-000003-index.htm",
+  "seen_kst": "2026-11-19 05:08"
  }
 ]
