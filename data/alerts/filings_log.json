@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "UUUU",
-  "form": "4",
-  "acc": "0001385849-26-000044",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-14T00:27:16+00:00",
-  "accepted_kst": "11/14 09:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1385849/000138584926000044/0001385849-26-000044-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
-  "ticker": "UUUU",
-  "form": "4",
-  "acc": "0001385849-26-000045",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-14T00:35:04+00:00",
-  "accepted_kst": "11/14 09:35",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1385849/000138584926000045/0001385849-26-000045-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "NSRX",
   "form": "4",
   "acc": "0001493152-26-051888",
@@ -8666,5 +8632,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1005229/000162828026074756/0001628280-26-074756-index.htm",
   "seen_kst": "2026-11-19 04:53"
+ },
+ {
+  "ticker": "RAIL",
+  "form": "4",
+  "acc": "0001193125-26-466935",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T19:55:54+00:00",
+  "accepted_kst": "11/19 04:55",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $227,790",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Gil Benavides Jesus Salvador",
+  "url": "https://www.sec.gov/Archives/edgar/data/1320854/000119312526466935/0001193125-26-466935-index.htm",
+  "seen_kst": "2026-11-19 04:58"
+ },
+ {
+  "ticker": "ESQ",
+  "form": "4",
+  "acc": "0001437749-26-037518",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T19:55:56+00:00",
+  "accepted_kst": "11/19 04:55",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1531031/000143774926037518/0001437749-26-037518-index.htm",
+  "seen_kst": "2026-11-19 04:58"
  }
 ]
