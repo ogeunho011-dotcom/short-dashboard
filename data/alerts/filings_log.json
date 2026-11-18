@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "SHFS",
-  "form": "S-1",
-  "acc": "0001493152-26-051855",
-  "items": "",
-  "filed": "2026-11-13",
-  "accepted": "2026-11-13T22:25:22+00:00",
-  "accepted_kst": "11/14 07:25",
-  "polarity": "neg",
-  "label": "증자 서류(S-1)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226051855/0001493152-26-051855-index.htm",
-  "seen_kst": "2026-11-14 09:58"
- },
- {
   "ticker": "TPST",
   "form": "10-Q",
   "acc": "0001213900-26-119910",
@@ -8662,5 +8643,22 @@
   "headline": "and incorporated herein by reference. In addition, on November 18, 2026, the Company published to the \"Investor Relations\" section of its website, www.bellringb",
   "url": "https://www.sec.gov/Archives/edgar/data/1772016/000162828026074645/0001628280-26-074645-index.htm",
   "seen_kst": "2026-11-19 02:23"
+ },
+ {
+  "ticker": "NICM",
+  "form": "6-K",
+  "acc": "0001062993-26-006175",
+  "items": "",
+  "filed": "2026-11-18",
+  "accepted": "2026-11-18T17:28:19+00:00",
+  "accepted_kst": "11/19 02:28",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NASDAQ: NICM TSX.V: NIM FSE: HLI A NICOLA MINING PROVIDES MERRITT MILL",
+  "url": "https://www.sec.gov/Archives/edgar/data/1526475/000106299326006175/0001062993-26-006175-index.htm",
+  "seen_kst": "2026-11-19 02:31"
  }
 ]
