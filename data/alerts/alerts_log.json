@@ -46045,7 +46045,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20050901001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20050901001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 7,
+  "grade_ret": -0.21059064825862173,
+  "graded_bars": 7
  },
  {
   "id": "RNTZ-1794326253",
@@ -74567,5 +74570,92 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211222005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211222005",
   "grade": "open"
+ },
+ {
+  "id": "DRTS-fil-0001213900-26-122234",
+  "ts_kst": "2026-11-20 06:16",
+  "ts_utc": "2026-11-19T21:16:42+00:00",
+  "date_et": "2026-11-19",
+  "session": "filing",
+  "ticker": "DRTS",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K FDA 승인·허가"
+  ],
+  "title": "📢 DRTS 호재 공시",
+  "body": "6-K · FDA 승인·허가 (11/20 06:01 KST)\nAlpha Tau Announces Third Quarter 2026 Financial Results and Provides Corporate Update - New interim results from the U.S. REGAIN recurrent \n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220308001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220308001",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001213900-26-122234",
+   "items": "",
+   "label": "FDA 승인·허가",
+   "cats": [
+    "FDA 승인·허가"
+   ],
+   "strength": 5,
+   "headline": "Alpha Tau Announces Third Quarter 2026 Financial Results and Provides Corporate Update - New interim results from the U.S. REGAIN recurrent glioblastoma trial p",
+   "url": "https://www.sec.gov/Archives/edgar/data/1871321/000121390026122234/0001213900-26-122234-index.htm",
+   "accepted_kst": "11/20 06:01",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "GLOB-fil-0001104659-26-130143",
+  "ts_kst": "2026-11-20 06:16",
+  "ts_utc": "2026-11-19T21:16:42+00:00",
+  "date_et": "2026-11-19",
+  "session": "filing",
+  "ticker": "GLOB",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "6-K 자사주 매입 · 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 GLOB 호재 공시",
+  "body": "6-K · 자사주 매입 · 실적 호조·가이던스 상향 (11/20 06:10 KST)\nNovember 19, 2026 Globant Reports 2026 Third Quarter Financial Results LUXEMBOURG / November 19, 2026 - Globant (NYSE: GLOB) today announced\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140718002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140718002",
+  "grade": "n/a",
+  "filing": {
+   "form": "6-K",
+   "acc": "0001104659-26-130143",
+   "items": "",
+   "label": "자사주 매입 · 실적 호조·가이던스 상향",
+   "cats": [
+    "자사주 매입",
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "November 19, 2026 Globant Reports 2026 Third Quarter Financial Results LUXEMBOURG / November 19, 2026 - Globant (NYSE: GLOB) today announced results for the thr",
+   "url": "https://www.sec.gov/Archives/edgar/data/1557860/000110465926130143/0001104659-26-130143-index.htm",
+   "accepted_kst": "11/20 06:10",
+   "polarity": "pos"
+  }
  }
 ]
