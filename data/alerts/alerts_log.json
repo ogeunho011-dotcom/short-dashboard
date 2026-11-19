@@ -73970,5 +73970,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150401001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150401001",
   "grade": "open"
+ },
+ {
+  "id": "COOT-1795117531",
+  "ts_kst": "2026-11-20 04:45",
+  "ts_utc": "2026-11-19T19:45:31+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "COOT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +21.5% · 거래량 평소의 7.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ COOT 장중 급등 포착",
+  "body": "$0.338 (+21.5%) · 정규장 · 레벨 2 · 점수 26\n오늘 거래량 평소의 7배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +21.5% · 거래량 평소의 7.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.308 지정가(20일선, 기준가 대비 -8.8%) · 체결 가능성 약 51% · 손익분기 $0.312\n숏 지지구간 $0.250–$0.281 · 손절 $0.230 · 1차목표 $0.560\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.3379,
+  "level": 2,
+  "score": 25.9,
+  "prob": 31.25,
+  "cp": 14.267622086319149,
+  "rl": 0.5600000000000003,
+  "stop": 0.23,
+  "zone": [
+   0.25,
+   0.28076500445604324
+  ],
+  "bp": 0.3082,
+  "tgt": 0.5600000000000003,
+  "stp": 0.23,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201210002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201210002",
+  "grade": "open"
  }
 ]
