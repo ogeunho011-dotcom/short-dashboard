@@ -2,23 +2,6 @@
  {
   "ticker": "DAVI",
   "form": "4",
-  "acc": "0001683168-26-008890",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T13:38:43+00:00",
-  "accepted_kst": "11/17 22:38",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $26,490 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Sluyters Julian",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008890/0001683168-26-008890-index.htm",
-  "seen_kst": "2026-11-18 02:43"
- },
- {
-  "ticker": "DAVI",
-  "form": "4",
   "acc": "0001683168-26-008903",
   "items": "",
   "filed": "2026-11-17",
@@ -8699,5 +8682,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/928054/000092805426000112/0000928054-26-000112-index.htm",
   "seen_kst": "2026-11-20 04:47"
+ },
+ {
+  "ticker": "MKZR",
+  "form": "8-K",
+  "acc": "0001550913-26-000040",
+  "items": "5.07",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T20:00:32+00:00",
+  "accepted_kst": "11/20 05:00",
+  "polarity": "neutral",
+  "label": "주총 결과",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "EPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 16, 2026 MACKENZIE REALTY",
+  "url": "https://www.sec.gov/Archives/edgar/data/1550913/000155091326000040/0001550913-26-000040-index.htm",
+  "seen_kst": "2026-11-20 05:03"
  }
 ]
