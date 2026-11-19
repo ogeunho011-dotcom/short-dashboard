@@ -74089,5 +74089,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230127003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230127003",
   "grade": "open"
+ },
+ {
+  "id": "VIVS-1795118735",
+  "ts_kst": "2026-11-20 05:05",
+  "ts_utc": "2026-11-19T20:05:35+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "VIVS",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 VIVS 상위 확률 신호",
+  "body": "$0.299 (+149.3%) · 정규장 · 레벨 4 · 점수 57\n공매도 물량 대부분 손해 중, $0.350 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.284 지정가(기준가 $0.299의 −5%) · 체결 가능성 약 59% · 손익분기 $0.288\n숏 지지구간 $0.200–$0.250 · 손절 $0.175 · 1차목표 $0.350\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2992,
+  "level": 4,
+  "score": 57.0,
+  "prob": 53.32752430746618,
+  "cp": 64.13723809609719,
+  "rl": 0.3500000000000001,
+  "stop": 0.17500000000000004,
+  "zone": [
+   0.20000000000000004,
+   0.25000000000000006
+  ],
+  "bp": 0.2842,
+  "tgt": 0.3500000000000001,
+  "stp": 0.17500000000000004,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160808001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160808001",
+  "grade": "open"
  }
 ]

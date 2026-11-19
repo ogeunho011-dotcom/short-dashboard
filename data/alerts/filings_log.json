@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "DAVI",
-  "form": "4",
-  "acc": "0001683168-26-008903",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T17:42:54+00:00",
-  "accepted_kst": "11/18 02:42",
-  "polarity": "neutral",
-  "label": "내부자 매수 신고 금액 이상 — 제외 (주당 $0.10 시세($0.91~$1.80) 밖)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "King Susan M",
-  "url": "https://www.sec.gov/Archives/edgar/data/2039072/000168316826008903/0001683168-26-008903-index.htm",
-  "seen_kst": "2026-11-18 02:43"
- },
- {
   "ticker": "UMH",
   "form": "4",
   "acc": "0000752642-26-000136",
@@ -8699,5 +8682,22 @@
   "headline": "EPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 16, 2026 MACKENZIE REALTY",
   "url": "https://www.sec.gov/Archives/edgar/data/1550913/000155091326000040/0001550913-26-000040-index.htm",
   "seen_kst": "2026-11-20 05:03"
+ },
+ {
+  "ticker": "NUR",
+  "form": "6-K",
+  "acc": "0001493152-26-053222",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T20:03:57+00:00",
+  "accepted_kst": "11/20 05:03",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Date and Time: November 13, 2026 02:11 PM Pacific Time Mailing Address: PO Box 9431 Stn Prov Govt Victoria BC V8W 9V3 www.corporateonline.gov.bc.ca Location: 2n",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680637/000149315226053222/0001493152-26-053222-index.htm",
+  "seen_kst": "2026-11-20 05:05"
  }
 ]
