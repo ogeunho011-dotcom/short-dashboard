@@ -57489,7 +57489,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130725002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130725002",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 5,
+  "grade_ret": -0.25147283702213286,
+  "graded_bars": 5
  },
  {
   "id": "TREO-1794502293",
@@ -74437,5 +74440,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
   "grade": "n/a"
+ },
+ {
+  "id": "GP-1795121732",
+  "ts_kst": "2026-11-20 05:55",
+  "ts_utc": "2026-11-19T20:55:32+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "GP",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 72k (당일 평균 12.3배)"
+  ],
+  "title": "🚀 GP 거래량 급증",
+  "body": "$3.066 (+6.8%) · 정규장 · 레벨 3 · 점수 49\n공매도 물량 대부분 손해 중, $3.50 넘으면 급등 가능성 ↑ · 시장에 도는 주식 503만 주뿐이라 쉽게 크게 움직임\n• 5분 거래량 72k (당일 평균 12.3배)\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $2.913 지정가(기준가 $3.066의 −5%) · 체결 가능성 약 73% · 손익분기 $2.948\n숏 지지구간 $2.000–$2.500 · 손절 $1.533 · 1차목표 $3.500\n⚠ 역분할 2026-10-19\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.0659,
+  "level": 3,
+  "score": 48.9,
+  "prob": 31.25,
+  "cp": 69.48443996557968,
+  "rl": 3.5,
+  "stop": 1.5329500436782837,
+  "zone": [
+   2.0,
+   2.5
+  ],
+  "bp": 2.9126,
+  "tgt": 3.5,
+  "stp": 1.5329500436782837,
+  "penalties": [
+   "역분할 2026-10-19"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200828001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200828001",
+  "grade": "open"
+ },
+ {
+  "id": "ATPC-1795121732",
+  "ts_kst": "2026-11-20 05:55",
+  "ts_utc": "2026-11-19T20:55:32+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "ATPC",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.9% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ATPC 장중 급등 포착",
+  "body": "$1.400 (+23.9%) · 정규장 · 레벨 2 · 점수 33\n시장에 도는 주식 100만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +23.9% · 거래량 평소의 4.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $1.357 지정가(20일선, 기준가 대비 -3.1%) · 체결 가능성 약 78% · 손익분기 $1.373\n숏 지지구간 $1.100–$1.350 · 손절 $0.850 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.3997,
+  "level": 2,
+  "score": 32.6,
+  "prob": 21.428571428571427,
+  "cp": 2.6648981692624427,
+  "rl": 2.75,
+  "stop": 0.8500000238418579,
+  "zone": [
+   1.100000023841858,
+   1.350000023841858
+  ],
+  "bp": 1.357,
+  "tgt": 2.75,
+  "stp": 0.8500000238418579,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231011003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231011003",
+  "grade": "open"
  }
 ]
