@@ -74175,5 +74175,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231010003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231010003",
   "grade": "open"
+ },
+ {
+  "id": "EUDA-1795119478",
+  "ts_kst": "2026-11-20 05:17",
+  "ts_utc": "2026-11-19T20:17:58+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "EUDA",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 74/100"
+  ],
+  "title": "🚀 EUDA 상위 확률 신호 · 커버 압력",
+  "body": "$17.687 (+17.8%) · 정규장 · 레벨 3 · 점수 43\n공매도 물량 대부분 손해 중, $18.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 189만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 74/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $16.803 지정가(기준가 $17.687의 −5%) · 체결 가능성 약 50% · 손익분기 $17.005\n숏 지지구간 $15.500–$16.265 · 손절 $15.000 · 1차목표 $18.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 17.687,
+  "level": 3,
+  "score": 42.9,
+  "prob": 52.91666666666666,
+  "cp": 73.96497842512932,
+  "rl": 18.0,
+  "stop": 15.0,
+  "zone": [
+   15.5,
+   16.265450096130373
+  ],
+  "bp": 16.8027,
+  "tgt": 18.0,
+  "stp": 15.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221118001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221118001",
+  "grade": "open"
  }
 ]
