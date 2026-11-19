@@ -74009,5 +74009,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201210002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201210002",
   "grade": "open"
+ },
+ {
+  "id": "HTCR-1795117998",
+  "ts_kst": "2026-11-20 04:53",
+  "ts_utc": "2026-11-19T19:53:18+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "HTCR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +17.2% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ HTCR 장중 급등 포착",
+  "body": "$1.418 (+17.2%) · 정규장 · 레벨 1 · 점수 24\n$1.60 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 152만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +17.2% · 거래량 평소의 4.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.347 지정가(기준가 $1.418의 −5%) · 체결 가능성 약 68% · 손익분기 $1.363\n숏 지지구간 $1.400–$1.418 · 손절 $1.300 · 1차목표 $1.600\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.4177,
+  "level": 1,
+  "score": 24.4,
+  "prob": 45.01661129568107,
+  "cp": 44.42695314072963,
+  "rl": 1.6000000000000005,
+  "stop": 1.3000000000000003,
+  "zone": [
+   1.4000000000000004,
+   1.4177000522613525
+  ],
+  "bp": 1.3468,
+  "tgt": 1.6000000000000005,
+  "stp": 1.3000000000000003,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220209005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220209005",
+  "grade": "open"
  }
 ]
