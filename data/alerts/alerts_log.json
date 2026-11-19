@@ -39799,7 +39799,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125003",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 8
  },
  {
   "id": "MKDW-1794238590",
@@ -52356,7 +52359,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230125003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230125003",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 6
  },
  {
   "id": "OPTX-1794410575",
@@ -74127,6 +74133,47 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160808001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160808001",
+  "grade": "open"
+ },
+ {
+  "id": "GMM-1795119047",
+  "ts_kst": "2026-11-20 05:10",
+  "ts_utc": "2026-11-19T20:10:47+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "GMM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.0% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GMM 장중 급등 포착",
+  "body": "$1.799 (+16.0%) · 정규장 · 레벨 2 · 점수 38\n$2.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 56만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +16.0% · 거래량 평소의 5.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.617 지정가(60일선, 기준가 대비 -10.1%) · 체결 가능성 약 74% · 손익분기 $1.637\n숏 지지구간 $1.500–$1.750 · 손절 $1.375 · 1차목표 $2.250\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/02)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.7987,
+  "level": 2,
+  "score": 38.2,
+  "prob": 38.456237077877326,
+  "cp": 19.561976612704942,
+  "rl": 2.25,
+  "stop": 1.375,
+  "zone": [
+   1.5,
+   1.75
+  ],
+  "bp": 1.6175,
+  "tgt": 2.25,
+  "stp": 1.375,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/02)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231010003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231010003",
   "grade": "open"
  }
 ]
