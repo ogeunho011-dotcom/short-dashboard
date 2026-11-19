@@ -1,23 +1,6 @@
 [
  {
   "ticker": "PCRX",
-  "form": "SC 14D9/A",
-  "acc": "0001140361-26-044349",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T14:24:44+00:00",
-  "accepted_kst": "11/17 23:24",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1396814/000114036126044349/0001140361-26-044349-index.htm",
-  "seen_kst": "2026-11-18 02:36"
- },
- {
-  "ticker": "PCRX",
   "form": "8-K",
   "acc": "0001140361-26-044354",
   "items": "1.01,1.02,2.01,2.04,3.01,3.03,5.01,5.02,5.03,7.01,9.01",
@@ -8698,5 +8681,22 @@
   "headline": "FOR OFFICIAL RELEASE 5049 Edwards Ranch Rd, 4 th Floor Fort Worth, TX 76109 SEGG Media Terminates $300 Million Equity Line of Credit (ELOC) and Pivots Towards E",
   "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226053196/0001493152-26-053196-index.htm",
   "seen_kst": "2026-11-20 03:50"
+ },
+ {
+  "ticker": "VZLA",
+  "form": "6-K",
+  "acc": "0001279569-26-001091",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T18:07:00+00:00",
+  "accepted_kst": "11/20 03:07",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "VIZSLA SILVER PROVIDES UPDATE ON PANUCO PROJECT DEVELOPMENT NYSE: VZLA TSX:",
+  "url": "https://www.sec.gov/Archives/edgar/data/1796073/000127956926001091/0001279569-26-001091-index.htm",
+  "seen_kst": "2026-11-20 03:53"
  }
 ]
