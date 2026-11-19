@@ -1,25 +1,5 @@
 [
  {
-  "ticker": "CLRO",
-  "form": "8-K",
-  "acc": "0001753926-26-002169",
-  "items": "1.01,3.02,7.01,9.01",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T18:02:44+00:00",
-  "accepted_kst": "11/18 03:02",
-  "polarity": "neg",
-  "label": "증자·희석(공모·사모·워런트)",
-  "cats": [],
-  "negs": [
-   "증자·희석(공모·사모·워런트)",
-   "미등록 주식 발행(사모)(항목 3.02)"
-  ],
-  "strength": 0,
-  "headline": "CLEARONE, INC. UNAUDITED PRO FORMA CONDENSED CONSOLIDATED BALANCE SHEET AS OF SEPTEMBER 30, 2026 (Dollars in thousands, except share amounts) Historical (Form 1",
-  "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626002169/0001753926-26-002169-index.htm",
-  "seen_kst": "2026-11-18 03:04"
- },
- {
   "ticker": "AESI",
   "form": "SCHEDULE 13G/A",
   "acc": "0001172661-26-005368",
@@ -8695,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/933267/000103718226000009/0001037182-26-000009-index.htm",
   "seen_kst": "2026-11-20 05:40"
+ },
+ {
+  "ticker": "UBCP",
+  "form": "8-K",
+  "acc": "0001104659-26-130093",
+  "items": "8.01,9.01",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T20:43:07+00:00",
+  "accepted_kst": "11/20 05:43",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "United Bancorp, Inc. 201 South 4th at Hickory Street, Martins Ferry, OH 43935 Contact: Scott A. Everson Randall M. Greenwood Chairman, President and CEO Senior",
+  "url": "https://www.sec.gov/Archives/edgar/data/731653/000110465926130093/0001104659-26-130093-index.htm",
+  "seen_kst": "2026-11-20 05:45"
  }
 ]
