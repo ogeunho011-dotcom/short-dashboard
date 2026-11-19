@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NAK",
-  "form": "6-K",
-  "acc": "0001654954-26-009921",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T17:10:52+00:00",
-  "accepted_kst": "11/18 02:10",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Northern Dynasty Announces Results of Governance Committee Review and Supplemental Director Disclosure November 16 , 2026 Vancouver – Northern Dynasty Minerals",
-  "url": "https://www.sec.gov/Archives/edgar/data/1164771/000165495426009921/0001654954-26-009921-index.htm",
-  "seen_kst": "2026-11-18 02:36"
- },
- {
   "ticker": "SLS",
   "form": "8-K",
   "acc": "0001104659-26-128825",
@@ -8701,5 +8684,22 @@
   "headline": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. (e",
   "url": "https://www.sec.gov/Archives/edgar/data/894671/000089467126000076/0000894671-26-000076-index.htm",
   "seen_kst": "2026-11-20 04:33"
+ },
+ {
+  "ticker": "UZX",
+  "form": "6-K",
+  "acc": "0001213900-26-122192",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T19:37:48+00:00",
+  "accepted_kst": "11/20 04:37",
+  "polarity": "neutral",
+  "label": "일반 공시",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Incorporation by Reference On November 19, 2026, Linkage Global Inc, a company incorporated under the laws of the Cayman Islands (the “Company”), convened its e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1969401/000121390026122192/0001213900-26-122192-index.htm",
+  "seen_kst": "2026-11-20 04:40"
  }
 ]
