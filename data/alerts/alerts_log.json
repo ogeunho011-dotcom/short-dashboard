@@ -73851,5 +73851,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213005",
   "grade": "open"
+ },
+ {
+  "id": "RAYA-1795116330",
+  "ts_kst": "2026-11-20 04:25",
+  "ts_utc": "2026-11-19T19:25:30+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "RAYA",
+  "types": [
+   "spike",
+   "rvol"
+  ],
+  "msgs": [
+   "전일 대비 +33.7% · 거래량 평소의 13.3배 (시간 보정) — 추격 매수 주의",
+   "5분 거래량 55k (당일 평균 6.6배)"
+  ],
+  "title": "🚀 RAYA 장중 급등 포착 · 거래량 급증",
+  "body": "$0.500 (+33.7%) · 정규장 · 레벨 3 · 점수 50\n$0.750 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 102만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +33.7% · 거래량 평소의 13.3배 (시간 보정) — 추격 매수 주의\n• 5분 거래량 55k (당일 평균 6.6배)\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.471 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.8%) · 체결 가능성 약 84% · 손익분기 $0.477\n숏 지지구간 $0.350–$0.500 · 손절 $0.250 · 1차목표 $0.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.5,
+  "level": 3,
+  "score": 49.8,
+  "prob": 28.65203110757337,
+  "cp": 31.205998743416053,
+  "rl": 0.75,
+  "stop": 0.25,
+  "zone": [
+   0.35,
+   0.5
+  ],
+  "bp": 0.4709,
+  "tgt": 0.75,
+  "stp": 0.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221206003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221206003",
+  "grade": "open"
  }
 ]
