@@ -72929,5 +72929,91 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150401001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150401001",
   "grade": "open"
+ },
+ {
+  "id": "SJT-fil-0001104659-26-129810",
+  "ts_kst": "2026-11-20 02:41",
+  "ts_utc": "2026-11-19T17:41:44+00:00",
+  "date_et": "2026-11-19",
+  "session": "filing",
+  "ticker": "SJT",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "4 내부자 장내 매수 $2,579,768"
+  ],
+  "title": "📢 SJT 호재 공시",
+  "body": "4 · 내부자 장내 매수 $2,579,768 (11/19 07:17 KST)\nOLIVER ERIC L\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19801024002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19801024002",
+  "grade": "n/a",
+  "filing": {
+   "form": "4",
+   "acc": "0001104659-26-129810",
+   "items": "",
+   "label": "내부자 장내 매수 $2,579,768",
+   "cats": [
+    "내부자 장내 매수"
+   ],
+   "strength": 4,
+   "headline": "OLIVER ERIC L",
+   "url": "https://www.sec.gov/Archives/edgar/data/319655/000110465926129810/0001104659-26-129810-index.htm",
+   "accepted_kst": "11/19 07:17",
+   "polarity": "pos"
+  }
+ },
+ {
+  "id": "PCYO-fil-0001104659-26-129985",
+  "ts_kst": "2026-11-20 02:41",
+  "ts_utc": "2026-11-19T17:41:44+00:00",
+  "date_et": "2026-11-19",
+  "session": "filing",
+  "ticker": "PCYO",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 실적 호조·가이던스 상향"
+  ],
+  "title": "📢 PCYO 호재 공시",
+  "body": "8-K · 실적 호조·가이던스 상향 (11/20 01:01 KST)\nPure Cycle Announces Record Financial Results For the Year Ended August 31, 2026 ​ DENVER, CO / GLOBE NEWSWIRE / November 18, 2026 – Pure Cy\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19940406001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19940406001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001104659-26-129985",
+   "items": "2.02,7.01,9.01",
+   "label": "실적 호조·가이던스 상향",
+   "cats": [
+    "실적 호조·가이던스 상향"
+   ],
+   "strength": 4,
+   "headline": "Pure Cycle Announces Record Financial Results For the Year Ended August 31, 2026 ​ DENVER, CO / GLOBE NEWSWIRE / November 18, 2026 – Pure Cycle Corporation (NAS",
+   "url": "https://www.sec.gov/Archives/edgar/data/276720/000110465926129985/0001104659-26-129985-index.htm",
+   "accepted_kst": "11/20 01:01",
+   "polarity": "pos"
+  }
  }
 ]
