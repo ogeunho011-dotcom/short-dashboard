@@ -73104,5 +73104,46 @@
    "accepted_kst": "11/20 02:02",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "GMM-1795110866",
+  "ts_kst": "2026-11-20 02:54",
+  "ts_utc": "2026-11-19T17:54:26+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "GMM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.8% · 거래량 평소의 8.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ GMM 장중 급등 포착",
+  "body": "$1.795 (+15.8%) · 정규장 · 레벨 2 · 점수 38\n$2.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 56만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +15.8% · 거래량 평소의 8.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.617 지정가(60일선, 기준가 대비 -9.9%) · 체결 가능성 약 74% · 손익분기 $1.637\n숏 지지구간 $1.500–$1.750 · 손절 $1.375 · 1차목표 $2.250\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/02)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.795,
+  "level": 2,
+  "score": 38.1,
+  "prob": 38.456237077877326,
+  "cp": 19.392381308744568,
+  "rl": 2.25,
+  "stop": 1.375,
+  "zone": [
+   1.5,
+   1.75
+  ],
+  "bp": 1.6174,
+  "tgt": 2.25,
+  "stp": 1.375,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/02)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231010003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231010003",
+  "grade": "open"
  }
 ]
