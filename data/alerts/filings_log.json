@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "MAIA",
-  "form": "8-K",
-  "acc": "0001493152-26-052720",
-  "items": "7.01,9.01",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T14:00:26+00:00",
-  "accepted_kst": "11/17 23:00",
-  "polarity": "pos",
-  "label": "FDA 특별 지정(혁신·신속·희귀)",
-  "cats": [
-   "FDA 특별 지정(혁신·신속·희귀)"
-  ],
-  "negs": [],
-  "strength": 5,
-  "headline": "MAIA Biotechnology Reports Consistent Strong Efficacy in Expanded Phase 2 THIO-101 Study in Non-Small Cell Lung Cancer MAIA advances novel telomere-targeting ag",
-  "url": "https://www.sec.gov/Archives/edgar/data/1878313/000149315226052720/0001493152-26-052720-index.htm",
-  "seen_kst": "2026-11-18 02:49"
- },
- {
   "ticker": "SEGG",
   "form": "8-K/A",
   "acc": "0001493152-26-052765",
@@ -8699,5 +8680,22 @@
   "headline": "Jones Stephen J",
   "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126044904/0001140361-26-044904-index.htm",
   "seen_kst": "2026-11-20 05:28"
+ },
+ {
+  "ticker": "FLD",
+  "form": "144",
+  "acc": "0001959173-26-008165",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T20:13:57+00:00",
+  "accepted_kst": "11/20 05:13",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1889123/000195917326008165/0001959173-26-008165-index.htm",
+  "seen_kst": "2026-11-20 05:33"
  }
 ]
