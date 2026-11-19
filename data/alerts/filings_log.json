@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "SEGG",
-  "form": "8-K/A",
-  "acc": "0001493152-26-052765",
-  "items": "8.01,9.01",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T17:56:53+00:00",
-  "accepted_kst": "11/18 02:56",
-  "polarity": "pos",
-  "label": "상장 유지 기준 회복",
-  "cats": [
-   "상장 유지 기준 회복"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "FOR OFFICIAL RELEASE 5049 Edwards Ranch Rd, 4 th Floor Fort Worth, TX 76109 SEGG Media Regains Nasdaq Compliance as Q2 Revenue Grows More Than 1,500% Nasdaq can",
-  "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226052765/0001493152-26-052765-index.htm",
-  "seen_kst": "2026-11-18 02:59"
- },
- {
   "ticker": "CLRO",
   "form": "8-K",
   "acc": "0001753926-26-002169",
@@ -8697,5 +8678,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1889123/000195917326008165/0001959173-26-008165-index.htm",
   "seen_kst": "2026-11-20 05:33"
+ },
+ {
+  "ticker": "IRS",
+  "form": "4",
+  "acc": "0001037182-26-000009",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T20:38:52+00:00",
+  "accepted_kst": "11/20 05:38",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/933267/000103718226000009/0001037182-26-000009-index.htm",
+  "seen_kst": "2026-11-20 05:40"
  }
 ]
