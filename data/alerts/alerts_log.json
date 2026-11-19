@@ -73188,5 +73188,48 @@
    "accepted_kst": "11/20 02:29",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "MBRX-1795113222",
+  "ts_kst": "2026-11-20 03:33",
+  "ts_utc": "2026-11-19T18:33:42+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "MBRX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MBRX 장중 급등 포착",
+  "body": "$7.790 (+15.4%) · 정규장 · 레벨 2 · 점수 36\n시장에 도는 주식 1,948만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +15.4% · 거래량 평소의 3.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $7.300 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.3%) · 체결 가능성 약 47% · 손익분기 $7.388\n숏 지지구간 $6.000–$7.790 · 손절 $5.000 · 1차목표 $14.000\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-10-20\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.79,
+  "level": 2,
+  "score": 35.7,
+  "prob": 24.587706146926536,
+  "cp": 2.784446954947963,
+  "rl": 14.0,
+  "stop": 5.0,
+  "zone": [
+   6.0,
+   7.789999961853027
+  ],
+  "bp": 7.2999,
+  "tgt": 14.0,
+  "stp": 5.0,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-10-20",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160602001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160602001",
+  "grade": "open"
  }
 ]
