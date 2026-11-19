@@ -2,23 +2,6 @@
  {
   "ticker": "UMH",
   "form": "4",
-  "acc": "0000752642-26-000136",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T17:42:57+00:00",
-  "accepted_kst": "11/18 02:42",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $1,000 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Miller Kevin S.",
-  "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000136/0000752642-26-000136-index.htm",
-  "seen_kst": "2026-11-18 02:43"
- },
- {
-  "ticker": "UMH",
-  "form": "4",
   "acc": "0000752642-26-000137",
   "items": "",
   "filed": "2026-11-17",
@@ -8699,5 +8682,22 @@
   "headline": "Date and Time: November 13, 2026 02:11 PM Pacific Time Mailing Address: PO Box 9431 Stn Prov Govt Victoria BC V8W 9V3 www.corporateonline.gov.bc.ca Location: 2n",
   "url": "https://www.sec.gov/Archives/edgar/data/1680637/000149315226053222/0001493152-26-053222-index.htm",
   "seen_kst": "2026-11-20 05:05"
+ },
+ {
+  "ticker": "OSBC",
+  "form": "4",
+  "acc": "0001184766-26-000026",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T20:21:41+00:00",
+  "accepted_kst": "11/20 05:21",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/357173/000118476626000026/0001184766-26-000026-index.htm",
+  "seen_kst": "2026-11-20 05:23"
  }
 ]

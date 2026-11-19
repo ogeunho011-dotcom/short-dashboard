@@ -74216,5 +74216,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221118001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221118001",
   "grade": "open"
+ },
+ {
+  "id": "YFOR-1795119818",
+  "ts_kst": "2026-11-20 05:23",
+  "ts_utc": "2026-11-19T20:23:38+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "YFOR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +10.3% 급변 · 전일 대비 +4672.7% — 추격 매수 주의"
+  ],
+  "title": "⚡ YFOR 장중 급등 포착",
+  "body": "$1.050 (+4672.7%) · 정규장 · 레벨 3 · 점수 54\n공매도 물량 대부분 손해 중 · 한 달 고점 돌파 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 +10.3% 급변 · 전일 대비 +4672.7% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $0.997 지정가(기준가 $1.050의 −5%) · 체결 가능성 약 57% · 손익분기 $1.010\n숏 지지구간 $0.735–$0.735 · 손절 $0.525 · 1차목표 $2.200\n⚠ 역분할 2026-11-19\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.05,
+  "level": 3,
+  "score": 53.6,
+  "prob": 45.01661129568107,
+  "cp": 31.20717828604809,
+  "rl": 2.2,
+  "stop": 0.5249999761581421,
+  "zone": [
+   0.7349999666213989,
+   0.7349999666213989
+  ],
+  "bp": 0.9975,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-11-19"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240422006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240422006",
+  "grade": "n/a"
  }
 ]
