@@ -72848,5 +72848,83 @@
    "accepted_kst": "11/20 01:56",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "YMAT-1795109573",
+  "ts_kst": "2026-11-20 02:32",
+  "ts_utc": "2026-11-19T17:32:53+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "YMAT",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 40k (당일 평균 13.6배)"
+  ],
+  "title": "🚀 YMAT 거래량 급증",
+  "body": "$1.035 (+19.0%) · 정규장 · 레벨 3 · 점수 42\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,395만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 5분 거래량 40k (당일 평균 13.6배)\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.994 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.9%) · 체결 가능성 약 83% · 손익분기 $1.006\n숏 지지구간 $0.750–$1.000 · 손절 $0.517 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.035,
+  "level": 3,
+  "score": 41.5,
+  "prob": 21.428571428571427,
+  "cp": 3.5574274516729245,
+  "rl": 1.5,
+  "stop": 0.5174999833106995,
+  "zone": [
+   0.75,
+   1.0
+  ],
+  "bp": 0.9944,
+  "tgt": 1.5,
+  "stp": 0.5174999833106995,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250730006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250730006",
+  "grade": "open"
+ },
+ {
+  "id": "KRNT-1795109573",
+  "ts_kst": "2026-11-20 02:32",
+  "ts_utc": "2026-11-19T17:32:53+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "KRNT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.9% · 거래량 평소의 4.5배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KRNT 장중 급등 포착",
+  "body": "$14.800 (+15.9%) · 정규장 · 레벨 1 · 점수 22\n$15.50 넘으면 공매도 되사기 압박 ↑ · 최근 회사 공시 있음\n• 전일 대비 +15.9% · 거래량 평소의 4.5배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $14.060 지정가(기준가 $14.800의 −5%) · 체결 가능성 약 50% · 손익분기 $14.229\n숏 지지구간 $14.000–$14.500 · 손절 $13.500 · 1차목표 $15.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 14.7996,
+  "level": 1,
+  "score": 21.9,
+  "prob": 28.643216080402006,
+  "cp": 31.14153823099465,
+  "rl": 15.5,
+  "stop": 13.5,
+  "zone": [
+   14.0,
+   14.5
+  ],
+  "bp": 14.0596,
+  "tgt": 15.5,
+  "stp": 13.5,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150401001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150401001",
+  "grade": "open"
  }
 ]
