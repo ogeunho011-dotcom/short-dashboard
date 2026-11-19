@@ -73892,5 +73892,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221206003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221206003",
   "grade": "open"
+ },
+ {
+  "id": "YMAT-1795116916",
+  "ts_kst": "2026-11-20 04:35",
+  "ts_utc": "2026-11-19T19:35:16+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "YMAT",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 27k (당일 평균 6.9배)"
+  ],
+  "title": "🚀 YMAT 거래량 급증",
+  "body": "$1.080 (+24.1%) · 정규장 · 레벨 3 · 점수 53\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,395만 주뿐이라 쉽게 크게 움직임\n• 5분 거래량 27k (당일 평균 6.9배)\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.994 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.9%) · 체결 가능성 약 73% · 손익분기 $1.006\n숏 지지구간 $0.750–$1.000 · 손절 $0.540 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.08,
+  "level": 3,
+  "score": 52.8,
+  "prob": 38.456237077877326,
+  "cp": 4.770664779136425,
+  "rl": 1.5,
+  "stop": 0.5400000214576721,
+  "zone": [
+   0.75,
+   1.0
+  ],
+  "bp": 0.9944,
+  "tgt": 1.5,
+  "stp": 0.5400000214576721,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250730006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250730006",
+  "grade": "open"
+ },
+ {
+  "id": "KRNT-1795116916",
+  "ts_kst": "2026-11-20 04:35",
+  "ts_utc": "2026-11-19T19:35:16+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "KRNT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ KRNT 장중 급등 포착",
+  "body": "$14.740 (+15.4%) · 정규장 · 레벨 1 · 점수 24\n$15.50 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +15.4% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $14.003 지정가(기준가 $14.740의 −5%) · 체결 가능성 약 51% · 손익분기 $14.172\n숏 지지구간 $13.500–$14.000 · 손절 $13.250 · 1차목표 $15.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 14.74,
+  "level": 1,
+  "score": 24.0,
+  "prob": 28.643216080402006,
+  "cp": 28.74500651026529,
+  "rl": 15.5,
+  "stop": 13.25,
+  "zone": [
+   13.5,
+   14.0
+  ],
+  "bp": 14.003,
+  "tgt": 15.5,
+  "stp": 13.25,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150401001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150401001",
+  "grade": "open"
  }
 ]
