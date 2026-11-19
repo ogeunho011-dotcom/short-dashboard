@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "UMH",
-  "form": "4",
-  "acc": "0000752642-26-000137",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T17:44:55+00:00",
-  "accepted_kst": "11/18 02:44",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $1,000 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Mitchell William Edward",
-  "url": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000137/0000752642-26-000137-index.htm",
-  "seen_kst": "2026-11-18 02:46"
- },
- {
   "ticker": "MAIA",
   "form": "8-K",
   "acc": "0001493152-26-052720",
@@ -8699,5 +8682,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/357173/000118476626000026/0001184766-26-000026-index.htm",
   "seen_kst": "2026-11-20 05:23"
+ },
+ {
+  "ticker": "TROX",
+  "form": "4",
+  "acc": "0001140361-26-044904",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T20:25:38+00:00",
+  "accepted_kst": "11/20 05:25",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $38,998 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Jones Stephen J",
+  "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126044904/0001140361-26-044904-index.htm",
+  "seen_kst": "2026-11-20 05:28"
  }
 ]
