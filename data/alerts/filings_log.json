@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "AESI",
-  "form": "SCHEDULE 13G/A",
-  "acc": "0001172661-26-005368",
-  "items": "",
-  "filed": "2026-11-16",
-  "accepted": "2026-11-16T21:25:19+00:00",
-  "accepted_kst": "11/17 06:25",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1984060/000117266126005368/0001172661-26-005368-index.htm",
-  "seen_kst": "2026-11-18 03:11"
- },
- {
   "ticker": "BURU",
   "form": "NT 10-Q",
   "acc": "0001193125-26-464002",
@@ -8692,5 +8675,24 @@
   "headline": "United Bancorp, Inc. 201 South 4th at Hickory Street, Martins Ferry, OH 43935 Contact: Scott A. Everson Randall M. Greenwood Chairman, President and CEO Senior",
   "url": "https://www.sec.gov/Archives/edgar/data/731653/000110465926130093/0001104659-26-130093-index.htm",
   "seen_kst": "2026-11-20 05:45"
+ },
+ {
+  "ticker": "INLF",
+  "form": "424B5",
+  "acc": "0001213900-26-121997",
+  "items": "",
+  "filed": "2026-11-19",
+  "accepted": "2026-11-19T12:11:23+00:00",
+  "accepted_kst": "11/19 21:11",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1991592/000121390026121997/0001213900-26-121997-index.htm",
+  "seen_kst": "2026-11-20 05:53"
  }
 ]

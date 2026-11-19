@@ -69391,7 +69391,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20131230001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20131230001",
-  "grade": "open"
+  "grade": "miss",
+  "grade_day": 2,
+  "grade_ret": -0.18632249391799294,
+  "graded_bars": 2
  },
  {
   "id": "RAIN-1794944335",
@@ -74351,5 +74354,88 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220112004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220112004",
   "grade": "open"
+ },
+ {
+  "id": "BDMD-1795121595",
+  "ts_kst": "2026-11-20 05:53",
+  "ts_utc": "2026-11-19T20:53:15+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "BDMD",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 490k (당일 평균 11.7배)"
+  ],
+  "title": "🚀 BDMD 거래량 급증",
+  "body": "$0.100 (+25.9%) · 정규장 · 레벨 3 · 점수 43\n최근 회사 공시 있음 · $1 미만, 상장폐지 주의\n• 5분 거래량 490k (당일 평균 11.7배)\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $0.094 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.5%) · 체결 가능성 약 84% · 손익분기 $0.095\n숏 지지구간 $0.070–$0.100 · 손절 $0.050 · 1차목표 $0.200\n⚠ 희석 위험 70/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.0995,
+  "level": 3,
+  "score": 42.8,
+  "prob": 21.428571428571427,
+  "cp": 6.33555636916495,
+  "rl": 0.2,
+  "stop": 0.04975000023841858,
+  "zone": [
+   0.069650000333786,
+   0.09950000047683716
+  ],
+  "bp": 0.094,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "희석 위험 70/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211213015%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211213015",
+  "grade": "n/a"
+ },
+ {
+  "id": "INLF-1795121595",
+  "ts_kst": "2026-11-20 05:53",
+  "ts_utc": "2026-11-19T20:53:15+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "INLF",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 87k (당일 평균 6.1배)"
+  ],
+  "title": "🚀 INLF 거래량 급증",
+  "body": "$0.270 (+18.9%) · 정규장 · 레벨 3 · 점수 43\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 640만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 5분 거래량 87k (당일 평균 6.1배)\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $0.256 지정가(기준가 $0.270의 −5%) · 체결 가능성 약 85% · 손익분기 $0.260\n숏 지지구간 $0.189–$0.270 · 손절 $0.135 · 1차목표 $0.405\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 10/20)\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/18)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2699,
+  "level": 3,
+  "score": 43.4,
+  "prob": 38.456237077877326,
+  "cp": 28.850862317343683,
+  "rl": 1.0,
+  "stop": 0.13494999706745148,
+  "zone": [
+   0.18892999589443205,
+   0.26989999413490295
+  ],
+  "bp": 0.2564,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 10/20)",
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/18)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250102004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250102004",
+  "grade": "n/a"
  }
 ]
