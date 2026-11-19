@@ -73231,5 +73231,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20160602001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20160602001",
   "grade": "open"
+ },
+ {
+  "id": "SCOR-1795114518",
+  "ts_kst": "2026-11-20 03:55",
+  "ts_utc": "2026-11-19T18:55:18+00:00",
+  "date_et": "2026-11-19",
+  "session": "regular",
+  "ticker": "SCOR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.2% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ SCOR 장중 급등 포착",
+  "body": "$3.390 (+20.2%) · 정규장 · 레벨 1 · 점수 22\n$3.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,518만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +20.2% · 거래량 평소의 7.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $3.192 지정가(20일선, 기준가 대비 -5.8%) · 체결 가능성 약 58% · 손익분기 $3.231\n숏 지지구간 $2.750–$3.000 · 손절 $2.625 · 1차목표 $3.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.39,
+  "level": 1,
+  "score": 21.7,
+  "prob": 47.808764940239065,
+  "cp": 25.771960505657532,
+  "rl": 3.75,
+  "stop": 2.625,
+  "zone": [
+   2.75,
+   3.0
+  ],
+  "bp": 3.1925,
+  "tgt": 3.75,
+  "stp": 2.625,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180601003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180601003",
+  "grade": "open"
  }
 ]
