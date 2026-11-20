@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "EVMN",
-  "form": "424B3",
-  "acc": "0001193125-26-465623",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T21:35:13+00:00",
-  "accepted_kst": "11/18 06:35",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2044725/000119312526465623/0001193125-26-465623-index.htm",
-  "seen_kst": "2026-11-18 06:38"
- },
- {
-  "ticker": "BBOT",
-  "form": "4",
-  "acc": "0001193125-26-465625",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T21:35:23+00:00",
-  "accepted_kst": "11/18 06:35",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1869105/000119312526465625/0001193125-26-465625-index.htm",
-  "seen_kst": "2026-11-18 06:38"
- },
- {
   "ticker": "NABL",
   "form": "8-K",
   "acc": "0001834488-26-000060",
@@ -8697,5 +8661,39 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1130144/000113014426000082/0001130144-26-000082-index.htm",
   "seen_kst": "2026-11-21 04:47"
+ },
+ {
+  "ticker": "YORW",
+  "form": "4",
+  "acc": "0000108985-26-000099",
+  "items": "",
+  "filed": "2026-11-20",
+  "accepted": "2026-11-20T19:46:39+00:00",
+  "accepted_kst": "11/21 04:46",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $1,000 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Brossman Douglas S",
+  "url": "https://www.sec.gov/Archives/edgar/data/108985/000010898526000099/0000108985-26-000099-index.htm",
+  "seen_kst": "2026-11-21 04:50"
+ },
+ {
+  "ticker": "BSRR",
+  "form": "4",
+  "acc": "0001130144-26-000084",
+  "items": "",
+  "filed": "2026-11-20",
+  "accepted": "2026-11-20T19:48:55+00:00",
+  "accepted_kst": "11/21 04:48",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1130144/000113014426000084/0001130144-26-000084-index.htm",
+  "seen_kst": "2026-11-21 04:50"
  }
 ]
