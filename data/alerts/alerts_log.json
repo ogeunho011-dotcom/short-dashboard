@@ -77208,5 +77208,325 @@
    "accepted_kst": "11/20 06:21",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "NXAT-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "NXAT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +145.5% · 거래량 평소의 1592.6배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ NXAT 장중 급등 포착",
+  "body": "$0.550 (+145.5%) · 정규장 · 레벨 3 · 점수 47\n오늘 거래량 평소의 50배 이상, 관심 급증 · 한 달 고점 돌파 · 갭 상승 후 밀리는 중\n• 전일 대비 +145.5% · 거래량 평소의 1592.6배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 29%\n추천 매수가 $0.523 지정가(기준가 $0.550의 −5%) · 체결 가능성 약 78% · 손익분기 $0.529\n숏 지지구간 $0.385–$0.500 · 손절 $0.275 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.55,
+  "level": 3,
+  "score": 47.3,
+  "prob": 28.834355828220865,
+  "cp": 7.474128294342515,
+  "rl": 1.0,
+  "stop": 0.2750000059604645,
+  "zone": [
+   0.38500000834465026,
+   0.5
+  ],
+  "bp": 0.5225,
+  "tgt": 1.0,
+  "stp": 0.2750000059604645,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221110003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221110003",
+  "grade": "open"
+ },
+ {
+  "id": "MEDS-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "MEDS",
+  "types": [
+   "prob",
+   "rvol"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "5분 거래량 901k (당일 평균 10.8배)"
+  ],
+  "title": "🚀 MEDS 상위 확률 신호 · 거래량 급증",
+  "body": "$1.325 (+82.0%) · 정규장 · 레벨 3 · 점수 46\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 572만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 검증 모델 상위 신호 (보정확률 53%)\n• 5분 거래량 901k (당일 평균 10.8배)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.322 지정가(20일선, 기준가 대비 -0.2%) · 체결 가능성 약 85% · 손익분기 $1.338\n숏 지지구간 $0.928–$1.000 · 손절 $0.663 · 1차목표 $1.500\n⚠ 424B 증자 설명서 2건 (30일 내, 최근 11/17)\n⚠ 희석 위험 85/100\n⚠ 최근 악재 공시: 424B5 증자 서류(424B5) (11/17)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.325,
+  "level": 3,
+  "score": 46.0,
+  "prob": 52.91666666666666,
+  "cp": 32.90726817751012,
+  "rl": 1.5,
+  "stop": 0.6625000238418579,
+  "zone": [
+   0.927500033378601,
+   1.0
+  ],
+  "bp": 1.3221,
+  "tgt": 1.5,
+  "stp": 0.6625000238418579,
+  "penalties": [
+   "424B 증자 설명서 2건 (30일 내, 최근 11/17)",
+   "희석 위험 85/100",
+   "최근 악재 공시: 424B5 증자 서류(424B5) (11/17)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250221004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250221004",
+  "grade": "open"
+ },
+ {
+  "id": "CIGL-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "CIGL",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +55.9% · 거래량 평소의 91.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CIGL 장중 급등 포착",
+  "body": "$0.265 (+55.9%) · 정규장 · 레벨 3 · 점수 45\n$0.300 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +55.9% · 거래량 평소의 91.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.252 지정가(기준가 $0.265의 −5%) · 체결 가능성 약 78% · 손익분기 $0.255\n숏 지지구간 $0.200–$0.250 · 손절 $0.150 · 1차목표 $0.300\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.265,
+  "level": 3,
+  "score": 45.2,
+  "prob": 31.25,
+  "cp": 23.3599115359512,
+  "rl": 0.3,
+  "stop": 0.15000000000000002,
+  "zone": [
+   0.2,
+   0.25
+  ],
+  "bp": 0.2517,
+  "tgt": 0.3,
+  "stp": 0.15000000000000002,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250422002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250422002",
+  "grade": "open"
+ },
+ {
+  "id": "LVWR-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "LVWR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +43.6% · 거래량 평소의 10.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ LVWR 장중 급등 포착",
+  "body": "$0.937 (+43.6%) · 정규장 · 레벨 2 · 점수 39\n공매도 물량 대부분 손해 중, $1.00 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 21배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +43.6% · 거래량 평소의 10.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 42%\n추천 매수가 $0.891 지정가(기준가 $0.937의 −5%) · 체결 가능성 약 73% · 손익분기 $0.901\n숏 지지구간 $0.656–$0.656 · 손절 $0.469 · 1차목표 $1.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.9374,
+  "level": 2,
+  "score": 39.1,
+  "prob": 41.509433962264154,
+  "cp": 73.19378749514686,
+  "rl": 1.0,
+  "stop": 0.46869999170303345,
+  "zone": [
+   0.6561799883842467,
+   0.6561799883842467
+  ],
+  "bp": 0.8905,
+  "tgt": 1.0,
+  "stp": 0.46869999170303345,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201123012%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201123012",
+  "grade": "open"
+ },
+ {
+  "id": "BNAI-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "BNAI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.0% · 거래량 평소의 13.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BNAI 장중 급등 포착",
+  "body": "$3.342 (+30.0%) · 정규장 · 레벨 2 · 점수 35\n$4.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 749만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +30.0% · 거래량 평소의 13.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $3.243 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.0%) · 체결 가능성 약 81% · 손익분기 $3.283\n숏 지지구간 $2.000–$3.000 · 손절 $1.671 · 1차목표 $4.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.3421,
+  "level": 2,
+  "score": 34.9,
+  "prob": 47.808764940239065,
+  "cp": 45.155356483117416,
+  "rl": 4.0,
+  "stop": 1.671049952507019,
+  "zone": [
+   2.0,
+   3.0
+  ],
+  "bp": 3.2434,
+  "tgt": 4.0,
+  "stp": 1.671049952507019,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210422005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210422005",
+  "grade": "open"
+ },
+ {
+  "id": "AKAN-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "AKAN",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +19.8% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AKAN 장중 급등 포착",
+  "body": "$4.110 (+19.8%) · 정규장 · 레벨 2 · 점수 36\n공매도 물량 대부분 손해 중, $6.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 198만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +19.8% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $3.905 지정가(기준가 $4.110의 −5%) · 체결 가능성 약 75% · 손익분기 $3.952\n숏 지지구간 $4.000–$4.110 · 손절 $3.000 · 1차목표 $6.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 4.11,
+  "level": 2,
+  "score": 35.9,
+  "prob": 45.01661129568107,
+  "cp": 48.14074404884042,
+  "rl": 6.0,
+  "stop": 3.0,
+  "zone": [
+   4.0,
+   4.110000133514404
+  ],
+  "bp": 3.9045,
+  "tgt": 6.0,
+  "stp": 3.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0230309002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0230309002",
+  "grade": "open"
+ },
+ {
+  "id": "ALDX-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "ALDX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.4% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ALDX 장중 급등 포착",
+  "body": "$0.840 (+16.4%) · 정규장 · 레벨 2 · 점수 27\n$1.10 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.4% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.798 지정가(기준가 $0.840의 −5%) · 체결 가능성 약 62% · 손익분기 $0.808\n숏 지지구간 $0.800–$0.840 · 손절 $0.700 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8401,
+  "level": 2,
+  "score": 27.0,
+  "prob": 52.91666666666666,
+  "cp": 22.02076302867892,
+  "rl": 1.0999999999999999,
+  "stop": 0.7,
+  "zone": [
+   0.7999999999999999,
+   0.8400999903678894
+  ],
+  "bp": 0.7981,
+  "tgt": 1.0999999999999999,
+  "stp": 0.7,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140411001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140411001",
+  "grade": "open"
+ },
+ {
+  "id": "OPHI-1795208402",
+  "ts_kst": "2026-11-21 06:00",
+  "ts_utc": "2026-11-20T21:00:02+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "OPHI",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +15.6% 급변 · 전일 대비 +15.3% — 추격 매수 주의"
+  ],
+  "title": "⚡ OPHI 장중 급등 포착",
+  "body": "$3.700 (+15.3%) · 정규장 · 레벨 2 · 점수 37\n$4.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,280만 주뿐이라 쉽게 크게 움직임\n• 5분 +15.6% 급변 · 전일 대비 +15.3% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $3.447 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -6.8%) · 체결 가능성 약 61% · 손익분기 $3.489\n숏 지지구간 $2.500–$3.000 · 손절 $2.000 · 1차목표 $4.500\n⚠ 역분할 2026-09-04\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.7,
+  "level": 2,
+  "score": 37.4,
+  "prob": 38.456237077877326,
+  "cp": 8.435665359717067,
+  "rl": 4.5,
+  "stop": 2.0,
+  "zone": [
+   2.5,
+   3.0
+  ],
+  "bp": 3.4474,
+  "tgt": 4.5,
+  "stp": 2.0,
+  "penalties": [
+   "역분할 2026-09-04"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252F%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fwww.tossinvest.com%2F",
+  "grade": "open"
  }
 ]
