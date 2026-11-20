@@ -2,23 +2,6 @@
  {
   "ticker": "PCRX",
   "form": "S-8 POS",
-  "acc": "0001140361-26-044518",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T21:30:23+00:00",
-  "accepted_kst": "11/18 06:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1396814/000114036126044518/0001140361-26-044518-index.htm",
-  "seen_kst": "2026-11-18 06:38"
- },
- {
-  "ticker": "PCRX",
-  "form": "S-8 POS",
   "acc": "0001140361-26-044517",
   "items": "",
   "filed": "2026-11-17",
@@ -8696,5 +8679,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2063863/000110465926130517/0001104659-26-130517-index.htm",
   "seen_kst": "2026-11-21 02:30"
+ },
+ {
+  "ticker": "NEXN",
+  "form": "4",
+  "acc": "0001178913-26-005310",
+  "items": "",
+  "filed": "2026-11-20",
+  "accepted": "2026-11-20T17:29:51+00:00",
+  "accepted_kst": "11/21 02:29",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1849396/000117891326005310/0001178913-26-005310-index.htm",
+  "seen_kst": "2026-11-21 02:32"
  }
 ]
