@@ -76062,5 +76062,85 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0241003003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0241003003",
   "grade": "n/a"
+ },
+ {
+  "id": "OLB-1795199262",
+  "ts_kst": "2026-11-21 03:27",
+  "ts_utc": "2026-11-20T18:27:42+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "OLB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.4% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ OLB 장중 급등 포착",
+  "body": "$0.140 (+16.4%) · 정규장 · 레벨 2 · 점수 30\n오늘 거래량 평소의 4배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +16.4% · 거래량 평소의 3.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.133 지정가(기준가 $0.140의 −5%) · 체결 가능성 약 74% · 손익분기 $0.135\n숏 지지구간 $0.115–$0.140 · 손절 $0.090 · 1차목표 $0.400\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1399,
+  "level": 2,
+  "score": 29.5,
+  "prob": 24.587706146926536,
+  "cp": 2.1635663608876117,
+  "rl": 0.40000000000000013,
+  "stop": 0.08960000276565552,
+  "zone": [
+   0.11460000276565552,
+   0.13989999890327454
+  ],
+  "bp": 0.1329,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200807003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200807003",
+  "grade": "n/a"
+ },
+ {
+  "id": "ALDX-1795199262",
+  "ts_kst": "2026-11-21 03:27",
+  "ts_utc": "2026-11-20T18:27:42+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "ALDX",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +15.4% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ALDX 장중 급등 포착",
+  "body": "$0.833 (+15.4%) · 정규장 · 레벨 1 · 점수 25\n$1.10 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 전일 대비 +15.4% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.792 지정가(기준가 $0.833의 −5%) · 체결 가능성 약 61% · 손익분기 $0.801\n숏 지지구간 $0.800–$0.833 · 손절 $0.700 · 1차목표 $1.100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8334,
+  "level": 1,
+  "score": 24.6,
+  "prob": 53.17613034410057,
+  "cp": 22.02080682658399,
+  "rl": 1.0999999999999999,
+  "stop": 0.7,
+  "zone": [
+   0.7999999999999999,
+   0.8334000110626221
+  ],
+  "bp": 0.7917,
+  "tgt": 1.0999999999999999,
+  "stp": 0.7,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20140411001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20140411001",
+  "grade": "open"
  }
 ]
