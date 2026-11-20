@@ -75930,5 +75930,46 @@
    "accepted_kst": "11/20 07:58",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "AEMD-1795197903",
+  "ts_kst": "2026-11-21 03:05",
+  "ts_utc": "2026-11-20T18:05:03+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "AEMD",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.1% · 거래량 평소의 5.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ AEMD 장중 급등 포착",
+  "body": "$5.620 (+16.1%) · 정규장 · 레벨 3 · 점수 48\n$6.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 161만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.1% · 거래량 평소의 5.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $5.373 지정가(20일선, 기준가 대비 -4.4%) · 체결 가능성 약 51% · 손익분기 $5.437\n숏 지지구간 $3.934–$3.934 · 손절 $2.810 · 1차목표 $6.500\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.62,
+  "level": 3,
+  "score": 48.1,
+  "prob": 38.456237077877326,
+  "cp": 14.545718398497588,
+  "rl": 6.5,
+  "stop": 2.809999942779541,
+  "zone": [
+   3.9339999198913573,
+   3.9339999198913573
+  ],
+  "bp": 5.3725,
+  "tgt": 6.5,
+  "stp": 2.809999942779541,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150713001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150713001",
+  "grade": "open"
  }
 ]
