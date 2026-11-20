@@ -75646,5 +75646,86 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170508001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170508001",
   "grade": "open"
+ },
+ {
+  "id": "ELOG-1795194254",
+  "ts_kst": "2026-11-21 02:04",
+  "ts_utc": "2026-11-20T17:04:14+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "ELOG",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.9% · 거래량 평소의 6.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ELOG 장중 급등 포착",
+  "body": "$1.840 (+26.9%) · 정규장 · 레벨 2 · 점수 28\n공매도 물량 대부분 손해 중, $1.90 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,283만 주뿐이라 쉽게 크게 움직임 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +26.9% · 거래량 평소의 6.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $1.748 지정가(기준가 $1.840의 −5%) · 체결 가능성 약 62% · 손익분기 $1.769\n숏 지지구간 $1.500–$1.619 · 손절 $1.400 · 1차목표 $1.900\n⚠ 424B 증자 설명서 1건 (30일 내, 최근 11/19)\n⚠ 최근 악재 공시: 424B4 증자 서류(424B4) (11/19)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.84,
+  "level": 2,
+  "score": 27.6,
+  "prob": 45.01661129568107,
+  "cp": 76.82706817586542,
+  "rl": 1.8999999999999997,
+  "stop": 1.3999999999999997,
+  "zone": [
+   1.4999999999999998,
+   1.6190000116825103
+  ],
+  "bp": 1.748,
+  "tgt": 1.8999999999999997,
+  "stp": 1.3999999999999997,
+  "penalties": [
+   "424B 증자 설명서 1건 (30일 내, 최근 11/19)",
+   "최근 악재 공시: 424B4 증자 서류(424B4) (11/19)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250828002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250828002",
+  "grade": "open"
+ },
+ {
+  "id": "CABO-1795194254",
+  "ts_kst": "2026-11-21 02:04",
+  "ts_utc": "2026-11-20T17:04:14+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "CABO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +16.2% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ CABO 장중 급등 포착",
+  "body": "$2.660 (+16.2%) · 정규장 · 레벨 1 · 점수 21\n시장에 도는 주식 568만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +16.2% · 거래량 평소의 3.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $2.527 지정가(기준가 $2.660의 −5%) · 체결 가능성 약 79% · 손익분기 $2.558\n숏 지지구간 $2.000–$2.660 · 손절 $1.330 · 1차목표 $6.200\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.66,
+  "level": 1,
+  "score": 21.3,
+  "prob": 24.587706146926536,
+  "cp": 4.84,
+  "rl": 8.0,
+  "stop": 1.3300000429153442,
+  "zone": [
+   2.0,
+   2.6600000858306885
+  ],
+  "bp": 2.527,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20150702004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20150702004",
+  "grade": "n/a"
  }
 ]
