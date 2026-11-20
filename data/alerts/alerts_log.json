@@ -75607,5 +75607,44 @@
    "accepted_kst": "11/21 01:57",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "UONE-1795194101",
+  "ts_kst": "2026-11-21 02:01",
+  "ts_utc": "2026-11-20T17:01:41+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "UONE",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.9% · 거래량 평소의 5.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ UONE 장중 급등 포착",
+  "body": "$2.425 (+18.9%) · 정규장 · 레벨 1 · 점수 19\n$2.75 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 173만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +18.9% · 거래량 평소의 5.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $2.304 지정가(기준가 $2.425의 −5%) · 체결 가능성 약 71% · 손익분기 $2.332\n숏 지지구간 $2.000–$2.250 · 손절 $1.875 · 1차목표 $2.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 2.425,
+  "level": 1,
+  "score": 18.7,
+  "prob": 31.25,
+  "cp": 34.195459739107434,
+  "rl": 2.75,
+  "stop": 1.875,
+  "zone": [
+   2.0,
+   2.25
+  ],
+  "bp": 2.3037,
+  "tgt": 2.75,
+  "stp": 1.875,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20170508001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20170508001",
+  "grade": "open"
  }
 ]
