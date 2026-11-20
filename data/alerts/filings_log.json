@@ -2,23 +2,6 @@
  {
   "ticker": "PCRX",
   "form": "S-8 POS",
-  "acc": "0001140361-26-044519",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T21:30:23+00:00",
-  "accepted_kst": "11/18 06:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1396814/000114036126044519/0001140361-26-044519-index.htm",
-  "seen_kst": "2026-11-18 06:38"
- },
- {
-  "ticker": "PCRX",
-  "form": "S-8 POS",
   "acc": "0001140361-26-044518",
   "items": "",
   "filed": "2026-11-17",
@@ -8694,5 +8677,24 @@
   "headline": "Item 1.01 Entry into a Material Definitive Agreement On November 18, 2026, Nature's Sunshine Products, Inc. (the \"Company\"), as borrower, and Bank of America, N",
   "url": "https://www.sec.gov/Archives/edgar/data/275053/000162828026075198/0001628280-26-075198-index.htm",
   "seen_kst": "2026-11-21 02:24"
+ },
+ {
+  "ticker": "ELWT",
+  "form": "424B3",
+  "acc": "0001104659-26-130517",
+  "items": "",
+  "filed": "2026-11-20",
+  "accepted": "2026-11-20T17:28:07+00:00",
+  "accepted_kst": "11/21 02:28",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2063863/000110465926130517/0001104659-26-130517-index.htm",
+  "seen_kst": "2026-11-21 02:30"
  }
 ]
