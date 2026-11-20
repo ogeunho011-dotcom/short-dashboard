@@ -76997,5 +76997,44 @@
    "accepted_kst": "11/21 04:44",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "FLNT-1795204514",
+  "ts_kst": "2026-11-21 04:55",
+  "ts_utc": "2026-11-20T19:55:14+00:00",
+  "date_et": "2026-11-20",
+  "session": "regular",
+  "ticker": "FLNT",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +20.1% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ FLNT 장중 급등 포착",
+  "body": "$3.891 (+20.1%) · 정규장 · 레벨 2 · 점수 26\n공매도 물량 대부분 손해 중, $3.90 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +20.1% · 거래량 평소의 3.1배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $3.696 지정가(기준가 $3.891의 −5%) · 체결 가능성 약 71% · 손익분기 $3.741\n숏 지지구간 $3.200–$3.442 · 손절 $3.100 · 1차목표 $3.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.8907,
+  "level": 2,
+  "score": 25.8,
+  "prob": 48.276885720507174,
+  "cp": 50.98827544664492,
+  "rl": 3.9000000000000017,
+  "stop": 3.100000000000001,
+  "zone": [
+   3.200000000000001,
+   3.4417450356483466
+  ],
+  "bp": 3.6962,
+  "tgt": 4.200000000000002,
+  "stp": 3.100000000000001,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180416001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180416001",
+  "grade": "open"
  }
 ]
