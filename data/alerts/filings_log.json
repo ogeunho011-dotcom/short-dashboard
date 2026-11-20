@@ -2,23 +2,6 @@
  {
   "ticker": "PCRX",
   "form": "S-8 POS",
-  "acc": "0001140361-26-044513",
-  "items": "",
-  "filed": "2026-11-17",
-  "accepted": "2026-11-17T21:30:23+00:00",
-  "accepted_kst": "11/18 06:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1396814/000114036126044513/0001140361-26-044513-index.htm",
-  "seen_kst": "2026-11-18 06:38"
- },
- {
-  "ticker": "PCRX",
-  "form": "S-8 POS",
   "acc": "0001140361-26-044512",
   "items": "",
   "filed": "2026-11-17",
@@ -8698,5 +8681,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1825875/000216562726000002/0002165627-26-000002-index.htm",
   "seen_kst": "2026-11-21 02:55"
+ },
+ {
+  "ticker": "CWD",
+  "form": "8-K",
+  "acc": "0001627282-26-000090",
+  "items": "7.01,9.01",
+  "filed": "2026-11-20",
+  "accepted": "2026-11-20T17:56:36+00:00",
+  "accepted_kst": "11/21 02:56",
+  "polarity": "neutral",
+  "label": "IR 자료",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "attached hereto, shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or deemed incor",
+  "url": "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000090/0001627282-26-000090-index.htm",
+  "seen_kst": "2026-11-21 02:57"
  }
 ]
