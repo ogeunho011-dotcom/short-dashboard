@@ -1,43 +1,5 @@
 [
  {
-  "ticker": "IBO",
-  "form": "8-K",
-  "acc": "0001493152-26-053017",
-  "items": "2.01,3.01,3.03,5.01,5.02,5.03,9.01",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T15:06:38+00:00",
-  "accepted_kst": "11/19 00:06",
-  "polarity": "neg",
-  "label": "역분할",
-  "cats": [],
-  "negs": [
-   "역분할",
-   "상장 유지 기준 미달 통지(항목 3.01)",
-   "주주 권리 변경(역분할 등)(항목 3.03)"
-  ],
-  "strength": 0,
-  "headline": "Item 2.01. Completion of Acquisition or Disposition of Assets. Pursuant to the Merger Agreement, on November 17, 2026 (the “ Closing Date ”), (i) Merger Sub mer",
-  "url": "https://www.sec.gov/Archives/edgar/data/1834105/000149315226053017/0001493152-26-053017-index.htm",
-  "seen_kst": "2026-11-19 02:13"
- },
- {
-  "ticker": "EDRY",
-  "form": "4",
-  "acc": "0002127484-26-000022",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T15:31:16+00:00",
-  "accepted_kst": "11/19 00:31",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $43,068 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Pittas Aristeidis P",
-  "url": "https://www.sec.gov/Archives/edgar/data/1731388/000212748426000022/0002127484-26-000022-index.htm",
-  "seen_kst": "2026-11-19 02:13"
- },
- {
   "ticker": "FTK",
   "form": "4",
   "acc": "0000928054-26-000107",
@@ -8690,5 +8652,39 @@
   "headline": "WILSON DAVID",
   "url": "https://www.sec.gov/Archives/edgar/data/1964333/000120884226000016/0001208842-26-000016-index.htm",
   "seen_kst": "2026-11-24 05:40"
+ },
+ {
+  "ticker": "CIA",
+  "form": "4",
+  "acc": "0002120865-26-000011",
+  "items": "",
+  "filed": "2026-11-23",
+  "accepted": "2026-11-23T20:58:49+00:00",
+  "accepted_kst": "11/24 05:58",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $19,329 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Hoxworth Seth Alan",
+  "url": "https://www.sec.gov/Archives/edgar/data/24090/000212086526000011/0002120865-26-000011-index.htm",
+  "seen_kst": "2026-11-24 06:00"
+ },
+ {
+  "ticker": "EIC",
+  "form": "497AD",
+  "acc": "0001104659-26-131048",
+  "items": "",
+  "filed": "2026-11-23",
+  "accepted": "2026-11-23T20:58:51+00:00",
+  "accepted_kst": "11/24 05:58",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1754836/000110465926131048/0001104659-26-131048-index.htm",
+  "seen_kst": "2026-11-24 06:00"
  }
 ]
