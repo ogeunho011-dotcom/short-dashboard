@@ -1,23 +1,6 @@
 [
  {
   "ticker": "TOPS",
-  "form": "6-K",
-  "acc": "0001171843-26-007549",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T15:00:04+00:00",
-  "accepted_kst": "11/19 00:00",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): Note: Regulation S-T Rule 101(b)(1)",
-  "url": "https://www.sec.gov/Archives/edgar/data/1296484/000117184326007549/0001171843-26-007549-index.htm",
-  "seen_kst": "2026-11-19 02:13"
- },
- {
-  "ticker": "TOPS",
   "form": "424B3",
   "acc": "0001171843-26-007550",
   "items": "",
@@ -8692,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000070/0000357301-26-000070-index.htm",
   "seen_kst": "2026-11-24 05:27"
+ },
+ {
+  "ticker": "BAFN",
+  "form": "4",
+  "acc": "0001439930-26-000007",
+  "items": "",
+  "filed": "2026-11-23",
+  "accepted": "2026-11-23T20:27:28+00:00",
+  "accepted_kst": "11/24 05:27",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1649739/000143993026000007/0001439930-26-000007-index.htm",
+  "seen_kst": "2026-11-24 05:30"
  }
 ]
