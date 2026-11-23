@@ -78568,5 +78568,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231003002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231003002",
   "grade": "open"
+ },
+ {
+  "id": "ATHR-1795465944",
+  "ts_kst": "2026-11-24 05:32",
+  "ts_utc": "2026-11-23T20:32:24+00:00",
+  "date_et": "2026-11-23",
+  "session": "regular",
+  "ticker": "ATHR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.9% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ATHR 장중 급등 포착",
+  "body": "$1.090 (+26.9%) · 정규장 · 레벨 2 · 점수 30\n시장에 도는 주식 1,224만 주뿐이라 쉽게 크게 움직임 · 최근 회사 공시 있음\n• 전일 대비 +26.9% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 21%\n추천 매수가 $1.036 지정가(기준가 $1.090의 −5%) · 체결 가능성 약 84% · 손익분기 $1.048\n숏 지지구간 $0.750–$1.000 · 손절 $0.545 · 1차목표 $1.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.09,
+  "level": 2,
+  "score": 30.0,
+  "prob": 21.428571428571427,
+  "cp": 6.988958025074289,
+  "rl": 1.75,
+  "stop": 0.5450000166893005,
+  "zone": [
+   0.75,
+   1.0
+  ],
+  "bp": 1.0355,
+  "tgt": 1.75,
+  "stp": 0.5450000166893005,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250410001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250410001",
+  "grade": "open"
  }
 ]
