@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IBO",
-  "form": "25-NSE",
-  "acc": "0001143313-26-000059",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T14:28:28+00:00",
-  "accepted_kst": "11/18 23:28",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1834105/000114331326000059/0001143313-26-000059-index.htm",
-  "seen_kst": "2026-11-19 02:13"
- },
- {
   "ticker": "RSSS",
   "form": "8-K",
   "acc": "0001104659-26-129400",
@@ -8692,5 +8675,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000064/0000357301-26-000064-index.htm",
   "seen_kst": "2026-11-24 05:22"
+ },
+ {
+  "ticker": "TRST",
+  "form": "4",
+  "acc": "0000357301-26-000066",
+  "items": "",
+  "filed": "2026-11-23",
+  "accepted": "2026-11-23T20:22:40+00:00",
+  "accepted_kst": "11/24 05:22",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000066/0000357301-26-000066-index.htm",
+  "seen_kst": "2026-11-24 05:24"
  }
 ]
