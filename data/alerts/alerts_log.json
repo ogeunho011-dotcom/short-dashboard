@@ -78529,5 +78529,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19771011001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19771011001",
   "grade": "open"
+ },
+ {
+  "id": "MSS-1795464915",
+  "ts_kst": "2026-11-24 05:15",
+  "ts_utc": "2026-11-23T20:15:15+00:00",
+  "date_et": "2026-11-23",
+  "session": "regular",
+  "ticker": "MSS",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 113k (당일 평균 37.0배)"
+  ],
+  "title": "🚀 MSS 거래량 급증",
+  "body": "$1.190 (+8.2%) · 정규장 · 레벨 3 · 점수 41\n$1.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 39만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 5분 거래량 113k (당일 평균 37.0배)\n10일 내 셋업 성공 확률(보정): 38%\n추천 매수가 $1.179 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -0.9%) · 체결 가능성 약 85% · 손익분기 $1.193\n숏 지지구간 $0.750–$1.000 · 손절 $0.595 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.19,
+  "level": 3,
+  "score": 40.6,
+  "prob": 38.456237077877326,
+  "cp": 20.497762160866333,
+  "rl": 1.5,
+  "stop": 0.5950000286102295,
+  "zone": [
+   0.75,
+   1.0
+  ],
+  "bp": 1.179,
+  "tgt": 1.5,
+  "stp": 0.5950000286102295,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0231003002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0231003002",
+  "grade": "open"
  }
 ]
