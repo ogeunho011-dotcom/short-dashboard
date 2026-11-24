@@ -80354,5 +80354,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250227006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250227006",
   "grade": "n/a"
+ },
+ {
+  "id": "ALXO-1795552278",
+  "ts_kst": "2026-11-25 05:31",
+  "ts_utc": "2026-11-24T20:31:18+00:00",
+  "date_et": "2026-11-24",
+  "session": "regular",
+  "ticker": "ALXO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +36.2% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ALXO 장중 급등 포착",
+  "body": "$1.580 (+36.2%) · 정규장 · 레벨 2 · 점수 29\n공매도 물량 대부분 손해 중, $1.70 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +36.2% · 거래량 평소의 3.0배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.501 지정가(기준가 $1.580의 −5%) · 체결 가능성 약 63% · 손익분기 $1.519\n숏 지지구간 $1.500–$1.580 · 손절 $1.400 · 1차목표 $1.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.58,
+  "level": 2,
+  "score": 28.8,
+  "prob": 53.44827586206896,
+  "cp": 55.54509697355442,
+  "rl": 1.6999999999999997,
+  "stop": 1.4,
+  "zone": [
+   1.5,
+   1.5800000429153442
+  ],
+  "bp": 1.501,
+  "tgt": 1.6999999999999997,
+  "stp": 1.4,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200716001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200716001",
+  "grade": "open"
  }
 ]
