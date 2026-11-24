@@ -80017,5 +80017,91 @@
    "accepted_kst": "11/25 03:46",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "IBIO-1795548848",
+  "ts_kst": "2026-11-25 04:34",
+  "ts_utc": "2026-11-24T19:34:08+00:00",
+  "date_et": "2026-11-24",
+  "session": "regular",
+  "ticker": "IBIO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +34.4% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ IBIO 장중 급등 포착",
+  "body": "$1.075 (+34.4%) · 정규장 · 레벨 2 · 점수 36\n$1.15 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 4배 이상, 관심 급증\n• 전일 대비 +34.4% · 거래량 평소의 3.8배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.021 지정가(기준가 $1.075의 −5%) · 체결 가능성 약 54% · 손익분기 $1.034\n숏 지지구간 $1.050–$1.075 · 손절 $1.000 · 1차목표 $1.150\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.075,
+  "level": 2,
+  "score": 35.5,
+  "prob": 53.44827586206896,
+  "cp": 49.65001936089843,
+  "rl": 1.1500000000000004,
+  "stop": 1.0000000000000002,
+  "zone": [
+   1.0500000000000003,
+   1.0750000476837158
+  ],
+  "bp": 1.0213,
+  "tgt": 1.1500000000000004,
+  "stp": 1.0000000000000002,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20080819002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20080819002",
+  "grade": "open"
+ },
+ {
+  "id": "VEEA-1795548848",
+  "ts_kst": "2026-11-25 04:34",
+  "ts_utc": "2026-11-24T19:34:08+00:00",
+  "date_et": "2026-11-24",
+  "session": "regular",
+  "ticker": "VEEA",
+  "types": [
+   "spike",
+   "prob"
+  ],
+  "msgs": [
+   "전일 대비 +29.6% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의",
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 VEEA 장중 급등 포착 · 상위 확률 신호",
+  "body": "$5.975 (+29.6%) · 정규장 · 레벨 3 · 점수 46\n$6.50 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 407만 주뿐이라 쉽게 크게 움직임\n• 전일 대비 +29.6% · 거래량 평소의 4.0배 (시간 보정) — 추격 매수 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.676 지정가(기준가 $5.975의 −5%) · 체결 가능성 약 58% · 손익분기 $5.745\n숏 지지구간 $5.000–$5.500 · 손절 $4.500 · 1차목표 $6.500\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-08-31\n⚠ 희석 위험 60/100\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.975,
+  "level": 3,
+  "score": 46.3,
+  "prob": 53.24494952967742,
+  "cp": 34.97908071722483,
+  "rl": 6.5,
+  "stop": 4.5,
+  "zone": [
+   5.0,
+   5.5
+  ],
+  "bp": 5.6762,
+  "tgt": 6.5,
+  "stp": 4.5,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-08-31",
+   "희석 위험 60/100"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240917009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240917009",
+  "grade": "open"
  }
 ]
