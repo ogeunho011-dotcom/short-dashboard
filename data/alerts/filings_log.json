@@ -1,24 +1,5 @@
 [
  {
-  "ticker": "USDE",
-  "form": "424B3",
-  "acc": "0001213900-26-121814",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:05:37+00:00",
-  "accepted_kst": "11/19 06:05",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/2080215/000121390026121814/0001213900-26-121814-index.htm",
-  "seen_kst": "2026-11-19 06:13"
- },
- {
   "ticker": "NCDL",
   "form": "4",
   "acc": "0001225208-26-009050",
@@ -8708,5 +8689,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1849396/000117891326005339/0001178913-26-005339-index.htm",
   "seen_kst": "2026-11-25 05:54"
+ },
+ {
+  "ticker": "NEXN",
+  "form": "4",
+  "acc": "0001178913-26-005341",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T20:54:15+00:00",
+  "accepted_kst": "11/25 05:54",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1849396/000117891326005341/0001178913-26-005341-index.htm",
+  "seen_kst": "2026-11-25 05:56"
  }
 ]
