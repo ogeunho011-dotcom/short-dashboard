@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "GIXI",
-  "form": "6-K",
-  "acc": "0001493152-26-053060",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:05:23+00:00",
-  "accepted_kst": "11/19 06:05",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Gix Internet: Quantum X Labs Achieves 99.93% Data Recovery in Qatacomb Quantum Cybersecurity Validation Using IonQ’s Quantum Computing Infrastructure Quantum cy",
-  "url": "https://www.sec.gov/Archives/edgar/data/1782265/000149315226053060/0001493152-26-053060-index.htm",
-  "seen_kst": "2026-11-19 06:13"
- },
- {
   "ticker": "HURA",
   "form": "4",
   "acc": "0000897069-26-001944",
@@ -8708,5 +8691,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1474627/000147793226007277/0001477932-26-007277-index.htm",
   "seen_kst": "2026-11-25 05:03"
+ },
+ {
+  "ticker": "LND",
+  "form": "4",
+  "acc": "0002119764-26-000040",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T20:04:37+00:00",
+  "accepted_kst": "11/25 05:04",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $33,946 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Elsztain Alejandro Gustavo",
+  "url": "https://www.sec.gov/Archives/edgar/data/1499849/000211976426000040/0002119764-26-000040-index.htm",
+  "seen_kst": "2026-11-25 05:06"
  }
 ]
