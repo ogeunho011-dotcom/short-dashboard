@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "HURA",
-  "form": "4",
-  "acc": "0000897069-26-001944",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:05:28+00:00",
-  "accepted_kst": "11/19 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1498382/000089706926001944/0000897069-26-001944-index.htm",
-  "seen_kst": "2026-11-19 06:13"
- },
- {
   "ticker": "ARTV",
   "form": "4",
   "acc": "0001193125-26-467085",
@@ -8708,5 +8691,22 @@
   "headline": "Elsztain Alejandro Gustavo",
   "url": "https://www.sec.gov/Archives/edgar/data/1499849/000211976426000040/0002119764-26-000040-index.htm",
   "seen_kst": "2026-11-25 05:06"
+ },
+ {
+  "ticker": "FMAO",
+  "form": "8-K",
+  "acc": "0001193125-26-475192",
+  "items": "5.02,9.01",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T20:07:35+00:00",
+  "accepted_kst": "11/25 05:07",
+  "polarity": "neutral",
+  "label": "임원 변경",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 . Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers .",
+  "url": "https://www.sec.gov/Archives/edgar/data/792966/000119312526475192/0001193125-26-475192-index.htm",
+  "seen_kst": "2026-11-25 05:08"
  }
 ]

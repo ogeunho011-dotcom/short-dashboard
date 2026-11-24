@@ -78079,7 +78079,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20201229002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20201229002",
-  "grade": "open"
+  "grade": "open_hit",
+  "grade_day": null,
+  "grade_ret": null,
+  "graded_bars": 1
  },
  {
   "id": "DCGO-1795464580",
@@ -80309,5 +80312,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210628006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210628006",
   "grade": "open"
+ },
+ {
+  "id": "WETO-1795550926",
+  "ts_kst": "2026-11-25 05:08",
+  "ts_utc": "2026-11-24T20:08:46+00:00",
+  "date_et": "2026-11-24",
+  "session": "regular",
+  "ticker": "WETO",
+  "types": [
+   "rvol"
+  ],
+  "msgs": [
+   "5분 거래량 55k (당일 평균 26.4배)"
+  ],
+  "title": "🚀 WETO 거래량 급증",
+  "body": "$0.569 (+5.6%) · 정규장 · 레벨 3 · 점수 44\n시장에 도는 주식 82만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 5분 거래량 55k (당일 평균 26.4배)\n10일 내 셋업 성공 확률(보정): 25%\n추천 매수가 $0.541 지정가(기준가 $0.569의 −5%) · 체결 가능성 약 81% · 손익분기 $0.547\n숏 지지구간 $0.398–$0.569 · 손절 $0.285 · 1차목표 $1.060\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.569,
+  "level": 3,
+  "score": 43.6,
+  "prob": 24.587706146926536,
+  "cp": 2.0,
+  "rl": 10.0,
+  "stop": 0.28450000286102295,
+  "zone": [
+   0.3983000040054321,
+   0.5690000057220459
+  ],
+  "bp": 0.5406,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250227006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250227006",
+  "grade": "n/a"
  }
 ]
