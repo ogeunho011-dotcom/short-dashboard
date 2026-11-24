@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "NCDL",
-  "form": "4",
-  "acc": "0001225208-26-009050",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:05:49+00:00",
-  "accepted_kst": "11/19 06:05",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $17,055 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Miranda Kenneth M.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1737924/000122520826009050/0001225208-26-009050-index.htm",
-  "seen_kst": "2026-11-19 06:13"
- },
- {
   "ticker": "ARTV",
   "form": "4",
   "acc": "0001193125-26-467089",
@@ -8706,5 +8689,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1849396/000117891326005341/0001178913-26-005341-index.htm",
   "seen_kst": "2026-11-25 05:56"
+ },
+ {
+  "ticker": "ESP",
+  "form": "4",
+  "acc": "0002077096-26-000366",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T20:57:45+00:00",
+  "accepted_kst": "11/25 05:57",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/33533/000207709626000366/0002077096-26-000366-index.htm",
+  "seen_kst": "2026-11-25 05:59"
  }
 ]
