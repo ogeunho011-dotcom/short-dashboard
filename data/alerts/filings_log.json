@@ -2,42 +2,6 @@
  {
   "ticker": "KURA",
   "form": "4",
-  "acc": "0001193125-26-467081",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:05:11+00:00",
-  "accepted_kst": "11/19 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1422143/000119312526467081/0001193125-26-467081-index.htm",
-  "seen_kst": "2026-11-19 06:13"
- },
- {
-  "ticker": "PHUN",
-  "form": "424B3",
-  "acc": "0001193125-26-467077",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:05:14+00:00",
-  "accepted_kst": "11/19 06:05",
-  "polarity": "neg",
-  "label": "증자 서류(424B3)",
-  "cats": [],
-  "negs": [
-   "증자 서류"
-  ],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1665300/000119312526467077/0001193125-26-467077-index.htm",
-  "seen_kst": "2026-11-19 06:13"
- },
- {
-  "ticker": "KURA",
-  "form": "4",
   "acc": "0001193125-26-467083",
   "items": "",
   "filed": "2026-11-18",
@@ -8710,5 +8674,39 @@
   "headline": "Spezialy Marc Stephen",
   "url": "https://www.sec.gov/Archives/edgar/data/276720/000154662826000006/0001546628-26-000006-index.htm",
   "seen_kst": "2026-11-25 04:31"
+ },
+ {
+  "ticker": "IRS",
+  "form": "4",
+  "acc": "0002119764-26-000039",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T19:56:15+00:00",
+  "accepted_kst": "11/25 04:56",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/933267/000211976426000039/0002119764-26-000039-index.htm",
+  "seen_kst": "2026-11-25 04:58"
+ },
+ {
+  "ticker": "AUBN",
+  "form": "4",
+  "acc": "0001437749-26-038167",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T19:57:07+00:00",
+  "accepted_kst": "11/25 04:57",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $5,050 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Conn Walton T Jr.",
+  "url": "https://www.sec.gov/Archives/edgar/data/750574/000143774926038167/0001437749-26-038167-index.htm",
+  "seen_kst": "2026-11-25 04:58"
  }
 ]
