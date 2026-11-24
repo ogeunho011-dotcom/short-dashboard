@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "ARTV",
-  "form": "4",
-  "acc": "0001193125-26-467085",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:05:33+00:00",
-  "accepted_kst": "11/19 06:05",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1817241/000119312526467085/0001193125-26-467085-index.htm",
-  "seen_kst": "2026-11-19 06:13"
- },
- {
   "ticker": "FLNA",
   "form": "4",
   "acc": "0001437749-26-037544",
@@ -8708,5 +8691,22 @@
   "headline": "Item 5.02 . Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers .",
   "url": "https://www.sec.gov/Archives/edgar/data/792966/000119312526475192/0001193125-26-475192-index.htm",
   "seen_kst": "2026-11-25 05:08"
+ },
+ {
+  "ticker": "LOAN",
+  "form": "8-K",
+  "acc": "0001493152-26-053983",
+  "items": "8.01",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T20:15:13+00:00",
+  "accepted_kst": "11/25 05:15",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 8.01. Other Events. On November 24, 2026, Manhattan Bridge Capital, Inc. (the “Company”) announced that the Company’s Board of Directors approved an increa",
+  "url": "https://www.sec.gov/Archives/edgar/data/1080340/000149315226053983/0001493152-26-053983-index.htm",
+  "seen_kst": "2026-11-25 05:16"
  }
 ]
