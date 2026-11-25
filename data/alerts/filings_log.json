@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PKOH",
-  "form": "4",
-  "acc": "0001628280-26-075011",
-  "items": "",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T17:16:12+00:00",
-  "accepted_kst": "11/20 02:16",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/76282/000162828026075011/0001628280-26-075011-index.htm",
-  "seen_kst": "2026-11-20 03:20"
- },
- {
   "ticker": "GTE",
   "form": "4",
   "acc": "0001104659-26-130003",
@@ -8703,5 +8686,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/810958/000132173826000010/0001321738-26-000010-index.htm",
   "seen_kst": "2026-11-26 05:56"
+ },
+ {
+  "ticker": "CZNC",
+  "form": "4",
+  "acc": "0001225817-26-000010",
+  "items": "",
+  "filed": "2026-11-25",
+  "accepted": "2026-11-25T20:57:21+00:00",
+  "accepted_kst": "11/26 05:57",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/810958/000122581726000010/0001225817-26-000010-index.htm",
+  "seen_kst": "2026-11-26 05:58"
  }
 ]
