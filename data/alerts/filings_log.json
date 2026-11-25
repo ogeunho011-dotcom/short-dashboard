@@ -2,23 +2,6 @@
  {
   "ticker": "TGEN",
   "form": "4",
-  "acc": "0001230427-26-000005",
-  "items": "",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T16:36:15+00:00",
-  "accepted_kst": "11/20 01:36",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $19,557 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Lewis Earl",
-  "url": "https://www.sec.gov/Archives/edgar/data/1537435/000123042726000005/0001230427-26-000005-index.htm",
-  "seen_kst": "2026-11-20 02:25"
- },
- {
-  "ticker": "TGEN",
-  "form": "4",
   "acc": "0001808199-26-000006",
   "items": "",
   "filed": "2026-11-19",
@@ -8706,5 +8689,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1095052/000106299326006282/0001062993-26-006282-index.htm",
   "seen_kst": "2026-11-26 03:56"
+ },
+ {
+  "ticker": "BBSI",
+  "form": "4",
+  "acc": "0001257909-26-000003",
+  "items": "",
+  "filed": "2026-11-25",
+  "accepted": "2026-11-25T18:58:51+00:00",
+  "accepted_kst": "11/26 03:58",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/902791/000125790926000003/0001257909-26-000003-index.htm",
+  "seen_kst": "2026-11-26 04:00"
  }
 ]
