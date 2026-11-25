@@ -2,23 +2,6 @@
  {
   "ticker": "VTEX",
   "form": "4",
-  "acc": "0001193125-26-467929",
-  "items": "",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T14:35:06+00:00",
-  "accepted_kst": "11/19 23:35",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526467929/0001193125-26-467929-index.htm",
-  "seen_kst": "2026-11-20 02:31"
- },
- {
-  "ticker": "VTEX",
-  "form": "4",
   "acc": "0001193125-26-468078",
   "items": "",
   "filed": "2026-11-19",
@@ -8706,5 +8689,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1574085/000110465926131669/0001104659-26-131669-index.htm",
   "seen_kst": "2026-11-26 04:21"
+ },
+ {
+  "ticker": "LMAT",
+  "form": "4",
+  "acc": "0001193125-26-477834",
+  "items": "",
+  "filed": "2026-11-25",
+  "accepted": "2026-11-25T19:22:01+00:00",
+  "accepted_kst": "11/26 04:22",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1158895/000119312526477834/0001193125-26-477834-index.htm",
+  "seen_kst": "2026-11-26 04:22"
  }
 ]
