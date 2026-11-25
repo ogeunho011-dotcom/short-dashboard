@@ -81524,5 +81524,128 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20130725002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20130725002",
   "grade": "open"
+ },
+ {
+  "id": "BHR-1795634441",
+  "ts_kst": "2026-11-26 04:20",
+  "ts_utc": "2026-11-25T19:20:41+00:00",
+  "date_et": "2026-11-25",
+  "session": "regular",
+  "ticker": "BHR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.4% · 거래량 평소의 6.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ BHR 장중 급등 포착",
+  "body": "$1.742 (+24.4%) · 정규장 · 레벨 2 · 점수 38\n$1.90 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +24.4% · 거래량 평소의 6.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.655 지정가(기준가 $1.742의 −5%) · 체결 가능성 약 47% · 손익분기 $1.675\n숏 지지구간 $1.700–$1.742 · 손절 $1.600 · 1차목표 $1.900\n⚠ 역분할 관련 8-K (90일 내)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.742,
+  "level": 2,
+  "score": 37.6,
+  "prob": 53.44827586206896,
+  "cp": 43.61989489550837,
+  "rl": 1.9000000000000008,
+  "stop": 1.6000000000000005,
+  "zone": [
+   1.7000000000000006,
+   1.7419999837875366
+  ],
+  "bp": 1.6549,
+  "tgt": 1.9000000000000008,
+  "stp": 1.6000000000000005,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180424001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180424001",
+  "grade": "open"
+ },
+ {
+  "id": "EGG-1795634441",
+  "ts_kst": "2026-11-26 04:20",
+  "ts_utc": "2026-11-25T19:20:41+00:00",
+  "date_et": "2026-11-25",
+  "session": "regular",
+  "ticker": "EGG",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 EGG 상위 확률 신호",
+  "body": "$10.880 (+21.3%) · 정규장 · 레벨 3 · 점수 40\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 1,210만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $10.336 지정가(기준가 $10.880의 −5%) · 체결 가능성 약 63% · 손익분기 $10.461\n숏 지지구간 $6.500–$7.000 · 손절 $6.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.88,
+  "level": 3,
+  "score": 40.5,
+  "prob": 52.91666666666666,
+  "cp": 62.0,
+  "rl": 10.880000114440918,
+  "stop": 6.0,
+  "zone": [
+   6.5,
+   7.0
+  ],
+  "bp": 10.336,
+  "tgt": 12.512000131607055,
+  "stp": 6.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0250618005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0250618005",
+  "grade": "open"
+ },
+ {
+  "id": "BHR-fil-0001104659-26-131666",
+  "ts_kst": "2026-11-26 04:21",
+  "ts_utc": "2026-11-25T19:21:01+00:00",
+  "date_et": "2026-11-25",
+  "session": "filing",
+  "ticker": "BHR",
+  "types": [
+   "filing"
+  ],
+  "msgs": [
+   "8-K 자사주 매입"
+  ],
+  "title": "📢 BHR 호재 공시",
+  "body": "8-K · 자사주 매입 (11/25 06:55 KST)\nNEWS RELEASE Contact: Justin Coe Chief Financial Officer and Chief Accounting Officer JCoe@BHRREIT.com (888) 517-7456 Joe Germani / Miller W\n키워드 자동 판정 · 원문 확인 필수 · 탭하면 토스증권",
+  "price": null,
+  "level": null,
+  "score": null,
+  "prob": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180424001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180424001",
+  "grade": "n/a",
+  "filing": {
+   "form": "8-K",
+   "acc": "0001104659-26-131666",
+   "items": "5.02,7.01,9.01",
+   "label": "자사주 매입",
+   "cats": [
+    "자사주 매입"
+   ],
+   "strength": 4,
+   "headline": "NEWS RELEASE Contact: Justin Coe Chief Financial Officer and Chief Accounting Officer JCoe@BHRREIT.com (888) 517-7456 Joe Germani / Miller Winston Longacre Squa",
+   "url": "https://www.sec.gov/Archives/edgar/data/1574085/000110465926131666/0001104659-26-131666-index.htm",
+   "accepted_kst": "11/25 06:55",
+   "polarity": "pos"
+  }
  }
 ]

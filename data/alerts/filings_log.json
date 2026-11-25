@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "PRHI",
-  "form": "4",
-  "acc": "0001193125-26-468062",
-  "items": "",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T16:41:25+00:00",
-  "accepted_kst": "11/20 01:41",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $7,650 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Smith James Grant",
-  "url": "https://www.sec.gov/Archives/edgar/data/1502292/000119312526468062/0001193125-26-468062-index.htm",
-  "seen_kst": "2026-11-20 02:25"
- },
- {
-  "ticker": "HMH",
-  "form": "4",
-  "acc": "0001628280-26-075005",
-  "items": "",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T16:56:08+00:00",
-  "accepted_kst": "11/20 01:56",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $1,647,972",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "McGee Thomas W.",
-  "url": "https://www.sec.gov/Archives/edgar/data/2021880/000162828026075005/0001628280-26-075005-index.htm",
-  "seen_kst": "2026-11-20 02:25"
- },
- {
   "ticker": "VTEX",
   "form": "4",
   "acc": "0001193125-26-467929",
@@ -8706,5 +8670,41 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1084048/000121465926014741/0001214659-26-014741-index.htm",
   "seen_kst": "2026-11-26 04:08"
+ },
+ {
+  "ticker": "BHR",
+  "form": "8-K",
+  "acc": "0001104659-26-131666",
+  "items": "5.02,7.01,9.01",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T21:55:52+00:00",
+  "accepted_kst": "11/25 06:55",
+  "polarity": "pos",
+  "label": "자사주 매입",
+  "cats": [
+   "자사주 매입"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "NEWS RELEASE Contact: Justin Coe Chief Financial Officer and Chief Accounting Officer JCoe@BHRREIT.com (888) 517-7456 Joe Germani / Miller Winston Longacre Squa",
+  "url": "https://www.sec.gov/Archives/edgar/data/1574085/000110465926131666/0001104659-26-131666-index.htm",
+  "seen_kst": "2026-11-26 04:21"
+ },
+ {
+  "ticker": "BHR",
+  "form": "DEFA14A",
+  "acc": "0001104659-26-131669",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T21:57:07+00:00",
+  "accepted_kst": "11/25 06:57",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1574085/000110465926131669/0001104659-26-131669-index.htm",
+  "seen_kst": "2026-11-26 04:21"
  }
 ]
