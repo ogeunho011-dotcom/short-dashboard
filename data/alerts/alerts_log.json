@@ -81284,5 +81284,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210722005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210722005",
   "grade": "n/a"
+ },
+ {
+  "id": "PRFX-1795632343",
+  "ts_kst": "2026-11-26 03:45",
+  "ts_utc": "2026-11-25T18:45:43+00:00",
+  "date_et": "2026-11-25",
+  "session": "regular",
+  "ticker": "PRFX",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 PRFX 상위 확률 신호",
+  "body": "$0.899 (+26.5%) · 정규장 · 레벨 4 · 점수 55\n$0.900 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 83만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.835 지정가(60일선, 기준가 대비 -7.1%) · 체결 가능성 약 57% · 손익분기 $0.845\n숏 지지구간 $0.850–$0.899 · 손절 $0.800 · 1차목표 $0.900\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.8985,
+  "level": 4,
+  "score": 55.4,
+  "prob": 52.91666666666666,
+  "cp": 29.82462460241219,
+  "rl": 0.8999999999999999,
+  "stop": 0.7999999999999998,
+  "zone": [
+   0.8499999999999999,
+   0.8985000252723694
+  ],
+  "bp": 0.8346,
+  "tgt": 0.95,
+  "stp": 0.7999999999999998,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200901003%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200901003",
+  "grade": "open"
+ },
+ {
+  "id": "DAVA-1795632343",
+  "ts_kst": "2026-11-26 03:45",
+  "ts_utc": "2026-11-25T18:45:43+00:00",
+  "date_et": "2026-11-25",
+  "session": "regular",
+  "ticker": "DAVA",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.5% · 거래량 평소의 8.9배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ DAVA 장중 급등 포착",
+  "body": "$1.225 (+22.5%) · 정규장 · 레벨 1 · 점수 23\n$1.50 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 6배 이상, 관심 급증\n• 전일 대비 +22.5% · 거래량 평소의 8.9배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $1.133 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -7.5%) · 체결 가능성 약 39% · 손익분기 $1.147\n숏 지지구간 $1.000–$1.100 · 손절 $0.950 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 1.225,
+  "level": 1,
+  "score": 23.0,
+  "prob": 52.91666666666666,
+  "cp": 22.983404286759335,
+  "rl": 1.5,
+  "stop": 0.95,
+  "zone": [
+   1.0,
+   1.1
+  ],
+  "bp": 1.1329,
+  "tgt": 1.5,
+  "stp": 0.95,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180726004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180726004",
+  "grade": "open"
  }
 ]
