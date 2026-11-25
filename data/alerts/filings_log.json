@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "PLBC",
-  "form": "8-K",
-  "acc": "0001437749-26-037643",
-  "items": "5.03,9.01",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T16:00:21+00:00",
-  "accepted_kst": "11/20 01:00",
-  "polarity": "neutral",
-  "label": "5.03",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 5.03 Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year. On November 18, 2026, the Board of Directors (the “Board”) of Plumas Bancorp",
-  "url": "https://www.sec.gov/Archives/edgar/data/1168455/000143774926037643/0001437749-26-037643-index.htm",
-  "seen_kst": "2026-11-20 02:41"
- },
- {
   "ticker": "PCYO",
   "form": "8-K",
   "acc": "0001104659-26-129985",
@@ -8711,5 +8694,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/810958/000170463526000012/0001704635-26-000012-index.htm",
   "seen_kst": "2026-11-26 05:41"
+ },
+ {
+  "ticker": "CZNC",
+  "form": "4",
+  "acc": "0001667211-26-000032",
+  "items": "",
+  "filed": "2026-11-25",
+  "accepted": "2026-11-25T20:42:30+00:00",
+  "accepted_kst": "11/26 05:42",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/810958/000166721126000032/0001667211-26-000032-index.htm",
+  "seen_kst": "2026-11-26 05:46"
  }
 ]
