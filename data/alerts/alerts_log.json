@@ -81362,5 +81362,47 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20180726004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20180726004",
   "grade": "open"
+ },
+ {
+  "id": "TOPP-1795632616",
+  "ts_kst": "2026-11-26 03:50",
+  "ts_utc": "2026-11-25T18:50:16+00:00",
+  "date_et": "2026-11-25",
+  "session": "regular",
+  "ticker": "TOPP",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 TOPP 상위 확률 신호",
+  "body": "$0.634 (+101.2%) · 정규장 · 레벨 3 · 점수 48\n공매도 물량 대부분 손해 중, $0.750 넘으면 급등 가능성 ↑ · 오늘 거래량 평소의 50배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $0.602 지정가(기준가 $0.634의 −5%) · 체결 가능성 약 70% · 손익분기 $0.609\n숏 지지구간 $0.444–$0.500 · 손절 $0.317 · 1차목표 $0.750\n⚠ 역분할 관련 8-K (90일 내)\n⚠ 역분할 2026-11-23\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6339,
+  "level": 3,
+  "score": 47.5,
+  "prob": 52.94643306296189,
+  "cp": 36.20852422770333,
+  "rl": 0.75,
+  "stop": 0.3169499933719635,
+  "zone": [
+   0.44372999072074887,
+   0.5
+  ],
+  "bp": 0.6022,
+  "tgt": 0.75,
+  "stp": 0.3169499933719635,
+  "penalties": [
+   "역분할 관련 8-K (90일 내)",
+   "역분할 2026-11-23"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0250122009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0250122009",
+  "grade": "open"
  }
 ]
