@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "MATW",
-  "form": "8-K",
-  "acc": "0000063296-26-000116",
-  "items": "7.01,9.01",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T15:01:55+00:00",
-  "accepted_kst": "11/20 00:01",
-  "polarity": "neutral",
-  "label": "IR 자료",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "EX-99.1 2 ex991_4q2026dividendpr.htm EX-99.1 - 4TH QUARTER FISCAL 2026 DIVIDEND PRESS RELEASE NEWS RELEASE Matthews International Corporation Corporate Office T",
-  "url": "https://www.sec.gov/Archives/edgar/data/63296/000006329626000116/0000063296-26-000116-index.htm",
-  "seen_kst": "2026-11-20 02:41"
- },
- {
   "ticker": "LXFR",
   "form": "8-K",
   "acc": "0002077096-26-000316",
@@ -8714,5 +8697,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000475/0001527541-26-000475-index.htm",
   "seen_kst": "2026-11-26 04:40"
+ },
+ {
+  "ticker": "FSI",
+  "form": "8-K",
+  "acc": "0001493152-26-054192",
+  "items": "8.01,9.01",
+  "filed": "2026-11-25",
+  "accepted": "2026-11-25T20:02:35+00:00",
+  "accepted_kst": "11/26 05:02",
+  "polarity": "neutral",
+  "label": "기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "NEWS RELEASE November 23, 2026 FSI ANNOUNCES THIRD QUARTER, 2026 FINANCIAL RESULTS A Conference call is scheduled for Wednesday, November 25, 2026 11:00am Easte",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069394/000149315226054192/0001493152-26-054192-index.htm",
+  "seen_kst": "2026-11-26 05:05"
  }
 ]
