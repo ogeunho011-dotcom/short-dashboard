@@ -1,75 +1,5 @@
 [
  {
-  "ticker": "AIRI",
-  "form": "425",
-  "acc": "0001213900-26-121859",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:44:17+00:00",
-  "accepted_kst": "11/19 06:44",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026121859/0001213900-26-121859-index.htm",
-  "seen_kst": "2026-11-20 02:41"
- },
- {
-  "ticker": "AIRI",
-  "form": "DEFA14A",
-  "acc": "0001213900-26-121862",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T21:45:54+00:00",
-  "accepted_kst": "11/19 06:45",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026121862/0001213900-26-121862-index.htm",
-  "seen_kst": "2026-11-20 02:41"
- },
- {
-  "ticker": "SJT",
-  "form": "4",
-  "acc": "0001104659-26-129810",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T22:17:45+00:00",
-  "accepted_kst": "11/19 07:17",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $2,579,768",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "OLIVER ERIC L",
-  "url": "https://www.sec.gov/Archives/edgar/data/319655/000110465926129810/0001104659-26-129810-index.htm",
-  "seen_kst": "2026-11-20 02:41"
- },
- {
-  "ticker": "AIRI",
-  "form": "425",
-  "acc": "0000950157-26-001281",
-  "items": "",
-  "filed": "2026-11-18",
-  "accepted": "2026-11-18T22:23:45+00:00",
-  "accepted_kst": "11/19 07:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1009891/000095015726001281/0000950157-26-001281-index.htm",
-  "seen_kst": "2026-11-20 02:41"
- },
- {
   "ticker": "MATW",
   "form": "8-K",
   "acc": "0000063296-26-000116",
@@ -8706,5 +8636,83 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/875355/000089706926001996/0000897069-26-001996-index.htm",
   "seen_kst": "2026-11-26 04:33"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "8-K",
+  "acc": "0001527541-26-000469",
+  "items": "3.03,5.03,9.01",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T21:05:32+00:00",
+  "accepted_kst": "11/25 06:05",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)",
+   "역분할",
+   "주주 권리 변경(역분할 등)(항목 3.03)"
+  ],
+  "strength": 0,
+  "headline": "Item 3.03. Material Modification to Rights of Security Holders. To the extent required by Item 3.03 of Form 8-K, the information contained in Item 5.03 of this",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000469/0001527541-26-000469-index.htm",
+  "seen_kst": "2026-11-26 04:40"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "424B3",
+  "acc": "0001527541-26-000471",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T21:09:15+00:00",
+  "accepted_kst": "11/25 06:09",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000471/0001527541-26-000471-index.htm",
+  "seen_kst": "2026-11-26 04:40"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "424B3",
+  "acc": "0001527541-26-000473",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T21:12:40+00:00",
+  "accepted_kst": "11/25 06:12",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000473/0001527541-26-000473-index.htm",
+  "seen_kst": "2026-11-26 04:40"
+ },
+ {
+  "ticker": "WHLR",
+  "form": "424B3",
+  "acc": "0001527541-26-000475",
+  "items": "",
+  "filed": "2026-11-24",
+  "accepted": "2026-11-24T21:14:59+00:00",
+  "accepted_kst": "11/25 06:14",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000475/0001527541-26-000475-index.htm",
+  "seen_kst": "2026-11-26 04:40"
  }
 ]
