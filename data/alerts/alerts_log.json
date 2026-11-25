@@ -82110,5 +82110,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0250304001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0250304001",
   "grade": "open"
+ },
+ {
+  "id": "FNUC-1795639381",
+  "ts_kst": "2026-11-26 05:43",
+  "ts_utc": "2026-11-25T20:43:01+00:00",
+  "date_et": "2026-11-25",
+  "session": "regular",
+  "ticker": "FNUC",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 73/100"
+  ],
+  "title": "🚀 FNUC 상위 확률 신호 · 커버 압력",
+  "body": "$5.450 (+1658.6%) · 정규장 · 레벨 3 · 점수 43\n공매도 물량 대부분 손해 중, $5.90 넘으면 급등 가능성 ↑ · 시장에 도는 주식 875만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 73/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.177 지정가(기준가 $5.450의 −5%) · 체결 가능성 약 54% · 손익분기 $5.240\n숏 지지구간 $3.815–$3.815 · 손절 $2.725 · 1차목표 $5.900\n⚠ 최근 악재 공시: 6-K 역분할 (11/23)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 5.45,
+  "level": 3,
+  "score": 42.6,
+  "prob": 53.41517958829763,
+  "cp": 72.55195026582511,
+  "rl": 5.900000095367432,
+  "stop": 2.7249999046325684,
+  "zone": [
+   3.8149998664855955,
+   3.8149998664855955
+  ],
+  "bp": 5.1775,
+  "tgt": 5.900000095367432,
+  "stp": 2.7249999046325684,
+  "penalties": [
+   "최근 악재 공시: 6-K 역분할 (11/23)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20211118007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20211118007",
+  "grade": "open"
  }
 ]
