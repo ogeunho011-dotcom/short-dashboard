@@ -71088,10 +71088,10 @@
   "suppressed": null,
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250609009%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250609009",
-  "grade": "open_hit",
-  "grade_day": null,
-  "grade_ret": null,
-  "graded_bars": 4
+  "grade": "hit",
+  "grade_day": 5,
+  "grade_ret": -0.15211006328797205,
+  "graded_bars": 5
  },
  {
   "id": "DUKR-1795022005",
@@ -82582,5 +82582,167 @@
    "accepted_kst": "11/26 06:48",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "BNAI-1795717505",
+  "ts_kst": "2026-11-27 03:25",
+  "ts_utc": "2026-11-26T18:25:05+00:00",
+  "date_et": "2026-11-26",
+  "session": "regular",
+  "ticker": "BNAI",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 88/100"
+  ],
+  "title": "🚀 BNAI 상위 확률 신호 · 커버 압력",
+  "body": "$7.816 (-3.7%) · 정규장 · 레벨 4 · 점수 56\n공매도 물량 대부분 손해 중, $8.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 765만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 밀리는 중\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 88/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $7.425 지정가(기준가 $7.816의 −5%) · 체결 가능성 약 72% · 손익분기 $7.515\n숏 지지구간 $5.000–$6.000 · 손절 $4.000 · 1차목표 $8.000\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/24)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.8162,
+  "level": 4,
+  "score": 55.7,
+  "prob": 52.91666666666666,
+  "cp": 88.18448481253307,
+  "rl": 8.0,
+  "stop": 4.0,
+  "zone": [
+   5.0,
+   6.0
+  ],
+  "bp": 7.4254,
+  "tgt": 8.0,
+  "stp": 4.0,
+  "penalties": [
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/24)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210422005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210422005",
+  "grade": "open"
+ },
+ {
+  "id": "PASG-1795717505",
+  "ts_kst": "2026-11-27 03:25",
+  "ts_utc": "2026-11-26T18:25:05+00:00",
+  "date_et": "2026-11-26",
+  "session": "regular",
+  "ticker": "PASG",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 PASG 상위 확률 신호",
+  "body": "$21.840 (-2.0%) · 정규장 · 레벨 3 · 점수 41\n공매도 물량 대부분 손해 중, $31.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 322만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 없음: −5% 가격이 손절선과 너무 가까움\n숏 지지구간 $25.500–$25.990 · 1차목표 $31.000\n⚠ 역분할 2026-11-25\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 21.84,
+  "level": 3,
+  "score": 41.0,
+  "prob": 53.44827586206896,
+  "cp": 60.9717002719111,
+  "rl": 31.0,
+  "stop": 25.0,
+  "zone": [
+   25.5,
+   25.989999771118164
+  ],
+  "bp": null,
+  "tgt": null,
+  "stp": null,
+  "penalties": [
+   "역분할 2026-11-25"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20200227010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20200227010",
+  "grade": "n/a"
+ },
+ {
+  "id": "ZYN-1795717505",
+  "ts_kst": "2026-11-27 03:25",
+  "ts_utc": "2026-11-26T18:25:05+00:00",
+  "date_et": "2026-11-26",
+  "session": "regular",
+  "ticker": "ZYN",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 48%)"
+  ],
+  "title": "🚀 ZYN 상위 확률 신호",
+  "body": "$10.100 (+0.8%) · 정규장 · 레벨 3 · 점수 42\n$10.25 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,269만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 48%)\n10일 내 셋업 성공 확률(보정): 48%\n추천 매수가 $9.530 지정가(20일선, 기준가 대비 -5.6%) · 체결 가능성 약 55% · 손익분기 $9.645\n숏 지지구간 $8.250–$8.897 · 손절 $8.000 · 1차목표 $10.250\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.1,
+  "level": 3,
+  "score": 42.2,
+  "prob": 47.808764940239065,
+  "cp": 44.404356263905825,
+  "rl": 10.25,
+  "stop": 8.0,
+  "zone": [
+   8.25,
+   8.897499999999999
+  ],
+  "bp": 9.53,
+  "tgt": 10.25,
+  "stp": 8.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252F%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fwww.tossinvest.com%2F",
+  "grade": "open"
+ },
+ {
+  "id": "EGG-1795717505",
+  "ts_kst": "2026-11-27 03:25",
+  "ts_utc": "2026-11-26T18:25:05+00:00",
+  "date_et": "2026-11-26",
+  "session": "regular",
+  "ticker": "EGG",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 EGG 상위 확률 신호",
+  "body": "$10.500 (-1.1%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $11.70 넘으면 급등 가능성 ↑ · 시장에 도는 주식 1,210만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $9.975 지정가(기준가 $10.500의 −5%) · 체결 가능성 약 66% · 손익분기 $10.095\n숏 지지구간 $6.500–$7.000 · 손절 $6.000 · 1차목표 $11.700\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 10.5,
+  "level": 3,
+  "score": 43.7,
+  "prob": 52.91666666666666,
+  "cp": 54.44589477005216,
+  "rl": 11.699999809265137,
+  "stop": 6.0,
+  "zone": [
+   6.5,
+   7.0
+  ],
+  "bp": 9.975,
+  "tgt": 11.699999809265137,
+  "stp": 6.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0250618005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0250618005",
+  "grade": "open"
  }
 ]
