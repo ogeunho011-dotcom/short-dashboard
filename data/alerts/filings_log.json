@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "BSRR",
-  "form": "4",
-  "acc": "0001130144-26-000094",
-  "items": "",
-  "filed": "2026-11-20",
-  "accepted": "2026-11-20T20:20:00+00:00",
-  "accepted_kst": "11/21 05:20",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1130144/000113014426000094/0001130144-26-000094-index.htm",
-  "seen_kst": "2026-11-21 05:22"
- },
- {
-  "ticker": "FMBM",
-  "form": "4",
-  "acc": "0002124863-26-000004",
-  "items": "",
-  "filed": "2026-11-20",
-  "accepted": "2026-11-20T20:21:16+00:00",
-  "accepted_kst": "11/21 05:21",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $4,540 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "McHaffa Evan S.",
-  "url": "https://www.sec.gov/Archives/edgar/data/740806/000212486326000004/0002124863-26-000004-index.htm",
-  "seen_kst": "2026-11-21 05:22"
- },
- {
   "ticker": "FLO",
   "form": "3",
   "acc": "0001128928-26-000121",
@@ -8755,5 +8721,43 @@
   "headline": "Item 2.01 Completion of Acquisition or Disposition of Assets. On November 20, 2026, National Healthcare Properties, Inc., a Maryland corporation (the “Company”)",
   "url": "https://www.sec.gov/Archives/edgar/data/1561032/000156103226000077/0001561032-26-000077-index.htm",
   "seen_kst": "2026-11-28 03:10"
+ },
+ {
+  "ticker": "CRDF",
+  "form": "8-K",
+  "acc": "0001493152-26-054461",
+  "items": "3.01",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:10:30+00:00",
+  "accepted_kst": "11/28 03:10",
+  "polarity": "neg",
+  "label": "상장 유지 기준 미달·상폐 위험",
+  "cats": [],
+  "negs": [
+   "상장 유지 기준 미달·상폐 위험"
+  ],
+  "strength": 0,
+  "headline": "Item 3.01 Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On November 25, 2026, Cardiff Oncology, Inc. (the",
+  "url": "https://www.sec.gov/Archives/edgar/data/1213037/000149315226054461/0001493152-26-054461-index.htm",
+  "seen_kst": "2026-11-28 03:12"
+ },
+ {
+  "ticker": "MEDS",
+  "form": "S-1/A",
+  "acc": "0001493152-26-054462",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:10:55+00:00",
+  "accepted_kst": "11/28 03:10",
+  "polarity": "neg",
+  "label": "증자 서류(S-1/A)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2030763/000149315226054462/0001493152-26-054462-index.htm",
+  "seen_kst": "2026-11-28 03:12"
  }
 ]

@@ -84017,5 +84017,85 @@
    "accepted_kst": "11/28 03:07",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "SMXT-1795803175",
+  "ts_kst": "2026-11-28 03:12",
+  "ts_utc": "2026-11-27T18:12:55+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "SMXT",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 73/100"
+  ],
+  "title": "🚀 SMXT 상위 확률 신호 · 커버 압력",
+  "body": "$6.190 (+29.2%) · 정규장 · 레벨 3 · 점수 51\n공매도 물량 대부분 손해 중 · 시장에 도는 주식 474만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 73/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $5.881 지정가(기준가 $6.190의 −5%) · 체결 가능성 약 57% · 손익분기 $5.951\n숏 지지구간 $4.000–$4.438 · 손절 $3.750\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 6.19,
+  "level": 3,
+  "score": 51.3,
+  "prob": 53.44827586206896,
+  "cp": 73.32,
+  "rl": 6.190000057220459,
+  "stop": 3.75,
+  "zone": [
+   4.0,
+   4.4375
+  ],
+  "bp": 5.8805,
+  "tgt": 7.118500065803527,
+  "stp": 3.75,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240227005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240227005",
+  "grade": "open"
+ },
+ {
+  "id": "STEM-1795803175",
+  "ts_kst": "2026-11-28 03:12",
+  "ts_utc": "2026-11-27T18:12:55+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "STEM",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +26.6% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ STEM 장중 급등 포착",
+  "body": "$0.734 (+26.6%) · 정규장 · 레벨 2 · 점수 26\n시장에 도는 주식 972만 주뿐이라 쉽게 크게 움직임 · $1 미만, 상장폐지 주의\n• 전일 대비 +26.6% · 거래량 평소의 3.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 39%\n추천 매수가 $0.627 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -14.6%) · 체결 가능성 약 69% · 손익분기 $0.635\n숏 지지구간 $0.500–$0.734 · 손절 $0.367 · 1차목표 $1.500\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.7341,
+  "level": 2,
+  "score": 26.3,
+  "prob": 38.8663967611336,
+  "cp": 6.28,
+  "rl": 1.5,
+  "stop": 0.3670499920845032,
+  "zone": [
+   0.5,
+   0.7340999841690063
+  ],
+  "bp": 0.6271,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210429010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210429010",
+  "grade": "n/a"
  }
 ]
