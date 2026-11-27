@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "WAFDP",
-  "form": "8-K",
-  "acc": "0000936528-26-000081",
-  "items": "8.01,9.01",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T17:09:58+00:00",
-  "accepted_kst": "11/24 02:09",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 8.01 Other Events On October 3, 2026, EverBank, National Association (\"EverBank\") submitted a Bank Merger Act application to the Office of the Comptroller",
-  "url": "https://www.sec.gov/Archives/edgar/data/936528/000093652826000081/0000936528-26-000081-index.htm",
-  "seen_kst": "2026-11-24 05:09"
- },
- {
   "ticker": "HSHP",
   "form": "6-K",
   "acc": "0001959455-26-000141",
@@ -8756,5 +8739,22 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1227654/000209068826000003/0002090688-26-000003-index.htm",
   "seen_kst": "2026-11-28 03:48"
+ },
+ {
+  "ticker": "BALY",
+  "form": "4",
+  "acc": "0000929638-26-004415",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:59:18+00:00",
+  "accepted_kst": "11/28 03:59",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1747079/000092963826004415/0000929638-26-004415-index.htm",
+  "seen_kst": "2026-11-28 04:00"
  }
 ]
