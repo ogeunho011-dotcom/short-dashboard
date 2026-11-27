@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "LEGH",
-  "form": "4",
-  "acc": "0001104659-26-130575",
-  "items": "",
-  "filed": "2026-11-20",
-  "accepted": "2026-11-20T20:17:06+00:00",
-  "accepted_kst": "11/21 05:17",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1436208/000110465926130575/0001104659-26-130575-index.htm",
-  "seen_kst": "2026-11-21 05:17"
- },
- {
   "ticker": "BSRR",
   "form": "4",
   "acc": "0001130144-26-000094",
@@ -8753,5 +8736,24 @@
   "headline": "Item 3.01 Notice of Delisting of Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On November 24, 2026, Metagenomi Therapeutics, In",
   "url": "https://www.sec.gov/Archives/edgar/data/1785279/000119312526479830/0001193125-26-479830-index.htm",
   "seen_kst": "2026-11-28 03:08"
+ },
+ {
+  "ticker": "NHP",
+  "form": "8-K",
+  "acc": "0001561032-26-000077",
+  "items": "2.01,8.01,9.01",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:07:43+00:00",
+  "accepted_kst": "11/28 03:07",
+  "polarity": "pos",
+  "label": "피인수·합병(주당 가격 제시)",
+  "cats": [
+   "피인수·합병(주당 가격 제시)"
+  ],
+  "negs": [],
+  "strength": 5,
+  "headline": "Item 2.01 Completion of Acquisition or Disposition of Assets. On November 20, 2026, National Healthcare Properties, Inc., a Maryland corporation (the “Company”)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1561032/000156103226000077/0001561032-26-000077-index.htm",
+  "seen_kst": "2026-11-28 03:10"
  }
 ]
