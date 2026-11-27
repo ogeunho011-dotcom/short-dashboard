@@ -84582,5 +84582,44 @@
    "accepted_kst": "11/28 05:00",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "EONR-1795810105",
+  "ts_kst": "2026-11-28 05:08",
+  "ts_utc": "2026-11-27T20:08:25+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "EONR",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +18.5% · 거래량 평소의 14.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ EONR 장중 급등 포착",
+  "body": "$0.230 (+18.5%) · 정규장 · 레벨 1 · 점수 18\n$0.280 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 15배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +18.5% · 거래량 평소의 14.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.217 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -5.5%) · 체결 가능성 약 63% · 손익분기 $0.220\n숏 지지구간 $0.220–$0.230 · 손절 $0.200 · 1차목표 $0.280\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.2299,
+  "level": 1,
+  "score": 18.3,
+  "prob": 31.25,
+  "cp": 15.065939579046573,
+  "rl": 0.2799999999999999,
+  "stop": 0.19999999999999998,
+  "zone": [
+   0.21999999999999997,
+   0.2299
+  ],
+  "bp": 0.2173,
+  "tgt": 0.2799999999999999,
+  "stp": 0.19999999999999998,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20220404005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20220404005",
+  "grade": "open"
  }
 ]
