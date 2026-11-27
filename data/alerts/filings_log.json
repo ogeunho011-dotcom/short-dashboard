@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "CIA",
-  "form": "4",
-  "acc": "0002120865-26-000011",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T20:58:49+00:00",
-  "accepted_kst": "11/24 05:58",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $19,329 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Hoxworth Seth Alan",
-  "url": "https://www.sec.gov/Archives/edgar/data/24090/000212086526000011/0002120865-26-000011-index.htm",
-  "seen_kst": "2026-11-24 06:00"
- },
- {
-  "ticker": "EIC",
-  "form": "497AD",
-  "acc": "0001104659-26-131048",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T20:58:51+00:00",
-  "accepted_kst": "11/24 05:58",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1754836/000110465926131048/0001104659-26-131048-index.htm",
-  "seen_kst": "2026-11-24 06:00"
- },
- {
   "ticker": "CPAC",
   "form": "SC 13E3/A",
   "acc": "0001140361-26-045129",
@@ -8766,5 +8732,41 @@
   "headline": "DONNELLY WILLIAM P",
   "url": "https://www.sec.gov/Archives/edgar/data/1503274/000120792826000012/0001207928-26-000012-index.htm",
   "seen_kst": "2026-11-28 05:01"
+ },
+ {
+  "ticker": "OPEN",
+  "form": "8-K",
+  "acc": "0001140361-26-045877",
+  "items": "8.01,9.01",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T20:00:34+00:00",
+  "accepted_kst": "11/28 05:00",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "Item 8.01 Other Events. On November 27, 2026, Opendoor Technologies Inc. (the “Company”) entered into a Sales Agreement (the “Sales Agreement”) with Virtu Ameri",
+  "url": "https://www.sec.gov/Archives/edgar/data/1801169/000114036126045877/0001140361-26-045877-index.htm",
+  "seen_kst": "2026-11-28 05:03"
+ },
+ {
+  "ticker": "AIFC",
+  "form": "8-K",
+  "acc": "0001493152-26-054485",
+  "items": "5.02,5.03",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T20:00:56+00:00",
+  "accepted_kst": "11/28 05:00",
+  "polarity": "neutral",
+  "label": "임원 변경 · 5.03",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Eff",
+  "url": "https://www.sec.gov/Archives/edgar/data/862861/000149315226054485/0001493152-26-054485-index.htm",
+  "seen_kst": "2026-11-28 05:03"
  }
 ]
