@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "TRST",
-  "form": "4",
-  "acc": "0000357301-26-000070",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T20:25:43+00:00",
-  "accepted_kst": "11/24 05:25",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000070/0000357301-26-000070-index.htm",
-  "seen_kst": "2026-11-24 05:27"
- },
- {
   "ticker": "BAFN",
   "form": "4",
   "acc": "0001439930-26-000007",
@@ -8762,5 +8745,22 @@
   "headline": "Jacobs Justin",
   "url": "https://www.sec.gov/Archives/edgar/data/1084991/000146466726000006/0001464667-26-000006-index.htm",
   "seen_kst": "2026-11-28 04:41"
+ },
+ {
+  "ticker": "GRNT",
+  "form": "4",
+  "acc": "0001628280-26-076080",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T19:44:32+00:00",
+  "accepted_kst": "11/28 04:44",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $11,140 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "MCCARTNEY JOHN",
+  "url": "https://www.sec.gov/Archives/edgar/data/1928446/000162828026076080/0001628280-26-076080-index.htm",
+  "seen_kst": "2026-11-28 04:48"
  }
 ]
