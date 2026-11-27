@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FRMI",
-  "form": "8-K",
-  "acc": "0001213900-26-122877",
-  "items": "8.01",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T12:00:25+00:00",
-  "accepted_kst": "11/23 21:00",
-  "polarity": "neutral",
-  "label": "기타 중요 사항",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Item 8.01. Other Events. Fermi Inc. (the “Company”) announced today that the obligations under the customer prepay agreement discussed on its previous earnings",
-  "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026122877/0001213900-26-122877-index.htm",
-  "seen_kst": "2026-11-24 09:40"
- },
- {
   "ticker": "FNUC",
   "form": "6-K",
   "acc": "0001062993-26-006217",
@@ -8768,5 +8751,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026124534/0001213900-26-124534-index.htm",
   "seen_kst": "2026-11-28 05:23"
+ },
+ {
+  "ticker": "OPEN",
+  "form": "424B5",
+  "acc": "0001140361-26-045884",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T20:39:05+00:00",
+  "accepted_kst": "11/28 05:39",
+  "polarity": "neg",
+  "label": "증자 서류(424B5)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1801169/000114036126045884/0001140361-26-045884-index.htm",
+  "seen_kst": "2026-11-28 05:41"
  }
 ]
