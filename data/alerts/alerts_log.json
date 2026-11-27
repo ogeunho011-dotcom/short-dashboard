@@ -84100,5 +84100,83 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210429010%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210429010",
   "grade": "n/a"
+ },
+ {
+  "id": "ARQQ-1795803641",
+  "ts_kst": "2026-11-28 03:20",
+  "ts_utc": "2026-11-27T18:20:41+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "ARQQ",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +30.7% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ ARQQ 장중 급등 포착",
+  "body": "$14.490 (+30.7%) · 정규장 · 레벨 2 · 점수 32\n$15.00 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증\n• 전일 대비 +30.7% · 거래량 평소의 4.7배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $13.692 지정가(20일선, 기준가 대비 -5.5%) · 체결 가능성 약 64% · 손익분기 $13.857\n숏 지지구간 $14.000–$14.490 · 손절 $13.000 · 1차목표 $15.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 14.49,
+  "level": 2,
+  "score": 31.9,
+  "prob": 52.91666666666666,
+  "cp": 61.496139409057974,
+  "rl": 15.0,
+  "stop": 13.0,
+  "zone": [
+   14.0,
+   14.49
+  ],
+  "bp": 13.692,
+  "tgt": 15.0,
+  "stp": 13.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210907002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210907002",
+  "grade": "open"
+ },
+ {
+  "id": "WETO-1795803641",
+  "ts_kst": "2026-11-28 03:20",
+  "ts_utc": "2026-11-27T18:20:41+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "WETO",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +24.6% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ WETO 장중 급등 포착",
+  "body": "$0.663 (+24.6%) · 정규장 · 레벨 4 · 점수 65\n시장에 도는 주식 82만 주뿐이라 쉽게 크게 움직임 · 오늘 거래량 평소의 6배 이상, 관심 급증 · $1 미만, 상장폐지 주의\n• 전일 대비 +24.6% · 거래량 평소의 5.2배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 31%\n추천 매수가 $0.651 지정가(20일선, 기준가 대비 -1.8%) · 체결 가능성 약 85% · 손익분기 $0.659\n숏 지지구간 $0.464–$0.663 · 손절 $0.331 · 1차목표 $1.060\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.6628,
+  "level": 4,
+  "score": 64.6,
+  "prob": 31.25,
+  "cp": 2.0,
+  "rl": 15.0,
+  "stop": 0.3314,
+  "zone": [
+   0.46395999999999993,
+   0.6628
+  ],
+  "bp": 0.6509,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250227006%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250227006",
+  "grade": "n/a"
  }
 ]
