@@ -84303,5 +84303,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210422005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210422005",
   "grade": "open"
+ },
+ {
+  "id": "GDEV-1795806502",
+  "ts_kst": "2026-11-28 04:08",
+  "ts_utc": "2026-11-27T19:08:22+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "GDEV",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "5분 +11.6% 급변 · 전일 대비 +47.4% — 추격 매수 주의"
+  ],
+  "title": "⚡ GDEV 장중 급등 포착",
+  "body": "$12.010 (+47.4%) · 정규장 · 레벨 2 · 점수 31\n$14.00 넘으면 공매도 되사기 압박 ↑ · 시장에 도는 주식 1,815만 주뿐이라 쉽게 크게 움직임\n• 5분 +11.6% 급변 · 전일 대비 +47.4% — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 45%\n추천 매수가 $11.409 지정가(기준가 $12.010의 −5%) · 체결 가능성 약 72% · 손익분기 $11.547\n숏 지지구간 $11.000–$12.000 · 손절 $10.000 · 1차목표 $14.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 12.01,
+  "level": 2,
+  "score": 30.7,
+  "prob": 45.01661129568107,
+  "cp": 50.87448626712747,
+  "rl": 14.0,
+  "stop": 10.0,
+  "zone": [
+   11.0,
+   12.0
+  ],
+  "bp": 11.4095,
+  "tgt": 14.0,
+  "stp": 10.0,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210827004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210827004",
+  "grade": "open"
  }
 ]
