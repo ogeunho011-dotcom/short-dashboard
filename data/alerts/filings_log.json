@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FLO",
-  "form": "4",
-  "acc": "0001128928-26-000123",
-  "items": "",
-  "filed": "2026-11-20",
-  "accepted": "2026-11-20T20:32:05+00:00",
-  "accepted_kst": "11/21 05:32",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1128928/000112892826000123/0001128928-26-000123-index.htm",
-  "seen_kst": "2026-11-21 05:35"
- },
- {
   "ticker": "FLD",
   "form": "144",
   "acc": "0001959173-26-008189",
@@ -8761,5 +8744,24 @@
   "headline": "Item 3.01 Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On November 20, 2026, Eightco Holdings Inc. (the",
   "url": "https://www.sec.gov/Archives/edgar/data/1892492/000149315226054465/0001493152-26-054465-index.htm",
   "seen_kst": "2026-11-28 03:18"
+ },
+ {
+  "ticker": "LENZ",
+  "form": "4",
+  "acc": "0001373604-26-000085",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:22:39+00:00",
+  "accepted_kst": "11/28 03:22",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $395,577",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "Leonard Braden Michael",
+  "url": "https://www.sec.gov/Archives/edgar/data/1815776/000137360426000085/0001373604-26-000085-index.htm",
+  "seen_kst": "2026-11-28 03:23"
  }
 ]
