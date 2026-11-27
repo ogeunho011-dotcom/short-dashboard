@@ -1,41 +1,5 @@
 [
  {
-  "ticker": "BCML",
-  "form": "4",
-  "acc": "0001437749-26-037732",
-  "items": "",
-  "filed": "2026-11-19",
-  "accepted": "2026-11-19T21:21:23+00:00",
-  "accepted_kst": "11/20 06:21",
-  "polarity": "pos",
-  "label": "내부자 장내 매수 $151,000",
-  "cats": [
-   "내부자 장내 매수"
-  ],
-  "negs": [],
-  "strength": 4,
-  "headline": "PERDUE MICHAEL J",
-  "url": "https://www.sec.gov/Archives/edgar/data/1730984/000143774926037732/0001437749-26-037732-index.htm",
-  "seen_kst": "2026-11-21 05:57"
- },
- {
-  "ticker": "BCML",
-  "form": "4",
-  "acc": "0001437749-26-037891",
-  "items": "",
-  "filed": "2026-11-20",
-  "accepted": "2026-11-20T20:54:57+00:00",
-  "accepted_kst": "11/21 05:54",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $38,870 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Laverne Robert G.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1730984/000143774926037891/0001437749-26-037891-index.htm",
-  "seen_kst": "2026-11-21 05:57"
- },
- {
   "ticker": "FMBM",
   "form": "4",
   "acc": "0001375820-26-000004",
@@ -8763,5 +8727,41 @@
   "headline": "Press release dated November 27, 2026 2 SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this repo",
   "url": "https://www.sec.gov/Archives/edgar/data/1684693/000117891326005400/0001178913-26-005400-index.htm",
   "seen_kst": "2026-11-28 03:30"
+ },
+ {
+  "ticker": "OM",
+  "form": "4",
+  "acc": "0001373604-26-000086",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:30:29+00:00",
+  "accepted_kst": "11/28 03:30",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $53,998 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Leonard Braden Michael",
+  "url": "https://www.sec.gov/Archives/edgar/data/1484612/000137360426000086/0001373604-26-000086-index.htm",
+  "seen_kst": "2026-11-28 03:33"
+ },
+ {
+  "ticker": "NCT",
+  "form": "6-K",
+  "acc": "0001213900-26-124459",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:30:38+00:00",
+  "accepted_kst": "11/28 03:30",
+  "polarity": "neg",
+  "label": "역분할",
+  "cats": [],
+  "negs": [
+   "역분할"
+  ],
+  "strength": 0,
+  "headline": "MATERIAL FACT Intercont (Cayman) Limited Announces the 2026 Third Extraordinary General Meeting of Shareholders On November 27, 2026, the board of directors of",
+  "url": "https://www.sec.gov/Archives/edgar/data/2018529/000121390026124459/0001213900-26-124459-index.htm",
+  "seen_kst": "2026-11-28 03:33"
  }
 ]
