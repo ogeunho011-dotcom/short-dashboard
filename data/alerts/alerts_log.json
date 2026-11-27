@@ -84260,5 +84260,48 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250410007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250410007",
   "grade": "n/a"
+ },
+ {
+  "id": "BNAI-1795805903",
+  "ts_kst": "2026-11-28 03:58",
+  "ts_utc": "2026-11-27T18:58:23+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "BNAI",
+  "types": [
+   "prob",
+   "cover"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)",
+   "커버 압력 92/100"
+  ],
+  "title": "🚀 BNAI 상위 확률 신호 · 커버 압력",
+  "body": "$9.530 (+16.9%) · 정규장 · 레벨 3 · 점수 44\n공매도 물량 대부분 손해 중, $10.00 넘으면 급등 가능성 ↑ · 시장에 도는 주식 765만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n• 커버 압력 92/100\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $9.053 지정가(기준가 $9.530의 −5%) · 체결 가능성 약 70% · 손익분기 $9.163\n숏 지지구간 $8.000–$9.000 · 손절 $7.000 · 1차목표 $10.000\n⚠ 최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/24)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 9.53,
+  "level": 3,
+  "score": 43.8,
+  "prob": 53.44827586206896,
+  "cp": 91.84946746817081,
+  "rl": 10.0,
+  "stop": 7.0,
+  "zone": [
+   8.0,
+   9.0
+  ],
+  "bp": 9.0535,
+  "tgt": 10.0,
+  "stp": 7.0,
+  "penalties": [
+   "최근 악재 공시: 8-K 증자·희석(공모·사모·워런트) (11/24)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS20210422005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS20210422005",
+  "grade": "open"
  }
 ]
