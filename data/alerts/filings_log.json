@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "IMDX",
-  "form": "SCHEDULE 13G",
-  "acc": "0000935836-26-000650",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T17:47:39+00:00",
-  "accepted_kst": "11/24 02:47",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1642380/000093583626000650/0000935836-26-000650-index.htm",
-  "seen_kst": "2026-11-24 05:09"
- },
- {
   "ticker": "LCNB",
   "form": "8-K",
   "acc": "0001437749-26-038014",
@@ -8758,5 +8741,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2087087/000121390026124480/0001213900-26-124480-index.htm",
   "seen_kst": "2026-11-28 04:05"
+ },
+ {
+  "ticker": "BIII",
+  "form": "424B3",
+  "acc": "0001213900-26-124486",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T19:10:06+00:00",
+  "accepted_kst": "11/28 04:10",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2087087/000121390026124486/0001213900-26-124486-index.htm",
+  "seen_kst": "2026-11-28 04:10"
  }
 ]
