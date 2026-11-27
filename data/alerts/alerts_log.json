@@ -84498,5 +84498,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0221229002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0221229002",
   "grade": "open"
+ },
+ {
+  "id": "BGL-1795807838",
+  "ts_kst": "2026-11-28 04:30",
+  "ts_utc": "2026-11-27T19:30:38+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "BGL",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 50%)"
+  ],
+  "title": "🚀 BGL 상위 확률 신호",
+  "body": "$0.150 (+60.9%) · 정규장 · 레벨 3 · 점수 47\n$0.170 넘으면 공매도 되사기 압박 ↑ · 한 달 고점 돌파 · $1 미만, 상장폐지 주의\n• 검증 모델 상위 신호 (보정확률 50%)\n10일 내 셋업 성공 확률(보정): 50%\n추천 매수가 $0.142 지정가(기준가 $0.150의 −5%) · 체결 가능성 약 72% · 손익분기 $0.144\n숏 지지구간 $0.140–$0.150 · 손절 $0.130 · 1차목표 $0.170\n⚠ 최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/25)\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1496,
+  "level": 3,
+  "score": 46.8,
+  "prob": 50.46708824490453,
+  "cp": 34.946856244726604,
+  "rl": 0.16999999999999993,
+  "stop": 0.12999999999999995,
+  "zone": [
+   0.13999999999999996,
+   0.1496
+  ],
+  "bp": 0.1421,
+  "tgt": 0.16999999999999993,
+  "stp": 0.12999999999999995,
+  "penalties": [
+   "최근 악재 공시: 6-K 증자·희석(공모·사모·워런트) (11/25)"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250626004%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250626004",
+  "grade": "open"
  }
 ]
