@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "CPAC",
-  "form": "SC 13E3/A",
-  "acc": "0001140361-26-045129",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T11:02:44+00:00",
-  "accepted_kst": "11/23 20:02",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1221029/000114036126045129/0001140361-26-045129-index.htm",
-  "seen_kst": "2026-11-24 09:40"
- },
- {
   "ticker": "FRMI",
   "form": "8-K",
   "acc": "0001213900-26-122877",
@@ -8768,5 +8751,22 @@
   "headline": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. Eff",
   "url": "https://www.sec.gov/Archives/edgar/data/862861/000149315226054485/0001493152-26-054485-index.htm",
   "seen_kst": "2026-11-28 05:03"
+ },
+ {
+  "ticker": "ELMT",
+  "form": "4",
+  "acc": "0001213900-26-124534",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T20:20:29+00:00",
+  "accepted_kst": "11/28 05:20",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026124534/0001213900-26-124534-index.htm",
+  "seen_kst": "2026-11-28 05:23"
  }
 ]
