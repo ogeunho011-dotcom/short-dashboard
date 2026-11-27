@@ -1,23 +1,6 @@
 [
  {
   "ticker": "FLO",
-  "form": "3",
-  "acc": "0001128928-26-000121",
-  "items": "",
-  "filed": "2026-11-20",
-  "accepted": "2026-11-20T20:21:54+00:00",
-  "accepted_kst": "11/21 05:21",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1128928/000112892826000121/0001128928-26-000121-index.htm",
-  "seen_kst": "2026-11-21 05:25"
- },
- {
-  "ticker": "FLO",
   "form": "4",
   "acc": "0001128928-26-000123",
   "items": "",
@@ -8759,5 +8742,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/2030763/000149315226054462/0001493152-26-054462-index.htm",
   "seen_kst": "2026-11-28 03:12"
+ },
+ {
+  "ticker": "ORBS",
+  "form": "8-K",
+  "acc": "0001493152-26-054465",
+  "items": "3.01",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:15:13+00:00",
+  "accepted_kst": "11/28 03:15",
+  "polarity": "neg",
+  "label": "상장 유지 기준 미달·상폐 위험",
+  "cats": [],
+  "negs": [
+   "상장 유지 기준 미달·상폐 위험"
+  ],
+  "strength": 0,
+  "headline": "Item 3.01 Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing. On November 20, 2026, Eightco Holdings Inc. (the",
+  "url": "https://www.sec.gov/Archives/edgar/data/1892492/000149315226054465/0001493152-26-054465-index.htm",
+  "seen_kst": "2026-11-28 03:18"
  }
 ]
