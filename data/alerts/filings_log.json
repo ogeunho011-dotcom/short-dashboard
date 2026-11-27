@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "FMBM",
-  "form": "4",
-  "acc": "0001375820-26-000004",
-  "items": "",
-  "filed": "2026-11-20",
-  "accepted": "2026-11-20T20:55:21+00:00",
-  "accepted_kst": "11/21 05:55",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $4,567 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "Willingham John A.",
-  "url": "https://www.sec.gov/Archives/edgar/data/740806/000137582026000004/0001375820-26-000004-index.htm",
-  "seen_kst": "2026-11-21 05:57"
- },
- {
   "ticker": "BNAI",
   "form": "10-Q",
   "acc": "0001493152-26-053627",
@@ -8763,5 +8746,24 @@
   "headline": "MATERIAL FACT Intercont (Cayman) Limited Announces the 2026 Third Extraordinary General Meeting of Shareholders On November 27, 2026, the board of directors of",
   "url": "https://www.sec.gov/Archives/edgar/data/2018529/000121390026124459/0001213900-26-124459-index.htm",
   "seen_kst": "2026-11-28 03:33"
+ },
+ {
+  "ticker": "PRZO",
+  "form": "6-K",
+  "acc": "0001185185-26-005640",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:35:15+00:00",
+  "accepted_kst": "11/28 03:35",
+  "polarity": "neg",
+  "label": "증자·희석(공모·사모·워런트)",
+  "cats": [],
+  "negs": [
+   "증자·희석(공모·사모·워런트)"
+  ],
+  "strength": 0,
+  "headline": "CONTENTS On November 26, 2026, ParaZero Technologies Ltd. (the “Company”) entered into a securities purchase agreement (the “Purchase Agreement”) with Xylo Tech",
+  "url": "https://www.sec.gov/Archives/edgar/data/1916241/000118518526005640/0001185185-26-005640-index.htm",
+  "seen_kst": "2026-11-28 03:38"
  }
 ]
