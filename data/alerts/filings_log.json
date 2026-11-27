@@ -2,23 +2,6 @@
  {
   "ticker": "TRST",
   "form": "4",
-  "acc": "0000357301-26-000068",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T20:23:54+00:00",
-  "accepted_kst": "11/24 05:23",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/357301/000035730126000068/0000357301-26-000068-index.htm",
-  "seen_kst": "2026-11-24 05:27"
- },
- {
-  "ticker": "TRST",
-  "form": "4",
   "acc": "0000357301-26-000070",
   "items": "",
   "filed": "2026-11-23",
@@ -8762,5 +8745,22 @@
   "headline": "VisionWave Holdings, Inc. Announces $2.0 Million Registered Direct Offering",
   "url": "https://www.sec.gov/Archives/edgar/data/2038439/000173112226001493/0001731122-26-001493-index.htm",
   "seen_kst": "2026-11-28 04:35"
+ },
+ {
+  "ticker": "NGS",
+  "form": "4",
+  "acc": "0001464667-26-000006",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T19:39:05+00:00",
+  "accepted_kst": "11/28 04:39",
+  "polarity": "neutral",
+  "label": "소액 내부자 매수 $8,250 (기준 $100,000 미만)",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Jacobs Justin",
+  "url": "https://www.sec.gov/Archives/edgar/data/1084991/000146466726000006/0001464667-26-000006-index.htm",
+  "seen_kst": "2026-11-28 04:41"
  }
 ]
