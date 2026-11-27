@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "HSHP",
-  "form": "6-K",
-  "acc": "0001959455-26-000141",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T17:30:21+00:00",
-  "accepted_kst": "11/24 02:30",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "o Exhibits. Exhibit Description 99.1 Press release 99.2 KRT-1500 Form for notification of transactions carried out by persons discharging managerial responsibil",
-  "url": "https://www.sec.gov/Archives/edgar/data/1959455/000195945526000141/0001959455-26-000141-index.htm",
-  "seen_kst": "2026-11-24 05:09"
- },
- {
   "ticker": "IMDX",
   "form": "SCHEDULE 13G",
   "acc": "0000935836-26-000650",
@@ -8756,5 +8739,24 @@
   "headline": "",
   "url": "https://www.sec.gov/Archives/edgar/data/1747079/000092963826004415/0000929638-26-004415-index.htm",
   "seen_kst": "2026-11-28 04:00"
+ },
+ {
+  "ticker": "BIII",
+  "form": "424B3",
+  "acc": "0001213900-26-124480",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T19:03:29+00:00",
+  "accepted_kst": "11/28 04:03",
+  "polarity": "neg",
+  "label": "증자 서류(424B3)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/2087087/000121390026124480/0001213900-26-124480-index.htm",
+  "seen_kst": "2026-11-28 04:05"
  }
 ]
