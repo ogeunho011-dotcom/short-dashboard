@@ -1,39 +1,5 @@
 [
  {
-  "ticker": "BAFN",
-  "form": "4",
-  "acc": "0001439930-26-000007",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T20:27:28+00:00",
-  "accepted_kst": "11/24 05:27",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1649739/000143993026000007/0001439930-26-000007-index.htm",
-  "seen_kst": "2026-11-24 05:30"
- },
- {
-  "ticker": "BHRB",
-  "form": "4",
-  "acc": "0001208842-26-000016",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T20:37:11+00:00",
-  "accepted_kst": "11/24 05:37",
-  "polarity": "neutral",
-  "label": "소액 내부자 매수 $1,029 (기준 $100,000 미만)",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "WILSON DAVID",
-  "url": "https://www.sec.gov/Archives/edgar/data/1964333/000120884226000016/0001208842-26-000016-index.htm",
-  "seen_kst": "2026-11-24 05:40"
- },
- {
   "ticker": "CIA",
   "form": "4",
   "acc": "0002120865-26-000011",
@@ -8762,5 +8728,43 @@
   "headline": "MCCARTNEY JOHN",
   "url": "https://www.sec.gov/Archives/edgar/data/1928446/000162828026076080/0001628280-26-076080-index.htm",
   "seen_kst": "2026-11-28 04:48"
+ },
+ {
+  "ticker": "QMCO",
+  "form": "S-3ASR",
+  "acc": "0000709283-26-000012",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T19:57:09+00:00",
+  "accepted_kst": "11/28 04:57",
+  "polarity": "neg",
+  "label": "증자 서류(S-3ASR)",
+  "cats": [],
+  "negs": [
+   "증자 서류"
+  ],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/709283/000070928326000012/0000709283-26-000012-index.htm",
+  "seen_kst": "2026-11-28 05:01"
+ },
+ {
+  "ticker": "QTRX",
+  "form": "4",
+  "acc": "0001207928-26-000012",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T20:00:06+00:00",
+  "accepted_kst": "11/28 05:00",
+  "polarity": "pos",
+  "label": "내부자 장내 매수 $542,500",
+  "cats": [
+   "내부자 장내 매수"
+  ],
+  "negs": [],
+  "strength": 4,
+  "headline": "DONNELLY WILLIAM P",
+  "url": "https://www.sec.gov/Archives/edgar/data/1503274/000120792826000012/0001207928-26-000012-index.htm",
+  "seen_kst": "2026-11-28 05:01"
  }
 ]
