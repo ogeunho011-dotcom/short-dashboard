@@ -85269,5 +85269,46 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250912005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250912005",
   "grade": "open"
+ },
+ {
+  "id": "MPU-1795812954",
+  "ts_kst": "2026-11-28 05:55",
+  "ts_utc": "2026-11-27T20:55:54+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "MPU",
+  "types": [
+   "prob"
+  ],
+  "msgs": [
+   "검증 모델 상위 신호 (보정확률 53%)"
+  ],
+  "title": "🚀 MPU 상위 확률 신호",
+  "body": "$7.250 (+44.1%) · 정규장 · 레벨 3 · 점수 46\n공매도 물량 대부분 손해 중, $7.32 넘으면 급등 가능성 ↑ · 시장에 도는 주식 297만 주뿐이라 쉽게 크게 움직임\n• 검증 모델 상위 신호 (보정확률 53%)\n10일 내 셋업 성공 확률(보정): 53%\n추천 매수가 $6.887 지정가(기준가 $7.250의 −5%) · 체결 가능성 약 63% · 손익분기 $6.971\n숏 지지구간 $4.000–$4.350 · 손절 $3.750 · 1차목표 $7.320\n⚠ 역분할 2026-09-16\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 7.25,
+  "level": 3,
+  "score": 45.5,
+  "prob": 52.797489839329856,
+  "cp": 67.07826374442735,
+  "rl": 7.32,
+  "stop": 3.75,
+  "zone": [
+   4.0,
+   4.35
+  ],
+  "bp": 6.8875,
+  "tgt": 7.32,
+  "stp": 3.75,
+  "penalties": [
+   "역분할 2026-09-16"
+  ],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FAMX0230206001%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FAMX0230206001",
+  "grade": "open"
  }
 ]
