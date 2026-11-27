@@ -84381,5 +84381,44 @@
   "dry": false,
   "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FUS19960515002%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FUS19960515002",
   "grade": "open"
+ },
+ {
+  "id": "PBK-1795806800",
+  "ts_kst": "2026-11-28 04:13",
+  "ts_utc": "2026-11-27T19:13:20+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "PBK",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +22.0% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ PBK 장중 급등 포착",
+  "body": "$0.100 (+22.0%) · 정규장 · 레벨 1 · 점수 15\n$0.150 넘으면 공매도 되사기 압박 ↑ · 오늘 거래량 평소의 3배 이상, 관심 급증 · 최근 유상증자 서류 제출, 주가 눌릴 위험\n• 전일 대비 +22.0% · 거래량 평소의 3.4배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 19%\n추천 매수가 $0.096 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -3.5%) · 체결 가능성 약 80% · 손익분기 $0.098\n숏 지지구간 $0.070–$0.100 · 손절 $0.050 · 1차목표 $0.150\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 0.1,
+  "level": 1,
+  "score": 15.2,
+  "prob": 18.993839835728956,
+  "cp": 4.664054220545754,
+  "rl": 0.15000000000000002,
+  "stop": 0.05,
+  "zone": [
+   0.06999999999999999,
+   0.1
+  ],
+  "bp": 0.0965,
+  "tgt": 0.15000000000000002,
+  "stp": 0.05,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0240408005%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0240408005",
+  "grade": "open"
  }
 ]
