@@ -84221,5 +84221,44 @@
    "accepted_kst": "11/28 03:22",
    "polarity": "pos"
   }
+ },
+ {
+  "id": "MB-1795805149",
+  "ts_kst": "2026-11-28 03:45",
+  "ts_utc": "2026-11-27T18:45:49+00:00",
+  "date_et": "2026-11-27",
+  "session": "regular",
+  "ticker": "MB",
+  "types": [
+   "spike"
+  ],
+  "msgs": [
+   "전일 대비 +23.3% · 거래량 평소의 13.3배 (시간 보정) — 추격 매수 주의"
+  ],
+  "title": "⚡ MB 장중 급등 포착",
+  "body": "$3.342 (+23.3%) · 정규장 · 레벨 3 · 점수 50\n시장에 도는 주식 1,716만 주뿐이라 쉽게 크게 움직임 · 갭 상승 후 버티는 중\n• 전일 대비 +23.3% · 거래량 평소의 13.3배 (시간 보정) — 추격 매수 주의\n10일 내 셋업 성공 확률(보정): 37%\n추천 매수가 $3.271 지정가(최근 5일 숏 평균 진입가(추정), 기준가 대비 -2.1%) · 체결 가능성 약 81% · 손익분기 $3.310\n숏 지지구간 $3.000–$3.342 · 손절 $2.500 · 1차목표 $9.000\n추정치·투자권유 아님 · 누르면 토스증권",
+  "price": 3.3417,
+  "level": 3,
+  "score": 50.3,
+  "prob": 36.535520983864366,
+  "cp": 40.07707585308707,
+  "rl": 9.0,
+  "stop": 2.5,
+  "zone": [
+   3.0,
+   3.3417
+  ],
+  "bp": 3.2707,
+  "tgt": null,
+  "stp": null,
+  "penalties": [],
+  "sent": true,
+  "result": {
+   "ntfy": 200
+  },
+  "suppressed": null,
+  "dry": false,
+  "toss_url": "https://toss.onelink.me/3563614660?af_dp=supertoss%3A%2F%2Fsecurities%3Furl%3Dhttps%253A%252F%252Fservice.tossinvest.com%253FnextLandingUrl%253D%25252Fstocks%25252FNAS0250410007%26clearHistory%3Dtrue%26swipeRefresh%3Dtrue&af_web_dp=https%3A%2F%2Fcontents.tossinvest.com%2Fstocks%2FNAS0250410007",
+  "grade": "n/a"
  }
 ]

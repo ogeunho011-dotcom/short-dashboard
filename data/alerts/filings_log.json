@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "HSHP",
-  "form": "6-K",
-  "acc": "0001959455-26-000139",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T12:28:05+00:00",
-  "accepted_kst": "11/23 21:28",
-  "polarity": "neutral",
-  "label": "일반 공시",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "o Exhibits. Exhibit Description 99.1 Press release SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly cause",
-  "url": "https://www.sec.gov/Archives/edgar/data/1959455/000195945526000139/0001959455-26-000139-index.htm",
-  "seen_kst": "2026-11-24 05:09"
- },
- {
   "ticker": "MYSZ",
   "form": "8-K",
   "acc": "0001493152-26-053647",
@@ -8765,5 +8748,22 @@
   "headline": "Fulcrum Therapeutics Declares Special Cash Dividend in Connection with the Proposed Merger with Slate Medicines Aggregate cash dividend of up to an estimated $2",
   "url": "https://www.sec.gov/Archives/edgar/data/1680581/000119312526479975/0001193125-26-479975-index.htm",
   "seen_kst": "2026-11-28 03:41"
+ },
+ {
+  "ticker": "FULC",
+  "form": "425",
+  "acc": "0001193125-26-479977",
+  "items": "",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:42:44+00:00",
+  "accepted_kst": "11/28 03:42",
+  "polarity": "neutral",
+  "label": "",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680581/000119312526479977/0001193125-26-479977-index.htm",
+  "seen_kst": "2026-11-28 03:45"
  }
 ]
