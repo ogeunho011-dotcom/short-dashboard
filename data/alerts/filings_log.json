@@ -1,22 +1,5 @@
 [
  {
-  "ticker": "BNAI",
-  "form": "10-Q",
-  "acc": "0001493152-26-053627",
-  "items": "",
-  "filed": "2026-11-23",
-  "accepted": "2026-11-23T11:30:36+00:00",
-  "accepted_kst": "11/23 20:30",
-  "polarity": "neutral",
-  "label": "",
-  "cats": [],
-  "negs": [],
-  "strength": 0,
-  "headline": "",
-  "url": "https://www.sec.gov/Archives/edgar/data/1838163/000149315226053627/0001493152-26-053627-index.htm",
-  "seen_kst": "2026-11-24 05:09"
- },
- {
   "ticker": "HSHP",
   "form": "6-K",
   "acc": "0001959455-26-000139",
@@ -8765,5 +8748,22 @@
   "headline": "CONTENTS On November 26, 2026, ParaZero Technologies Ltd. (the “Company”) entered into a securities purchase agreement (the “Purchase Agreement”) with Xylo Tech",
   "url": "https://www.sec.gov/Archives/edgar/data/1916241/000118518526005640/0001185185-26-005640-index.htm",
   "seen_kst": "2026-11-28 03:38"
+ },
+ {
+  "ticker": "FULC",
+  "form": "8-K",
+  "acc": "0001193125-26-479975",
+  "items": "7.01,8.01,9.01",
+  "filed": "2026-11-27",
+  "accepted": "2026-11-27T18:40:04+00:00",
+  "accepted_kst": "11/28 03:40",
+  "polarity": "neutral",
+  "label": "IR 자료 · 기타 중요 사항",
+  "cats": [],
+  "negs": [],
+  "strength": 0,
+  "headline": "Fulcrum Therapeutics Declares Special Cash Dividend in Connection with the Proposed Merger with Slate Medicines Aggregate cash dividend of up to an estimated $2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680581/000119312526479975/0001193125-26-479975-index.htm",
+  "seen_kst": "2026-11-28 03:41"
  }
 ]
